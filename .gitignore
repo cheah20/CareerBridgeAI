@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Flutter and Dart (frontend/.gitignore has the full Flutter rules)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Android signing
+*.jks
+*.keystore
+key.properties
+local.properties
+
+# Logs
+*.log

@@ -1,0 +1,3 @@
+# CareerBridge AI backend dependencies (Python 3.14, conda env: careerbridge-ai)
+# Install with:  python -m pip install -r requirements.txt
+# Add packages here only after checking Python 3.14 compatibility.
