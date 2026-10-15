@@ -42,7 +42,7 @@
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
-| 1.1 | Database schema v1 (profiles, roles, companies, jobs, applications, resumes) | P1 | Oct 19 | 0.3 | Todo |
+| 1.1 | Database schema v1 (profiles, roles, companies, jobs, applications, resumes) | P1 | Oct 19 | 0.3 | Done |
 | 1.2 | RLS policies + permission tests per role | P1 | Oct 24 | 1.1 | Todo |
 | 1.3 | FastAPI skeleton: `/health`, Supabase JWT check, role check | P1 | Oct 21 | 0.3 | Todo |
 | 1.4 | Flutter skeleton: routing, theme, responsive layout, role shells | P1 | Oct 21 | — | Todo |
@@ -120,6 +120,8 @@
 | 2026-10-15 | Architecture B (hybrid): Flutter uses Supabase directly for auth and simple RLS-protected reads; FastAPI handles AI, business rules, permission-sensitive writes, uploads, and all secret keys. |
 | 2026-10-15 | Python 3.14 (conda env `careerbridge-ai`); Flutter 3.47 stable; Web first, APK only if time permits. |
 | 2026-10-15 | Supabase free plan, region Southeast Asia (Singapore); automatic RLS on, new tables not auto-exposed. |
+| 2026-10-15 | Schema v1 applied via Supabase CLI migrations (not the GitHub integration). Admin accounts are created by the developer only. One recruiter may manage several companies. Guests may browse published jobs; every other feature requires an account. |
+| 2026-10-15 | Storage budget: keep original files (required for recruiter viewer), store parsed Markdown in the database, OCR images at full quality then compress for storage, max 5 resumes per user. |
 | 2026-10-15 | Secret keys (Supabase secret key, LLM key) live only in backend environment variables, never in Git or the frontend. Team members review code on GitHub and try the system on the hosted demo. |
 
 ## Open decisions (TBD — decided when the related phase starts)
