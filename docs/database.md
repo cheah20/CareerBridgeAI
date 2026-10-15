@@ -81,6 +81,8 @@ Row Level Security (RLS) is enabled on every table. The frontend uses the public
 
 **Admin accounts** cannot be created through sign-up. A developer creates the user in Supabase and sets `profiles.role = 'admin'`.
 
+**Verification:** [`supabase/checks/rls_check.sql`](../supabase/checks/rls_check.sql) runs 43 permission checks for all roles and guests and rolls back all test data (see [`supabase/checks/README.md`](../supabase/checks/README.md)). Result on 2026-10-15: 43/43 passed. Storage (file) policies are tested in Phase 2.
+
 ## File storage
 
 | Bucket | Visibility | Path format | Notes |
