@@ -1,3 +1,13 @@
 # CareerBridge AI backend dependencies (Python 3.14, conda env: careerbridge-ai)
 # Install with:  python -m pip install -r requirements.txt
 # Add packages here only after checking Python 3.14 compatibility.
+
+# API
+fastapi[standard]==0.143.2
+pydantic-settings==2.16.0
+
+# Auth: verify Supabase access tokens (ES256 via JWKS)
+PyJWT[crypto]==2.15.1
+
+# Testing
+pytest==9.1.1

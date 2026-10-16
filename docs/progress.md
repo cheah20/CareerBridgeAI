@@ -44,7 +44,7 @@
 |---|---|---|---|---|---|
 | 1.1 | Database schema v1 (profiles, roles, companies, jobs, applications, resumes) | P1 | Oct 19 | 0.3 | Done |
 | 1.2 | RLS policies + permission tests per role (43/43 pass, `supabase/checks/`) | P1 | Oct 24 | 1.1 | Done |
-| 1.3 | FastAPI skeleton: `/health`, Supabase JWT check, role check | P1 | Oct 21 | 0.3 | Todo |
+| 1.3 | FastAPI skeleton: `/health`, Supabase JWT check, role check (15 tests pass) | P1 | Oct 21 | 0.3 | Done |
 | 1.4 | Flutter skeleton: routing, theme, responsive layout, role shells | P1 | Oct 21 | — | Todo |
 | 1.5 | Sign-up / login (Job Seeker, Recruiter); Admin created by system | P1 | Oct 23 | 1.1, 1.4 | Todo |
 | 1.6 | End-to-end check: login → correct role home; Flutter ↔ FastAPI | P1 | Oct 28 | 1.2–1.5 | Todo |
