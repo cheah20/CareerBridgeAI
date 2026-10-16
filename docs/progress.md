@@ -45,7 +45,7 @@
 | 1.1 | Database schema v1 (profiles, roles, companies, jobs, applications, resumes) | P1 | Oct 19 | 0.3 | Done |
 | 1.2 | RLS policies + permission tests per role (43/43 pass, `supabase/checks/`) | P1 | Oct 24 | 1.1 | Done |
 | 1.3 | FastAPI skeleton: `/health`, Supabase JWT check, role check (15 tests pass) | P1 | Oct 21 | 0.3 | Done |
-| 1.4 | Flutter skeleton: routing, theme, responsive layout, role shells | P1 | Oct 21 | — | Todo |
+| 1.4 | Flutter skeleton: routing + role guards, glass theme, role shells, public pages (9 tests pass) | P1 | Oct 21 | — | Done |
 | 1.5 | Sign-up / login (Job Seeker, Recruiter); Admin created by system | P1 | Oct 23 | 1.1, 1.4 | Todo |
 | 1.6 | End-to-end check: login → correct role home; Flutter ↔ FastAPI | P1 | Oct 28 | 1.2–1.5 | Todo |
 
@@ -122,6 +122,8 @@
 | 2026-10-15 | Supabase free plan, region Southeast Asia (Singapore); automatic RLS on, new tables not auto-exposed. |
 | 2026-10-15 | Schema v1 applied via Supabase CLI migrations (not the GitHub integration). Admin accounts are created by the developer only. One recruiter may manage several companies. Guests may browse published jobs; every other feature requires an account. |
 | 2026-10-15 | Storage budget: keep original files (required for recruiter viewer), store parsed Markdown in the database, OCR images at full quality then compress for storage, max 5 resumes per user. |
+| 2026-10-16 | UI style: visionOS-like "Vision Smoke" glass (dark smoke glass, white text) over a blurred office scene; "Vision Ice" light glass as optional mode. Inter font, Material 3 customised, Riverpod, go_router. All design values live in `frontend/lib/app/theme/glass_tokens.dart`. |
+| 2026-10-16 | Web first: the desktop web app is built and demoed first. Phone layouts (requirements §21) and the APK are scheduled after the web demo; parked mobile UI lives in `frontend/lib/mobile_ui/`. |
 | 2026-10-15 | Secret keys (Supabase secret key, LLM key) live only in backend environment variables, never in Git or the frontend. Team members review code on GitHub and try the system on the hosted demo. |
 
 ## Open decisions (TBD — decided when the related phase starts)
@@ -133,7 +135,6 @@
 | Match-level thresholds | Task 3.3 |
 | Email provider and sender / Admin address | Task 6.1 |
 | Hosting provider and domain | Task 6.6 |
-| UI colours, fonts, component library | Task 1.4 |
 
 ## Risks
 
