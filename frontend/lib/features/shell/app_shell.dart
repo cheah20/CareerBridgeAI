@@ -233,14 +233,14 @@ class _AccountMenu extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final t = GlassTokens.of(context);
-    final name = ref.watch(sessionProvider).displayName ?? role.label;
+    final name = ref.watch(sessionProvider).displayName;
     return PopupMenuButton<String>(
       tooltip: 'Account',
       position: PopupMenuPosition.under,
       onSelected: (value) {
         if (value == 'sign-out') {
-          ref.read(sessionProvider.notifier).signOut();
           context.go('/');
+          ref.read(sessionProvider.notifier).signOut();
         }
       },
       itemBuilder: (context) => [

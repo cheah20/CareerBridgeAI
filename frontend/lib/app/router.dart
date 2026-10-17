@@ -4,8 +4,10 @@ import 'package:go_router/go_router.dart';
 
 import '../core/widgets/page_parts.dart';
 import '../features/admin/admin_overview_page.dart';
+import '../features/auth/loading_page.dart';
 import '../features/auth/login_page.dart';
 import '../features/auth/session.dart';
+import '../features/auth/signup_page.dart';
 import '../features/public/landing_page.dart';
 import '../features/public/public_jobs_page.dart';
 import '../features/recruiter/recruiter_overview_page.dart';
@@ -13,25 +15,39 @@ import '../features/seeker/seeker_overview_page.dart';
 import '../features/shell/app_shell.dart';
 import '../features/shell/nav_items.dart';
 
-const _publicPaths = {'/', '/jobs', '/login'};
+const _publicPaths = {'/', '/jobs', '/login', '/signup'};
+const _authPaths = {'/login', '/signup', '/loading'};
 
 /// Decides where a request may go. Pure function so it is easy to test.
 ///
+/// * While the role is loading after login, show /loading.
 /// * Guests may only see public pages; anything else sends them to /login.
-/// * Signed-in users stay inside their own role's area (/seeker, /recruiter, /admin).
+/// * Signed-in users stay inside their own role's area (/seeker, /recruiter,
+///   /admin) and skip the login pages.
 /// * The frontend check is for navigation only — the backend and RLS
 ///   enforce the real permissions.
 String? redirectFor(Session session, Uri uri) {
   final path = uri.path;
-  final role = session.role;
-  final isPublic = _publicPaths.contains(path);
+  // Remember where the user was going across /login and /loading.
+  final from = uri.queryParameters['from'] ?? (_publicPaths.contains(path) || path == '/loading' ? null : uri.toString());
 
+  if (session.status == SessionStatus.loading) {
+    return path == '/loading' ? null : Uri(path: '/loading', queryParameters: from == null ? null : {'from': from}).toString();
+  }
+
+  final role = session.isLoggedIn ? session.role : null;
   if (role == null) {
-    if (isPublic) return null;
+    if (path == '/loading') return Uri(path: '/login', queryParameters: from == null ? null : {'from': from}).toString();
+    if (_publicPaths.contains(path)) return null;
     return Uri(path: '/login', queryParameters: {'from': uri.toString()}).toString();
   }
-  if (path == '/login') return role.homePath;
-  if (!isPublic && path != role.homePath && !path.startsWith('${role.homePath}/')) return role.homePath;
+
+  bool inArea(String p) => p == role.homePath || p.startsWith('${role.homePath}/');
+  if (_authPaths.contains(path)) {
+    final target = from == null ? null : Uri.parse(from).path;
+    return target != null && inArea(target) ? from : role.homePath;
+  }
+  if (!_publicPaths.contains(path) && !inArea(path)) return role.homePath;
   return null;
 }
 
@@ -46,6 +62,8 @@ final routerProvider = Provider<GoRouter>((ref) {
         path: '/login',
         pageBuilder: (context, state) => _fade(state, LoginPage(redirectTo: state.uri.queryParameters['from'])),
       ),
+      GoRoute(path: '/signup', pageBuilder: (context, state) => _fade(state, const SignUpPage())),
+      GoRoute(path: '/loading', pageBuilder: (context, state) => _fade(state, const LoadingPage())),
       ShellRoute(
         builder: (context, state, child) => AppShell(child: child),
         routes: [

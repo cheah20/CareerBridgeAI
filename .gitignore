@@ -23,3 +23,7 @@ local.properties
 
 # Logs
 *.log
+
+# Flutter run configuration (copy config/dev.example.json to config/dev.json)
+frontend/config/*.json
+!frontend/config/*.example.json

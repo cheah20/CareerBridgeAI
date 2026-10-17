@@ -5,19 +5,17 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/theme/glass_tokens.dart';
 import '../../core/widgets/glass.dart';
-import '../../core/widgets/page_parts.dart';
 import '../public/public_frame.dart';
+import 'auth_backend.dart';
+import 'auth_widgets.dart';
 import 'session.dart';
 
-/// Login page (web layout: welcome on the left, form on the right).
-/// Real Supabase login is task 1.5.
-///
-/// In debug builds a "Developer preview" lets you enter each role's layout
-/// without an account. It is never shown in release builds.
+/// Email + password login. After login the router sends the user to their
+/// role's home (or the page they originally asked for).
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key, this.redirectTo});
 
-  /// Where to go after login (the page the guest originally asked for).
+  /// The page the guest originally asked for.
   final String? redirectTo;
 
   @override
@@ -25,174 +23,160 @@ class LoginPage extends StatelessWidget {
     return PublicFrame(
       centerContent: true,
       showLoginButton: false,
-      child: ConstrainedBox(
-        constraints: const BoxConstraints(maxWidth: 1000),
-        child: LayoutBuilder(
-          builder: (context, constraints) {
-            const welcome = _Welcome();
-            final form = _LoginPanel(redirectTo: redirectTo);
-            if (constraints.maxWidth < 860) {
-              return Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [welcome, const SizedBox(height: 28), form],
-              );
-            }
-            return Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                const Expanded(flex: 5, child: welcome),
-                const SizedBox(width: 48),
-                Expanded(flex: 4, child: form),
-              ],
-            );
-          },
+      child: AuthLayout(
+        kicker: 'Welcome back',
+        title: 'Log in to CareerBridge.',
+        subtitle: 'One account for your resume, job matches and applications.',
+        form: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            const _LoginForm(),
+            if (kDebugMode) ...[const SizedBox(height: 16), _DeveloperPreview(redirectTo: redirectTo)],
+          ],
         ),
       ),
     );
   }
 }
 
-class _Welcome extends StatelessWidget {
-  const _Welcome();
+class _LoginForm extends ConsumerStatefulWidget {
+  const _LoginForm();
 
   @override
-  Widget build(BuildContext context) {
-    return const Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        PageHeader(
-          kicker: 'Welcome back',
-          title: 'Log in to CareerBridge.',
-          subtitle: 'One account for your resume, job matches and applications.',
-        ),
-        SizedBox(height: 28),
-        _RoleLine(
-          icon: Icons.person_search_outlined,
-          title: 'Job seekers',
-          text: 'Analyse your resume, see matching jobs and prepare for interviews.',
-        ),
-        _RoleLine(
-          icon: Icons.apartment_outlined,
-          title: 'Recruiters',
-          text: 'Publish jobs and review applicants with AI match results.',
-        ),
-        _RoleLine(
-          icon: Icons.admin_panel_settings_outlined,
-          title: 'Admins',
-          text: 'Verify companies, review jobs and manage the AI models.',
-        ),
-      ],
-    );
-  }
+  ConsumerState<_LoginForm> createState() => _LoginFormState();
 }
 
-class _RoleLine extends StatelessWidget {
-  const _RoleLine({required this.icon, required this.title, required this.text});
+class _LoginFormState extends ConsumerState<_LoginForm> {
+  final _formKey = GlobalKey<FormState>();
+  final _email = TextEditingController();
+  final _password = TextEditingController();
+  bool _busy = false;
+  bool _hidePassword = true;
+  String? _error;
 
-  final IconData icon;
-  final String title;
-  final String text;
+  @override
+  void dispose() {
+    _email.dispose();
+    _password.dispose();
+    super.dispose();
+  }
+
+  Future<void> _submit() async {
+    if (!_formKey.currentState!.validate()) return;
+    setState(() {
+      _busy = true;
+      _error = null;
+    });
+    try {
+      await ref.read(sessionProvider.notifier).signIn(_email.text.trim(), _password.text);
+      // The router moves on once the role has loaded.
+    } on AuthFailure catch (e) {
+      if (mounted) setState(() => _error = e.message);
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     final t = GlassTokens.of(context);
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 18),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Container(
-            width: 38,
-            height: 38,
-            decoration: BoxDecoration(
-              color: t.card,
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(color: t.cardEdge),
-            ),
-            child: Icon(icon, size: 19, color: t.text),
+    final error = _error ?? ref.watch(sessionProvider).error;
+    return GlassCard(
+      padding: const EdgeInsets.all(24),
+      child: Form(
+        key: _formKey,
+        child: AutofillGroup(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text('Log in', style: Theme.of(context).textTheme.titleLarge?.copyWith(color: t.text, fontWeight: FontWeight.w600)),
+              const SizedBox(height: 20),
+              if (error != null) ...[FormMessage(text: error), const SizedBox(height: 16)],
+              TextFormField(
+                key: const Key('login-email'),
+                controller: _email,
+                enabled: !_busy,
+                keyboardType: TextInputType.emailAddress,
+                autofillHints: const [AutofillHints.email],
+                textInputAction: TextInputAction.next,
+                decoration: const InputDecoration(labelText: 'Email'),
+                validator: validateEmail,
+              ),
+              const SizedBox(height: 14),
+              TextFormField(
+                key: const Key('login-password'),
+                controller: _password,
+                enabled: !_busy,
+                obscureText: _hidePassword,
+                autofillHints: const [AutofillHints.password],
+                onFieldSubmitted: (_) => _submit(),
+                decoration: InputDecoration(
+                  labelText: 'Password',
+                  suffixIcon: IconButton(
+                    tooltip: _hidePassword ? 'Show password' : 'Hide password',
+                    icon: Icon(_hidePassword ? Icons.visibility_outlined : Icons.visibility_off_outlined),
+                    onPressed: () => setState(() => _hidePassword = !_hidePassword),
+                  ),
+                ),
+                validator: (v) => (v == null || v.isEmpty) ? 'Enter your password.' : null,
+              ),
+              const SizedBox(height: 20),
+              FilledButton(
+                key: const Key('login-submit'),
+                onPressed: _busy ? null : _submit,
+                child: BusyLabel(busy: _busy, label: 'Log in'),
+              ),
+              const SizedBox(height: 8),
+              TextButton(
+                onPressed: _busy ? null : () => context.go('/signup'),
+                child: const Text('New here? Create an account'),
+              ),
+            ],
           ),
-          const SizedBox(width: 14),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(title, style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: t.text)),
-                const SizedBox(height: 2),
-                Text(text, style: Theme.of(context).textTheme.bodyMedium),
-              ],
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }
 }
 
-class _LoginPanel extends ConsumerWidget {
-  const _LoginPanel({required this.redirectTo});
+class _DeveloperPreview extends ConsumerWidget {
+  const _DeveloperPreview({required this.redirectTo});
 
   final String? redirectTo;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final t = GlassTokens.of(context);
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        GlassCard(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+    return FocusCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('Developer preview', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600)),
+          const SizedBox(height: 4),
+          Text(
+            'Open a role\'s layout without logging in. Debug builds only; the backend is not called.',
+            style: TextStyle(fontSize: 12.5, color: t.focusTextSub),
+          ),
+          const SizedBox(height: 14),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
             children: [
-              Text('Log in', style: Theme.of(context).textTheme.titleLarge?.copyWith(color: t.text, fontWeight: FontWeight.w600)),
-              const SizedBox(height: 4),
-              Text('Email login with Supabase is added in task 1.5.', style: Theme.of(context).textTheme.bodySmall?.copyWith(color: t.textFaint)),
-              const SizedBox(height: 20),
-              const TextField(enabled: false, decoration: InputDecoration(labelText: 'Email')),
-              const SizedBox(height: 14),
-              const TextField(enabled: false, obscureText: true, decoration: InputDecoration(labelText: 'Password')),
-              const SizedBox(height: 20),
-              const FilledButton(onPressed: null, child: Text('Log in')),
-              const SizedBox(height: 8),
-              const TextButton(onPressed: null, child: Text('Create an account')),
+              for (final role in UserRole.values)
+                OutlinedButton(
+                  key: Key('preview-${role.pathSegment}'),
+                  style: OutlinedButton.styleFrom(foregroundColor: t.focusText, backgroundColor: Colors.transparent),
+                  onPressed: () {
+                    ref.read(sessionProvider.notifier).previewAs(role);
+                    final target = redirectTo;
+                    context.go(target != null && target.startsWith(role.homePath) ? target : role.homePath);
+                  },
+                  child: Text(role.label),
+                ),
             ],
           ),
-        ),
-        if (kDebugMode) ...[
-          const SizedBox(height: 16),
-          FocusCard(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text('Developer preview', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600)),
-                const SizedBox(height: 4),
-                Text(
-                  'Open a role\'s layout without logging in. Debug builds only.',
-                  style: TextStyle(fontSize: 12.5, color: t.focusTextSub),
-                ),
-                const SizedBox(height: 14),
-                Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  children: [
-                    for (final role in UserRole.values)
-                      OutlinedButton(
-                        key: Key('preview-${role.pathSegment}'),
-                        style: OutlinedButton.styleFrom(foregroundColor: t.focusText, backgroundColor: Colors.transparent),
-                        onPressed: () {
-                          ref.read(sessionProvider.notifier).signInAs(role);
-                          final target = redirectTo;
-                          context.go(target != null && target.startsWith(role.homePath) ? target : role.homePath);
-                        },
-                        child: Text(role.label),
-                      ),
-                  ],
-                ),
-              ],
-            ),
-          ),
         ],
-      ],
+      ),
     );
   }
 }
