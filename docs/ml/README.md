@@ -3,9 +3,103 @@
 CareerBridge AI career-direction classifier, 18 October 2026.
 For the charted version, open [docs/report/index.html](../report/index.html) in a browser (works offline).
 
-**Summary.** v5, a fine-tuned DeBERTa-v3-small exported to ONNX, classifies 88.2% of test resumes correctly against 81.5% for the deployed v2 SVM. Both are measured on the same held-out test set: 2,817 resumes across 45 career categories. v5 is a candidate and has not been deployed yet.
+## Part 2 — testing on real Malaysian CVs (18 October 2026, afternoon)
 
-| | v2 SVM (deployed) | v5 Transformer |
+**Summary.** v5's public-test lead came partly from a formatting shortcut. After fixing it (v6) and adding
+template-based synthetic Malaysian resumes (v8), the model is the best of all versions on 58 real Malaysian CVs.
+**v8 is now deployed.**
+
+### The formatting shortcut
+
+83% of the training text (ResumeAtlas) is stored lowercased, without punctuation and without stop words; 17% (Kaggle)
+is ordinary prose, and prose appears in only 23 of the 45 categories. v5 learned "prose means a Kaggle category",
+so real resumes (always prose) could never be classed as Data Science, Python Developer, Civil Engineer and 19 other
+categories. On 45 synthetic Malaysian resumes v5 scored 57.8% against 93.3% for v2.
+**Fix:** from v6 on, every text is normalised to one form (lowercase, punctuation removed, NLTK stop words removed)
+in training and in prediction.
+
+### Synthetic Malaysian resumes
+
+No public dataset of Malaysian resumes exists. Two kinds of synthetic resumes were compared:
+
+| | Rough set (v7) | Template-based set (v8) |
+|---|---|---|
+| Resumes | 45, one per category | 158, one per CareerBridge role (126 map to the 45 categories) |
+| How | One LLM call each, plain text | Random profile drawn in code (level, jobs, part-time, freelance, internships, gaps, career switches, MY/SG, languages), written up by the LLM in one of six layouts modelled on the Malaysian CV pack, the JobStreet template and a career-guide CV; typeset as PDF / Word / JPG and read back with the app's extractor (incl. OCR) |
+| Added to training | 45 × 10 = 450 rows | 126 × 4 = 504 rows |
+
+The 58 real CVs were used only as style references and never trained on.
+
+### Results on 58 real Malaysian CVs
+
+Field = 17 CareerBridge fields (all 58 CVs); category = 45 dataset categories (45 CVs with a matching category).
+
+| Model | Training data | Field top-1 | Field top-3 | Category top-1 | Category top-3 | Public test |
+|---|---|---|---|---|---|---|
+| v2 | SVM, public data | 0.603 | 0.879 | 0.711 | 0.911 | 0.815 |
+| v5 | Transformer, public data (shortcut) | 0.414 | 0.603 | 0.511 | 0.622 | 0.882 |
+| v6 | Transformer, normalised text | 0.586 | 0.862 | 0.733 | 0.889 | 0.861 |
+| v7 | v6 + rough synthetic | 0.586 | 0.776 | 0.711 | 0.889 | 0.870 |
+| **v8** | v6 + template-based synthetic | **0.672** | **0.914** | **0.844** | **0.933** | 0.860 |
+
+On the public test set the new models are within one point of each other; only real CVs separate them.
+Template-based data improved every real-CV measure; rough data did not.
+
+**Blind LLM review.** For each real CV, the top-3 answers of all five models were pooled, shuffled and shown without
+model names; DeepSeek rated each 0–3 for fit (cost USD 0.07).
+
+| Model | Mean score, first answer | First answer useful (2–3) | Exact (3) | Wrong (0) | Best of top-3 |
+|---|---|---|---|---|---|
+| v2 | 2.50 | 84.5% | 67.2% | 1.7% | 2.76 |
+| v5 | 1.72 | 56.9% | 44.8% | 29.3% | 1.98 |
+| v6 | 2.36 | 79.3% | 60.3% | 3.4% | 2.74 |
+| v7 | 2.38 | 84.5% | 60.3% | 6.9% | 2.78 |
+| v8 | 2.47 | 86.2% | 62.1% | 1.7% | 2.83 |
+
+The reviewer agreed with the developer-confirmed labels on 86% of fields and 78% of categories. By this review v8 and
+v2 are close (v8: more useful first answers and the best top-3; v2: more exact first answers); v5 is clearly worst.
+
+**Limits.** Small sample (v8 vs v2 on category top-1: 38 vs 32 of 45 CVs). 13 real CVs (administrative, advertising,
+compliance, hospitality, oil and gas, supply chain) have no matching category, which caps field top-1. The 58 CVs
+come from one template pack.
+
+### GPU runs in Part 2
+
+| Run | Time | Load | Training | Peak °C | Avg power | Val acc (epoch 1 → 4) | Test acc |
+|---|---|---|---|---|---|---|---|
+| v6 | 14:15 – 14:53 | full speed | 25.2 min | 78 | ≈ 85 W | 0.677 → 0.858 | 0.861 |
+| v7 (experiment 1) | 15:13 – 16:35 | 1 s pause per step | 68.7 min | 75 | 43.8 W | 0.704 → 0.875 | 0.870 |
+| v8 (experiment 2) | 16:35 – 17:58 | 1 s pause per step | 70.2 min | 73 | 43.6 W | 0.677 → 0.860 | 0.860 |
+
+Same hyperparameters as Part 1; identical validation and test sets. The experiments ran unattended with a pause
+after each step (half the average power) and an 85 °C heat guard that never triggered. int8 export again fell short
+of 99% agreement (95.4–95.6%), so all three ship as fp32 ONNX.
+
+### Issues fixed in Part 2
+
+- **Formatting shortcut** — text normalisation (above).
+- **Memory growth** — scoring resumes of many lengths made ONNX Runtime reserve memory per input size (14 GB in one
+  run). The memory arena is now off, batches are smaller, one model is loaded at a time; this also protects the backend.
+- **Incomplete LLM answers** — 8 of 158 synthetic resumes hit the reasoning token limit; regenerated with a larger budget.
+- **Job chaining** — a waiting script matched its own command line; process checks now match only the training process.
+
+### Next steps
+
+1. Second batch of about 1,000 template-based synthetic resumes.
+2. A field-level model on the CareerBridge catalogue (17 fields, 158 roles), so administrative, logistics and other
+   missing jobs can be predicted.
+3. More real Malaysian and Singaporean CVs from different sources.
+
+---
+
+# Part 1 — first Transformer runs (18 October 2026, morning)
+
+The rest of this document is the morning's report. Its conclusion that v5 was best held only on the public test
+set; Part 2 explains why.
+
+**Summary of Part 1.** v5, a fine-tuned DeBERTa-v3-small exported to ONNX, classifies 88.2% of test resumes correctly against 81.5% for the deployed v2 SVM. Both are measured on the same held-out test set: 2,817 resumes across 45 career categories. (Part 2 found this lead came partly from a formatting shortcut; v8 is now deployed.)
+
+| | v2 SVM | v5 Transformer |
 |---|---|---|
 | Category accuracy (top-1) | 0.815 | **0.882** |
 | Macro F1 | 0.809 | **0.868** |
@@ -33,10 +127,13 @@ For the charted version, open [docs/report/index.html](../report/index.html) in 
 | Version | Model | Top-1 | Macro F1 | Top-3 | Field top-1 | Size | Status |
 |---|---|---|---|---|---|---|---|
 | v1 | Random Forest, TF-IDF (Kaggle only, 24 classes) | 0.718 | 0.658 | — | — | — | previous |
-| v2 | Linear SVM, TF-IDF words | 0.815 | 0.809 | 0.938 | 0.855 | 65 MB | **deployed** |
+| v2 | Linear SVM, TF-IDF words | 0.815 | 0.809 | 0.938 | 0.855 | 65 MB | previous |
 | v3 | DeBERTa-v3-small, ONNX int8 (GPU run A) | 0.784 | — | 0.889 | — | 172 MB | rejected |
 | v4 | Linear SVM, TF-IDF words + characters | 0.815 | 0.806 | 0.937 | 0.856 | 223 MB | not recommended |
-| v5 | DeBERTa-v3-small, ONNX fp32 (GPU run B) | 0.882 | 0.868 | 0.938 | 0.919 | 542 MB | **candidate** |
+| v5 | DeBERTa-v3-small, ONNX fp32 (GPU run B) | 0.882 | 0.868 | 0.938 | 0.919 | 542 MB | previous (format shortcut) |
+| v6 | DeBERTa-v3-small, normalised text | 0.861 | 0.840 | 0.927 | — | 542 MB | candidate |
+| v7 | v6 + rough synthetic resumes | 0.870 | 0.857 | 0.929 | — | 542 MB | candidate |
+| v8 | v6 + template-based synthetic resumes | 0.860 | 0.840 | 0.933 | — | 542 MB | **deployed** |
 
 v1 used a smaller dataset and is not directly comparable. For v3–v5, top-1 and top-3 were measured with the exported ONNX file the app actually runs.
 

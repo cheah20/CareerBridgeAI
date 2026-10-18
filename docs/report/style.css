@@ -113,3 +113,8 @@ footer { font-size: 0.8rem; color: var(--muted); display: grid; gap: 6px; }
 .brand .mark { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center;
   background: var(--accent); color: var(--bg); font-size: 0.8rem; font-weight: 700; }
 .brand small { font-weight: 500; color: var(--muted); font-size: 0.85rem; }
+
+/* Part dividers and weak results */
+section.part { border-top: 2px solid var(--line); padding-top: 22px; }
+td.bad { color: var(--bad); }
+nav b { font-weight: 600; }
