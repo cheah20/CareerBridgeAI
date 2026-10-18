@@ -18,6 +18,7 @@ from tokenizers import Tokenizer
 
 from app.ml import registry
 from app.ml.catalog import KAGGLE_V1, MODELS_DIR, RESUME_ATLAS_V1
+from app.ml.text_prep import normalise_resume_text
 
 MAX_RAW_CHARS = 8000  # same cut as app.ml.export_for_kaggle
 
@@ -35,17 +36,20 @@ class TransformerModel:
         self.tokenizer.no_padding()
         options = ort.SessionOptions()
         options.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
+        options.enable_cpu_mem_arena = False  # resumes vary in length; an arena keeps every size and grows to many GB
         self.session = ort.InferenceSession(str(folder / "model.onnx"), options, providers=["CPUExecutionProvider"])
 
     def _ids(self, text: str) -> list[int]:
         c = self.config
         text = re.sub(r"\s+", " ", str(text)).strip()[:MAX_RAW_CHARS]
+        if c.get("text_form") == "normalised":  # v6+: same text form as in training
+            text = normalise_resume_text(text)
         ids = self.tokenizer.encode(text, add_special_tokens=False).ids
         if len(ids) > c["max_len"] - 2:
             ids = ids[:c["head"]] + ids[-c["tail"]:]  # keep the start and the end of long resumes
         return [c["cls_id"]] + ids + [c["sep_id"]]
 
-    def predict_proba(self, texts, batch_size: int = 16) -> np.ndarray:
+    def predict_proba(self, texts, batch_size: int = 4) -> np.ndarray:
         out = []
         texts = list(texts)
         for start in range(0, len(texts), batch_size):

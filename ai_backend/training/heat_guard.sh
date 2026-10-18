@@ -4,7 +4,7 @@
 #   bash training/heat_guard.sh [LIMIT]      (default 89)
 LIMIT=${1:-89}
 LOG="$(dirname "$0")/../data/training_runs/progress.log"
-PATTERN="[c]areerbridge-train/bin/python.*finetune_transformer"  # [c] keeps this script from matching itself
+PATTERN="^[^ ]*careerbridge-train/bin/python[^ ]* .*finetune_transformer"  # the python process itself, never a shell that mentions it
 
 echo "heat guard on: stop training at ${LIMIT}C"
 while pid=$(pgrep -f "$PATTERN" | head -1); [ -n "$pid" ]; do

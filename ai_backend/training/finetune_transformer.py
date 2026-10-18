@@ -9,14 +9,18 @@ Run with the separate training environment (it has PyTorch):
     conda activate careerbridge-train
     cd ai_backend
     python training/finetune_transformer.py
+    python training/finetune_transformer.py --extra data/eval/my_synthetic_v1.jsonl --extra-repeat 10 \
+        --out models/candidate-synth1      # add extra resumes (JSONL with "label" and "text") to training only
 
 Progress (step, %, time left, loss) is written to data/training_runs/progress.log:
     tail -f data/training_runs/progress.log
 """
 
+import argparse
 import json
 import os
 import shutil
+import sys
 import time
 from pathlib import Path
 
@@ -30,6 +34,9 @@ from transformers import (AutoModelForSequenceClassification, AutoTokenizer, Dat
                           TrainerCallback, TrainingArguments)
 
 BACKEND = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(BACKEND))
+from app.ml.text_prep import normalise_resume_text  # noqa: E402  (plain-Python module, no app settings needed)
+
 DATA = BACKEND / "data" / "kaggle_upload" / "careerbridge-resumes-v2"
 OUT = BACKEND / "models" / "transformer-candidate"
 WORK = BACKEND / "data" / "training_runs" / "deberta"
@@ -44,6 +51,16 @@ BATCH, ACCUM = 8, 2   # effective batch 16; batch 8 fits in 8 GB VRAM without sp
 def note(line: str) -> None:
     with PROGRESS.open("a") as f:
         f.write(time.strftime("%H:%M:%S ") + line + "\n")
+
+
+class Throttle(TrainerCallback):
+    """Pause after every optimiser step so the GPU works part of the time: cooler and quieter, same result."""
+
+    def __init__(self, seconds: float):
+        self.seconds = seconds
+
+    def on_step_end(self, args, state, control, **kwargs):
+        time.sleep(self.seconds)
 
 
 class ProgressLog(TrainerCallback):
@@ -79,6 +96,15 @@ class ProgressLog(TrainerCallback):
 
 
 def main() -> None:
+    global OUT
+    parser = argparse.ArgumentParser(description="Fine-tune DeBERTa-v3-small on the resume dataset.")
+    parser.add_argument("--extra", type=Path, help="JSONL of extra training resumes with 'label' and 'text'")
+    parser.add_argument("--extra-repeat", type=int, default=1, help="times each extra resume is repeated")
+    parser.add_argument("--out", type=Path, default=OUT, help="output folder (relative to ai_backend/)")
+    parser.add_argument("--throttle", type=float, default=0.0,
+                        help="seconds to pause after each step (lower GPU load and temperature; slower)")
+    cli = parser.parse_args()
+    OUT = cli.out if cli.out.is_absolute() else BACKEND / cli.out
     assert torch.cuda.is_available(), "No GPU found"
     print("GPU:", torch.cuda.get_device_name(0))
     OUT.mkdir(parents=True, exist_ok=True)
@@ -86,10 +112,24 @@ def main() -> None:
     train_df = pd.read_csv(DATA / "train.csv")
     test_df = pd.read_csv(DATA / "test.csv")
     labels = json.loads((DATA / "labels.json").read_text())
+    # One text form for every source, so the model cannot tell ResumeAtlas from Kaggle by formatting.
+    for df in (train_df, test_df):
+        df["text"] = df["text"].map(normalise_resume_text)
     label2id = {label: i for i, label in enumerate(labels)}
     train_df["y"] = train_df["label"].map(label2id)
     test_df["y"] = test_df["label"].map(label2id)
     tr_df, val_df = train_test_split(train_df, test_size=0.1, stratify=train_df["y"], random_state=SEED)
+    extra_info = None
+    if cli.extra:
+        # Extra resumes go into training only; validation and test stay the same public data, so runs compare fairly.
+        rows = [json.loads(line) for line in (BACKEND / cli.extra).read_text(encoding="utf-8").splitlines() if line.strip()]
+        extra = pd.DataFrame([{"text": normalise_resume_text(r["text"]), "label": r["label"]} for r in rows
+                              if r.get("label") in label2id])
+        extra["y"] = extra["label"].map(label2id)
+        skipped = len(rows) - len(extra)
+        tr_df = pd.concat([tr_df] + [extra] * cli.extra_repeat, ignore_index=True).sample(frac=1, random_state=SEED)
+        extra_info = {"file": str(cli.extra), "resumes": len(extra), "repeat": cli.extra_repeat, "skipped": skipped}
+        print(f"extra: {len(extra)} resumes x {cli.extra_repeat} added to training ({skipped} skipped: unknown label)")
     print(len(tr_df), "train /", len(val_df), "validation /", len(test_df), "test /", len(labels), "labels")
 
     tok = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -129,7 +169,7 @@ def main() -> None:
         metric_for_best_model="f1_macro", logging_steps=50, report_to="none", seed=SEED,
         dataloader_num_workers=2)
     trainer = Trainer(model=model, args=args, train_dataset=ds_train, eval_dataset=ds_val,
-                      data_collator=DataCollatorWithPadding(tok), compute_metrics=metrics, callbacks=[ProgressLog()])
+                      data_collator=DataCollatorWithPadding(tok), compute_metrics=metrics, callbacks=[ProgressLog()] + ([Throttle(cli.throttle)] if cli.throttle else []))
     start = time.time()
     trainer.train()
     train_seconds = time.time() - start
@@ -199,12 +239,13 @@ def main() -> None:
     (OUT / "config.json").write_text(json.dumps({
         "model_name": MODEL_NAME, "labels": labels, "max_len": MAX_LEN, "head": HEAD, "tail": TAIL,
         "cls_id": tok.cls_token_id, "sep_id": tok.sep_token_id, "pad_id": tok.pad_token_id,
-        "onnx_precision": chosen}, indent=2))
+        "onnx_precision": chosen, "text_form": "normalised"}, indent=2))
     (OUT / "metrics.json").write_text(json.dumps({
         "test": {k: float(v) for k, v in test_metrics.items()},
         "validation": {k: float(v) for k, v in val_metrics.items() if isinstance(v, (int, float))},
         "per_class": report, "train_seconds": train_seconds, "epochs": EPOCHS, "learning_rate": LR,
-        "onnx_precision": chosen, "onnx_validation_agreement": agreement,
+        "onnx_precision": chosen, "onnx_validation_agreement": agreement, "extra_training_data": extra_info,
+        "throttle_seconds_per_step": cli.throttle,
         "gpu": torch.cuda.get_device_name(0)}, indent=2))
     note("DONE")
     print("Saved to", OUT, sorted(os.listdir(OUT)))
