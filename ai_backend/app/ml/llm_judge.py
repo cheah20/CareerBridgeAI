@@ -6,7 +6,7 @@ Model scores are then computed from those ratings, and the LLM's own choices are
 developer-confirmed labels to show how far the reviewer itself can be trusted.
 
 Usage (from ai_backend/, env careerbridge-ai; run app.ml.compare_models first):
-    python -m app.ml.llm_judge        # about USD 0.50
+    python -m app.ml.llm_judge
 Output: data/eval/llm_judge.jsonl and data/eval/llm_judge_summary.json
 """
 

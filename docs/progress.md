@@ -22,7 +22,7 @@
 | 6 | Nov 19 – Nov 25 | 3 + 4 | LLM explanations/advice; job posting + Admin job review | Todo |
 | 7 | Nov 26 – Dec 2 | 4 + 5 | Apply / withdraw / status flow; Recruiter applicant management | Todo |
 | 8 | Dec 3 – Dec 9 | 5 | Admin dashboard, company verification, model versions | Todo |
-| 9 | Dec 10 – Dec 16 | 6 | Email, bug reports, monitoring, budget alerts; cloud deployment | Todo |
+| 9 | Dec 10 – Dec 16 | 6 | Email, bug reports, monitoring, usage alerts; cloud deployment | Todo |
 | 10 | Dec 17 – Dec 23 | 7 | Full testing, documentation, demo preparation (buffer week) | Todo |
 
 ---
@@ -67,9 +67,9 @@
 | 3.1 | Select public dataset (check licence): ResumeAtlas (MIT) + Kaggle Resume (CC0), O*NET, ESCO, job-posting sets | P1 | Nov 11 | — | Done |
 | 3.2 | Train & compare LR / KNN / RF / SVM (Accuracy, Precision, Recall, F1); fine-tuned Transformer — see [ml/](ml/README.md) | P1 | Nov 16 | 3.1 | Done |
 | 3.3 | Rule-based match score + match levels (e.g. "84% — Strong Match"); terminal version done, thresholds provisional | P1 | Nov 18 | 2.3 | In Progress |
-| 3.4 | Choose LLM provider; backend-only key; usage & cost logging | P1 | Nov 20 | — | Done |
+| 3.4 | Choose LLM provider; backend-only key; usage logging | P1 | Nov 20 | — | Done |
 | 3.5 | LLM explanations, skill gaps, resume advice, interview questions, roadmap (terminal report done; UI pending) | P1 | Nov 25 | 3.3, 3.4 | In Progress |
-| 3.6 | Per-user rate limit + budget alerts (80% / 100%) + no-key mock mode (budget alerts + `--no-llm` done) | P2 | Nov 25 | 3.4 | In Progress |
+| 3.6 | Per-user rate limit + usage alerts (80% / 100%) + no-key mock mode (usage alerts + `--no-llm` done) | P2 | Nov 25 | 3.4 | In Progress |
 
 ### Phase 4 — Jobs & applications
 
@@ -121,7 +121,7 @@
 | 2026-10-15 | Python 3.14 (conda env `careerbridge-ai`); Flutter 3.47 stable; Web first, APK only if time permits. |
 | 2026-10-15 | Supabase free plan, region Southeast Asia (Singapore); automatic RLS on, new tables not auto-exposed. |
 | 2026-10-15 | Schema v1 applied via Supabase CLI migrations (not the GitHub integration). Admin accounts are created by the developer only. One recruiter may manage several companies. Guests may browse published jobs; every other feature requires an account. |
-| 2026-10-15 | Storage budget: keep original files (required for recruiter viewer), store parsed Markdown in the database, OCR images at full quality then compress for storage, max 5 resumes per user. |
+| 2026-10-15 | Storage plan: keep original files (required for recruiter viewer), store parsed Markdown in the database, OCR images at full quality then compress for storage, max 5 resumes per user. |
 | 2026-10-16 | UI style: visionOS-like "Vision Smoke" glass (dark smoke glass, white text) over a blurred office scene; "Vision Ice" light glass as optional mode. Inter font, Material 3 customised, Riverpod, go_router. All design values live in `frontend/lib/app/theme/glass_tokens.dart`. |
 | 2026-10-16 | Web first: the desktop web app is built and demoed first. Phone layouts (requirements §21) and the APK are scheduled after the web demo; parked mobile UI lives in `frontend/lib/mobile_ui/`. |
 | 2026-10-17 | Email: a dedicated Gmail account (the team Gmail account) is the Supabase custom SMTP sender and the Admin's official inbox. Email confirmation is on. Forgot-password is built in Phase 6. |
@@ -129,7 +129,7 @@
 | 2026-10-17 | AI core built first, in the terminal, ahead of the UI phases; it is wired into the app in phases 2–3. Datasets, the role catalogue and trained models stay on the developer's machine (not Supabase, not Git); LinkedIn / JobStreet are not scraped. |
 | 2026-10-17 | Resume text: PyMuPDF (PDF), python-docx, RapidOCR for images and scanned pages. PyMuPDF is AGPL; it can be swapped for pypdfium2 if the licence matters for deployment. |
 | 2026-10-17 | Role catalogue: 17 fields, 158 roles with Malaysia / Singapore job titles and skills per experience level (entry → lead), built from O*NET 31.0 (CC BY 4.0), ESCO v1.2.1 and public job-posting sets; skills for roles with few postings are drafted by the LLM and marked pending human review. |
-| 2026-10-18 | LLM: DeepSeek (`deepseek-flash`, OpenAI-compatible API). Personal details are removed before sending; replies are cached; every call is logged with its cost; monthly budget USD 5 with alerts at 80% and 100%. The fit score is never presented as a hiring probability. |
+| 2026-10-18 | LLM: DeepSeek (`deepseek-flash`, OpenAI-compatible API). Personal details are removed before sending; replies are cached; every call is logged; a monthly usage limit raises alerts at 80% and 100%. The fit score is never presented as a hiring probability. |
 | 2026-10-18 | Career-direction model: v2 (linear SVM, TF-IDF) deployed at 81.5% test accuracy. A DeBERTa-v3-small fine-tuned on the local GPU (v5, ONNX fp32) reaches 88.2% on the same test set and is a deployment candidate; int8 export was rejected for losing accuracy. Full report: [ml/README.md](ml/README.md). |
 | 2026-10-18 | v5 was found to rely on a formatting shortcut (the two public datasets use different text formats); from v6 on, all text is normalised to one form. All models are now tested on 58 real Malaysian CVs. After an audit, v2, v6, v7 and v8 are statistically tied on real CVs (91–95%); v5 is clearly worse. v2 (SVM, 65 MB) stays deployed. Report: [ml/README.md](ml/README.md). |
 | 2026-10-18 | Test labels for model comparison must come from someone other than the person who labels the training data, to avoid shared-convention bias. Large synthetic data generation is on hold until a broader real-CV test set exists. |
@@ -160,6 +160,6 @@ New feature ideas, assessed under requirements §29 before they are added.
 |---|---|---|
 | Large scope for one developer in 10 weeks | High | Build P1 first; week 10 is a buffer; flag delays early in weekly review |
 | Supabase free plan limits (backups, project pause after inactivity) | Medium | Check limits in task 6.4; open the project before the demo |
-| LLM cost or misuse | Medium | Backend-only key, per-user rate limit, budget alerts, provider spending cap |
+| LLM overuse or misuse | Medium | Backend-only key, per-user rate limit, usage alerts, provider usage cap |
 | Python 3.14 package compatibility | Low | Check each dependency before installing; separate env if needed |
 | OCR quality on image resumes | Medium | Allow manual correction and re-upload (requirement §15) |

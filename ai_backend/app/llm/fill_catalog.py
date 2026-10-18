@@ -5,7 +5,7 @@ build_skills merges them into the role profiles in a clearly labelled section.
 
 Usage (from ai_backend/, env careerbridge-ai):
     python -m app.llm.fill_catalog --dry-run     # list the roles that would be drafted
-    python -m app.llm.fill_catalog               # draft them (about USD 0.05 in total)
+    python -m app.llm.fill_catalog               # draft them
 """
 
 import argparse

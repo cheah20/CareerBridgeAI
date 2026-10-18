@@ -58,7 +58,7 @@ profiles ──1:1──► seeker_profiles            (Job Seekers only)
 | Trigger | Behaviour |
 |---|---|
 | `on_auth_user_created` | On sign-up, creates the `profiles` row (and `seeker_profiles` for Job Seekers). Only `job_seeker` or `recruiter` can be chosen; `admin` is never accepted from sign-up data. |
-| `enforce_resume_limit` | A user can keep at most **5 resumes** (free-plan storage budget). |
+| `enforce_resume_limit` | A user can keep at most **5 resumes** (free-plan storage limit). |
 | `log_application_status` | Writes a history row whenever an application is created or its status changes. |
 | `set_updated_at` | Keeps `updated_at` current on every update. |
 

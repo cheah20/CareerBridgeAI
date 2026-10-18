@@ -46,7 +46,7 @@ Field = 17 CareerBridge fields (all 58 CVs); category = 45 dataset categories (4
 These single-label scores overstate v8: see the audit below.
 
 **Blind LLM review.** For each real CV, the top-3 answers of all five models were pooled, shuffled and shown without
-model names; DeepSeek rated each 0–3 for fit (cost USD 0.07).
+model names; DeepSeek rated each 0–3 for fit.
 
 | Model | Mean score, first answer | First answer useful (2–3) | Exact (3) | Wrong (0) | Best of top-3 |
 |---|---|---|---|---|---|
@@ -104,7 +104,7 @@ of 99% agreement (95.4–95.6%), so all three ship as fp32 ONNX.
 - **Formatting shortcut** — text normalisation (above).
 - **Memory growth** — scoring resumes of many lengths made ONNX Runtime reserve memory per input size (14 GB in one
   run). The memory arena is now off, batches are smaller, one model is loaded at a time; this also protects the backend.
-- **Incomplete LLM answers** — 8 of 158 synthetic resumes hit the reasoning token limit; regenerated with a larger budget.
+- **Incomplete LLM answers** — 8 of 158 synthetic resumes hit the reasoning token limit; regenerated with a higher token limit.
 - **Job chaining** — a waiting script matched its own command line; process checks now match only the training process.
 
 ### Limits and next steps
@@ -117,7 +117,7 @@ of 99% agreement (95.4–95.6%), so all three ship as fp32 ONNX.
   public data and no real CVs to test on; results for them are not claimed.
 - **Decision.** v2 stays deployed and work returns to the application. Models will be re-tested when consented real
   resumes are available (for example from users who agree to it). The large synthetic batch is on hold
-  (37 resumes generated, USD 0.26).
+  (37 resumes generated).
 
 ---
 
@@ -286,7 +286,7 @@ Spot checks also found label noise. For example, a resume labelled "SQL Develope
 | Model file | **65 MB** | 542 MB, local only |
 | Runtime packages | scikit-learn | onnxruntime + tokenizers |
 
-Users will not notice the extra 0.3 s, because text extraction, OCR and the LLM explanation already take several seconds. The real costs are file size and start-up time.
+Users will not notice the extra 0.3 s, because text extraction, OCR and the LLM explanation already take several seconds. The real trade-offs are file size and start-up time.
 
 Deploying and rolling back are each a single command, run from `ai_backend/`:
 
@@ -301,7 +301,7 @@ A search of Kaggle, Hugging Face, GitHub and the Malaysian open-data portal foun
 
 - **Nemotron-Personas Malaysia** (YTL AI Labs and NVIDIA, September 2026): 1.35 million synthetic personas with occupation, region, age and ethnicity, generated from official Malaysian statistics. Press coverage reports a CC BY 4.0 licence. These are personas, not resumes, but they could seed synthetic Malaysian test resumes.
 - **data.gov.my**: aggregate labour statistics such as registrants, vacancies and placements. Useful as context, but contains no resume text.
-- **JobStreet feeds and scrapers**: these provide job postings, not resumes. They are paid, and scraping conflicts with JobStreet's terms, so they are not used.
+- **JobStreet feeds and scrapers**: these provide job postings, not resumes. Scraping conflicts with JobStreet's terms, so they are not used.
 
 A small, consented set of 30–50 real Malaysian resumes, with personal details removed, remains the most credible way to check v5 on local resumes. It is needed for testing, not retraining.
 
