@@ -54,9 +54,9 @@
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
 | 2.1 | Private storage bucket + upload via FastAPI (type/size validation, 10 MB) | P1 | Nov 1 | 1.6 | Todo |
-| 2.2 | PDF / DOCX text extraction → normalized Markdown | P1 | Nov 3 | 2.1 | Todo |
+| 2.2 | PDF / DOCX text extraction → normalized Markdown (extraction module + CLI done, 12 tests) | P1 | Nov 3 | 2.1 | In Progress |
 | 2.3 | Structured field extraction + Resume Profile page (view / correct) | P1 | Nov 6 | 2.2 | Todo |
-| 2.4 | OCR for JPG / PNG | P2 | Nov 8 | 2.2 | Todo |
+| 2.4 | OCR for JPG / PNG (RapidOCR, also scanned PDF pages; terminal version done) | P2 | Nov 8 | 2.2 | In Progress |
 | 2.5 | Profile sync: show differences, user confirms updates | P2 | Nov 10 | 2.3 | Todo |
 | 2.6 | Background task status (Pending / Processing / Completed / Failed) | P2 | Nov 11 | 2.2 | Todo |
 
@@ -64,12 +64,12 @@
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
-| 3.1 | Select public dataset (check licence) | P1 | Nov 11 | — | Todo |
-| 3.2 | Train & compare LR / KNN / RF / SVM (Accuracy, Precision, Recall, F1) | P1 | Nov 16 | 3.1 | Todo |
-| 3.3 | Rule-based match score + match levels (e.g. "84% — Strong Match") | P1 | Nov 18 | 2.3 | Todo |
-| 3.4 | Choose LLM provider; backend-only key; usage & cost logging | P1 | Nov 20 | — | Todo |
-| 3.5 | LLM explanations, skill gaps, resume advice, interview questions, roadmap | P1 | Nov 25 | 3.3, 3.4 | Todo |
-| 3.6 | Per-user rate limit + budget alerts (80% / 100%) + no-key mock mode | P2 | Nov 25 | 3.4 | Todo |
+| 3.1 | Select public dataset (check licence): ResumeAtlas (MIT) + Kaggle Resume (CC0), O*NET, ESCO, job-posting sets | P1 | Nov 11 | — | Done |
+| 3.2 | Train & compare LR / KNN / RF / SVM (Accuracy, Precision, Recall, F1); fine-tuned Transformer — see [ml/](ml/README.md) | P1 | Nov 16 | 3.1 | Done |
+| 3.3 | Rule-based match score + match levels (e.g. "84% — Strong Match"); terminal version done, thresholds provisional | P1 | Nov 18 | 2.3 | In Progress |
+| 3.4 | Choose LLM provider; backend-only key; usage & cost logging | P1 | Nov 20 | — | Done |
+| 3.5 | LLM explanations, skill gaps, resume advice, interview questions, roadmap (terminal report done; UI pending) | P1 | Nov 25 | 3.3, 3.4 | In Progress |
+| 3.6 | Per-user rate limit + budget alerts (80% / 100%) + no-key mock mode (budget alerts + `--no-llm` done) | P2 | Nov 25 | 3.4 | In Progress |
 
 ### Phase 4 — Jobs & applications
 
@@ -89,7 +89,7 @@
 | 5.3 | Interview arrangement | P2 | Dec 5 | 4.4 | Todo |
 | 5.4 | Admin dashboard (stats, pending reviews, model, errors, API usage) | P1 | Dec 8 | 4.4 | Todo |
 | 5.5 | User & role management; job/content governance | P2 | Dec 8 | 1.2 | Todo |
-| 5.6 | Model & dataset management: versions, evaluation, deploy, rollback | P1 | Dec 9 | 3.2 | Todo |
+| 5.6 | Model & dataset management: versions, evaluation, deploy, rollback (registry + CLI done; Admin UI pending) | P1 | Dec 9 | 3.2 | In Progress |
 
 ### Phase 6 — Notifications, monitoring, operations
 
@@ -126,15 +126,29 @@
 | 2026-10-16 | Web first: the desktop web app is built and demoed first. Phone layouts (requirements §21) and the APK are scheduled after the web demo; parked mobile UI lives in `frontend/lib/mobile_ui/`. |
 | 2026-10-17 | Email: a dedicated Gmail account (the team Gmail account) is the Supabase custom SMTP sender and the Admin's official inbox. Email confirmation is on. Forgot-password is built in Phase 6. |
 | 2026-10-17 | Login flow: Supabase Auth in the Flutter app; the role always comes from the backend (`GET /me`). Sign-up offers Job Seeker or Recruiter only; Admin accounts are granted by the developer. Test accounts use Gmail "+" addresses; their passwords stay on the developer's computer. |
+| 2026-10-17 | AI core built first, in the terminal, ahead of the UI phases; it is wired into the app in phases 2–3. Datasets, the role catalogue and trained models stay on the developer's machine (not Supabase, not Git); LinkedIn / JobStreet are not scraped. |
+| 2026-10-17 | Resume text: PyMuPDF (PDF), python-docx, RapidOCR for images and scanned pages. PyMuPDF is AGPL; it can be swapped for pypdfium2 if the licence matters for deployment. |
+| 2026-10-17 | Role catalogue: 17 fields, 158 roles with Malaysia / Singapore job titles and skills per experience level (entry → lead), built from O*NET 31.0 (CC BY 4.0), ESCO v1.2.1 and public job-posting sets; skills for roles with few postings are drafted by the LLM and marked pending human review. |
+| 2026-10-18 | LLM: DeepSeek (`deepseek-flash`, OpenAI-compatible API). Personal details are removed before sending; replies are cached; every call is logged with its cost; monthly budget USD 5 with alerts at 80% and 100%. The fit score is never presented as a hiring probability. |
+| 2026-10-18 | Career-direction model: v2 (linear SVM, TF-IDF) deployed at 81.5% test accuracy. A DeBERTa-v3-small fine-tuned on the local GPU (v5, ONNX fp32) reaches 88.2% on the same test set and is a deployment candidate; int8 export was rejected for losing accuracy. Full report: [ml/README.md](ml/README.md). |
+| 2026-10-18 | No public Malaysian resume dataset exists; a small consented set of local resumes is planned for testing only. |
 | 2026-10-15 | Secret keys (Supabase secret key, LLM key) live only in backend environment variables, never in Git or the frontend. Team members review code on GitHub and try the system on the hosted demo. |
+
+## Backlog (after the confirmed core features)
+
+New feature ideas, assessed under requirements §29 before they are added.
+
+| Idea | Summary | Depends on |
+|---|---|---|
+| Role skill assessment | Timed multiple-choice test per job title and experience level, generated from the role's essential skills (DeepSeek, reviewed question bank). Server-side timing, random question/option order, copy blocking, tab-switch logging, attempt limits. Scores per skill shown to recruiters with the resume match before interviews; jobs recommended after the test. | Role catalogue, LLM integration |
+| Portfolio links | Job Seekers add GitHub / portfolio / app links. Links are validated (https only, no private addresses), checked against Google Safe Browsing, opened in a new tab with an external-site notice, and visible to recruiters only after the Job Seeker applies. Optional later: verify public GitHub repositories via the GitHub API. | Profile, applications |
 
 ## Open decisions (TBD — decided when the related phase starts)
 
 | Item | Needed by |
 |---|---|
-| LLM provider and model | Task 3.4 |
-| Public dataset and licence | Task 3.1 |
-| Match-level thresholds | Task 3.3 |
+| Match-level thresholds (provisional: Strong ≥ 80, Good ≥ 65, Partial ≥ 45) | Task 3.3 |
+| Deploy v5 Transformer or keep v2 SVM | Task 3.2 |
 | Hosting provider and domain | Task 6.6 |
 
 ## Risks
