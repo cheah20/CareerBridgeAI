@@ -5,9 +5,10 @@ For the charted version, open [docs/report/index.html](../report/index.html) in 
 
 ## Part 2 — testing on real Malaysian CVs (18 October 2026, afternoon)
 
-**Summary.** v5's public-test lead came partly from a formatting shortcut. After fixing it (v6) and adding
-template-based synthetic Malaysian resumes (v8), the model is the best of all versions on 58 real Malaysian CVs.
-**v8 is now deployed.**
+**Summary.** v5's public-test lead came from a formatting shortcut; normalising the text fixed it (v6). On 58 real
+Malaysian CVs, v2, v6, v7 and v8 are statistically tied (91–95% with every reasonable answer accepted); only v5 is
+clearly worse (61%). An earlier reading that v8 led by 13 points was traced to labelling conventions (see the audit
+below). **The small SVM, v2, stays deployed.**
 
 ### The formatting shortcut
 
@@ -42,8 +43,7 @@ Field = 17 CareerBridge fields (all 58 CVs); category = 45 dataset categories (4
 | v7 | v6 + rough synthetic | 0.586 | 0.776 | 0.711 | 0.889 | 0.870 |
 | **v8** | v6 + template-based synthetic | **0.672** | **0.914** | **0.844** | **0.933** | 0.860 |
 
-On the public test set the new models are within one point of each other; only real CVs separate them.
-Template-based data improved every real-CV measure; rough data did not.
+These single-label scores overstate v8: see the audit below.
 
 **Blind LLM review.** For each real CV, the top-3 answers of all five models were pooled, shuffled and shown without
 model names; DeepSeek rated each 0–3 for fit (cost USD 0.07).
@@ -62,6 +62,30 @@ v2 are close (v8: more useful first answers and the best top-3; v2: more exact f
 **Limits.** Small sample (v8 vs v2 on category top-1: 38 vs 32 of 45 CVs). 13 real CVs (administrative, advertising,
 compliance, hospitality, oil and gas, supply chain) have no matching category, which caps field top-1. The 58 CVs
 come from one template pack.
+
+### Audit of the results (no LLM calls)
+
+| Check | Result |
+|---|---|
+| Synthetic resumes copied the real CVs (shared 8-word phrases) | No: 2 of 158, generic phrases only |
+| Wrong model file or text setting | No: checksums and text form verified |
+| Scores recomputed from the raw predictions | Match |
+| Where v8 beat v2 (6 CVs) | Only 1–2 clear wins; 4 depend on conventions such as Marketing → Sales, Writer → Digital Media, Software Engineer → Information Technology, applied by the same person to the synthetic training labels and the real test labels |
+
+**Independent re-scoring.** Each real CV was read and every reasonable category accepted (56 CVs; 2 have no
+reasonable category among the 45):
+
+| Model | Accuracy | vs v8 (only-this-right : only-v8-right, McNemar p) |
+|---|---|---|
+| v2 | 92.9% | 3 : 4, p = 1.0 |
+| v5 | 60.7% | v2 vs v5: 20 : 2, p < 0.001 |
+| v6 | 91.1% | 1 : 3, p = 0.63 |
+| v7 | 91.1% | 1 : 3, p = 0.63 |
+| v8 | 94.6% | — |
+
+**Conclusion.** The format fix is a real gain. A benefit from synthetic training data is not shown on these CVs.
+v2 stays deployed (65 MB, 0.014 s per CV, same accuracy). Not yet measured: run-to-run variance; the real CVs come
+from one template pack; the re-scoring was done by one reviewer who had seen the model answers.
 
 ### GPU runs in Part 2
 
@@ -85,10 +109,10 @@ of 99% agreement (95.4–95.6%), so all three ship as fp32 ONNX.
 
 ### Next steps
 
-1. Second batch of about 1,000 template-based synthetic resumes.
-2. A field-level model on the CareerBridge catalogue (17 fields, 158 roles), so administrative, logistics and other
-   missing jobs can be predicted.
-3. More real Malaysian and Singaporean CVs from different sources.
+1. Collect real Malaysian and Singaporean CVs from several sources, labelled by someone other than the developer.
+2. Re-test v2 and v8 on that set before any further training.
+3. The large synthetic batch is on hold (37 resumes generated, USD 0.26).
+4. Jobs missing from the public data (administrative, logistics, oil and gas) need a field-level model.
 
 ---
 
@@ -97,7 +121,7 @@ of 99% agreement (95.4–95.6%), so all three ship as fp32 ONNX.
 The rest of this document is the morning's report. Its conclusion that v5 was best held only on the public test
 set; Part 2 explains why.
 
-**Summary of Part 1.** v5, a fine-tuned DeBERTa-v3-small exported to ONNX, classifies 88.2% of test resumes correctly against 81.5% for the deployed v2 SVM. Both are measured on the same held-out test set: 2,817 resumes across 45 career categories. (Part 2 found this lead came partly from a formatting shortcut; v8 is now deployed.)
+**Summary of Part 1.** v5, a fine-tuned DeBERTa-v3-small exported to ONNX, classifies 88.2% of test resumes correctly against 81.5% for the deployed v2 SVM. Both are measured on the same held-out test set: 2,817 resumes across 45 career categories. (Part 2 found this lead came from a formatting shortcut; v2 stays deployed.)
 
 | | v2 SVM | v5 Transformer |
 |---|---|---|
@@ -127,13 +151,13 @@ set; Part 2 explains why.
 | Version | Model | Top-1 | Macro F1 | Top-3 | Field top-1 | Size | Status |
 |---|---|---|---|---|---|---|---|
 | v1 | Random Forest, TF-IDF (Kaggle only, 24 classes) | 0.718 | 0.658 | — | — | — | previous |
-| v2 | Linear SVM, TF-IDF words | 0.815 | 0.809 | 0.938 | 0.855 | 65 MB | previous |
+| v2 | Linear SVM, TF-IDF words | 0.815 | 0.809 | 0.938 | 0.855 | 65 MB | **deployed** |
 | v3 | DeBERTa-v3-small, ONNX int8 (GPU run A) | 0.784 | — | 0.889 | — | 172 MB | rejected |
 | v4 | Linear SVM, TF-IDF words + characters | 0.815 | 0.806 | 0.937 | 0.856 | 223 MB | not recommended |
 | v5 | DeBERTa-v3-small, ONNX fp32 (GPU run B) | 0.882 | 0.868 | 0.938 | 0.919 | 542 MB | previous (format shortcut) |
 | v6 | DeBERTa-v3-small, normalised text | 0.861 | 0.840 | 0.927 | — | 542 MB | candidate |
 | v7 | v6 + rough synthetic resumes | 0.870 | 0.857 | 0.929 | — | 542 MB | candidate |
-| v8 | v6 + template-based synthetic resumes | 0.860 | 0.840 | 0.933 | — | 542 MB | **deployed** |
+| v8 | v6 + template-based synthetic resumes | 0.860 | 0.840 | 0.933 | — | 542 MB | candidate |
 
 v1 used a smaller dataset and is not directly comparable. For v3–v5, top-1 and top-3 were measured with the exported ONNX file the app actually runs.
 

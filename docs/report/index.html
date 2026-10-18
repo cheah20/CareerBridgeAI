@@ -9,459 +9,148 @@
 <body>
 <div class="wrap">
 
+<div class="topbar">
+  <div class="brand"><span class="mark" aria-hidden="true">CB</span>CareerBridge AI</div>
+  <div class="meta">Career-direction model · Training report · 18 October 2026</div>
+</div>
+
 <header>
-  <div class="brand"><span class="mark" aria-hidden="true">CB</span>CareerBridge AI <small>· AI Resume and Career Recommendation System</small></div>
-  <div class="eyebrow">Career-direction classifier · Model training report · 18 October 2026</div>
-  <h1>Model training report: from public-dataset accuracy to real Malaysian CVs</h1>
-  <p class="muted">Part 2 (afternoon) tests every model on 58 real Malaysian CVs, finds and fixes a formatting shortcut, and compares two kinds of synthetic training data. The deployed model is now v8. Part 1 (morning) covers the first Transformer runs on the public test set.</p>
-  <nav aria-label="Sections">
-    <b class="muted">Part 2:</b>
-    <a href="#p2-summary">Summary</a><a href="#shortcut">Format shortcut</a><a href="#synthetic">Synthetic data</a>
-    <a href="#real58">Real CV results</a><a href="#llm-review">LLM blind review</a><a href="#p2-runs">GPU runs</a>
-    <a href="#p2-issues">Issues fixed</a><a href="#next">Next steps</a>
-    <b class="muted">Part 1:</b>
-    <a href="#versions">Versions</a><a href="#metrics">v2 vs v5</a><a href="#categories">Categories</a>
-    <a href="#runs">GPU runs</a><a href="#loss">Loss curve</a><a href="#issues">Issues fixed</a>
-    <a href="#errors">Error analysis</a><a href="#deploy">Deployment</a><a href="#data">Malaysian data</a>
-  </nav>
+  <h1>On real Malaysian CVs, four models tie at 91–95%; the one real gain was removing a format shortcut</h1>
+  <p class="lede">Eight model versions trained; five compared on 58 real Malaysian CVs, the public test set and a blind LLM review. The small SVM (v2) stays deployed.</p>
 </header>
 
-<div class="verdict">
-  <div class="panel stat">
-    <div class="eyebrow">Real MY CVs · category top-1</div>
-    <div class="big">84.4%</div>
-    <div class="delta up">v8 · v2 71.1% · v5 51.1%</div>
-  </div>
-  <div class="panel stat">
-    <div class="eyebrow">Real MY CVs · field in top-3</div>
-    <div class="big">91.4%</div>
-    <div class="delta up">v8 · v2 87.9% · v5 60.3%</div>
-  </div>
-  <div class="panel stat">
-    <div class="eyebrow">LLM blind review · useful first answer</div>
-    <div class="big">86.2%</div>
-    <div class="delta up">v8 · v2 84.5% · v5 56.9%</div>
-  </div>
-  <div class="panel stat">
-    <div class="eyebrow">Public test set · accuracy</div>
-    <div class="big">86.0%</div>
-    <div class="delta">v8 · v2 81.5% · v5 88.2%*</div>
-  </div>
+<div class="kpis">
+  <div class="kpi"><span class="label">Deployed model · real MY CVs</span><span class="value">92.9%</span><span class="sub">v2 SVM · 65 MB · 0.014 s per CV</span></div>
+  <div class="kpi"><span class="label">Best Transformer · real MY CVs</span><span class="value">94.6%</span><span class="sub">v8 · not a significant gain (p = 1.0)</span></div>
+  <div class="kpi"><span class="label">Format shortcut model · real MY CVs</span><span class="value">60.7%</span><span class="sub">v5 · despite 88.2% on public data</span></div>
+  <div class="kpi"><span class="label">Real CVs tested</span><span class="value">58</span><span class="sub">never used in training</span></div>
 </div>
-<p class="muted">* v5's higher public-test score was partly earned through a formatting shortcut that fails on real resumes (see Part 2). Real MY CVs: 58 sample CVs in Malaysian format; category scores cover the 45 whose job has a matching dataset category.</p>
 
-<section id="p2-summary" class="part">
-  <div class="eyebrow">Part 2 · 18 October 2026, 13:30 – 18:30</div>
-  <h2>What happened in Part 2</h2>
-  <div class="panel scroll">
+<section class="card">
+  <div class="card-head"><h2>1 · Accuracy on real Malaysian CVs</h2><span class="note">first answer, 56 CVs, every reasonable category accepted</span></div>
+  <div class="chart" id="chart-real"></div>
+  <p class="takeaway"><b>v2, v6, v7 and v8 are statistically tied.</b> Only v5 is clearly worse (p &lt; 0.001).</p>
+</section>
+
+<section class="grid2">
+  <div class="card">
+    <div class="card-head"><h2>2 · Public score vs real score</h2></div>
+    <div class="chart" id="chart-slope"></div>
+    <div class="legend"><span><i style="background:var(--navy)"></i>v2</span><span><i style="background:var(--bad)"></i>v5</span><span><i style="background:var(--grey)"></i>v6–v8</span></div>
+    <p class="takeaway"><b>The best public score (v5) was the worst real score.</b> Public test accuracy did not predict real-CV accuracy.</p>
+  </div>
+  <div class="card">
+    <div class="card-head"><h2>3 · Blind LLM review of first answers</h2></div>
+    <div class="chart" id="chart-llm"></div>
+    <div class="legend"><span><i style="background:var(--navy)"></i>Exact</span><span><i style="background:var(--teal)"></i>Close</span><span><i style="background:var(--grey)"></i>Weak</span><span><i style="background:var(--bad)"></i>Wrong</span></div>
+    <p class="takeaway"><b>Same picture: v2 and v8 close, v5 wrong 29% of the time.</b></p>
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head"><h2>4 · All results</h2></div>
+  <div class="scroll">
     <table>
-      <thead><tr><th>Step</th><th>Finding or action</th><th>Result</th></tr></thead>
+      <thead><tr><th>Model</th><th>Training data</th><th class="n">Real CVs · independent</th><th class="n">Real CVs · single label</th><th class="n">LLM useful</th><th class="n">Public test</th><th class="n">Size</th></tr></thead>
       <tbody>
-        <tr><td>1</td><td class="wrap-cell">v5 deployed and tried on short Malaysian-style resumes</td><td class="wrap-cell">Only 5 of 10 hand-written test resumes correct (v2: 9 of 10). A data analyst was classed as IT / Automotive.</td></tr>
-        <tr><td>2</td><td class="wrap-cell">Cause found: the two public datasets use different text formats, and v5 learned the format</td><td class="wrap-cell">Formatting shortcut confirmed; on 45 synthetic Malaysian resumes v5 scored 57.8% against 93.3% for v2.</td></tr>
-        <tr><td>3</td><td class="wrap-cell">v6 trained with every text normalised to one form</td><td class="wrap-cell">Public test 86.1% (lower than v5 because the shortcut is gone).</td></tr>
-        <tr><td>4</td><td class="wrap-cell">58 real Malaysian CVs collected as an independent test set; 158 synthetic resumes generated from random profiles and laid out like the reference templates</td><td class="wrap-cell">A Malaysian test set that no model was trained on.</td></tr>
-        <tr><td>5</td><td class="wrap-cell">Two experiments: v6 + rough synthetic resumes (v7) and v6 + template-based rendered resumes (v8)</td><td class="wrap-cell">v8 best on the real CVs (category top-1 84.4%); rough data did not help.</td></tr>
-        <tr><td>6</td><td class="wrap-cell">Blind LLM review of every model's answers on the 58 real CVs</td><td class="wrap-cell">v8 and v2 close; v5 clearly worst. v8 deployed.</td></tr>
+        <tr class="hl"><td>v2<span class="tag">DEPLOYED</span></td><td>SVM · public data</td><td class="n">92.9%</td><td class="n">71.1%</td><td class="n">84.5%</td><td class="n">81.5%</td><td class="n">65 MB</td></tr>
+        <tr><td>v5</td><td>Transformer · public data</td><td class="n worst">60.7%</td><td class="n worst">51.1%</td><td class="n worst">56.9%</td><td class="n">88.2%</td><td class="n">542 MB</td></tr>
+        <tr><td>v6</td><td>Transformer · normalised text</td><td class="n">91.1%</td><td class="n">73.3%</td><td class="n">79.3%</td><td class="n">86.1%</td><td class="n">542 MB</td></tr>
+        <tr><td>v7</td><td>v6 + rough synthetic (450)</td><td class="n">91.1%</td><td class="n">71.1%</td><td class="n">84.5%</td><td class="n">87.0%</td><td class="n">542 MB</td></tr>
+        <tr><td>v8</td><td>v6 + template synthetic (504)</td><td class="n">94.6%</td><td class="n">84.4%*</td><td class="n">86.2%</td><td class="n">86.0%</td><td class="n">542 MB</td></tr>
       </tbody>
     </table>
   </div>
+  <p class="note">Independent: each CV read and every reasonable category accepted (56 CVs). Single label: one category per CV (45 CVs). *v8's single-label lead came mostly from labelling conventions shared by its synthetic training labels and the test labels; 4 of its 6 extra wins over v2 disappear when every reasonable answer is accepted. LLM useful: first answer rated close or exact by DeepSeek, model names hidden.</p>
 </section>
 
-<section id="shortcut">
-  <h2>The formatting shortcut in v5</h2>
-  <div class="two">
-    <div class="panel stack">
-      <p>ResumeAtlas text is stored lowercased, without punctuation and without common words. Kaggle text is ordinary prose. Prose-format resumes appear in only 23 of the 45 categories; the other 22 (Data Science, Python Developer, Civil Engineer, Testing and more) never appear as prose.</p>
-      <p>v5 learned that link: ordinary prose meant "one of the 23 Kaggle categories". Real resumes are prose, so a Malaysian data analyst could never be classed as Data Science. The public test set has the same mix of formats, so its 88.2% did not reveal the problem.</p>
-    </div>
-    <div class="panel stack">
-      <h3>Text share in the training data</h3>
-      <div class="scroll"><table>
-        <thead><tr><th>Format</th><th class="n">Share</th><th class="n">Categories</th></tr></thead>
+<section class="grid2">
+  <div class="card">
+    <div class="card-head"><h2>5 · Audit checks</h2></div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Check</th><th>Result</th></tr></thead>
         <tbody>
-          <tr><td>Lowercase, no punctuation, no stop words (ResumeAtlas)</td><td class="n">83%</td><td class="n">43</td></tr>
-          <tr><td>Ordinary prose (Kaggle)</td><td class="n">17%</td><td class="n">23</td></tr>
+          <tr><td>Synthetic data copied real CVs</td><td class="best">No (2 of 158, generic phrases)</td></tr>
+          <tr><td>Wrong model file or setting</td><td class="best">No (checksums, text form)</td></tr>
+          <tr><td>Scores recomputed from raw predictions</td><td class="best">Match</td></tr>
+          <tr><td>Label convention bias</td><td class="worst">Found; v8 lead overstated</td></tr>
+          <tr><td>v8 vs v2, independent review</td><td>53 vs 52 of 56, p = 1.0</td></tr>
+          <tr><td>v2 vs v5, independent review</td><td>52 vs 34 of 56, p &lt; 0.001</td></tr>
         </tbody>
-      </table></div>
-      <p class="muted"><b>Fix (v6 onward):</b> every text, in training and in prediction, is normalised to one form (lowercase, punctuation removed, NLTK stop words removed). 297 of 300 ResumeAtlas samples are unchanged by it, so only the Kaggle prose is converted.</p>
+      </table>
     </div>
   </div>
-</section>
-
-<section id="synthetic">
-  <h2>Synthetic Malaysian resumes</h2>
-  <p class="muted">No public dataset of Malaysian resumes exists, so two kinds of synthetic resumes were generated with the LLM and compared. The 58 real CVs were used only as style references and were never trained on.</p>
-  <div class="two">
-    <div class="panel stack">
-      <h3>Rough set · used in v7</h3>
-      <ul class="plain">
-        <li>45 resumes, one per category, written in a single LLM call each</li>
-        <li>Plain text, short (120–650 words), similar layout throughout</li>
-        <li>No reference template, no rendering</li>
-        <li>Added to training 10× (450 rows)</li>
-      </ul>
-    </div>
-    <div class="panel stack">
-      <h3>Template-based set · used in v8</h3>
-      <ul class="plain">
-        <li>158 resumes, one for every role in the CareerBridge catalogue</li>
-        <li>A random profile per person drawn in code: level, 1–4 jobs, part-time (42), freelance (35), internships, career gaps (12%), career switches, Malaysia/Singapore, languages matching background</li>
-        <li>The LLM wrote each profile up in one of six layouts modelled on the reference material: the Malaysian CV pack, the JobStreet template, a career-guide CV, student, plain Word and two-column</li>
-        <li>Each resume was typeset as a real file (65 PDF, 81 Word, 12 JPG) and read back with the app's own extractor, including OCR</li>
-        <li>126 resumes map to the 45 categories; added to training 4× (504 rows)</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section id="real58">
-  <h2>Results on 58 real Malaysian CVs</h2>
-  <div class="panel scroll">
-    <table class="meters">
-      <thead><tr><th>Model</th><th>Training data</th><th class="n">Field top-1</th><th class="n">Field top-3</th><th class="n">Category top-1</th><th class="n">Category top-3</th><th class="n">Public test</th></tr></thead>
-      <tbody>
-        <tr><td>v2</td><td>SVM, public data</td><td class="n">0.603</td><td class="n">0.879</td><td class="n">0.711</td><td class="n">0.911</td><td class="n">0.815</td></tr>
-        <tr><td>v5</td><td>Transformer, public data (shortcut)</td><td class="n bad">0.414</td><td class="n bad">0.603</td><td class="n bad">0.511</td><td class="n bad">0.622</td><td class="n">0.882</td></tr>
-        <tr><td>v6</td><td>Transformer, normalised text</td><td class="n">0.586</td><td class="n">0.862</td><td class="n">0.733</td><td class="n">0.889</td><td class="n">0.861</td></tr>
-        <tr><td>v7</td><td>v6 + rough synthetic</td><td class="n">0.586</td><td class="n">0.776</td><td class="n">0.711</td><td class="n">0.889</td><td class="n">0.870</td></tr>
-        <tr class="hl"><td>v8</td><td>v6 + template-based synthetic</td><td class="n">0.672</td><td class="n">0.914</td><td class="n">0.844</td><td class="n">0.933</td><td class="n">0.860</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="two">
-    <div class="panel stack">
-      <h3>Reading the results</h3>
-      <ul class="plain">
-        <li>On the public test set the three new models are within one point of each other; only the real CVs separate them.</li>
-        <li>Template-based synthetic data (v8) improved every measure on real CVs; rough synthetic data (v7) did not.</li>
-        <li>v5's public-test lead disappears on real resumes.</li>
-      </ul>
-    </div>
-    <div class="panel stack">
-      <h3>Limits</h3>
-      <ul class="plain">
-        <li>Small sample: on category top-1, v8 and v2 differ by 6 CVs (38 vs 32 of 45).</li>
-        <li>13 real CVs (8 administrative, advertising, compliance, hospitality, oil and gas, supply chain) have no matching category among the 45, which caps field top-1.</li>
-        <li>The CV pack shares one template, so it does not cover every Malaysian resume style.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section id="llm-review">
-  <h2>Blind LLM review</h2>
-  <p class="muted">For each real CV, the top-3 answers of all five models were pooled, shuffled and shown without model names. The LLM (DeepSeek) rated each answer 0–3 for fit and picked the best field and category. Cost: USD 0.07.</p>
-  <div class="panel scroll">
-    <table>
-      <thead><tr><th>Model</th><th class="n">Mean score of first answer</th><th class="n">First answer useful (2–3)</th><th class="n">First answer exact (3)</th><th class="n">First answer wrong (0)</th><th class="n">Best of top-3 (mean)</th></tr></thead>
-      <tbody>
-        <tr><td>v2</td><td class="n">2.50</td><td class="n">84.5%</td><td class="n">67.2%</td><td class="n">1.7%</td><td class="n">2.76</td></tr>
-        <tr><td>v5</td><td class="n bad">1.72</td><td class="n bad">56.9%</td><td class="n bad">44.8%</td><td class="n bad">29.3%</td><td class="n bad">1.98</td></tr>
-        <tr><td>v6</td><td class="n">2.36</td><td class="n">79.3%</td><td class="n">60.3%</td><td class="n">3.4%</td><td class="n">2.74</td></tr>
-        <tr><td>v7</td><td class="n">2.38</td><td class="n">84.5%</td><td class="n">60.3%</td><td class="n">6.9%</td><td class="n">2.78</td></tr>
-        <tr class="hl"><td>v8</td><td class="n">2.47</td><td class="n">86.2%</td><td class="n">62.1%</td><td class="n">1.7%</td><td class="n">2.83</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="muted">The reviewer agreed with the developer-confirmed labels on 86% of fields and 78% of categories, so it is a useful second opinion but not ground truth. By this review v8 and v2 are close: v8 gives more useful first answers and the best top-3, v2 more exact first answers. v5 is clearly worst on both reviews.</p>
-</section>
-
-<section id="p2-runs">
-  <h2>GPU training runs in Part 2</h2>
-  <div class="panel scroll">
-    <table>
-      <thead><tr><th>Run</th><th>Time</th><th class="n">Steps</th><th>Load</th><th class="n">Training</th><th class="n">Peak °C</th><th class="n">Avg power</th><th class="n">Val acc (epoch 1→4)</th><th class="n">Test acc</th><th>Output</th></tr></thead>
-      <tbody>
-        <tr><td>v6</td><td class="num">14:15 – 14:53</td><td class="n">2,536</td><td>full speed</td><td class="n">25.2 min</td><td class="n">78</td><td class="n">≈ 85 W</td><td class="n">0.677 → 0.858</td><td class="n">0.861</td><td>v6</td></tr>
-        <tr><td>v7 (exp. 1)</td><td class="num">15:13 – 16:35</td><td class="n">2,648</td><td>1 s pause per step</td><td class="n">68.7 min</td><td class="n">75</td><td class="n">43.8 W</td><td class="n">0.704 → 0.875</td><td class="n">0.870</td><td>v7</td></tr>
-        <tr><td>v8 (exp. 2)</td><td class="num">16:35 – 17:58</td><td class="n">2,664</td><td>1 s pause per step</td><td class="n">70.2 min</td><td class="n">73</td><td class="n">43.6 W</td><td class="n">0.677 → 0.860</td><td class="n">0.860</td><td>v8</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="muted">Same hyperparameters as Part 1. Validation and test sets are identical in every run, so differences come only from the added data. Experiments 1 and 2 ran unattended with a one-second pause after each step, which halved average power, and a heat guard set to 85 °C; it never triggered. All three models were exported as fp32 ONNX after int8 again fell short of 99% agreement (95.4–95.6%). Per-minute GPU logs are kept with each run.</p>
-</section>
-
-<section id="p2-issues">
-  <h2>Issues found and fixed in Part 2</h2>
-  <div class="two">
-    <div class="panel callout stack">
-      <h3>Formatting shortcut</h3>
-      <p>Described above. Fixed by normalising all text to one form in training and prediction.</p>
-    </div>
-    <div class="panel callout stack">
-      <h3>Memory growth during prediction</h3>
-      <p>Scoring many resumes of different lengths made ONNX Runtime reserve memory for every input size; one comparison run reached 14 GB. The memory arena is now off, batches are smaller and only one model is loaded at a time. This also protects the backend, where uploaded resumes vary in length.</p>
-    </div>
-    <div class="panel callout stack">
-      <h3>Incomplete LLM answers</h3>
-      <p>8 of 158 synthetic resumes failed because the reasoning model used its whole token budget before answering. They were regenerated with a larger budget so every catalogue role is covered.</p>
-    </div>
-    <div class="panel callout stack">
-      <h3>Job-run chaining</h3>
-      <p>A script that waited for one run to finish detected its own command line and waited forever. Process checks now match only the training process itself.</p>
-    </div>
-  </div>
-</section>
-
-<section id="next">
-  <h2>Next steps</h2>
-  <div class="panel scroll">
-    <table>
-      <thead><tr><th>Item</th><th>Why</th></tr></thead>
-      <tbody>
-        <tr><td class="wrap-cell">Second batch of template-based synthetic resumes (about 1,000)</td><td class="wrap-cell">Template-based data was the only addition that helped on real CVs.</td></tr>
-        <tr><td class="wrap-cell">A field-level model on the CareerBridge catalogue (17 fields, 158 roles)</td><td class="wrap-cell">Administrative, logistics, oil and gas and similar jobs have no category in the public datasets; 32 generated roles could not be used yet.</td></tr>
-        <tr><td class="wrap-cell">More real Malaysian and Singaporean CVs from different sources</td><td class="wrap-cell">58 CVs from one template pack are a small and narrow test set.</td></tr>
-        <tr><td class="wrap-cell">Read long resumes in overlapping windows; show one or three directions by confidence</td><td class="wrap-cell">Carried over from Part 1.</td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-<section class="part">
-  <div class="eyebrow">Part 1 · 18 October 2026, 11:00 – 13:00</div>
-  <h2>First Transformer runs on the public test set</h2>
-  <p class="muted">The sections below are the morning's report, unchanged except for the version table. Their conclusion that v5 was best held only on the public test set; Part 2 shows why.</p>
-</section>
-
-<section id="versions">
-  <h2>All model versions</h2>
-  <div class="panel scroll">
-    <table>
-      <thead><tr><th>Version</th><th>Model</th><th class="n">Top-1</th><th class="n">Macro F1</th><th class="n">Top-3</th><th class="n">Field top-1</th><th class="n">Size</th><th>Status</th></tr></thead>
-      <tbody>
-        <tr><td>v1</td><td>Random Forest · TF-IDF (Kaggle only, 24 classes)</td><td class="n">0.718</td><td class="n">0.658</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td><span class="pill mid">Previous</span></td></tr>
-        <tr><td>v2</td><td>Linear SVM · TF-IDF words</td><td class="n">0.815</td><td class="n">0.809</td><td class="n">0.938</td><td class="n">0.855</td><td class="n">65 MB</td><td><span class="pill mid">Previous</span></td></tr>
-        <tr><td>v3</td><td>DeBERTa-v3-small · ONNX int8 (GPU run A)</td><td class="n">0.784</td><td class="n">—</td><td class="n">0.889</td><td class="n">—</td><td class="n">172 MB</td><td><span class="pill no">Rejected</span></td></tr>
-        <tr><td>v4</td><td>Linear SVM · TF-IDF words + characters</td><td class="n">0.815</td><td class="n">0.806</td><td class="n">0.937</td><td class="n">0.856</td><td class="n">223 MB</td><td><span class="pill mid">Not recommended</span></td></tr>
-        <tr><td>v5</td><td>DeBERTa-v3-small · ONNX fp32 (GPU run B)</td><td class="n">0.882</td><td class="n">0.868</td><td class="n">0.938</td><td class="n">0.919</td><td class="n">542 MB</td><td><span class="pill warn">Previous · shortcut</span></td></tr>
-        <tr><td>v6</td><td>DeBERTa-v3-small · normalised text</td><td class="n">0.861</td><td class="n">0.840</td><td class="n">0.927</td><td class="n">—</td><td class="n">542 MB</td><td><span class="pill mid">Candidate</span></td></tr>
-        <tr><td>v7</td><td>v6 + rough synthetic resumes</td><td class="n">0.870</td><td class="n">0.857</td><td class="n">0.929</td><td class="n">—</td><td class="n">542 MB</td><td><span class="pill mid">Candidate</span></td></tr>
-        <tr class="hl"><td>v8</td><td>v6 + template-based synthetic resumes</td><td class="n">0.860</td><td class="n">0.840</td><td class="n">0.933</td><td class="n">—</td><td class="n">542 MB</td><td><span class="pill ok">Deployed</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="muted">Public test set figures; v6–v8 use PyTorch test scores, which the fp32 ONNX export matches. v1 used a smaller dataset (24 classes) and is not directly comparable. v2–v8 use the same stratified 80/20 split (seed 42) of 14,081 de-duplicated resumes. Top-1 and top-3 for v3–v5 were measured with the exported ONNX file that the app actually runs.</p>
-</section>
-
-<section id="metrics">
-  <h2>v2 and v5 metric by metric</h2>
-  <div class="panel bars" id="bars">
-    <div class="legend"><span><b style="background:var(--base)"></b>v2 SVM (deployed)</span><span><b style="background:var(--accent)"></b>v5 Transformer</span><span>Axis starts at 0.70 so the gaps are visible</span></div>
-  </div>
-</section>
-
-<section id="categories">
-  <h2>F1 change in each of the 45 categories</h2>
-  <p class="muted">37 categories improved and 8 declined. The largest declines are BPO and PMO, whose resumes read much like Sales and Management, so the Transformer more often assigns them to those larger categories.</p>
-  <div class="panel">
-    <div class="db-head"><span class="eyebrow">Category</span><div class="ticks" id="dbticks"></div><span class="eyebrow" style="text-align:right">Change</span></div>
-    <div class="db" id="db"></div>
-    <div class="legend" style="margin-top:12px"><span><b style="background:var(--base);border-radius:50%"></b>v2</span><span><b style="background:var(--accent);border-radius:50%"></b>v5</span><span>Axis 0.30 – 1.00</span></div>
-  </div>
-</section>
-
-<section id="runs">
-  <h2>Every GPU training attempt</h2>
-  <p class="muted">All fine-tuning ran locally on the laptop. Four attempts were started; two completed. Times are local (UTC+8) on 18 October 2026.</p>
-  <div class="panel scroll">
-    <table>
-      <thead><tr><th>Attempt</th><th>Time</th><th>Setup</th><th>Outcome</th><th>Result</th></tr></thead>
-      <tbody>
-        <tr><td>0</td><td class="num">≈ 11:00</td><td>batch 16</td><td><span class="pill no">Crashed at start</span></td><td class="wrap-cell"><code>warmup_ratio</code> was removed in transformers 5; replaced by <code>warmup_steps</code> (10% of optimiser steps). A dry run of the ONNX export then showed the checkpoint loads in fp16 by default, so weights are now loaded in fp32 (bf16 is used only inside autocast).</td></tr>
-        <tr><td>1</td><td class="num">≈ 11:03 – 11:30</td><td>batch 16</td><td><span class="pill warn">Stopped manually</span></td><td class="wrap-cell">VRAM full (7.9 / 8.2 GB) and 0.9 GB spilled into Windows shared memory. GPU drew only 38–40 W and epoch 1 did not finish in 30 minutes. Stopped to change the batch layout.</td></tr>
-        <tr><td>A</td><td class="num">11:32 – 12:03</td><td>batch 8 × 2 accumulation</td><td><span class="pill ok">Completed</span></td><td class="wrap-cell">27.8 min training. PyTorch test accuracy 0.872, macro F1 0.859. Exported as int8 with MatMul and embedding layers quantised: ONNX test accuracy fell to 0.784 → registered as v3 and rejected. The PyTorch weights were deleted after export, so this run could not be re-exported.</td></tr>
-        <tr class="hl"><td>B</td><td class="num">12:21 – 12:59</td><td>batch 8 × 2 accumulation</td><td><span class="pill ok">Completed</span></td><td class="wrap-cell">26.8 min training. PyTorch test accuracy 0.882, macro F1 0.868. PyTorch weights kept. int8 (MatMul only) agreed with PyTorch on 86.6% of validation resumes; fp32 agreed on 100% → fp32 chosen, registered as v5.</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="two">
-    <div class="panel stack">
-      <h3>Validation results per epoch</h3>
-      <div class="scroll"><table>
-        <thead><tr><th>Epoch</th><th class="n">Run A acc</th><th class="n">Run A F1</th><th class="n">Run B acc</th><th class="n">Run B F1</th><th class="n">Run B top-3</th></tr></thead>
+  <div class="card">
+    <div class="card-head"><h2>6 · GPU training runs</h2><span class="note">RTX 4070 Laptop, 8 GB</span></div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Run</th><th>Mode</th><th class="n">Time</th><th class="n">Peak</th><th class="n">Avg power</th></tr></thead>
         <tbody>
-          <tr><td>1</td><td class="n">0.662</td><td class="n">0.568</td><td class="n">0.721</td><td class="n">0.629</td><td class="n">0.847</td></tr>
-          <tr><td>2</td><td class="n">0.841</td><td class="n">0.800</td><td class="n">0.863</td><td class="n">0.831</td><td class="n">0.918</td></tr>
-          <tr><td>3</td><td class="n">0.875</td><td class="n">0.861</td><td class="n">0.874</td><td class="n">0.858</td><td class="n">0.931</td></tr>
-          <tr class="hl"><td>4 (kept)</td><td class="n">0.889</td><td class="n">0.880</td><td class="n">0.881</td><td class="n">0.867</td><td class="n">0.936</td></tr>
+          <tr><td>v5</td><td>full speed</td><td class="n">26.8 min</td><td class="n">76 °C</td><td class="n">≈ 84 W</td></tr>
+          <tr><td>v6</td><td>full speed</td><td class="n">25.2 min</td><td class="n">78 °C</td><td class="n">≈ 85 W</td></tr>
+          <tr><td>v7</td><td>low power</td><td class="n">68.7 min</td><td class="n">75 °C</td><td class="n">43.8 W</td></tr>
+          <tr><td>v8</td><td>low power</td><td class="n">70.2 min</td><td class="n">73 °C</td><td class="n">43.6 W</td></tr>
         </tbody>
-      </table></div>
-      <p class="muted">Validation set: 1,127 resumes (10% of the training split). The two runs end within one point of each other, so the result is stable rather than a lucky seed.</p>
+      </table>
     </div>
-    <div class="panel stack">
-      <h3>Test set, measured once at the end</h3>
-      <div class="scroll"><table>
-        <thead><tr><th></th><th class="n">Run A</th><th class="n">Run B</th></tr></thead>
-        <tbody>
-          <tr><td>Accuracy</td><td class="n">0.8722</td><td class="n">0.8821</td></tr>
-          <tr><td>Precision (macro)</td><td class="n">0.8677</td><td class="n">0.8733</td></tr>
-          <tr><td>Recall (macro)</td><td class="n">0.8582</td><td class="n">0.8691</td></tr>
-          <tr><td>F1 (macro)</td><td class="n">0.8592</td><td class="n">0.8677</td></tr>
-          <tr><td>Top-3 accuracy</td><td class="n">0.9329</td><td class="n">0.9382</td></tr>
-          <tr><td>Exported ONNX top-1</td><td class="n">0.7835</td><td class="n">0.8821</td></tr>
-        </tbody>
-      </table></div>
-      <p class="muted">The test set was never used to pick an epoch or an export format; both choices used the validation set only.</p>
-    </div>
-  </div>
-
-  <div class="two">
-    <div class="panel stack">
-      <h3>Hyperparameters</h3>
-      <ul class="plain">
-        <li>Base model: <code>microsoft/deberta-v3-small</code> (142M parameters)</li>
-        <li>4 epochs, learning rate 3e-5, weight decay 0.01, linear schedule with 10% warm-up (253 steps)</li>
-        <li>Batch 8 per step × 2 accumulation = effective batch 16; 2,536 optimiser steps</li>
-        <li>bf16 mixed precision, fp32 master weights</li>
-        <li>Max 512 tokens; long resumes keep the first 382 and last 128 tokens</li>
-        <li>Best epoch chosen on validation macro F1</li>
-      </ul>
-    </div>
-    <div class="panel stack">
-      <h3>Hardware and software</h3>
-      <ul class="plain">
-        <li>NVIDIA RTX 4070 Laptop GPU, 8 GB, driver 581.15; AMD Ryzen 9 8945H; WSL2 Ubuntu 20.04</li>
-        <li>Training env: Python 3.12, PyTorch 2.14.1 (CUDA 13.0), transformers 5.20.1, datasets 5.1.0, onnxruntime 1.31.0, onnx 1.23.2</li>
-        <li>App env: Python 3.14, onnxruntime 1.31.0, tokenizers 0.23.3 (no PyTorch)</li>
-        <li>Training env is separate from the app and from ROS Noetic</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="panel stack">
-    <h3>Thermal and load log, run B (every 5 minutes)</h3>
-    <div class="scroll"><table>
-      <thead><tr><th>Time</th><th class="n">Progress</th><th class="n">Steps/min</th><th class="n">GPU °C</th><th class="n">Power W</th><th class="n">GPU use</th><th class="n">VRAM MiB</th><th class="n">CPU load /16</th><th class="n">RAM GB</th></tr></thead>
-      <tbody>
-        <tr><td class="num">12:23</td><td class="n">5.1%</td><td class="n">98.7</td><td class="n">73</td><td class="n">81.7</td><td class="n">98%</td><td class="n">6,911</td><td class="n">1.38</td><td class="n">3.2</td></tr>
-        <tr><td class="num">12:28</td><td class="n">24.8%</td><td class="n">101.2</td><td class="n">76</td><td class="n">85.4</td><td class="n">95%</td><td class="n">6,978</td><td class="n">1.37</td><td class="n">3.2</td></tr>
-        <tr><td class="num">12:33</td><td class="n">43.4%</td><td class="n">97.2</td><td class="n">74</td><td class="n">81.9</td><td class="n">98%</td><td class="n">6,979</td><td class="n">1.25</td><td class="n">3.3</td></tr>
-        <tr><td class="num">12:38</td><td class="n">61.9%</td><td class="n">95.9</td><td class="n">76</td><td class="n">83.4</td><td class="n">99%</td><td class="n">6,985</td><td class="n">1.35</td><td class="n">3.3</td></tr>
-        <tr><td class="num">12:43</td><td class="n">80.0%</td><td class="n">95.2</td><td class="n">76</td><td class="n">83.5</td><td class="n">96%</td><td class="n">6,980</td><td class="n">1.07</td><td class="n">3.4</td></tr>
-        <tr><td class="num">12:48</td><td class="n">100%</td><td class="n">96.6</td><td class="n">75</td><td class="n">84.5</td><td class="n">96%</td><td class="n">6,979</td><td class="n">1.19</td><td class="n">3.4</td></tr>
-      </tbody>
-    </table></div>
-    <p class="muted">An automatic heat guard checked the GPU every 5 seconds and would have stopped training at 89 °C. Peak temperature was 76 °C in run B and 78 °C in run A, so it never triggered.</p>
+    <div class="chart" id="chart-epochs"></div>
+    <div class="legend" id="legend-epochs"></div>
+    <p class="note">DeBERTa-v3-small, 4 epochs, lr 3e-5, batch 8 × 2; heat guard never triggered; low power = 1 s pause per step.</p>
   </div>
 </section>
 
-<section id="loss">
-  <h2>Training loss, run B</h2>
-  <div class="panel chart stack">
-    <div id="losschart"></div>
-    <p class="muted">Loss logged every 50 optimiser steps. With 2 accumulation steps the trainer reports the sum of both micro-batches, so values are shown divided by 2. The start, ≈ 3.8, matches ln(45), the loss of a random guess among 45 classes. Dashed lines mark epoch boundaries.</p>
+<section class="grid2">
+  <div class="card">
+    <div class="card-head"><h2>7 · Key findings</h2></div>
+    <ol class="findings">
+      <li>Public-dataset accuracy did not predict real-CV accuracy.</li>
+      <li>v5 had learned the datasets' text format; normalising text fixed it.</li>
+      <li>Synthetic resumes did not make a measurable difference on real CVs.</li>
+      <li>Who writes the test labels matters: shared conventions inflated one result.</li>
+    </ol>
   </div>
-</section>
-
-<section id="issues">
-  <h2>Issues found and how they were fixed</h2>
-  <div class="two">
-    <div class="panel callout stack">
-      <h3>VRAM overflow made training about 4× slower</h3>
-      <p>With batch 16, the 8 GB of VRAM filled and Windows moved about 0.6 GB into shared system memory. The GPU waited on memory transfers and drew only 38 W. Batch 8 with 2 accumulation steps gives the same effective batch and the same result, but uses 6.9 GB and runs at about 97 steps per minute instead of under 25.</p>
-    </div>
-    <div class="panel callout stack">
-      <h3>int8 quantisation cost too much accuracy</h3>
-      <p>Quantising the whole network (v3) dropped test accuracy from 0.872 to 0.784. Quantising only the MatMul layers still matched PyTorch on just 86.6% of validation resumes. DeBERTa is sensitive to dynamic int8 quantisation, so v5 ships as fp32 ONNX, which matches PyTorch on 1,127 of 1,127 validation resumes.</p>
-    </div>
-    <div class="panel callout stack">
-      <h3>Lost weights in run A</h3>
-      <p>The first script deleted the PyTorch checkpoint after exporting, so the bad int8 file could not be re-exported. The script now keeps the trained model in <code>models/transformer-candidate/pytorch/</code> and removes only the epoch checkpoints.</p>
-    </div>
-    <div class="panel callout stack">
-      <h3>No visible progress</h3>
-      <p>The first runs filtered out the progress bar. The script now writes step, percentage, speed, time left and loss to <code>data/training_runs/progress.log</code>, and <code>training/watch_progress.sh</code> shows it live with GPU temperature and a safety level.</p>
-    </div>
-  </div>
-</section>
-
-<section id="errors">
-  <h2>Error analysis of v5</h2>
-  <p class="muted">v5 misclassified 333 of 2,817 test resumes. Most errors fall between categories that overlap in practice, and spot checks found several resumes whose dataset label disagrees with their content, which caps any model's accuracy on this 45-class task.</p>
-  <div class="two">
-    <div class="panel stack">
-      <h3>Most frequent confusions</h3>
-      <div class="scroll"><table>
-        <thead><tr><th>True → predicted</th><th class="n">Count</th></tr></thead>
-        <tbody>
-          <tr><td>Management → PMO</td><td class="n">9</td></tr>
-          <tr><td>BPO → Management</td><td class="n">8</td></tr>
-          <tr><td>SQL Developer → Database</td><td class="n">8</td></tr>
-          <tr><td>Python Developer → React Developer</td><td class="n">7</td></tr>
-          <tr><td>Finance → Accountant</td><td class="n">6</td></tr>
-          <tr><td>Python Developer → ETL Developer</td><td class="n">5</td></tr>
-          <tr><td>Arts → Designing / Education</td><td class="n">8</td></tr>
-        </tbody>
-      </table></div>
-      <p class="muted">Label noise example: a resume labelled "SQL Developer" opens with "database administrator", and v5 answered Database.</p>
-    </div>
-    <div class="panel stack">
-      <h3>Confidence is a reliable signal</h3>
-      <div class="scroll"><table>
-        <thead><tr><th>Model confidence</th><th class="n">Share of resumes</th><th class="n">Accuracy</th></tr></thead>
-        <tbody>
-          <tr><td>≥ 0.90</td><td class="n">85.0%</td><td class="n">94.9%</td></tr>
-          <tr><td>≥ 0.70</td><td class="n">91.7%</td><td class="n">92.4%</td></tr>
-          <tr><td>≥ 0.50</td><td class="n">96.2%</td><td class="n">90.4%</td></tr>
-          <tr><td>&lt; 0.50</td><td class="n">3.8%</td><td class="n">31.1%</td></tr>
-        </tbody>
-      </table></div>
-      <p class="muted">Showing one direction when confident and the top three otherwise would make most results more reliable without retraining.</p>
-    </div>
-    <div class="panel stack">
-      <h3>Long resumes are harder</h3>
-      <div class="scroll"><table>
-        <thead><tr><th>Resume length</th><th class="n">Share</th><th class="n">Accuracy</th></tr></thead>
-        <tbody>
-          <tr><td>≤ 512 tokens</td><td class="n">45%</td><td class="n">92.7%</td></tr>
-          <tr><td>&gt; 512 tokens</td><td class="n">55%</td><td class="n">84.5%</td></tr>
-        </tbody>
-      </table></div>
-      <p class="muted">The middle of long resumes is skipped. Long resumes also come mostly from the Kaggle source, whose labels are noisier, so part of this gap is data rather than truncation.</p>
-    </div>
-  </div>
-</section>
-
-<section id="deploy">
-  <h2>Deployment trade-off</h2>
-  <div class="panel stack">
-    <div class="scroll"><table>
-      <thead><tr><th></th><th>v2 SVM</th><th>v5 Transformer</th></tr></thead>
-      <tbody>
-        <tr><td>Accuracy</td><td>81.5%</td><td><b>88.2%</b></td></tr>
-        <tr><td>Time per resume (CPU)</td><td><b>≈ 0.014 s</b></td><td>≈ 0.31 s median, 0.45 s worst of 20</td></tr>
-        <tr><td>Load at backend start-up</td><td><b>under 1 s</b></td><td>≈ 7 s, once</td></tr>
-        <tr><td>Model file</td><td><b>65 MB</b></td><td>542 MB, kept locally, not in Git</td></tr>
-        <tr><td>Runtime packages</td><td>scikit-learn</td><td>onnxruntime + tokenizers (no PyTorch)</td></tr>
-      </tbody>
-    </table></div>
-    <p>A user uploading a resume will not notice 0.3 s, since text extraction, OCR and the LLM explanation already take several seconds. The real costs are file size and start-up time. Deploy and roll back are single commands: <code>python -m app.ml.models_cli deploy v5</code> and <code>python -m app.ml.models_cli rollback</code>.</p>
-  </div>
-</section>
-
-<section id="data">
-  <h2>Search for Malaysian resume data</h2>
-  <div class="panel stack">
-    <p>A search of Kaggle, Hugging Face, GitHub and the Malaysian open-data portal found no public dataset of Malaysian resumes. Public resume sets (ResumeAtlas, Kaggle Resume Dataset and smaller Hugging Face sets) have no country field. What exists:</p>
-    <ul class="plain">
-      <li><b>Nemotron-Personas Malaysia</b> (YTL AI Labs and NVIDIA, September 2026): 1.35 million synthetic personas with occupation, region, age and ethnicity, generated from official Malaysian statistics. Reported as CC BY 4.0. These are personas, not resumes, but could seed synthetic Malaysian test resumes.</li>
-      <li><b>data.gov.my</b>: aggregate labour statistics (registrants, vacancies, placements), useful context but not resume text.</li>
-      <li><b>Commercial JobStreet feeds and scrapers</b>: job postings rather than resumes; paid, and scraping conflicts with JobStreet's terms. Not used.</li>
+  <div class="card">
+    <div class="card-head"><h2>8 · Next steps</h2></div>
+    <ul class="tight">
+      <li>Collect real MY / SG CVs from several sources; labelled by someone other than the developer.</li>
+      <li>Re-test v2 and v8 on that set before any further training.</li>
+      <li>Large synthetic batch on hold (37 generated, USD 0.26).</li>
+      <li>Categories missing from public data (admin, logistics, oil &amp; gas) need a field-level model.</li>
     </ul>
-    <p class="muted">Conclusion: a small, consented set of 30–50 real Malaysian resumes, with personal details removed, remains the most credible way to check v5 on local resumes. It is needed for testing, not for retraining.</p>
   </div>
 </section>
 
+<details>
+  <summary>Appendix · all versions and method notes</summary>
+  <div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Version</th><th>Model</th><th class="n">Public test</th><th class="n">Macro F1</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>v1</td><td>Random Forest · Kaggle only (24 classes)</td><td class="n">71.8%</td><td class="n">0.658</td><td>previous</td></tr>
+          <tr><td>v2</td><td>Linear SVM · TF-IDF</td><td class="n">81.5%</td><td class="n">0.809</td><td>deployed</td></tr>
+          <tr><td>v3</td><td>DeBERTa · ONNX int8</td><td class="n">78.4%</td><td class="n">—</td><td>rejected (int8 lost accuracy)</td></tr>
+          <tr><td>v4</td><td>Linear SVM · words + characters</td><td class="n">81.5%</td><td class="n">0.806</td><td>not used</td></tr>
+          <tr><td>v5</td><td>DeBERTa · ONNX fp32</td><td class="n">88.2%</td><td class="n">0.868</td><td>previous (format shortcut)</td></tr>
+          <tr><td>v6</td><td>DeBERTa · normalised text</td><td class="n">86.1%</td><td class="n">0.840</td><td>candidate</td></tr>
+          <tr><td>v7</td><td>v6 + rough synthetic</td><td class="n">87.0%</td><td class="n">0.857</td><td>candidate</td></tr>
+          <tr><td>v8</td><td>v6 + template synthetic</td><td class="n">86.0%</td><td class="n">0.840</td><td>candidate</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="tight">
+      <li>Public data: ResumeAtlas (MIT) + Kaggle Resume Dataset (CC0), 14,081 resumes, 45 categories; split 11,264 / 2,817, seed 42.</li>
+      <li>Real CVs: 58 Malaysian sample CVs (one template pack); 13 have no matching category among the 45.</li>
+      <li>Synthetic (v8): 158 resumes from random profiles, 6 layouts modelled on Malaysian CVs and the JobStreet template, rendered as PDF / Word / JPG and read back.</li>
+      <li>Not yet measured: run-to-run variance (one run per setting).</li>
+      <li>Fixed along the way: VRAM overflow (batch 8 × 2), int8 accuracy loss (fp32 export), ONNX memory growth (arena off).</li>
+      <li>Full details and logs: docs/ml/README.md.</li>
+    </ul>
+  </div>
+</details>
 
-
-<footer>
-  <div><b>Data.</b> ResumeAtlas (MIT) and Kaggle Resume Dataset (CC0): 14,081 resumes after de-duplication, 45 categories, 11,264 train / 2,817 test. Run B used 10,137 for training and 1,127 for validation. All data and model files stay on the developer's machine and are not uploaded to Supabase or Git.</div>
-  <div><b>Reproduce.</b> <code>conda activate careerbridge-train</code>, then from <code>ai_backend/</code>: <code>python training/finetune_transformer.py</code>; import with <code>python -m app.ml.transformer import models/transformer-candidate</code>; evaluate with <code>python -m app.ml.evaluate v5</code>.</div>
-  <div>© 2026 CareerBridge AI</div>
-</footer>
+<footer><span>© 2026 CareerBridge AI</span><span>Data and models stored locally</span></footer>
 </div>
 <script src="script.js"></script>
 </body>
