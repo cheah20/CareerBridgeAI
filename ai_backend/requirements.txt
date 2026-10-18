@@ -9,5 +9,19 @@ pydantic-settings==2.16.0
 # Auth: verify Supabase access tokens (ES256 via JWKS)
 PyJWT[crypto]==2.15.1
 
+# Resume text extraction (chosen by file type)
+PyMuPDF==1.28.2        # PDF text + rendering scanned pages for OCR
+python-docx==1.2.0     # DOCX
+rapidocr==3.10.0       # OCR for images and scanned PDFs (PaddleOCR models, ONNX)
+onnxruntime==1.31.0    # engine used by RapidOCR and the Transformer model
+tokenizers==0.23.3     # tokenizer for the Transformer model (no PyTorch needed)
+
+# Machine learning (career-direction models, role catalogue, fit score)
+scikit-learn==1.9.1
+numpy==2.5.4
+pandas==3.0.6
+joblib==1.6.0
+pyarrow==26.0.0        # reads the ResumeAtlas parquet file
+
 # Testing
 pytest==9.1.1

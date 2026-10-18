@@ -27,3 +27,7 @@ local.properties
 # Flutter run configuration (copy config/dev.example.json to config/dev.json)
 frontend/config/*.json
 !frontend/config/*.example.json
+
+# Datasets and trained models stay local (requirements §23)
+ai_backend/data/
+ai_backend/models/
