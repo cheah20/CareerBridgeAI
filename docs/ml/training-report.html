@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CareerBridge Model Training Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column; verdict first, then evidence (versions → metrics → categories → GPU runs → findings → next steps), quiet "smoke glass" panels echoing the app's theme. */
+:root {
+  --bg: #eef0f3;
+  --panel: rgba(255,255,255,0.72);
+  --line: #d5d9e0;
+  --fg: #1c2230;
+  --muted: #5b6475;
+  --accent: #3a5bd9;      /* v5 / Transformer */
+  --base: #9aa3b2;        /* v2 / SVM baseline */
+  --good: #1e8a5a;
+  --bad: #c2453a;
+  --warn: #b7791f;
+  --font-ui: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-num: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #15181f; --panel: rgba(36,41,52,0.72); --line: #333a48; --fg: #e6e9ef; --muted: #9aa3b4;
+  --accent: #7d97ff; --base: #6b7385; --good: #4cc38a; --bad: #f07a6e; --warn: #e0a84a; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #15181f; --panel: rgba(36,41,52,0.72); --line: #333a48; --fg: #e6e9ef; --muted: #9aa3b4;
+  --accent: #7d97ff; --base: #6b7385; --good: #4cc38a; --bad: #f07a6e; --warn: #e0a84a; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.65 var(--font-ui); margin: 0; }
+.wrap { max-width: 940px; margin: 0 auto; padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 32px; }
+h1, h2, h3 { text-wrap: balance; margin: 0; line-height: 1.3; }
+h1 { font-size: 1.9rem; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 1.25rem; font-weight: 700; }
+h3 { font-size: 1rem; font-weight: 600; }
+p { margin: 0; max-width: 70ch; }
+.eyebrow { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.num { font-family: var(--font-num); font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+section { display: grid; gap: 14px; min-width: 0; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px;
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); min-width: 0; }
+.stack { display: grid; gap: 10px; }
+
+header { display: grid; gap: 10px; }
+nav { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.85rem; }
+nav a { color: var(--accent); text-decoration: none; }
+nav a:hover, nav a:focus-visible { text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.verdict { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+.stat { display: grid; gap: 2px; }
+.stat .big { font-family: var(--font-num); font-size: 1.9rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.stat .big small { font-size: 0.95rem; color: var(--muted); font-weight: 400; }
+.delta { font-family: var(--font-num); font-size: 0.85rem; }
+.up { color: var(--good); } .down { color: var(--bad); }
+
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; vertical-align: top; }
+td.wrap-cell { white-space: normal; min-width: 16rem; }
+th { font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+td.n { font-family: var(--font-num); font-variant-numeric: tabular-nums; text-align: right; }
+th.n { text-align: right; }
+tr.hl td { background: color-mix(in srgb, var(--accent) 10%, transparent); font-weight: 600; }
+.pill { display: inline-block; padding: 1px 9px; border-radius: 99px; font-size: 0.72rem; font-weight: 600; border: 1px solid currentColor; }
+.pill.ok { color: var(--good); } .pill.no { color: var(--bad); } .pill.cand { color: var(--accent); } .pill.mid { color: var(--muted); } .pill.warn { color: var(--warn); }
+
+/* metric bars: scale 0.70 → 1.00 */
+.bars { display: grid; gap: 14px; }
+.bar-row { display: grid; grid-template-columns: 8.5rem 1fr; gap: 12px; align-items: center; }
+.bar-label { font-size: 0.88rem; }
+.track { position: relative; display: grid; gap: 4px; margin-right: 3.5rem; }
+.bar { height: 14px; border-radius: 3px; position: relative; }
+.bar.v2 { background: var(--base); } .bar.v5 { background: var(--accent); }
+.bar span { position: absolute; left: calc(100% + 6px); top: -3px; font: 0.78rem var(--font-num); color: var(--fg); white-space: nowrap; }
+.axis { display: grid; grid-template-columns: 8.5rem 1fr; gap: 12px; }
+.ticks { position: relative; height: 18px; font: 0.72rem var(--font-num); color: var(--muted); }
+.ticks i { position: absolute; transform: translateX(-50%); font-style: normal; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.82rem; color: var(--muted); }
+.legend b { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: -1px; margin-right: 6px; }
+
+/* dumbbell per category: scale 0.30 → 1.00 */
+.db { display: grid; gap: 3px; }
+.db-row, .db-head { display: grid; grid-template-columns: minmax(0, 11rem) 1fr 3.6rem; gap: 10px; align-items: center; font-size: 0.82rem; }
+.db-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.db-line { position: relative; height: 16px; }
+.db-line::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; border-top: 1px dashed var(--line); }
+.db-seg { position: absolute; top: calc(50% - 1.5px); height: 3px; border-radius: 2px; }
+.db-dot { position: absolute; top: calc(50% - 5px); width: 10px; height: 10px; border-radius: 50%; transform: translateX(-50%); }
+.db-dot.v2 { background: var(--base); } .db-dot.v5 { background: var(--accent); }
+.db-d { font-family: var(--font-num); font-size: 0.78rem; text-align: right; }
+
+/* loss chart */
+.chart svg { width: 100%; height: auto; display: block; }
+.chart text { fill: var(--muted); font: 11px var(--font-num); }
+.chart .grid { stroke: var(--line); stroke-width: 1; }
+.chart .loss { fill: none; stroke: var(--accent); stroke-width: 2; }
+.chart .area { fill: color-mix(in srgb, var(--accent) 14%, transparent); stroke: none; }
+.chart .epoch { stroke: var(--muted); stroke-dasharray: 3 4; stroke-width: 1; }
+.chart .end { fill: var(--accent); }
+
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 14px; }
+ul.plain { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; }
+.callout { border-left: 3px solid var(--warn); }
+code { font-family: var(--font-num); font-size: 0.85em; background: color-mix(in srgb, var(--line) 55%, transparent); padding: 1px 5px; border-radius: 4px; }
+footer { font-size: 0.8rem; color: var(--muted); display: grid; gap: 6px; }
+
+@media (max-width: 520px) {
+  .bar-row, .axis { grid-template-columns: 6rem 1fr; }
+  .db-row, .db-head { grid-template-columns: minmax(0, 7.5rem) 1fr 3.2rem; }
+  h1 { font-size: 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">CareerBridge AI · Career-direction classifier · 18 October 2026</div>
+  <h1>Model training report: v5 Transformer raises accuracy from 81.5% to 88.2%</h1>
+  <p class="muted">All versions are compared on the same held-out test set: 2,817 resumes across 45 career categories. v5 is a candidate and has not been deployed yet.</p>
+  <nav aria-label="Sections">
+    <a href="#versions">Versions</a><a href="#metrics">v2 vs v5</a><a href="#categories">Categories</a>
+    <a href="#runs">GPU runs</a><a href="#loss">Loss curve</a><a href="#issues">Issues fixed</a>
+    <a href="#errors">Error analysis</a><a href="#deploy">Deployment</a><a href="#data">Malaysian data</a><a href="#next">Next steps</a>
+  </nav>
+</header>
+
+<div class="verdict">
+  <div class="panel stat">
+    <div class="eyebrow">Category accuracy (top-1)</div>
+    <div class="big">88.2%</div>
+    <div class="delta up">v2 81.5% → +6.7 points</div>
+  </div>
+  <div class="panel stat">
+    <div class="eyebrow">Macro F1</div>
+    <div class="big">0.868</div>
+    <div class="delta up">v2 0.809 → +0.059</div>
+  </div>
+  <div class="panel stat">
+    <div class="eyebrow">Field accuracy (17 fields)</div>
+    <div class="big">91.9%</div>
+    <div class="delta up">v2 85.5% → +6.4 points</div>
+  </div>
+  <div class="panel stat">
+    <div class="eyebrow">Time per resume (CPU)</div>
+    <div class="big">0.31<small> s</small></div>
+    <div class="delta down">v2 0.014 s, about 22× slower</div>
+  </div>
+</div>
+
+<section id="versions">
+  <h2>All model versions</h2>
+  <div class="panel scroll">
+    <table>
+      <thead><tr><th>Version</th><th>Model</th><th class="n">Top-1</th><th class="n">Macro F1</th><th class="n">Top-3</th><th class="n">Field top-1</th><th class="n">Size</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>v1</td><td>Random Forest · TF-IDF (Kaggle only, 24 classes)</td><td class="n">0.718</td><td class="n">0.658</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td><span class="pill mid">Previous</span></td></tr>
+        <tr><td>v2</td><td>Linear SVM · TF-IDF words</td><td class="n">0.815</td><td class="n">0.809</td><td class="n">0.938</td><td class="n">0.855</td><td class="n">65 MB</td><td><span class="pill ok">Deployed</span></td></tr>
+        <tr><td>v3</td><td>DeBERTa-v3-small · ONNX int8 (GPU run A)</td><td class="n">0.784</td><td class="n">—</td><td class="n">0.889</td><td class="n">—</td><td class="n">172 MB</td><td><span class="pill no">Rejected</span></td></tr>
+        <tr><td>v4</td><td>Linear SVM · TF-IDF words + characters</td><td class="n">0.815</td><td class="n">0.806</td><td class="n">0.937</td><td class="n">0.856</td><td class="n">223 MB</td><td><span class="pill mid">Not recommended</span></td></tr>
+        <tr class="hl"><td>v5</td><td>DeBERTa-v3-small · ONNX fp32 (GPU run B)</td><td class="n">0.882</td><td class="n">0.868</td><td class="n">0.938</td><td class="n">0.919</td><td class="n">542 MB</td><td><span class="pill cand">Candidate</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="muted">v1 used a smaller dataset (24 classes) and is not directly comparable. v2–v5 use the same stratified 80/20 split (seed 42) of 14,081 de-duplicated resumes. Top-1 and top-3 for v3–v5 were measured with the exported ONNX file that the app actually runs.</p>
+</section>
+
+<section id="metrics">
+  <h2>v2 and v5 metric by metric</h2>
+  <div class="panel bars" id="bars">
+    <div class="legend"><span><b style="background:var(--base)"></b>v2 SVM (deployed)</span><span><b style="background:var(--accent)"></b>v5 Transformer</span><span>Axis starts at 0.70 so the gaps are visible</span></div>
+  </div>
+</section>
+
+<section id="categories">
+  <h2>F1 change in each of the 45 categories</h2>
+  <p class="muted">37 categories improved and 8 declined. The largest declines are BPO and PMO, whose resumes read much like Sales and Management, so the Transformer more often assigns them to those larger categories.</p>
+  <div class="panel">
+    <div class="db-head"><span class="eyebrow">Category</span><div class="ticks" id="dbticks"></div><span class="eyebrow" style="text-align:right">Change</span></div>
+    <div class="db" id="db"></div>
+    <div class="legend" style="margin-top:12px"><span><b style="background:var(--base);border-radius:50%"></b>v2</span><span><b style="background:var(--accent);border-radius:50%"></b>v5</span><span>Axis 0.30 – 1.00</span></div>
+  </div>
+</section>
+
+<section id="runs">
+  <h2>Every GPU training attempt</h2>
+  <p class="muted">All fine-tuning ran locally on the laptop. Four attempts were started; two completed. Times are local (UTC+8) on 18 October 2026.</p>
+  <div class="panel scroll">
+    <table>
+      <thead><tr><th>Attempt</th><th>Time</th><th>Setup</th><th>Outcome</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td>0</td><td class="num">≈ 11:00</td><td>batch 16</td><td><span class="pill no">Crashed at start</span></td><td class="wrap-cell"><code>warmup_ratio</code> was removed in transformers 5; replaced by <code>warmup_steps</code> (10% of optimiser steps). A dry run of the ONNX export then showed the checkpoint loads in fp16 by default, so weights are now loaded in fp32 (bf16 is used only inside autocast).</td></tr>
+        <tr><td>1</td><td class="num">≈ 11:03 – 11:30</td><td>batch 16</td><td><span class="pill warn">Stopped manually</span></td><td class="wrap-cell">VRAM full (7.9 / 8.2 GB) and 0.9 GB spilled into Windows shared memory. GPU drew only 38–40 W and epoch 1 did not finish in 30 minutes. Stopped to change the batch layout.</td></tr>
+        <tr><td>A</td><td class="num">11:32 – 12:03</td><td>batch 8 × 2 accumulation</td><td><span class="pill ok">Completed</span></td><td class="wrap-cell">27.8 min training. PyTorch test accuracy 0.872, macro F1 0.859. Exported as int8 with MatMul and embedding layers quantised: ONNX test accuracy fell to 0.784 → registered as v3 and rejected. The PyTorch weights were deleted after export, so this run could not be re-exported.</td></tr>
+        <tr class="hl"><td>B</td><td class="num">12:21 – 12:59</td><td>batch 8 × 2 accumulation</td><td><span class="pill ok">Completed</span></td><td class="wrap-cell">26.8 min training. PyTorch test accuracy 0.882, macro F1 0.868. PyTorch weights kept. int8 (MatMul only) agreed with PyTorch on 86.6% of validation resumes; fp32 agreed on 100% → fp32 chosen, registered as v5.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="two">
+    <div class="panel stack">
+      <h3>Validation results per epoch</h3>
+      <div class="scroll"><table>
+        <thead><tr><th>Epoch</th><th class="n">Run A acc</th><th class="n">Run A F1</th><th class="n">Run B acc</th><th class="n">Run B F1</th><th class="n">Run B top-3</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td class="n">0.662</td><td class="n">0.568</td><td class="n">0.721</td><td class="n">0.629</td><td class="n">0.847</td></tr>
+          <tr><td>2</td><td class="n">0.841</td><td class="n">0.800</td><td class="n">0.863</td><td class="n">0.831</td><td class="n">0.918</td></tr>
+          <tr><td>3</td><td class="n">0.875</td><td class="n">0.861</td><td class="n">0.874</td><td class="n">0.858</td><td class="n">0.931</td></tr>
+          <tr class="hl"><td>4 (kept)</td><td class="n">0.889</td><td class="n">0.880</td><td class="n">0.881</td><td class="n">0.867</td><td class="n">0.936</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">Validation set: 1,127 resumes (10% of the training split). The two runs end within one point of each other, so the result is stable rather than a lucky seed.</p>
+    </div>
+    <div class="panel stack">
+      <h3>Test set, measured once at the end</h3>
+      <div class="scroll"><table>
+        <thead><tr><th></th><th class="n">Run A</th><th class="n">Run B</th></tr></thead>
+        <tbody>
+          <tr><td>Accuracy</td><td class="n">0.8722</td><td class="n">0.8821</td></tr>
+          <tr><td>Precision (macro)</td><td class="n">0.8677</td><td class="n">0.8733</td></tr>
+          <tr><td>Recall (macro)</td><td class="n">0.8582</td><td class="n">0.8691</td></tr>
+          <tr><td>F1 (macro)</td><td class="n">0.8592</td><td class="n">0.8677</td></tr>
+          <tr><td>Top-3 accuracy</td><td class="n">0.9329</td><td class="n">0.9382</td></tr>
+          <tr><td>Exported ONNX top-1</td><td class="n">0.7835</td><td class="n">0.8821</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">The test set was never used to pick an epoch or an export format; both choices used the validation set only.</p>
+    </div>
+  </div>
+
+  <div class="two">
+    <div class="panel stack">
+      <h3>Hyperparameters</h3>
+      <ul class="plain">
+        <li>Base model: <code>microsoft/deberta-v3-small</code> (142M parameters)</li>
+        <li>4 epochs, learning rate 3e-5, weight decay 0.01, linear schedule with 10% warm-up (253 steps)</li>
+        <li>Batch 8 per step × 2 accumulation = effective batch 16; 2,536 optimiser steps</li>
+        <li>bf16 mixed precision, fp32 master weights</li>
+        <li>Max 512 tokens; long resumes keep the first 382 and last 128 tokens</li>
+        <li>Best epoch chosen on validation macro F1</li>
+      </ul>
+    </div>
+    <div class="panel stack">
+      <h3>Hardware and software</h3>
+      <ul class="plain">
+        <li>NVIDIA RTX 4070 Laptop GPU, 8 GB, driver 581.15; AMD Ryzen 9 8945H; WSL2 Ubuntu 20.04</li>
+        <li>Training env: Python 3.12, PyTorch 2.14.1 (CUDA 13.0), transformers 5.20.1, datasets 5.1.0, onnxruntime 1.31.0, onnx 1.23.2</li>
+        <li>App env: Python 3.14, onnxruntime 1.31.0, tokenizers 0.23.3 (no PyTorch)</li>
+        <li>Training env is separate from the app and from ROS Noetic</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel stack">
+    <h3>Thermal and load log, run B (every 5 minutes)</h3>
+    <div class="scroll"><table>
+      <thead><tr><th>Time</th><th class="n">Progress</th><th class="n">Steps/min</th><th class="n">GPU °C</th><th class="n">Power W</th><th class="n">GPU use</th><th class="n">VRAM MiB</th><th class="n">CPU load /16</th><th class="n">RAM GB</th></tr></thead>
+      <tbody>
+        <tr><td class="num">12:23</td><td class="n">5.1%</td><td class="n">98.7</td><td class="n">73</td><td class="n">81.7</td><td class="n">98%</td><td class="n">6,911</td><td class="n">1.38</td><td class="n">3.2</td></tr>
+        <tr><td class="num">12:28</td><td class="n">24.8%</td><td class="n">101.2</td><td class="n">76</td><td class="n">85.4</td><td class="n">95%</td><td class="n">6,978</td><td class="n">1.37</td><td class="n">3.2</td></tr>
+        <tr><td class="num">12:33</td><td class="n">43.4%</td><td class="n">97.2</td><td class="n">74</td><td class="n">81.9</td><td class="n">98%</td><td class="n">6,979</td><td class="n">1.25</td><td class="n">3.3</td></tr>
+        <tr><td class="num">12:38</td><td class="n">61.9%</td><td class="n">95.9</td><td class="n">76</td><td class="n">83.4</td><td class="n">99%</td><td class="n">6,985</td><td class="n">1.35</td><td class="n">3.3</td></tr>
+        <tr><td class="num">12:43</td><td class="n">80.0%</td><td class="n">95.2</td><td class="n">76</td><td class="n">83.5</td><td class="n">96%</td><td class="n">6,980</td><td class="n">1.07</td><td class="n">3.4</td></tr>
+        <tr><td class="num">12:48</td><td class="n">100%</td><td class="n">96.6</td><td class="n">75</td><td class="n">84.5</td><td class="n">96%</td><td class="n">6,979</td><td class="n">1.19</td><td class="n">3.4</td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted">An automatic heat guard checked the GPU every 5 seconds and would have stopped training at 89 °C. Peak temperature was 76 °C in run B and 78 °C in run A, so it never triggered.</p>
+  </div>
+</section>
+
+<section id="loss">
+  <h2>Training loss, run B</h2>
+  <div class="panel chart stack">
+    <div id="losschart"></div>
+    <p class="muted">Loss logged every 50 optimiser steps. With 2 accumulation steps the trainer reports the sum of both micro-batches, so values are shown divided by 2. The start, ≈ 3.8, matches ln(45), the loss of a random guess among 45 classes. Dashed lines mark epoch boundaries.</p>
+  </div>
+</section>
+
+<section id="issues">
+  <h2>Issues found and how they were fixed</h2>
+  <div class="two">
+    <div class="panel callout stack">
+      <h3>VRAM overflow made training about 4× slower</h3>
+      <p>With batch 16, the 8 GB of VRAM filled and Windows moved about 0.6 GB into shared system memory. The GPU waited on memory transfers and drew only 38 W. Batch 8 with 2 accumulation steps gives the same effective batch and the same result, but uses 6.9 GB and runs at about 97 steps per minute instead of under 25.</p>
+    </div>
+    <div class="panel callout stack">
+      <h3>int8 quantisation cost too much accuracy</h3>
+      <p>Quantising the whole network (v3) dropped test accuracy from 0.872 to 0.784. Quantising only the MatMul layers still matched PyTorch on just 86.6% of validation resumes. DeBERTa is sensitive to dynamic int8 quantisation, so v5 ships as fp32 ONNX, which matches PyTorch on 1,127 of 1,127 validation resumes.</p>
+    </div>
+    <div class="panel callout stack">
+      <h3>Lost weights in run A</h3>
+      <p>The first script deleted the PyTorch checkpoint after exporting, so the bad int8 file could not be re-exported. The script now keeps the trained model in <code>models/transformer-candidate/pytorch/</code> and removes only the epoch checkpoints.</p>
+    </div>
+    <div class="panel callout stack">
+      <h3>No visible progress</h3>
+      <p>The first runs filtered out the progress bar. The script now writes step, percentage, speed, time left and loss to <code>data/training_runs/progress.log</code>, and <code>training/watch_progress.sh</code> shows it live with GPU temperature and a safety level.</p>
+    </div>
+  </div>
+</section>
+
+<section id="errors">
+  <h2>Error analysis of v5</h2>
+  <p class="muted">v5 misclassified 333 of 2,817 test resumes. Most errors fall between categories that overlap in practice, and spot checks found several resumes whose dataset label disagrees with their content, which caps any model's accuracy on this 45-class task.</p>
+  <div class="two">
+    <div class="panel stack">
+      <h3>Most frequent confusions</h3>
+      <div class="scroll"><table>
+        <thead><tr><th>True → predicted</th><th class="n">Count</th></tr></thead>
+        <tbody>
+          <tr><td>Management → PMO</td><td class="n">9</td></tr>
+          <tr><td>BPO → Management</td><td class="n">8</td></tr>
+          <tr><td>SQL Developer → Database</td><td class="n">8</td></tr>
+          <tr><td>Python Developer → React Developer</td><td class="n">7</td></tr>
+          <tr><td>Finance → Accountant</td><td class="n">6</td></tr>
+          <tr><td>Python Developer → ETL Developer</td><td class="n">5</td></tr>
+          <tr><td>Arts → Designing / Education</td><td class="n">8</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">Label noise example: a resume labelled "SQL Developer" opens with "database administrator", and v5 answered Database.</p>
+    </div>
+    <div class="panel stack">
+      <h3>Confidence is a reliable signal</h3>
+      <div class="scroll"><table>
+        <thead><tr><th>Model confidence</th><th class="n">Share of resumes</th><th class="n">Accuracy</th></tr></thead>
+        <tbody>
+          <tr><td>≥ 0.90</td><td class="n">85.0%</td><td class="n">94.9%</td></tr>
+          <tr><td>≥ 0.70</td><td class="n">91.7%</td><td class="n">92.4%</td></tr>
+          <tr><td>≥ 0.50</td><td class="n">96.2%</td><td class="n">90.4%</td></tr>
+          <tr><td>&lt; 0.50</td><td class="n">3.8%</td><td class="n">31.1%</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">Showing one direction when confident and the top three otherwise would make most results more reliable without retraining.</p>
+    </div>
+    <div class="panel stack">
+      <h3>Long resumes are harder</h3>
+      <div class="scroll"><table>
+        <thead><tr><th>Resume length</th><th class="n">Share</th><th class="n">Accuracy</th></tr></thead>
+        <tbody>
+          <tr><td>≤ 512 tokens</td><td class="n">45%</td><td class="n">92.7%</td></tr>
+          <tr><td>&gt; 512 tokens</td><td class="n">55%</td><td class="n">84.5%</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">The middle of long resumes is skipped. Long resumes also come mostly from the Kaggle source, whose labels are noisier, so part of this gap is data rather than truncation.</p>
+    </div>
+  </div>
+</section>
+
+<section id="deploy">
+  <h2>Deployment trade-off</h2>
+  <div class="panel stack">
+    <div class="scroll"><table>
+      <thead><tr><th></th><th>v2 SVM</th><th>v5 Transformer</th></tr></thead>
+      <tbody>
+        <tr><td>Accuracy</td><td>81.5%</td><td><b>88.2%</b></td></tr>
+        <tr><td>Time per resume (CPU)</td><td><b>≈ 0.014 s</b></td><td>≈ 0.31 s median, 0.45 s worst of 20</td></tr>
+        <tr><td>Load at backend start-up</td><td><b>under 1 s</b></td><td>≈ 7 s, once</td></tr>
+        <tr><td>Model file</td><td><b>65 MB</b></td><td>542 MB, kept locally, not in Git</td></tr>
+        <tr><td>Runtime packages</td><td>scikit-learn</td><td>onnxruntime + tokenizers (no PyTorch)</td></tr>
+      </tbody>
+    </table></div>
+    <p>A user uploading a resume will not notice 0.3 s, since text extraction, OCR and the LLM explanation already take several seconds. The real costs are file size and start-up time. Deploy and roll back are single commands: <code>python -m app.ml.models_cli deploy v5</code> and <code>python -m app.ml.models_cli rollback</code>.</p>
+  </div>
+</section>
+
+<section id="data">
+  <h2>Search for Malaysian resume data</h2>
+  <div class="panel stack">
+    <p>A search of Kaggle, Hugging Face, GitHub and the Malaysian open-data portal found no public dataset of Malaysian resumes. Public resume sets (ResumeAtlas, Kaggle Resume Dataset and smaller Hugging Face sets) have no country field. What exists:</p>
+    <ul class="plain">
+      <li><b>Nemotron-Personas Malaysia</b> (YTL AI Labs and NVIDIA, September 2026): 1.35 million synthetic personas with occupation, region, age and ethnicity, generated from official Malaysian statistics. Reported as CC BY 4.0. These are personas, not resumes, but could seed synthetic Malaysian test resumes.</li>
+      <li><b>data.gov.my</b>: aggregate labour statistics (registrants, vacancies, placements), useful context but not resume text.</li>
+      <li><b>Commercial JobStreet feeds and scrapers</b>: job postings rather than resumes; paid, and scraping conflicts with JobStreet's terms. Not used.</li>
+    </ul>
+    <p class="muted">Conclusion: a small, consented set of 30–50 real Malaysian resumes, with personal details removed, remains the most credible way to check v5 on local resumes. It is needed for testing, not for retraining.</p>
+  </div>
+</section>
+
+<section id="next">
+  <h2>Next steps</h2>
+  <div class="panel scroll">
+    <table>
+      <thead><tr><th>Item</th><th>Retraining?</th><th>Effort</th><th>Expected effect</th></tr></thead>
+      <tbody>
+        <tr><td class="wrap-cell">Deploy v5</td><td>No</td><td>One command</td><td class="wrap-cell">+6.7 points accuracy in the app</td></tr>
+        <tr><td class="wrap-cell">Read long resumes in overlapping windows and average</td><td>No</td><td>Small</td><td class="wrap-cell">Estimated +1 to 3 points; to be measured on validation first</td></tr>
+        <tr><td class="wrap-cell">Show one or three directions depending on confidence</td><td>No</td><td>Small</td><td class="wrap-cell">94.9% accuracy on the 85% of resumes shown a single answer</td></tr>
+        <tr><td class="wrap-cell">Test on 30–50 consented Malaysian resumes</td><td>No</td><td>Needs volunteers</td><td class="wrap-cell">First evidence of performance on local resumes</td></tr>
+        <tr><td class="wrap-cell">Semantic skill matching in the fit score (e.g. "spreadsheets" ≈ Excel)</td><td>No (pre-trained embedding model)</td><td>Medium</td><td class="wrap-cell">Fewer missed skills in fit scores</td></tr>
+        <tr><td class="wrap-cell">Larger model (DeBERTa-v3-base)</td><td>Yes, ≈ 2 h</td><td>High</td><td class="wrap-cell">Possibly +1 to 2 points, 3× slower; deferred</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <div><b>Data.</b> ResumeAtlas (MIT) and Kaggle Resume Dataset (CC0): 14,081 resumes after de-duplication, 45 categories, 11,264 train / 2,817 test. Run B used 10,137 for training and 1,127 for validation. All data and model files stay on the developer's machine and are not uploaded to Supabase or Git.</div>
+  <div><b>Reproduce.</b> <code>conda activate careerbridge-train</code>, then from <code>ai_backend/</code>: <code>python training/finetune_transformer.py</code>; import with <code>python -m app.ml.transformer import models/transformer-candidate</code>; evaluate with <code>python -m app.ml.evaluate v5</code>.</div>
+</footer>
+</div>
+
+<script>
+(function () {
+  // metric bars, scale 0.70 → 1.00
+  var metrics = [
+    ["Category top-1", 0.8154, 0.8821], ["Macro F1", 0.8092, 0.8677], ["Category top-3", 0.9379, 0.9379],
+    ["Field top-1", 0.8548, 0.9191], ["Field top-3", 0.9638, 0.9617]
+  ];
+  var lo = 0.70, hi = 1.00, pct = function (v) { return ((v - lo) / (hi - lo) * 100) + "%"; };
+  var bars = document.getElementById("bars");
+  metrics.forEach(function (m) {
+    var row = document.createElement("div"); row.className = "bar-row";
+    row.innerHTML = '<div class="bar-label">' + m[0] + '</div><div class="track">' +
+      '<div class="bar v2" style="width:' + pct(m[1]) + '"><span>' + m[1].toFixed(3) + '</span></div>' +
+      '<div class="bar v5" style="width:' + pct(m[2]) + '"><span>' + m[2].toFixed(3) + '</span></div></div>';
+    bars.appendChild(row);
+  });
+  var axis = document.createElement("div"); axis.className = "axis";
+  var t = '<div></div><div class="ticks" style="margin-right:3.5rem">';
+  [0.70, 0.80, 0.90, 1.00].forEach(function (v) { t += '<i style="left:' + pct(v) + '">' + v.toFixed(2) + '</i>'; });
+  axis.innerHTML = t + "</div>"; bars.appendChild(axis);
+
+  // per-category dumbbells, scale 0.30 → 1.00, sorted by change (largest gain first)
+  var rows = [["BPO",0.742,0.545],["PMO",0.882,0.695],["React Developer",0.615,0.524],["ETL Developer",0.94,0.865],["Automobile",0.765,0.705],["DotNet Developer",0.916,0.867],["Python Developer",0.765,0.719],["Java Developer",0.935,0.909],["DevOps",0.977,0.978],["Arts",0.803,0.806],["Health and Fitness",0.885,0.887],["Mechanical Engineer",0.931,0.962],["Apparel",0.795,0.828],["Accountant",0.888,0.932],["Architecture",0.829,0.883],["SAP Developer",0.891,0.946],["Agriculture",0.792,0.85],["Public Relations",0.848,0.907],["Banking",0.841,0.901],["SQL Developer",0.733,0.8],["Finance",0.79,0.859],["Food and Beverages",0.891,0.96],["Operations Manager",0.866,0.935],["Building and Construction",0.872,0.943],["Electrical Engineering",0.889,0.964],["Blockchain",0.857,0.933],["Civil Engineer",0.901,0.983],["Consultant",0.807,0.89],["Network Security Engineer",0.884,0.968],["Aviation",0.848,0.933],["Human Resources",0.855,0.946],["Business Analyst",0.844,0.944],["Designing",0.75,0.867],["Advocate",0.789,0.908],["Database",0.731,0.851],["Information Technology",0.764,0.89],["Digital Media",0.781,0.912],["Data Science",0.788,0.933],["Education",0.79,0.939],["Healthcare",0.566,0.717],["Sales",0.711,0.865],["Web Designing",0.713,0.873],["Business Development",0.773,0.941],["Testing",0.803,0.984],["Management",0.38,0.597]];
+  rows.reverse();
+  var L = 0.30, H = 1.00, p2 = function (v) { return ((v - L) / (H - L) * 100); };
+  var db = document.getElementById("db");
+  rows.forEach(function (r) {
+    var d = r[2] - r[1], a = Math.min(p2(r[1]), p2(r[2])), b = Math.max(p2(r[1]), p2(r[2]));
+    var col = d >= 0 ? "var(--good)" : "var(--bad)";
+    var el = document.createElement("div"); el.className = "db-row";
+    el.title = r[0] + ": v2 " + r[1].toFixed(3) + " → v5 " + r[2].toFixed(3);
+    el.innerHTML = '<span class="db-name">' + r[0] + '</span><div class="db-line">' +
+      '<div class="db-seg" style="left:' + a + '%;width:' + (b - a) + '%;background:' + col + '"></div>' +
+      '<div class="db-dot v2" style="left:' + p2(r[1]) + '%"></div><div class="db-dot v5" style="left:' + p2(r[2]) + '%"></div></div>' +
+      '<span class="db-d" style="color:' + col + '">' + (d >= 0 ? "+" : "−") + Math.abs(d).toFixed(3) + '</span>';
+    db.appendChild(el);
+  });
+  var tk = document.getElementById("dbticks"), s = "";
+  [0.3, 0.5, 0.7, 0.9].forEach(function (v) { s += '<i style="left:' + p2(v) + '%">' + v.toFixed(1) + '</i>'; });
+  tk.innerHTML = s;
+
+  // loss curve, run B (logged loss / 2)
+  var steps = [], loss = [];
+  var raw = [7.659,7.590,7.401,7.016,6.605,5.936,5.226,4.812,4.333,3.966,3.532,2.980,2.806,2.342,2.306,2.210,1.927,1.986,1.721,1.540,1.686,1.659,1.608,1.398,1.428,1.272,1.242,1.177,1.136,1.035,1.059,1.109,1.125,1.053,0.966,1.016,1.017,0.981,0.752,0.870,0.901,0.773,0.699,0.802,0.829,0.930,0.822,0.729,0.832,0.718];
+  raw.forEach(function (v, i) { steps.push(60 + i * 50); loss.push(v / 2); });
+  var W = 720, Hh = 260, ml = 44, mr = 16, mt = 12, mb = 34, x1 = 2536, y1 = 4;
+  var X = function (s) { return ml + s / x1 * (W - ml - mr); }, Y = function (v) { return mt + (1 - v / y1) * (Hh - mt - mb); };
+  var g = '<svg viewBox="0 0 ' + W + ' ' + Hh + '" role="img" aria-label="Training loss falls from about 3.8 to about 0.36 over 2,536 steps">';
+  [0, 1, 2, 3, 4].forEach(function (v) { g += '<line class="grid" x1="' + ml + '" x2="' + (W - mr) + '" y1="' + Y(v) + '" y2="' + Y(v) + '"/><text x="' + (ml - 8) + '" y="' + (Y(v) + 4) + '" text-anchor="end">' + v.toFixed(1) + '</text>'; });
+  [634, 1268, 1902].forEach(function (s, i) { g += '<line class="epoch" x1="' + X(s) + '" x2="' + X(s) + '" y1="' + mt + '" y2="' + (Hh - mb) + '"/>'; });
+  [0, 634, 1268, 1902, 2536].forEach(function (s) { g += '<text x="' + X(s) + '" y="' + (Hh - mb + 16) + '" text-anchor="middle">' + s + '</text>'; });
+  g += '<text x="' + (W - mr) + '" y="' + (Hh - 4) + '" text-anchor="end">optimiser step</text>';
+  var pts = steps.map(function (s, i) { return X(s).toFixed(1) + "," + Y(loss[i]).toFixed(1); });
+  g += '<path class="area" d="M' + X(steps[0]) + ',' + Y(0) + ' L' + pts.join(" L") + ' L' + X(steps[steps.length - 1]) + ',' + Y(0) + ' Z"/>';
+  g += '<polyline class="loss" points="' + pts.join(" ") + '"/>';
+  var ex = X(steps[steps.length - 1]), ey = Y(loss[loss.length - 1]);
+  g += '<circle class="end" cx="' + ex + '" cy="' + ey + '" r="4"/><text x="' + (ex - 8) + '" y="' + (ey - 10) + '" text-anchor="end">' + loss[loss.length - 1].toFixed(2) + '</text>';
+  g += '<text x="' + (X(steps[0]) + 8) + '" y="' + (Y(loss[0]) + 4) + '">' + loss[0].toFixed(2) + '</text></svg>';
+  document.getElementById("losschart").innerHTML = g;
+})();
+</script>
+</body>
+</html>
