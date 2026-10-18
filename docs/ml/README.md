@@ -1,7 +1,7 @@
 # Model training report
 
 CareerBridge AI career-direction classifier, 18 October 2026.
-Open [training-report.html](training-report.html) in a browser for the charted version of this report.
+For the charted version, open [docs/report/index.html](../report/index.html) in a browser (works offline).
 
 **Summary.** v5, a fine-tuned DeBERTa-v3-small exported to ONNX, classifies 88.2% of test resumes correctly against 81.5% for the deployed v2 SVM. Both are measured on the same held-out test set: 2,817 resumes across 45 career categories. v5 is a candidate and has not been deployed yet.
 
