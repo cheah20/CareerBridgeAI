@@ -107,12 +107,17 @@ of 99% agreement (95.4–95.6%), so all three ship as fp32 ONNX.
 - **Incomplete LLM answers** — 8 of 158 synthetic resumes hit the reasoning token limit; regenerated with a larger budget.
 - **Job chaining** — a waiting script matched its own command line; process checks now match only the training process.
 
-### Next steps
+### Limits and next steps
 
-1. Collect real Malaysian and Singaporean CVs from several sources, labelled by someone other than the developer.
-2. Re-test v2 and v8 on that set before any further training.
-3. The large synthetic batch is on hold (37 resumes generated, USD 0.26).
-4. Jobs missing from the public data (administrative, logistics, oil and gas) need a field-level model.
+- **Test data.** A search for more real resumes (Malaysian and Singaporean university career centres, Malaysian
+  job sites, open datasets on Hugging Face, Kaggle and Mendeley) found no lawful source: public sets either reuse the
+  LiveCareer resumes already in the training data, are LLM-generated, or are protected against automated access.
+  The 58-CV sample pack remains the only real-CV test set.
+- **Unvalidated roles.** Administrative, logistics, supply chain and oil and gas roles have no category in the
+  public data and no real CVs to test on; results for them are not claimed.
+- **Decision.** v2 stays deployed and work returns to the application. Models will be re-tested when consented real
+  resumes are available (for example from users who agree to it). The large synthetic batch is on hold
+  (37 resumes generated, USD 0.26).
 
 ---
 
