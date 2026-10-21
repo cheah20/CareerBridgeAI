@@ -1,16 +1,19 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/theme/glass_tokens.dart';
 import '../../core/widgets/glass.dart';
 import '../../core/widgets/page_parts.dart';
+import '../auth/session.dart';
 import 'public_frame.dart';
 
-class LandingPage extends StatelessWidget {
+class LandingPage extends ConsumerWidget {
   const LandingPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return PublicFrame(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -29,6 +32,17 @@ class LandingPage extends StatelessWidget {
             children: [
               FilledButton(onPressed: () => context.go('/login'), child: const Text('Get started')),
               OutlinedButton(onPressed: () => context.go('/jobs'), child: const Text('Browse jobs')),
+              if (kDebugMode)
+                OutlinedButton.icon(
+                  key: const Key('testing-mode'),
+                  icon: const Icon(Icons.science_outlined, size: 18),
+                  onPressed: () {
+                    // Testing mode: the Job Seeker area without login; results go to the local logbook.
+                    ref.read(sessionProvider.notifier).previewAs(UserRole.jobSeeker);
+                    context.go('/seeker/analyse');
+                  },
+                  label: const Text('Testing mode'),
+                ),
             ],
           ),
           const SizedBox(height: 32),

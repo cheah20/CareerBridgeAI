@@ -10,8 +10,7 @@ import 'auth_backend.dart';
 import 'auth_widgets.dart';
 import 'session.dart';
 
-/// Email + password login. After login the router sends the user to their
-/// role's home (or the page they originally asked for).
+/// Email + password login.
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key, this.redirectTo});
 

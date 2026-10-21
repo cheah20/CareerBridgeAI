@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/theme/glass_tokens.dart';
 import '../../core/widgets/page_parts.dart';
 
-/// Web layout shared by the login and sign-up pages:
-/// welcome text on the left, the form on the right.
+/// Login and sign-up layout: welcome text left, form right.
 class AuthLayout extends StatelessWidget {
   const AuthLayout({super.key, required this.kicker, required this.title, required this.subtitle, required this.form});
 

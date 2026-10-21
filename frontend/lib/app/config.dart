@@ -1,7 +1,5 @@
 /// Run-time settings passed with `--dart-define-from-file=config/dev.json`.
-///
-/// Only public values belong here (the publishable key is safe in the
-/// browser; RLS protects the data). Never put secret keys in the frontend.
+/// Public values only. The publishable key is safe in the browser.
 abstract final class AppConfig {
   static const supabaseUrl = String.fromEnvironment('SUPABASE_URL');
   static const supabasePublishableKey = String.fromEnvironment('SUPABASE_PUBLISHABLE_KEY');

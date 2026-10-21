@@ -6,7 +6,9 @@ import '../helpers.dart';
 
 // Parked mobile fallback (lib/mobile_ui): keep it from breaking.
 void main() {
-  testWidgets('phone shows the bottom bar, and pages fit without overflow', (tester) async {
+  testWidgets('phone shows the bottom bar, and pages fit without overflow', (
+    tester,
+  ) async {
     final container = await pumpApp(tester, const Size(390, 844));
     container.read(routerProvider).go('/login');
     await tester.pumpAndSettle();
@@ -20,6 +22,9 @@ void main() {
     // Every role's home must lay out cleanly on a phone (overflow fails the test).
     container.read(routerProvider).go('/');
     await tester.pumpAndSettle();
-    expect(find.text('Find the career your resume is ready for.'), findsOneWidget);
+    expect(
+      find.text('Find the career your resume is ready for.'),
+      findsOneWidget,
+    );
   });
 }

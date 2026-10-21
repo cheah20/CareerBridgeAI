@@ -5,8 +5,14 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   const guest = Session.guest();
   const loading = Session(status: SessionStatus.loading);
-  const seeker = Session(status: SessionStatus.signedIn, role: UserRole.jobSeeker);
-  const recruiter = Session(status: SessionStatus.signedIn, role: UserRole.recruiter);
+  const seeker = Session(
+    status: SessionStatus.signedIn,
+    role: UserRole.jobSeeker,
+  );
+  const recruiter = Session(
+    status: SessionStatus.signedIn,
+    role: UserRole.recruiter,
+  );
   const admin = Session(status: SessionStatus.signedIn, role: UserRole.admin);
 
   String? go(Session s, String location) => redirectFor(s, Uri.parse(location));
@@ -24,14 +30,20 @@ void main() {
     });
 
     test('leave the loading page when the login did not complete', () {
-      expect(go(guest, '/loading?from=%2Fseeker%2Fjobs'), '/login?from=%2Fseeker%2Fjobs');
+      expect(
+        go(guest, '/loading?from=%2Fseeker%2Fjobs'),
+        '/login?from=%2Fseeker%2Fjobs',
+      );
     });
   });
 
   group('while the role is loading', () {
     test('everything waits on /loading, keeping the target', () {
       expect(go(loading, '/loading'), isNull);
-      expect(go(loading, '/login?from=%2Fseeker%2Fjobs'), '/loading?from=%2Fseeker%2Fjobs');
+      expect(
+        go(loading, '/login?from=%2Fseeker%2Fjobs'),
+        '/loading?from=%2Fseeker%2Fjobs',
+      );
       expect(go(loading, '/login'), '/loading');
     });
   });

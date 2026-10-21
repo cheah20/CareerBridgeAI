@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/widgets/glass.dart';
 import '../../core/widgets/list_parts.dart';
 import '../../core/widgets/page_parts.dart';
+import '../shell/server_status.dart';
 
 /// Admin dashboard with sample data (real data arrives in Phases 5–6).
 class AdminOverviewPage extends StatelessWidget {
@@ -17,7 +18,7 @@ class AdminOverviewPage extends StatelessWidget {
           kicker: 'System overview',
           title: 'Everything running smoothly.',
           subtitle: 'Pending reviews, the current AI model, errors and API usage in one place.',
-          trailing: GlassChip(label: 'Sample data'),
+          trailing: Row(mainAxisSize: MainAxisSize.min, children: [ServerStatusChip(), GlassChip(label: 'Sample data')]),
         ),
         SizedBox(height: Gaps.section),
         StatStrip(items: [

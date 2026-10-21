@@ -9,8 +9,7 @@ import 'auth_backend.dart';
 import 'auth_widgets.dart';
 import 'session.dart';
 
-/// Create an account as a Job Seeker or Recruiter. Admin accounts are never
-/// created here (the database sign-up trigger also refuses them).
+/// Create an account as a Job Seeker or Recruiter.
 class SignUpPage extends StatelessWidget {
   const SignUpPage({super.key});
 

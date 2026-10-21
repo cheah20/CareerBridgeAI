@@ -2,13 +2,8 @@ import 'dart:ui' show lerpDouble;
 
 import 'package:flutter/material.dart';
 
-/// Every colour and glass value of the visionOS-style design, in one place.
-///
-/// Two looks share the same layout:
-/// * [GlassTokens.smoke] — default: dark smoke glass, white text.
-/// * [GlassTokens.ice]   — optional light mode: light glass, dark text.
-///
-/// Read them in widgets with `GlassTokens.of(context)`.
+/// All app colours in one place. [GlassTokens.paper] is the default.
+/// Use `GlassTokens.of(context)` to read them.
 @immutable
 class GlassTokens extends ThemeExtension<GlassTokens> {
   const GlassTokens({
@@ -111,6 +106,35 @@ class GlassTokens extends ThemeExtension<GlassTokens> {
     blurSigma: 40,
   );
 
+  /// Light page, white cards, dark text (default).
+  static const paper = GlassTokens(
+    brightness: Brightness.light,
+    text: Color(0xFF111827),
+    textSub: Color(0xFF4B5563),
+    textFaint: Color(0xFF5B6472),
+    shell: Color(0xFFF4F6F9),
+    shellEdge: Color(0xFFE1E6ED),
+    card: Color(0xFFFFFFFF),
+    cardEdge: Color(0xFFE1E6ED),
+    highlight: Color(0x00FFFFFF),
+    row: Color(0xFFF1F4F8),
+    selected: Color(0xFFE8F0FD),
+    accent: Color(0xFF2F6FDB),
+    focusCard: Color(0xFF111827),
+    focusText: Color(0xFFF3F6FB),
+    focusTextSub: Color(0xFFC9D1DC),
+    focusGlow: Color(0xFF1F2A44),
+    ink: Color(0xFF111827),
+    inkText: Color(0xFFFFFFFF),
+    success: Color(0xFF15803D),
+    warning: Color(0xFFB45309),
+    danger: Color(0xFFB91C1C),
+    sceneBase: Color(0xFFE9EDF2),
+    sceneBlobs: [],
+    sceneVeil: Color(0x00000000),
+    blurSigma: 0,
+  );
+
   /// Optional light mode.
   static const ice = GlassTokens(
     brightness: Brightness.light,
@@ -141,7 +165,6 @@ class GlassTokens extends ThemeExtension<GlassTokens> {
   );
 
   /// A defocused office: warm wall, window light, teal chair, wooden desk.
-  /// Positions are fractions of the screen; blobs are drawn as soft gradients.
   static const officeScene = <SceneBlob>[
     SceneBlob(Rect.fromLTWH(-0.10, -0.15, 0.70, 0.55), Color(0xFFF1EDE6)),
     SceneBlob(Rect.fromLTWH(0.57, -0.10, 0.55, 0.60), Color(0xFFA9C4DD)),

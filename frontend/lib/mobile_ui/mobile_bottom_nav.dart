@@ -5,9 +5,7 @@ import '../app/theme/glass_tokens.dart';
 import '../features/shell/nav_items.dart';
 
 /// Bottom navigation for narrow screens (phones).
-///
-/// Parked: mobile layouts are scheduled after the web demo (see README.md in
-/// this folder). It is only used as a basic fallback when the window is narrow.
+/// Parked: mobile layouts are scheduled after the web demo (see README.md in this folder).
 class MobileBottomNav extends StatelessWidget {
   const MobileBottomNav({super.key, required this.items, required this.current});
 

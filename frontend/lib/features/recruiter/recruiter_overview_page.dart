@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/widgets/glass.dart';
 import '../../core/widgets/list_parts.dart';
 import '../../core/widgets/page_parts.dart';
+import '../shell/server_status.dart';
 
 /// Recruiter home with sample data (real data arrives in Phases 4–5).
 class RecruiterOverviewPage extends StatelessWidget {
@@ -18,7 +19,7 @@ class RecruiterOverviewPage extends StatelessWidget {
           title: 'Hiring at a glance.',
           subtitle: 'Applicants are sorted by AI match. The match is a fit indicator only — '
               'you review every candidate and make the decision.',
-          trailing: GlassChip(label: 'Sample data'),
+          trailing: Row(mainAxisSize: MainAxisSize.min, children: [ServerStatusChip(), GlassChip(label: 'Sample data')]),
         ),
         SizedBox(height: Gaps.section),
         StatStrip(items: [

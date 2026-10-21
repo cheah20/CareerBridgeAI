@@ -6,8 +6,7 @@ import 'package:supabase_flutter/supabase_flutter.dart' as sb;
 
 import '../../app/config.dart';
 
-/// Login/sign-up operations. An interface so tests can use a fake instead of
-/// the real Supabase project.
+/// Login/sign-up operations.
 abstract class AuthBackend {
   /// Access token of the current login, or null when logged out.
   String? get currentAccessToken;
@@ -57,8 +56,7 @@ final authBackendProvider = Provider<AuthBackend>(
   (ref) => AppConfig.isComplete ? SupabaseAuthBackend(sb.Supabase.instance.client) : const UnconfiguredAuthBackend(),
 );
 
-/// Used when the app was started without config/dev.json: the UI still works,
-/// and login explains what is missing.
+/// Used when config/dev.json is missing; login explains what to do.
 class UnconfiguredAuthBackend implements AuthBackend {
   const UnconfiguredAuthBackend();
 

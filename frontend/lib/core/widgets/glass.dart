@@ -4,12 +4,8 @@ import 'package:flutter/material.dart';
 
 import '../../app/theme/glass_tokens.dart';
 
-/// Soft, defocused "photo" behind the glass. Drawn with radial gradients
-/// (no blur filter), so it costs almost nothing to render.
-///
-/// The scene drifts very slowly (moving background, still cards). Only the
-/// scene layer is transformed, and it stays still when the system asks for
-/// reduced motion.
+/// Soft, defocused "photo" behind the glass.
+/// The scene drifts very slowly (moving background, still cards).
 class SceneBackground extends StatefulWidget {
   const SceneBackground({super.key});
 
@@ -39,6 +35,7 @@ class _SceneBackgroundState extends State<SceneBackground> with SingleTickerProv
   @override
   Widget build(BuildContext context) {
     final t = GlassTokens.of(context);
+    if (t.sceneBlobs.isEmpty) return ColoredBox(color: t.sceneBase); // flat look: nothing to drift
     final scene = RepaintBoundary(child: CustomPaint(painter: _ScenePainter(t.sceneBase, t.sceneBlobs)));
     return Stack(
       fit: StackFit.expand,
@@ -96,8 +93,7 @@ class _ScenePainter extends CustomPainter {
   bool shouldRepaint(_ScenePainter old) => old.base != base || old.blobs != blobs;
 }
 
-/// The big floating glass window. The only widget that uses a real
-/// background blur ([BackdropFilter]) — keep it to one per screen.
+/// The big floating glass window.
 class GlassWindow extends StatelessWidget {
   const GlassWindow({super.key, required this.child, this.padding = const EdgeInsets.all(18)});
 
@@ -116,25 +112,25 @@ class GlassWindow extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(radius),
-        child: BackdropFilter(
-          filter: ui.ImageFilter.blur(sigmaX: t.blurSigma, sigmaY: t.blurSigma),
-          child: _GlassSurface(
-            color: t.shell,
-            edge: t.shellEdge,
-            highlight: t.highlight,
-            radius: radius,
-            padding: padding,
-            child: child,
-          ),
-        ),
+        child: t.blurSigma == 0
+            ? _GlassSurface(color: t.shell, edge: t.shellEdge, highlight: t.highlight, radius: radius, padding: padding, child: child)
+            : BackdropFilter(
+                filter: ui.ImageFilter.blur(sigmaX: t.blurSigma, sigmaY: t.blurSigma),
+                child: _GlassSurface(
+                  color: t.shell,
+                  edge: t.shellEdge,
+                  highlight: t.highlight,
+                  radius: radius,
+                  padding: padding,
+                  child: child,
+                ),
+              ),
       ),
     );
   }
 }
 
-/// A card on the glass window: translucent fill, white hairline and a top
-/// highlight, with a light shadow so it floats. Looks like glass without the
-/// cost of a real blur.
+/// A card with a thin border and a light shadow.
 class GlassCard extends StatelessWidget {
   const GlassCard({
     super.key,

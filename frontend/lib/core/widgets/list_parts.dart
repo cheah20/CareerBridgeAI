@@ -36,9 +36,7 @@ class TwoPane extends StatelessWidget {
 }
 
 /// A row inside a glass card: initials badge, title + subtitle, value on the right.
-///
-/// Colour is restrained: the value is plain text; only a thin line under it
-/// carries the accent colour.
+/// Plain value text with a thin coloured line under it.
 class GlassListRow extends StatelessWidget {
   const GlassListRow({
     super.key,

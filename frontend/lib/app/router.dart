@@ -12,20 +12,15 @@ import '../features/public/landing_page.dart';
 import '../features/public/public_jobs_page.dart';
 import '../features/recruiter/recruiter_overview_page.dart';
 import '../features/seeker/seeker_overview_page.dart';
+import '../features/testing/logbook_page.dart';
+import '../features/testing/resume_analysis_page.dart';
 import '../features/shell/app_shell.dart';
 import '../features/shell/nav_items.dart';
 
 const _publicPaths = {'/', '/jobs', '/login', '/signup'};
 const _authPaths = {'/login', '/signup', '/loading'};
 
-/// Decides where a request may go. Pure function so it is easy to test.
-///
-/// * While the role is loading after login, show /loading.
-/// * Guests may only see public pages; anything else sends them to /login.
-/// * Signed-in users stay inside their own role's area (/seeker, /recruiter,
-///   /admin) and skip the login pages.
-/// * The frontend check is for navigation only — the backend and RLS
-///   enforce the real permissions.
+/// Decides where a request may go.
 String? redirectFor(Session session, Uri uri) {
   final path = uri.path;
   // Remember where the user was going across /login and /loading.
@@ -91,7 +86,11 @@ Widget _pageFor(UserRole role, NavItem item) {
       UserRole.admin => const AdminOverviewPage(),
     };
   }
-  return ComingSoonPage(title: item.label, description: item.description, phase: item.phase);
+  return switch (item.path) {
+    '/seeker/analyse' => const ResumeAnalysisPage(),
+    '/seeker/logbook' => const LogbookPage(),
+    _ => ComingSoonPage(title: item.label, description: item.description, phase: item.phase),
+  };
 }
 
 /// Pages fade and rise slightly into place.

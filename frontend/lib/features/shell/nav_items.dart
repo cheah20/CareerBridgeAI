@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../auth/session.dart';
@@ -25,10 +26,15 @@ class NavItem {
   final String phase;
 }
 
-/// Navigation for each role. Each item maps to a confirmed core feature in
-/// docs/requirements.md (§5 Job Seeker, §6 Recruiter, §7 Admin).
+/// Items shown in the sidebar: the Testing group exists in debug builds only.
+List<NavItem> navItemsFor(UserRole role) =>
+    [for (final item in navItemsByRole[role]!) if (kDebugMode || item.group != 'Testing') item];
+
+/// Navigation for each role.
 const Map<UserRole, List<NavItem>> navItemsByRole = {
   UserRole.jobSeeker: [
+    NavItem(path: '/seeker/analyse', label: 'Resume analysis', icon: Icons.science_outlined, group: 'Testing'),
+    NavItem(path: '/seeker/logbook', label: 'Test logbook', icon: Icons.menu_book_outlined, group: 'Testing'),
     NavItem(path: '/seeker', label: 'Overview', icon: Icons.space_dashboard_outlined, group: 'Job seeker'),
     NavItem(
       path: '/seeker/resume',

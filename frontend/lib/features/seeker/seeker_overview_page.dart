@@ -4,9 +4,9 @@ import '../../app/theme/glass_tokens.dart';
 import '../../core/widgets/glass.dart';
 import '../../core/widgets/list_parts.dart';
 import '../../core/widgets/page_parts.dart';
+import '../shell/server_status.dart';
 
-/// Job Seeker home. Shows the final layout with sample data; real data
-/// arrives with resume analysis (Phase 2) and matching (Phase 3).
+/// Job Seeker home.
 class SeekerOverviewPage extends StatelessWidget {
   const SeekerOverviewPage({super.key});
 
@@ -21,7 +21,7 @@ class SeekerOverviewPage extends StatelessWidget {
           title: 'Your career this week.',
           subtitle: 'Your best direction is Data Analyst. Two new jobs match above 80%, '
               'and adding Power BI would lift your top match by about 6 points.',
-          trailing: GlassChip(label: 'Sample data'),
+          trailing: Row(mainAxisSize: MainAxisSize.min, children: [ServerStatusChip(), GlassChip(label: 'Sample data')]),
         ),
         const SizedBox(height: Gaps.section),
         const StatStrip(items: [

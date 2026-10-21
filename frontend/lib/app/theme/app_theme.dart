@@ -3,25 +3,25 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'glass_tokens.dart';
 
-enum GlassStyle { smoke, ice }
+enum GlassStyle { paper, smoke, ice }
 
-/// Which look the user picked (default: smoke). Toggled from the top bar.
+/// Which look the user picked (default: paper).
 final glassStyleProvider = NotifierProvider<GlassStyleNotifier, GlassStyle>(GlassStyleNotifier.new);
 
 class GlassStyleNotifier extends Notifier<GlassStyle> {
   @override
-  GlassStyle build() => GlassStyle.smoke;
+  GlassStyle build() => GlassStyle.paper;
 
-  void toggle() => state = state == GlassStyle.smoke ? GlassStyle.ice : GlassStyle.smoke;
+  void toggle() => state = state == GlassStyle.paper ? GlassStyle.smoke : GlassStyle.paper;
 }
 
 GlassTokens tokensFor(GlassStyle style) => switch (style) {
+  GlassStyle.paper => GlassTokens.paper,
   GlassStyle.smoke => GlassTokens.smoke,
   GlassStyle.ice => GlassTokens.ice,
 };
 
-/// Material 3 theme customised to the glass design. Components read colours
-/// from [GlassTokens] so both looks stay consistent.
+/// Material 3 theme customised to the glass design.
 ThemeData buildAppTheme(GlassTokens t) {
   final scheme = ColorScheme.fromSeed(seedColor: t.accent, brightness: t.brightness).copyWith(
     primary: t.ink,

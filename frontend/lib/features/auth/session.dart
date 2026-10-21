@@ -58,8 +58,7 @@ class Session {
   String get displayName => isPreview ? 'Preview ${role?.label ?? ''}' : (email ?? role?.label ?? '');
 }
 
-/// Current session. Follows Supabase login state and asks the backend
-/// (`GET /me`) for the user's role.
+/// Current session.
 final sessionProvider = NotifierProvider<SessionNotifier, Session>(SessionNotifier.new);
 
 class SessionNotifier extends Notifier<Session> {
@@ -100,7 +99,7 @@ class SessionNotifier extends Notifier<Session> {
     await ref.read(authBackendProvider).signIn(email: email, password: password);
   }
 
-  /// Creates an account. Returns true when the email must be confirmed first.
+  /// Creates an account.
   Future<bool> signUp({
     required String email,
     required String password,
@@ -123,7 +122,6 @@ class SessionNotifier extends Notifier<Session> {
   }
 
   /// Developer preview: open a role's layout without logging in (debug only).
-  /// Backend calls are not authorised in this mode.
   void previewAs(UserRole role) {
     assert(kDebugMode, 'Developer preview is only available in debug builds.');
     state = Session(status: SessionStatus.signedIn, role: role, isPreview: true);

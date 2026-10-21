@@ -5,19 +5,22 @@ import 'package:flutter_test/flutter_test.dart';
 import 'helpers.dart';
 
 void main() {
-  testWidgets('guest opening a role page lands on login, then the preview opens that page', (tester) async {
-    final container = await pumpApp(tester, const Size(1280, 860));
+  testWidgets(
+    'guest opening a role page lands on login, then the preview opens that page',
+    (tester) async {
+      final container = await pumpApp(tester, const Size(1280, 860));
 
-    container.read(routerProvider).go('/seeker/resume');
-    await tester.pumpAndSettle();
-    expect(find.text('Log in to CareerBridge.'), findsOneWidget);
+      container.read(routerProvider).go('/seeker/resume');
+      await tester.pumpAndSettle();
+      expect(find.text('Log in to CareerBridge.'), findsOneWidget);
 
-    await tester.ensureVisible(find.byKey(const Key('preview-seeker')));
-    await tester.tap(find.byKey(const Key('preview-seeker')));
-    await tester.pumpAndSettle();
-    expect(find.text('Coming in Phase 2'.toUpperCase()), findsOneWidget);
-    expect(find.text('Resume profile'), findsWidgets);
-  });
+      await tester.ensureVisible(find.byKey(const Key('preview-seeker')));
+      await tester.tap(find.byKey(const Key('preview-seeker')));
+      await tester.pumpAndSettle();
+      expect(find.text('Coming in Phase 2'.toUpperCase()), findsOneWidget);
+      expect(find.text('Resume profile'), findsWidgets);
+    },
+  );
 
   testWidgets('desktop shows the sidebar, not the bottom bar', (tester) async {
     final container = await pumpApp(tester, const Size(1280, 860));
@@ -32,7 +35,9 @@ void main() {
     expect(find.byKey(const Key('bottom-nav')), findsNothing);
   });
 
-  testWidgets('theme toggle switches between smoke and ice glass', (tester) async {
+  testWidgets('theme toggle switches between the light page and dark glass', (
+    tester,
+  ) async {
     final container = await pumpApp(tester, const Size(1280, 860));
     container.read(routerProvider).go('/login');
     await tester.pumpAndSettle();
@@ -40,9 +45,17 @@ void main() {
     await tester.tap(find.byKey(const Key('preview-admin')));
     await tester.pumpAndSettle();
 
-    expect(Theme.of(tester.element(find.text('Everything running smoothly.'))).brightness, Brightness.dark);
-    await tester.tap(find.byTooltip('Switch to light glass'));
+    expect(
+      Theme.of(tester.element(find.text('Everything running smoothly.')))
+          .brightness,
+      Brightness.light,
+    );
+    await tester.tap(find.byTooltip('Switch to dark'));
     await tester.pumpAndSettle();
-    expect(Theme.of(tester.element(find.text('Everything running smoothly.'))).brightness, Brightness.light);
+    expect(
+      Theme.of(tester.element(find.text('Everything running smoothly.')))
+          .brightness,
+      Brightness.dark,
+    );
   });
 }

@@ -11,7 +11,6 @@ import '../auth/session.dart';
 import 'nav_items.dart';
 
 /// The floating glass window around every signed-in page, with the sidebar.
-/// Narrow windows fall back to the parked mobile bottom navigation (lib/mobile_ui).
 class AppShell extends ConsumerWidget {
   const AppShell({super.key, required this.child});
 
@@ -21,7 +20,7 @@ class AppShell extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final role = ref.watch(sessionProvider).role;
     if (role == null) return const SizedBox.shrink(); // the router redirects guests away
-    final items = navItemsByRole[role]!;
+    final items = navItemsFor(role);
     final location = GoRouterState.of(context).uri.path;
     final current = _currentItem(items, location);
     final size = ScreenSize.of(context);
@@ -212,7 +211,7 @@ class _TopBar extends ConsumerWidget {
                   ),
           ),
           IconButton(
-            tooltip: style == GlassStyle.smoke ? 'Switch to light glass' : 'Switch to dark glass',
+            tooltip: style == GlassStyle.smoke ? 'Switch to light' : 'Switch to dark',
             onPressed: () => ref.read(glassStyleProvider.notifier).toggle(),
             icon: Icon(style == GlassStyle.smoke ? Icons.light_mode_outlined : Icons.dark_mode_outlined, color: t.textSub),
           ),
