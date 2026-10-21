@@ -3,11 +3,11 @@
 Hand in your work here. Nothing in this folder is part of the running website.
 The owner reviews each task and later turns good pages into the real app (Flutter).
 
-| Teammate | Folder | Pages |
-|---|---|---|
-| Ong | [`ong/`](ong/) | Admin pages |
-| Fiqz | [`fiqz/`](fiqz/) | Recruiter pages |
-| Fathiyah | [`fathiyah/`](fathiyah/) | Job Seeker pages |
+| Teammate | GitHub | Folder | Pages |
+|---|---|---|---|
+| Ong | @Ong8877 | [`ong/`](ong/) | Admin pages |
+| Fiqz | @fiqzlearn | [`fiqz/`](fiqz/) | Recruiter pages |
+| Fathiyah | @nrfathz | [`fathiyah/`](fathiyah/) | Job Seeker pages |
 
 ## How a task folder looks
 
