@@ -1,0 +1,100 @@
+{
+  "role": "SAP Consultant",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.004976,
+  "skills": [
+    {
+      "name": "SAP module configuration",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "SAP S/4HANA",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "Requirements gathering",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Business process analysis",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "SAP ECC",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Stakeholder communication",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "SAP FICO",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "SAP ABAP",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Problem solving",
+      "type": "soft",
+      "importance": 0.45
+    },
+    {
+      "name": "SAP MM",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "SAP SD",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "SAP integration (IDoc, RFC, BAPI)",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "SAP Activate methodology",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "SAP Certified Application Associate",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "SQL",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "JIRA",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "ServiceNow",
+      "type": "tool",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "Malaysia and Singapore SAP roles often emphasise S/4HANA migration plus local statutory reporting and e-invoicing requirements such as SST/GST and LHDN/IRAS-related compliance."
+}

@@ -1,0 +1,100 @@
+{
+  "role": "M&E Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002305,
+  "skills": [
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.85
+    },
+    {
+      "name": "M&E coordination",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Autodesk Revit (BIM)",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "HVAC design",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Electrical systems design",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Testing and commissioning (T&C)",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Fire protection systems",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Plumbing and sanitary systems",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Site supervision",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Authority submissions (BCA/SCDF/PUB)",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "CIDB Green Card",
+      "type": "certification",
+      "importance": 0.4
+    },
+    {
+      "name": "Suruhanjaya Tenaga (Energy Commission) competent person",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "Singapore Certified Energy Manager (SCEM)",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Green Mark Accredited Professional (GMAP)",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Teamwork",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.35
+    }
+  ],
+  "local_notes": "Malaysian ads often cite CIDB Green Card and Suruhanjaya Tenaga competent-person status; Singapore ads often cite BCA/SCDF/PUB submissions, SCEM and Green Mark credentials."
+}

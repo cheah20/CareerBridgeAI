@@ -1,0 +1,100 @@
+{
+  "role": "Food Technologist",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.005845,
+  "skills": [
+    {
+      "name": "HACCP",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Food safety regulations (Malaysia Food Act 1983/Food Regulations 1985; Singapore Food Regulations)",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Quality assurance and quality control (QA/QC)",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "ISO 22000",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Good Manufacturing Practice (GMP)",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Food microbiology",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Product development / R&D",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Food chemistry",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Food labelling compliance",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Halal certification (JAKIM/MUIS)",
+      "type": "certification",
+      "importance": 0.5
+    },
+    {
+      "name": "Attention to detail",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Shelf-life testing",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Sensory evaluation",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Food processing technologies",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "ISO 22000/HACCP internal auditing",
+      "type": "certification",
+      "importance": 0.4
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Laboratory Information Management System (LIMS)",
+      "type": "tool",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "Malaysia employers often specify JAKIM Halal Executive certification and MeSTI, while Singapore employers reference SFA Food Regulations and WSQ Food Hygiene certification."
+}

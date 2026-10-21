@@ -1,0 +1,100 @@
+{
+  "role": "Aircraft Maintenance Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002116,
+  "skills": [
+    {
+      "name": "Aircraft Maintenance Licence (CAAM Part-66 / CAAS SAR-66)",
+      "type": "certification",
+      "importance": 0.75
+    },
+    {
+      "name": "Aircraft type rating (Boeing 737, Airbus A320, ATR 72, Boeing 777)",
+      "type": "certification",
+      "importance": 0.7
+    },
+    {
+      "name": "Aircraft systems troubleshooting and fault diagnosis",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Aircraft Maintenance Manual (AMM), IPC and ATA chapter documentation",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Airworthiness Directives (AD) and Service Bulletin (SB) compliance",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Line maintenance and base maintenance checks (A-check, C-check)",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Hydraulic and pneumatic system repair",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Aircraft electrical and avionics systems (EWIS)",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Maintenance management software (AMOS, TRAX, Ramco Aviation)",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Non-destructive testing (NDT: dye penetrant, eddy current, ultrasonic)",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Human Factors and Safety Management System (SMS) training",
+      "type": "certification",
+      "importance": 0.4
+    },
+    {
+      "name": "Engine boroscope inspection and engine ground run",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Sheet metal and composite structural repair",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Attention to detail",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "Fuel Tank Safety (FTS) training",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Airside Driving Permit",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Teamwork and shift-work adaptability",
+      "type": "soft",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "In Malaysia a CAAM Part-66 licence and in Singapore a CAAS SAR-66 licence (or an accepted EASA Part-66/FAA A&P with type ratings on the B737, A320 or ATR 72 fleets serviced by local MROs such as SIA Engineering, ST Engineering and Malaysia Airlines Engineering) are the standard entry requirements."
+}

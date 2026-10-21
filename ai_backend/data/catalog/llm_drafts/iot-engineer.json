@@ -1,0 +1,100 @@
+{
+  "role": "IoT Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.003253,
+  "skills": [
+    {
+      "name": "Python",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "C/C++",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "MQTT",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Linux",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "AWS IoT Core",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Git",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Azure IoT Hub",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Docker",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "TCP/IP",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Raspberry Pi",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "ESP32",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "LoRaWAN",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Kubernetes",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Zigbee",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "CCNA",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "type": "certification",
+      "importance": 0.25
+    }
+  ],
+  "local_notes": "Malaysia and Singapore job ads often value hands-on experience with Smart Nation/IR4.0 pilot projects and regional AWS/Azure cloud deployments."
+}

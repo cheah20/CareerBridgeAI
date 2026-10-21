@@ -1,0 +1,100 @@
+{
+  "role": "Electronics Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.006559,
+  "skills": [
+    {
+      "name": "Electronic circuit design",
+      "type": "hard",
+      "importance": 0.85
+    },
+    {
+      "name": "PCB design",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Electronic testing and debugging",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Embedded systems",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Altium Designer",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "C/C++",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "Microcontrollers",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Schematic capture",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Oscilloscope",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "EMC/EMI compliance",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "MATLAB/Simulink",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.45
+    },
+    {
+      "name": "Design for Manufacturing (DFM)",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "LabVIEW",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Board of Engineers Malaysia (BEM) registration",
+      "type": "certification",
+      "importance": 0.15
+    },
+    {
+      "name": "Professional Engineer (PE) registration",
+      "type": "certification",
+      "importance": 0.15
+    }
+  ],
+  "local_notes": "In Malaysia, employers often reference BEM registration and SIRIM/IEC compliance, while Singapore ads may ask for PE registration and IEC/EMC standards; list exact CAD/test tools and standards on the resume."
+}

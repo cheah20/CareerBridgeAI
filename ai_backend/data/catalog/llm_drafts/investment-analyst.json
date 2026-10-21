@@ -1,0 +1,100 @@
+{
+  "role": "Investment Analyst",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002113,
+  "skills": [
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.85
+    },
+    {
+      "name": "Financial Modelling",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Valuation",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Financial Statement Analysis",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Discounted Cash Flow (DCF)",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Fundamental Analysis",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Equity Research",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Bloomberg Terminal",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Comparable Company Analysis",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "CFA",
+      "type": "certification",
+      "importance": 0.5
+    },
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Analytical Thinking",
+      "type": "soft",
+      "importance": 0.45
+    },
+    {
+      "name": "SQL",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "S&P Capital IQ",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Attention to Detail",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "Power BI",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "In Malaysia and Singapore, CFA is commonly listed for investment analyst roles, while Singapore-regulated investment/dealing roles may require CMFAS papers and Malaysian licensed roles may require Securities Commission Malaysia qualifications."
+}

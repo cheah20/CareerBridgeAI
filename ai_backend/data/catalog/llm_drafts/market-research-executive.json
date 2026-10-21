@@ -1,0 +1,100 @@
+{
+  "role": "Market Research Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002003,
+  "skills": [
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.85
+    },
+    {
+      "name": "Market research",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Quantitative analysis",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "type": "tool",
+      "importance": 0.68
+    },
+    {
+      "name": "Consumer behaviour analysis",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Questionnaire design",
+      "type": "hard",
+      "importance": 0.58
+    },
+    {
+      "name": "Competitor analysis",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Statistics",
+      "type": "hard",
+      "importance": 0.52
+    },
+    {
+      "name": "Report writing",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "SPSS",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Google Analytics 4",
+      "type": "tool",
+      "importance": 0.42
+    },
+    {
+      "name": "Presentation skills",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Power BI",
+      "type": "tool",
+      "importance": 0.38
+    },
+    {
+      "name": "Qualtrics",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "SQL",
+      "type": "tool",
+      "importance": 0.28
+    },
+    {
+      "name": "Salesforce",
+      "type": "tool",
+      "importance": 0.25
+    },
+    {
+      "name": "Stakeholder communication",
+      "type": "soft",
+      "importance": 0.25
+    },
+    {
+      "name": "Google Analytics 4 Certification",
+      "type": "certification",
+      "importance": 0.2
+    }
+  ],
+  "local_notes": "Employers in Malaysia and Singapore typically expect English plus Bahasa Melayu or Mandarin for survey fieldwork and focus groups, and familiarity with DOSM/Singstat and statutory board or government-agency data sources is often listed as an advantage."
+}

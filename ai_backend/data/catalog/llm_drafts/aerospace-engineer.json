@@ -1,0 +1,100 @@
+{
+  "role": "Aerospace Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.007021,
+  "skills": [
+    {
+      "name": "Aerospace engineering principles",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "CATIA V5",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "SolidWorks",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "MATLAB/Simulink",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Technical drawings/GD&T",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Finite Element Analysis (FEA)",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "ANSYS",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Aircraft systems and mechanics",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Manufacturing processes",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "AS9100",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "Computational Fluid Dynamics (CFD)",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Teamwork",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "Safety engineering",
+      "type": "hard",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "In Malaysia and Singapore, aerospace employers often expect familiarity with CAAS/EASA airworthiness regulations and AS9100 quality standards, with BEM/PEB registration valued for senior roles."
+}

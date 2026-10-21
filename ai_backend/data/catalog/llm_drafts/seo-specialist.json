@@ -1,0 +1,100 @@
+{
+  "role": "SEO Specialist",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.001503,
+  "skills": [
+    {
+      "name": "Search engine optimisation (SEO)",
+      "type": "hard",
+      "importance": 0.9
+    },
+    {
+      "name": "Google Analytics 4 (GA4)",
+      "type": "tool",
+      "importance": 0.85
+    },
+    {
+      "name": "Keyword research",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Google Search Console",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "On-page optimisation",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Technical SEO and site audits",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Content marketing",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "WordPress",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Ahrefs",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "SEMrush",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Link building",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Google Ads",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "HTML and CSS",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Google Tag Manager",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Looker Studio",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Google Analytics Certification",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.35
+    }
+  ],
+  "local_notes": "In Malaysia and Singapore, SEO roles are usually agency- or in-house e-commerce based and often require bilingual English/Mandarin content and reporting for regional (SEA/China-market) clients."
+}

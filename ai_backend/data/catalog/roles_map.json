@@ -1,0 +1,5049 @@
+{
+  "generated": "2026-10-18",
+  "roles": [
+    {
+      "field": "Information & Communication Technology",
+      "title": "Software Engineer",
+      "aka": [
+        "Software Developer",
+        "Application Developer"
+      ],
+      "ad_names": [
+        "Software Engineer",
+        "Software Developer",
+        "Application Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1",
+        "label": "software developer"
+      },
+      "matched_by": "automatic",
+      "postings": 1776,
+      "postings_by_level": {
+        "entry": 226,
+        "mid/senior": 796,
+        "junior": 88,
+        "lead": 7
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Web Developer",
+      "aka": [],
+      "ad_names": [
+        "Web Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1254.00",
+          "title": "Web Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+        "label": "web developer"
+      },
+      "matched_by": "automatic",
+      "postings": 69,
+      "postings_by_level": {
+        "mid/senior": 12,
+        "entry": 9,
+        "junior": 2
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Front-end Developer",
+      "aka": [
+        "Frontend Developer",
+        "React Developer"
+      ],
+      "ad_names": [
+        "Front-end Developer",
+        "Frontend Developer",
+        "React Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1254.00",
+          "title": "Web Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+        "label": "web developer"
+      },
+      "matched_by": "manual",
+      "postings": 103,
+      "postings_by_level": {
+        "mid/senior": 27,
+        "entry": 6,
+        "junior": 2
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Back-end Developer",
+      "aka": [
+        "Backend Developer"
+      ],
+      "ad_names": [
+        "Back-end Developer",
+        "Backend Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1",
+        "label": "software developer"
+      },
+      "matched_by": "manual",
+      "postings": 30,
+      "postings_by_level": {
+        "junior": 2,
+        "mid/senior": 11,
+        "entry": 1
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Full Stack Developer",
+      "aka": [
+        "Full-stack Developer"
+      ],
+      "ad_names": [
+        "Full Stack Developer",
+        "Full-stack Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1254.00",
+          "title": "Web Developers"
+        },
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+        "label": "web developer"
+      },
+      "matched_by": "manual",
+      "postings": 87,
+      "postings_by_level": {
+        "entry": 15,
+        "mid/senior": 37,
+        "junior": 2
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Mobile App Developer",
+      "aka": [
+        "Mobile Application Developer",
+        "Android Developer",
+        "iOS Developer",
+        "Flutter Developer"
+      ],
+      "ad_names": [
+        "Mobile App Developer",
+        "Mobile Application Developer",
+        "Android Developer",
+        "iOS Developer",
+        "Flutter Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c",
+        "label": "mobile application developer"
+      },
+      "matched_by": "automatic",
+      "postings": 72,
+      "postings_by_level": {
+        "entry": 5,
+        "mid/senior": 26,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Game Developer",
+      "aka": [
+        "Video Game Developer"
+      ],
+      "ad_names": [
+        "Game Developer",
+        "Video Game Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1255.01",
+          "title": "Video Game Designers"
+        },
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        },
+        {
+          "code": "27-1014.00",
+          "title": "Special Effects Artists and Animators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/9ebaf3f0-0be0-47b7-b2b1-b3b04130fa81",
+        "label": "digital games developer"
+      },
+      "matched_by": "manual",
+      "postings": 10,
+      "postings_by_level": {
+        "mid/senior": 4
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Software QA Engineer",
+      "aka": [
+        "QA Engineer",
+        "Software Tester",
+        "Quality Assurance Analyst",
+        "Test Engineer"
+      ],
+      "ad_names": [
+        "Software QA Engineer",
+        "QA Engineer",
+        "Software Tester",
+        "Quality Assurance Analyst",
+        "Test Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1253.00",
+          "title": "Software Quality Assurance Analysts and Testers"
+        },
+        {
+          "code": "17-2071.00",
+          "title": "Electrical Engineers"
+        },
+        {
+          "code": "17-2141.00",
+          "title": "Mechanical Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/106f79e4-6264-45f1-9e7a-297435cd684b",
+        "label": "software tester"
+      },
+      "matched_by": "automatic",
+      "postings": 247,
+      "postings_by_level": {
+        "mid/senior": 87,
+        "entry": 63,
+        "junior": 26
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "DevOps Engineer",
+      "aka": [],
+      "ad_names": [
+        "DevOps Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1244.00",
+          "title": "Network and Computer Systems Administrators"
+        },
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b",
+        "label": "cloud DevOps engineer"
+      },
+      "matched_by": "manual",
+      "postings": 178,
+      "postings_by_level": {
+        "mid/senior": 93,
+        "entry": 16,
+        "junior": 4
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Cloud Engineer",
+      "aka": [
+        "Cloud Architect"
+      ],
+      "ad_names": [
+        "Cloud Engineer",
+        "Cloud Architect"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1299.08",
+          "title": "Computer Systems Engineers/Architects"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/349ee6f6-c295-4c38-9b98-48765b55280e",
+        "label": "cloud engineer"
+      },
+      "matched_by": "manual",
+      "postings": 183,
+      "postings_by_level": {
+        "mid/senior": 87,
+        "junior": 15,
+        "entry": 17,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Site Reliability Engineer",
+      "aka": [
+        "SRE"
+      ],
+      "ad_names": [
+        "Site Reliability Engineer",
+        "SRE"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-1244.00",
+          "title": "Network and Computer Systems Administrators"
+        },
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b",
+        "label": "cloud DevOps engineer"
+      },
+      "matched_by": "manual",
+      "postings": 126,
+      "postings_by_level": {
+        "mid/senior": 62,
+        "entry": 15,
+        "lead": 1,
+        "junior": 5
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "System Administrator",
+      "aka": [
+        "Systems Administrator",
+        "System Engineer"
+      ],
+      "ad_names": [
+        "System Administrator",
+        "Systems Administrator",
+        "System Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1244.00",
+          "title": "Network and Computer Systems Administrators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300",
+        "label": "ICT system administrator"
+      },
+      "matched_by": "manual",
+      "postings": 369,
+      "postings_by_level": {
+        "entry": 54,
+        "junior": 45,
+        "mid/senior": 179,
+        "lead": 2
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Network Engineer",
+      "aka": [
+        "Network Administrator"
+      ],
+      "ad_names": [
+        "Network Engineer",
+        "Network Administrator"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1241.00",
+          "title": "Computer Network Architects"
+        },
+        {
+          "code": "15-1244.00",
+          "title": "Network and Computer Systems Administrators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d",
+        "label": "ICT network engineer"
+      },
+      "matched_by": "manual",
+      "postings": 295,
+      "postings_by_level": {
+        "entry": 71,
+        "mid/senior": 136,
+        "junior": 23
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Cyber Security Analyst",
+      "aka": [
+        "Cybersecurity Analyst",
+        "Information Security Analyst",
+        "Security Analyst",
+        "SOC Analyst"
+      ],
+      "ad_names": [
+        "Cyber Security Analyst",
+        "Cybersecurity Analyst",
+        "Information Security Analyst",
+        "Security Analyst",
+        "SOC Analyst"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1212.00",
+          "title": "Information Security Analysts"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/0464b062-cea6-4164-b10d-956c61956ae7",
+        "label": "ICT security administrator"
+      },
+      "matched_by": "manual",
+      "postings": 152,
+      "postings_by_level": {
+        "mid/senior": 64,
+        "entry": 23,
+        "junior": 14
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Penetration Tester",
+      "aka": [
+        "Ethical Hacker"
+      ],
+      "ad_names": [
+        "Penetration Tester",
+        "Ethical Hacker"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1299.04",
+          "title": "Penetration Testers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/76ef0a87-6afe-4560-b5d0-9a086abe45c5",
+        "label": "ethical hacker"
+      },
+      "matched_by": "manual",
+      "postings": 7,
+      "postings_by_level": {
+        "mid/senior": 4,
+        "junior": 1
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "IT Support Executive",
+      "aka": [
+        "IT Support Specialist",
+        "Desktop Support",
+        "Technical Support Engineer",
+        "Help Desk Technician"
+      ],
+      "ad_names": [
+        "IT Support Executive",
+        "IT Support Specialist",
+        "Desktop Support",
+        "Technical Support Engineer",
+        "Help Desk Technician"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1232.00",
+          "title": "Computer User Support Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/aaeec9a7-dc57-4485-890c-86b3eef735f9",
+        "label": "ICT help desk agent"
+      },
+      "matched_by": "manual",
+      "postings": 216,
+      "postings_by_level": {
+        "mid/senior": 56,
+        "entry": 78,
+        "junior": 46
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "IT Executive",
+      "aka": [
+        "IT Officer",
+        "IT Administrator"
+      ],
+      "ad_names": [
+        "IT Executive",
+        "IT Officer",
+        "IT Administrator"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1244.00",
+          "title": "Network and Computer Systems Administrators"
+        },
+        {
+          "code": "15-1232.00",
+          "title": "Computer User Support Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300",
+        "label": "ICT system administrator"
+      },
+      "matched_by": "manual",
+      "postings": 3,
+      "postings_by_level": {
+        "entry": 2,
+        "mid/senior": 1
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Database Administrator",
+      "aka": [
+        "SQL Developer"
+      ],
+      "ad_names": [
+        "Database Administrator",
+        "SQL Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1242.00",
+          "title": "Database Administrators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc",
+        "label": "database administrator"
+      },
+      "matched_by": "automatic",
+      "postings": 477,
+      "postings_by_level": {
+        "entry": 27,
+        "mid/senior": 77,
+        "junior": 10
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Solution Architect",
+      "aka": [
+        "Solutions Architect",
+        "Software Architect"
+      ],
+      "ad_names": [
+        "Solution Architect",
+        "Solutions Architect",
+        "Software Architect"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1299.08",
+          "title": "Computer Systems Engineers/Architects"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/e1c72b5f-4c5c-487c-a6df-e84b64a51dae",
+        "label": "ICT system architect"
+      },
+      "matched_by": "manual",
+      "postings": 368,
+      "postings_by_level": {
+        "mid/senior": 196,
+        "junior": 11,
+        "lead": 10
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "UI/UX Designer",
+      "aka": [
+        "UX Designer",
+        "User Experience Designer",
+        "UI Designer"
+      ],
+      "ad_names": [
+        "UI/UX Designer",
+        "UX Designer",
+        "User Experience Designer",
+        "UI Designer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1255.00",
+          "title": "Web and Digital Interface Designers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/96e20037-0a25-4bf6-a25e-808d1605d890",
+        "label": "user interface designer"
+      },
+      "matched_by": "manual",
+      "postings": 116,
+      "postings_by_level": {
+        "junior": 13,
+        "entry": 7,
+        "mid/senior": 60,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Product Manager",
+      "aka": [
+        "Technical Product Manager"
+      ],
+      "ad_names": [
+        "Product Manager",
+        "Technical Product Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "11-2021.00",
+          "title": "Marketing Managers"
+        },
+        {
+          "code": "27-1021.00",
+          "title": "Commercial and Industrial Designers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/9f508305-80ce-4111-8722-f2c9b4a44890",
+        "label": "product manager"
+      },
+      "matched_by": "automatic",
+      "postings": 567,
+      "postings_by_level": {
+        "mid/senior": 312,
+        "entry": 83,
+        "junior": 20,
+        "lead": 10
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Blockchain Developer",
+      "aka": [],
+      "ad_names": [
+        "Blockchain Developer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-1299.07",
+          "title": "Blockchain Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/24135b84-cbdd-4d42-9ed2-02fd982d15b2",
+        "label": "blockchain developer"
+      },
+      "matched_by": "automatic",
+      "postings": 2,
+      "postings_by_level": {
+        "mid/senior": 1
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "SAP Consultant",
+      "aka": [
+        "SAP Developer"
+      ],
+      "ad_names": [
+        "SAP Consultant",
+        "SAP Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1211.00",
+          "title": "Computer Systems Analysts"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/fe0fa514-b48d-4a53-9757-a283c0baacf0",
+        "label": "ICT business analyst"
+      },
+      "matched_by": "manual",
+      "postings": 12,
+      "postings_by_level": {
+        "mid/senior": 6
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "Embedded Software Engineer",
+      "aka": [
+        "Embedded Systems Engineer",
+        "Firmware Engineer"
+      ],
+      "ad_names": [
+        "Embedded Software Engineer",
+        "Embedded Systems Engineer",
+        "Firmware Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1299.08",
+          "title": "Computer Systems Engineers/Architects"
+        },
+        {
+          "code": "15-1299.07",
+          "title": "Blockchain Engineers"
+        },
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/10469d70-78a3-4650-9e29-d04de13c62c1",
+        "label": "embedded system designer"
+      },
+      "matched_by": "automatic",
+      "postings": 81,
+      "postings_by_level": {
+        "junior": 6,
+        "mid/senior": 41,
+        "entry": 12
+      }
+    },
+    {
+      "field": "Information & Communication Technology",
+      "title": "IoT Engineer",
+      "aka": [
+        "Internet of Things Engineer"
+      ],
+      "ad_names": [
+        "IoT Engineer",
+        "Internet of Things Engineer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-1299.08",
+          "title": "Computer Systems Engineers/Architects"
+        }
+      ],
+      "esco": null,
+      "matched_by": "manual",
+      "postings": 2,
+      "postings_by_level": {
+        "mid/senior": 1
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Data Analyst",
+      "aka": [],
+      "ad_names": [
+        "Data Analyst"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-2051.00",
+          "title": "Data Scientists"
+        },
+        {
+          "code": "15-2041.00",
+          "title": "Statisticians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+        "label": "data analyst"
+      },
+      "matched_by": "manual",
+      "postings": 2286,
+      "postings_by_level": {
+        "mid/senior": 134,
+        "junior": 39,
+        "entry": 118
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Business Intelligence (BI) Analyst",
+      "aka": [
+        "Business Intelligence Analyst",
+        "BI Analyst",
+        "BI Developer"
+      ],
+      "ad_names": [
+        "Business Intelligence (BI) Analyst",
+        "Business Intelligence Analyst",
+        "BI Analyst",
+        "BI Developer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-2051.01",
+          "title": "Business Intelligence Analysts"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/207d7b18-6540-432e-8aa6-785ed434572f",
+        "label": "business intelligence manager"
+      },
+      "matched_by": "automatic",
+      "postings": 94,
+      "postings_by_level": {
+        "junior": 10,
+        "mid/senior": 47
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Data Scientist",
+      "aka": [],
+      "ad_names": [
+        "Data Scientist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-2051.00",
+          "title": "Data Scientists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+        "label": "data scientist"
+      },
+      "matched_by": "manual",
+      "postings": 1053,
+      "postings_by_level": {
+        "entry": 58,
+        "junior": 13,
+        "mid/senior": 101,
+        "lead": 4
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Data Engineer",
+      "aka": [
+        "ETL Developer",
+        "Big Data Engineer"
+      ],
+      "ad_names": [
+        "Data Engineer",
+        "ETL Developer",
+        "Big Data Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1243.00",
+          "title": "Database Architects"
+        },
+        {
+          "code": "15-1243.01",
+          "title": "Data Warehousing Specialists"
+        },
+        {
+          "code": "15-1242.00",
+          "title": "Database Administrators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/2079755f-d809-49e6-8037-4de6180e54c0",
+        "label": "data engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 1871,
+      "postings_by_level": {
+        "entry": 61,
+        "mid/senior": 192,
+        "junior": 18,
+        "lead": 2
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Machine Learning Engineer",
+      "aka": [
+        "ML Engineer"
+      ],
+      "ad_names": [
+        "Machine Learning Engineer",
+        "ML Engineer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-1221.00",
+          "title": "Computer and Information Research Scientists"
+        },
+        {
+          "code": "15-2051.00",
+          "title": "Data Scientists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+        "label": "artificial intelligence engineer"
+      },
+      "matched_by": "manual",
+      "postings": 552,
+      "postings_by_level": {
+        "mid/senior": 54,
+        "entry": 10,
+        "junior": 2
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "AI Engineer",
+      "aka": [
+        "Artificial Intelligence Engineer"
+      ],
+      "ad_names": [
+        "AI Engineer",
+        "Artificial Intelligence Engineer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-1221.00",
+          "title": "Computer and Information Research Scientists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+        "label": "artificial intelligence engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 51,
+      "postings_by_level": {
+        "mid/senior": 21,
+        "entry": 4,
+        "junior": 1
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "MLOps Engineer",
+      "aka": [],
+      "ad_names": [
+        "MLOps Engineer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-2051.00",
+          "title": "Data Scientists"
+        },
+        {
+          "code": "15-1252.00",
+          "title": "Software Developers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/cc867bee-ab5c-427f-9244-f7a204d9574b",
+        "label": "cloud DevOps engineer"
+      },
+      "matched_by": "manual",
+      "postings": 160,
+      "postings_by_level": {
+        "mid/senior": 9
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Generative AI Engineer",
+      "aka": [
+        "Prompt Engineer",
+        "LLM Engineer",
+        "GenAI Engineer"
+      ],
+      "ad_names": [
+        "Generative AI Engineer",
+        "Prompt Engineer",
+        "LLM Engineer",
+        "GenAI Engineer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-1221.00",
+          "title": "Computer and Information Research Scientists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+        "label": "artificial intelligence engineer"
+      },
+      "matched_by": "manual",
+      "postings": 14,
+      "postings_by_level": {
+        "mid/senior": 5,
+        "junior": 1,
+        "entry": 3
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Computer Vision Engineer",
+      "aka": [],
+      "ad_names": [
+        "Computer Vision Engineer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-1221.00",
+          "title": "Computer and Information Research Scientists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341",
+        "label": "computer vision engineer"
+      },
+      "matched_by": "manual",
+      "postings": 4,
+      "postings_by_level": {
+        "mid/senior": 2,
+        "entry": 2
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "NLP Engineer",
+      "aka": [
+        "Natural Language Processing Engineer"
+      ],
+      "ad_names": [
+        "NLP Engineer",
+        "Natural Language Processing Engineer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "15-1221.00",
+          "title": "Computer and Information Research Scientists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+        "label": "artificial intelligence engineer"
+      },
+      "matched_by": "manual",
+      "postings": 3,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Data Architect",
+      "aka": [],
+      "ad_names": [
+        "Data Architect"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-1243.00",
+          "title": "Database Architects"
+        },
+        {
+          "code": "15-2051.00",
+          "title": "Data Scientists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8d9ec84d-cf2d-4179-87bc-335cda54a427",
+        "label": "database designer"
+      },
+      "matched_by": "automatic",
+      "postings": 427,
+      "postings_by_level": {
+        "mid/senior": 67,
+        "junior": 4,
+        "lead": 6
+      }
+    },
+    {
+      "field": "Data & Artificial Intelligence",
+      "title": "Statistician",
+      "aka": [],
+      "ad_names": [
+        "Statistician"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-2041.00",
+          "title": "Statisticians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+        "label": "statistician"
+      },
+      "matched_by": "automatic",
+      "postings": 27,
+      "postings_by_level": {
+        "mid/senior": 5,
+        "junior": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Civil Engineer",
+      "aka": [],
+      "ad_names": [
+        "Civil Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2051.00",
+          "title": "Civil Engineers"
+        },
+        {
+          "code": "17-2081.00",
+          "title": "Environmental Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d7d986e1-7333-431b-9719-0c5c6939e360",
+        "label": "civil engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 115,
+      "postings_by_level": {
+        "mid/senior": 51,
+        "entry": 41,
+        "junior": 4,
+        "lead": 2
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Site Engineer",
+      "aka": [
+        "Civil Site Engineer"
+      ],
+      "ad_names": [
+        "Site Engineer",
+        "Civil Site Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2051.00",
+          "title": "Civil Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d7d986e1-7333-431b-9719-0c5c6939e360",
+        "label": "civil engineer"
+      },
+      "matched_by": "manual",
+      "postings": 5,
+      "postings_by_level": {
+        "entry": 4,
+        "junior": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Structural Engineer",
+      "aka": [],
+      "ad_names": [
+        "Structural Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2051.00",
+          "title": "Civil Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d7d986e1-7333-431b-9719-0c5c6939e360",
+        "label": "civil engineer"
+      },
+      "matched_by": "manual",
+      "postings": 116,
+      "postings_by_level": {
+        "junior": 11,
+        "entry": 23,
+        "mid/senior": 64
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Mechanical Engineer",
+      "aka": [],
+      "ad_names": [
+        "Mechanical Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2141.00",
+          "title": "Mechanical Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/579254cf-6d69-4889-9000-9c79dc568644",
+        "label": "mechanical engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 258,
+      "postings_by_level": {
+        "mid/senior": 116,
+        "entry": 58,
+        "junior": 18,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Electrical Engineer",
+      "aka": [],
+      "ad_names": [
+        "Electrical Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2071.00",
+          "title": "Electrical Engineers"
+        },
+        {
+          "code": "17-2072.01",
+          "title": "Radio Frequency Identification Device Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/86ca306c-ab99-420a-9e2a-aa73c5c4de22",
+        "label": "electrical engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 359,
+      "postings_by_level": {
+        "mid/senior": 175,
+        "entry": 84,
+        "junior": 27,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Electronics Engineer",
+      "aka": [],
+      "ad_names": [
+        "Electronics Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2072.00",
+          "title": "Electronics Engineers, Except Computer"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/4d34a9ee-2653-4da0-bef7-f59294577224",
+        "label": "electronics engineer"
+      },
+      "matched_by": "manual",
+      "postings": 10,
+      "postings_by_level": {
+        "junior": 3,
+        "lead": 1,
+        "entry": 4,
+        "mid/senior": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Chemical Engineer",
+      "aka": [],
+      "ad_names": [
+        "Chemical Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2041.00",
+          "title": "Chemical Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/ec21ce88-ce14-49b6-be0a-cc53cf5a3a67",
+        "label": "chemical engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 19,
+      "postings_by_level": {
+        "entry": 5,
+        "junior": 3,
+        "mid/senior": 7
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Process Engineer",
+      "aka": [
+        "Manufacturing Engineer",
+        "Production Engineer",
+        "Semiconductor Process Engineer"
+      ],
+      "ad_names": [
+        "Process Engineer",
+        "Manufacturing Engineer",
+        "Production Engineer",
+        "Semiconductor Process Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2112.03",
+          "title": "Manufacturing Engineers"
+        },
+        {
+          "code": "17-2112.00",
+          "title": "Industrial Engineers"
+        },
+        {
+          "code": "17-2041.00",
+          "title": "Chemical Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/b5eaf231-77ad-4a86-8e54-15cc4398aad2",
+        "label": "process engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 419,
+      "postings_by_level": {
+        "entry": 128,
+        "junior": 51,
+        "mid/senior": 137,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Product Test Engineer",
+      "aka": [
+        "Semiconductor Test Engineer",
+        "Hardware Test Engineer"
+      ],
+      "ad_names": [
+        "Product Test Engineer",
+        "Semiconductor Test Engineer",
+        "Hardware Test Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2072.00",
+          "title": "Electronics Engineers, Except Computer"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/4d34a9ee-2653-4da0-bef7-f59294577224",
+        "label": "electronics engineer"
+      },
+      "matched_by": "manual",
+      "postings": 6,
+      "postings_by_level": {
+        "mid/senior": 4,
+        "entry": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Automation Engineer",
+      "aka": [
+        "Mechatronics Engineer",
+        "Robotics Engineer",
+        "Controls Engineer"
+      ],
+      "ad_names": [
+        "Automation Engineer",
+        "Mechatronics Engineer",
+        "Robotics Engineer",
+        "Controls Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2199.08",
+          "title": "Robotics Engineers"
+        },
+        {
+          "code": "17-2199.05",
+          "title": "Mechatronics Engineers"
+        },
+        {
+          "code": "17-2071.00",
+          "title": "Electrical Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/bb609566-3ab6-44dd-8f48-cf0b15b96827",
+        "label": "automation engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 286,
+      "postings_by_level": {
+        "mid/senior": 111,
+        "junior": 26,
+        "entry": 75,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Quality Engineer",
+      "aka": [
+        "QA/QC Engineer",
+        "Quality Control Engineer",
+        "Quality Assurance Engineer"
+      ],
+      "ad_names": [
+        "Quality Engineer",
+        "QA/QC Engineer",
+        "Quality Control Engineer",
+        "Quality Assurance Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2112.02",
+          "title": "Validation Engineers"
+        },
+        {
+          "code": "17-2112.00",
+          "title": "Industrial Engineers"
+        },
+        {
+          "code": "15-1253.00",
+          "title": "Software Quality Assurance Analysts and Testers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/30c0943c-caa1-411d-b273-26f475971273",
+        "label": "quality engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 331,
+      "postings_by_level": {
+        "junior": 41,
+        "entry": 99,
+        "mid/senior": 105,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Industrial Engineer",
+      "aka": [],
+      "ad_names": [
+        "Industrial Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2112.00",
+          "title": "Industrial Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/53d2052f-edc0-4f44-8be1-164526412bfe",
+        "label": "industrial engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 47,
+      "postings_by_level": {
+        "junior": 7,
+        "entry": 11,
+        "mid/senior": 17
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Facilities Engineer",
+      "aka": [
+        "Facility Engineer"
+      ],
+      "ad_names": [
+        "Facilities Engineer",
+        "Facility Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2141.00",
+          "title": "Mechanical Engineers"
+        }
+      ],
+      "esco": null,
+      "matched_by": "manual",
+      "postings": 41,
+      "postings_by_level": {
+        "entry": 4,
+        "mid/senior": 17,
+        "junior": 4
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Maintenance Engineer",
+      "aka": [],
+      "ad_names": [
+        "Maintenance Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "49-9071.00",
+          "title": "Maintenance and Repair Workers, General"
+        },
+        {
+          "code": "17-2051.00",
+          "title": "Civil Engineers"
+        },
+        {
+          "code": "11-3013.00",
+          "title": "Facilities Managers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/615920c5-4f63-4eb3-8b60-afaaed3ab1ff",
+        "label": "maintenance and repair engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 38,
+      "postings_by_level": {
+        "mid/senior": 6,
+        "entry": 19,
+        "junior": 7
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Automotive Engineer",
+      "aka": [],
+      "ad_names": [
+        "Automotive Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2141.02",
+          "title": "Automotive Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8d410283-865d-4cbb-acae-ac7f69d9cf26",
+        "label": "automotive engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 28,
+      "postings_by_level": {
+        "entry": 27,
+        "junior": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Aerospace Engineer",
+      "aka": [],
+      "ad_names": [
+        "Aerospace Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2011.00",
+          "title": "Aerospace Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d7e663b2-f042-47d8-9fda-b5b8ba30ca04",
+        "label": "aerospace engineer"
+      },
+      "matched_by": "manual",
+      "postings": 2,
+      "postings_by_level": {
+        "entry": 1
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Oil & Gas Engineer",
+      "aka": [
+        "Petroleum Engineer",
+        "Oil and Gas Engineer",
+        "Drilling Engineer"
+      ],
+      "ad_names": [
+        "Oil & Gas Engineer",
+        "Petroleum Engineer",
+        "Oil and Gas Engineer",
+        "Drilling Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2171.00",
+          "title": "Petroleum Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/7569f423-2c37-49aa-947e-41acb66ec909",
+        "label": "petroleum engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 0,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Engineering",
+      "title": "Renewable Energy Engineer",
+      "aka": [
+        "Solar PV Engineer",
+        "Solar Engineer"
+      ],
+      "ad_names": [
+        "Renewable Energy Engineer",
+        "Solar PV Engineer",
+        "Solar Engineer"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "17-2199.11",
+          "title": "Solar Energy Systems Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/0e99c929-364f-4b0a-8a64-2aab42420f00",
+        "label": "renewable energy engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 3,
+      "postings_by_level": {
+        "mid/senior": 1,
+        "entry": 2
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Environmental Engineer",
+      "aka": [],
+      "ad_names": [
+        "Environmental Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-2081.00",
+          "title": "Environmental Engineers"
+        },
+        {
+          "code": "19-4043.00",
+          "title": "Geological Technicians, Except Hydrologic Technicians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/ac1fc6a9-70d2-475c-8fa0-82ef83830968",
+        "label": "environmental engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 23,
+      "postings_by_level": {
+        "junior": 2,
+        "entry": 10,
+        "mid/senior": 8
+      }
+    },
+    {
+      "field": "Engineering",
+      "title": "Safety & Health Officer",
+      "aka": [
+        "Safety and Health Officer",
+        "HSE Officer",
+        "EHS Officer",
+        "Safety Officer",
+        "HSE Executive"
+      ],
+      "ad_names": [
+        "Safety & Health Officer",
+        "Safety and Health Officer",
+        "HSE Officer",
+        "EHS Officer",
+        "Safety Officer",
+        "HSE Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "19-5011.00",
+          "title": "Occupational Health and Safety Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/789517fb-95ee-43d1-9530-c2860be1a439",
+        "label": "health and safety officer"
+      },
+      "matched_by": "manual",
+      "postings": 24,
+      "postings_by_level": {
+        "entry": 1,
+        "mid/senior": 19,
+        "junior": 1,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Account Executive",
+      "aka": [
+        "Accounts Executive",
+        "Accounts Assistant",
+        "Junior Accountant"
+      ],
+      "ad_names": [
+        "Accounts Executive",
+        "Accounts Assistant",
+        "Junior Accountant",
+        "Staff Accountant",
+        "Accounting Assistant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2011.00",
+          "title": "Accountants and Auditors"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/eda0d957-3c3c-4139-b89a-a18bc9e18897",
+        "label": "accountant"
+      },
+      "matched_by": "manual",
+      "postings": 340,
+      "postings_by_level": {
+        "mid/senior": 44,
+        "junior": 98,
+        "entry": 131
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Accountant",
+      "aka": [
+        "Senior Accountant"
+      ],
+      "ad_names": [
+        "Accountant",
+        "Senior Accountant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2011.00",
+          "title": "Accountants and Auditors"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/eda0d957-3c3c-4139-b89a-a18bc9e18897",
+        "label": "accountant"
+      },
+      "matched_by": "automatic",
+      "postings": 1319,
+      "postings_by_level": {
+        "mid/senior": 547,
+        "junior": 287,
+        "entry": 248,
+        "lead": 5
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Audit Associate",
+      "aka": [
+        "Auditor",
+        "Internal Auditor",
+        "External Auditor",
+        "Audit Assistant"
+      ],
+      "ad_names": [
+        "Audit Associate",
+        "Auditor",
+        "Internal Auditor",
+        "External Auditor",
+        "Audit Assistant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2011.00",
+          "title": "Accountants and Auditors"
+        },
+        {
+          "code": "13-2061.00",
+          "title": "Financial Examiners"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/cd4f41a5-87a6-4b3c-8ee3-14e6f457c365",
+        "label": "audit supervisor"
+      },
+      "matched_by": "automatic",
+      "postings": 322,
+      "postings_by_level": {
+        "mid/senior": 166,
+        "junior": 30,
+        "entry": 45,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Tax Associate",
+      "aka": [
+        "Tax Consultant",
+        "Tax Executive",
+        "Tax Accountant"
+      ],
+      "ad_names": [
+        "Tax Associate",
+        "Tax Consultant",
+        "Tax Executive",
+        "Tax Accountant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2082.00",
+          "title": "Tax Preparers"
+        },
+        {
+          "code": "13-2011.00",
+          "title": "Accountants and Auditors"
+        },
+        {
+          "code": "13-2081.00",
+          "title": "Tax Examiners and Collectors, and Revenue Agents"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/59c22779-4d89-4bc9-ba8b-d64bea236723",
+        "label": "tax advisor"
+      },
+      "matched_by": "automatic",
+      "postings": 110,
+      "postings_by_level": {
+        "mid/senior": 42,
+        "entry": 31,
+        "junior": 18
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Financial Analyst",
+      "aka": [
+        "Finance Analyst"
+      ],
+      "ad_names": [
+        "Financial Analyst",
+        "Finance Analyst"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2051.00",
+          "title": "Financial and Investment Analysts"
+        },
+        {
+          "code": "13-2099.01",
+          "title": "Financial Quantitative Analysts"
+        },
+        {
+          "code": "15-2041.00",
+          "title": "Statisticians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8d586ee9-0ab1-4155-a3b0-2ca786c8e48c",
+        "label": "financial analyst"
+      },
+      "matched_by": "automatic",
+      "postings": 425,
+      "postings_by_level": {
+        "junior": 63,
+        "mid/senior": 189,
+        "entry": 86
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Finance Manager",
+      "aka": [],
+      "ad_names": [
+        "Finance Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "11-3031.00",
+          "title": "Financial Managers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/30f3ea93-882a-4525-841c-1d5b4b64076f",
+        "label": "financial manager"
+      },
+      "matched_by": "automatic",
+      "postings": 112,
+      "postings_by_level": {
+        "mid/senior": 79,
+        "lead": 4,
+        "junior": 3,
+        "entry": 1
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Credit Executive",
+      "aka": [
+        "Credit Analyst",
+        "Credit Officer"
+      ],
+      "ad_names": [
+        "Credit Executive",
+        "Credit Analyst",
+        "Credit Officer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2041.00",
+          "title": "Credit Analysts"
+        },
+        {
+          "code": "43-4041.00",
+          "title": "Credit Authorizers, Checkers, and Clerks"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/075e4d25-74b3-46fb-9b6e-6b53cdb196e7",
+        "label": "credit analyst"
+      },
+      "matched_by": "automatic",
+      "postings": 43,
+      "postings_by_level": {
+        "mid/senior": 8,
+        "lead": 1,
+        "entry": 10,
+        "junior": 13
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Risk Analyst",
+      "aka": [
+        "Risk Executive",
+        "Risk Manager"
+      ],
+      "ad_names": [
+        "Risk Analyst",
+        "Risk Executive",
+        "Risk Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2054.00",
+          "title": "Financial Risk Specialists"
+        },
+        {
+          "code": "11-9199.02",
+          "title": "Compliance Managers"
+        },
+        {
+          "code": "15-2031.00",
+          "title": "Operations Research Analysts"
+        }
+      ],
+      "esco": null,
+      "matched_by": "automatic",
+      "postings": 113,
+      "postings_by_level": {
+        "mid/senior": 64,
+        "junior": 9,
+        "entry": 7,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Investment Analyst",
+      "aka": [],
+      "ad_names": [
+        "Investment Analyst"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2051.00",
+          "title": "Financial and Investment Analysts"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/b7f47c25-bdf3-42fa-a68e-ad32754b2dba",
+        "label": "investment analyst"
+      },
+      "matched_by": "automatic",
+      "postings": 11,
+      "postings_by_level": {
+        "mid/senior": 3,
+        "junior": 3,
+        "entry": 2
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Actuarial Executive",
+      "aka": [
+        "Actuary",
+        "Actuarial Analyst"
+      ],
+      "ad_names": [
+        "Actuarial Executive",
+        "Actuary",
+        "Actuarial Analyst"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-2011.00",
+          "title": "Actuaries"
+        },
+        {
+          "code": "43-9111.00",
+          "title": "Statistical Assistants"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/068c2787-58ff-468e-bbb6-c4e5dd6ee482",
+        "label": "actuarial consultant"
+      },
+      "matched_by": "automatic",
+      "postings": 91,
+      "postings_by_level": {
+        "mid/senior": 68,
+        "entry": 8,
+        "junior": 4,
+        "lead": 2
+      }
+    },
+    {
+      "field": "Accounting & Finance",
+      "title": "Fintech Specialist",
+      "aka": [
+        "Fintech Engineer",
+        "Digital Payments Specialist"
+      ],
+      "ad_names": [
+        "Fintech Specialist",
+        "Fintech Engineer",
+        "Digital Payments Specialist"
+      ],
+      "emerging": true,
+      "onet": [],
+      "esco": null,
+      "matched_by": "automatic",
+      "postings": 0,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Banking & Insurance",
+      "title": "Relationship Manager",
+      "aka": [],
+      "ad_names": [
+        "Relationship Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2052.00",
+          "title": "Personal Financial Advisors"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d96de969-d43d-4082-8559-7fc35484a217",
+        "label": "relationship banking manager"
+      },
+      "matched_by": "manual",
+      "postings": 107,
+      "postings_by_level": {
+        "mid/senior": 59,
+        "entry": 3,
+        "junior": 2,
+        "lead": 2
+      }
+    },
+    {
+      "field": "Banking & Insurance",
+      "title": "Personal Banker",
+      "aka": [
+        "Bank Officer",
+        "Banking Officer",
+        "Personal Financial Consultant"
+      ],
+      "ad_names": [
+        "Personal Banker",
+        "Bank Officer",
+        "Banking Officer",
+        "Personal Financial Consultant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "41-3031.00",
+          "title": "Securities, Commodities, and Financial Services Sales Agents"
+        },
+        {
+          "code": "43-4141.00",
+          "title": "New Accounts Clerks"
+        },
+        {
+          "code": "13-2052.00",
+          "title": "Personal Financial Advisors"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/21de0f3b-a71a-4263-a9ba-90c5f3721b4d",
+        "label": "financial planner"
+      },
+      "matched_by": "automatic",
+      "postings": 159,
+      "postings_by_level": {
+        "junior": 104,
+        "entry": 29,
+        "mid/senior": 9
+      }
+    },
+    {
+      "field": "Banking & Insurance",
+      "title": "Loan Officer",
+      "aka": [
+        "Mortgage Officer",
+        "Loan Executive"
+      ],
+      "ad_names": [
+        "Loan Officer",
+        "Mortgage Officer",
+        "Loan Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2072.00",
+          "title": "Loan Officers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8e185c49-704e-49c0-8584-a7e0b618f628",
+        "label": "loan officer"
+      },
+      "matched_by": "automatic",
+      "postings": 134,
+      "postings_by_level": {
+        "entry": 86,
+        "mid/senior": 7,
+        "junior": 6
+      }
+    },
+    {
+      "field": "Banking & Insurance",
+      "title": "Compliance Officer",
+      "aka": [
+        "Compliance Executive",
+        "Compliance Analyst"
+      ],
+      "ad_names": [
+        "Compliance Officer",
+        "Compliance Executive",
+        "Compliance Analyst"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1041.00",
+          "title": "Compliance Officers"
+        },
+        {
+          "code": "47-4011.00",
+          "title": "Construction and Building Inspectors"
+        },
+        {
+          "code": "13-2061.00",
+          "title": "Financial Examiners"
+        }
+      ],
+      "esco": null,
+      "matched_by": "automatic",
+      "postings": 136,
+      "postings_by_level": {
+        "junior": 16,
+        "mid/senior": 63,
+        "lead": 12,
+        "entry": 8
+      }
+    },
+    {
+      "field": "Banking & Insurance",
+      "title": "Underwriter",
+      "aka": [
+        "Insurance Underwriter"
+      ],
+      "ad_names": [
+        "Underwriter",
+        "Insurance Underwriter"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2053.00",
+          "title": "Insurance Underwriters"
+        },
+        {
+          "code": "13-2072.00",
+          "title": "Loan Officers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/e937449a-d9e0-4ab7-9ea5-4d3ac673be6d",
+        "label": "insurance underwriter"
+      },
+      "matched_by": "automatic",
+      "postings": 119,
+      "postings_by_level": {
+        "entry": 8,
+        "mid/senior": 69,
+        "junior": 13,
+        "lead": 2
+      }
+    },
+    {
+      "field": "Banking & Insurance",
+      "title": "Claims Executive",
+      "aka": [
+        "Claims Adjuster",
+        "Insurance Claims Executive"
+      ],
+      "ad_names": [
+        "Claims Executive",
+        "Claims Adjuster",
+        "Insurance Claims Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1031.00",
+          "title": "Claims Adjusters, Examiners, and Investigators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/01a83071-6533-4675-b2da-f0c6d02669f5",
+        "label": "insurance claims handler"
+      },
+      "matched_by": "automatic",
+      "postings": 55,
+      "postings_by_level": {
+        "entry": 18,
+        "mid/senior": 9
+      }
+    },
+    {
+      "field": "Banking & Insurance",
+      "title": "Insurance Agent / Financial Planner",
+      "aka": [
+        "Insurance Agent",
+        "Financial Planner",
+        "Unit Trust Consultant",
+        "Financial Advisor"
+      ],
+      "ad_names": [
+        "Insurance Agent / Financial Planner",
+        "Insurance Agent",
+        "Financial Planner",
+        "Unit Trust Consultant",
+        "Financial Advisor"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-2052.00",
+          "title": "Personal Financial Advisors"
+        },
+        {
+          "code": "41-3021.00",
+          "title": "Insurance Sales Agents"
+        },
+        {
+          "code": "41-3031.00",
+          "title": "Securities, Commodities, and Financial Services Sales Agents"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/21de0f3b-a71a-4263-a9ba-90c5f3721b4d",
+        "label": "financial planner"
+      },
+      "matched_by": "automatic",
+      "postings": 308,
+      "postings_by_level": {
+        "mid/senior": 126,
+        "entry": 32,
+        "junior": 32,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "Business Analyst",
+      "aka": [],
+      "ad_names": [
+        "Business Analyst"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "15-2051.01",
+          "title": "Business Intelligence Analysts"
+        },
+        {
+          "code": "13-1111.00",
+          "title": "Management Analysts"
+        },
+        {
+          "code": "15-2031.00",
+          "title": "Operations Research Analysts"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/60082a99-d8ef-4e84-9290-78902681b6ed",
+        "label": "business analyst"
+      },
+      "matched_by": "automatic",
+      "postings": 652,
+      "postings_by_level": {
+        "mid/senior": 307,
+        "entry": 28,
+        "junior": 55,
+        "lead": 3
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "Project Manager",
+      "aka": [],
+      "ad_names": [
+        "Project Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1082.00",
+          "title": "Project Management Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/bea99fea-0383-4c63-b944-70d4799de2c5",
+        "label": "project manager"
+      },
+      "matched_by": "manual",
+      "postings": 2139,
+      "postings_by_level": {
+        "mid/senior": 1120,
+        "junior": 148,
+        "lead": 18,
+        "entry": 259
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "Project Coordinator",
+      "aka": [
+        "Project Management Officer",
+        "PMO Analyst",
+        "PMO Executive"
+      ],
+      "ad_names": [
+        "Project Coordinator",
+        "Project Management Officer",
+        "PMO Analyst",
+        "PMO Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1082.00",
+          "title": "Project Management Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/5ccb2c34-e860-43a5-9869-342487518115",
+        "label": "project support officer"
+      },
+      "matched_by": "manual",
+      "postings": 149,
+      "postings_by_level": {
+        "mid/senior": 35,
+        "entry": 58,
+        "junior": 21,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "Operations Executive",
+      "aka": [
+        "Operations Manager",
+        "Operations Supervisor"
+      ],
+      "ad_names": [
+        "Operations Executive",
+        "Operations Manager",
+        "Operations Supervisor"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "11-1021.00",
+          "title": "General and Operations Managers"
+        },
+        {
+          "code": "11-3051.04",
+          "title": "Biomass Power Plant Managers"
+        },
+        {
+          "code": "27-2012.05",
+          "title": "Media Technical Directors/Managers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/c6bd511a-d966-4df9-a48e-4f800354f268",
+        "label": "operations manager"
+      },
+      "matched_by": "automatic",
+      "postings": 615,
+      "postings_by_level": {
+        "mid/senior": 426,
+        "lead": 12,
+        "entry": 7,
+        "junior": 28
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "Management Consultant",
+      "aka": [
+        "Business Consultant"
+      ],
+      "ad_names": [
+        "Management Consultant",
+        "Business Consultant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1111.00",
+          "title": "Management Analysts"
+        },
+        {
+          "code": "19-3032.00",
+          "title": "Industrial-Organizational Psychologists"
+        },
+        {
+          "code": "13-1199.04",
+          "title": "Business Continuity Planners"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/6a29d804-f775-446c-bec7-35fc4e28ac97",
+        "label": "business consultant"
+      },
+      "matched_by": "automatic",
+      "postings": 90,
+      "postings_by_level": {
+        "mid/senior": 43,
+        "entry": 5,
+        "lead": 1,
+        "junior": 5
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "Business Development Executive",
+      "aka": [
+        "Business Development Manager"
+      ],
+      "ad_names": [
+        "Business Development Executive",
+        "Business Development Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "11-2022.00",
+          "title": "Sales Managers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/b76178c0-a03a-4793-b079-1e61e636c521",
+        "label": "business developer"
+      },
+      "matched_by": "manual",
+      "postings": 313,
+      "postings_by_level": {
+        "mid/senior": 170,
+        "lead": 8,
+        "entry": 4,
+        "junior": 37
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "Supply Chain Executive",
+      "aka": [
+        "Supply Chain Analyst",
+        "Supply Chain Planner"
+      ],
+      "ad_names": [
+        "Supply Chain Executive",
+        "Supply Chain Analyst",
+        "Supply Chain Planner"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1081.02",
+          "title": "Logistics Analysts"
+        },
+        {
+          "code": "13-1081.00",
+          "title": "Logisticians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/51cd3a7a-eae6-4dc6-9f24-179d7ec6d230",
+        "label": "logistics analyst"
+      },
+      "matched_by": "automatic",
+      "postings": 47,
+      "postings_by_level": {
+        "mid/senior": 24,
+        "junior": 8,
+        "entry": 3
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "Purchasing Executive",
+      "aka": [
+        "Procurement Executive",
+        "Buyer",
+        "Purchaser"
+      ],
+      "ad_names": [
+        "Purchasing Executive",
+        "Procurement Executive",
+        "Buyer",
+        "Purchaser"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1023.00",
+          "title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/29fa406d-de89-4515-be8d-0fe7bda993f1",
+        "label": "purchaser"
+      },
+      "matched_by": "manual",
+      "postings": 193,
+      "postings_by_level": {
+        "mid/senior": 111,
+        "junior": 29,
+        "entry": 12
+      }
+    },
+    {
+      "field": "Business & Management",
+      "title": "ESG / Sustainability Executive",
+      "aka": [
+        "Sustainability Specialist",
+        "ESG Analyst",
+        "Sustainability Executive"
+      ],
+      "ad_names": [
+        "ESG / Sustainability Executive",
+        "Sustainability Specialist",
+        "ESG Analyst",
+        "Sustainability Executive"
+      ],
+      "emerging": true,
+      "onet": [
+        {
+          "code": "13-1199.05",
+          "title": "Sustainability Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/2cf2b905-3308-4b5d-8e8d-633fc7a3f3ce",
+        "label": "sustainability manager"
+      },
+      "matched_by": "automatic",
+      "postings": 4,
+      "postings_by_level": {
+        "entry": 2,
+        "mid/senior": 1
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Sales Executive",
+      "aka": [
+        "Sales Representative"
+      ],
+      "ad_names": [
+        "Sales Executive",
+        "Sales Representative"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "41-4012.00",
+          "title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/14031d4a-6e99-442f-b4fe-18262b6432b2",
+        "label": "commercial sales representative"
+      },
+      "matched_by": "manual",
+      "postings": 1395,
+      "postings_by_level": {
+        "entry": 530,
+        "junior": 195,
+        "mid/senior": 215,
+        "lead": 81
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Key Account Manager",
+      "aka": [
+        "Account Manager"
+      ],
+      "ad_names": [
+        "Key Account Manager",
+        "Account Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "11-2022.00",
+          "title": "Sales Managers"
+        },
+        {
+          "code": "11-2033.00",
+          "title": "Fundraising Managers"
+        },
+        {
+          "code": "11-2011.00",
+          "title": "Advertising and Promotions Managers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/2eac08c2-a81a-46fc-8d75-eb0e0f3e0f6d",
+        "label": "sales account manager"
+      },
+      "matched_by": "automatic",
+      "postings": 1039,
+      "postings_by_level": {
+        "junior": 133,
+        "mid/senior": 516,
+        "entry": 144,
+        "lead": 5
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Marketing Executive",
+      "aka": [
+        "Marketing Specialist"
+      ],
+      "ad_names": [
+        "Marketing Executive",
+        "Marketing Specialist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1161.00",
+          "title": "Market Research Analysts and Marketing Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/6fcf4638-e7c7-4978-9302-9a7b63a3d57c",
+        "label": "marketing manager"
+      },
+      "matched_by": "manual",
+      "postings": 186,
+      "postings_by_level": {
+        "junior": 32,
+        "mid/senior": 25,
+        "entry": 52,
+        "lead": 2
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Digital Marketing Executive",
+      "aka": [
+        "Digital Marketing Specialist"
+      ],
+      "ad_names": [
+        "Digital Marketing Executive",
+        "Digital Marketing Specialist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1161.00",
+          "title": "Market Research Analysts and Marketing Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/dc97adbe-f807-4ad8-8f3c-c24b3416cdef",
+        "label": "digital marketing manager"
+      },
+      "matched_by": "automatic",
+      "postings": 22,
+      "postings_by_level": {
+        "entry": 7,
+        "junior": 4,
+        "mid/senior": 2
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "SEO Specialist",
+      "aka": [
+        "SEO Executive"
+      ],
+      "ad_names": [
+        "SEO Specialist",
+        "SEO Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1161.01",
+          "title": "Search Marketing Strategists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/092fdeeb-a76f-4ed2-b248-90fd6eaaffef",
+        "label": "search engine optimisation expert"
+      },
+      "matched_by": "automatic",
+      "postings": 4,
+      "postings_by_level": {
+        "mid/senior": 2,
+        "entry": 2
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Social Media Executive",
+      "aka": [
+        "Social Media Manager",
+        "Social Media Specialist"
+      ],
+      "ad_names": [
+        "Social Media Executive",
+        "Social Media Manager",
+        "Social Media Specialist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-3031.00",
+          "title": "Public Relations Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/137b1d11-c4bc-4016-89ba-45345d4c71f0",
+        "label": "online community manager"
+      },
+      "matched_by": "manual",
+      "postings": 62,
+      "postings_by_level": {
+        "junior": 11,
+        "mid/senior": 16,
+        "entry": 2
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Content Writer",
+      "aka": [
+        "Copywriter",
+        "Content Creator"
+      ],
+      "ad_names": [
+        "Content Writer",
+        "Copywriter",
+        "Content Creator"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-3043.00",
+          "title": "Writers and Authors"
+        },
+        {
+          "code": "27-3043.05",
+          "title": "Poets, Lyricists and Creative Writers"
+        },
+        {
+          "code": "15-1255.01",
+          "title": "Video Game Designers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/b1ab3572-fa2f-4624-8eac-3c3d986d237b",
+        "label": "advertising copywriter"
+      },
+      "matched_by": "automatic",
+      "postings": 186,
+      "postings_by_level": {
+        "mid/senior": 38,
+        "entry": 19,
+        "junior": 22
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Brand Executive",
+      "aka": [
+        "Brand Manager"
+      ],
+      "ad_names": [
+        "Brand Executive",
+        "Brand Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "11-2021.00",
+          "title": "Marketing Managers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/de80bbf0-447d-4a6a-845a-fdba4e0dc30c",
+        "label": "brand manager"
+      },
+      "matched_by": "automatic",
+      "postings": 36,
+      "postings_by_level": {
+        "mid/senior": 19,
+        "entry": 2,
+        "junior": 2
+      }
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Market Research Executive",
+      "aka": [
+        "Market Research Analyst"
+      ],
+      "ad_names": [
+        "Market Research Executive",
+        "Market Research Analyst"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1161.00",
+          "title": "Market Research Analysts and Marketing Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/66fb9704-0d56-4673-8e69-7823816b73e1",
+        "label": "market research analyst"
+      },
+      "matched_by": "automatic",
+      "postings": 0,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "E-commerce Executive",
+      "aka": [
+        "E-commerce Specialist"
+      ],
+      "ad_names": [
+        "E-commerce Executive",
+        "E-commerce Specialist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1161.00",
+          "title": "Market Research Analysts and Marketing Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/1dd7c3cb-2d58-4dad-ae15-c9081174ab7e",
+        "label": "online sales channel manager"
+      },
+      "matched_by": "manual",
+      "postings": 0,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Sales & Marketing",
+      "title": "Property Negotiator",
+      "aka": [
+        "Real Estate Negotiator",
+        "Real Estate Agent",
+        "Real Estate Sales Agent"
+      ],
+      "ad_names": [
+        "Property Negotiator",
+        "Real Estate Negotiator",
+        "Real Estate Agent",
+        "Real Estate Sales Agent"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "41-9022.00",
+          "title": "Real Estate Sales Agents"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8ec8df02-e9dd-43b7-b416-5846ae0414ab",
+        "label": "real estate agent"
+      },
+      "matched_by": "automatic",
+      "postings": 54,
+      "postings_by_level": {
+        "entry": 8,
+        "junior": 2
+      }
+    },
+    {
+      "field": "Human Resources",
+      "title": "HR Executive",
+      "aka": [
+        "Human Resources Executive",
+        "Human Resources Specialist",
+        "HR Generalist"
+      ],
+      "ad_names": [
+        "HR Executive",
+        "Human Resources Executive",
+        "Human Resources Specialist",
+        "HR Generalist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1071.00",
+          "title": "Human Resources Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d3e32e5e-7f24-48e3-b939-e4f800eb62fb",
+        "label": "human resources officer"
+      },
+      "matched_by": "manual",
+      "postings": 74,
+      "postings_by_level": {
+        "mid/senior": 44,
+        "entry": 10,
+        "junior": 10
+      }
+    },
+    {
+      "field": "Human Resources",
+      "title": "Talent Acquisition Executive",
+      "aka": [
+        "Talent Acquisition Specialist",
+        "Recruiter",
+        "Recruitment Executive"
+      ],
+      "ad_names": [
+        "Talent Acquisition Executive",
+        "Talent Acquisition Specialist",
+        "Recruiter",
+        "Recruitment Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1071.00",
+          "title": "Human Resources Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/a6e8a6bf-9209-4d19-a131-a8b6431e0f75",
+        "label": "talent acquisition manager"
+      },
+      "matched_by": "automatic",
+      "postings": 339,
+      "postings_by_level": {
+        "junior": 84,
+        "entry": 78,
+        "mid/senior": 95
+      }
+    },
+    {
+      "field": "Human Resources",
+      "title": "HR Business Partner",
+      "aka": [],
+      "ad_names": [
+        "HR Business Partner"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1071.00",
+          "title": "Human Resources Specialists"
+        }
+      ],
+      "esco": null,
+      "matched_by": "automatic",
+      "postings": 51,
+      "postings_by_level": {
+        "mid/senior": 26,
+        "junior": 2,
+        "lead": 7,
+        "entry": 1
+      }
+    },
+    {
+      "field": "Human Resources",
+      "title": "Payroll Executive",
+      "aka": [
+        "Payroll Specialist"
+      ],
+      "ad_names": [
+        "Payroll Executive",
+        "Payroll Specialist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "43-3051.00",
+          "title": "Payroll and Timekeeping Clerks"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/ade351da-7bda-424e-8682-bbdcab2a25be",
+        "label": "payroll clerk"
+      },
+      "matched_by": "manual",
+      "postings": 90,
+      "postings_by_level": {
+        "entry": 19,
+        "junior": 34,
+        "mid/senior": 22
+      }
+    },
+    {
+      "field": "Human Resources",
+      "title": "Learning & Development Executive",
+      "aka": [
+        "Learning and Development Specialist",
+        "Training Executive",
+        "Training Specialist"
+      ],
+      "ad_names": [
+        "Learning & Development Executive",
+        "Learning and Development Specialist",
+        "Training Executive",
+        "Training Specialist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1151.00",
+          "title": "Training and Development Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/a14e96a7-6c4d-4d69-8c6f-7ccadf77bac5",
+        "label": "corporate training manager"
+      },
+      "matched_by": "manual",
+      "postings": 46,
+      "postings_by_level": {
+        "mid/senior": 13,
+        "junior": 3,
+        "entry": 18
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Graphic Designer",
+      "aka": [],
+      "ad_names": [
+        "Graphic Designer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-1024.00",
+          "title": "Graphic Designers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/69bcbb0a-8d80-4ecd-b0a4-9adea2a40de2",
+        "label": "graphic designer"
+      },
+      "matched_by": "automatic",
+      "postings": 123,
+      "postings_by_level": {
+        "junior": 21,
+        "entry": 18,
+        "mid/senior": 29
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Multimedia Designer",
+      "aka": [
+        "Motion Graphics Designer"
+      ],
+      "ad_names": [
+        "Multimedia Designer",
+        "Motion Graphics Designer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-1014.00",
+          "title": "Special Effects Artists and Animators"
+        },
+        {
+          "code": "27-1024.00",
+          "title": "Graphic Designers"
+        }
+      ],
+      "esco": null,
+      "matched_by": "automatic",
+      "postings": 5,
+      "postings_by_level": {
+        "mid/senior": 2,
+        "junior": 1,
+        "entry": 1
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Video Editor",
+      "aka": [],
+      "ad_names": [
+        "Video Editor"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-4032.00",
+          "title": "Film and Video Editors"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/ac734172-ae9a-41ab-80a0-a7b33694e027",
+        "label": "video and motion picture editor"
+      },
+      "matched_by": "automatic",
+      "postings": 26,
+      "postings_by_level": {
+        "entry": 1,
+        "mid/senior": 6,
+        "junior": 10
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Animator",
+      "aka": [
+        "2D Animator",
+        "3D Animator"
+      ],
+      "ad_names": [
+        "Animator",
+        "2D Animator",
+        "3D Animator"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-1014.00",
+          "title": "Special Effects Artists and Animators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/48c8eccb-4bd0-487e-a187-4953cbbe956e",
+        "label": "animator"
+      },
+      "matched_by": "automatic",
+      "postings": 9,
+      "postings_by_level": {
+        "mid/senior": 2,
+        "junior": 1,
+        "entry": 2
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Photographer",
+      "aka": [],
+      "ad_names": [
+        "Photographer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-4021.00",
+          "title": "Photographers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/66542dd6-05a6-4d9e-97ff-3f4858c31ff9",
+        "label": "photographer"
+      },
+      "matched_by": "automatic",
+      "postings": 22,
+      "postings_by_level": {
+        "entry": 8,
+        "junior": 6,
+        "mid/senior": 2
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Interior Designer",
+      "aka": [],
+      "ad_names": [
+        "Interior Designer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-1025.00",
+          "title": "Interior Designers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/73e776fb-4d99-4031-bad4-7716f121155d",
+        "label": "interior designer"
+      },
+      "matched_by": "automatic",
+      "postings": 39,
+      "postings_by_level": {
+        "entry": 9,
+        "junior": 5,
+        "mid/senior": 8
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Fashion Designer",
+      "aka": [
+        "Apparel Designer"
+      ],
+      "ad_names": [
+        "Fashion Designer",
+        "Apparel Designer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-1022.00",
+          "title": "Fashion Designers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/77bfd6e7-5598-4818-84cb-31e2651eb046",
+        "label": "fashion designer"
+      },
+      "matched_by": "automatic",
+      "postings": 4,
+      "postings_by_level": {
+        "junior": 2,
+        "entry": 1
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "PR Executive",
+      "aka": [
+        "Public Relations Executive",
+        "Public Relations Specialist",
+        "Corporate Communications Executive"
+      ],
+      "ad_names": [
+        "PR Executive",
+        "Public Relations Executive",
+        "Public Relations Specialist",
+        "Corporate Communications Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-3031.00",
+          "title": "Public Relations Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/6cc19251-763b-4de1-b4f7-526c9ff732d2",
+        "label": "public relations manager"
+      },
+      "matched_by": "automatic",
+      "postings": 30,
+      "postings_by_level": {
+        "entry": 27,
+        "junior": 2
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Journalist",
+      "aka": [
+        "Reporter"
+      ],
+      "ad_names": [
+        "Journalist",
+        "Reporter"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-3023.00",
+          "title": "News Analysts, Reporters, and Journalists"
+        },
+        {
+          "code": "27-3011.00",
+          "title": "Broadcast Announcers and Radio Disc Jockeys"
+        },
+        {
+          "code": "43-4199.00",
+          "title": "Information and Record Clerks, All Other"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/a47f82d3-4cf7-4abf-bb36-2c8cbad28234",
+        "label": "journalist"
+      },
+      "matched_by": "automatic",
+      "postings": 58,
+      "postings_by_level": {
+        "entry": 26,
+        "junior": 7,
+        "mid/senior": 8
+      }
+    },
+    {
+      "field": "Design, Media & Communications",
+      "title": "Illustrator",
+      "aka": [
+        "Artist"
+      ],
+      "ad_names": [
+        "Illustrator",
+        "Artist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "27-1013.00",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators"
+        },
+        {
+          "code": "27-1012.00",
+          "title": "Craft Artists"
+        },
+        {
+          "code": "27-1014.00",
+          "title": "Special Effects Artists and Animators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/1b949bae-882f-40ff-9fe7-3c8ede5e38b5",
+        "label": "illustrator"
+      },
+      "matched_by": "automatic",
+      "postings": 61,
+      "postings_by_level": {
+        "entry": 21,
+        "mid/senior": 15,
+        "junior": 4
+      }
+    },
+    {
+      "field": "Architecture & Construction",
+      "title": "Architect",
+      "aka": [],
+      "ad_names": [
+        "Architect"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-1011.00",
+          "title": "Architects, Except Landscape and Naval"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8c3f536e-ba66-4321-ba40-363dc39f129b",
+        "label": "architect"
+      },
+      "matched_by": "automatic",
+      "postings": 1857,
+      "postings_by_level": {
+        "mid/senior": 740,
+        "lead": 77,
+        "junior": 47,
+        "entry": 14
+      }
+    },
+    {
+      "field": "Architecture & Construction",
+      "title": "Quantity Surveyor",
+      "aka": [],
+      "ad_names": [
+        "Quantity Surveyor"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1051.00",
+          "title": "Cost Estimators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/0cca32c2-9308-4927-adb2-14771ab787f0",
+        "label": "quantity surveyor"
+      },
+      "matched_by": "automatic",
+      "postings": 12,
+      "postings_by_level": {
+        "mid/senior": 2
+      }
+    },
+    {
+      "field": "Architecture & Construction",
+      "title": "Construction Project Manager",
+      "aka": [
+        "Construction Manager"
+      ],
+      "ad_names": [
+        "Construction Project Manager",
+        "Construction Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "11-9021.00",
+          "title": "Construction Managers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/faed05c0-c1d1-4e34-b575-0dea96459e56",
+        "label": "construction manager"
+      },
+      "matched_by": "automatic",
+      "postings": 292,
+      "postings_by_level": {
+        "mid/senior": 173,
+        "entry": 8,
+        "junior": 20,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Architecture & Construction",
+      "title": "Site Supervisor",
+      "aka": [
+        "Construction Supervisor"
+      ],
+      "ad_names": [
+        "Site Supervisor",
+        "Construction Supervisor"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "47-1011.00",
+          "title": "First-Line Supervisors of Construction Trades and Extraction Workers"
+        },
+        {
+          "code": "33-1091.00",
+          "title": "First-Line Supervisors of Security Workers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/0dd7e6cd-2e5a-4fae-9ce0-6a3622d4019f",
+        "label": "construction general supervisor"
+      },
+      "matched_by": "automatic",
+      "postings": 20,
+      "postings_by_level": {
+        "mid/senior": 15,
+        "lead": 2
+      }
+    },
+    {
+      "field": "Architecture & Construction",
+      "title": "Draughtsman",
+      "aka": [
+        "Drafter",
+        "CAD Drafter"
+      ],
+      "ad_names": [
+        "Draughtsman",
+        "Drafter",
+        "CAD Drafter"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-3013.00",
+          "title": "Mechanical Drafters"
+        },
+        {
+          "code": "17-3012.00",
+          "title": "Electrical and Electronics Drafters"
+        },
+        {
+          "code": "17-3011.00",
+          "title": "Architectural and Civil Drafters"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/a4869ae9-2dfe-48cc-bd97-f803880f3407",
+        "label": "drafter"
+      },
+      "matched_by": "automatic",
+      "postings": 46,
+      "postings_by_level": {
+        "entry": 24,
+        "junior": 6,
+        "mid/senior": 4
+      }
+    },
+    {
+      "field": "Architecture & Construction",
+      "title": "M&E Engineer",
+      "aka": [
+        "Building Services Engineer",
+        "MEP Engineer"
+      ],
+      "ad_names": [
+        "M&E Engineer",
+        "Building Services Engineer",
+        "MEP Engineer"
+      ],
+      "emerging": false,
+      "onet": [],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/1f97f6e6-0ac7-4e77-88ab-2e3801c5a223",
+        "label": "heating, ventilation, air conditioning engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 3,
+      "postings_by_level": {
+        "mid/senior": 1
+      }
+    },
+    {
+      "field": "Architecture & Construction",
+      "title": "Land Surveyor",
+      "aka": [
+        "Surveyor"
+      ],
+      "ad_names": [
+        "Land Surveyor",
+        "Surveyor"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "17-1022.00",
+          "title": "Surveyors"
+        },
+        {
+          "code": "17-1022.01",
+          "title": "Geodetic Surveyors"
+        },
+        {
+          "code": "17-3031.00",
+          "title": "Surveying and Mapping Technicians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d8e502b4-1be6-4d10-a224-151688f8f0c8",
+        "label": "land surveyor"
+      },
+      "matched_by": "automatic",
+      "postings": 60,
+      "postings_by_level": {
+        "mid/senior": 32,
+        "entry": 5,
+        "junior": 1
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Medical Officer",
+      "aka": [
+        "Doctor",
+        "Physician",
+        "General Practitioner"
+      ],
+      "ad_names": [
+        "Medical Officer",
+        "Doctor",
+        "Physician",
+        "General Practitioner"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "29-1215.00",
+          "title": "Family Medicine Physicians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/71f09c8b-a172-408c-b9e7-32e580e39ff6",
+        "label": "general practitioner"
+      },
+      "matched_by": "manual",
+      "postings": 710,
+      "postings_by_level": {
+        "lead": 26,
+        "junior": 18,
+        "mid/senior": 405,
+        "entry": 107
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Staff Nurse",
+      "aka": [
+        "Registered Nurse",
+        "Nurse"
+      ],
+      "ad_names": [
+        "Staff Nurse",
+        "Registered Nurse",
+        "Nurse"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "29-1141.00",
+          "title": "Registered Nurses"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8d3e8aaa-791b-4c75-a465-f3f827028f50",
+        "label": "nurse responsible for general care"
+      },
+      "matched_by": "manual",
+      "postings": 5175,
+      "postings_by_level": {
+        "mid/senior": 2515,
+        "entry": 773,
+        "junior": 129,
+        "lead": 14
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Pharmacist",
+      "aka": [],
+      "ad_names": [
+        "Pharmacist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "29-1051.00",
+          "title": "Pharmacists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/7c132147-428b-4ea3-87e1-70f7abb691ce",
+        "label": "pharmacist"
+      },
+      "matched_by": "manual",
+      "postings": 161,
+      "postings_by_level": {
+        "entry": 85,
+        "junior": 15,
+        "mid/senior": 24,
+        "lead": 5
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Medical Laboratory Technologist",
+      "aka": [
+        "Medical Laboratory Scientist",
+        "Medical Lab Technologist"
+      ],
+      "ad_names": [
+        "Medical Laboratory Technologist",
+        "Medical Laboratory Scientist",
+        "Medical Lab Technologist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "29-2011.00",
+          "title": "Medical and Clinical Laboratory Technologists"
+        },
+        {
+          "code": "19-1042.00",
+          "title": "Medical Scientists, Except Epidemiologists"
+        },
+        {
+          "code": "19-1022.00",
+          "title": "Microbiologists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/2e8820ba-5b2d-4572-92a1-942dbd02a6d6",
+        "label": "biomedical scientist"
+      },
+      "matched_by": "automatic",
+      "postings": 202,
+      "postings_by_level": {
+        "mid/senior": 20,
+        "junior": 3,
+        "entry": 3
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Physiotherapist",
+      "aka": [
+        "Physical Therapist"
+      ],
+      "ad_names": [
+        "Physiotherapist",
+        "Physical Therapist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "29-1123.00",
+          "title": "Physical Therapists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/006cc1f9-2841-41c3-991a-dc3f2f3bd533",
+        "label": "physiotherapist"
+      },
+      "matched_by": "automatic",
+      "postings": 608,
+      "postings_by_level": {
+        "entry": 404,
+        "mid/senior": 30,
+        "junior": 13,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Dietitian",
+      "aka": [
+        "Nutritionist"
+      ],
+      "ad_names": [
+        "Dietitian",
+        "Nutritionist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "29-1031.00",
+          "title": "Dietitians and Nutritionists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+        "label": "dietitian"
+      },
+      "matched_by": "automatic",
+      "postings": 77,
+      "postings_by_level": {
+        "junior": 4,
+        "entry": 39,
+        "mid/senior": 7
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Radiographer",
+      "aka": [
+        "Radiologic Technologist"
+      ],
+      "ad_names": [
+        "Radiographer",
+        "Radiologic Technologist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "29-2034.00",
+          "title": "Radiologic Technologists and Technicians"
+        },
+        {
+          "code": "29-2031.00",
+          "title": "Cardiovascular Technologists and Technicians"
+        },
+        {
+          "code": "19-4099.00",
+          "title": "Life, Physical, and Social Science Technicians, All Other"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/7639a601-6db0-41ed-9fb0-813d9b8beb05",
+        "label": "radiographer"
+      },
+      "matched_by": "automatic",
+      "postings": 86,
+      "postings_by_level": {
+        "mid/senior": 58,
+        "entry": 12,
+        "junior": 5
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Clinic Assistant",
+      "aka": [
+        "Medical Assistant",
+        "Healthcare Assistant"
+      ],
+      "ad_names": [
+        "Clinic Assistant",
+        "Medical Assistant",
+        "Healthcare Assistant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "31-9092.00",
+          "title": "Medical Assistants"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d38c2107-98f2-47b7-8bb4-f69750d51082",
+        "label": "healthcare assistant"
+      },
+      "matched_by": "automatic",
+      "postings": 585,
+      "postings_by_level": {
+        "entry": 434,
+        "mid/senior": 13,
+        "junior": 14,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Healthcare & Wellness",
+      "title": "Personal Trainer",
+      "aka": [
+        "Fitness Trainer",
+        "Fitness Coach"
+      ],
+      "ad_names": [
+        "Personal Trainer",
+        "Fitness Trainer",
+        "Fitness Coach"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "39-9031.00",
+          "title": "Exercise Trainers and Group Fitness Instructors"
+        },
+        {
+          "code": "29-9091.00",
+          "title": "Athletic Trainers"
+        },
+        {
+          "code": "21-1091.00",
+          "title": "Health Education Specialists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/f7177f79-63e7-4944-8896-044056b62523",
+        "label": "personal trainer"
+      },
+      "matched_by": "automatic",
+      "postings": 27,
+      "postings_by_level": {
+        "entry": 1,
+        "mid/senior": 15
+      }
+    },
+    {
+      "field": "Education & Training",
+      "title": "Teacher",
+      "aka": [
+        "School Teacher"
+      ],
+      "ad_names": [
+        "Teacher",
+        "School Teacher"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "25-2031.00",
+          "title": "Secondary School Teachers, Except Special and Career/Technical Education"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/5efb2c08-ba3a-4659-a2e4-1883f54e77b6",
+        "label": "secondary school teacher"
+      },
+      "matched_by": "manual",
+      "postings": 821,
+      "postings_by_level": {
+        "mid/senior": 59,
+        "entry": 527,
+        "lead": 4,
+        "junior": 49
+      }
+    },
+    {
+      "field": "Education & Training",
+      "title": "Lecturer",
+      "aka": [
+        "University Lecturer"
+      ],
+      "ad_names": [
+        "Lecturer",
+        "University Lecturer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "25-1021.00",
+          "title": "Computer Science Teachers, Postsecondary"
+        },
+        {
+          "code": "25-1031.00",
+          "title": "Architecture Teachers, Postsecondary"
+        },
+        {
+          "code": "25-1042.00",
+          "title": "Biological Science Teachers, Postsecondary"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/684fd8d5-9b40-4b02-a680-438f0082d923",
+        "label": "higher education lecturer"
+      },
+      "matched_by": "automatic",
+      "postings": 25,
+      "postings_by_level": {
+        "mid/senior": 13
+      }
+    },
+    {
+      "field": "Education & Training",
+      "title": "Tuition Teacher",
+      "aka": [
+        "Tutor",
+        "Private Tutor"
+      ],
+      "ad_names": [
+        "Tuition Teacher",
+        "Tutor",
+        "Private Tutor"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "25-3041.00",
+          "title": "Tutors"
+        },
+        {
+          "code": "25-3099.00",
+          "title": "Teachers and Instructors, All Other"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/59bce29f-5c8b-47cf-bfd4-6ec003f5323a",
+        "label": "tutor"
+      },
+      "matched_by": "automatic",
+      "postings": 73,
+      "postings_by_level": {
+        "entry": 48,
+        "mid/senior": 2,
+        "junior": 4
+      }
+    },
+    {
+      "field": "Education & Training",
+      "title": "Instructional Designer",
+      "aka": [],
+      "ad_names": [
+        "Instructional Designer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "25-9031.00",
+          "title": "Instructional Coordinators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/a9c30651-ccbc-4a80-900c-7880615cdf6e",
+        "label": "instructional designer"
+      },
+      "matched_by": "automatic",
+      "postings": 39,
+      "postings_by_level": {
+        "junior": 7,
+        "entry": 8,
+        "mid/senior": 15
+      }
+    },
+    {
+      "field": "Education & Training",
+      "title": "Preschool Teacher",
+      "aka": [
+        "Kindergarten Teacher",
+        "Early Childhood Educator"
+      ],
+      "ad_names": [
+        "Preschool Teacher",
+        "Kindergarten Teacher",
+        "Early Childhood Educator"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "25-2011.00",
+          "title": "Preschool Teachers, Except Special Education"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/55d60ead-0343-4008-b9e4-fb4b5a179c83",
+        "label": "early years teacher"
+      },
+      "matched_by": "manual",
+      "postings": 28,
+      "postings_by_level": {
+        "entry": 17
+      }
+    },
+    {
+      "field": "Legal",
+      "title": "Advocate & Solicitor",
+      "aka": [
+        "Lawyer",
+        "Legal Counsel",
+        "Attorney",
+        "Advocate"
+      ],
+      "ad_names": [
+        "Advocate & Solicitor",
+        "Lawyer",
+        "Legal Counsel",
+        "Attorney",
+        "Advocate"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "23-1011.00",
+          "title": "Lawyers"
+        },
+        {
+          "code": "21-1093.00",
+          "title": "Social and Human Service Assistants"
+        },
+        {
+          "code": "23-2099.00",
+          "title": "Legal Support Workers, All Other"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/974d4eab-fbee-4c52-b16e-73bdd8c25b53",
+        "label": "lawyer"
+      },
+      "matched_by": "automatic",
+      "postings": 859,
+      "postings_by_level": {
+        "junior": 229,
+        "mid/senior": 270,
+        "entry": 49,
+        "lead": 14
+      }
+    },
+    {
+      "field": "Legal",
+      "title": "Legal Executive",
+      "aka": [
+        "Legal Assistant"
+      ],
+      "ad_names": [
+        "Legal Executive",
+        "Legal Assistant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "23-2011.00",
+          "title": "Paralegals and Legal Assistants"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/929ef41d-afd0-4d5a-b85b-69eab68fa368",
+        "label": "legal assistant"
+      },
+      "matched_by": "automatic",
+      "postings": 132,
+      "postings_by_level": {
+        "entry": 43,
+        "mid/senior": 13,
+        "junior": 22
+      }
+    },
+    {
+      "field": "Legal",
+      "title": "Paralegal",
+      "aka": [],
+      "ad_names": [
+        "Paralegal"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "23-2011.00",
+          "title": "Paralegals and Legal Assistants"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/929ef41d-afd0-4d5a-b85b-69eab68fa368",
+        "label": "legal assistant"
+      },
+      "matched_by": "manual",
+      "postings": 335,
+      "postings_by_level": {
+        "entry": 85,
+        "junior": 71,
+        "mid/senior": 67,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Legal",
+      "title": "Company Secretary",
+      "aka": [
+        "Corporate Secretarial Executive"
+      ],
+      "ad_names": [
+        "Company Secretary",
+        "Corporate Secretarial Executive"
+      ],
+      "emerging": false,
+      "onet": [],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/f7b04542-d8c7-42db-8475-e63b507cce82",
+        "label": "receptionist"
+      },
+      "matched_by": "automatic",
+      "postings": 0,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Hospitality, Food & Tourism",
+      "title": "Chef",
+      "aka": [
+        "Cook",
+        "Commis Chef",
+        "Sous Chef"
+      ],
+      "ad_names": [
+        "Chef",
+        "Cook",
+        "Commis Chef",
+        "Sous Chef"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "35-1011.00",
+          "title": "Chefs and Head Cooks"
+        },
+        {
+          "code": "35-2012.00",
+          "title": "Cooks, Institution and Cafeteria"
+        },
+        {
+          "code": "35-2014.00",
+          "title": "Cooks, Restaurant"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/1009be17-7efd-45f1-a033-566bf179c588",
+        "label": "chef"
+      },
+      "matched_by": "automatic",
+      "postings": 604,
+      "postings_by_level": {
+        "entry": 299,
+        "mid/senior": 164,
+        "junior": 30,
+        "lead": 10
+      }
+    },
+    {
+      "field": "Hospitality, Food & Tourism",
+      "title": "Outlet Manager",
+      "aka": [
+        "Restaurant Manager",
+        "F&B Manager"
+      ],
+      "ad_names": [
+        "Outlet Manager",
+        "Restaurant Manager",
+        "F&B Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "11-9051.00",
+          "title": "Food Service Managers"
+        },
+        {
+          "code": "35-1012.00",
+          "title": "First-Line Supervisors of Food Preparation and Serving Workers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d5eb6150-bbff-4a9c-9d0c-21eab4dbe2b6",
+        "label": "restaurant manager"
+      },
+      "matched_by": "automatic",
+      "postings": 104,
+      "postings_by_level": {
+        "mid/senior": 73,
+        "junior": 2,
+        "entry": 1
+      }
+    },
+    {
+      "field": "Hospitality, Food & Tourism",
+      "title": "Front Office Executive",
+      "aka": [
+        "Hotel Front Office Executive",
+        "Front Desk Agent",
+        "Guest Service Agent"
+      ],
+      "ad_names": [
+        "Front Office Executive",
+        "Hotel Front Office Executive",
+        "Front Desk Agent",
+        "Guest Service Agent"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "39-6012.00",
+          "title": "Concierges"
+        },
+        {
+          "code": "43-4081.00",
+          "title": "Hotel, Motel, and Resort Desk Clerks"
+        },
+        {
+          "code": "43-4051.00",
+          "title": "Customer Service Representatives"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/f7b04542-d8c7-42db-8475-e63b507cce82",
+        "label": "receptionist"
+      },
+      "matched_by": "automatic",
+      "postings": 79,
+      "postings_by_level": {
+        "entry": 74,
+        "junior": 3,
+        "mid/senior": 1
+      }
+    },
+    {
+      "field": "Hospitality, Food & Tourism",
+      "title": "Event Executive",
+      "aka": [
+        "Event Planner",
+        "Event Coordinator"
+      ],
+      "ad_names": [
+        "Event Executive",
+        "Event Planner",
+        "Event Coordinator"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1121.00",
+          "title": "Meeting, Convention, and Event Planners"
+        },
+        {
+          "code": "11-9072.00",
+          "title": "Entertainment and Recreation Managers, Except Gambling"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/84931290-ad27-45ad-b611-9556c5facbdb",
+        "label": "event assistant"
+      },
+      "matched_by": "automatic",
+      "postings": 42,
+      "postings_by_level": {
+        "entry": 17,
+        "mid/senior": 9,
+        "junior": 2
+      }
+    },
+    {
+      "field": "Hospitality, Food & Tourism",
+      "title": "Travel Consultant",
+      "aka": [
+        "Tour Guide"
+      ],
+      "ad_names": [
+        "Travel Consultant",
+        "Tour Guide"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "39-7011.00",
+          "title": "Tour Guides and Escorts"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/b476f45f-2c79-44d5-a4d7-fa357aa83074",
+        "label": "tourist guide"
+      },
+      "matched_by": "manual",
+      "postings": 8,
+      "postings_by_level": {
+        "mid/senior": 2,
+        "entry": 1,
+        "junior": 1
+      }
+    },
+    {
+      "field": "Hospitality, Food & Tourism",
+      "title": "Food Technologist",
+      "aka": [
+        "Food Scientist",
+        "Food Safety Executive"
+      ],
+      "ad_names": [
+        "Food Technologist",
+        "Food Scientist",
+        "Food Safety Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "19-1012.00",
+          "title": "Food Scientists and Technologists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/4b709f9e-6112-4d58-81b0-2d6e6a69d61b",
+        "label": "food technologist"
+      },
+      "matched_by": "automatic",
+      "postings": 8,
+      "postings_by_level": {
+        "mid/senior": 3
+      }
+    },
+    {
+      "field": "Logistics, Transport & Aviation",
+      "title": "Logistics Executive",
+      "aka": [
+        "Logistics Coordinator"
+      ],
+      "ad_names": [
+        "Logistics Executive",
+        "Logistics Coordinator"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "13-1081.00",
+          "title": "Logisticians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/823db06f-25e1-4658-b063-d6ef956b41f5",
+        "label": "logistics and distribution manager"
+      },
+      "matched_by": "manual",
+      "postings": 41,
+      "postings_by_level": {
+        "mid/senior": 7,
+        "entry": 10,
+        "junior": 3
+      }
+    },
+    {
+      "field": "Logistics, Transport & Aviation",
+      "title": "Warehouse Supervisor",
+      "aka": [
+        "Warehouse Manager",
+        "Warehouse Executive"
+      ],
+      "ad_names": [
+        "Warehouse Supervisor",
+        "Warehouse Manager",
+        "Warehouse Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "53-1042.00",
+          "title": "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand"
+        },
+        {
+          "code": "11-3071.00",
+          "title": "Transportation, Storage, and Distribution Managers"
+        },
+        {
+          "code": "53-1043.00",
+          "title": "First-Line Supervisors of Material-Moving Machine and Vehicle Operators"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/2f5de1ab-eddf-4715-8193-e994912c22ea",
+        "label": "warehouse manager"
+      },
+      "matched_by": "automatic",
+      "postings": 101,
+      "postings_by_level": {
+        "mid/senior": 76,
+        "junior": 8,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Logistics, Transport & Aviation",
+      "title": "Inventory Executive",
+      "aka": [
+        "Store Executive",
+        "Storekeeper",
+        "Inventory Controller"
+      ],
+      "ad_names": [
+        "Inventory Executive",
+        "Store Executive",
+        "Storekeeper",
+        "Inventory Controller"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "43-5061.00",
+          "title": "Production, Planning, and Expediting Clerks"
+        },
+        {
+          "code": "43-5111.00",
+          "title": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
+        },
+        {
+          "code": "53-7065.00",
+          "title": "Stockers and Order Fillers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee",
+        "label": "inventory coordinator"
+      },
+      "matched_by": "automatic",
+      "postings": 1,
+      "postings_by_level": {
+        "entry": 1
+      }
+    },
+    {
+      "field": "Logistics, Transport & Aviation",
+      "title": "Shipping Executive",
+      "aka": [
+        "Freight Forwarder",
+        "Freight Forwarding Executive"
+      ],
+      "ad_names": [
+        "Shipping Executive",
+        "Freight Forwarder",
+        "Freight Forwarding Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "43-5011.01",
+          "title": "Freight Forwarders"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/49e28648-4fa8-4b36-ac4d-781c108547bf",
+        "label": "freight transport dispatcher"
+      },
+      "matched_by": "manual",
+      "postings": 2,
+      "postings_by_level": {
+        "entry": 1
+      }
+    },
+    {
+      "field": "Logistics, Transport & Aviation",
+      "title": "Pilot",
+      "aka": [
+        "Airline Pilot"
+      ],
+      "ad_names": [
+        "Pilot",
+        "Airline Pilot"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "53-2011.00",
+          "title": "Airline Pilots, Copilots, and Flight Engineers"
+        },
+        {
+          "code": "53-2012.00",
+          "title": "Commercial Pilots"
+        },
+        {
+          "code": "53-5021.00",
+          "title": "Captains, Mates, and Pilots of Water Vessels"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/522c55ca-ee4a-407d-9fc6-f810c5266523",
+        "label": "airline transport pilot"
+      },
+      "matched_by": "automatic",
+      "postings": 39,
+      "postings_by_level": {
+        "entry": 6,
+        "mid/senior": 12,
+        "junior": 4
+      }
+    },
+    {
+      "field": "Logistics, Transport & Aviation",
+      "title": "Aircraft Maintenance Engineer",
+      "aka": [
+        "Aircraft Technician",
+        "Licensed Aircraft Engineer"
+      ],
+      "ad_names": [
+        "Aircraft Maintenance Engineer",
+        "Aircraft Technician",
+        "Licensed Aircraft Engineer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "49-3011.00",
+          "title": "Aircraft Mechanics and Service Technicians"
+        },
+        {
+          "code": "49-2091.00",
+          "title": "Avionics Technicians"
+        },
+        {
+          "code": "17-2011.00",
+          "title": "Aerospace Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/81a1e1f5-cce3-444d-bfc3-9771236d57cd",
+        "label": "aircraft maintenance engineer"
+      },
+      "matched_by": "automatic",
+      "postings": 4,
+      "postings_by_level": {
+        "mid/senior": 2
+      }
+    },
+    {
+      "field": "Logistics, Transport & Aviation",
+      "title": "Cabin Crew",
+      "aka": [
+        "Flight Attendant",
+        "Flight Steward"
+      ],
+      "ad_names": [
+        "Cabin Crew",
+        "Flight Attendant",
+        "Flight Steward"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "53-2031.00",
+          "title": "Flight Attendants"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/f20d3ae6-baeb-482c-b68d-c2fb115e5dde",
+        "label": "flight attendant"
+      },
+      "matched_by": "automatic",
+      "postings": 4,
+      "postings_by_level": {
+        "entry": 3
+      }
+    },
+    {
+      "field": "Science & Agriculture",
+      "title": "Plantation Executive",
+      "aka": [
+        "Agricultural Officer",
+        "Agronomist",
+        "Estate Executive"
+      ],
+      "ad_names": [
+        "Plantation Executive",
+        "Agricultural Officer",
+        "Agronomist",
+        "Estate Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "19-1013.00",
+          "title": "Soil and Plant Scientists"
+        },
+        {
+          "code": "19-4012.01",
+          "title": "Precision Agriculture Technicians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/c40ef517-d4ab-4932-b184-9c2ea5b24fe2",
+        "label": "agronomist"
+      },
+      "matched_by": "automatic",
+      "postings": 4,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Science & Agriculture",
+      "title": "Chemist",
+      "aka": [
+        "QC Chemist",
+        "Analytical Chemist"
+      ],
+      "ad_names": [
+        "Chemist",
+        "QC Chemist",
+        "Analytical Chemist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "19-2031.00",
+          "title": "Chemists"
+        },
+        {
+          "code": "19-1021.00",
+          "title": "Biochemists and Biophysicists"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/0d93706d-32fd-4de3-aa08-be1003e325da",
+        "label": "chemist"
+      },
+      "matched_by": "automatic",
+      "postings": 109,
+      "postings_by_level": {
+        "entry": 8,
+        "junior": 16,
+        "mid/senior": 59,
+        "lead": 1
+      }
+    },
+    {
+      "field": "Science & Agriculture",
+      "title": "Biotechnologist",
+      "aka": [
+        "Biotechnology Executive"
+      ],
+      "ad_names": [
+        "Biotechnologist",
+        "Biotechnology Executive"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "19-1029.01",
+          "title": "Bioinformatics Scientists"
+        },
+        {
+          "code": "19-4021.00",
+          "title": "Biological Technicians"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/0da75680-fbf9-44d8-802a-ac12eb425a34",
+        "label": "biotechnical technician"
+      },
+      "matched_by": "manual",
+      "postings": 0,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Science & Agriculture",
+      "title": "Environmental Executive",
+      "aka": [
+        "Environmental Officer",
+        "Environmental Scientist"
+      ],
+      "ad_names": [
+        "Environmental Executive",
+        "Environmental Officer",
+        "Environmental Scientist"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "19-2041.00",
+          "title": "Environmental Scientists and Specialists, Including Health"
+        },
+        {
+          "code": "17-2081.00",
+          "title": "Environmental Engineers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/11d72bd6-779a-4643-9962-313833740094",
+        "label": "environmental scientist"
+      },
+      "matched_by": "automatic",
+      "postings": 28,
+      "postings_by_level": {
+        "mid/senior": 19,
+        "junior": 1,
+        "entry": 1
+      }
+    },
+    {
+      "field": "Science & Agriculture",
+      "title": "Lab Analyst",
+      "aka": [
+        "Laboratory Analyst",
+        "Lab Technician",
+        "Laboratory Technician"
+      ],
+      "ad_names": [
+        "Lab Analyst",
+        "Laboratory Analyst",
+        "Lab Technician",
+        "Laboratory Technician"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "19-4099.01",
+          "title": "Quality Control Analysts"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/4fef1907-cf82-413b-841a-02ef57e299a6",
+        "label": "scientific laboratory technician"
+      },
+      "matched_by": "manual",
+      "postings": 266,
+      "postings_by_level": {
+        "entry": 108,
+        "mid/senior": 18,
+        "junior": 20
+      }
+    },
+    {
+      "field": "Administration & Customer Service",
+      "title": "Admin Executive",
+      "aka": [
+        "Administrative Executive",
+        "Administrative Assistant",
+        "Admin Assistant"
+      ],
+      "ad_names": [
+        "Admin Executive",
+        "Administrative Executive",
+        "Administrative Assistant",
+        "Admin Assistant"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "43-6014.00",
+          "title": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+        },
+        {
+          "code": "43-6011.00",
+          "title": "Executive Secretaries and Executive Administrative Assistants"
+        },
+        {
+          "code": "13-1199.00",
+          "title": "Business Operations Specialists, All Other"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/044d78cc-f62f-4532-83a5-8e04f2889652",
+        "label": "administrative assistant"
+      },
+      "matched_by": "automatic",
+      "postings": 609,
+      "postings_by_level": {
+        "junior": 103,
+        "entry": 245,
+        "mid/senior": 87
+      }
+    },
+    {
+      "field": "Administration & Customer Service",
+      "title": "Office Manager",
+      "aka": [],
+      "ad_names": [
+        "Office Manager"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "43-1011.00",
+          "title": "First-Line Supervisors of Office and Administrative Support Workers"
+        },
+        {
+          "code": "11-1021.00",
+          "title": "General and Operations Managers"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/6e6839b6-099c-4802-906e-7f2c8203ee69",
+        "label": "office manager"
+      },
+      "matched_by": "automatic",
+      "postings": 186,
+      "postings_by_level": {
+        "mid/senior": 95,
+        "entry": 8,
+        "junior": 26,
+        "lead": 4
+      }
+    },
+    {
+      "field": "Administration & Customer Service",
+      "title": "Customer Service Executive",
+      "aka": [
+        "Customer Service Representative",
+        "Customer Service Officer"
+      ],
+      "ad_names": [
+        "Customer Service Executive",
+        "Customer Service Representative",
+        "Customer Service Officer"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "43-4051.00",
+          "title": "Customer Service Representatives"
+        },
+        {
+          "code": "43-4041.00",
+          "title": "Credit Authorizers, Checkers, and Clerks"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/13d1b2b4-99dd-44da-9734-c9f74bae18f7",
+        "label": "customer service representative"
+      },
+      "matched_by": "automatic",
+      "postings": 847,
+      "postings_by_level": {
+        "entry": 162,
+        "junior": 48,
+        "mid/senior": 443
+      }
+    },
+    {
+      "field": "Administration & Customer Service",
+      "title": "Call Centre Agent",
+      "aka": [
+        "Contact Centre Agent",
+        "Customer Care Agent",
+        "BPO Agent"
+      ],
+      "ad_names": [
+        "Call Centre Agent",
+        "Contact Centre Agent",
+        "Customer Care Agent",
+        "BPO Agent"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "43-4051.00",
+          "title": "Customer Service Representatives"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/0ededdc2-050a-4ec3-8e70-6295105fcd19",
+        "label": "call centre agent"
+      },
+      "matched_by": "manual",
+      "postings": 0,
+      "postings_by_level": {}
+    },
+    {
+      "field": "Administration & Customer Service",
+      "title": "Personal Assistant",
+      "aka": [
+        "Executive Assistant",
+        "Secretary"
+      ],
+      "ad_names": [
+        "Personal Assistant",
+        "Executive Assistant",
+        "Secretary"
+      ],
+      "emerging": false,
+      "onet": [
+        {
+          "code": "43-6011.00",
+          "title": "Executive Secretaries and Executive Administrative Assistants"
+        },
+        {
+          "code": "43-6014.00",
+          "title": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+        },
+        {
+          "code": "43-6013.00",
+          "title": "Medical Secretaries and Administrative Assistants"
+        }
+      ],
+      "esco": {
+        "uri": "http://data.europa.eu/esco/occupation/2a04a1df-a3b9-403e-a245-e7f93fdddd44",
+        "label": "executive assistant"
+      },
+      "matched_by": "automatic",
+      "postings": 580,
+      "postings_by_level": {
+        "entry": 72,
+        "mid/senior": 258,
+        "junior": 95,
+        "lead": 13
+      }
+    }
+  ]
+}

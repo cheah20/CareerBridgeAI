@@ -1,0 +1,100 @@
+{
+  "role": "E-commerce Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002511,
+  "skills": [
+    {
+      "name": "Shopee Seller Centre",
+      "type": "tool",
+      "importance": 0.8
+    },
+    {
+      "name": "Lazada Seller Center",
+      "type": "tool",
+      "importance": 0.75
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "Google Analytics 4 (GA4)",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Meta Ads Manager",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Product listing and optimisation",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Campaign management",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Shopify",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Google Ads",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "TikTok Shop Seller Center",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "SEO",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Canva",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Email marketing",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Copywriting",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Analytical thinking",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "Conversion rate optimisation (CRO)",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Google Analytics Certification",
+      "type": "certification",
+      "importance": 0.25
+    }
+  ],
+  "local_notes": "In Malaysia and Singapore, e-commerce executive ads commonly require hands-on experience with Shopee and Lazada seller platforms, with TikTok Shop increasingly requested for social commerce."
+}

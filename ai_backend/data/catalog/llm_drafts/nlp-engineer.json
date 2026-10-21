@@ -1,0 +1,105 @@
+{
+  "role": "NLP Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.004466,
+  "skills": [
+    {
+      "name": "Python",
+      "type": "hard",
+      "importance": 0.85
+    },
+    {
+      "name": "PyTorch",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "Large language model (LLM) fine-tuning",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "TensorFlow",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Deep learning",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "AWS (SageMaker, Bedrock)",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "SQL",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Git",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Docker",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "MLOps",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Retrieval-augmented generation (RAG) and vector databases",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "spaCy",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Named entity recognition and information extraction",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Apache Spark",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Kubernetes",
+      "type": "tool",
+      "importance": 0.25
+    },
+    {
+      "name": "AWS Certified Machine Learning - Specialty",
+      "type": "certification",
+      "importance": 0.15
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "Problem solving",
+      "type": "soft",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "Malaysian and Singaporean employers often expect awareness of PDPA when handling text data, and Singapore-based AI teams may reference the AI Verify framework and Model AI Governance Framework for responsible AI."
+}

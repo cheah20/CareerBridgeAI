@@ -1,25 +1,53 @@
 # CareerBridge AI
 
-AI Resume and Career Recommendation System — Flutter web app, FastAPI backend, Supabase (PostgreSQL, Auth, Storage).
+A website that reads a resume, checks how well it fits a job, and gives friendly advice.
+Job seekers, recruiters and admins each have their own pages.
 
-| Folder | Contents |
+**New to this project? Read this page first, then [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).**
+
+## Where to find things
+
+| I want to look at… | Go to | In plain words |
+|---|---|---|
+| Job Seeker pages | `frontend/lib/features/seeker/` | What a job seeker sees after logging in |
+| Resume analysis page | `frontend/lib/features/testing/` | Upload a resume and see the fit score (works without login for now) |
+| Recruiter pages | `frontend/lib/features/recruiter/` | What a company recruiter sees |
+| Admin pages | `frontend/lib/features/admin/` | What the system admin sees |
+| Login and sign-up | `frontend/lib/features/auth/` | Log in, sign up, who is logged in |
+| Home page before login | `frontend/lib/features/public/` | The first page visitors see |
+| Side menu and page frame | `frontend/lib/features/shell/` | The menu on the left and the frame around every page |
+| Colours, fonts, page list | `frontend/lib/app/` | Change the look of the whole website here |
+| Reading resumes (PDF, Word, photo) | `ai_backend/app/services/` | Turns a resume file into clean text |
+| Fit score rules | `ai_backend/app/matching/` | How the 0–100% score is worked out |
+| AI writing (DeepSeek) | `ai_backend/app/llm/` | AI that reads the resume and writes the tips |
+| Career direction model | `ai_backend/app/ml/` | Machine learning that guesses a career area |
+| Model training scripts | `ai_backend/training/` | Scripts used to train the models |
+| Model training records | `docs/ml/` | What was trained, the results and the logs |
+| Job titles and skill lists | `ai_backend/app/catalog/` | The list of jobs and skills the system knows |
+| Web addresses the app calls | `ai_backend/app/api/` | The backend "doors" the website talks to |
+| Database tables and rules | `supabase/` | Where accounts, jobs and applications are stored |
+| Automatic checks | `ai_backend/tests/`, `frontend/test/` | Small programs that check nothing is broken |
+| Plans and documents | `docs/` | Requirements, progress, reports |
+| **Teammate submissions** | `contrib/` | **Put your work here.** The owner reviews it and moves it in |
+
+## What is not on GitHub (on purpose)
+
+These stay on the developer's computer only, so they are not in the ZIP download:
+
+| Kept locally | What it is |
 |---|---|
-| `frontend/` | Flutter app (web first; mobile UI parked in `lib/mobile_ui/`) |
-| `ai_backend/` | Python backend (conda env `careerbridge-ai`) |
-| `supabase/` | Database migrations and permission checks |
-| `docs/` | Requirements, plan & progress, database structure |
+| `ai_backend/data/llm/` | Cache of AI answers, so the same question is not paid for twice |
+| `ai_backend/data/logbook/` | Test results from the resume analysis page |
+| `ai_backend/data/training_runs/` | Full logs of every model training run |
+| `ai_backend/data/raw/`, `eval/`, `synthetic/` | Datasets and test resumes (some contain personal data) |
+| `ai_backend/models/` | The trained model files (too big for GitHub) |
+| `ai_backend/.env`, `frontend/config/dev.json` | Passwords and keys. **Never upload these.** |
 
-## First-time setup
+## Run it on your computer
 
-1. Backend settings: copy `ai_backend/.env.example` to `ai_backend/.env` and fill in the Supabase URL and publishable key.
-2. Frontend settings: copy `frontend/config/dev.example.json` to `frontend/config/dev.json` with the same values.
-3. Install backend packages: `conda activate careerbridge-ai && python -m pip install -r ai_backend/requirements.txt`
+You need: Flutter, and Python through conda. Ask the project owner for the two settings files.
 
-Both settings files are ignored by Git. Never commit secret keys or real resumes.
-
-## Run (two terminals)
-
-**Backend** — http://localhost:8000/docs
+**Backend** (http://localhost:8000/docs)
 
 ```bash
 conda activate careerbridge-ai
@@ -27,19 +55,16 @@ cd ai_backend
 fastapi dev app/main.py
 ```
 
-**Web app** — open http://localhost:8080 in Chrome
+**Website** (open http://localhost:8080 in Chrome)
 
 ```bash
 cd frontend
 flutter run -d web-server --web-hostname localhost --web-port 8080 --dart-define-from-file=config/dev.json
 ```
 
-In the Flutter terminal, press `R` to reload after code changes and `q` to stop.
-
-## Test
+## Run the checks
 
 ```bash
-cd ai_backend && python -m pytest                                  # backend
-cd frontend && flutter test                                        # frontend
-supabase db query --linked -f supabase/checks/rls_check.sql        # database permissions
+cd ai_backend && python -m pytest      # backend
+cd frontend && flutter test            # website
 ```

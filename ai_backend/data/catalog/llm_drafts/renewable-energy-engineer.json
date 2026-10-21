@@ -1,0 +1,95 @@
+{
+  "role": "Renewable Energy Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.005957,
+  "skills": [
+    {
+      "name": "Solar PV system design",
+      "type": "hard",
+      "importance": 0.85
+    },
+    {
+      "name": "PVsyst",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Electrical engineering",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Grid-connected PV systems",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Helioscope",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Energy yield analysis",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "SEDA GCPV Certification",
+      "type": "certification",
+      "importance": 0.45
+    },
+    {
+      "name": "IEC 62548",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "ETAP",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Project management",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Battery energy storage systems",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "CIDB Green Card",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.3
+    },
+    {
+      "name": "Problem solving",
+      "type": "soft",
+      "importance": 0.25
+    }
+  ],
+  "local_notes": "In Malaysia, SEDA GCPV certification and CIDB Green Card are commonly requested for solar PV roles; Singapore employers may also reference PE registration and BCA Green Mark."
+}

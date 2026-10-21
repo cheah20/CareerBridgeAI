@@ -28,6 +28,14 @@ local.properties
 frontend/config/*.json
 !frontend/config/*.example.json
 
-# Datasets and trained models stay local (requirements §23)
-ai_backend/data/
+# Datasets, caches, logs and trained models stay local (requirements §23).
+# Only the job title and skill catalogue is shared: it is built from public data and has no personal data.
+ai_backend/data/*
+!ai_backend/data/catalog/
 ai_backend/models/
+
+# Design reference downloads (kept outside Git)
+/*.zip
+/*.dmg
+/Dial/
+/design-handoff/

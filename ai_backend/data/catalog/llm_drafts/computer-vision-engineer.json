@@ -1,0 +1,100 @@
+{
+  "role": "Computer Vision Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002237,
+  "skills": [
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.85
+    },
+    {
+      "name": "Deep learning",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "PyTorch",
+      "type": "tool",
+      "importance": 0.75
+    },
+    {
+      "name": "Computer vision",
+      "type": "hard",
+      "importance": 0.72
+    },
+    {
+      "name": "Machine learning",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "TensorFlow",
+      "type": "tool",
+      "importance": 0.68
+    },
+    {
+      "name": "OpenCV",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Git",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "C++",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Docker",
+      "type": "tool",
+      "importance": 0.48
+    },
+    {
+      "name": "Digital image processing",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Linux",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "type": "tool",
+      "importance": 0.38
+    },
+    {
+      "name": "Statistics",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "CUDA",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Problem solving",
+      "type": "soft",
+      "importance": 0.3
+    },
+    {
+      "name": "AWS Certified Machine Learning - Specialty",
+      "type": "certification",
+      "importance": 0.2
+    }
+  ],
+  "local_notes": "In Malaysia (especially Penang/Johor) many computer vision roles centre on automated optical inspection for semiconductor and electronics manufacturing, while Singapore ads more often stress video analytics deployment and handling of personal data under the PDPA."
+}

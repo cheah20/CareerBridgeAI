@@ -1,0 +1,100 @@
+{
+  "role": "Cabin Crew",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002524,
+  "skills": [
+    {
+      "name": "English language proficiency",
+      "type": "hard",
+      "importance": 0.9
+    },
+    {
+      "name": "Customer service",
+      "type": "soft",
+      "importance": 0.8
+    },
+    {
+      "name": "Safety and Emergency Procedures (SEP)",
+      "type": "certification",
+      "importance": 0.75
+    },
+    {
+      "name": "First Aid and CPR",
+      "type": "certification",
+      "importance": 0.7
+    },
+    {
+      "name": "Food and beverage service",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Bahasa Malaysia",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Verbal communication",
+      "type": "soft",
+      "importance": 0.6
+    },
+    {
+      "name": "Customer complaint handling",
+      "type": "soft",
+      "importance": 0.55
+    },
+    {
+      "name": "In-flight sales",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Food safety and hygiene",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Emergency evacuation procedures",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Cabin safety checks",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Dangerous Goods Regulations (DGR)",
+      "type": "certification",
+      "importance": 0.4
+    },
+    {
+      "name": "Aviation Security (AVSEC)",
+      "type": "certification",
+      "importance": 0.4
+    },
+    {
+      "name": "Mandarin language",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Swimming proficiency",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Microsoft Office",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Aircraft type experience (e.g., Airbus A320, Boeing 737)",
+      "type": "hard",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "Malaysian and Singaporean airlines often require English plus Bahasa Malaysia or Mandarin, and many ads state height and swimming requirements alongside airline-provided SEP training."
+}

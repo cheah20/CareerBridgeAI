@@ -1,0 +1,100 @@
+{
+  "role": "Multimedia Designer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002427,
+  "skills": [
+    {
+      "name": "Adobe After Effects",
+      "type": "tool",
+      "importance": 0.8
+    },
+    {
+      "name": "Adobe Photoshop",
+      "type": "tool",
+      "importance": 0.75
+    },
+    {
+      "name": "Adobe Illustrator",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "Motion Graphics",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Adobe Premiere Pro",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Video Editing",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Adobe Creative Cloud",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "2D Animation",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Typography",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Creativity",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Figma",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Canva",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Adobe InDesign",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Storyboarding",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "3D Animation",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "HTML/CSS",
+      "type": "hard",
+      "importance": 0.25
+    },
+    {
+      "name": "Adobe Certified Professional",
+      "type": "certification",
+      "importance": 0.2
+    }
+  ],
+  "local_notes": "In Malaysia and Singapore, a strong online portfolio and showreel are typically required, and bilingual English/Malay or English/Mandarin content skills help for local campaigns."
+}

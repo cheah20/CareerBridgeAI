@@ -1,0 +1,100 @@
+{
+  "role": "Blockchain Developer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.003221,
+  "skills": [
+    {
+      "name": "Smart contracts",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Solidity",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Ethereum",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "JavaScript",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Git",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Web3.js",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Node.js",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Docker",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Hyperledger Fabric",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Hardhat",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "ERC-20 / ERC-721 token standards",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "TypeScript",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Smart contract security auditing",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Python",
+      "type": "hard",
+      "importance": 0.28
+    },
+    {
+      "name": "Certified Blockchain Developer (CBD)",
+      "type": "certification",
+      "importance": 0.12
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.3
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.25
+    }
+  ],
+  "local_notes": "Singapore postings often add MAS Payment Services Act 2019 and FATF Travel Rule compliance to the stack, while Malaysian employers reference the Securities Commission Malaysia Guidelines on Digital Assets, with most roles sitting in crypto exchanges, Web3 startups and bank DLT teams in Singapore and Kuala Lumpur."
+}

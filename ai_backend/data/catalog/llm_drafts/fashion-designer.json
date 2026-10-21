@@ -1,0 +1,100 @@
+{
+  "role": "Fashion Designer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002415,
+  "skills": [
+    {
+      "name": "Adobe Illustrator",
+      "type": "tool",
+      "importance": 0.75
+    },
+    {
+      "name": "Adobe Photoshop",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "Fashion illustration",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Technical drawing (flats)",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Pattern making",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Textile and fabric knowledge",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Garment construction",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Trend research",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Creativity",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Tech packs",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Mood boards",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Teamwork",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "CLO 3D",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Adobe InDesign",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Costing and production follow-up",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "type": "tool",
+      "importance": 0.25
+    }
+  ],
+  "local_notes": "Many Malaysian and Singaporean ads expect a strong PDF portfolio plus familiarity with regional sampling/production in Malaysia, China or Vietnam, and batik or ethnic print experience is a plus in Malaysia."
+}

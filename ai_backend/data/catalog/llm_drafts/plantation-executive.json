@@ -1,0 +1,100 @@
+{
+  "role": "Plantation Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.003278,
+  "skills": [
+    {
+      "name": "Oil palm estate management",
+      "type": "hard",
+      "importance": 0.85
+    },
+    {
+      "name": "Agronomy and crop production principles",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Pest and disease management (including IPM)",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Fertilizer application and nutrient management",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Harvesting supervision and FFB yield estimation",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Estate budgeting and cost control",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "MSPO (Malaysian Sustainable Palm Oil) certification",
+      "type": "certification",
+      "importance": 0.55
+    },
+    {
+      "name": "RSPO (Roundtable on Sustainable Palm Oil) certification",
+      "type": "certification",
+      "importance": 0.5
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Soil and leaf sampling",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Foreign worker supervision and labor management",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Irrigation systems management",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Occupational safety and health (OSH)",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "MyGAP (Malaysian Good Agricultural Practice) certification",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "Team leadership and supervision",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "GIS mapping and field data collection",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Microsoft Office (Word, Outlook)",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.25
+    }
+  ],
+  "local_notes": "In Malaysia, MSPO certification is mandatory for oil palm estates and RSPO/MyGAP are commonly listed; Singapore ads tend to emphasise agronomy, sustainability compliance and field data skills."
+}

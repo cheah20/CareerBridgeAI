@@ -1,0 +1,100 @@
+{
+  "role": "Oil & Gas Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002263,
+  "skills": [
+    {
+      "name": "Reservoir engineering",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Drilling operations",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Well testing",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Production optimisation",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Petrel",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Well completion design",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Pressure transient analysis",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Eclipse",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Petrophysics and log interpretation",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Artificial lift",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "IWCF Well Control",
+      "type": "certification",
+      "importance": 0.45
+    },
+    {
+      "name": "BOSIET/HUET",
+      "type": "certification",
+      "importance": 0.45
+    },
+    {
+      "name": "HSE risk assessment",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Prosper",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Technical report writing",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Coordination with drilling and production teams",
+      "type": "soft",
+      "importance": 0.35
+    }
+  ],
+  "local_notes": "Malaysia and Singapore oil-and-gas employers commonly require offshore safety certification (BOSIET/HUET) and well-control certification such as IWCF, with PETRONAS and regional offshore contractors often specifying these in job ads."
+}

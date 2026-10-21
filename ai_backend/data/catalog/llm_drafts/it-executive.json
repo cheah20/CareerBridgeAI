@@ -1,0 +1,100 @@
+{
+  "role": "IT Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.00242,
+  "skills": [
+    {
+      "name": "Microsoft Windows Server",
+      "type": "tool",
+      "importance": 0.75
+    },
+    {
+      "name": "Microsoft Active Directory",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "LAN/WAN",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "TCP/IP",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Microsoft 365 administration",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Backup and recovery",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "IT helpdesk support",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Network troubleshooting",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Firewall and VPN",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "VMware vSphere",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Linux",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Cybersecurity fundamentals",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "ServiceNow",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "PowerShell",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "CompTIA A+",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "Cisco Certified Network Associate (CCNA)",
+      "type": "certification",
+      "importance": 0.35
+    }
+  ],
+  "local_notes": "Employers in Malaysia and Singapore commonly expect awareness of PDPA compliance and hands-on support for local office networks and vendors."
+}

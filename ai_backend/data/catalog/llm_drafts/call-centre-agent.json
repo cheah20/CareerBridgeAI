@@ -1,0 +1,100 @@
+{
+  "role": "Call Centre Agent",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002159,
+  "skills": [
+    {
+      "name": "Customer service",
+      "type": "hard",
+      "importance": 0.85
+    },
+    {
+      "name": "Inbound call handling",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "English language proficiency",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Complaint handling and resolution",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Active listening",
+      "type": "soft",
+      "importance": 0.55
+    },
+    {
+      "name": "CRM software (Salesforce, Zendesk)",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Bahasa Malaysia",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Microsoft Office (Outlook, Word)",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Live chat and email support",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Mandarin / Cantonese",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Data entry and order processing",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Contact centre telephony (Avaya, Genesys)",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Meeting KPIs (AHT, first call resolution)",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Stress tolerance",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Touch typing (40+ WPM)",
+      "type": "hard",
+      "importance": 0.25
+    },
+    {
+      "name": "Credit card payment handling / PCI DSS awareness",
+      "type": "hard",
+      "importance": 0.25
+    },
+    {
+      "name": "WSQ service excellence / contact centre certification",
+      "type": "certification",
+      "importance": 0.1
+    }
+  ],
+  "local_notes": "Malaysian and Singaporean ads typically demand English plus Bahasa Malaysia and/or Mandarin or Cantonese for local and regional customers, and Singapore employers often list WSQ/SkillsFuture service training and 24/7 shift availability."
+}

@@ -1,0 +1,100 @@
+{
+  "role": "Chemical Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.008201,
+  "skills": [
+    {
+      "name": "Process design",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Mass and energy balance",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Aspen HYSYS",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "Aspen Plus",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "P&ID (Piping and Instrumentation Diagram)",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "HAZOP",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Process safety management",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Commissioning and start-up",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "ISO 9001 Quality Management System",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Professional Engineer (PE) registration (BEM/PEB)",
+      "type": "certification",
+      "importance": 0.25
+    },
+    {
+      "name": "Six Sigma Green Belt",
+      "type": "certification",
+      "importance": 0.25
+    },
+    {
+      "name": "ISO 14001 Environmental Management System",
+      "type": "hard",
+      "importance": 0.25
+    },
+    {
+      "name": "GMP (Good Manufacturing Practice)",
+      "type": "hard",
+      "importance": 0.2
+    },
+    {
+      "name": "Scheduled Waste Management (Malaysia)",
+      "type": "hard",
+      "importance": 0.2
+    }
+  ],
+  "local_notes": "Malaysian ads often list BEM registration and scheduled waste handling, while Singapore ads emphasise PEB registration and WSH compliance."
+}

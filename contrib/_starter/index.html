@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Starter page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left menu: change the links to the pages of your role -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Page two</a>
+      <a href="#">Page three</a>
+    </nav>
+
+    <!-- Your page goes inside <main> -->
+    <main>
+      <h1 class="page-title">Page title</h1>
+      <p class="page-sub">One sentence that says what this page is for.</p>
+
+      <div class="grid-4">
+        <div class="card"><div class="muted">Users</div><div class="number">1,284</div></div>
+        <div class="card"><div class="muted">Waiting review</div><div class="number">7</div></div>
+        <div class="card"><div class="muted">Open jobs</div><div class="number">42</div></div>
+        <div class="card"><div class="muted">Errors today</div><div class="number">0</div></div>
+      </div>
+
+      <div class="tabs" style="margin-top:24px">
+        <button class="active" data-tab="list">List</button>
+        <button data-tab="form">Form</button>
+      </div>
+
+      <section data-panel="list" class="card">
+        <h2>Example table</h2>
+        <table>
+          <tr><th>Name</th><th>Company</th><th>Status</th><th></th></tr>
+          <tr><td>Aina Example</td><td>Example Sdn Bhd</td><td><span class="status warn">Waiting</span></td><td><button class="btn" data-demo="Approved (demo only)">Approve</button></td></tr>
+          <tr><td>Daniel Example</td><td>Sample Tech</td><td><span class="status ok">Verified</span></td><td><button class="btn danger" data-demo="Rejected (demo only)">Reject</button></td></tr>
+        </table>
+        <p id="message" class="muted"></p>
+      </section>
+
+      <section data-panel="form" class="card" hidden>
+        <h2>Example form</h2>
+        <label for="title">Job title</label>
+        <input id="title" placeholder="e.g. Data Analyst">
+        <label for="level">Experience level</label>
+        <select id="level"><option>Junior</option><option>Mid-level</option><option>Senior</option></select>
+        <p><button class="btn primary" data-demo="Saved (demo only)">Save</button></p>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

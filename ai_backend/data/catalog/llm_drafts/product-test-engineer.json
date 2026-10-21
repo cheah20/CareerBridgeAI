@@ -1,0 +1,100 @@
+{
+  "role": "Product Test Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002094,
+  "skills": [
+    {
+      "name": "Automated test equipment (ATE) platforms (Advantest V93000, Teradyne UltraFLEX)",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Test program development and debugging",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Semiconductor test (wafer sort/final test)",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Statistical data analysis (yield, binning, test data)",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Oscilloscope and electronic bench instrumentation",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "C/C++",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Failure analysis and root cause investigation",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Problem solving",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "LabVIEW",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Design for test (DFT) and test coverage",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "JMP",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "MATLAB",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Teamwork",
+      "type": "soft",
+      "importance": 0.3
+    },
+    {
+      "name": "SPC and GR&R",
+      "type": "hard",
+      "importance": 0.25
+    },
+    {
+      "name": "Six Sigma Green Belt",
+      "type": "certification",
+      "importance": 0.2
+    }
+  ],
+  "local_notes": "In Penang/Johor and Singapore, ads often emphasise high-volume semiconductor ATE experience and familiarity with wafer sort/final test in OSAT or IDM environments."
+}

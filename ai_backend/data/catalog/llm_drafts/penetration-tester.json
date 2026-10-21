@@ -1,0 +1,100 @@
+{
+  "role": "Penetration Tester",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.001993,
+  "skills": [
+    {
+      "name": "Penetration testing",
+      "type": "hard",
+      "importance": 0.85
+    },
+    {
+      "name": "Burp Suite",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "Web application security",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Metasploit",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Nmap",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "Kali Linux",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "OWASP Top 10",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "OSCP",
+      "type": "certification",
+      "importance": 0.5
+    },
+    {
+      "name": "CEH",
+      "type": "certification",
+      "importance": 0.45
+    },
+    {
+      "name": "Report writing",
+      "type": "soft",
+      "importance": 0.45
+    },
+    {
+      "name": "CompTIA Security+",
+      "type": "certification",
+      "importance": 0.4
+    },
+    {
+      "name": "Nessus",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Active Directory",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Wireshark",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "CREST",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.3
+    },
+    {
+      "name": "PowerShell",
+      "type": "tool",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "In Singapore, penetration testing service providers must be licensed under the Cybersecurity Act; in Malaysia, CREST, OSCP and CEH are commonly requested."
+}

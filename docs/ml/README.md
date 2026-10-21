@@ -188,7 +188,7 @@ All times are local (UTC+8) on 18 October 2026. Raw logs are in [logs/](logs/).
 | A | 11:32 – 12:03 | batch 8 × 2 accumulation | **Completed** in 27.8 min. PyTorch test accuracy 0.872. Exported to int8 with the MatMul and embedding layers quantised, which dropped ONNX test accuracy to 0.784, so it was registered as v3 and rejected. See [logs/run-a-status.log](logs/run-a-status.log). |
 | **B** | 12:21 – 12:59 | batch 8 × 2 accumulation | **Completed** in 26.8 min. PyTorch test accuracy 0.882. int8 (MatMul only) matched PyTorch on 86.6% of validation resumes and fp32 on 100%, so fp32 was chosen and registered as v5. See [logs/run-b-progress.log](logs/run-b-progress.log) and [logs/run-b-status.log](logs/run-b-status.log). |
 
-An earlier attempt to fine-tune on Kaggle was abandoned because the notebook session had no GPU attached and ran too slowly. The notebook remains in `ai_backend/notebooks/`.
+An earlier attempt to fine-tune on Kaggle was abandoned because the notebook session had no GPU attached and ran too slowly. The notebook is no longer in the repository; a copy is kept on the developer's computer.
 
 ## Results per epoch
 

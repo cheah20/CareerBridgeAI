@@ -1,0 +1,95 @@
+{
+  "role": "ESG / Sustainability Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002774,
+  "skills": [
+    {
+      "name": "GRI Standards sustainability reporting",
+      "type": "hard",
+      "importance": 0.85
+    },
+    {
+      "name": "GHG Protocol emissions accounting (Scope 1, 2, 3)",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.75
+    },
+    {
+      "name": "TCFD-aligned climate risk disclosure",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Bursa Malaysia Sustainability Reporting Guide",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "SGX sustainability reporting (Listing Rules 711A/711B)",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "ISO 14001 Environmental Management System",
+      "type": "certification",
+      "importance": 0.5
+    },
+    {
+      "name": "Waste management and circular economy programmes",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "CDP climate change disclosure",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Green procurement and sustainable sourcing",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "IFRS S1/S2 (ISSB) climate reporting",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Microsoft Power BI",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Energy efficiency audits and MS 1525",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Green building rating tools (GBI, BCA Green Mark)",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "CFA Institute Certificate in ESG Investing",
+      "type": "certification",
+      "importance": 0.25
+    },
+    {
+      "name": "Stakeholder engagement",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Project management",
+      "type": "soft",
+      "importance": 0.45
+    }
+  ],
+  "local_notes": "Both markets mandate listed-company sustainability reporting (Bursa Malaysia's Sustainability Reporting Guide and SGX Rules 711A/711B), and green building credentials are split by market: GBI in Malaysia versus BCA Green Mark in Singapore."
+}

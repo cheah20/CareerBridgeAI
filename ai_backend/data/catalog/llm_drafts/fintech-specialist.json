@@ -1,0 +1,100 @@
+{
+  "role": "Fintech Specialist",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.001885,
+  "skills": [
+    {
+      "name": "Digital payments and payment rails (PayNow, FAST, DuitNow, RENTAS, SWIFT)",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "API integration (REST/JSON, webhooks)",
+      "type": "hard",
+      "importance": 0.72
+    },
+    {
+      "name": "SQL",
+      "type": "tool",
+      "importance": 0.68
+    },
+    {
+      "name": "AML/CFT and KYC processes",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.58
+    },
+    {
+      "name": "Regulatory compliance with MAS and BNM guidelines (e.g. MAS PSN02, BNM RMiT)",
+      "type": "hard",
+      "importance": 0.58
+    },
+    {
+      "name": "Stakeholder communication and reporting",
+      "type": "soft",
+      "importance": 0.55
+    },
+    {
+      "name": "Fraud detection and transaction monitoring",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Cloud platforms (AWS, Azure)",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Data analytics and visualisation (Power BI, Tableau)",
+      "type": "tool",
+      "importance": 0.48
+    },
+    {
+      "name": "PCI DSS compliance",
+      "type": "certification",
+      "importance": 0.42
+    },
+    {
+      "name": "ISO 20022 and SWIFT MT messaging",
+      "type": "hard",
+      "importance": 0.42
+    },
+    {
+      "name": "Open banking / Open API (SG FinTech API Register)",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Blockchain, DLT and smart contracts",
+      "type": "hard",
+      "importance": 0.38
+    },
+    {
+      "name": "Jira and Agile/Scrum delivery",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Certified Anti-Money Laundering Specialist (CAMS)",
+      "type": "certification",
+      "importance": 0.32
+    },
+    {
+      "name": "Analytical problem solving",
+      "type": "soft",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "Singapore roles typically cite MAS Payment Services Act, PSN02 and the SG FinTech API Register, while Malaysian roles cite BNM RMiT, DuitNow and the Fintech Sandbox, so resumes should name the specific domestic rails and regulator."
+}

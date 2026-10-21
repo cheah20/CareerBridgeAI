@@ -1,0 +1,100 @@
+{
+  "role": "Quantity Surveyor",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.006658,
+  "skills": [
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.9
+    },
+    {
+      "name": "Cost estimation and budgeting",
+      "type": "hard",
+      "importance": 0.85
+    },
+    {
+      "name": "Bill of Quantities (BQ) preparation",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Measurement and take-off",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Tender documentation and evaluation",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Contract administration",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Progress claims and variation orders",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Cost planning and cost control",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Final accounts",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "CostX",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Glodon Cubicost",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "PSSCOC and SIA Conditions of Contract",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "PAM and JKR Forms of Contract",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "RICS Chartered Quantity Surveyor (MRICS)",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Registered Quantity Surveyor (BQSM)",
+      "type": "certification",
+      "importance": 0.25
+    },
+    {
+      "name": "SISV Quantity Surveying Division membership",
+      "type": "certification",
+      "importance": 0.2
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.35
+    }
+  ],
+  "local_notes": "In Malaysia, BQSM registration and RISM membership are commonly listed; in Singapore, SISV membership and familiarity with PSSCOC/SIA forms are valued."
+}

@@ -1,0 +1,90 @@
+{
+  "role": "Inventory Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002327,
+  "skills": [
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.85
+    },
+    {
+      "name": "Stock taking / cycle counts",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Inventory control",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "SAP",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "Microsoft Office",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Warehouse Management System (WMS)",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Purchase orders and goods receipt",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Stock reconciliation",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Microsoft Outlook",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Documentation and record keeping",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Attention to detail",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Supply chain coordination",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.45
+    },
+    {
+      "name": "Forklift license",
+      "type": "certification",
+      "importance": 0.4
+    },
+    {
+      "name": "Teamwork",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Workplace Safety and Health (WSH) compliance",
+      "type": "hard",
+      "importance": 0.35
+    }
+  ],
+  "local_notes": "Employers in Malaysia and Singapore often expect familiarity with GST/SST documentation and multi-warehouse coordination."
+}

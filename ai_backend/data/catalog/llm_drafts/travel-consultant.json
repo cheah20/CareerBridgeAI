@@ -1,0 +1,100 @@
+{
+  "role": "Travel Consultant",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.001489,
+  "skills": [
+    {
+      "name": "English language proficiency",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Customer service",
+      "type": "soft",
+      "importance": 0.7
+    },
+    {
+      "name": "Tour itinerary planning",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Local geography and heritage knowledge",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Amadeus (GDS)",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Tourist Guide Licence (MOTAC)",
+      "type": "certification",
+      "importance": 0.45
+    },
+    {
+      "name": "Public speaking and tour commentary",
+      "type": "soft",
+      "importance": 0.45
+    },
+    {
+      "name": "Mandarin language",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Bahasa Malaysia",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Singapore Tourism Board Tourist Guide Licence",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "First aid and CPR certification",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "Visa and travel document processing",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Travel insurance knowledge",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Cash handling and POS collection of visitor fees",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "IATA/UFTAA ticketing certification",
+      "type": "certification",
+      "importance": 0.25
+    },
+    {
+      "name": "Cantonese language",
+      "type": "hard",
+      "importance": 0.2
+    },
+    {
+      "name": "Sustainable tourism practices",
+      "type": "hard",
+      "importance": 0.2
+    }
+  ],
+  "local_notes": "Guiding in Malaysia requires a MOTAC-issued Tourist Guide Licence (by state and language) and in Singapore an STB Tourist Guide Licence, so ads commonly specify the licence plus the language of guiding."
+}

@@ -1,0 +1,100 @@
+{
+  "role": "Animator",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.001867,
+  "skills": [
+    {
+      "name": "Adobe After Effects",
+      "type": "tool",
+      "importance": 0.85
+    },
+    {
+      "name": "Adobe Photoshop",
+      "type": "tool",
+      "importance": 0.7
+    },
+    {
+      "name": "Motion graphics",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "2D animation",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Autodesk Maya",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "3D animation",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Adobe Illustrator",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Adobe Premiere Pro",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Working to brief",
+      "type": "soft",
+      "importance": 0.45
+    },
+    {
+      "name": "Storyboarding",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Adobe Creative Cloud",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Meeting deadlines",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Adobe Animate",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Blender",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Rigging",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Compositing",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Toon Boom Harmony",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Adobe Certified Professional",
+      "type": "certification",
+      "importance": 0.15
+    }
+  ],
+  "local_notes": "In Malaysia and Singapore, animator job ads commonly require a showreel/portfolio link and may specify Mandarin or Bahasa Malaysia for local/regional content, with studios concentrated in Kuala Lumpur, Penang, and Singapore."
+}

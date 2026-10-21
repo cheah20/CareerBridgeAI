@@ -1,0 +1,100 @@
+{
+  "role": "Game Developer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.003295,
+  "skills": [
+    {
+      "name": "Unity",
+      "type": "tool",
+      "importance": 0.72
+    },
+    {
+      "name": "C#",
+      "type": "hard",
+      "importance": 0.68
+    },
+    {
+      "name": "C++",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Object-oriented programming (OOP)",
+      "type": "hard",
+      "importance": 0.52
+    },
+    {
+      "name": "Git",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Unreal Engine",
+      "type": "tool",
+      "importance": 0.48
+    },
+    {
+      "name": "Debugging",
+      "type": "hard",
+      "importance": 0.46
+    },
+    {
+      "name": "3D mathematics",
+      "type": "hard",
+      "importance": 0.42
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Game physics",
+      "type": "hard",
+      "importance": 0.38
+    },
+    {
+      "name": "Visual Studio",
+      "type": "tool",
+      "importance": 0.36
+    },
+    {
+      "name": "Teamwork",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "JIRA",
+      "type": "tool",
+      "importance": 0.34
+    },
+    {
+      "name": "Mobile game development (iOS/Android)",
+      "type": "hard",
+      "importance": 0.33
+    },
+    {
+      "name": "Agile/Scrum",
+      "type": "hard",
+      "importance": 0.32
+    },
+    {
+      "name": "Game design documentation",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Multiplayer networking",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Shader programming (HLSL/GLSL)",
+      "type": "hard",
+      "importance": 0.28
+    }
+  ],
+  "local_notes": "In Malaysia/Singapore, employers often prioritise a playable portfolio and shipped mobile/PC titles over formal certifications, with Unity and C# especially dominant."
+}

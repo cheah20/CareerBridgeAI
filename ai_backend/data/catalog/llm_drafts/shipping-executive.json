@@ -1,0 +1,100 @@
+{
+  "role": "Shipping Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002971,
+  "skills": [
+    {
+      "name": "Ocean freight and air freight forwarding operations",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Import/export shipping documentation (Bill of Lading, AWB, packing list, commercial invoice)",
+      "type": "hard",
+      "importance": 0.78
+    },
+    {
+      "name": "Incoterms 2020",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Customs declaration and clearance procedures",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "Freight rate quotation and costing",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Microsoft Outlook",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "FCL/LCL consolidation and container types",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "HS code and tariff classification",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Communication with overseas agents and customers",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "CargoWise One",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Certificate of Origin (Form D / ATIGA)",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "TradeNet (Singapore Customs)",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Dagang Net eDeclare / eManifest",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Container haulage and trucking coordination",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Negotiation with shipping lines and vendors",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Letter of Credit documentation (UCP 600)",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Cargo insurance arrangement",
+      "type": "hard",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "Malaysian ads usually name Royal Malaysian Customs (Kastam) procedures and Dagang Net eDeclare/eManifest, while Singapore ads ask for TradeNet and Singapore Customs declaring-agent know-how; both markets expect Incoterms and Form D (ATIGA) preferential Certificate of Origin handling."
+}

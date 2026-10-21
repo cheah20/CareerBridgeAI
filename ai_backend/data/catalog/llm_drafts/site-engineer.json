@@ -1,0 +1,100 @@
+{
+  "role": "Site Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.006914,
+  "skills": [
+    {
+      "name": "Site supervision",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Construction methods",
+      "type": "hard",
+      "importance": 0.72
+    },
+    {
+      "name": "Interpret technical drawings",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.68
+    },
+    {
+      "name": "Construction safety compliance",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Project management",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Microsoft Office",
+      "type": "tool",
+      "importance": 0.52
+    },
+    {
+      "name": "Quantity surveying / Bill of Quantities (BQ)",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Cost control",
+      "type": "hard",
+      "importance": 0.48
+    },
+    {
+      "name": "Setting out and surveying",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Autodesk Civil 3D",
+      "type": "tool",
+      "importance": 0.42
+    },
+    {
+      "name": "Primavera P6",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Autodesk Revit",
+      "type": "tool",
+      "importance": 0.38
+    },
+    {
+      "name": "CIDB Green Card",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "BCSS (Building Construction Supervisors Safety Course)",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.3
+    },
+    {
+      "name": "Microsoft Project",
+      "type": "tool",
+      "importance": 0.28
+    }
+  ],
+  "local_notes": "In Malaysia, the CIDB Green Card is commonly required for site access, while in Singapore BCSS/CSOC and WSH compliance are typically expected for site supervisory roles."
+}

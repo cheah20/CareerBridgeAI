@@ -1,0 +1,100 @@
+{
+  "role": "Biotechnologist",
+  "status": "draft - needs human review",
+  "generated": "2026-10-18",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.003265,
+  "skills": [
+    {
+      "name": "PCR/qPCR",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Cell culture",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "DNA/RNA extraction",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "ELISA",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Molecular cloning",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Western blot",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "SOP documentation",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Good Laboratory Practice (GLP)",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Bioinformatics analysis",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Attention to detail",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "R",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Flow cytometry",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Method validation",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Good Manufacturing Practice (GMP)",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "BSL-2 practices",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Python",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Teamwork",
+      "type": "soft",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "Malaysian and Singaporean employers commonly expect familiarity with GLP/GMP, BSL-2 practices and lab quality documentation, especially in contract research, pharmaceutical and public research institute roles."
+}

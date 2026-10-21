@@ -1,17 +1,16 @@
-# careerbridge_ai
+# Website (Flutter)
 
-A new Flutter project.
+Everything the user sees in the browser.
 
-## Getting Started
+| Folder | What is inside |
+|---|---|
+| `lib/features/` | The pages, one folder per user type (seeker, recruiter, admin…) |
+| `lib/app/` | Colours and fonts (`theme/`), the list of pages (`router.dart`), settings |
+| `lib/core/` | Small building blocks used on many pages: cards, lists, page headers |
+| `lib/mobile_ui/` | Phone layout, paused until the desktop website is finished |
+| `test/` | Automatic checks for the pages |
+| `assets/fonts/` | The Inter font |
+| `config/` | Settings file template (copy `dev.example.json` to `dev.json`) |
+| `web/` | The browser shell (icon, page title) |
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run: see the main [README](../README.md).
