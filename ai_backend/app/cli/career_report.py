@@ -1,14 +1,4 @@
-"""Terminal tool: the full Job Seeker analysis in one command.
-
-    resume file -> text (PDF / DOCX / OCR)
-                -> fit score for the chosen job title and level (rules)
-                -> other career directions (ML model)
-                -> explanation, gaps, interview questions, roadmap (DeepSeek)
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.cli.career_report resume.pdf --role "Data Analyst" --level junior
-    python -m app.cli.career_report resume.pdf --role "Data Analyst" --level junior --no-llm
-"""
+"""Terminal tool: the full Job Seeker analysis in one command."""
 
 import argparse
 import sys

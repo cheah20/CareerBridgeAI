@@ -1,9 +1,4 @@
-"""Terminal tool: read a resume file and print the extracted text.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.cli.extract_resume path/to/resume.pdf
-    python -m app.cli.extract_resume path/to/photo.jpg --out resume.txt
-"""
+"""Terminal tool: read a resume file and print the extracted text."""
 
 import argparse
 import sys

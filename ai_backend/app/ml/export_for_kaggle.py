@@ -1,13 +1,4 @@
-"""Export the combined resume dataset with the exact train/test split used by
-app.ml.train, so a Transformer fine-tuned on Kaggle is compared fairly with v2/v3.
-
-Transformers work better on the original wording, so the export keeps the raw text
-(whitespace tidied); the split is made on the same rows as the TF-IDF models.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.export_for_kaggle
-Output: data/kaggle_upload/careerbridge-resumes-v2/
-"""
+"""Export the dataset with the same train/test split as train.py."""
 
 import json
 import re

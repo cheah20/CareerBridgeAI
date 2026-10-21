@@ -1,16 +1,10 @@
-"""Score how well a resume fits the job title and experience level a Job Seeker chose.
-
-Rule-based and explainable (requirements §4): the score is a system-defined fit
-indicator, not a hiring probability.
-
-    overall = 70% skills + 20% experience + 10% education
-"""
+"""Score how well a resume fits the job title and experience level a Job Seeker chose."""
 
 import re
 from dataclasses import dataclass, field
 from datetime import date
 
-from app.catalog.skillnames import skill_aliases, text_ngrams
+from app.catalog.skillnames import is_requirement, skill_aliases, text_ngrams
 
 LEVEL_YEARS = {  # expected years of experience per level (min, max)
     "entry": (0, 1),
@@ -28,7 +22,7 @@ LEVEL_LABELS = {
 }
 WEIGHTS = {"skills": 0.7, "experience": 0.2, "education": 0.1}
 
-# Match levels — PROVISIONAL defaults; requirements §5 leaves thresholds TBD.
+# Match level names and their minimum scores.
 MATCH_LEVELS = [(80, "Strong Match"), (65, "Good Match"), (45, "Partial Match"), (0, "Low Match")]
 
 MAX_REQUIREMENTS = 15
@@ -77,12 +71,16 @@ def requirements_for(role: dict, level: str) -> list[tuple[str, float, str]]:
     tool_weight = 0.12 if reqs else 0.25
     reqs += [(name, tool_weight, "tool") for name in skills["tools"][:8]]
 
-    seen, unique = set(), []
+    seen: set[str] = set()
+    unique = []
     for name, weight, source in sorted(reqs, key=lambda r: -r[1]):
-        key = name.lower()
-        if key not in seen:
-            seen.add(key)
-            unique.append((name, weight, source))
+        if not is_requirement(name):
+            continue  # "Insights", "Master's Degree", "3+ Years of Experience" are not skills
+        aliases = skill_aliases(name)
+        if aliases & seen:
+            continue  # "AI" when "Artificial Intelligence" is already listed
+        seen |= aliases
+        unique.append((name, weight, source))
     return unique[:MAX_REQUIREMENTS]
 
 
@@ -198,8 +196,7 @@ def score_fit(resume_text: str, role: dict, level: str) -> FitResult:
         notes.append("Few job ads exist for this title, so requirements come from occupation databases.")
 
     parts = {"skills": round(skills, 3), "experience": round(experience, 3), "education": round(education, 3)}
-    # Experience and education only count as far as the background is relevant to this role:
-    # years as a data analyst say little about fit for nursing.
+    # Experience and education only count as far as the skills match this role.
     relevance = min(1.0, skills / 0.5)
     overall = round(100 * (parts["skills"] * WEIGHTS["skills"]
                            + relevance * (parts["experience"] * WEIGHTS["experience"]

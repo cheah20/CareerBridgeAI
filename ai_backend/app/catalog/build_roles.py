@@ -1,12 +1,4 @@
-"""Step 1a: match every seed role to O*NET, ESCO and real job postings.
-
-Writes (local only, not Supabase):
-    data/catalog/roles_map.json   machine-readable mapping
-    data/catalog/ROLES.md         overview for review
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.catalog.build_roles
-"""
+"""Step 1a: match every seed role to O*NET, ESCO and real job postings."""
 
 import json
 import re

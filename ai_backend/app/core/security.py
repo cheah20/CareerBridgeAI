@@ -1,14 +1,4 @@
-"""Authentication and role checks for API routes.
-
-Flow for every protected request:
-1. Read the "Authorization: Bearer <token>" header (the Supabase access token
-   the Flutter app received at login).
-2. Verify the token's signature with Supabase's public keys (ES256, JWKS),
-   plus its expiry, audience and issuer. No secret key is needed.
-3. Load the user's role from public.profiles, using the user's own token so
-   RLS still applies (a user can only read their own profile).
-4. Optionally require one of the allowed roles (require_role).
-"""
+"""Authentication and role checks for API routes."""
 
 from functools import lru_cache
 from typing import Annotated

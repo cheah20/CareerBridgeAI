@@ -1,21 +1,4 @@
-"""Generate realistic Malaysian / Singaporean resumes for training, with known answers.
-
-Two steps per resume:
-1. A random person profile is drawn in code (role from the CareerBridge catalogue, experience level,
-   work history with full-time, part-time, freelance, internship and contract jobs, career gaps,
-   career switches, education, skills) so the variety is real randomness, not the LLM's habits.
-2. The LLM writes that profile up as resume text in one of several layouts seen in real resumes
-   (the Malaysian CV sample pack, the JobStreet template, a career-guide layout, student and plain
-   layouts, text copied out of a two-column PDF).
-
-Every resume keeps its profile, so it can train the role/field/level classifier and check the parser.
-The real Malaysian CVs are used only as style references and stay out of training.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.synthetic_resumes generate --batch batch1 --per-role 1   # every role once
-    python -m app.ml.synthetic_resumes review --batch batch1                  # HTML page to check them
-Output: data/synthetic/<batch>/resumes.jsonl (local only)
-"""
+"""Generate realistic Malaysian / Singaporean resumes for training, with known answers."""
 
 import argparse
 import html

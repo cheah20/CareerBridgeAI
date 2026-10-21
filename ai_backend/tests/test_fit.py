@@ -1,4 +1,4 @@
-"""Fit scoring for a chosen job title and level (uses a small fake role, not the local catalogue)."""
+"""Fit scoring tests (uses a small fake role)."""
 
 from datetime import date
 

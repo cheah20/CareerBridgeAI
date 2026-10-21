@@ -1,8 +1,4 @@
-"""Use the LLM to explain a fit result and generate advice (requirements §4, §5).
-
-The LLM receives the system's own score and skill lists and explains them; it
-never computes the score and must not present it as a hiring probability.
-"""
+"""Use the LLM to explain a fit result and generate advice."""
 
 import json
 
@@ -56,3 +52,38 @@ def build_messages(role: dict, fit: FitResult, resume_text: str, known_names: li
 
 def explain_fit(role: dict, fit: FitResult, resume_text: str, known_names: list[str] | None = None) -> LLMReply:
     return chat_json(build_messages(role, fit, resume_text, known_names), purpose="fit_explanation", max_tokens=2200)
+
+
+# ------------------------------------------------------------------ advice from a structured profile (testing mode)
+
+COACH_PROMPT = """You are the friendly career coach inside CareerBridge AI (Malaysia and Singapore).
+You receive the Job Seeker's resume profile (already read by the system) and the system's fit result for
+the job title and level they chose.
+Tone: warm, encouraging and reassuring. The person may be a student or fresh graduate. Celebrate what is
+already good, then give a clear next step. Never say the person did something wrong: resume styles differ
+between countries. If the system could not read something (for example dates), say the system may have missed
+it and suggest, as an option, a format that is easier to read.
+Personal details (name, contact, address) were removed by the system on purpose: never mention them.
+Facts: use only what is given; never invent experience, numbers or qualifications. The score is a system fit
+indicator, never a chance of being hired.
+Keep it short: every list item is one sentence of at most 25 words.
+Reply with JSON exactly like:
+{"summary": "2 sentences",
+ "strengths": ["at most 3"],
+ "next_skills": [{"skill": "...", "how": "one practical step"}],
+ "resume_tips": ["at most 3 optional suggestions"],
+ "interview_questions": [{"question": "...", "tip": "how to prepare, one sentence"}],
+ "roadmap": [{"step": 1, "focus": "...", "weeks": 4}]}
+Give at most 3 next_skills, 3 interview_questions and 3 roadmap steps."""
+
+
+def coach_messages(role: dict, level_label: str, assessment: dict, profile: dict) -> list[dict]:
+    context = {"target_role": role["title"], "field": role["field"], "chosen_level": level_label,
+               "fit": assessment, "resume_profile": profile}
+    return [{"role": "system", "content": COACH_PROMPT},
+            {"role": "user", "content": "Write the coaching advice as JSON.\n" + json.dumps(context, ensure_ascii=False)}]
+
+
+def coach(role: dict, level_label: str, assessment: dict, profile: dict, thinking: bool = False) -> LLMReply:
+    return chat_json(coach_messages(role, level_label, assessment, profile), purpose="coach_advice",
+                     max_tokens=1400, temperature=0.4, thinking=thinking)

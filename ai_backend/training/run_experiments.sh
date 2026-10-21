@@ -1,9 +1,5 @@
 #!/bin/bash
-# Run the synthetic-data experiments one after the other, gently (pause after each step),
-# with the heat guard on and every log kept for the report.
-#   bash training/run_experiments.sh            (from ai_backend/)
-# Each experiment's logs end up in data/training_runs/<name>/:
-#   progress.log  train.log  gpu.csv (one sample per minute)  metrics.json  command.txt
+# Run the training experiments one by one, with the heat guard on.
 cd "$(dirname "$0")/.." || exit 1
 PY=~/miniconda3/envs/careerbridge-train/bin/python
 THROTTLE=${THROTTLE:-1.0}     # seconds of rest after each step

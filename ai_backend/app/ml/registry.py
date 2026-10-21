@@ -1,8 +1,4 @@
-"""Model versions: which models exist, how they scored, which one is deployed.
-
-Stored as models/registry.json so versions can be compared and rolled back
-(requirements §14). Model files themselves stay local.
-"""
+"""Model versions: which models exist, how they scored, which one is deployed."""
 
 import json
 from typing import Any

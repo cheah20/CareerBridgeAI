@@ -1,14 +1,4 @@
-"""Synthetic Malaysian-style resumes for checking models on local resume formats.
-
-No public dataset of Malaysian resumes exists, so this generates one fictional resume
-per career category with the LLM, varying length, layout and seniority. It is a test
-set only: it is never used for training, and it does not replace real resumes.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.synthetic_my_testset generate
-    python -m app.ml.synthetic_my_testset evaluate v2 v5    # compare model versions
-Output: data/eval/my_synthetic_v1.jsonl (local only)
-"""
+"""Synthetic Malaysian-style resumes for checking models on local resume formats."""
 
 import argparse
 import json

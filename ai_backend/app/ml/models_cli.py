@@ -1,10 +1,4 @@
-"""Manage model versions: list, deploy, roll back (requirements §14).
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.models_cli list
-    python -m app.ml.models_cli deploy v2
-    python -m app.ml.models_cli rollback        # back to the previously deployed version
-"""
+"""Manage model versions: list, deploy, roll back."""
 
 import argparse
 import json

@@ -1,12 +1,4 @@
-"""CareerBridge catalogue roles -> the 45 dataset categories the classifier is trained on.
-
-Roles with no matching category are None (for example admin, logistics, oil and gas). Synthetic
-resumes for those roles cannot be used to train the 45-category model; they are kept for a later
-field-level model that uses the CareerBridge catalogue directly.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.role_labels --batch batch1     # writes data/synthetic/batch1/train_45.jsonl
-"""
+"""CareerBridge catalogue roles -> the 45 dataset categories the classifier is trained on."""
 
 import argparse
 import json

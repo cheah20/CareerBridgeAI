@@ -1,5 +1,4 @@
-"""LLM safety: personal details are removed, usage is logged, duplicate calls are cached,
-and the monthly budget is enforced. No real API calls are made."""
+"""LLM tests: redaction, logging, cache and monthly limit."""
 
 import json
 

@@ -1,11 +1,4 @@
-"""DeepSeek chat client with JSON output, caching, usage logging and budget limits.
-
-Requirements §13 and §22:
-* track usage and estimated cost per request (data/llm/usage.jsonl)
-* avoid duplicate calls (identical requests are served from data/llm/cache/)
-* alert at 80% of the monthly budget; at 100% refuse non-essential requests
-* the API key stays in the backend (.env)
-"""
+"""DeepSeek chat client with JSON output, caching, usage logging and budget limits."""
 
 import hashlib
 import json
@@ -76,6 +69,7 @@ def chat_json(
     essential: bool = False,
     max_tokens: int = 2500,
     temperature: float = 0.3,
+    thinking: bool = True,
     settings: Settings | None = None,
 ) -> LLMReply:
     """Send a chat request that must return a JSON object. The prompt must mention JSON."""
@@ -87,9 +81,11 @@ def chat_json(
         "model": s.deepseek_model,
         "messages": messages,
         "response_format": {"type": "json_object"},
-        "max_tokens": max_tokens + REASONING_HEADROOM,
+        "max_tokens": max_tokens + (REASONING_HEADROOM if thinking else 0),
         "temperature": temperature,
     }
+    if not thinking:  # plain extraction work: no reasoning step, much faster
+        payload["thinking"] = {"type": "disabled"}
     key = hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
     cache_file = CACHE_DIR / f"{key}.json"
     if cache_file.exists():

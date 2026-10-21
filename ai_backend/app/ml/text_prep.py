@@ -1,8 +1,4 @@
-"""Turn resume text into the clean form the model is trained on.
-
-The same function is used for training and for predictions, so a resume
-uploaded later is processed exactly like the training data.
-"""
+"""Turn resume text into the clean form the model is trained on."""
 
 import re
 
@@ -24,9 +20,7 @@ def clean_resume_text(text: str) -> str:
     return " ".join(text.split())
 
 
-# NLTK's English stop-word list. ResumeAtlas text was stored lowercased, without punctuation and without
-# these words, while Kaggle text is ordinary prose. A Transformer can learn that difference as a shortcut
-# ("prose means a Kaggle category"), so every text is brought to the same form before training and prediction.
+# NLTK's English stop-word list.
 _STOP_WORDS = frozenset("""
 i me my myself we our ours ourselves you you're you've you'll you'd your yours yourself yourselves he him his
 himself she she's her hers herself it it's its itself they them their theirs themselves what which who whom this

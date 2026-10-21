@@ -1,8 +1,4 @@
-"""Shared test setup: fake Supabase settings and a local ES256 key pair.
-
-Tests never call the real Supabase project. Tokens are signed with a key pair
-generated here, and the JWKS lookup / profile lookup are replaced with fakes.
-"""
+"""Shared test setup: fake Supabase settings and a local ES256 key pair."""
 
 import os
 import time
@@ -17,6 +13,7 @@ TEST_SUPABASE_URL = "https://test-project.supabase.co"
 # Environment variables take priority over ai_backend/.env.
 os.environ["SUPABASE_URL"] = TEST_SUPABASE_URL
 os.environ["SUPABASE_PUBLISHABLE_KEY"] = "sb_publishable_test"
+os.environ["TESTING_MODE"] = "false"  # the main app is tested as deployed; testing routes are tested separately
 
 from fastapi.testclient import TestClient  # noqa: E402
 

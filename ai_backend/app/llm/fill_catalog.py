@@ -1,12 +1,4 @@
-"""Draft Malaysia/Singapore skill lists for roles with too few job ads in the datasets.
-
-Drafts are saved to data/catalog/llm_drafts/<role>.json marked "needs review";
-build_skills merges them into the role profiles in a clearly labelled section.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.llm.fill_catalog --dry-run     # list the roles that would be drafted
-    python -m app.llm.fill_catalog               # draft them
-"""
+"""Draft Malaysia/Singapore skill lists for roles with too few job ads in the datasets."""
 
 import argparse
 import json

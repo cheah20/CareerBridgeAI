@@ -1,15 +1,4 @@
-"""Extract plain text from an uploaded resume, choosing the method by file type.
-
-| File                         | Method                                   |
-|------------------------------|------------------------------------------|
-| PDF with a text layer        | PyMuPDF reads the text directly          |
-| Scanned PDF (page is a photo)| PyMuPDF renders the page, RapidOCR reads |
-| DOCX                         | python-docx reads paragraphs and tables  |
-| JPG / PNG / WEBP             | RapidOCR                                 |
-
-The file type is detected from the file's content (magic bytes), never from
-its name, so a renamed file cannot pretend to be a resume.
-"""
+"""Extract plain text from an uploaded resume, choosing the method by file type."""
 
 from __future__ import annotations
 
@@ -21,7 +10,9 @@ import zipfile
 from dataclasses import dataclass, field
 from enum import StrEnum
 
-MAX_FILE_BYTES = 10 * 1024 * 1024  # requirements §11
+from app.services.layout import Box, order_boxes, to_text
+
+MAX_FILE_BYTES = 10 * 1024 * 1024  # 
 MAX_PAGES = 10                     # resumes are short; protects the server
 MIN_TEXT_CHARS_PER_PAGE = 40       # less than this on a PDF page = scanned page
 OCR_RENDER_DPI = 200
@@ -111,7 +102,7 @@ def _from_pdf(data: bytes) -> ExtractedText:
 
         texts, scores, ocr_pages = [], [], 0
         for page in list(doc)[:MAX_PAGES]:
-            text = page.get_text("text")
+            text = _pdf_page_text(page)
             if len(text.strip()) >= MIN_TEXT_CHARS_PER_PAGE:
                 texts.append(text)
                 continue
@@ -133,6 +124,18 @@ def _from_pdf(data: bytes) -> ExtractedText:
         ocr_confidence=_mean(scores),
         warnings=warnings,
     )
+
+
+def _pdf_page_text(page) -> str:
+    """Text lines of a PDF page in reading order, column by column."""
+    boxes = []
+    for block in page.get_text("dict")["blocks"]:
+        for line in block.get("lines", []):
+            text = "".join(span["text"] for span in line["spans"]).strip()
+            if text:
+                x0, y0, x1, y1 = line["bbox"]
+                boxes.append(Box(x0, y0, x1, y1, text))
+    return to_text(order_boxes(boxes))
 
 
 # ---------------------------------------------------------------- DOCX
@@ -202,7 +205,11 @@ def _ocr(image) -> tuple[str, list[float]]:
     result = _get_ocr()(image)
     if not result.txts:
         return "", []
-    return "\n".join(result.txts), [float(s) for s in result.scores]
+    # Put the text back in reading order, column by column (see app/services/layout.py).
+    boxes = [Box(float(min(p[0] for p in pts)), float(min(p[1] for p in pts)),
+                 float(max(p[0] for p in pts)), float(max(p[1] for p in pts)), txt)
+             for pts, txt in zip(result.boxes, result.txts)]
+    return to_text(order_boxes(boxes)), [float(s) for s in result.scores]
 
 
 # ---------------------------------------------------------------- helpers

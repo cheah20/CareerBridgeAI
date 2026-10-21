@@ -1,9 +1,4 @@
-"""Suggest career directions for a resume with the deployed model.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.predict path/to/resume.pdf
-    python -m app.ml.predict path/to/resume.docx --top 5
-"""
+"""Suggest career directions for a resume with the deployed model."""
 
 import argparse
 import sys

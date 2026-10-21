@@ -23,7 +23,6 @@ RESUME_ATLAS_V1 = {
 }
 
 # Kaggle categories -> ResumeAtlas names, so both datasets share one label set.
-# ENGINEERING is left out: it overlaps ResumeAtlas' specific engineering classes.
 KAGGLE_TO_ATLAS = {
     "ACCOUNTANT": "Accountant", "ADVOCATE": "Advocate", "AGRICULTURE": "Agriculture", "APPAREL": "Apparel",
     "ARTS": "Arts", "AUTOMOBILE": "Automobile", "AVIATION": "Aviation", "BANKING": "Banking", "BPO": "BPO",
@@ -71,7 +70,7 @@ CAREER_LABELS.update({  # ResumeAtlas labels that need a clearer name
 })
 
 
-# Model labels (ResumeAtlas names) -> CareerBridge fields (app/catalog/seed.py), for field-level results.
+# Model labels -> CareerBridge fields.
 LABEL_TO_FIELD = {
     "Java Developer": "Information & Communication Technology", "Python Developer": "Information & Communication Technology",
     "DotNet Developer": "Information & Communication Technology", "React Developer": "Information & Communication Technology",
@@ -106,7 +105,7 @@ LABEL_TO_FIELD = {
 def friendly(label: str) -> str:
     if label in CAREER_LABELS:
         return CAREER_LABELS[label]
-    # Kaggle labels are UPPER-CASE; ResumeAtlas labels are already readable ("SQL Developer").
+    # Kaggle labels are upper case; ResumeAtlas labels are already readable.
     return label.replace("-", " ").title() if label.isupper() else label
 
 

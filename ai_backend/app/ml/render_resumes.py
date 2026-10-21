@@ -1,23 +1,4 @@
-"""Lay out generated resumes as real files, then read them back like an uploaded resume.
-
-Real users upload PDF, Word or image files, and the text the models see is whatever the extractor
-reads out of them: columns run together, bullets turn into symbols, OCR makes mistakes. So each
-generated resume is typeset in a layout modelled on the reference resumes:
-
-    cv-pack       PDF like the Malaysian CV sample pack (serif, centred name, ruled capital headings)
-    two-column    PDF with a sidebar (contact, skills, languages) and a main column
-    student       PDF in a modern single-column design
-    jobstreet     Word file built on the JobStreet resume template's own styles
-    plain         Word file as typed by the person (default Word styles)
-    career-guide  Word file following the career-guide CV layout
-
-About a third of the one-page PDFs are also turned into JPG images (as if photographed or
-screenshotted) to exercise OCR. Training then uses the extracted text, exactly as for an upload.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.render_resumes --batch batch1
-Output: data/synthetic/<batch>/files/ and data/synthetic/<batch>/rendered.jsonl, review.html (local only)
-"""
+"""Lay out generated resumes as real files, then read them back like an uploaded resume."""
 
 import argparse
 import copy
@@ -70,7 +51,7 @@ def is_heading(line: str) -> bool:
         return True
     letters = re.sub(r"[^A-Za-z]", "", s)
     looks_heading = len(letters) >= 4 and len(s.split()) <= 5 and not _RANGE.search(s)
-    # A capitalised line is a section heading only if it names a section; otherwise it is a job title or a name.
+    # A capital line is a heading only if it names a section.
     return looks_heading and any(k in low for k in _SECTION_KEYS)
 
 
@@ -188,7 +169,7 @@ def pdf_two_column(p: dict, path: Path, rng: random.Random) -> int:
     font = rng.choice(["sans-serif", "serif"])
     side = [dict(s, lines=list(s["lines"])) for s in p["sections"] if any(h in s["heading"].lower() for h in SIDEBAR_HINTS)]
     main = [dict(s, lines=list(s["lines"])) for s in p["sections"] if not any(h in s["heading"].lower() for h in SIDEBAR_HINTS)]
-    # The sidebar keeps short items only; job bullets, dated lines and long text go to the main column.
+    # Short items go to the sidebar, the rest to the main column.
     if main:
         target = next((s for s in main if "experience" in s["heading"].lower() or "history" in s["heading"].lower()), main[-1])
         for sec in side:

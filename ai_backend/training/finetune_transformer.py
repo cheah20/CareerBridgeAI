@@ -1,20 +1,4 @@
-"""Fine-tune DeBERTa-v3-small as a resume career classifier on the local GPU.
-
-Same data and train/test split as the TF-IDF models (export with app.ml.export_for_kaggle).
-10% of the training data is held out for validation to pick the best epoch; the
-test set is used once, at the end. The result is exported to ONNX (int8 or fp32) so the
-main app runs it on CPU with onnxruntime — no PyTorch needed there.
-
-Run with the separate training environment (it has PyTorch):
-    conda activate careerbridge-train
-    cd ai_backend
-    python training/finetune_transformer.py
-    python training/finetune_transformer.py --extra data/eval/my_synthetic_v1.jsonl --extra-repeat 10 \
-        --out models/candidate-synth1      # add extra resumes (JSONL with "label" and "text") to training only
-
-Progress (step, %, time left, loss) is written to data/training_runs/progress.log:
-    tail -f data/training_runs/progress.log
-"""
+"""Fine-tune DeBERTa-v3-small as a resume career classifier on the local GPU."""
 
 import argparse
 import json
@@ -54,7 +38,7 @@ def note(line: str) -> None:
 
 
 class Throttle(TrainerCallback):
-    """Pause after every optimiser step so the GPU works part of the time: cooler and quieter, same result."""
+    """Short pause after each step to keep the GPU cooler."""
 
     def __init__(self, seconds: float):
         self.seconds = seconds
@@ -64,7 +48,7 @@ class Throttle(TrainerCallback):
 
 
 class ProgressLog(TrainerCallback):
-    """One line every 10 steps: step, %, speed, time left, loss — readable with tail -f."""
+    """One line every 10 steps: step, %, speed, time left, loss, readable with tail -f."""
 
     def __init__(self):
         self.start = time.time()
@@ -112,7 +96,7 @@ def main() -> None:
     train_df = pd.read_csv(DATA / "train.csv")
     test_df = pd.read_csv(DATA / "test.csv")
     labels = json.loads((DATA / "labels.json").read_text())
-    # One text form for every source, so the model cannot tell ResumeAtlas from Kaggle by formatting.
+    # Same text format for every source.
     for df in (train_df, test_df):
         df["text"] = df["text"].map(normalise_resume_text)
     label2id = {label: i for i, label in enumerate(labels)}
@@ -121,7 +105,7 @@ def main() -> None:
     tr_df, val_df = train_test_split(train_df, test_size=0.1, stratify=train_df["y"], random_state=SEED)
     extra_info = None
     if cli.extra:
-        # Extra resumes go into training only; validation and test stay the same public data, so runs compare fairly.
+        # Extra resumes go into training only, so runs compare fairly.
         rows = [json.loads(line) for line in (BACKEND / cli.extra).read_text(encoding="utf-8").splitlines() if line.strip()]
         extra = pd.DataFrame([{"text": normalise_resume_text(r["text"]), "label": r["label"]} for r in rows
                               if r.get("label") in label2id])
@@ -194,8 +178,7 @@ def main() -> None:
          f"top-3 {test_metrics['top3_accuracy']:.4f}")
     print(json.dumps({k: round(float(v), 4) for k, v in test_metrics.items()}, indent=2))
 
-    # Export to ONNX (fp32), plus an int8 version that quantises only the MatMul layers
-    # (quantising the embedding table too cost ~9 accuracy points in the first run).
+    # Export to ONNX (fp32), plus an int8 version of the MatMul layers only.
     from onnxruntime.quantization import QuantType, quantize_dynamic
     import onnxruntime as ort
 
@@ -210,7 +193,7 @@ def main() -> None:
     quantize_dynamic(str(fp32), str(int8), weight_type=QuantType.QInt8, op_types_to_quantize=["MatMul"])
     tok.backend_tokenizer.save(str(OUT / "tokenizer.json"))
 
-    # Pick the export by agreement with PyTorch on the whole validation set (the test set stays untouched).
+    # Pick the export that agrees best with PyTorch on the validation set.
     def onnx_top1(path):
         sess = ort.InferenceSession(str(path), providers=["CPUExecutionProvider"])
         out = []

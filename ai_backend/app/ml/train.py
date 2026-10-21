@@ -1,10 +1,4 @@
-"""Train and compare Logistic Regression, KNN, Random Forest and SVM for
-career-direction classification, then save the best as a new model version.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.train            # train, compare, save a candidate version
-    python -m app.ml.train --deploy   # ...and deploy it
-"""
+"""Train LR, KNN, Random Forest and SVM, and save the best one."""
 
 import argparse
 import json
@@ -66,7 +60,7 @@ def load_dataset(name: str = "combined-v2") -> pd.DataFrame:
 
 
 def candidates() -> dict[str, object]:
-    """The four algorithms required by the specification (§4)."""
+    """The four algorithms required by the specification."""
     return {
         "Logistic Regression": LogisticRegression(max_iter=3000, C=10, class_weight="balanced"),
         "KNN": KNeighborsClassifier(n_neighbors=7, metric="cosine", weights="distance"),
@@ -88,7 +82,7 @@ def _word_tfidf() -> TfidfVectorizer:
 
 def pipeline(classifier) -> Pipeline:
     if FEATURES == "word+char":
-        # Character n-grams catch spelling variants ("PostgreSQL" / "Postgres", "Node.js" / "NodeJS").
+        # Character n-grams catch spelling variants like "Node.js" and "NodeJS".
         features = FeatureUnion([
             ("word", _word_tfidf()),
             ("char", TfidfVectorizer(analyzer="char_wb", ngram_range=(3, 5), sublinear_tf=True,

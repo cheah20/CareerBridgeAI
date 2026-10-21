@@ -1,9 +1,4 @@
-"""Re-evaluate a saved model on its held-out test set: top-1/top-3 accuracy at
-category level and at CareerBridge field level.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.evaluate v2
-"""
+"""Re-check a saved model on its test set (top-1 and top-3 accuracy)."""
 
 import argparse
 import json
@@ -30,7 +25,7 @@ def main() -> int:
                                             stratify=df["label"], random_state=SEED)
     model = _load(args.version)
     if getattr(model, "wants_raw_text", False):
-        # Same rows in the same order, but with the original wording (see app.ml.export_for_kaggle).
+        # Same rows in the same order, with the original wording.
         raw = pd.read_csv(DATA_DIR / "kaggle_upload" / "careerbridge-resumes-v2" / "test.csv")
         assert raw["label"].tolist() == y_test.tolist(), "test split differs from the export"
         x_test = raw["text"]

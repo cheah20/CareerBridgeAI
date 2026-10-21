@@ -1,6 +1,5 @@
 #!/bin/bash
-# Live training dashboard: GPU, memory, and the latest progress lines. Ctrl+C to quit (training keeps running).
-#   bash training/watch_progress.sh        (from ai_backend/)
+# Live training dashboard: GPU, memory, and the latest progress lines.
 cd "$(dirname "$0")/.." || exit 1
 LOG=data/training_runs/progress.log
 

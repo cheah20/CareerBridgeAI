@@ -1,17 +1,4 @@
-"""Seed list of fields and job titles a Job Seeker can choose from.
-
-Titles use the names common in Malaysian and Singaporean job ads (JobStreet,
-MyCareersFuture). International names are kept in `aka` so each role can be
-matched in O*NET 31.0, ESCO v1.2.1 and the job-postings datasets.
-
-Other sources considered: ResumeAtlas categories, MyCOL 2024/2025 (Malaysia
-critical occupations), LinkedIn Jobs on the Rise 2026 and the WEF Future of
-Jobs Report 2025 (emerging roles).
-
-`emerging=True` marks roles that are new or fast-growing in 2025–2026.
-`onet` / `esco` are manual matches, verified to exist in those databases,
-used when automatic matching picked the wrong occupation.
-"""
+"""Seed list of fields and job titles a Job Seeker can choose from."""
 
 from dataclasses import dataclass, field
 

@@ -1,8 +1,4 @@
-"""Remove personal details from resume text before it is sent to an external LLM.
-
-Requirements §17: do not send or log unnecessary resume content. Skills and
-work history are kept (needed for advice); contact details and identifiers are not.
-"""
+"""Remove personal details from resume text before it is sent to an external LLM."""
 
 import re
 

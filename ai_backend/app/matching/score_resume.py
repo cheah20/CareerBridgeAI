@@ -1,10 +1,4 @@
-"""Terminal tool: score a resume against a chosen job title and level.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.matching.score_resume resume.pdf --role "Data Analyst" --level junior
-    python -m app.matching.score_resume --list-roles
-Levels: entry, junior, mid, senior, lead
-"""
+"""Terminal tool: score a resume against a chosen job title and level."""
 
 import argparse
 import sys

@@ -1,9 +1,4 @@
-"""Run the fine-tuned Transformer (ONNX int8) on CPU — no PyTorch needed.
-
-The model is trained by training/finetune_transformer.py (env careerbridge-train) and
-imported as a registry version with:
-    python -m app.ml.transformer import models/transformer-candidate
-"""
+"""Run the fine-tuned Transformer (ONNX int8) on CPU, no PyTorch needed."""
 
 import argparse
 import json

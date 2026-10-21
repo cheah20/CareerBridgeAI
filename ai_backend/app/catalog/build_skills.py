@@ -1,20 +1,4 @@
-"""Step 1b: skills for every role and experience level.
-
-Combines three sources per role:
-* ESCO      — essential / optional skills for the matched occupation
-* O*NET     — software & tools (hot / in-demand), core abilities by importance
-* Job ads   — share of real postings that mention each skill, per level
-              (LinkedIn 2023–24 descriptions + Data/AI 2024 skill lists)
-
-Writes (local only, not Supabase):
-    data/catalog/roles.json                 machine-readable, used for scoring
-    data/catalog/roles/<field>/<role>.md    one readable profile per role (LLM context)
-    data/catalog/README.md                  index of all roles
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.catalog.build_roles     # first: role matching
-    python -m app.catalog.build_skills
-"""
+"""Step 1b: skills for every role and experience level."""
 
 import json
 import re
@@ -87,8 +71,7 @@ SOFT_SKILLS = {
 
 def build_vocabulary(ds_skills: pd.Series, onet_software: pd.DataFrame, esco_skills: pd.DataFrame,
                      role_names: set[str]) -> dict[str, str]:
-    """skill key -> display name. Only reasonably specific names (1–4 words, >1 letter),
-    excluding ad filler words and job titles (a title is not a skill)."""
+    """skill key -> display name."""
     names: dict[str, Counter] = defaultdict(Counter)
     ds_counts = Counter(s.strip() for row in ds_skills.dropna() for s in row.split(","))
     for name, n in ds_counts.items():
@@ -179,8 +162,7 @@ def main() -> None:
     print("Counting skills in job postings …")
     stats = market_skills(roles, vocab)
 
-    # Words that show up in most roles' ads (e.g. "excel" is kept, "benefits" is not) are ad
-    # language rather than role skills — unless they are soft skills.
+    # Words found in most roles' ads are ad wording, not skills (soft skills are kept).
     big_roles = [i for i in stats if sum(stats[i]["n"].values()) >= 30]
     common_in = Counter()
     for i in big_roles:
@@ -266,7 +248,7 @@ def main() -> None:
 
 
 def _load_draft(role_id: str) -> list[dict]:
-    """Malaysia/Singapore skills drafted by the LLM for roles with few job ads (app.llm.fill_catalog)."""
+    """Skills drafted by the LLM for roles with few job ads."""
     path = OUT / "llm_drafts" / f"{role_id}.json"
     if not path.exists():
         return []

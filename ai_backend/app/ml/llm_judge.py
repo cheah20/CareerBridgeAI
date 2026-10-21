@@ -1,14 +1,4 @@
-"""Blind LLM review of model answers on the real Malaysian CVs.
-
-For each CV, the top-3 answers of every model are pooled, shuffled and shown without model names.
-The LLM rates every answer 0-3 for how well it fits the person and names the best field and category.
-Model scores are then computed from those ratings, and the LLM's own choices are checked against the
-developer-confirmed labels to show how far the reviewer itself can be trusted.
-
-Usage (from ai_backend/, env careerbridge-ai; run app.ml.compare_models first):
-    python -m app.ml.llm_judge
-Output: data/eval/llm_judge.jsonl and data/eval/llm_judge_summary.json
-"""
+"""Blind LLM review of model answers on the real Malaysian CVs."""
 
 import json
 import random

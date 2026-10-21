@@ -1,17 +1,4 @@
-"""Compare model versions on Malaysian-format resumes, at category and field level.
-
-Test sets:
-  real58     58 real Malaysian CVs (sample pack), labels in data/eval/real/my_cv_samples_labels.json
-  batch1     158 synthetic resumes rendered as PDF / Word / JPG and read back (data/synthetic/batch1)
-  synth45    45 short synthetic resumes (data/eval/my_synthetic_v1.jsonl)
-A result is marked "seen" when that model was trained on the same resumes; it is reported but not comparable.
-
-Every prediction is saved so the results can later be reviewed with the LLM.
-
-Usage (from ai_backend/, env careerbridge-ai):
-    python -m app.ml.compare_models v2 v5 v6-candidate candidate-synth1 candidate-synth2
-Output: data/eval/comparison.json and data/eval/comparison_predictions.jsonl
-"""
+"""Compare model versions on Malaysian-format resumes, at category and field level."""
 
 import argparse
 import gc

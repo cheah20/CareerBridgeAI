@@ -1,7 +1,5 @@
 #!/bin/bash
-# Stop GPU training automatically if the GPU reaches LIMIT °C. Checks every 5 seconds;
-# exits by itself when training ends.
-#   bash training/heat_guard.sh [LIMIT]      (default 89)
+# Stop GPU training automatically if the GPU reaches LIMIT °C.
 LIMIT=${1:-89}
 LOG="$(dirname "$0")/../data/training_runs/progress.log"
 PATTERN="^[^ ]*careerbridge-train/bin/python[^ ]* .*finetune_transformer"  # the python process itself, never a shell that mentions it
