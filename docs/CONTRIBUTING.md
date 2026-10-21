@@ -1,13 +1,14 @@
 # How to help (no Git commands needed)
 
-You only need a web browser and your GitHub account.
+You only need a web browser and your GitHub account. These steps are for Windows.
 
 ## 1. Get the latest code
 
-On https://github.com/cheah20/CareerBridgeAI press **Code → Download ZIP** and unzip it.
+On https://github.com/cheah20/CareerBridgeAI press **Code → Download ZIP**.
+In File Explorer, right-click the ZIP → **Extract All**. You get a folder named `CareerBridgeAI-main`.
 Do this again whenever you start a new task, so you have the newest version.
 
-(Optional: install **GitHub Desktop** and use **Clone repository**. Then the **Fetch origin** button updates your copy.)
+(Optional: install **GitHub Desktop for Windows** and use **File → Clone repository**. Then the **Fetch origin** button updates your copy.)
 
 ## 2. Pick a task
 
@@ -19,7 +20,7 @@ Open the **Projects** tab and find the board. Each card is one task, with a numb
 ## 3. Do the work on your computer
 
 - **Making a page in HTML?** Copy `contrib/_starter/` and rename the copy, for example `12-admin-dashboard`.
-  Open `index.html` in Chrome, edit, save, refresh. Your task list is in `contrib/<your name>/README.md`.
+  Double-click `index.html` to open it in Chrome. Edit it in VS Code or Notepad, save, then refresh Chrome (F5). Your task list is in `contrib/<your name>/README.md`.
 - **Changing the real app?** Change the files in your unzipped copy and test it (see the main README).
 
 ## 4. Hand it in

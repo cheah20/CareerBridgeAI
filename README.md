@@ -23,6 +23,7 @@ Job seekers, recruiters and admins each have their own pages.
 | Career direction model | `ai_backend/app/ml/` | Machine learning that guesses a career area |
 | Model training scripts | `ai_backend/training/` | Scripts used to train the models |
 | Model training records | `docs/ml/` | What was trained, the results and the logs |
+| Model training report (web page) | `docs/report/index.html` | Double-click it after unzipping. GitHub shows only the code |
 | Job titles and skill lists | `ai_backend/app/catalog/` | The list of jobs and skills the system knows |
 | Web addresses the app calls | `ai_backend/app/api/` | The backend "doors" the website talks to |
 | Database tables and rules | `supabase/` | Where accounts, jobs and applications are stored |
@@ -43,28 +44,50 @@ These stay on the developer's computer only, so they are not in the ZIP download
 | `ai_backend/models/` | The trained model files (too big for GitHub) |
 | `ai_backend/.env`, `frontend/config/dev.json` | Passwords and keys. **Never upload these.** |
 
-## Run it on your computer
+## Run it on your computer (Windows)
 
-You need: Flutter, and Python through conda. Ask the project owner for the two settings files.
+**Making HTML pages in `contrib/`?** You do not need to install anything. Just open the `.html` file in Chrome.
 
-**Backend** (http://localhost:8000/docs)
+To run the real app you need two programs. Install them once:
 
-```bash
+- **Flutter** for Windows: https://docs.flutter.dev/get-started/install/windows
+- **Miniconda** for Windows (Python): https://docs.conda.io/en/latest/miniconda.html
+
+The ZIP unzips to a folder named `CareerBridgeAI-main`. The examples below assume it is in `Downloads`.
+
+**1. Backend** (open **Anaconda Prompt** from the Start menu)
+
+```bat
+conda create -n careerbridge-ai python=3.14 -y
 conda activate careerbridge-ai
-cd ai_backend
-fastapi dev app/main.py
+cd %USERPROFILE%\Downloads\CareerBridgeAI-main\ai_backend
+python -m pip install -r requirements.txt
+copy .env.example .env
+fastapi dev app\main.py
 ```
 
-**Website** (open http://localhost:8080 in Chrome)
+The first four lines are only needed the first time. Ask the owner what to put in `.env`.
+Then open http://localhost:8000/docs to check it is running. Keep this window open.
 
-```bash
-cd frontend
-flutter run -d web-server --web-hostname localhost --web-port 8080 --dart-define-from-file=config/dev.json
+**2. Website** (open a second window: **Command Prompt**)
+
+```bat
+cd %USERPROFILE%\Downloads\CareerBridgeAI-main\frontend
+copy config\dev.example.json config\dev.json
+flutter pub get
+flutter run -d chrome --dart-define-from-file=config\dev.json
 ```
 
-## Run the checks
+Chrome opens the website by itself. In this window press `r` to reload after a change, `q` to stop.
 
-```bash
-cd ai_backend && python -m pytest      # backend
-cd frontend && flutter test            # website
+## Run the checks (Windows)
+
+```bat
+cd %USERPROFILE%\Downloads\CareerBridgeAI-main\ai_backend
+python -m pytest
+
+cd ..\frontend
+flutter test
 ```
+
+Run the first one in **Anaconda Prompt** (after `conda activate careerbridge-ai`), the second in **Command Prompt**.

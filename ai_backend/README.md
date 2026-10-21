@@ -18,12 +18,16 @@ The part that reads resumes, scores them and talks to the AI. The website calls 
 | `tests_e2e/` | A full check against the real running system |
 | `data/` | **On the developer's computer only:** datasets, caches, logs, test results |
 
-## Setup
+## Setup (Windows)
 
-```bash
+Full steps are in the main [README](../README.md#run-it-on-your-computer-windows). Short version, in **Anaconda Prompt**:
+
+```bat
 conda activate careerbridge-ai
-cd ai_backend
+cd %USERPROFILE%\Downloads\CareerBridgeAI-main\ai_backend
 python -m pip install -r requirements.txt
-cp .env.example .env        # then ask the owner for the values
-fastapi dev app/main.py     # http://localhost:8000/docs
+copy .env.example .env
+fastapi dev app\main.py
 ```
+
+Without an AI key in `.env`, the AI parts are skipped and the simple scoring rules are used.

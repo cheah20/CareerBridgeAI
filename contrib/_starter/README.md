@@ -9,4 +9,4 @@ Copy this whole folder to begin a new page. It already has the CareerBridge colo
 | `script.js` | Small examples (tabs, a button that shows a message). Add your own code at the bottom. |
 | `NOTES.md` | Fill in before you hand in. |
 
-Open `index.html` in Chrome to see it.
+Double-click `index.html` to open it in Chrome. After you save a change, press F5 in Chrome to see it.

@@ -20,7 +20,7 @@ One HTML page per task. The owner will create a task card (#number) for each one
 
 1. Read the job seeker pages part of [docs/requirements.md](../../docs/requirements.md): sections 2 (Job Seeker), 5 (Job Seeker Features), 9 (Applications) and 10 (Profile sync).
 2. Copy the [`_starter/`](../_starter/) folder and rename it, for example `fathiyah/12-<short-name>/`.
-3. Open `index.html` in Chrome. Edit, save, refresh.
+3. Double-click `index.html` to open it in Chrome. Edit it (VS Code or Notepad), save, press F5.
 
 ## Rules for these pages
 
