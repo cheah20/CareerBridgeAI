@@ -26,15 +26,16 @@ class NavItem {
   final String phase;
 }
 
-/// Items shown in the sidebar: the Testing group exists in debug builds only.
-List<NavItem> navItemsFor(UserRole role) =>
-    [for (final item in navItemsByRole[role]!) if (kDebugMode || item.group != 'Testing') item];
+/// Items shown in the sidebar: the Testing and Developer groups exist in debug builds only.
+List<NavItem> navItemsFor(UserRole role) => [
+  for (final item in navItemsByRole[role]!)
+    if (kDebugMode || (item.group != 'Testing' && item.group != 'Developer')) item,
+];
 
 /// Navigation for each role.
 const Map<UserRole, List<NavItem>> navItemsByRole = {
   UserRole.jobSeeker: [
     NavItem(path: '/seeker/analyse', label: 'Resume analysis', icon: Icons.science_outlined, group: 'Testing'),
-    NavItem(path: '/seeker/logbook', label: 'Test logbook', icon: Icons.menu_book_outlined, group: 'Testing'),
     NavItem(path: '/seeker', label: 'Overview', icon: Icons.space_dashboard_outlined, group: 'Job seeker'),
     NavItem(
       path: '/seeker/resume',
@@ -84,6 +85,7 @@ const Map<UserRole, List<NavItem>> navItemsByRole = {
       description: 'Report a problem or contact the Admin, and follow the status of your reports.',
       phase: 'Phase 6',
     ),
+    NavItem(path: '/seeker/logbook', label: 'Test logbook (dev)', icon: Icons.menu_book_outlined, group: 'Developer'),
   ],
   UserRole.recruiter: [
     NavItem(path: '/recruiter', label: 'Overview', icon: Icons.space_dashboard_outlined, group: 'Recruiter'),

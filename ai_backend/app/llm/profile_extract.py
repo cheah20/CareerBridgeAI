@@ -102,7 +102,8 @@ def from_dict(data: dict) -> Profile:
 def extract_profile(clean_markdown: str) -> Profile:
     reply = chat_json(
         [{"role": "system", "content": SYSTEM_PROMPT},
-         {"role": "user", "content": "Read this resume into JSON.\n\n" + clean_markdown[:MAX_CHARS]}],
+         {"role": "user", "content": f"Today is {date.today():%d %B %Y}. Read this resume into JSON.\n\n"
+                                     + clean_markdown[:MAX_CHARS]}],
         purpose="profile_extract", essential=True, max_tokens=3000, temperature=0.0, thinking=False)
     return from_dict(reply.data)
 

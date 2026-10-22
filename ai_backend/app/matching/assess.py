@@ -13,6 +13,8 @@ from app.matching.roles import load_roles
 CLOSE_ROLES = [{"ai-engineer", "machine-learning-engineer"},
                {"data-analyst", "business-intelligence-bi-analyst"}]
 _LEADS = re.compile(r"\b(lead|head|manager|principal|chief|director|supervisor)\b", re.I)
+_LED = re.compile(r"\b(led|lead|leading|managed|manage|supervised|supervise|mentored|coached|headed)\b", re.I)
+LEAD_WITHOUT_PROOF = 0.7   # lead level asks for leading people or projects
 WEIGHTS = {"skills": 0.60, "experience": 0.25, "education": 0.15}
 LISTED_ONLY_CREDIT = 0.85          # skill named in a list but not shown in any job
 TYPE_FACTOR = {"part-time": 0.5, "internship": 0.5, "freelance": 0.6}
@@ -222,8 +224,12 @@ def _experience(profile: Profile, role: dict, level: str) -> tuple[Part, float |
     else:
         score = max(0.15, relevant / low)
     suggested = next((lv for lv, (lo, hi) in LEVEL_YEARS.items() if lo <= relevant < hi), "lead")
+    led = any(_LEADS.search(j.title) or any(_LED.search(h) for h in j.highlights) for j in profile.experience)
     if suggested == "lead" and not any(_LEADS.search(j.title) for j in profile.experience):
         suggested = "senior"  # many years alone do not make a lead role; that needs leading people or teams
+    lead_note = level == "lead" and relevant > 0 and not led
+    if lead_note:
+        score = min(score, LEAD_WITHOUT_PROOF)
     if relevant == 0:
         reasons = [f"Your {total:g} years of work are in a different area, so they are not counted as {role['title']} "
                    "experience yet. They still show reliability and skills you can carry over."]
@@ -232,6 +238,8 @@ def _experience(profile: Profile, role: dict, level: str) -> tuple[Part, float |
         reasons = [f"About {relevant:g} years of experience related to {role['title']} (about {total:g} years of work in total)."]
     if undated:
         reasons.append(f"{undated} job(s) had no readable dates and were not counted.")
+    if lead_note:
+        reasons.append("Lead roles also look for leading people or projects. Add where you led a team or a project.")
     if suggested != level:
         reasons.append(f"Your related experience matches {LEVEL_LABELS[suggested]} more closely than {LEVEL_LABELS[level]}.")
     return Part(score, WEIGHTS["experience"], reasons), relevant, total, suggested if suggested != level else None

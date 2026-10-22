@@ -88,3 +88,14 @@ def test_years_alone_suggest_senior_not_lead():
              "type": "full-time", "highlights": []}]
     a = assess(profile(jobs, CS_DEGREE), ML_TEXT, find_role("AI Engineer"), "mid")
     assert a.relevant_years >= 10 and a.suggested_level == "senior"
+
+
+def test_lead_level_needs_some_sign_of_leading():
+    jobs = [{"title": "Machine Learning Engineer", "organisation": "X", "start": "2010-01", "end": "2024-01",
+             "type": "full-time", "highlights": ["Built models"]}]
+    plain = assess(profile(jobs, CS_DEGREE), ML_TEXT, find_role("AI Engineer"), "lead").parts["experience"]
+    assert plain.score == 0.7 and any("leading people" in r for r in plain.reasons)
+
+    jobs[0]["highlights"] = ["Led a team of four engineers"]
+    led = assess(profile(jobs, CS_DEGREE), ML_TEXT, find_role("AI Engineer"), "lead").parts["experience"]
+    assert led.score == 1.0

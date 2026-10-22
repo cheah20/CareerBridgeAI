@@ -45,12 +45,14 @@ RELATED_TERMS = {
     "statistics": ["statistical analysis", "statistical models", "statistical modelling", "statistical modeling"],
     "customer service": ["customer support", "client service"],
     "project management": ["managed projects", "project manager", "project planning"],
+    "web development": ["website development", "web application", "web applications", "websites", "website",
+                        "built website", "web developer", "front-end development", "backend development"],
     "computer vision": ["image recognition", "image processing", "object detection", "image classification",
                         "opencv"],
 }
 
 # Job-ad words that are not real skills.
-_NOT_A_SKILL = {"insights", "analyze", "analyse", "analytical", "analysis skills", "implementation", "recommendations",
+_NOT_A_SKILL = {"developers", "developer", "insights", "analyze", "analyse", "analytical", "analysis skills", "implementation", "recommendations",
                 "methodologies", "methodology", "programming", "coding", "frameworks", "framework", "guidance",
                 "deadlines", "equity", "solutions", "detail oriented", "attention to detail", "self motivated",
                 "fast paced", "multitasking", "hands on", "best practices", "excellent", "strong", "ability",

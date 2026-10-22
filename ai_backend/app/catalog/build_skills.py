@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 
-from app.catalog.build_roles import ESCO, ONET, OUT, RAW, _norm
+from app.catalog.build_roles import ESCO, ONET, OUT, RAW, _norm, dedupe_ads
 from app.catalog.skillnames import TOKEN, skill_key
 
 LEVELS = ("entry", "junior", "mid", "senior", "lead")
@@ -107,7 +107,8 @@ def market_skills(roles: list[dict], vocab: dict[str, str]) -> dict[int, dict]:
 
     # LinkedIn: find vocabulary skills inside title + description.
     li = pd.read_csv(RAW / "linkedin-job-postings-2023-24" / "postings.csv",
-                     usecols=["title", "description", "skills_desc", "formatted_experience_level"])
+                     usecols=["company_name", "title", "description", "skills_desc", "formatted_experience_level"])
+    li = dedupe_ads(li).reset_index(drop=True)
     li["title_n"] = li["title"].map(_norm)
     li["roles"] = li["title_n"].map(lambda t: [i for i, p in enumerate(patterns) if p.search(t)])
     li = li[li["roles"].map(bool)].reset_index(drop=True)

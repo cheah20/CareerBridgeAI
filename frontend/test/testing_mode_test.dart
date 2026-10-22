@@ -24,7 +24,7 @@ void main() {
 
     expect(find.text('Resume analysis.'), findsOneWidget);
     expect(find.text('Choose resume (PDF, DOCX, JPG, PNG)'), findsOneWidget);
-    expect(find.text('Test logbook'), findsOneWidget); // sidebar item
+    expect(find.text('Test logbook (dev)'), findsOneWidget); // sidebar item, Developer group
   });
 
   testWidgets('an analysis shows the score, skills and directions', (

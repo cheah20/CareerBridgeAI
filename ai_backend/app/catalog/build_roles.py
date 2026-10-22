@@ -91,9 +91,16 @@ def pick_esco(names: list[str], preferred: dict, alternative: dict) -> tuple[str
     return None
 
 
+def dedupe_ads(df: pd.DataFrame) -> pd.DataFrame:
+    """Drop repeated ads: same company and same start of the description (one firm can post one ad 30 times)."""
+    key = df["description"].fillna("").str.lower().str.replace(r"\W+", " ", regex=True).str[:400]
+    return df[~pd.DataFrame({"c": df["company_name"].fillna(""), "k": key}).duplicated()]
+
+
 def load_postings() -> pd.DataFrame:
     li = pd.read_csv(RAW / "linkedin-job-postings-2023-24" / "postings.csv",
-                     usecols=["title", "formatted_experience_level"])
+                     usecols=["company_name", "title", "description", "formatted_experience_level"])
+    li = dedupe_ads(li)[["title", "formatted_experience_level"]]
     li = li.rename(columns={"formatted_experience_level": "level"})
     ds = pd.read_csv(RAW / "ds-job-postings-skills-2024" / "job_postings.csv", usecols=["job_title"])
     ds = ds.rename(columns={"job_title": "title"}).assign(level=None)

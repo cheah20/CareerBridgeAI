@@ -130,11 +130,22 @@ def _pdf_page_text(page) -> str:
     """Text lines of a PDF page in reading order, column by column."""
     boxes = []
     for block in page.get_text("dict")["blocks"]:
+        row = None
         for line in block.get("lines", []):
             text = "".join(span["text"] for span in line["spans"]).strip()
-            if text:
-                x0, y0, x1, y1 = line["bbox"]
-                boxes.append(Box(x0, y0, x1, y1, text))
+            if not text:
+                continue
+            x0, y0, x1, y1 = line["bbox"]
+            h = max(y1 - y0, 1)
+            # Justified text can store every word as its own line; join words on the same row.
+            if row and abs(row.y0 - y0) < 0.5 * h and abs(row.y1 - y1) < 0.5 * h and 0 <= x0 - row.x1 < 2 * h:
+                row = Box(row.x0, min(row.y0, y0), x1, max(row.y1, y1), f"{row.text} {text}")
+                continue
+            if row:
+                boxes.append(row)
+            row = Box(x0, y0, x1, y1, text)
+        if row:
+            boxes.append(row)
     return to_text(order_boxes(boxes))
 
 
