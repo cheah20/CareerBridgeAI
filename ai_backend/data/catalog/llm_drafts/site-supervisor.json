@@ -1,0 +1,100 @@
+{
+  "role": "Site Supervisor",
+  "status": "draft - needs human review",
+  "generated": "2026-10-22",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.005862,
+  "skills": [
+    {
+      "name": "Reading construction and shop drawings",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Site safety compliance and risk assessment (WSH Act / OSHA 1994)",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "Subcontractor coordination and daily toolbox briefings",
+      "type": "soft",
+      "importance": 0.65
+    },
+    {
+      "name": "Concrete works inspection (formwork, rebar, slump and cube tests)",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Site progress reporting and daily site diary",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "CIDB Green Card (Site Safety Induction Course)",
+      "type": "certification",
+      "importance": 0.55
+    },
+    {
+      "name": "Method statements and HIRARC / risk assessment preparation",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Communication with construction crews in English, Bahasa Malaysia and Mandarin",
+      "type": "soft",
+      "importance": 0.45
+    },
+    {
+      "name": "Setting out and levelling (auto level, total station)",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Material requisition and delivery order (DO) inspection on site",
+      "type": "hard",
+      "importance": 0.38
+    },
+    {
+      "name": "Permit-to-work system",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "BCSS (Building Construction Supervisors Safety Course)",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "Microsoft Project",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Bar bending schedule and rebar inspection",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Primavera P6",
+      "type": "tool",
+      "importance": 0.18
+    },
+    {
+      "name": "Occupational First Aid certification",
+      "type": "certification",
+      "importance": 0.15
+    }
+  ],
+  "local_notes": "Malaysian sites expect a CIDB Green Card and CIDB-registered Site Supervisor, while Singapore employers look for the BCA-recognised BCSS certificate and WSH Act knowledge, and site crews are typically briefed in English, Bahasa Malaysia and Mandarin."
+}

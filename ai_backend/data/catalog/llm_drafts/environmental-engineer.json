@@ -1,0 +1,100 @@
+{
+  "role": "Environmental Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-22",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.003251,
+  "skills": [
+    {
+      "name": "Environmental Impact Assessment (EIA)",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "ISO 14001 Environmental Management System",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Environmental monitoring and sampling",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Wastewater treatment design",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Environmental Quality Act 1974 (Malaysia)",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Department of Environment (DOE) Malaysia compliance",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Air pollution control",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.55
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Environmental Protection and Management Act (Singapore)",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "National Environment Agency (NEA) Singapore compliance",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Environmental audit",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Solid waste management",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Hazardous waste management",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "GIS (ArcGIS)",
+      "type": "tool",
+      "importance": 0.4
+    },
+    {
+      "name": "Report writing",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "ISO 14001 Lead Auditor",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.35
+    }
+  ],
+  "local_notes": "Malaysia roles commonly reference DOE and the Environmental Quality Act 1974, while Singapore roles reference NEA and the Environmental Protection and Management Act; EIA and ISO 14001 experience are frequently specified in both markets."
+}

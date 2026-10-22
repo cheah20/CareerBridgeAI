@@ -4,7 +4,7 @@
 - **Also called:** Systems Administrator, System Engineer
 - **O*NET:** 15-1244.00 Network and Computer Systems Administrators
 - **ESCO:** ICT system administrator
-- **Job ads analysed:** 369 (Internship / Fresh Graduate 52, Junior 49, Mid-level 194, Senior 67, Lead / Manager 7)
+- **Job ads analysed:** 324 (Internship / Fresh Graduate 31, Junior 47, Mid-level 179, Senior 63, Lead / Manager 4)
 
 ## What the job involves
 
@@ -16,51 +16,48 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Network **(core)** | 51% | 65% | 49% | 46% | 60% |
-| Troubleshooting **(core)** | 44% | 58% | 47% | 42% | 40% |
-| Server **(core)** | 44% | 50% | 39% | 42% | 49% |
-| Hardware **(core)** | 44% | 67% | 49% | 37% | 40% |
-| Infrastructure **(core)** | 41% | 60% | 39% | 34% | 49% |
-| Windows **(core)** | 41% | 50% | 39% | 40% | 39% |
-| Servers **(core)** | 36% | 50% | 37% | 31% | 39% |
-| Configuration **(core)** | 34% | 50% | 29% | 31% | 34% |
-| Maintenance **(core)** | 33% | 29% | 31% | 35% | 36% |
-| Computer Science **(core)** | 30% | 38% | 35% | 28% | 27% |
-| Linux **(core)** | 30% | 25% | 16% | 30% | 40% |
-| Networking **(core)** | 29% | 44% | 22% | 27% | 24% |
-| VMware **(core)** | 28% | 33% | 26% | 26% | 31% |
-| Cloud **(core)** | 27% | 40% | 24% | 22% | 33% |
-| Installation **(core)** | 26% | 56% | 29% | 23% | 15% |
-| Storage **(core)** | 26% | 40% | 18% | 23% | 30% |
-| Directory | 25% | 40% | 24% | 23% | 18% |
-| Active Directory | 23% | 33% | 24% | 23% | 16% |
-| Scripting | 22% | 12% | 10% | 25% | 30% |
-| Implementation | 22% | 17% | 24% | 21% | 30% |
-| Operating Systems | 22% | 21% | 24% | 21% | 22% |
-| Information Technology | 20% | 15% | 29% | 20% | 21% |
-| troubleshoot | 20% | 25% | 35% | 12% | 28% |
-| System Administration | 20% | 46% | 10% | 16% | 16% |
-| Testing | 20% | 29% | 6% | 16% | 30% |
-| Automation | 19% | 14% | 10% | 24% | 16% |
-| Backup | 19% | 23% | 20% | 17% | 22% |
-| Recovery | 18% | 35% | 10% | 16% | 19% |
-| install software | 18% | 52% | 12% | 12% | 13% |
-| Technical Support | 18% | 35% | 24% | 16% | 10% |
-| DNS | 18% | 27% | 20% | 14% | 22% |
-| Azure | 18% | 14% | 29% | 18% | 16% |
-| Windows Server | 18% | 25% | 20% | 13% | 21% |
-| Onsite | 17% | 19% | 20% | 14% | 22% |
-| Upgrades | 17% | 10% | 22% | 19% | 15% |
-| Government | 16% | 25% | 4% | 17% | 15% |
-| Components | 16% | 17% | 16% | 14% | 16% |
-| Deployment | 16% | 8% | 12% | 14% | 27% |
-| PowerShell | 16% | 8% | 14% | 20% | 13% |
-| Resolution | 15% | 6% | 12% | 17% | 19% |
-| Python | 15% | 6% | 8% | 16% | 25% |
+| Network **(core)** | 48% | 58% | 49% | 45% | 57% |
+| Troubleshooting **(core)** | 42% | 45% | 47% | 42% | 40% |
+| Server **(core)** | 42% | 39% | 40% | 41% | 46% |
+| Hardware **(core)** | 40% | 52% | 49% | 36% | 40% |
+| Windows **(core)** | 39% | 32% | 40% | 41% | 36% |
+| Infrastructure **(core)** | 38% | 45% | 40% | 34% | 46% |
+| Maintenance **(core)** | 33% | 36% | 30% | 35% | 33% |
+| Servers **(core)** | 33% | 36% | 38% | 30% | 38% |
+| Configuration **(core)** | 30% | 32% | 28% | 30% | 33% |
+| Linux **(core)** | 30% | 23% | 17% | 31% | 40% |
+| Computer Science **(core)** | 28% | 16% | 36% | 28% | 29% |
+| VMware **(core)** | 26% | 16% | 28% | 26% | 33% |
+| Networking **(core)** | 26% | 29% | 23% | 26% | 22% |
+| Cloud | 24% | 19% | 26% | 22% | 32% |
+| Implementation | 24% | 29% | 23% | 22% | 30% |
+| Scripting | 23% | 16% | 11% | 26% | 29% |
+| Directory | 23% | 26% | 26% | 24% | 19% |
+| Storage | 23% | 19% | 19% | 22% | 30% |
+| Installation | 22% | 39% | 30% | 21% | 14% |
+| Active Directory | 22% | 16% | 26% | 24% | 18% |
+| Operating Systems | 21% | 23% | 26% | 20% | 21% |
+| Information Technology | 20% | 13% | 30% | 20% | 19% |
+| troubleshoot | 20% | 29% | 36% | 12% | 29% |
+| Backup | 20% | 26% | 21% | 17% | 24% |
+| Azure | 19% | 23% | 30% | 18% | 16% |
+| Automation | 19% | 13% | 11% | 22% | 18% |
+| Testing | 18% | 29% | 6% | 14% | 29% |
+| System Administration | 17% | 36% | 11% | 16% | 16% |
+| Onsite | 17% | 26% | 21% | 13% | 21% |
+| Upgrades | 17% | 13% | 23% | 17% | 14% |
+| DNS | 17% | 16% | 21% | 14% | 22% |
+| PowerShell | 16% | 10% | 15% | 20% | 10% |
+| Python | 16% | 6% | 8% | 16% | 27% |
+| Components | 16% | 23% | 17% | 14% | 16% |
+| Recovery | 16% | 23% | 11% | 16% | 19% |
+| AWS | 16% | 6% | 17% | 14% | 25% |
+| Technical Support | 16% | 19% | 26% | 15% | 10% |
+| Windows Server | 15% | 6% | 21% | 13% | 19% |
 
 ## Soft skills employers mention
 
-Communication (48%), Problem Solving (22%), Communication Skills (22%), Leadership (15%), Problem Solving Skills (10%)
+Communication (46%), Problem Solving (22%), Communication Skills (19%), Leadership (15%), Collaboration (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

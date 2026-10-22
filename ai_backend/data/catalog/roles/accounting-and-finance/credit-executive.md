@@ -4,7 +4,7 @@
 - **Also called:** Credit Analyst, Credit Officer
 - **O*NET:** 13-2041.00 Credit Analysts; 43-4041.00 Credit Authorizers, Checkers, and Clerks
 - **ESCO:** credit analyst
-- **Job ads analysed:** 43 (Internship / Fresh Graduate 10, Junior 12, Mid-level 10, Senior 7, Lead / Manager 4)
+- **Job ads analysed:** 36 (Internship / Fresh Graduate 5, Junior 12, Mid-level 8, Senior 7, Lead / Manager 4)
 
 ## What the job involves
 
@@ -16,53 +16,53 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads |  |
 |---|---|
-| Risk **(core)** | 63% |  |
-| Accounting **(core)** | 56% |  |
-| Portfolio **(core)** | 54% |  |
-| Underwriting **(core)** | 49% |  |
-| Analytical **(core)** | 46% |  |
-| Banking **(core)** | 44% |  |
-| Lending **(core)** | 44% |  |
-| financial statements **(core)** | 42% |  |
-| Excel **(core)** | 42% |  |
-| Recommendations **(core)** | 42% |  |
-| Loans **(core)** | 37% |  |
-| Credit Risk **(core)** | 35% |  |
-| Analyze **(core)** | 30% |  |
-| Financial Services **(core)** | 30% |  |
+| Risk **(core)** | 61% |  |
+| Accounting **(core)** | 53% |  |
+| financial statements **(core)** | 50% |  |
+| Banking **(core)** | 50% |  |
+| Portfolio **(core)** | 50% |  |
+| Underwriting **(core)** | 47% |  |
+| Analytical **(core)** | 44% |  |
+| Credit Risk **(core)** | 39% |  |
+| Lending **(core)** | 39% |  |
+| Excel **(core)** | 36% |  |
+| Recommendations **(core)** | 36% |  |
+| Analyze **(core)** | 33% |  |
+| Financial Services **(core)** | 33% |  |
+| Loans **(core)** | 31% |  |
 | Policies and procedures **(core)** | 28% |  |
-| Economics **(core)** | 26% |  |
-| Integrity **(core)** | 26% |  |
-| Relevant Experience **(core)** | 26% |  |
-| Writing | 23% |  |
-| Risks | 23% |  |
-| Written Communication | 23% |  |
-| Equity | 21% |  |
-| Tax | 21% |  |
+| Integrity **(core)** | 25% |  |
+| Risks **(core)** | 25% |  |
+| Tax **(core)** | 25% |  |
+| Financial statement | 22% |  |
+| Financial Analysis | 22% |  |
+| Deadlines | 22% |  |
+| Economics | 19% |  |
 | Guidance | 19% |  |
 | Meetings | 19% |  |
-| Written communication skills | 19% |  |
+| Relevant Experience | 19% |  |
 | Diligence | 19% |  |
 | Word | 19% |  |
-| Financial statement | 19% |  |
-| Financial Analysis | 19% |  |
-| Deadlines | 19% |  |
+| Responsibility | 19% |  |
 | Microsoft Office | 19% |  |
-| Credit underwriting | 16% |  |
-| pregnancy | 16% |  |
-| Regulatory | 16% |  |
-| Posting | 16% |  |
-| Vacation | 16% |  |
-| Verbal and Written Communication | 16% |  |
-| Work Experience | 16% |  |
-| Recommendation | 16% |  |
-| Responsibility | 16% |  |
-| Due diligence | 16% |  |
-| Classification | 16% |  |
+| Credit underwriting | 17% |  |
+| pregnancy | 17% |  |
+| Paid Time Off | 17% |  |
+| Regulatory | 17% |  |
+| Risk Management | 17% |  |
+| Independent | 17% |  |
+| Recommendation | 17% |  |
+| Due diligence | 17% |  |
+| Classification | 17% |  |
+| Writing | 14% |  |
+| Equity | 14% |  |
+| Excellence | 14% |  |
+| Market Trends | 14% |  |
+| Profitability | 14% |  |
 
 ## Soft skills employers mention
 
-Communication (63%), Communication Skills (35%), Leadership (19%), Analytical Skills (19%), Customer Service (19%), Decision Making (16%), Time Management (16%), Attention to Detail (12%)
+Communication (61%), Communication Skills (31%), Decision Making (19%), Leadership (19%), Time Management (17%), Problem Solving (11%), Analytical Skills (11%), Organizational Skills (11%), Attention to Detail (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

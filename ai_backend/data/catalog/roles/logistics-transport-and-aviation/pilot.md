@@ -4,7 +4,7 @@
 - **Also called:** Airline Pilot
 - **O*NET:** 53-2011.00 Airline Pilots, Copilots, and Flight Engineers; 53-2012.00 Commercial Pilots; 53-5021.00 Captains, Mates, and Pilots of Water Vessels
 - **ESCO:** airline transport pilot
-- **Job ads analysed:** 39 (Internship / Fresh Graduate 4, Junior 4, Mid-level 28, Senior 2, Lead / Manager 1)
+- **Job ads analysed:** 33 (Internship / Fresh Graduate 1, Junior 4, Mid-level 26, Senior 1, Lead / Manager 1)
 
 ## What the job involves
 
@@ -16,37 +16,38 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Maintenance **(core)** | 41% | 39% |
-| Transportation **(core)** | 31% | 29% |
-| JET | 23% | 14% |
-| High School Diploma | 23% | 25% |
-| Retention | 23% | 29% |
-| 401k | 20% | 21% |
-| Excel | 18% | 21% |
-| Manufacturing | 18% | 11% |
-| Word | 18% | 21% |
-| Reasonable accommodations | 18% | 25% |
-| Vacation | 18% | 21% |
-| Computer skills | 18% | 7% |
-| Mechanical | 15% | 7% |
-| Work Experience | 15% | 18% |
-| Protocols | 15% | 18% |
-| Regulatory | 15% | 21% |
-| Communications | 15% | 11% |
-| industrial software | 15% | 11% |
-| Voice | 13% | 14% |
-| Chemistry | 13% | 0% |
-| Driver's License | 13% | 4% |
-| Methods | 13% | 7% |
-| history | 13% | 4% |
-| Professionalism | 13% | 18% |
-| Troubleshooting | 13% | 7% |
-| FSA | 13% | 18% |
-| Quality Assurance | 13% | 18% |
+| Maintenance **(core)** | 46% | 42% |
+| JET **(core)** | 27% | 15% |
+| High School Diploma **(core)** | 27% | 27% |
+| Retention **(core)** | 27% | 31% |
+| Transportation **(core)** | 27% | 31% |
+| 401k | 24% | 23% |
+| Excel | 21% | 23% |
+| Reasonable accommodations | 21% | 27% |
+| Vacation | 21% | 23% |
+| Word | 18% | 19% |
+| Regulatory | 18% | 23% |
+| Voice | 15% | 15% |
+| Driver's License | 15% | 4% |
+| FSA | 15% | 19% |
+| Protocols | 15% | 15% |
+| Quality Assurance | 15% | 19% |
+| Responsibility | 15% | 15% |
+| Traffic control | 15% | 19% |
+| DoD | 15% | 19% |
+| Record Keeping | 12% | 12% |
+| PowerPoint | 12% | 12% |
+| Professionalism | 12% | 15% |
+| history | 12% | 0% |
+| Availability | 12% | 15% |
+| Work Experience | 12% | 15% |
+| GIS | 12% | 15% |
+| Cartography | 12% | 15% |
+| Microsoft SQL Server | 12% | 15% |
 
 ## Soft skills employers mention
 
-Communication (36%), Communication Skills (15%), Leadership (15%), Problem Solving (13%), Customer Service (13%), Attention to Detail (10%)
+Communication (27%), Leadership (15%), Customer Service (15%), Communication Skills (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

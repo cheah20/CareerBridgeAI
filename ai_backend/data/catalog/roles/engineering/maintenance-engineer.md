@@ -3,7 +3,7 @@
 - **Field:** Engineering
 - **O*NET:** 49-9071.00 Maintenance and Repair Workers, General; 17-2051.00 Civil Engineers; 11-3013.00 Facilities Managers
 - **ESCO:** maintenance and repair engineer
-- **Job ads analysed:** 38 (Internship / Fresh Graduate 19, Junior 8, Mid-level 11)
+- **Job ads analysed:** 34 (Internship / Fresh Graduate 16, Junior 8, Mid-level 10)
 
 ## What the job involves
 
@@ -15,44 +15,45 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate |
 |---|---|---|
-| Maintenance **(core)** | 95% | 100% |
-| Electrical **(core)** | 66% | 74% |
-| Mechanical **(core)** | 60% | 68% |
-| Repair **(core)** | 53% | 58% |
-| Manufacturing **(core)** | 37% | 26% |
-| Plumbing **(core)** | 37% | 47% |
-| Troubleshooting **(core)** | 32% | 16% |
-| HVAC **(core)** | 29% | 42% |
-| Power **(core)** | 26% | 37% |
-| Preventive Maintenance | 24% | 26% |
-| Work Environment | 24% | 26% |
-| Preventative Maintenance | 24% | 37% |
-| Reliability | 21% | 0% |
-| Mechanical Systems | 21% | 21% |
-| troubleshoot | 21% | 16% |
-| High School Diploma | 21% | 37% |
-| Electrical Systems | 18% | 21% |
-| industrial software | 18% | 21% |
-| PLC | 18% | 16% |
-| 401k | 18% | 16% |
-| Controls | 16% | 10% |
-| Execution | 16% | 10% |
-| Email | 16% | 5% |
-| Testing | 16% | 5% |
-| Paid Time Off | 16% | 21% |
-| carpentry | 16% | 32% |
-| GED | 16% | 21% |
-| Implementation | 16% | 5% |
-| Efficiency | 13% | 10% |
-| hydraulics | 13% | 10% |
-| Mechanical Engineering | 13% | 5% |
-| Vendors | 13% | 10% |
-| Availability | 13% | 26% |
-| Policies and procedures | 13% | 16% |
+| Maintenance **(core)** | 94% | 100% |
+| Electrical **(core)** | 62% | 69% |
+| Mechanical **(core)** | 56% | 62% |
+| Repair **(core)** | 50% | 56% |
+| Manufacturing **(core)** | 35% | 25% |
+| Plumbing **(core)** | 35% | 44% |
+| Troubleshooting **(core)** | 32% | 19% |
+| Preventive Maintenance **(core)** | 26% | 31% |
+| Power **(core)** | 26% | 38% |
+| HVAC **(core)** | 26% | 38% |
+| Reliability | 24% | 0% |
+| Work Environment | 24% | 25% |
+| industrial software | 21% | 25% |
+| PLC | 21% | 19% |
+| Preventative Maintenance | 21% | 31% |
+| troubleshoot | 21% | 12% |
+| Controls | 18% | 12% |
+| Execution | 18% | 12% |
+| Email | 18% | 6% |
+| Implementation | 18% | 6% |
+| Mechanical Systems | 18% | 19% |
+| High School Diploma | 18% | 31% |
+| Efficiency | 15% | 12% |
+| Electrical Systems | 15% | 12% |
+| Mechanical Engineering | 15% | 6% |
+| Vendors | 15% | 12% |
+| Holidays | 15% | 12% |
+| Testing | 15% | 6% |
+| Paid Time Off | 15% | 19% |
+| carpentry | 15% | 31% |
+| Responsibility | 15% | 6% |
+| GED | 15% | 19% |
+| Integrity | 15% | 6% |
+| Respect | 15% | 19% |
+| 401k | 15% | 6% |
 
 ## Soft skills employers mention
 
-Communication (40%), Communication Skills (21%), Problem Solving (21%), Leadership (18%), Collaboration (16%)
+Communication (38%), Problem Solving (24%), Communication Skills (21%), Leadership (21%), Collaboration (15%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

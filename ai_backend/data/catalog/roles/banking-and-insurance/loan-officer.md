@@ -4,7 +4,7 @@
 - **Also called:** Mortgage Officer, Loan Executive
 - **O*NET:** 13-2072.00 Loan Officers
 - **ESCO:** loan officer
-- **Job ads analysed:** 134 (Internship / Fresh Graduate 85, Junior 7, Mid-level 33, Senior 7, Lead / Manager 2)
+- **Job ads analysed:** 58 (Internship / Fresh Graduate 18, Junior 4, Mid-level 27, Senior 7, Lead / Manager 2)
 
 ## What the job involves
 
@@ -16,28 +16,39 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Mid-level |
 |---|---|---|---|
-| Loan origination **(core)** | 60% | 78% | 24% |
-| Objectives **(core)** | 60% | 81% | 24% |
-| Network **(core)** | 56% | 80% | 18% |
-| application process **(core)** | 54% | 78% | 12% |
-| Rules **(core)** | 53% | 82% | 0% |
-| Recommendations **(core)** | 52% | 80% | 6% |
-| Deadlines **(core)** | 49% | 78% | 0% |
-| Interviews **(core)** | 48% | 75% | 3% |
-| Addressing **(core)** | 48% | 74% | 3% |
-| Drawing **(core)** | 47% | 74% | 0% |
-| Lending **(core)** | 37% | 16% | 76% |
-| Loans **(core)** | 28% | 21% | 30% |
-| Underwriting | 25% | 13% | 42% |
-| Banking | 15% | 9% | 33% |
-| Analyze | 13% | 7% | 12% |
-| NMLS | 13% | 4% | 30% |
-| Real Estate | 12% | 9% | 18% |
-| Pricing | 11% | 9% | 15% |
+| Lending **(core)** | 71% | 67% | 74% |
+| Loans **(core)** | 53% | 72% | 33% |
+| Underwriting **(core)** | 45% | 44% | 44% |
+| NMLS **(core)** | 26% | 17% | 33% |
+| Real Estate | 24% | 33% | 22% |
+| Analyze | 24% | 28% | 11% |
+| Banking | 24% | 33% | 26% |
+| Objectives | 22% | 33% | 18% |
+| Network | 21% | 33% | 18% |
+| Loan origination | 19% | 11% | 15% |
+| Networking | 17% | 39% | 7% |
+| Equity | 16% | 11% | 18% |
+| Pricing | 16% | 17% | 18% |
+| work independently | 16% | 6% | 26% |
+| Work Environment | 16% | 17% | 18% |
+| Ownership | 16% | 17% | 18% |
+| Portfolio | 14% | 17% | 15% |
+| Professionalism | 14% | 6% | 15% |
+| Collaborative | 14% | 6% | 22% |
+| Customer Service Skills | 14% | 22% | 7% |
+| Computer skills | 14% | 11% | 18% |
+| Meetings | 12% | 22% | 7% |
+| pregnancy | 12% | 11% | 18% |
+| 401k | 12% | 17% | 7% |
+| application process | 12% | 22% | 4% |
+| Rules | 12% | 33% | 0% |
+| Flexibility | 12% | 0% | 18% |
+| Policies and procedures | 10% | 17% | 11% |
+| Guidance | 10% | 0% | 18% |
 
 ## Soft skills employers mention
 
-Communication (78%), Customer Service (76%), Communication Skills (60%), Attention to Detail (11%)
+Communication (59%), Customer Service (55%), Communication Skills (22%), Attention to Detail (22%), Problem Solving (14%), Interpersonal Skills (12%), Leadership (10%), Decision Making (10%), Coaching (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

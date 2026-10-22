@@ -4,7 +4,7 @@
 - **Also called:** Operations Manager, Operations Supervisor
 - **O*NET:** 11-1021.00 General and Operations Managers; 11-3051.04 Biomass Power Plant Managers; 27-2012.05 Media Technical Directors/Managers
 - **ESCO:** operations manager
-- **Job ads analysed:** 615 (Internship / Fresh Graduate 7, Junior 28, Mid-level 538, Senior 29, Lead / Manager 13)
+- **Job ads analysed:** 448 (Internship / Fresh Graduate 4, Junior 24, Mid-level 388, Senior 19, Lead / Manager 13)
 
 ## What the job involves
 
@@ -16,37 +16,36 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Junior | Mid-level | Senior |
 |---|---|---|---|---|
-| Maintenance **(core)** | 32% | 36% | 32% | 21% |
-| Excel **(core)** | 28% | 25% | 29% | 17% |
-| Scheduling | 24% | 11% | 26% | 10% |
-| Inventory | 24% | 25% | 24% | 17% |
-| Efficiency | 23% | 25% | 22% | 24% |
-| Responsibility | 22% | 25% | 23% | 14% |
-| Paid Time Off | 22% | 7% | 23% | 21% |
-| Productivity | 21% | 4% | 22% | 17% |
-| Execution | 21% | 14% | 21% | 28% |
-| Work Environment | 20% | 25% | 20% | 14% |
-| Objectives | 19% | 25% | 19% | 28% |
-| Microsoft Office | 19% | 21% | 20% | 7% |
-| Excellence | 19% | 18% | 19% | 28% |
-| Vendors | 18% | 18% | 19% | 10% |
-| Budget | 18% | 11% | 19% | 10% |
-| Life Insurance | 18% | 14% | 18% | 17% |
-| Continuous Improvement | 18% | 21% | 18% | 21% |
-| Meetings | 17% | 11% | 18% | 10% |
-| Communications | 17% | 25% | 16% | 24% |
-| Logistics | 17% | 7% | 17% | 17% |
-| Analytical | 16% | 21% | 16% | 24% |
-| Policies and procedures | 16% | 25% | 17% | 7% |
-| Power | 16% | 21% | 15% | 17% |
-| Metrics | 16% | 18% | 15% | 17% |
-| Guidance | 15% | 7% | 16% | 14% |
-| Collaborative | 15% | 36% | 13% | 14% |
-| Project Management | 15% | 11% | 14% | 28% |
+| Maintenance **(core)** | 28% | 25% | 29% | 26% |
+| Efficiency | 24% | 25% | 24% | 21% |
+| Inventory | 22% | 29% | 22% | 21% |
+| Excel | 22% | 25% | 22% | 16% |
+| Objectives | 20% | 29% | 20% | 32% |
+| Execution | 20% | 17% | 21% | 21% |
+| Productivity | 19% | 4% | 20% | 21% |
+| Holidays | 19% | 21% | 19% | 5% |
+| Budget | 18% | 8% | 19% | 5% |
+| Work Environment | 18% | 25% | 19% | 0% |
+| Logistics | 18% | 8% | 19% | 26% |
+| Scheduling | 18% | 12% | 19% | 0% |
+| Meetings | 18% | 8% | 19% | 10% |
+| Microsoft Office | 18% | 12% | 18% | 10% |
+| Analytical | 18% | 25% | 17% | 26% |
+| Continuous Improvement | 17% | 25% | 17% | 21% |
+| Responsibility | 17% | 29% | 18% | 10% |
+| Policies and procedures | 16% | 25% | 17% | 0% |
+| Metrics | 16% | 8% | 16% | 16% |
+| Guidance | 16% | 4% | 17% | 16% |
+| Excellence | 15% | 21% | 15% | 16% |
+| Project Management | 15% | 12% | 15% | 26% |
+| Paid Time Off | 15% | 8% | 16% | 26% |
+| Word | 15% | 8% | 15% | 21% |
+| Regulatory | 15% | 8% | 14% | 26% |
+| Analyze | 14% | 21% | 14% | 21% |
 
 ## Soft skills employers mention
 
-Communication (55%), Leadership (46%), Communication Skills (24%), Customer Service (23%), Problem Solving (22%), Coaching (16%), Collaboration (14%), Interpersonal Skills (10%)
+Communication (60%), Leadership (47%), Communication Skills (26%), Customer Service (25%), Problem Solving (24%), Coaching (14%), Collaboration (13%), Interpersonal Skills (12%), Attention to Detail (10%), Time Management (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Construction Supervisor
 - **O*NET:** 47-1011.00 First-Line Supervisors of Construction Trades and Extraction Workers; 33-1091.00 First-Line Supervisors of Security Workers
 - **ESCO:** construction general supervisor
-- **Job ads analysed:** 20 (Mid-level 17, Senior 3)
+- **Job ads analysed:** 18 (Mid-level 16, Senior 2)
 
 ## What the job involves
 
@@ -16,55 +16,71 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Productivity **(core)** | 40% | 35% |
-| Interviewing **(core)** | 35% | 29% |
-| Word **(core)** | 35% | 41% |
-| Scheduling **(core)** | 35% | 41% |
-| Excel **(core)** | 30% | 35% |
-| High School Diploma **(core)** | 30% | 35% |
-| Phone **(core)** | 30% | 24% |
-| OSHA **(core)** | 30% | 24% |
-| MS **(core)** | 30% | 35% |
-| 401k **(core)** | 25% | 29% |
-| Email **(core)** | 25% | 18% |
-| Policies and procedures **(core)** | 25% | 29% |
-| Construction Management **(core)** | 25% | 29% |
-| Recommendations **(core)** | 25% | 29% |
-| Maintenance **(core)** | 25% | 18% |
-| Rules **(core)** | 25% | 29% |
-| Budget **(core)** | 25% | 29% |
-| Work Environment **(core)** | 25% | 12% |
-| Driver's License **(core)** | 25% | 18% |
-| Controls **(core)** | 25% | 24% |
-| Equity | 20% | 12% |
-| Reasonable Accommodation | 20% | 24% |
-| Regulatory | 20% | 18% |
-| Addressing | 20% | 24% |
-| Payroll | 20% | 24% |
-| Coordination | 20% | 24% |
-| Equal Employment Opportunity | 20% | 12% |
-| MS Office | 20% | 24% |
-| Project Management | 20% | 18% |
-| Execution | 20% | 18% |
-| industrial software | 20% | 18% |
-| application process | 15% | 18% |
-| Vendors | 15% | 18% |
-| Electrical | 15% | 18% |
-| Management Experience | 15% | 18% |
-| build trust | 15% | 18% |
-| Childcare | 15% | 18% |
-| company policies | 15% | 18% |
-| Core Values | 15% | 18% |
-| Discounts | 15% | 18% |
-| Hearing | 15% | 18% |
-| Inspection | 15% | 18% |
-| Integrity | 15% | 18% |
-| Risks | 15% | 18% |
-| Security Operations | 15% | 18% |
+| Productivity **(core)** | 44% | 38% |
+| Word **(core)** | 39% | 44% |
+| Scheduling **(core)** | 39% | 44% |
+| Interviewing **(core)** | 33% | 25% |
+| Excel **(core)** | 33% | 38% |
+| OSHA **(core)** | 33% | 25% |
+| MS **(core)** | 33% | 38% |
+| Email **(core)** | 28% | 19% |
+| Construction Management **(core)** | 28% | 31% |
+| High School Diploma **(core)** | 28% | 31% |
+| Phone **(core)** | 28% | 19% |
+| Maintenance **(core)** | 28% | 19% |
+| Rules **(core)** | 28% | 31% |
+| Budget **(core)** | 28% | 31% |
+| Driver's License **(core)** | 28% | 19% |
+| 401k | 22% | 25% |
+| Equity | 22% | 12% |
+| Policies and procedures | 22% | 25% |
+| Reasonable Accommodation | 22% | 25% |
+| Recommendations | 22% | 25% |
+| Coordination | 22% | 25% |
+| Equal Employment Opportunity | 22% | 12% |
+| MS Office | 22% | 25% |
+| Work Environment | 22% | 12% |
+| Controls | 22% | 25% |
+| application process | 17% | 19% |
+| Regulatory | 17% | 19% |
+| Vendors | 17% | 19% |
+| Electrical | 17% | 19% |
+| Management Experience | 17% | 19% |
+| Addressing | 17% | 19% |
+| Payroll | 17% | 19% |
+| Holidays | 17% | 6% |
+| Professional Development | 17% | 6% |
+| Shape | 17% | 6% |
+| Attendance | 17% | 6% |
+| Ability to work independently | 17% | 19% |
+| Outlook | 17% | 19% |
+| work independently | 17% | 19% |
+| Relevant Experience | 17% | 19% |
 
 ## Soft skills employers mention
 
-Communication (45%), Leadership (30%), Coaching (25%), Interpersonal Skills (25%), Customer Service (25%), Collaboration (20%), Teamwork (20%), Communication Skills (20%), Organizational Skills (10%), Problem Solving (10%)
+Communication (50%), Customer Service (28%), Leadership (28%), Coaching (22%), Interpersonal Skills (22%), Collaboration (22%), Teamwork (22%), Communication Skills (22%), Organizational Skills (11%), Problem Solving (11%)
+
+## Malaysia / Singapore skills (AI-drafted, pending human review)
+
+Drafted by DeepSeek because few job ads matched this title. Estimated share of job ads in brackets.
+
+- Reading construction and shop drawings (80%, hard)
+- Site safety compliance and risk assessment (WSH Act / OSHA 1994) (75%, hard)
+- Concrete works inspection (formwork, rebar, slump and cube tests) (60%, hard)
+- Site progress reporting and daily site diary (55%, hard)
+- Microsoft Excel (55%, tool)
+- CIDB Green Card (Site Safety Induction Course) (55%, certification)
+- Method statements and HIRARC / risk assessment preparation (50%, hard)
+- Setting out and levelling (auto level, total station) (40%, hard)
+- AutoCAD (40%, tool)
+- Material requisition and delivery order (DO) inspection on site (38%, hard)
+- Permit-to-work system (35%, hard)
+- BCSS (Building Construction Supervisors Safety Course) (35%, certification)
+- Microsoft Project (30%, tool)
+- Bar bending schedule and rebar inspection (30%, hard)
+- Primavera P6 (18%, tool)
+- Occupational First Aid certification (15%, certification)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
@@ -126,6 +142,8 @@ Microsoft Office
 ## Core abilities (O*NET importance ≥ 3.5 of 5)
 
 Active Listening, Speaking, Critical Thinking, Reading Comprehension, Monitoring
+
+> **Limited market data:** fewer than 20 job ads matched this title, so skills rely mainly on ESCO and O*NET.
 
 ---
 Sources: O*NET 31.0 (USDOL/ETA, CC BY 4.0); ESCO v1.2.1 (European Commission); LinkedIn Job Postings 2023–24 (CC BY-SA 4.0); Data Science Job Postings & Skills 2024 (ODC-By).

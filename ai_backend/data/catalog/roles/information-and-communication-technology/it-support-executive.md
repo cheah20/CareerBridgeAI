@@ -4,7 +4,7 @@
 - **Also called:** IT Support Specialist, Desktop Support, Technical Support Engineer, Help Desk Technician
 - **O*NET:** 15-1232.00 Computer User Support Specialists
 - **ESCO:** ICT help desk agent
-- **Job ads analysed:** 216 (Internship / Fresh Graduate 78, Junior 46, Mid-level 80, Senior 10, Lead / Manager 2)
+- **Job ads analysed:** 190 (Internship / Fresh Graduate 64, Junior 45, Mid-level 71, Senior 10)
 
 ## What the job involves
 
@@ -16,52 +16,50 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
 |---|---|---|---|---|
-| Hardware **(core)** | 74% | 82% | 67% | 71% |
-| Troubleshooting **(core)** | 67% | 68% | 65% | 62% |
-| Windows **(core)** | 58% | 63% | 50% | 59% |
-| Network **(core)** | 50% | 60% | 44% | 46% |
-| Technical Support **(core)** | 47% | 38% | 52% | 50% |
-| Phone **(core)** | 31% | 36% | 30% | 22% |
-| Directory **(core)** | 30% | 40% | 24% | 21% |
-| Resolution **(core)** | 30% | 37% | 26% | 25% |
-| Operating Systems **(core)** | 29% | 27% | 37% | 29% |
-| Active Directory **(core)** | 29% | 40% | 22% | 21% |
-| Mobile **(core)** | 29% | 27% | 24% | 34% |
-| Onsite **(core)** | 28% | 26% | 24% | 35% |
-| Networking **(core)** | 27% | 24% | 24% | 31% |
-| Help desk **(core)** | 26% | 45% | 17% | 16% |
-| Maintenance **(core)** | 26% | 33% | 22% | 22% |
-| Configuration **(core)** | 25% | 22% | 15% | 35% |
-| troubleshoot **(core)** | 25% | 27% | 22% | 24% |
-| Server | 23% | 20% | 17% | 30% |
-| Microsoft Office | 23% | 28% | 26% | 15% |
-| Inventory | 21% | 24% | 24% | 19% |
-| Installation | 20% | 26% | 13% | 21% |
-| Information Technology | 20% | 30% | 11% | 18% |
-| Email | 19% | 26% | 13% | 18% |
-| Infrastructure | 18% | 14% | 11% | 29% |
-| Vendors | 17% | 19% | 15% | 16% |
-| Connectivity | 17% | 26% | 6% | 16% |
-| MS | 17% | 10% | 15% | 26% |
-| Imaging | 16% | 24% | 11% | 12% |
-| Repair | 16% | 22% | 17% | 11% |
-| Upgrades | 16% | 14% | 20% | 18% |
-| Office 365 | 16% | 20% | 20% | 12% |
-| Testing | 15% | 23% | 13% | 10% |
-| Technical Issues | 15% | 15% | 15% | 15% |
-| Analytical | 15% | 15% | 17% | 14% |
-| install software | 14% | 15% | 15% | 12% |
-| Mac | 14% | 9% | 11% | 22% |
-| Networks | 14% | 19% | 6% | 11% |
-| Computers | 14% | 15% | 11% | 15% |
-| Power | 14% | 24% | 6% | 8% |
-| Tech | 13% | 12% | 20% | 12% |
-| ServiceNow | 13% | 13% | 15% | 14% |
-| Computer Science | 13% | 9% | 15% | 16% |
+| Hardware **(core)** | 73% | 81% | 67% | 72% |
+| Troubleshooting **(core)** | 67% | 72% | 64% | 62% |
+| Windows **(core)** | 56% | 61% | 49% | 56% |
+| Network **(core)** | 48% | 59% | 42% | 44% |
+| Technical Support **(core)** | 46% | 39% | 51% | 48% |
+| Onsite **(core)** | 30% | 31% | 24% | 35% |
+| Directory **(core)** | 30% | 38% | 22% | 24% |
+| Active Directory **(core)** | 29% | 38% | 20% | 24% |
+| Phone **(core)** | 28% | 31% | 31% | 22% |
+| Resolution **(core)** | 28% | 30% | 27% | 25% |
+| Mobile **(core)** | 27% | 22% | 24% | 34% |
+| Operating Systems **(core)** | 27% | 23% | 36% | 25% |
+| troubleshoot **(core)** | 26% | 30% | 22% | 22% |
+| Networking **(core)** | 25% | 23% | 22% | 30% |
+| Help desk **(core)** | 25% | 42% | 18% | 17% |
+| Maintenance | 23% | 27% | 20% | 22% |
+| Microsoft Office | 23% | 28% | 24% | 17% |
+| Configuration | 22% | 16% | 16% | 32% |
+| Information Technology | 21% | 33% | 9% | 20% |
+| Server | 20% | 16% | 16% | 28% |
+| Inventory | 20% | 19% | 24% | 18% |
+| Installation | 20% | 25% | 11% | 21% |
+| Vendors | 18% | 19% | 16% | 18% |
+| Infrastructure | 18% | 14% | 9% | 28% |
+| Upgrades | 17% | 14% | 20% | 18% |
+| Office 365 | 17% | 22% | 20% | 13% |
+| MS | 17% | 6% | 16% | 28% |
+| Imaging | 16% | 23% | 11% | 14% |
+| Repair | 16% | 20% | 18% | 13% |
+| Connectivity | 16% | 27% | 7% | 14% |
+| Email | 16% | 22% | 13% | 13% |
+| install software | 16% | 17% | 16% | 14% |
+| Analytical | 16% | 17% | 18% | 13% |
+| Testing | 15% | 25% | 11% | 10% |
+| Outlook | 14% | 17% | 16% | 11% |
+| Mac | 14% | 9% | 11% | 20% |
+| Tech | 14% | 14% | 18% | 11% |
+| Written Communication | 14% | 16% | 9% | 14% |
+| ServiceNow | 14% | 14% | 16% | 13% |
+| User Support | 13% | 12% | 7% | 18% |
 
 ## Soft skills employers mention
 
-Communication (64%), Customer Service (38%), Problem Solving (32%), Communication Skills (27%), Interpersonal Skills (10%)
+Communication (60%), Customer Service (39%), Problem Solving (30%), Communication Skills (26%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

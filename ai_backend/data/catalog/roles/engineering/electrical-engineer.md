@@ -3,7 +3,7 @@
 - **Field:** Engineering
 - **O*NET:** 17-2071.00 Electrical Engineers; 17-2072.01 Radio Frequency Identification Device Specialists
 - **ESCO:** electrical engineer
-- **Job ads analysed:** 359 (Internship / Fresh Graduate 82, Junior 29, Mid-level 139, Senior 80, Lead / Manager 29)
+- **Job ads analysed:** 291 (Internship / Fresh Graduate 62, Junior 25, Mid-level 116, Senior 62, Lead / Manager 26)
 
 ## What the job involves
 
@@ -15,43 +15,43 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| Electrical **(core)** | 96% | 100% | 97% | 99% | 92% | 72% |
-| Electrical Engineering **(core)** | 70% | 82% | 55% | 66% | 71% | 66% |
-| Power **(core)** | 60% | 70% | 59% | 57% | 61% | 48% |
-| Testing **(core)** | 35% | 33% | 38% | 41% | 29% | 28% |
-| Energy **(core)** | 29% | 34% | 21% | 26% | 28% | 45% |
-| Distribution **(core)** | 28% | 33% | 21% | 21% | 36% | 28% |
-| Electrical Systems **(core)** | 26% | 24% | 28% | 25% | 24% | 34% |
-| Manufacturing **(core)** | 25% | 26% | 31% | 24% | 21% | 34% |
-| Maintenance | 24% | 24% | 38% | 18% | 21% | 48% |
-| Electrical Design | 24% | 30% | 10% | 23% | 20% | 31% |
-| AutoCAD | 23% | 29% | 24% | 16% | 32% | 14% |
-| Components | 23% | 24% | 31% | 26% | 19% | 10% |
-| Mechanical | 21% | 23% | 21% | 23% | 21% | 10% |
-| industrial software | 21% | 24% | 21% | 19% | 20% | 31% |
-| PE | 20% | 18% | 14% | 18% | 26% | 21% |
-| Controls | 19% | 18% | 7% | 19% | 19% | 28% |
-| Lighting | 18% | 17% | 7% | 19% | 22% | 7% |
-| 401k | 17% | 27% | 10% | 18% | 10% | 7% |
-| Troubleshooting | 17% | 18% | 17% | 19% | 9% | 21% |
-| Implementation | 16% | 23% | 10% | 12% | 15% | 24% |
-| Hardware | 16% | 13% | 21% | 16% | 14% | 24% |
-| Coordination | 16% | 21% | 3% | 12% | 22% | 17% |
-| Installation | 16% | 21% | 17% | 12% | 18% | 14% |
-| Project Management | 16% | 15% | 7% | 14% | 18% | 28% |
-| Consulting | 15% | 20% | 7% | 14% | 16% | 17% |
-| Commissioning | 15% | 17% | 7% | 9% | 26% | 17% |
-| CAD | 15% | 17% | 17% | 15% | 15% | 7% |
-| Power Distribution | 15% | 17% | 10% | 13% | 19% | 10% |
-| Revit | 14% | 13% | 7% | 14% | 18% | 14% |
-| Electronics | 14% | 10% | 10% | 19% | 11% | 10% |
-| Responsibility | 14% | 21% | 7% | 12% | 14% | 7% |
-| Schematics | 14% | 13% | 10% | 17% | 9% | 14% |
-| Power Systems | 13% | 12% | 7% | 12% | 20% | 10% |
+| Electrical **(core)** | 94% | 100% | 96% | 99% | 90% | 69% |
+| Electrical Engineering **(core)** | 68% | 84% | 60% | 62% | 66% | 73% |
+| Power **(core)** | 57% | 68% | 68% | 53% | 55% | 42% |
+| Testing **(core)** | 37% | 36% | 40% | 41% | 34% | 23% |
+| Manufacturing **(core)** | 28% | 29% | 36% | 27% | 21% | 38% |
+| Electrical Systems **(core)** | 27% | 29% | 32% | 24% | 23% | 38% |
+| Distribution **(core)** | 26% | 37% | 24% | 19% | 32% | 23% |
+| Energy **(core)** | 25% | 26% | 24% | 23% | 23% | 42% |
+| Maintenance | 24% | 24% | 44% | 18% | 19% | 46% |
+| Components | 24% | 31% | 36% | 28% | 14% | 8% |
+| Electrical Design | 23% | 29% | 12% | 22% | 18% | 35% |
+| AutoCAD | 22% | 31% | 28% | 16% | 31% | 8% |
+| industrial software | 22% | 24% | 24% | 21% | 18% | 27% |
+| Mechanical | 21% | 21% | 20% | 23% | 23% | 12% |
+| Controls | 18% | 21% | 8% | 20% | 14% | 23% |
+| PE | 18% | 13% | 16% | 16% | 26% | 15% |
+| Troubleshooting | 18% | 18% | 20% | 19% | 11% | 23% |
+| Hardware | 17% | 16% | 24% | 15% | 18% | 23% |
+| Schematics | 17% | 18% | 12% | 21% | 11% | 15% |
+| 401k | 17% | 29% | 8% | 18% | 10% | 8% |
+| Lighting | 16% | 18% | 8% | 19% | 18% | 8% |
+| CAD | 16% | 16% | 16% | 16% | 16% | 8% |
+| Implementation | 15% | 19% | 12% | 14% | 13% | 19% |
+| Power Distribution | 15% | 21% | 12% | 10% | 21% | 12% |
+| Coordination | 15% | 18% | 4% | 13% | 21% | 12% |
+| Electronics | 13% | 13% | 8% | 17% | 8% | 12% |
+| Project Management | 13% | 6% | 8% | 13% | 14% | 31% |
+| Reliability | 13% | 16% | 16% | 10% | 16% | 4% |
+| Installation | 13% | 16% | 20% | 9% | 16% | 8% |
+| Layout | 13% | 18% | 12% | 10% | 14% | 12% |
+| Guidance | 12% | 14% | 16% | 12% | 6% | 19% |
+| Revit | 12% | 10% | 8% | 12% | 16% | 15% |
+| Budget | 12% | 8% | 8% | 9% | 19% | 27% |
 
 ## Soft skills employers mention
 
-Communication (48%), Communication Skills (21%), Leadership (20%), Problem Solving (17%), Collaboration (16%)
+Communication (43%), Problem Solving (18%), Communication Skills (16%), Leadership (16%), Collaboration (14%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

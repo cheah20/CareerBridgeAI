@@ -3,7 +3,7 @@
 - **Field:** Accounting & Finance
 - **O*NET:** 13-2051.00 Financial and Investment Analysts
 - **ESCO:** investment analyst
-- **Job ads analysed:** 11 (Internship / Fresh Graduate 2, Junior 3, Mid-level 3, Senior 2, Lead / Manager 1)
+- **Job ads analysed:** 10 (Internship / Fresh Graduate 2, Junior 2, Mid-level 3, Senior 2, Lead / Manager 1)
 
 ## What the job involves
 
@@ -16,58 +16,56 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads |  |
 |---|---|
 | Investment **(core)** | 100% |  |
-| Portfolio **(core)** | 73% |  |
-| Equity **(core)** | 64% |  |
-| Diligence **(core)** | 55% |  |
-| Due diligence **(core)** | 55% |  |
-| Excel **(core)** | 46% |  |
-| Portfolio Management **(core)** | 46% |  |
-| Economics **(core)** | 46% |  |
-| Accounting **(core)** | 36% |  |
-| Excellence **(core)** | 36% |  |
-| Recommendations **(core)** | 36% |  |
-| Banking **(core)** | 36% |  |
-| Investment banking **(core)** | 36% |  |
-| Analytical **(core)** | 36% |  |
-| Modeling **(core)** | 27% |  |
-| trading software **(core)** | 27% |  |
-| financial statements **(core)** | 27% |  |
-| industrial software **(core)** | 27% |  |
-| Real Estate **(core)** | 27% |  |
-| Verbal Communication **(core)** | 27% |  |
-| Verbal communication skills **(core)** | 27% |  |
-| Financial Markets **(core)** | 27% |  |
-| MS **(core)** | 27% |  |
-| Responsibility **(core)** | 27% |  |
-| English | 18% |  |
-| Financial Modeling | 18% |  |
-| Initiative | 18% |  |
-| investment analysis | 18% |  |
-| Risk | 18% |  |
-| Risks | 18% |  |
-| Adoption | 18% |  |
-| Adoption Assistance | 18% |  |
-| Deadlines | 18% |  |
-| Financial Services | 18% |  |
-| Ownership | 18% |  |
-| fundamental analysis | 18% |  |
-| Insights | 18% |  |
-| Market Analysis | 18% |  |
-| Market Trends | 18% |  |
-| Mathematics | 18% |  |
-| Methodologies | 18% |  |
-| Modelling | 18% |  |
-| Quantitative | 18% |  |
-| Work Experience | 18% |  |
-| Cash flow | 18% |  |
-| Commercial Real Estate | 18% |  |
-| Microsoft Office | 18% |  |
-| Minimal Supervision | 18% |  |
-| Strong Organizational Skills | 18% |  |
+| Portfolio **(core)** | 70% |  |
+| Equity **(core)** | 60% |  |
+| Diligence **(core)** | 50% |  |
+| Due diligence **(core)** | 50% |  |
+| Excel **(core)** | 50% |  |
+| Accounting **(core)** | 40% |  |
+| Excellence **(core)** | 40% |  |
+| Portfolio Management **(core)** | 40% |  |
+| Recommendations **(core)** | 40% |  |
+| Economics **(core)** | 40% |  |
+| Analytical **(core)** | 40% |  |
+| Modeling **(core)** | 30% |  |
+| trading software **(core)** | 30% |  |
+| Banking **(core)** | 30% |  |
+| Investment banking **(core)** | 30% |  |
+| Real Estate **(core)** | 30% |  |
+| Verbal Communication **(core)** | 30% |  |
+| Verbal communication skills **(core)** | 30% |  |
+| Financial Markets **(core)** | 30% |  |
+| MS **(core)** | 30% |  |
+| Responsibility **(core)** | 30% |  |
+| English | 20% |  |
+| Financial Modeling | 20% |  |
+| Initiative | 20% |  |
+| investment analysis | 20% |  |
+| Risk | 20% |  |
+| Risks | 20% |  |
+| Adoption | 20% |  |
+| Adoption Assistance | 20% |  |
+| Deadlines | 20% |  |
+| Financial Services | 20% |  |
+| Ownership | 20% |  |
+| financial statements | 20% |  |
+| industrial software | 20% |  |
+| Cash flow | 20% |  |
+| Commercial Real Estate | 20% |  |
+| Microsoft Office | 20% |  |
+| Minimal Supervision | 20% |  |
+| Strong Organizational Skills | 20% |  |
+| Underwriting | 20% |  |
+| work independently | 20% |  |
+| Consulting | 20% |  |
+| Search | 20% |  |
+| Internship | 20% |  |
+| Databases | 20% |  |
+| Investment Management | 20% |  |
 
 ## Soft skills employers mention
 
-Communication (36%), Attention to Detail (27%), Communication Skills (27%), Analytical Skills (18%), Organizational Skills (18%), Creativity (18%), Presentations (18%)
+Communication (40%), Communication Skills (30%), Attention to Detail (20%), Analytical Skills (20%), Organizational Skills (20%), Creativity (20%), Presentations (20%), Adaptability (10%), Coaching (10%), Collaboration (10%)
 
 ## Malaysia / Singapore skills (AI-drafted, pending human review)
 
@@ -91,7 +89,7 @@ Drafted by DeepSeek because few job ads matched this title. Estimated share of j
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Microsoft Excel, Microsoft Office, Microsoft Outlook, Microsoft Power BI, Microsoft PowerPoint, SAP, Structured query language SQL, Tableau
+Microsoft Excel, Microsoft Office, Microsoft Outlook, Microsoft Power BI, Microsoft PowerPoint, SAP, Structured query language SQL, Tableau, Salesforce
 
 ## Essential skills (ESCO)
 

@@ -4,7 +4,7 @@
 - **Also called:** Network Administrator
 - **O*NET:** 15-1241.00 Computer Network Architects; 15-1244.00 Network and Computer Systems Administrators
 - **ESCO:** ICT network engineer
-- **Job ads analysed:** 295 (Internship / Fresh Graduate 63, Junior 33, Mid-level 106, Senior 80, Lead / Manager 13)
+- **Job ads analysed:** 267 (Internship / Fresh Graduate 54, Junior 28, Mid-level 99, Senior 76, Lead / Manager 10)
 
 ## What the job involves
 
@@ -16,59 +16,58 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Network **(core)** | 96% | 100% | 94% | 97% | 92% |
-| Cisco **(core)** | 61% | 68% | 33% | 65% | 60% |
-| Infrastructure **(core)** | 58% | 60% | 39% | 55% | 65% |
-| Networking **(core)** | 52% | 48% | 48% | 53% | 55% |
-| Troubleshooting **(core)** | 50% | 41% | 61% | 47% | 51% |
-| Networks **(core)** | 43% | 41% | 33% | 42% | 48% |
-| Routers **(core)** | 41% | 46% | 33% | 43% | 36% |
-| Switches **(core)** | 40% | 46% | 30% | 40% | 38% |
-| Protocols **(core)** | 40% | 48% | 48% | 31% | 44% |
-| Hardware **(core)** | 39% | 48% | 33% | 33% | 45% |
-| Routing **(core)** | 37% | 36% | 21% | 39% | 45% |
-| Firewalls **(core)** | 37% | 41% | 12% | 40% | 35% |
-| Implementation **(core)** | 36% | 35% | 46% | 24% | 46% |
-| Configuration **(core)** | 36% | 44% | 30% | 38% | 30% |
-| Maintenance **(core)** | 33% | 46% | 46% | 30% | 20% |
-| Cloud **(core)** | 30% | 25% | 33% | 28% | 32% |
-| Network Infrastructure **(core)** | 30% | 27% | 12% | 31% | 35% |
-| WAN **(core)** | 30% | 38% | 21% | 27% | 28% |
-| Network Security **(core)** | 30% | 25% | 27% | 32% | 29% |
-| Computer Science **(core)** | 29% | 27% | 30% | 28% | 25% |
-| troubleshoot **(core)** | 28% | 22% | 36% | 27% | 32% |
-| Switching **(core)** | 28% | 32% | 15% | 31% | 30% |
-| BGP **(core)** | 26% | 21% | 12% | 24% | 35% |
-| LAN **(core)** | 26% | 35% | 12% | 24% | 25% |
-| CCNA | 24% | 35% | 24% | 26% | 16% |
-| OSPF | 23% | 21% | 12% | 15% | 34% |
-| Upgrades | 22% | 33% | 15% | 19% | 21% |
-| Network Engineering | 22% | 36% | 18% | 9% | 29% |
-| Server | 22% | 32% | 30% | 17% | 19% |
-| Vendors | 22% | 22% | 9% | 26% | 22% |
-| Information Technology | 21% | 25% | 30% | 16% | 18% |
-| Onsite | 21% | 22% | 18% | 20% | 25% |
-| Automation | 21% | 18% | 27% | 18% | 28% |
-| Architecture | 21% | 21% | 6% | 15% | 31% |
-| Firewall | 20% | 32% | 6% | 16% | 24% |
-| Installation | 20% | 32% | 3% | 23% | 14% |
-| VPN | 20% | 22% | 0% | 19% | 30% |
-| Testing | 20% | 18% | 9% | 19% | 26% |
-| TCP/IP | 19% | 25% | 6% | 14% | 25% |
-| Python | 19% | 18% | 21% | 23% | 15% |
-| Network Design | 18% | 25% | 6% | 13% | 22% |
-| Azure | 18% | 13% | 12% | 19% | 20% |
-| Configuring | 17% | 21% | 21% | 13% | 18% |
-| Configurations | 17% | 18% | 18% | 15% | 16% |
-| DNS | 17% | 19% | 6% | 16% | 20% |
-| LAN/WAN | 17% | 21% | 12% | 15% | 19% |
-| Scripting | 17% | 13% | 24% | 21% | 15% |
-| Analytical | 16% | 16% | 18% | 14% | 19% |
-| Availability | 16% | 18% | 9% | 17% | 16% |
+| Network **(core)** | 96% | 100% | 93% | 97% | 92% |
+| Cisco **(core)** | 61% | 68% | 39% | 65% | 58% |
+| Infrastructure **(core)** | 57% | 59% | 39% | 55% | 63% |
+| Networking **(core)** | 51% | 44% | 46% | 54% | 57% |
+| Troubleshooting **(core)** | 49% | 37% | 64% | 48% | 51% |
+| Networks **(core)** | 42% | 41% | 29% | 42% | 47% |
+| Routers **(core)** | 41% | 48% | 32% | 43% | 36% |
+| Protocols **(core)** | 40% | 43% | 54% | 31% | 46% |
+| Switches **(core)** | 40% | 48% | 29% | 39% | 37% |
+| Routing **(core)** | 38% | 39% | 21% | 39% | 45% |
+| Firewalls **(core)** | 38% | 43% | 14% | 39% | 36% |
+| Hardware **(core)** | 36% | 44% | 21% | 31% | 42% |
+| Implementation **(core)** | 34% | 33% | 46% | 23% | 45% |
+| Configuration **(core)** | 34% | 44% | 25% | 35% | 28% |
+| Network Infrastructure **(core)** | 31% | 30% | 14% | 32% | 34% |
+| Cloud **(core)** | 31% | 28% | 36% | 27% | 33% |
+| Network Security **(core)** | 30% | 26% | 29% | 32% | 29% |
+| Maintenance **(core)** | 30% | 44% | 39% | 27% | 17% |
+| WAN **(core)** | 29% | 37% | 21% | 27% | 26% |
+| Switching **(core)** | 29% | 32% | 14% | 33% | 29% |
+| troubleshoot **(core)** | 28% | 22% | 36% | 27% | 33% |
+| BGP **(core)** | 27% | 22% | 11% | 24% | 36% |
+| Computer Science **(core)** | 26% | 18% | 29% | 28% | 24% |
+| LAN | 25% | 32% | 11% | 25% | 25% |
+| CCNA | 24% | 35% | 25% | 26% | 16% |
+| OSPF | 23% | 22% | 11% | 15% | 36% |
+| Automation | 22% | 20% | 32% | 17% | 28% |
+| Firewall | 22% | 35% | 7% | 17% | 24% |
+| Onsite | 21% | 20% | 14% | 20% | 26% |
+| Network Engineering | 21% | 33% | 21% | 9% | 29% |
+| Upgrades | 21% | 30% | 14% | 19% | 20% |
+| VPN | 21% | 24% | 0% | 20% | 29% |
+| Information Technology | 21% | 24% | 29% | 17% | 16% |
+| Vendors | 21% | 18% | 11% | 25% | 22% |
+| Server | 20% | 30% | 29% | 16% | 18% |
+| Architecture | 20% | 18% | 7% | 14% | 30% |
+| Installation | 19% | 30% | 4% | 21% | 13% |
+| Azure | 18% | 15% | 7% | 19% | 20% |
+| Python | 18% | 15% | 25% | 21% | 14% |
+| TCP/IP | 18% | 18% | 7% | 13% | 26% |
+| Testing | 18% | 13% | 11% | 15% | 26% |
+| Network Design | 17% | 22% | 7% | 14% | 21% |
+| Configuring | 16% | 20% | 25% | 11% | 17% |
+| LAN/WAN | 16% | 18% | 11% | 15% | 20% |
+| Configurations | 16% | 17% | 18% | 15% | 16% |
+| DNS | 16% | 17% | 4% | 15% | 20% |
+| Scripting | 16% | 13% | 25% | 17% | 14% |
+| Analytical | 15% | 13% | 18% | 14% | 16% |
 
 ## Soft skills employers mention
 
-Communication (45%), Problem Solving (20%), Leadership (17%), Communication Skills (15%), Collaboration (14%)
+Communication (46%), Problem Solving (19%), Leadership (15%), Communication Skills (15%), Collaboration (14%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

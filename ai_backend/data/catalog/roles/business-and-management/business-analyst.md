@@ -3,7 +3,7 @@
 - **Field:** Business & Management
 - **O*NET:** 15-2051.01 Business Intelligence Analysts; 13-1111.00 Management Analysts; 15-2031.00 Operations Research Analysts
 - **ESCO:** business analyst
-- **Job ads analysed:** 652 (Internship / Fresh Graduate 28, Junior 68, Mid-level 429, Senior 116, Lead / Manager 11)
+- **Job ads analysed:** 577 (Internship / Fresh Graduate 17, Junior 63, Mid-level 389, Senior 101, Lead / Manager 7)
 
 ## What the job involves
 
@@ -15,42 +15,41 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Analytical **(core)** | 33% | 36% | 35% | 33% | 29% |
-| Testing **(core)** | 33% | 43% | 25% | 31% | 41% |
-| Agile **(core)** | 31% | 43% | 32% | 30% | 29% |
-| Business Requirements **(core)** | 28% | 29% | 29% | 28% | 30% |
-| SQL **(core)** | 26% | 11% | 26% | 26% | 32% |
-| Business Analysis **(core)** | 26% | 14% | 29% | 25% | 25% |
-| Excel **(core)** | 25% | 32% | 25% | 26% | 20% |
-| Implementation | 25% | 14% | 22% | 23% | 35% |
-| Analyze | 24% | 29% | 28% | 23% | 22% |
-| Business Processes | 23% | 14% | 26% | 22% | 21% |
-| Data Analysis | 22% | 14% | 19% | 23% | 22% |
-| Project Management | 22% | 14% | 25% | 22% | 20% |
-| Business Needs | 19% | 21% | 16% | 18% | 22% |
-| User Stories | 17% | 21% | 13% | 15% | 24% |
-| Objectives | 17% | 25% | 12% | 16% | 16% |
-| Insights | 16% | 29% | 18% | 14% | 16% |
-| Recommendations | 16% | 11% | 18% | 13% | 24% |
-| Analytics | 16% | 7% | 15% | 15% | 18% |
-| Computer Science | 15% | 11% | 15% | 15% | 17% |
-| Methodologies | 15% | 14% | 18% | 15% | 16% |
-| Business Process | 15% | 11% | 16% | 14% | 19% |
-| Onsite | 15% | 18% | 12% | 15% | 19% |
-| Meetings | 15% | 11% | 18% | 17% | 8% |
-| Software Development | 14% | 4% | 15% | 14% | 18% |
-| Requirements Gathering | 14% | 7% | 9% | 14% | 16% |
-| Jira | 13% | 0% | 15% | 14% | 14% |
-| Execution | 12% | 7% | 18% | 10% | 16% |
-| Use cases | 12% | 21% | 10% | 10% | 16% |
-| Deliverables | 11% | 11% | 18% | 11% | 6% |
-| Efficiency | 11% | 7% | 18% | 11% | 10% |
-| Visio | 11% | 0% | 9% | 12% | 10% |
-| Writing | 11% | 32% | 13% | 9% | 14% |
+| Analytical **(core)** | 32% | 29% | 36% | 32% | 28% |
+| Testing **(core)** | 32% | 35% | 25% | 30% | 40% |
+| Agile **(core)** | 29% | 24% | 32% | 28% | 29% |
+| Business Requirements **(core)** | 27% | 29% | 32% | 26% | 27% |
+| SQL **(core)** | 26% | 12% | 27% | 27% | 26% |
+| Business Analysis **(core)** | 26% | 18% | 32% | 25% | 23% |
+| Implementation | 24% | 24% | 21% | 22% | 34% |
+| Excel | 24% | 29% | 24% | 25% | 19% |
+| Data Analysis | 22% | 24% | 19% | 23% | 20% |
+| Analyze | 22% | 18% | 27% | 20% | 24% |
+| Business Processes | 21% | 12% | 25% | 21% | 20% |
+| Project Management | 21% | 18% | 25% | 21% | 19% |
+| Business Needs | 19% | 18% | 18% | 18% | 22% |
+| User Stories | 16% | 0% | 11% | 16% | 24% |
+| Objectives | 16% | 18% | 13% | 15% | 16% |
+| Onsite | 16% | 12% | 13% | 15% | 21% |
+| Computer Science | 15% | 0% | 16% | 15% | 17% |
+| Recommendations | 15% | 18% | 18% | 12% | 25% |
+| Analytics | 15% | 12% | 14% | 15% | 17% |
+| Insights | 15% | 35% | 18% | 14% | 12% |
+| Methodologies | 14% | 6% | 18% | 14% | 17% |
+| Business Process | 14% | 0% | 16% | 13% | 17% |
+| Meetings | 14% | 0% | 18% | 15% | 9% |
+| Software Development | 13% | 6% | 14% | 12% | 17% |
+| Requirements Gathering | 13% | 12% | 8% | 13% | 15% |
+| Jira | 13% | 0% | 13% | 14% | 13% |
+| Execution | 12% | 12% | 14% | 10% | 17% |
+| Use cases | 11% | 18% | 8% | 10% | 17% |
+| Deliverables | 11% | 18% | 16% | 11% | 6% |
+| Risk | 11% | 6% | 11% | 9% | 17% |
+| PowerPoint | 11% | 6% | 10% | 12% | 8% |
 
 ## Soft skills employers mention
 
-Communication (52%), Problem Solving (26%), Communication Skills (22%), Collaboration (17%), Leadership (17%), Analytical Skills (11%)
+Communication (51%), Problem Solving (24%), Communication Skills (22%), Collaboration (16%), Leadership (16%), Analytical Skills (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

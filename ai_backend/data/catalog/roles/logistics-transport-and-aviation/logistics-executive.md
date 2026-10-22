@@ -4,7 +4,7 @@
 - **Also called:** Logistics Coordinator
 - **O*NET:** 13-1081.00 Logisticians
 - **ESCO:** logistics and distribution manager
-- **Job ads analysed:** 41 (Internship / Fresh Graduate 11, Junior 4, Mid-level 24, Senior 2)
+- **Job ads analysed:** 40 (Internship / Fresh Graduate 10, Junior 4, Mid-level 24, Senior 2)
 
 ## What the job involves
 
@@ -17,36 +17,41 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads | Mid-level |
 |---|---|---|
 | Logistics **(core)** | 98% | 100% |
-| Supply Chain **(core)** | 44% | 54% |
-| Inventory **(core)** | 42% | 50% |
-| Shipping **(core)** | 39% | 42% |
-| Transportation **(core)** | 37% | 38% |
-| Supply Chain Management **(core)** | 29% | 46% |
-| Excel **(core)** | 27% | 17% |
-| Coordination | 24% | 21% |
+| Supply Chain **(core)** | 42% | 54% |
+| Inventory **(core)** | 40% | 50% |
+| Transportation **(core)** | 38% | 38% |
+| Shipping **(core)** | 38% | 42% |
+| Supply Chain Management **(core)** | 30% | 46% |
+| Excel **(core)** | 25% | 17% |
+| Coordination | 22% | 21% |
 | Scheduling | 22% | 21% |
 | Inventory Management | 22% | 21% |
-| Microsoft Office | 22% | 21% |
-| work independently | 20% | 17% |
-| Word | 17% | 12% |
-| Organized | 17% | 12% |
-| Resolution | 17% | 4% |
+| Microsoft Office | 20% | 21% |
+| work independently | 18% | 17% |
+| Resolution | 18% | 4% |
+| Word | 15% | 12% |
+| Organized | 15% | 12% |
 | Analytical | 15% | 21% |
-| Manufacturing | 15% | 8% |
-| Work Environment | 15% | 12% |
-| ERP | 15% | 4% |
-| Receiving | 15% | 4% |
-| Onsite | 12% | 12% |
 | Vendors | 12% | 12% |
-| Efficiency | 12% | 8% |
 | Computer skills | 12% | 8% |
 | Detail Oriented | 12% | 4% |
-| Integrity | 12% | 8% |
+| Manufacturing | 12% | 8% |
+| Work Environment | 12% | 12% |
+| ERP | 12% | 4% |
+| Receiving | 12% | 4% |
 | 401k | 12% | 12% |
+| Onsite | 10% | 12% |
+| Administrative tasks | 10% | 8% |
+| Customer Satisfaction | 10% | 0% |
+| Efficiency | 10% | 8% |
+| Excellent Communication | 10% | 8% |
+| Purchasing | 10% | 8% |
+| Multitask | 10% | 12% |
+| Analyze | 10% | 8% |
 
 ## Soft skills employers mention
 
-Communication (76%), Customer Service (46%), Attention to Detail (39%), Communication Skills (32%), Problem Solving (29%), Time Management (24%), Negotiation (12%)
+Communication (75%), Customer Service (48%), Attention to Detail (38%), Problem Solving (30%), Communication Skills (30%), Time Management (22%), Negotiation (12%), Multitasking (10%), Organizational Skills (10%), Critical Thinking (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

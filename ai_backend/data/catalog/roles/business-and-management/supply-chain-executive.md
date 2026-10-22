@@ -4,7 +4,7 @@
 - **Also called:** Supply Chain Analyst, Supply Chain Planner
 - **O*NET:** 13-1081.02 Logistics Analysts; 13-1081.00 Logisticians
 - **ESCO:** logistics analyst
-- **Job ads analysed:** 47 (Internship / Fresh Graduate 3, Junior 7, Mid-level 34, Senior 3)
+- **Job ads analysed:** 41 (Internship / Fresh Graduate 3, Junior 7, Mid-level 28, Senior 3)
 
 ## What the job involves
 
@@ -16,51 +16,53 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Supply Chain **(core)** | 96% | 94% |
-| Excel **(core)** | 62% | 62% |
-| Inventory **(core)** | 60% | 50% |
-| Analytical **(core)** | 53% | 53% |
-| Supply Chain Management **(core)** | 49% | 53% |
-| Analyze **(core)** | 38% | 32% |
-| ERP **(core)** | 38% | 35% |
-| SAP **(core)** | 38% | 35% |
-| Logistics **(core)** | 34% | 26% |
-| Manufacturing **(core)** | 32% | 24% |
-| Metrics **(core)** | 32% | 26% |
-| Procurement **(core)** | 30% | 29% |
-| Forecasting **(core)** | 28% | 26% |
-| Power **(core)** | 28% | 29% |
-| Efficiency **(core)** | 26% | 26% |
-| Inventory Management **(core)** | 26% | 24% |
-| Data Analysis | 23% | 24% |
-| ERP Systems | 23% | 21% |
-| Business Administration | 19% | 18% |
-| Optimization | 19% | 15% |
-| Microsoft Office | 19% | 18% |
-| Recommendations | 19% | 21% |
-| 401k | 17% | 24% |
+| Supply Chain **(core)** | 95% | 93% |
+| Excel **(core)** | 63% | 64% |
+| Inventory **(core)** | 63% | 54% |
+| Analytical **(core)** | 54% | 54% |
+| Supply Chain Management **(core)** | 49% | 54% |
+| ERP **(core)** | 42% | 39% |
+| Analyze **(core)** | 39% | 32% |
+| Logistics **(core)** | 39% | 32% |
+| SAP **(core)** | 37% | 32% |
+| Manufacturing **(core)** | 32% | 21% |
+| Metrics **(core)** | 32% | 25% |
+| Inventory Management **(core)** | 29% | 29% |
+| Procurement **(core)** | 29% | 29% |
+| Data Analysis **(core)** | 27% | 29% |
+| Efficiency **(core)** | 27% | 29% |
+| ERP Systems **(core)** | 27% | 25% |
+| Forecasting **(core)** | 27% | 25% |
+| Power **(core)** | 27% | 29% |
+| Business Administration | 22% | 21% |
+| Work Experience | 20% | 18% |
+| Distribution | 20% | 18% |
+| Optimization | 20% | 14% |
+| Recommendations | 20% | 21% |
+| 401k | 17% | 25% |
 | Tableau | 17% | 18% |
-| Work Experience | 17% | 15% |
-| Distribution | 17% | 15% |
-| Insights | 17% | 12% |
-| Transportation | 17% | 15% |
-| Tables | 17% | 15% |
+| Risks | 17% | 14% |
+| Insights | 17% | 11% |
+| Microsoft Office | 17% | 14% |
 | Analytics | 17% | 18% |
+| Network | 17% | 18% |
+| Word | 17% | 18% |
+| KPIs | 15% | 14% |
 | Life Insurance | 15% | 18% |
-| Risks | 15% | 12% |
-| Continuous Improvement | 15% | 12% |
-| Implementation | 15% | 18% |
-| Execution | 15% | 18% |
-| MS | 15% | 12% |
-| Network | 15% | 15% |
-| Process improvements | 15% | 12% |
-| Resource | 15% | 12% |
-| Vacation | 15% | 12% |
-| Word | 15% | 15% |
+| Demand Planning | 15% | 21% |
+| Continuous Improvement | 15% | 11% |
+| Project Management | 15% | 18% |
+| PowerPoint | 15% | 11% |
+| Transportation | 15% | 11% |
+| Tables | 15% | 11% |
+| MS | 15% | 11% |
+| Purchasing | 15% | 11% |
+| Resource | 15% | 11% |
+| REDUCE | 15% | 7% |
 
 ## Soft skills employers mention
 
-Communication (66%), Problem Solving (40%), Communication Skills (36%), Leadership (26%), Analytical Skills (19%), Attention to Detail (19%), Decision Making (13%), Time Management (13%), Interpersonal Skills (11%)
+Communication (66%), Problem Solving (44%), Communication Skills (34%), Leadership (24%), Analytical Skills (22%), Attention to Detail (20%), Decision Making (15%), Interpersonal Skills (12%), Time Management (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Civil Site Engineer
 - **O*NET:** 17-2051.00 Civil Engineers
 - **ESCO:** civil engineer
-- **Job ads analysed:** 5 (Internship / Fresh Graduate 4, Junior 1)
+- **Job ads analysed:** 4 (Internship / Fresh Graduate 3, Junior 1)
 
 ## What the job involves
 

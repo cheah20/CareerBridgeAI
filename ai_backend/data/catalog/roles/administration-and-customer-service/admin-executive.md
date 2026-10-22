@@ -4,7 +4,7 @@
 - **Also called:** Administrative Executive, Administrative Assistant, Admin Assistant
 - **O*NET:** 43-6014.00 Secretaries and Administrative Assistants, Except Legal, Medical, and Executive; 43-6011.00 Executive Secretaries and Executive Administrative Assistants; 13-1199.00 Business Operations Specialists, All Other
 - **ESCO:** administrative assistant
-- **Job ads analysed:** 609 (Internship / Fresh Graduate 243, Junior 107, Mid-level 233, Senior 24, Lead / Manager 2)
+- **Job ads analysed:** 527 (Internship / Fresh Graduate 211, Junior 94, Mid-level 202, Senior 18, Lead / Manager 2)
 
 ## What the job involves
 
@@ -16,45 +16,45 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Meetings **(core)** | 49% | 43% | 52% | 51% | 83% |
-| Word **(core)** | 43% | 46% | 41% | 36% | 79% |
-| Excel **(core)** | 42% | 42% | 42% | 40% | 79% |
-| Microsoft Office **(core)** | 42% | 39% | 38% | 43% | 62% |
-| Administrative Support **(core)** | 41% | 42% | 33% | 39% | 71% |
-| Correspondence **(core)** | 33% | 37% | 27% | 32% | 29% |
-| Outlook **(core)** | 29% | 23% | 27% | 33% | 71% |
-| Phone **(core)** | 29% | 28% | 24% | 34% | 25% |
-| Scheduling **(core)** | 29% | 22% | 33% | 36% | 12% |
-| High School Diploma **(core)** | 26% | 34% | 17% | 18% | 62% |
-| PowerPoint | 25% | 20% | 29% | 23% | 71% |
-| Filing | 25% | 30% | 23% | 21% | 17% |
-| Email | 24% | 23% | 18% | 26% | 58% |
-| Calendar | 22% | 16% | 23% | 24% | 67% |
-| Deadlines | 20% | 21% | 25% | 18% | 8% |
-| Microsoft Office Suite | 20% | 15% | 19% | 22% | 50% |
-| Organized | 19% | 16% | 23% | 20% | 8% |
-| Organizing | 16% | 12% | 11% | 24% | 4% |
-| work independently | 16% | 13% | 8% | 23% | 12% |
-| Confidentiality | 16% | 16% | 15% | 16% | 12% |
-| Coordination | 16% | 10% | 10% | 22% | 29% |
-| Administrative tasks | 16% | 13% | 10% | 18% | 42% |
-| Written Communication | 15% | 17% | 13% | 14% | 4% |
-| Data Entry | 14% | 17% | 13% | 13% | 0% |
-| Communications | 14% | 15% | 8% | 12% | 50% |
-| MS | 14% | 16% | 19% | 10% | 12% |
-| Work Environment | 13% | 14% | 3% | 13% | 50% |
-| Writing | 13% | 10% | 4% | 17% | 54% |
-| Initiative | 13% | 13% | 14% | 13% | 12% |
-| Flexibility | 13% | 7% | 10% | 17% | 50% |
-| Part Time | 13% | 7% | 3% | 21% | 46% |
-| Conferences | 13% | 10% | 14% | 12% | 58% |
-| Maintenance | 13% | 15% | 10% | 12% | 12% |
-| HR | 12% | 12% | 12% | 13% | 8% |
-| Vendors | 12% | 13% | 5% | 16% | 8% |
+| Meetings **(core)** | 47% | 44% | 51% | 46% | 78% |
+| Microsoft Office **(core)** | 43% | 41% | 38% | 46% | 56% |
+| Excel **(core)** | 43% | 42% | 42% | 42% | 72% |
+| Word **(core)** | 42% | 46% | 36% | 38% | 72% |
+| Administrative Support **(core)** | 38% | 43% | 30% | 35% | 61% |
+| Correspondence **(core)** | 30% | 36% | 23% | 26% | 33% |
+| Phone **(core)** | 28% | 28% | 24% | 30% | 33% |
+| Outlook **(core)** | 28% | 25% | 27% | 28% | 61% |
+| Scheduling **(core)** | 26% | 20% | 29% | 32% | 17% |
+| Filing **(core)** | 25% | 31% | 20% | 22% | 17% |
+| High School Diploma | 25% | 32% | 16% | 19% | 56% |
+| PowerPoint | 24% | 21% | 27% | 22% | 61% |
+| Email | 21% | 22% | 15% | 21% | 50% |
+| Deadlines | 20% | 22% | 22% | 18% | 11% |
+| Microsoft Office Suite | 20% | 16% | 19% | 23% | 39% |
+| Calendar | 20% | 16% | 22% | 18% | 61% |
+| Organized | 18% | 18% | 21% | 16% | 11% |
+| Administrative tasks | 16% | 14% | 12% | 20% | 28% |
+| Confidentiality | 16% | 15% | 16% | 17% | 17% |
+| Data Entry | 15% | 17% | 13% | 15% | 0% |
+| work independently | 15% | 13% | 7% | 20% | 17% |
+| MS | 14% | 16% | 20% | 10% | 17% |
+| Organizing | 14% | 12% | 8% | 19% | 6% |
+| Initiative | 14% | 13% | 16% | 13% | 17% |
+| Communications | 14% | 16% | 7% | 12% | 39% |
+| Maintenance | 14% | 17% | 8% | 12% | 17% |
+| Written Communication | 13% | 15% | 14% | 12% | 6% |
+| Coordination | 13% | 11% | 7% | 16% | 33% |
+| Vendors | 12% | 13% | 4% | 16% | 11% |
+| Verbal Communication | 12% | 13% | 13% | 12% | 6% |
+| HR | 12% | 11% | 13% | 13% | 11% |
+| Written and Verbal Communication | 11% | 11% | 13% | 12% | 6% |
+| Discretion | 11% | 12% | 10% | 10% | 22% |
+| Accounting | 11% | 11% | 15% | 9% | 6% |
+| Detail Oriented | 11% | 11% | 11% | 11% | 11% |
 
 ## Soft skills employers mention
 
-Communication (67%), Communication Skills (31%), Attention to Detail (22%), Customer Service (21%), Time Management (18%), Organizational Skills (18%), Problem Solving (15%), Leadership (13%), Presentations (13%), Interpersonal Skills (10%)
+Communication (64%), Communication Skills (30%), Attention to Detail (23%), Customer Service (22%), Organizational Skills (18%), Time Management (17%), Problem Solving (16%), Leadership (14%), Presentations (12%), Interpersonal Skills (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

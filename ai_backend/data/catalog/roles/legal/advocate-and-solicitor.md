@@ -4,7 +4,7 @@
 - **Also called:** Lawyer, Legal Counsel, Attorney, Advocate
 - **O*NET:** 23-1011.00 Lawyers; 21-1093.00 Social and Human Service Assistants; 23-2099.00 Legal Support Workers, All Other
 - **ESCO:** lawyer
-- **Job ads analysed:** 859 (Internship / Fresh Graduate 26, Junior 344, Mid-level 421, Senior 61, Lead / Manager 7)
+- **Job ads analysed:** 759 (Internship / Fresh Graduate 23, Junior 304, Mid-level 367, Senior 59, Lead / Manager 6)
 
 ## What the job involves
 
@@ -16,35 +16,33 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Litigation **(core)** | 54% | 31% | 65% | 46% | 61% |
-| Writing **(core)** | 32% | 27% | 40% | 27% | 26% |
-| Resume **(core)** | 27% | 38% | 29% | 25% | 18% |
-| Drafting **(core)** | 26% | 19% | 26% | 25% | 33% |
-| Analytical | 21% | 15% | 22% | 21% | 21% |
-| Legal research | 21% | 31% | 19% | 22% | 25% |
-| Juris | 18% | 19% | 15% | 18% | 30% |
-| Standing | 17% | 19% | 13% | 18% | 25% |
-| Collaborative | 15% | 8% | 16% | 14% | 15% |
-| work independently | 15% | 12% | 17% | 13% | 18% |
-| Claims | 14% | 15% | 18% | 9% | 23% |
-| Advocacy | 13% | 23% | 8% | 17% | 12% |
-| Legal Advice | 13% | 19% | 7% | 14% | 26% |
-| Cover Letter | 12% | 23% | 15% | 10% | 10% |
+| Litigation **(core)** | 55% | 30% | 66% | 47% | 61% |
+| Writing **(core)** | 32% | 26% | 40% | 27% | 27% |
+| Resume **(core)** | 28% | 44% | 29% | 27% | 19% |
+| Drafting **(core)** | 26% | 22% | 28% | 24% | 32% |
+| Legal research | 23% | 30% | 20% | 24% | 25% |
+| Analytical | 22% | 17% | 22% | 22% | 22% |
+| Juris | 18% | 17% | 17% | 18% | 29% |
+| work independently | 16% | 13% | 17% | 14% | 19% |
+| Standing | 16% | 17% | 12% | 16% | 24% |
+| Collaborative | 15% | 9% | 14% | 15% | 15% |
+| Claims | 14% | 13% | 19% | 9% | 24% |
+| Legal Advice | 13% | 17% | 7% | 15% | 25% |
+| Cover Letter | 12% | 26% | 14% | 10% | 10% |
+| Real Estate | 12% | 4% | 16% | 8% | 15% |
+| Guidance | 12% | 26% | 8% | 12% | 30% |
+| Advocacy | 12% | 26% | 8% | 14% | 12% |
 | Competitive Salary | 12% | 0% | 15% | 10% | 8% |
-| Real Estate | 12% | 4% | 15% | 8% | 15% |
-| Work Environment | 12% | 12% | 11% | 12% | 12% |
-| JD | 12% | 8% | 10% | 13% | 12% |
-| Guidance | 11% | 23% | 7% | 11% | 30% |
-| Life Insurance | 11% | 8% | 14% | 9% | 7% |
-| 401k | 11% | 8% | 9% | 12% | 10% |
-| Contracts | 10% | 19% | 9% | 9% | 20% |
-| Email | 10% | 38% | 6% | 12% | 8% |
-| Competitive Compensation | 10% | 4% | 14% | 9% | 5% |
-| Search | 10% | 8% | 10% | 10% | 12% |
+| Competitive Compensation | 12% | 4% | 16% | 10% | 5% |
+| JD | 12% | 4% | 10% | 12% | 12% |
+| 401k | 11% | 4% | 9% | 12% | 10% |
+| Life Insurance | 11% | 4% | 15% | 8% | 7% |
+| Work Environment | 10% | 9% | 10% | 10% | 12% |
+| Contracts | 10% | 22% | 8% | 10% | 20% |
 
 ## Soft skills employers mention
 
-Communication (42%), Communication Skills (17%), Problem Solving (11%), Attention to Detail (10%)
+Communication (41%), Communication Skills (17%), Problem Solving (11%), Attention to Detail (11%), Negotiation (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Restaurant Manager, F&B Manager
 - **O*NET:** 11-9051.00 Food Service Managers; 35-1012.00 First-Line Supervisors of Food Preparation and Serving Workers
 - **ESCO:** restaurant manager
-- **Job ads analysed:** 104 (Internship / Fresh Graduate 1, Junior 2, Mid-level 100, Senior 1)
+- **Job ads analysed:** 69 (Internship / Fresh Graduate 1, Junior 2, Mid-level 65, Senior 1)
 
 ## What the job involves
 
@@ -16,45 +16,47 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Retail **(core)** | 50% | 52% |
-| Discounts **(core)** | 36% | 37% |
-| Hospitality **(core)** | 30% | 28% |
-| Scheduling **(core)** | 29% | 30% |
-| Tuition Reimbursement **(core)** | 29% | 30% |
-| Work Environment **(core)** | 28% | 28% |
-| Paid Time Off **(core)** | 27% | 28% |
-| Excellence **(core)** | 26% | 26% |
-| Standing **(core)** | 26% | 27% |
-| High School Diploma **(core)** | 25% | 26% |
-| Vacation | 24% | 24% |
-| Organized | 24% | 25% |
-| Management Experience | 23% | 24% |
-| Execution | 23% | 24% |
-| Walking | 22% | 23% |
-| Excel | 21% | 22% |
-| Verbal Communication | 20% | 21% |
-| Microsoft Office | 20% | 21% |
-| Lifting | 20% | 21% |
-| Word | 20% | 21% |
-| Mentor | 19% | 20% |
+| Hospitality **(core)** | 38% | 35% |
+| Holidays **(core)** | 36% | 38% |
+| Scheduling **(core)** | 33% | 35% |
+| Paid Time Off **(core)** | 30% | 32% |
+| Standing **(core)** | 30% | 32% |
+| Discounts **(core)** | 30% | 32% |
+| Retail **(core)** | 30% | 32% |
+| Work Environment **(core)** | 29% | 29% |
+| Execution **(core)** | 28% | 29% |
+| Walking **(core)** | 28% | 29% |
+| Excel **(core)** | 26% | 28% |
+| Organized **(core)** | 26% | 28% |
+| Microsoft Office | 25% | 26% |
+| Lifting | 25% | 26% |
+| Word | 25% | 26% |
+| Core Values | 23% | 23% |
+| Verbal Communication | 22% | 23% |
+| Outlook | 22% | 23% |
+| Cash handling | 22% | 23% |
+| Sanitation | 22% | 23% |
+| Cleaning | 22% | 23% |
+| Paid Holidays | 22% | 23% |
+| Tuition Reimbursement | 22% | 23% |
+| Detail Oriented | 20% | 22% |
+| Recruiting | 20% | 20% |
+| Management Experience | 19% | 20% |
+| Inventory | 19% | 20% |
+| Vacation | 19% | 18% |
+| cleaning products | 19% | 20% |
 | Competitive Pay | 19% | 20% |
-| Outlook | 18% | 19% |
-| Cash handling | 18% | 19% |
-| Cleaning | 18% | 19% |
-| Paid Holidays | 18% | 19% |
-| Responsibility | 17% | 18% |
-| Detail Oriented | 17% | 18% |
-| Flexibility | 17% | 17% |
-| cleaning products | 16% | 17% |
-| Corrective Action | 16% | 17% |
-| industrial software | 16% | 17% |
-| Personal Protective Equipment | 16% | 17% |
-| Retail management | 16% | 17% |
-| Written and Verbal Communication | 16% | 17% |
+| Corrective Action | 19% | 20% |
+| industrial software | 19% | 20% |
+| Personal Protective Equipment | 19% | 20% |
+| Retail management | 19% | 20% |
+| Written and Verbal Communication | 19% | 20% |
+| Excellence | 17% | 17% |
+| High School Diploma | 16% | 17% |
 
 ## Soft skills employers mention
 
-Communication (44%), Leadership (36%), Customer Service (20%), Coaching (20%), Communication Skills (12%)
+Communication (51%), Leadership (32%), Customer Service (26%), Coaching (14%), Communication Skills (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

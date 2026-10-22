@@ -4,7 +4,7 @@
 - **Also called:** Auditor, Internal Auditor, External Auditor, Audit Assistant
 - **O*NET:** 13-2011.00 Accountants and Auditors; 13-2061.00 Financial Examiners
 - **ESCO:** audit supervisor
-- **Job ads analysed:** 321 (Internship / Fresh Graduate 44, Junior 30, Mid-level 113, Senior 102, Lead / Manager 32)
+- **Job ads analysed:** 229 (Internship / Fresh Graduate 27, Junior 22, Mid-level 91, Senior 80, Lead / Manager 9)
 
 ## What the job involves
 
@@ -14,47 +14,46 @@ Examine, analyze, and interpret accounting records to prepare financial statemen
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
-|---|---|---|---|---|---|---|
-| Audit **(core)** | 76% | 86% | 77% | 61% | 83% | 94% |
-| Audits **(core)** | 54% | 14% | 53% | 50% | 65% | 88% |
-| Accounting **(core)** | 51% | 80% | 73% | 31% | 65% | 16% |
-| Auditing **(core)** | 44% | 25% | 50% | 47% | 49% | 38% |
-| Risk **(core)** | 39% | 0% | 20% | 34% | 57% | 72% |
-| Controls **(core)** | 33% | 9% | 30% | 26% | 60% | 12% |
-| CPA **(core)** | 29% | 11% | 40% | 14% | 56% | 6% |
-| Analytical **(core)** | 28% | 4% | 27% | 23% | 46% | 25% |
-| Testing **(core)** | 27% | 9% | 20% | 20% | 49% | 16% |
-| Paid Time Off **(core)** | 26% | 46% | 27% | 17% | 14% | 69% |
-| Regulatory | 25% | 4% | 13% | 26% | 33% | 31% |
-| Excel | 23% | 14% | 30% | 24% | 26% | 16% |
-| Internal Audit | 22% | 4% | 17% | 17% | 40% | 16% |
-| Risk Management | 22% | 0% | 7% | 17% | 30% | 62% |
-| Risks | 22% | 2% | 27% | 16% | 38% | 12% |
-| CIA | 22% | 4% | 3% | 10% | 48% | 19% |
-| Word | 22% | 52% | 23% | 16% | 17% | 12% |
-| Independent | 22% | 2% | 33% | 21% | 14% | 62% |
-| Recommendations | 19% | 7% | 17% | 9% | 39% | 9% |
-| Integrity | 18% | 16% | 20% | 17% | 24% | 6% |
-| Internal controls | 18% | 9% | 7% | 13% | 32% | 9% |
-| CISA | 17% | 0% | 3% | 12% | 36% | 9% |
-| work independently | 17% | 48% | 13% | 8% | 10% | 31% |
-| Life Insurance | 16% | 7% | 17% | 11% | 10% | 66% |
-| Written Communication | 16% | 9% | 20% | 12% | 22% | 12% |
-| 401k | 15% | 50% | 17% | 9% | 11% | 3% |
-| Work Environment | 14% | 16% | 27% | 13% | 14% | 6% |
-| Reasonable Accommodation | 14% | 7% | 17% | 10% | 4% | 69% |
-| Vacation | 14% | 14% | 3% | 9% | 6% | 66% |
-| Employee Assistance Program | 14% | 46% | 13% | 7% | 2% | 31% |
-| Reasonable accommodations | 13% | 2% | 7% | 12% | 6% | 66% |
-| Microsoft Office | 13% | 9% | 23% | 14% | 15% | 3% |
-| Assessments | 13% | 2% | 7% | 12% | 16% | 31% |
-| Meetings | 13% | 41% | 3% | 9% | 10% | 6% |
-| Equal Employment Opportunity | 12% | 4% | 10% | 11% | 3% | 59% |
+| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
+|---|---|---|---|---|---|
+| Audit **(core)** | 72% | 82% | 82% | 62% | 79% |
+| Accounting **(core)** | 52% | 74% | 73% | 33% | 62% |
+| Audits **(core)** | 50% | 18% | 46% | 48% | 61% |
+| Auditing **(core)** | 46% | 37% | 50% | 52% | 45% |
+| Controls **(core)** | 34% | 11% | 32% | 26% | 52% |
+| Risk **(core)** | 32% | 0% | 18% | 32% | 49% |
+| CPA **(core)** | 31% | 15% | 50% | 13% | 55% |
+| Analytical **(core)** | 27% | 4% | 27% | 24% | 39% |
+| Testing **(core)** | 27% | 15% | 23% | 20% | 41% |
+| Excel | 25% | 22% | 36% | 24% | 24% |
+| Internal Audit | 24% | 4% | 14% | 18% | 39% |
+| Regulatory | 23% | 7% | 14% | 26% | 26% |
+| CIA | 23% | 7% | 4% | 10% | 46% |
+| Risks | 22% | 4% | 23% | 16% | 36% |
+| Word | 22% | 37% | 27% | 19% | 19% |
+| CISA | 20% | 0% | 4% | 12% | 40% |
+| Internal controls | 18% | 11% | 4% | 13% | 29% |
+| Recommendations | 18% | 11% | 9% | 8% | 34% |
+| Written Communication | 16% | 7% | 27% | 13% | 21% |
+| Microsoft Office | 16% | 7% | 27% | 15% | 18% |
+| Risk Management | 15% | 0% | 4% | 13% | 28% |
+| Integrity | 15% | 22% | 14% | 7% | 21% |
+| Work Environment | 14% | 18% | 23% | 14% | 11% |
+| SOX | 14% | 4% | 14% | 10% | 21% |
+| Independent | 14% | 4% | 18% | 18% | 12% |
+| work independently | 13% | 33% | 18% | 8% | 11% |
+| Paid Time Off | 13% | 30% | 9% | 9% | 11% |
+| Assessments | 12% | 4% | 9% | 13% | 16% |
+| Execution | 12% | 4% | 18% | 11% | 16% |
+| Governance | 12% | 4% | 0% | 9% | 21% |
+| Efficiency | 11% | 4% | 4% | 8% | 20% |
+| 401k | 11% | 33% | 9% | 7% | 9% |
+| Information Systems | 10% | 7% | 4% | 8% | 16% |
+| Information Technology | 10% | 4% | 4% | 10% | 15% |
 
 ## Soft skills employers mention
 
-Communication (50%), Communication Skills (24%), Leadership (14%), Problem Solving (13%), Customer Service (13%)
+Communication (48%), Communication Skills (26%), Problem Solving (15%), Leadership (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

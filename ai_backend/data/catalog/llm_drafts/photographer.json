@@ -1,0 +1,95 @@
+{
+  "role": "Photographer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-22",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002509,
+  "skills": [
+    {
+      "name": "Camera operation (DSLR/mirrorless)",
+      "type": "hard",
+      "importance": 0.9
+    },
+    {
+      "name": "Adobe Photoshop",
+      "type": "tool",
+      "importance": 0.85
+    },
+    {
+      "name": "Photo retouching and editing",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "Adobe Photoshop Lightroom",
+      "type": "tool",
+      "importance": 0.75
+    },
+    {
+      "name": "Lighting setup (studio and on-location)",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Image composition",
+      "type": "hard",
+      "importance": 0.65
+    },
+    {
+      "name": "Studio lighting equipment (strobes, softboxes, reflectors)",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "Client communication",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "Event photography",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Product photography",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Portrait photography",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Color correction and color grading",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Time management",
+      "type": "soft",
+      "importance": 0.35
+    },
+    {
+      "name": "Capture One",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Print preparation and printing",
+      "type": "hard",
+      "importance": 0.25
+    },
+    {
+      "name": "Image cataloging and digital asset management",
+      "type": "hard",
+      "importance": 0.2
+    },
+    {
+      "name": "Adobe Certified Professional (Photoshop)",
+      "type": "certification",
+      "importance": 0.1
+    }
+  ],
+  "local_notes": "In Malaysia and Singapore, photographers often need to handle bilingual client briefs (English with Bahasa Melayu or Mandarin) and secure location permits for commercial shoots in public spaces."
+}

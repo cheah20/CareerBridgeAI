@@ -4,7 +4,7 @@
 - **Also called:** Frontend Developer, React Developer
 - **O*NET:** 15-1254.00 Web Developers
 - **ESCO:** web developer
-- **Job ads analysed:** 103 (Internship / Fresh Graduate 7, Junior 3, Mid-level 74, Senior 13, Lead / Manager 6)
+- **Job ads analysed:** 66 (Internship / Fresh Graduate 6, Junior 3, Mid-level 40, Senior 11, Lead / Manager 6)
 
 ## What the job involves
 
@@ -16,62 +16,51 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| JavaScript **(core)** | 73% | 78% |
-| HTML **(core)** | 65% | 74% |
-| React **(core)** | 45% | 31% |
-| Programming **(core)** | 43% | 53% |
-| Coding **(core)** | 42% | 50% |
-| Writing **(core)** | 40% | 50% |
-| C# **(core)** | 40% | 50% |
-| Python **(core)** | 39% | 53% |
-| SQL **(core)** | 38% | 50% |
-| Code quality **(core)** | 36% | 47% |
-| AI **(core)** | 36% | 50% |
-| Remote Work **(core)** | 36% | 49% |
-| Flexibility **(core)** | 35% | 49% |
-| English **(core)** | 35% | 47% |
-| Bilingual **(core)** | 33% | 46% |
-| C++ **(core)** | 33% | 46% |
-| Chatbots **(core)** | 33% | 46% |
-| Grammar **(core)** | 33% | 46% |
-| Part Time **(core)** | 33% | 46% |
-| CSS **(core)** | 32% | 27% |
-| Data Annotation **(core)** | 32% | 45% |
-| PayPal **(core)** | 32% | 45% |
-| Testing **(core)** | 28% | 26% |
-| Components | 24% | 19% |
-| Frameworks | 21% | 23% |
-| Computer Science | 20% | 18% |
-| TypeScript | 20% | 12% |
-| Agile | 19% | 16% |
-| Angular | 19% | 15% |
-| APIs | 18% | 18% |
-| Git | 16% | 19% |
-| Web Applications | 16% | 16% |
-| Libraries | 15% | 11% |
-| HTML5 | 15% | 10% |
-| Software Development | 15% | 11% |
-| Redux | 14% | 10% |
-| Full Stack | 14% | 11% |
-| Developers | 14% | 11% |
-| Architecture | 13% | 12% |
-| Java | 13% | 14% |
-| Jest | 12% | 7% |
-| Onsite | 12% | 10% |
-| CI/CD | 12% | 5% |
-| Version Control | 12% | 12% |
-| REST | 11% | 11% |
-| Node.js | 11% | 7% |
-| Cloud | 11% | 12% |
-| Deployment | 11% | 7% |
+| React **(core)** | 68% | 57% |
+| JavaScript **(core)** | 61% | 60% |
+| HTML **(core)** | 48% | 55% |
+| CSS **(core)** | 44% | 48% |
+| Testing **(core)** | 39% | 42% |
+| Components **(core)** | 35% | 35% |
+| Frameworks **(core)** | 32% | 40% |
+| TypeScript **(core)** | 29% | 22% |
+| Agile **(core)** | 27% | 28% |
+| Computer Science **(core)** | 27% | 28% |
+| APIs **(core)** | 27% | 32% |
+| Angular **(core)** | 26% | 25% |
+| Libraries | 23% | 20% |
+| Git | 21% | 30% |
+| Web Applications | 21% | 28% |
+| Full Stack | 21% | 20% |
+| Software Development | 21% | 20% |
+| HTML5 | 20% | 15% |
+| Redux | 20% | 15% |
+| Architecture | 18% | 22% |
+| Programming | 18% | 18% |
+| Java | 17% | 20% |
+| Jest | 17% | 10% |
+| CI/CD | 17% | 10% |
+| Developers | 17% | 18% |
+| Code Reviews | 17% | 15% |
+| Version Control | 17% | 20% |
+| RESTful APIs | 17% | 15% |
+| Debugging | 15% | 12% |
+| Onsite | 15% | 15% |
+| REST | 15% | 18% |
+| Workflows | 15% | 12% |
+| Node.js | 15% | 10% |
+| Deployment | 15% | 12% |
+| Coding | 15% | 12% |
+| control systems | 15% | 18% |
+| Mobile | 15% | 12% |
 
 ## Soft skills employers mention
 
-Communication (33%), Problem Solving (19%), Communication Skills (14%), Collaboration (11%)
+Communication (50%), Problem Solving (30%), Communication Skills (20%), Collaboration (17%), Problem Solving Skills (14%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Amazon Web Services AWS, Apache Kafka, Atlassian JIRA, C#, Cascading style sheets CSS, Docker, Spring Boot, Git, GitHub, Go, Google Angular, GraphQL, Hypertext markup language HTML, JavaScript, JavaScript Object Notation JSON, Jenkins CI, jQuery, Kubernetes, Microsoft Azure, Linux
+Amazon Web Services AWS, Apache Kafka, Atlassian JIRA, C#, Cascading style sheets CSS, Docker, Git, GitHub, Go, Google Angular, GraphQL, Hypertext markup language HTML, JavaScript, JavaScript Object Notation JSON, Jenkins CI, jQuery, Kubernetes, Microsoft Azure, Linux, MongoDB
 
 ## Essential skills (ESCO)
 

@@ -1,0 +1,95 @@
+{
+  "role": "PR Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-22",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.002117,
+  "skills": [
+    {
+      "name": "Media relations",
+      "type": "hard",
+      "importance": 0.72
+    },
+    {
+      "name": "Press release writing",
+      "type": "hard",
+      "importance": 0.68
+    },
+    {
+      "name": "Social media management",
+      "type": "hard",
+      "importance": 0.62
+    },
+    {
+      "name": "Copywriting",
+      "type": "hard",
+      "importance": 0.58
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.55
+    },
+    {
+      "name": "Microsoft Office",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Corporate communications",
+      "type": "hard",
+      "importance": 0.48
+    },
+    {
+      "name": "Media monitoring",
+      "type": "hard",
+      "importance": 0.42
+    },
+    {
+      "name": "Event management",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Stakeholder engagement",
+      "type": "hard",
+      "importance": 0.36
+    },
+    {
+      "name": "Canva",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Attention to detail",
+      "type": "soft",
+      "importance": 0.32
+    },
+    {
+      "name": "Crisis communications",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Adobe Photoshop",
+      "type": "tool",
+      "importance": 0.28
+    },
+    {
+      "name": "WordPress",
+      "type": "tool",
+      "importance": 0.25
+    },
+    {
+      "name": "Google Analytics",
+      "type": "tool",
+      "importance": 0.22
+    },
+    {
+      "name": "Time management",
+      "type": "soft",
+      "importance": 0.2
+    }
+  ],
+  "local_notes": "Malaysia/Singapore PR Executive ads often expect bilingual English/Bahasa Melayu or English/Mandarin media writing and familiarity with local mainstream media and government stakeholders."
+}

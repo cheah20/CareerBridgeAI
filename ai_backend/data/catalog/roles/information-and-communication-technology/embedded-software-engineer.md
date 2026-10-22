@@ -4,7 +4,7 @@
 - **Also called:** Embedded Systems Engineer, Firmware Engineer
 - **O*NET:** 15-1299.08 Computer Systems Engineers/Architects; 15-1299.07 Blockchain Engineers; 15-1252.00 Software Developers
 - **ESCO:** embedded system designer
-- **Job ads analysed:** 81 (Internship / Fresh Graduate 12, Junior 5, Mid-level 42, Senior 17, Lead / Manager 5)
+- **Job ads analysed:** 73 (Internship / Fresh Graduate 9, Junior 5, Mid-level 39, Senior 16, Lead / Manager 4)
 
 ## What the job involves
 
@@ -16,52 +16,51 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level | Senior |
 |---|---|---|---|
-| C++ **(core)** | 62% | 55% | 53% |
-| Programming **(core)** | 49% | 57% | 29% |
-| Hardware **(core)** | 48% | 40% | 65% |
-| firmware **(core)** | 48% | 40% | 71% |
-| Computer Science **(core)** | 44% | 50% | 35% |
-| Testing **(core)** | 41% | 43% | 35% |
-| Electrical **(core)** | 40% | 38% | 47% |
-| Software Development **(core)** | 37% | 33% | 41% |
-| Linux **(core)** | 37% | 43% | 35% |
-| Architecture **(core)** | 36% | 26% | 47% |
-| Electrical Engineering **(core)** | 32% | 33% | 29% |
-| C/C++ **(core)** | 31% | 21% | 24% |
-| Debugging **(core)** | 31% | 29% | 41% |
-| Embedded Systems **(core)** | 31% | 38% | 24% |
-| Protocols **(core)** | 27% | 31% | 24% |
-| Python **(core)** | 26% | 26% | 12% |
-| Computer Engineering **(core)** | 26% | 29% | 24% |
-| Power | 22% | 19% | 18% |
-| Energy | 21% | 19% | 24% |
-| Git | 20% | 24% | 18% |
-| debug software | 20% | 24% | 24% |
-| Network | 17% | 10% | 24% |
-| Electronics | 17% | 14% | 24% |
-| Collaborative | 16% | 17% | 12% |
-| Interfaces | 16% | 17% | 18% |
-| Software Engineering | 16% | 12% | 24% |
-| Validation | 16% | 19% | 12% |
-| Product Development | 16% | 12% | 24% |
-| Controls | 16% | 17% | 24% |
-| Algorithms | 15% | 14% | 6% |
-| Agile | 15% | 10% | 35% |
-| Components | 15% | 12% | 18% |
-| Developers | 15% | 19% | 12% |
-| Implementation | 15% | 12% | 24% |
-| Manufacturing | 14% | 14% | 12% |
-| Networking | 14% | 10% | 18% |
-| Onsite | 14% | 19% | 0% |
-| Programming Languages | 14% | 24% | 6% |
-| Coding | 14% | 14% | 24% |
-| Master's Degree | 14% | 21% | 6% |
-| MS | 14% | 14% | 12% |
-| control systems | 12% | 14% | 6% |
+| C++ **(core)** | 64% | 59% | 56% |
+| Hardware **(core)** | 49% | 44% | 62% |
+| firmware **(core)** | 49% | 38% | 75% |
+| Programming **(core)** | 48% | 54% | 31% |
+| Computer Science **(core)** | 45% | 49% | 38% |
+| Software Development **(core)** | 38% | 36% | 38% |
+| Electrical **(core)** | 38% | 36% | 44% |
+| Linux **(core)** | 38% | 44% | 38% |
+| Testing **(core)** | 37% | 41% | 31% |
+| Architecture **(core)** | 34% | 23% | 44% |
+| Debugging **(core)** | 33% | 31% | 38% |
+| C/C++ **(core)** | 32% | 23% | 25% |
+| Electrical Engineering **(core)** | 30% | 31% | 25% |
+| Embedded Systems **(core)** | 29% | 33% | 25% |
+| Protocols **(core)** | 26% | 28% | 25% |
+| Python **(core)** | 26% | 23% | 12% |
+| Computer Engineering | 25% | 28% | 19% |
+| debug software | 19% | 20% | 25% |
+| Power | 19% | 15% | 12% |
+| Energy | 18% | 15% | 19% |
+| Git | 16% | 20% | 12% |
+| Interfaces | 16% | 18% | 19% |
+| Electronics | 16% | 10% | 25% |
+| Networking | 15% | 10% | 19% |
+| Programming Languages | 15% | 26% | 6% |
+| Coding | 15% | 15% | 25% |
+| Agile | 15% | 10% | 38% |
+| Components | 15% | 13% | 19% |
+| Master's Degree | 15% | 23% | 6% |
+| Controls | 15% | 13% | 25% |
+| Software Engineering | 15% | 13% | 25% |
+| Implementation | 15% | 13% | 19% |
+| Manufacturing | 14% | 15% | 6% |
+| Onsite | 14% | 20% | 0% |
+| Troubleshooting | 14% | 15% | 6% |
+| Network | 14% | 8% | 25% |
+| Operating Systems | 14% | 8% | 12% |
+| Product Development | 14% | 8% | 19% |
+| Validation | 14% | 15% | 12% |
+| control systems | 12% | 15% | 6% |
+| Developers | 12% | 15% | 6% |
 
 ## Soft skills employers mention
 
-Communication (46%), Communication Skills (21%), Problem Solving (20%), Collaboration (15%)
+Communication (47%), Communication Skills (23%), Problem Solving (22%), Collaboration (15%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

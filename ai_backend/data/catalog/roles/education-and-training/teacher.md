@@ -4,7 +4,7 @@
 - **Also called:** School Teacher
 - **O*NET:** 25-2031.00 Secondary School Teachers, Except Special and Career/Technical Education
 - **ESCO:** secondary school teacher
-- **Job ads analysed:** 821 (Internship / Fresh Graduate 523, Junior 55, Mid-level 187, Senior 2, Lead / Manager 54)
+- **Job ads analysed:** 470 (Internship / Fresh Graduate 246, Junior 16, Mid-level 162, Senior 2, Lead / Manager 44)
 
 ## What the job involves
 
@@ -16,43 +16,34 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Lead / Manager |
 |---|---|---|---|---|---|
-| Teaching **(core)** | 71% | 72% | 55% | 78% | 56% |
-| Educational **(core)** | 48% | 54% | 38% | 42% | 28% |
-| Instructional **(core)** | 46% | 49% | 78% | 40% | 11% |
-| Meetings **(core)** | 36% | 38% | 69% | 29% | 18% |
-| Special Education **(core)** | 28% | 30% | 26% | 23% | 24% |
-| Attendance **(core)** | 26% | 34% | 9% | 9% | 22% |
-| Professional Development **(core)** | 25% | 20% | 73% | 21% | 43% |
-| Rules **(core)** | 25% | 36% | 2% | 8% | 0% |
-| Character | 24% | 31% | 4% | 8% | 35% |
-| Objectives | 24% | 30% | 2% | 17% | 7% |
-| Analyze | 23% | 28% | 51% | 6% | 2% |
-| Writing | 22% | 27% | 38% | 10% | 6% |
-| Teaching Experience | 22% | 19% | 31% | 25% | 28% |
-| Network | 21% | 19% | 82% | 13% | 7% |
-| Work Environment | 21% | 29% | 7% | 9% | 6% |
-| Standing | 20% | 28% | 2% | 8% | 2% |
-| Lifting | 20% | 28% | 2% | 6% | 2% |
-| Speaking | 19% | 27% | 11% | 6% | 2% |
-| Word | 19% | 28% | 6% | 2% | 2% |
-| Physical Requirements | 18% | 27% | 0% | 4% | 2% |
-| Walking | 18% | 26% | 0% | 5% | 4% |
-| Staff Development | 17% | 25% | 0% | 7% | 0% |
-| Childcare | 16% | 13% | 64% | 5% | 37% |
-| Methodologies | 16% | 24% | 0% | 3% | 0% |
-| Database | 16% | 24% | 0% | 2% | 0% |
-| Word Processing | 16% | 24% | 0% | 1% | 2% |
-| Spreadsheet | 16% | 24% | 0% | 0% | 0% |
-| Responsibility | 14% | 13% | 13% | 19% | 15% |
-| Paid Time Off | 14% | 12% | 64% | 3% | 17% |
-| English | 14% | 11% | 27% | 15% | 17% |
-| Equity | 13% | 6% | 84% | 12% | 9% |
-| Posting | 12% | 16% | 2% | 5% | 9% |
-| Health Insurance | 12% | 10% | 66% | 4% | 6% |
+| Teaching **(core)** | 70% | 68% | 75% | 76% | 61% |
+| Educational **(core)** | 39% | 39% | 56% | 40% | 27% |
+| Instructional **(core)** | 31% | 31% | 31% | 36% | 14% |
+| Professional Development **(core)** | 29% | 28% | 56% | 22% | 46% |
+| Special Education **(core)** | 26% | 29% | 25% | 24% | 23% |
+| Teaching Experience | 22% | 17% | 50% | 24% | 30% |
+| Meetings | 19% | 12% | 44% | 26% | 23% |
+| Network | 18% | 22% | 38% | 12% | 9% |
+| English | 17% | 18% | 19% | 15% | 16% |
+| Responsibility | 15% | 15% | 0% | 17% | 18% |
+| Posting | 14% | 23% | 6% | 4% | 9% |
+| Enrollment | 14% | 12% | 19% | 13% | 27% |
+| history | 14% | 18% | 19% | 6% | 18% |
+| Character | 12% | 11% | 6% | 8% | 36% |
+| Life Insurance | 12% | 16% | 12% | 7% | 11% |
+| Collaborative | 12% | 13% | 0% | 13% | 9% |
+| Methods | 12% | 10% | 12% | 13% | 14% |
+| Job posting | 12% | 19% | 0% | 2% | 9% |
+| Attendance | 12% | 11% | 19% | 8% | 23% |
+| Childcare | 11% | 12% | 12% | 4% | 34% |
+| Assessments | 11% | 11% | 12% | 12% | 7% |
+| Implementation | 11% | 13% | 0% | 4% | 25% |
+| Math | 10% | 11% | 19% | 8% | 9% |
+| Equity | 10% | 6% | 50% | 12% | 7% |
 
 ## Soft skills employers mention
 
-Communication (49%), Communication Skills (28%), Leadership (16%)
+Communication (44%), Leadership (23%), Communication Skills (16%), Collaboration (12%)
 
 ## Essential skills (ESCO)
 

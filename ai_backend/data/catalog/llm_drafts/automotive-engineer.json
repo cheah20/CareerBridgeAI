@@ -1,0 +1,100 @@
+{
+  "role": "Automotive Engineer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-22",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.006337,
+  "skills": [
+    {
+      "name": "CATIA",
+      "type": "tool",
+      "importance": 0.65
+    },
+    {
+      "name": "SolidWorks",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "Technical Drawings",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "AutoCAD",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "MATLAB/Simulink",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Finite Element Analysis (FEA)",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Manufacturing Processes",
+      "type": "hard",
+      "importance": 0.45
+    },
+    {
+      "name": "Geometric Dimensioning and Tolerancing (GD&T)",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Siemens Teamcenter",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "Design Failure Mode and Effects Analysis (DFMEA)",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "Hybrid and Electric Vehicle Architecture",
+      "type": "hard",
+      "importance": 0.35
+    },
+    {
+      "name": "IATF 16949 Internal Auditor",
+      "type": "certification",
+      "importance": 0.3
+    },
+    {
+      "name": "Advanced Product Quality Planning (APQP)",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "8D Problem Solving",
+      "type": "hard",
+      "importance": 0.3
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.3
+    },
+    {
+      "name": "Problem Solving",
+      "type": "soft",
+      "importance": 0.4
+    },
+    {
+      "name": "Communication",
+      "type": "soft",
+      "importance": 0.3
+    },
+    {
+      "name": "Teamwork",
+      "type": "soft",
+      "importance": 0.25
+    }
+  ],
+  "local_notes": "In Malaysia, Board of Engineers Malaysia (BEM) Graduate Engineer registration is commonly expected, while Singapore roles may value Professional Engineers Board (PEB) registration; both markets emphasise IATF 16949 experience for automotive manufacturing."
+}

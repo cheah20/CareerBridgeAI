@@ -1,0 +1,100 @@
+{
+  "role": "Safety & Health Officer",
+  "status": "draft - needs human review",
+  "generated": "2026-10-22",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.008715,
+  "skills": [
+    {
+      "name": "Hazard Identification, Risk Assessment and Risk Control (HIRARC)",
+      "type": "hard",
+      "importance": 0.8
+    },
+    {
+      "name": "DOSH Registered Safety and Health Officer (Green Book)",
+      "type": "certification",
+      "importance": 0.7
+    },
+    {
+      "name": "Occupational Safety and Health Act 1994 (OSHA)",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Incident investigation and reporting",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Safety audits and inspections",
+      "type": "hard",
+      "importance": 0.7
+    },
+    {
+      "name": "Workplace Safety and Health Act (WSH Act)",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "ISO 45001 Occupational Health and Safety Management System",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Emergency response planning",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Permit to Work (PTW) system",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Personal Protective Equipment (PPE) management",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Safety training and toolbox talks",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Microsoft Office (Excel, Word, PowerPoint, Outlook)",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "MOM Registered Workplace Safety and Health Officer",
+      "type": "certification",
+      "importance": 0.6
+    },
+    {
+      "name": "CIDB Green Card",
+      "type": "certification",
+      "importance": 0.5
+    },
+    {
+      "name": "First Aid certification",
+      "type": "certification",
+      "importance": 0.5
+    },
+    {
+      "name": "Confined space safety",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Chemical safety and Safety Data Sheets (SDS)",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.5
+    }
+  ],
+  "local_notes": "In Malaysia, DOSH registration (Green Book) is mandatory for Safety and Health Officers; in Singapore, MOM registration as a Workplace Safety and Health Officer is required."
+}

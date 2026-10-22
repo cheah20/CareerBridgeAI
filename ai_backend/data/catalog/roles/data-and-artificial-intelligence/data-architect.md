@@ -3,7 +3,7 @@
 - **Field:** Data & Artificial Intelligence
 - **O*NET:** 15-1243.00 Database Architects; 15-2051.00 Data Scientists
 - **ESCO:** database designer
-- **Job ads analysed:** 427 (Junior 15, Mid-level 313, Senior 68, Lead / Manager 31)
+- **Job ads analysed:** 413 (Junior 14, Mid-level 306, Senior 63, Lead / Manager 30)
 
 ## What the job involves
 
@@ -13,45 +13,44 @@ Design strategies for enterprise databases, data warehouse systems, and multidim
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Junior | Mid-level | Senior | Lead / Manager |
-|---|---|---|---|---|---|
-| Data Architecture **(core)** | 47% | 40% | 44% | 57% | 61% |
-| SQL **(core)** | 44% | 40% | 45% | 44% | 36% |
-| Data Modeling **(core)** | 42% | 27% | 41% | 43% | 52% |
-| Data Governance **(core)** | 31% | 13% | 31% | 32% | 45% |
-| Data Warehousing **(core)** | 30% | 27% | 32% | 21% | 32% |
-| Python **(core)** | 30% | 13% | 31% | 25% | 42% |
-| AWS **(core)** | 26% | 13% | 24% | 37% | 23% |
-| Data Integration **(core)** | 25% | 13% | 26% | 22% | 29% |
-| Data Management | 25% | 7% | 24% | 32% | 19% |
-| Azure | 24% | 20% | 26% | 18% | 13% |
-| ETL | 24% | 33% | 24% | 21% | 26% |
-| Data Quality | 23% | 13% | 22% | 21% | 45% |
-| Snowflake | 21% | 0% | 23% | 22% | 10% |
-| Data Security | 20% | 20% | 21% | 13% | 32% |
-| Cloud | 19% | 20% | 19% | 21% | 23% |
-| Data Engineering | 18% | 13% | 18% | 18% | 32% |
-| Architecture | 18% | 20% | 17% | 21% | 16% |
-| Analytics | 17% | 7% | 20% | 6% | 19% |
-| Computer Science | 17% | 20% | 18% | 10% | 19% |
-| Business Intelligence | 16% | 7% | 15% | 21% | 19% |
-| Data Visualization | 15% | 7% | 16% | 18% | 6% |
-| Spark | 15% | 7% | 14% | 22% | 6% |
-| Data Analytics | 14% | 7% | 13% | 19% | 19% |
-| Databricks | 14% | 13% | 14% | 13% | 13% |
-| Modeling | 13% | 7% | 13% | 18% | 13% |
-| Database | 13% | 20% | 13% | 15% | 10% |
-| Data Pipelines | 13% | 13% | 14% | 9% | 13% |
-| Hadoop | 13% | 7% | 13% | 18% | 3% |
-| Big Data | 13% | 7% | 12% | 18% | 10% |
-| Machine Learning | 13% | 33% | 11% | 12% | 23% |
-| Data Analysis | 13% | 13% | 12% | 16% | 6% |
-| Oracle | 12% | 7% | 14% | 9% | 3% |
-| SQL Server | 12% | 7% | 12% | 13% | 10% |
+| Skill | All ads | Mid-level | Senior | Lead / Manager |
+|---|---|---|---|---|
+| Data Architecture **(core)** | 46% | 44% | 54% | 60% |
+| SQL **(core)** | 43% | 44% | 48% | 37% |
+| Data Modeling **(core)** | 41% | 41% | 38% | 53% |
+| Data Governance **(core)** | 32% | 30% | 35% | 47% |
+| Python **(core)** | 31% | 31% | 27% | 43% |
+| Data Warehousing **(core)** | 30% | 32% | 22% | 33% |
+| Data Integration **(core)** | 25% | 26% | 24% | 30% |
+| AWS | 24% | 23% | 32% | 23% |
+| Data Quality | 24% | 22% | 22% | 47% |
+| Data Management | 23% | 24% | 27% | 20% |
+| Azure | 23% | 26% | 19% | 13% |
+| ETL | 23% | 22% | 22% | 27% |
+| Snowflake | 20% | 22% | 16% | 10% |
+| Data Security | 20% | 20% | 14% | 33% |
+| Data Engineering | 19% | 18% | 19% | 33% |
+| Cloud | 17% | 17% | 14% | 20% |
+| Analytics | 17% | 19% | 6% | 20% |
+| Computer Science | 16% | 17% | 11% | 20% |
+| Business Intelligence | 16% | 15% | 22% | 20% |
+| Architecture | 16% | 16% | 14% | 13% |
+| Data Visualization | 16% | 16% | 19% | 7% |
+| Spark | 14% | 13% | 24% | 7% |
+| Databricks | 14% | 14% | 14% | 13% |
+| Data Analytics | 14% | 12% | 21% | 20% |
+| Data Analysis | 13% | 13% | 18% | 7% |
+| Machine Learning | 13% | 11% | 13% | 23% |
+| Hadoop | 13% | 12% | 19% | 3% |
+| Big Data | 12% | 11% | 19% | 10% |
+| Data Pipelines | 12% | 12% | 10% | 13% |
+| SQL Server | 12% | 12% | 14% | 10% |
+| Modeling | 12% | 12% | 11% | 13% |
+| Database | 12% | 12% | 8% | 10% |
 
 ## Soft skills employers mention
 
-Communication (24%), Communication Skills (16%), Collaboration (13%), Problem Solving (11%)
+Communication (23%), Communication Skills (15%), Collaboration (12%), Problem Solving (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

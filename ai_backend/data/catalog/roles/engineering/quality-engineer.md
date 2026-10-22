@@ -4,7 +4,7 @@
 - **Also called:** QA/QC Engineer, Quality Control Engineer, Quality Assurance Engineer
 - **O*NET:** 17-2112.02 Validation Engineers; 17-2112.00 Industrial Engineers; 15-1253.00 Software Quality Assurance Analysts and Testers
 - **ESCO:** quality engineer
-- **Job ads analysed:** 331 (Internship / Fresh Graduate 95, Junior 47, Mid-level 126, Senior 53, Lead / Manager 10)
+- **Job ads analysed:** 258 (Internship / Fresh Graduate 59, Junior 43, Mid-level 110, Senior 39, Lead / Manager 7)
 
 ## What the job involves
 
@@ -16,46 +16,45 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Manufacturing **(core)** | 64% | 78% | 66% | 56% | 60% |
-| Quality Assurance **(core)** | 45% | 42% | 43% | 48% | 47% |
-| Audits **(core)** | 43% | 52% | 43% | 36% | 45% |
-| Testing **(core)** | 42% | 38% | 43% | 43% | 49% |
-| Inspection **(core)** | 34% | 41% | 23% | 32% | 34% |
-| Quality Management **(core)** | 31% | 30% | 23% | 33% | 34% |
-| Statistical Software **(core)** | 30% | 36% | 28% | 29% | 24% |
-| Methods **(core)** | 28% | 34% | 28% | 25% | 26% |
-| Continuous Improvement **(core)** | 28% | 37% | 23% | 21% | 34% |
-| Corrective Actions **(core)** | 27% | 46% | 23% | 20% | 11% |
-| Root Cause Analysis **(core)** | 26% | 35% | 26% | 20% | 26% |
-| Regulatory | 25% | 25% | 21% | 21% | 36% |
-| Analytical | 24% | 28% | 21% | 25% | 17% |
-| Quality Standards | 24% | 32% | 23% | 17% | 30% |
-| Risk | 24% | 20% | 19% | 19% | 43% |
-| Analyze | 22% | 35% | 19% | 19% | 15% |
-| Implementation | 22% | 21% | 34% | 17% | 28% |
-| Mechanical | 22% | 32% | 21% | 21% | 11% |
-| Six Sigma | 22% | 25% | 26% | 18% | 26% |
-| Lean | 22% | 23% | 26% | 18% | 24% |
-| Metrics | 19% | 27% | 13% | 16% | 19% |
-| Excel | 19% | 18% | 21% | 22% | 11% |
-| Validation | 19% | 18% | 17% | 14% | 28% |
-| Corrective Action | 18% | 22% | 19% | 18% | 11% |
-| Components | 18% | 26% | 15% | 14% | 17% |
-| Audit | 18% | 22% | 17% | 18% | 9% |
-| Quality Control | 18% | 21% | 28% | 14% | 15% |
-| Process control | 18% | 27% | 15% | 14% | 13% |
-| QA | 17% | 19% | 6% | 19% | 23% |
-| Reliability | 17% | 17% | 15% | 16% | 19% |
-| Methodologies | 16% | 12% | 8% | 19% | 23% |
-| Resolution | 16% | 19% | 21% | 14% | 11% |
-| Automation | 16% | 14% | 4% | 21% | 19% |
-| Assembly | 16% | 25% | 4% | 12% | 17% |
-| Investigations | 16% | 20% | 11% | 12% | 23% |
-| Life Insurance | 16% | 37% | 6% | 6% | 13% |
+| Manufacturing **(core)** | 62% | 71% | 65% | 55% | 67% |
+| Quality Assurance **(core)** | 47% | 46% | 44% | 49% | 49% |
+| Testing **(core)** | 43% | 42% | 42% | 41% | 49% |
+| Audits **(core)** | 39% | 49% | 42% | 36% | 36% |
+| Inspection **(core)** | 34% | 44% | 23% | 31% | 38% |
+| Methods **(core)** | 30% | 37% | 30% | 26% | 31% |
+| Quality Management **(core)** | 30% | 27% | 23% | 32% | 33% |
+| Statistical Software **(core)** | 29% | 34% | 28% | 28% | 26% |
+| Continuous Improvement **(core)** | 26% | 37% | 23% | 20% | 33% |
+| Analytical **(core)** | 25% | 29% | 23% | 26% | 20% |
+| Implementation | 24% | 27% | 33% | 18% | 31% |
+| Quality Standards | 23% | 29% | 26% | 18% | 28% |
+| Regulatory | 22% | 22% | 23% | 18% | 36% |
+| Root Cause Analysis | 22% | 27% | 26% | 20% | 20% |
+| Corrective Actions | 22% | 34% | 23% | 20% | 10% |
+| Six Sigma | 22% | 27% | 26% | 18% | 23% |
+| Lean | 21% | 24% | 26% | 18% | 23% |
+| Analyze | 21% | 30% | 21% | 19% | 15% |
+| Risk | 21% | 17% | 19% | 16% | 41% |
+| Mechanical | 20% | 25% | 21% | 21% | 10% |
+| Validation | 19% | 19% | 19% | 14% | 28% |
+| Excel | 19% | 22% | 21% | 18% | 15% |
+| Quality Control | 18% | 25% | 26% | 11% | 20% |
+| QA | 18% | 25% | 7% | 19% | 20% |
+| Audit | 17% | 22% | 16% | 16% | 13% |
+| Word | 17% | 14% | 16% | 19% | 18% |
+| Corrective Action | 17% | 22% | 19% | 14% | 15% |
+| Metrics | 17% | 24% | 12% | 14% | 18% |
+| Methodologies | 16% | 14% | 9% | 20% | 18% |
+| Components | 16% | 27% | 14% | 13% | 13% |
+| Reliability | 16% | 15% | 14% | 16% | 20% |
+| Automotive | 16% | 17% | 21% | 16% | 10% |
+| Process control | 15% | 20% | 16% | 14% | 13% |
+| Automation | 15% | 12% | 5% | 21% | 15% |
+| Writing | 15% | 5% | 14% | 20% | 15% |
 
 ## Soft skills employers mention
 
-Communication (52%), Problem Solving (39%), Leadership (26%), Communication Skills (26%), Collaboration (12%), Interpersonal Skills (12%)
+Communication (50%), Problem Solving (39%), Communication Skills (25%), Leadership (22%), Collaboration (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

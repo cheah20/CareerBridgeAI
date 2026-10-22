@@ -5,72 +5,11 @@
 - **Emerging role** (fast-growing in 2025–2026)
 - **O*NET:** 15-1221.00 Computer and Information Research Scientists
 - **ESCO:** artificial intelligence engineer
-- **Job ads analysed:** 14 (Internship / Fresh Graduate 2, Junior 1, Mid-level 5, Senior 4, Lead / Manager 2)
+- **Job ads analysed:** 9 (Junior 1, Mid-level 4, Senior 4)
 
 ## What the job involves
 
 Conduct research into fundamental computer and information science as theorists, designers, or inventors. Develop solutions to problems in the field of computer hardware and software.
-
-## Skills employers ask for
-
-Share of job ads for this role that mention the skill, overall and by experience level.
-
-| Skill | All ads |  |
-|---|---|
-| AI **(core)** | 93% |  |
-| Generative AI **(core)** | 86% |  |
-| Machine Learning **(core)** | 79% |  |
-| Algorithms **(core)** | 64% |  |
-| Python **(core)** | 64% |  |
-| Data Science **(core)** | 57% |  |
-| Deep Learning **(core)** | 57% |  |
-| Cloud **(core)** | 50% |  |
-| Computer Science **(core)** | 50% |  |
-| Azure **(core)** | 43% |  |
-| ML **(core)** | 43% |  |
-| Natural Language Processing **(core)** | 43% |  |
-| LLMs **(core)** | 36% |  |
-| Onsite **(core)** | 36% |  |
-| Agile **(core)** | 36% |  |
-| NLP **(core)** | 36% |  |
-| Analytical **(core)** | 36% |  |
-| GenAI **(core)** | 36% |  |
-| Governance **(core)** | 29% |  |
-| LLM **(core)** | 29% |  |
-| Collaborative **(core)** | 29% |  |
-| Multidisciplinary **(core)** | 29% |  |
-| Affirmative Action **(core)** | 29% |  |
-| Affirmative Action Employer **(core)** | 29% |  |
-| Computer Vision **(core)** | 29% |  |
-| Machine Learning Algorithms | 21% |  |
-| Equity | 21% |  |
-| Insights | 21% |  |
-| Artificial Intelligence | 21% |  |
-| Frameworks | 21% |  |
-| Investigation | 21% |  |
-| Patterns | 21% |  |
-| Resource | 21% |  |
-| Programming Languages | 21% |  |
-| PyTorch | 21% |  |
-| Scrum | 21% |  |
-| Generative Models | 21% |  |
-| Guidance | 21% |  |
-| Innovative Solutions | 21% |  |
-| Mathematics | 21% |  |
-| Networks | 21% |  |
-| Software Development | 21% |  |
-| Excellence | 21% |  |
-| Methodologies | 21% |  |
-| Prompt Engineering | 21% |  |
-| Recruiting | 21% |  |
-| Remote Work | 21% |  |
-| Email | 21% |  |
-| Search | 21% |  |
-| Shape | 21% |  |
-
-## Soft skills employers mention
-
-Leadership (43%), Problem Solving (43%), Communication (43%), Collaboration (21%), Analytical Skills (21%), Communication Skills (21%), Mentoring (14%), Adaptability (14%), Critical Thinking (14%)
 
 ## Malaysia / Singapore skills (AI-drafted, pending human review)
 

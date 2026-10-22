@@ -4,7 +4,7 @@
 - **Also called:** Payroll Specialist
 - **O*NET:** 43-3051.00 Payroll and Timekeeping Clerks
 - **ESCO:** payroll clerk
-- **Job ads analysed:** 90 (Internship / Fresh Graduate 19, Junior 31, Mid-level 26, Senior 14)
+- **Job ads analysed:** 79 (Internship / Fresh Graduate 18, Junior 25, Mid-level 25, Senior 11)
 
 ## What the job involves
 
@@ -17,42 +17,41 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
 |---|---|---|---|---|
 | Payroll **(core)** | 100% | 100% | 100% | 100% |
-| Excel **(core)** | 51% | 63% | 61% | 38% |
-| Tax **(core)** | 51% | 42% | 58% | 54% |
-| Accounting **(core)** | 49% | 58% | 55% | 50% |
-| HR **(core)** | 42% | 42% | 42% | 31% |
-| ADP **(core)** | 32% | 32% | 45% | 15% |
-| Microsoft Office **(core)** | 30% | 32% | 23% | 42% |
-| Audits **(core)** | 27% | 16% | 42% | 15% |
-| BI | 23% | 42% | 16% | 23% |
-| Attendance | 20% | 37% | 16% | 19% |
-| Human Resources | 19% | 16% | 19% | 15% |
-| 401k | 18% | 53% | 0% | 15% |
-| Time management skills | 18% | 10% | 36% | 12% |
-| Onsite | 17% | 10% | 13% | 23% |
-| Time and attendance | 17% | 32% | 16% | 15% |
-| Word | 17% | 26% | 10% | 19% |
-| MS | 16% | 16% | 16% | 19% |
-| Audit | 16% | 21% | 16% | 15% |
-| Business Administration | 14% | 5% | 29% | 4% |
-| Responsibility | 14% | 10% | 26% | 8% |
-| Pivot Tables | 14% | 10% | 29% | 0% |
-| Tables | 14% | 10% | 29% | 0% |
-| Deadlines | 14% | 26% | 10% | 15% |
-| Organized | 14% | 10% | 23% | 8% |
-| Testing | 14% | 16% | 19% | 8% |
-| PTO | 14% | 42% | 0% | 8% |
-| Special Projects | 14% | 26% | 13% | 4% |
-| Integrity | 14% | 16% | 16% | 8% |
-| Analytical | 14% | 10% | 10% | 19% |
-| Email | 13% | 32% | 10% | 12% |
-| Workday | 13% | 0% | 19% | 8% |
-| Confidentiality | 13% | 21% | 10% | 12% |
-| Paid Time Off | 13% | 16% | 13% | 15% |
+| Tax **(core)** | 49% | 44% | 52% | 56% |
+| Excel **(core)** | 48% | 61% | 56% | 36% |
+| Accounting **(core)** | 47% | 56% | 48% | 52% |
+| HR **(core)** | 42% | 39% | 52% | 28% |
+| Microsoft Office **(core)** | 32% | 28% | 28% | 40% |
+| ADP **(core)** | 25% | 28% | 36% | 12% |
+| Audits | 23% | 17% | 32% | 16% |
+| Attendance | 22% | 39% | 20% | 16% |
+| BI | 22% | 39% | 16% | 20% |
+| 401k | 19% | 50% | 0% | 16% |
+| Human Resources | 19% | 17% | 20% | 16% |
+| Time and attendance | 18% | 33% | 20% | 12% |
+| Word | 18% | 22% | 12% | 20% |
+| Audit | 18% | 22% | 20% | 16% |
+| Integrity | 16% | 17% | 20% | 8% |
+| Deadlines | 15% | 22% | 12% | 16% |
+| MS | 15% | 11% | 20% | 16% |
+| Paid Time Off | 15% | 17% | 16% | 16% |
+| Special Projects | 15% | 28% | 16% | 4% |
+| Analytical | 15% | 11% | 12% | 20% |
+| Onsite | 15% | 11% | 16% | 20% |
+| Email | 14% | 28% | 12% | 12% |
+| Time management skills | 14% | 11% | 24% | 12% |
+| Confidentiality | 14% | 17% | 12% | 12% |
+| PTO | 14% | 39% | 0% | 8% |
+| Recruiting | 13% | 22% | 4% | 16% |
+| Work Environment | 13% | 11% | 8% | 12% |
+| Resume | 13% | 22% | 0% | 16% |
+| Resource | 13% | 6% | 8% | 12% |
+| Data Entry | 13% | 11% | 16% | 16% |
+| Collaborative | 11% | 17% | 8% | 8% |
 
 ## Soft skills employers mention
 
-Communication (48%), Customer Service (28%), Time Management (24%), Attention to Detail (20%), Problem Solving (20%), Communication Skills (20%), Organizational Skills (11%), Leadership (10%)
+Communication (46%), Customer Service (27%), Time Management (22%), Communication Skills (22%), Attention to Detail (20%), Problem Solving (14%), Organizational Skills (11%), Leadership (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

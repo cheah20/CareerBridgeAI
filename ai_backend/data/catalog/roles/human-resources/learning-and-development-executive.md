@@ -4,7 +4,7 @@
 - **Also called:** Learning and Development Specialist, Training Executive, Training Specialist
 - **O*NET:** 13-1151.00 Training and Development Specialists
 - **ESCO:** corporate training manager
-- **Job ads analysed:** 46 (Internship / Fresh Graduate 18, Junior 3, Mid-level 20, Senior 5)
+- **Job ads analysed:** 37 (Internship / Fresh Graduate 13, Junior 3, Mid-level 17, Senior 4)
 
 ## What the job involves
 
@@ -14,51 +14,52 @@ Design or conduct work-related training and development programs to improve indi
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Mid-level |
-|---|---|---|---|
-| Instructional **(core)** | 44% | 22% | 55% |
-| Implementation **(core)** | 41% | 44% | 40% |
-| Training Programs **(core)** | 41% | 28% | 40% |
-| Excel **(core)** | 37% | 28% | 45% |
-| Training Materials **(core)** | 35% | 39% | 30% |
-| Word **(core)** | 35% | 33% | 40% |
-| learning management systems **(core)** | 33% | 11% | 50% |
-| Objectives **(core)** | 33% | 33% | 30% |
-| Presentation **(core)** | 33% | 22% | 35% |
-| Metrics **(core)** | 28% | 6% | 45% |
-| Manufacturing **(core)** | 28% | 11% | 35% |
-| Microsoft Office **(core)** | 26% | 28% | 25% |
-| Regulatory **(core)** | 26% | 17% | 35% |
-| Video **(core)** | 26% | 17% | 40% |
-| Methodologies | 24% | 6% | 40% |
-| Execution | 24% | 22% | 30% |
-| PowerPoint | 24% | 22% | 25% |
-| Methods | 22% | 17% | 30% |
-| Work Experience | 22% | 11% | 30% |
-| Audits | 22% | 11% | 35% |
-| Equity | 22% | 6% | 40% |
-| Meetings | 22% | 44% | 5% |
-| Technical Training | 20% | 11% | 25% |
-| Articulate Storyline | 20% | 0% | 35% |
-| Continuous Improvement | 20% | 0% | 30% |
-| Change Management | 20% | 6% | 30% |
-| Assessments | 17% | 22% | 10% |
-| Coordination | 17% | 28% | 15% |
-| Learning and development | 17% | 6% | 25% |
-| Regulatory Requirements | 17% | 6% | 25% |
-| Scheduling | 17% | 22% | 20% |
-| Communications | 17% | 17% | 20% |
-| Performance Metrics | 17% | 6% | 25% |
-| ERP | 17% | 0% | 25% |
-| GxP | 17% | 6% | 25% |
-| Project Management | 17% | 6% | 15% |
-| SAP | 17% | 0% | 25% |
-| adult education | 17% | 0% | 30% |
-| MS | 17% | 11% | 25% |
+| Skill | All ads | Mid-level |
+|---|---|---|
+| Instructional **(core)** | 51% | 59% |
+| Training Programs **(core)** | 46% | 47% |
+| Implementation **(core)** | 40% | 41% |
+| Objectives **(core)** | 40% | 35% |
+| learning management systems **(core)** | 38% | 53% |
+| Excel **(core)** | 35% | 41% |
+| Word **(core)** | 32% | 35% |
+| Microsoft Office **(core)** | 30% | 24% |
+| Regulatory **(core)** | 30% | 35% |
+| Training Materials **(core)** | 30% | 29% |
+| Metrics **(core)** | 30% | 41% |
+| Presentation **(core)** | 30% | 35% |
+| Methodologies **(core)** | 27% | 41% |
+| Manufacturing **(core)** | 27% | 29% |
+| Video **(core)** | 27% | 41% |
+| Work Experience | 24% | 29% |
+| Methods | 24% | 35% |
+| Assessments | 22% | 12% |
+| Coordination | 22% | 18% |
+| Execution | 22% | 29% |
+| Articulate Storyline | 22% | 35% |
+| Continuous Improvement | 22% | 29% |
+| Audits | 22% | 29% |
+| Change Management | 22% | 29% |
+| Equity | 22% | 35% |
+| PowerPoint | 22% | 24% |
+| Learning and development | 19% | 24% |
+| Regulatory Requirements | 19% | 24% |
+| Scheduling | 19% | 24% |
+| Performance Metrics | 19% | 24% |
+| Resource | 19% | 24% |
+| ERP | 19% | 24% |
+| GxP | 19% | 24% |
+| Project Management | 19% | 12% |
+| SAP | 19% | 24% |
+| adult education | 19% | 29% |
+| Team Player | 19% | 35% |
+| Onboarding | 19% | 12% |
+| Technical Training | 19% | 24% |
+| Maintenance | 19% | 24% |
 
 ## Soft skills employers mention
 
-Communication (70%), Communication Skills (33%), Leadership (24%), Presentation Skills (17%), Collaboration (17%), Coaching (13%), Problem Solving (13%), Customer Service (11%), Decision Making (11%)
+Communication (70%), Communication Skills (32%), Leadership (24%), Collaboration (16%), Problem Solving (14%), Organizational Skills (11%), Presentation Skills (11%), Coaching (11%), Customer Service (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Tutor, Private Tutor
 - **O*NET:** 25-3041.00 Tutors; 25-3099.00 Teachers and Instructors, All Other
 - **ESCO:** tutor
-- **Job ads analysed:** 73 (Internship / Fresh Graduate 47, Junior 4, Mid-level 21, Lead / Manager 1)
+- **Job ads analysed:** 57 (Internship / Fresh Graduate 35, Junior 2, Mid-level 20)
 
 ## What the job involves
 
@@ -16,21 +16,22 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Mid-level |
 |---|---|---|---|
-| Teaching **(core)** | 75% | 89% | 43% |
-| AI **(core)** | 68% | 87% | 43% |
-| Advanced technology **(core)** | 64% | 87% | 29% |
-| Assessments **(core)** | 62% | 85% | 24% |
-| Excellent Communication **(core)** | 62% | 87% | 19% |
-| Excellent Communication Skills **(core)** | 62% | 87% | 19% |
-| Invoice **(core)** | 51% | 70% | 19% |
-| Collaborative **(core)** | 49% | 68% | 19% |
-| Subject Matter Expertise **(core)** | 49% | 68% | 19% |
-| English | 11% | 6% | 10% |
-| Partnerships | 11% | 17% | 0% |
+| Teaching **(core)** | 75% | 94% | 40% |
+| AI **(core)** | 70% | 91% | 40% |
+| Advanced technology **(core)** | 65% | 91% | 25% |
+| Assessments **(core)** | 61% | 89% | 20% |
+| Excellent Communication **(core)** | 61% | 91% | 15% |
+| Excellent Communication Skills **(core)** | 61% | 91% | 15% |
+| Invoice **(core)** | 51% | 74% | 15% |
+| Collaborative **(core)** | 49% | 71% | 15% |
+| Subject Matter Expertise **(core)** | 49% | 71% | 15% |
+| Part Time | 12% | 0% | 35% |
+| English | 10% | 9% | 10% |
+| Partnerships | 10% | 17% | 0% |
 
 ## Soft skills employers mention
 
-Communication (74%), Communication Skills (67%)
+Communication (74%), Communication Skills (68%)
 
 ## Essential skills (ESCO)
 

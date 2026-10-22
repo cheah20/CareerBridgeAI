@@ -4,7 +4,7 @@
 - **Also called:** Talent Acquisition Specialist, Recruiter, Recruitment Executive
 - **O*NET:** 13-1071.00 Human Resources Specialists
 - **ESCO:** talent acquisition manager
-- **Job ads analysed:** 339 (Internship / Fresh Graduate 75, Junior 87, Mid-level 139, Senior 25, Lead / Manager 13)
+- **Job ads analysed:** 275 (Internship / Fresh Graduate 55, Junior 72, Mid-level 119, Senior 22, Lead / Manager 7)
 
 ## What the job involves
 
@@ -16,45 +16,45 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Recruiting **(core)** | 80% | 67% | 85% | 79% | 96% |
-| Recruitment **(core)** | 65% | 57% | 56% | 69% | 88% |
-| Interviews **(core)** | 46% | 31% | 56% | 51% | 40% |
-| Phone **(core)** | 39% | 40% | 51% | 35% | 24% |
-| Acquisition **(core)** | 32% | 17% | 34% | 32% | 48% |
-| Human Resources **(core)** | 31% | 27% | 24% | 33% | 36% |
-| Talent Acquisition **(core)** | 31% | 17% | 34% | 30% | 36% |
-| Applicant tracking **(core)** | 30% | 21% | 30% | 31% | 48% |
-| HR **(core)** | 29% | 20% | 36% | 24% | 36% |
-| Social media **(core)** | 27% | 17% | 28% | 34% | 24% |
-| Network | 24% | 37% | 25% | 19% | 24% |
-| Interviewing | 22% | 19% | 17% | 27% | 32% |
-| Networking | 22% | 19% | 25% | 23% | 32% |
-| LinkedIn | 21% | 17% | 30% | 18% | 20% |
-| Resume | 21% | 16% | 21% | 27% | 16% |
-| Selection | 21% | 9% | 22% | 22% | 24% |
-| Search | 20% | 12% | 16% | 21% | 24% |
-| Onboarding | 18% | 12% | 22% | 19% | 16% |
-| ATS | 17% | 9% | 25% | 15% | 24% |
-| Microsoft Office | 16% | 16% | 23% | 14% | 8% |
-| Methods | 15% | 12% | 17% | 14% | 28% |
-| Posting | 15% | 9% | 18% | 18% | 0% |
-| Onsite | 15% | 13% | 16% | 18% | 4% |
-| Excel | 14% | 16% | 16% | 12% | 16% |
-| Paid Time Off | 14% | 35% | 12% | 8% | 8% |
-| Guidance | 14% | 12% | 17% | 9% | 20% |
-| 401k | 14% | 23% | 9% | 11% | 20% |
-| Meetings | 14% | 15% | 8% | 16% | 20% |
-| Scheduling | 13% | 8% | 13% | 16% | 12% |
-| Email | 12% | 11% | 8% | 12% | 0% |
-| English | 12% | 17% | 10% | 12% | 8% |
-| Incentives | 12% | 21% | 8% | 11% | 8% |
-| Database | 12% | 12% | 14% | 12% | 8% |
-| Work Environment | 12% | 20% | 5% | 11% | 12% |
-| Proactive | 11% | 13% | 13% | 9% | 16% |
+| Recruiting **(core)** | 80% | 69% | 86% | 78% | 96% |
+| Recruitment **(core)** | 66% | 62% | 56% | 70% | 91% |
+| Interviews **(core)** | 48% | 34% | 58% | 50% | 36% |
+| Phone **(core)** | 38% | 42% | 47% | 34% | 27% |
+| Acquisition **(core)** | 33% | 22% | 33% | 33% | 50% |
+| Human Resources **(core)** | 31% | 27% | 21% | 35% | 41% |
+| Talent Acquisition **(core)** | 31% | 22% | 33% | 31% | 36% |
+| Applicant tracking **(core)** | 30% | 22% | 26% | 34% | 50% |
+| HR **(core)** | 29% | 22% | 32% | 26% | 41% |
+| Social media **(core)** | 26% | 20% | 25% | 30% | 23% |
+| Network | 24% | 34% | 26% | 18% | 27% |
+| Networking | 22% | 18% | 22% | 23% | 32% |
+| Resume | 20% | 14% | 22% | 24% | 18% |
+| LinkedIn | 20% | 18% | 29% | 13% | 23% |
+| ATS | 19% | 13% | 24% | 17% | 23% |
+| Onboarding | 19% | 14% | 21% | 19% | 18% |
+| Interviewing | 19% | 14% | 15% | 23% | 27% |
+| Search | 19% | 13% | 11% | 21% | 27% |
+| Selection | 18% | 9% | 19% | 19% | 27% |
+| Microsoft Office | 17% | 16% | 24% | 14% | 9% |
+| Excel | 16% | 22% | 17% | 13% | 18% |
+| Posting | 14% | 7% | 19% | 17% | 0% |
+| 401k | 14% | 26% | 11% | 10% | 23% |
+| Methods | 14% | 7% | 15% | 14% | 27% |
+| Meetings | 14% | 11% | 8% | 17% | 23% |
+| Onsite | 14% | 11% | 17% | 15% | 4% |
+| Guidance | 12% | 13% | 14% | 8% | 23% |
+| Written Communication | 12% | 13% | 15% | 12% | 4% |
+| Scheduling | 12% | 9% | 14% | 13% | 9% |
+| Email | 12% | 14% | 8% | 13% | 0% |
+| Paid Time Off | 12% | 27% | 11% | 7% | 4% |
+| Word | 12% | 14% | 10% | 13% | 4% |
+| Metrics | 11% | 9% | 11% | 10% | 23% |
+| Proactive | 10% | 13% | 10% | 9% | 14% |
+| Outreach | 10% | 16% | 8% | 8% | 18% |
 
 ## Soft skills employers mention
 
-Communication (56%), Leadership (26%), Communication Skills (24%), Customer Service (14%), Interpersonal Skills (14%), Time Management (11%)
+Communication (59%), Leadership (24%), Communication Skills (23%), Interpersonal Skills (14%), Customer Service (13%), Time Management (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Project Management Officer, PMO Analyst, PMO Executive
 - **O*NET:** 13-1082.00 Project Management Specialists
 - **ESCO:** project support officer
-- **Job ads analysed:** 149 (Internship / Fresh Graduate 57, Junior 23, Mid-level 62, Senior 3, Lead / Manager 4)
+- **Job ads analysed:** 129 (Internship / Fresh Graduate 46, Junior 23, Mid-level 53, Senior 3, Lead / Manager 4)
 
 ## What the job involves
 
@@ -16,41 +16,41 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
 |---|---|---|---|---|
-| Project Management **(core)** | 57% | 53% | 74% | 56% |
-| Meetings **(core)** | 42% | 53% | 48% | 31% |
-| Coordination **(core)** | 36% | 37% | 30% | 42% |
-| Microsoft Office **(core)** | 34% | 46% | 44% | 21% |
-| Excel **(core)** | 32% | 39% | 39% | 24% |
-| Communications **(core)** | 26% | 32% | 17% | 26% |
-| Word | 23% | 32% | 26% | 14% |
-| Scheduling | 22% | 26% | 26% | 19% |
-| Written Communication | 21% | 19% | 30% | 21% |
-| Deadlines | 20% | 19% | 35% | 18% |
-| Risks | 20% | 16% | 22% | 23% |
-| MS | 19% | 14% | 30% | 19% |
-| Deliverables | 18% | 19% | 30% | 14% |
-| Email | 18% | 21% | 13% | 18% |
-| Budget | 17% | 25% | 13% | 14% |
-| Onsite | 17% | 19% | 17% | 14% |
-| Project Coordination | 16% | 9% | 17% | 24% |
-| Organized | 15% | 18% | 13% | 14% |
-| Execution | 15% | 12% | 4% | 23% |
-| Outlook | 15% | 21% | 17% | 11% |
-| Implementation | 15% | 19% | 17% | 13% |
-| Budgets | 15% | 12% | 9% | 19% |
-| Presentation | 15% | 16% | 9% | 18% |
-| pregnancy | 15% | 19% | 9% | 13% |
-| Verbal and Written Communication | 14% | 14% | 22% | 13% |
-| Project managers | 14% | 14% | 13% | 14% |
-| Resource | 14% | 7% | 17% | 18% |
-| Vendors | 14% | 23% | 9% | 10% |
-| Objectives | 14% | 19% | 9% | 13% |
-| Timelines | 14% | 12% | 22% | 11% |
-| Work Experience | 13% | 14% | 13% | 13% |
+| Project Management **(core)** | 54% | 50% | 74% | 49% |
+| Meetings **(core)** | 40% | 56% | 48% | 23% |
+| Coordination **(core)** | 39% | 39% | 30% | 47% |
+| Excel **(core)** | 36% | 46% | 39% | 28% |
+| Microsoft Office **(core)** | 31% | 46% | 44% | 15% |
+| Word **(core)** | 26% | 37% | 26% | 17% |
+| Communications | 22% | 33% | 17% | 19% |
+| Deadlines | 22% | 24% | 35% | 17% |
+| MS | 19% | 15% | 30% | 19% |
+| Deliverables | 19% | 22% | 30% | 15% |
+| Scheduling | 19% | 24% | 26% | 13% |
+| Project Coordination | 18% | 11% | 17% | 26% |
+| Organized | 18% | 22% | 13% | 17% |
+| Budget | 18% | 24% | 13% | 17% |
+| Outlook | 18% | 26% | 17% | 13% |
+| Written Communication | 17% | 17% | 30% | 13% |
+| Implementation | 16% | 22% | 17% | 13% |
+| Budgets | 16% | 13% | 9% | 21% |
+| Resource | 16% | 9% | 17% | 19% |
+| PowerPoint | 15% | 22% | 13% | 11% |
+| Vendors | 15% | 24% | 9% | 11% |
+| Execution | 15% | 13% | 4% | 21% |
+| Timelines | 15% | 11% | 22% | 13% |
+| Risks | 15% | 11% | 22% | 15% |
+| Objectives | 14% | 20% | 9% | 13% |
+| Project managers | 13% | 13% | 13% | 13% |
+| Email | 13% | 15% | 13% | 11% |
+| Guidance | 12% | 15% | 0% | 13% |
+| Onsite | 12% | 15% | 17% | 8% |
+| Work Experience | 12% | 15% | 13% | 9% |
+| Analytical | 12% | 17% | 9% | 9% |
 
 ## Soft skills employers mention
 
-Communication (70%), Communication Skills (30%), Leadership (22%), Problem Solving (19%), Customer Service (17%), Collaboration (15%), Organizational Skills (15%), Attention to Detail (13%), Time Management (11%), Teamwork (11%)
+Communication (70%), Communication Skills (32%), Problem Solving (18%), Collaboration (17%), Leadership (16%), Attention to Detail (14%), Organizational Skills (14%), Customer Service (12%), Time Management (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

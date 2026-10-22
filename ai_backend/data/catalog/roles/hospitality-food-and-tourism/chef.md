@@ -4,7 +4,7 @@
 - **Also called:** Cook, Commis Chef, Sous Chef
 - **O*NET:** 35-1011.00 Chefs and Head Cooks; 35-2012.00 Cooks, Institution and Cafeteria; 35-2014.00 Cooks, Restaurant
 - **ESCO:** chef
-- **Job ads analysed:** 604 (Internship / Fresh Graduate 298, Junior 33, Mid-level 241, Senior 3, Lead / Manager 29)
+- **Job ads analysed:** 417 (Internship / Fresh Graduate 176, Junior 16, Mid-level 197, Senior 3, Lead / Manager 25)
 
 ## What the job involves
 
@@ -16,32 +16,34 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Lead / Manager |
 |---|---|---|---|---|---|
-| Sanitation **(core)** | 54% | 52% | 73% | 52% | 69% |
-| Inventory | 24% | 13% | 58% | 32% | 34% |
-| High School Diploma | 24% | 32% | 12% | 17% | 10% |
-| Storage | 23% | 24% | 15% | 23% | 21% |
-| Hospitality | 23% | 24% | 18% | 21% | 38% |
-| Paid Time Off | 21% | 28% | 3% | 16% | 10% |
-| Presentation | 20% | 17% | 52% | 20% | 21% |
-| Excellence | 17% | 10% | 33% | 21% | 31% |
-| Cleaning | 14% | 16% | 0% | 14% | 17% |
-| Retail | 14% | 17% | 3% | 13% | 3% |
-| Scheduling | 14% | 15% | 18% | 13% | 0% |
-| Part Time | 13% | 16% | 0% | 10% | 14% |
-| Organized | 12% | 8% | 42% | 11% | 28% |
-| Recipe | 12% | 11% | 9% | 15% | 0% |
-| Work Environment | 12% | 7% | 12% | 17% | 14% |
-| Maintenance | 12% | 10% | 21% | 11% | 17% |
-| Team Player | 11% | 17% | 0% | 5% | 14% |
-| Ordering | 11% | 5% | 9% | 18% | 14% |
-| Go | 10% | 8% | 6% | 14% | 10% |
-| Quality Standards | 10% | 7% | 18% | 12% | 17% |
-| Discounts | 10% | 9% | 12% | 10% | 10% |
-| Meetings | 10% | 4% | 15% | 17% | 0% |
+| Sanitation **(core)** | 48% | 42% | 62% | 50% | 64% |
+| Holidays **(core)** | 30% | 40% | 6% | 23% | 20% |
+| Inventory | 24% | 11% | 38% | 34% | 32% |
+| Paid Time Off | 24% | 36% | 6% | 15% | 12% |
+| Storage | 24% | 26% | 25% | 22% | 16% |
+| Hospitality | 22% | 23% | 25% | 19% | 40% |
+| Presentation | 19% | 18% | 31% | 19% | 16% |
+| High School Diploma | 17% | 19% | 19% | 15% | 12% |
+| Excellence | 17% | 13% | 12% | 18% | 32% |
+| Scheduling | 14% | 19% | 12% | 12% | 0% |
+| Cleaning | 14% | 15% | 0% | 13% | 20% |
+| Work Environment | 14% | 10% | 19% | 16% | 16% |
+| Retail | 14% | 18% | 0% | 13% | 4% |
+| Part Time | 13% | 17% | 0% | 10% | 16% |
+| Ordering | 13% | 7% | 19% | 18% | 12% |
+| Team Player | 12% | 20% | 0% | 6% | 12% |
+| Organized | 11% | 7% | 31% | 12% | 28% |
+| Recipe | 11% | 9% | 6% | 15% | 0% |
+| Methods | 11% | 14% | 12% | 9% | 0% |
+| Discounts | 11% | 9% | 19% | 11% | 8% |
+| English | 11% | 15% | 6% | 8% | 4% |
+| Go | 10% | 8% | 0% | 13% | 8% |
+| Quality Standards | 10% | 6% | 19% | 11% | 16% |
+| Meetings | 10% | 4% | 19% | 14% | 0% |
 
 ## Soft skills employers mention
 
-Communication (34%), Customer Service (23%), Leadership (21%), Communication Skills (13%)
+Communication (36%), Customer Service (26%), Leadership (24%), Communication Skills (14%), Attention to Detail (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

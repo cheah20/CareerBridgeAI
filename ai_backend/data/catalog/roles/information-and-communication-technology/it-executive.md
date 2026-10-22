@@ -4,7 +4,7 @@
 - **Also called:** IT Officer, IT Administrator
 - **O*NET:** 15-1244.00 Network and Computer Systems Administrators; 15-1232.00 Computer User Support Specialists
 - **ESCO:** ICT system administrator
-- **Job ads analysed:** 3 (Internship / Fresh Graduate 2, Mid-level 1)
+- **Job ads analysed:** 2 (Internship / Fresh Graduate 2)
 
 ## What the job involves
 

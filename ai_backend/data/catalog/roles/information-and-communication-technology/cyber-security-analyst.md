@@ -4,7 +4,7 @@
 - **Also called:** Cybersecurity Analyst, Information Security Analyst, Security Analyst, SOC Analyst
 - **O*NET:** 15-1212.00 Information Security Analysts
 - **ESCO:** ICT security administrator
-- **Job ads analysed:** 152 (Internship / Fresh Graduate 23, Junior 14, Mid-level 80, Senior 28, Lead / Manager 7)
+- **Job ads analysed:** 133 (Internship / Fresh Graduate 19, Junior 14, Mid-level 73, Senior 23, Lead / Manager 4)
 
 ## What the job involves
 
@@ -16,49 +16,47 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Mid-level | Senior |
 |---|---|---|---|---|
-| Information Security **(core)** | 45% | 65% | 36% | 43% |
-| Network **(core)** | 44% | 61% | 39% | 50% |
-| Cybersecurity **(core)** | 42% | 65% | 39% | 39% |
-| Computer Science **(core)** | 42% | 44% | 45% | 46% |
-| Cyber Security **(core)** | 37% | 61% | 24% | 50% |
-| Risk **(core)** | 36% | 48% | 20% | 61% |
-| Cloud **(core)** | 30% | 30% | 24% | 36% |
-| Incident Response **(core)** | 30% | 39% | 31% | 18% |
-| SIEM **(core)** | 30% | 35% | 26% | 39% |
-| Controls **(core)** | 30% | 44% | 25% | 29% |
-| Information Technology **(core)** | 30% | 35% | 28% | 21% |
-| Analyze **(core)** | 28% | 30% | 31% | 25% |
-| Remediation **(core)** | 27% | 44% | 16% | 43% |
-| Infrastructure **(core)** | 26% | 39% | 18% | 39% |
-| Assessments | 24% | 39% | 16% | 39% |
-| Security+ | 24% | 48% | 24% | 14% |
-| Analytical | 23% | 30% | 15% | 32% |
-| CISSP | 22% | 30% | 18% | 32% |
-| IT Security | 21% | 26% | 18% | 21% |
-| Information Systems | 21% | 22% | 16% | 32% |
-| Network Security | 20% | 22% | 16% | 29% |
-| Security Controls | 20% | 35% | 19% | 18% |
-| Testing | 20% | 17% | 18% | 14% |
-| Implementation | 18% | 13% | 12% | 29% |
-| Risks | 18% | 26% | 12% | 14% |
-| Configuration | 18% | 17% | 16% | 14% |
-| Security Policies | 17% | 17% | 14% | 21% |
-| Architecture | 16% | 13% | 16% | 21% |
-| Risk Management | 16% | 17% | 11% | 32% |
-| Security Operations | 16% | 17% | 10% | 29% |
-| Networks | 16% | 22% | 11% | 21% |
-| Recommendations | 15% | 26% | 10% | 25% |
-| Vulnerability Management | 15% | 26% | 10% | 18% |
-| CEH | 14% | 22% | 11% | 25% |
-| Deployment | 14% | 9% | 14% | 25% |
-| Regulatory | 14% | 26% | 6% | 14% |
-| Firewalls | 14% | 17% | 12% | 14% |
-| Investigations | 14% | 17% | 11% | 21% |
-| AWS | 13% | 17% | 12% | 18% |
+| Network **(core)** | 44% | 63% | 37% | 52% |
+| Information Security **(core)** | 43% | 63% | 34% | 44% |
+| Cybersecurity **(core)** | 41% | 63% | 40% | 35% |
+| Computer Science **(core)** | 41% | 37% | 47% | 39% |
+| Cyber Security **(core)** | 36% | 68% | 23% | 52% |
+| Risk **(core)** | 33% | 47% | 19% | 61% |
+| Cloud **(core)** | 32% | 32% | 26% | 39% |
+| Information Technology **(core)** | 31% | 37% | 26% | 26% |
+| SIEM **(core)** | 29% | 37% | 25% | 39% |
+| Incident Response **(core)** | 28% | 37% | 29% | 13% |
+| Controls **(core)** | 27% | 37% | 23% | 26% |
+| Analyze **(core)** | 26% | 32% | 27% | 17% |
+| Remediation | 25% | 32% | 18% | 44% |
+| Infrastructure | 24% | 32% | 19% | 30% |
+| IT Security | 23% | 26% | 18% | 26% |
+| Security+ | 23% | 42% | 23% | 13% |
+| Network Security | 22% | 21% | 18% | 30% |
+| Assessments | 22% | 37% | 15% | 35% |
+| Analytical | 22% | 26% | 15% | 26% |
+| CISSP | 21% | 32% | 18% | 30% |
+| Information Systems | 20% | 21% | 15% | 35% |
+| Testing | 19% | 10% | 18% | 9% |
+| Architecture | 18% | 16% | 16% | 26% |
+| Security Policies | 18% | 21% | 15% | 22% |
+| Security Controls | 18% | 26% | 19% | 13% |
+| Implementation | 18% | 16% | 14% | 30% |
+| Configuration | 16% | 10% | 15% | 13% |
+| Security Operations | 16% | 21% | 10% | 26% |
+| Risk Management | 16% | 21% | 10% | 35% |
+| Networks | 15% | 21% | 11% | 22% |
+| CEH | 14% | 21% | 12% | 22% |
+| Access Management | 14% | 0% | 15% | 22% |
+| Recommendations | 14% | 26% | 10% | 22% |
+| Risks | 14% | 21% | 10% | 9% |
+| Deployment | 14% | 5% | 15% | 22% |
+| AWS | 14% | 16% | 14% | 17% |
+| Authentication | 14% | 10% | 16% | 13% |
 
 ## Soft skills employers mention
 
-Communication (40%), Problem Solving (24%), Communication Skills (17%), Leadership (14%)
+Communication (40%), Problem Solving (25%), Communication Skills (19%), Leadership (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

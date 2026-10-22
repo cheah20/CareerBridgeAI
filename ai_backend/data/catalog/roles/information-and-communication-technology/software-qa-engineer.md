@@ -4,7 +4,7 @@
 - **Also called:** QA Engineer, Software Tester, Quality Assurance Analyst, Test Engineer
 - **O*NET:** 15-1253.00 Software Quality Assurance Analysts and Testers; 17-2071.00 Electrical Engineers; 17-2141.00 Mechanical Engineers
 - **ESCO:** software tester
-- **Job ads analysed:** 247 (Internship / Fresh Graduate 60, Junior 29, Mid-level 85, Senior 58, Lead / Manager 15)
+- **Job ads analysed:** 212 (Internship / Fresh Graduate 47, Junior 24, Mid-level 81, Senior 47, Lead / Manager 13)
 
 ## What the job involves
 
@@ -14,43 +14,44 @@ Develop and execute software tests to identify software problems and their cause
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
-|---|---|---|---|---|---|---|
-| Testing **(core)** | 81% | 82% | 83% | 86% | 74% | 80% |
-| Automation **(core)** | 33% | 30% | 28% | 33% | 36% | 47% |
-| Test plans **(core)** | 31% | 28% | 31% | 27% | 33% | 60% |
-| QA **(core)** | 29% | 28% | 31% | 27% | 31% | 27% |
-| Hardware **(core)** | 26% | 25% | 28% | 28% | 22% | 33% |
-| Python **(core)** | 25% | 12% | 21% | 33% | 29% | 27% |
-| Quality Assurance | 24% | 30% | 24% | 19% | 29% | 13% |
-| Scripts | 24% | 17% | 24% | 25% | 31% | 27% |
-| Electrical | 24% | 20% | 31% | 26% | 24% | 20% |
-| Agile | 24% | 20% | 31% | 26% | 22% | 20% |
-| Execution | 23% | 25% | 7% | 24% | 24% | 40% |
-| Computer Science | 23% | 12% | 31% | 22% | 31% | 27% |
-| Power | 23% | 30% | 17% | 25% | 10% | 40% |
-| Analytical | 21% | 17% | 28% | 21% | 21% | 27% |
-| Methodologies | 20% | 17% | 24% | 21% | 16% | 33% |
-| Onsite | 20% | 23% | 21% | 20% | 16% | 20% |
-| Analyze | 19% | 18% | 21% | 15% | 24% | 20% |
-| Test equipment | 18% | 20% | 24% | 18% | 12% | 27% |
-| Regression | 18% | 17% | 24% | 19% | 17% | 7% |
-| Programming | 18% | 15% | 17% | 21% | 16% | 20% |
-| Components | 17% | 17% | 21% | 19% | 9% | 40% |
-| Troubleshooting | 17% | 13% | 21% | 15% | 19% | 27% |
-| Network | 17% | 12% | 7% | 20% | 17% | 33% |
-| Test Automation | 17% | 18% | 3% | 16% | 21% | 20% |
-| SQL | 16% | 12% | 10% | 18% | 24% | 7% |
-| Software Testing | 16% | 13% | 28% | 15% | 14% | 20% |
-| Electrical Engineering | 16% | 15% | 14% | 20% | 17% | 0% |
-| Software Development | 16% | 20% | 21% | 11% | 19% | 7% |
-| Mechanical | 16% | 20% | 14% | 15% | 10% | 27% |
-| Validation | 16% | 25% | 17% | 11% | 16% | 7% |
-| Writing | 15% | 10% | 14% | 16% | 19% | 20% |
+| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
+|---|---|---|---|---|---|
+| Testing **(core)** | 79% | 77% | 79% | 85% | 70% |
+| Automation **(core)** | 32% | 36% | 12% | 35% | 30% |
+| QA **(core)** | 28% | 36% | 21% | 27% | 28% |
+| Test plans **(core)** | 28% | 26% | 21% | 26% | 30% |
+| Hardware **(core)** | 27% | 26% | 33% | 28% | 23% |
+| Python **(core)** | 26% | 13% | 25% | 33% | 26% |
+| Electrical **(core)** | 25% | 23% | 38% | 24% | 23% |
+| Quality Assurance | 24% | 36% | 12% | 18% | 30% |
+| Agile | 23% | 23% | 21% | 26% | 21% |
+| Scripts | 23% | 21% | 12% | 26% | 23% |
+| Execution | 22% | 19% | 8% | 22% | 26% |
+| Computer Science | 22% | 13% | 17% | 24% | 28% |
+| Onsite | 21% | 23% | 21% | 21% | 17% |
+| Analytical | 21% | 19% | 17% | 20% | 23% |
+| Test equipment | 19% | 21% | 29% | 18% | 13% |
+| Programming | 19% | 19% | 21% | 21% | 15% |
+| Power | 19% | 17% | 21% | 25% | 6% |
+| Analyze | 18% | 13% | 25% | 15% | 26% |
+| Methodologies | 18% | 19% | 12% | 21% | 13% |
+| Test Automation | 18% | 21% | 4% | 17% | 21% |
+| Electrical Engineering | 17% | 17% | 17% | 20% | 17% |
+| Network | 16% | 15% | 8% | 18% | 13% |
+| Regression | 16% | 19% | 12% | 18% | 15% |
+| SQL | 16% | 8% | 12% | 17% | 28% |
+| Troubleshooting | 16% | 15% | 25% | 14% | 17% |
+| Writing | 16% | 13% | 17% | 16% | 17% |
+| Software Testing | 16% | 13% | 17% | 16% | 15% |
+| Implementation | 15% | 17% | 0% | 21% | 8% |
+| Manufacturing | 15% | 15% | 21% | 15% | 13% |
+| Components | 15% | 13% | 8% | 20% | 6% |
+| Software Development | 14% | 21% | 8% | 11% | 17% |
+| Verification | 14% | 23% | 4% | 15% | 8% |
 
 ## Soft skills employers mention
 
-Communication (50%), Problem Solving (27%), Communication Skills (26%), Collaboration (18%), Leadership (16%), Problem Solving Skills (12%), Attention to Detail (10%)
+Communication (47%), Problem Solving (27%), Communication Skills (26%), Collaboration (17%), Problem Solving Skills (13%), Leadership (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

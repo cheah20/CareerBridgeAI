@@ -3,39 +3,31 @@
 - **Field:** Engineering
 - **O*NET:** 17-2141.02 Automotive Engineers
 - **ESCO:** automotive engineer
-- **Job ads analysed:** 28 (Internship / Fresh Graduate 27, Junior 1)
+- **Job ads analysed:** 2 (Internship / Fresh Graduate 1, Junior 1)
 
 ## What the job involves
 
 Develop new or improved designs for vehicle structural members, engines, transmissions, or other vehicle systems, using computer-assisted design technology. Direct building, modification, or testing of vehicle or components.
 
-## Skills employers ask for
+## Malaysia / Singapore skills (AI-drafted, pending human review)
 
-Share of job ads for this role that mention the skill, overall and by experience level.
+Drafted by DeepSeek because few job ads matched this title. Estimated share of job ads in brackets.
 
-| Skill | All ads | Internship / Fresh Graduate |
-|---|---|---|
-| Automotive **(core)** | 100% | 100% |
-| automotive engineering **(core)** | 96% | 100% |
-| cameras **(core)** | 96% | 100% |
-| childbirth **(core)** | 96% | 100% |
-| Collaboration Skills **(core)** | 96% | 100% |
-| Computer Engineering **(core)** | 96% | 100% |
-| Computer Science **(core)** | 96% | 100% |
-| Electrical **(core)** | 96% | 100% |
-| FastEST **(core)** | 96% | 100% |
-| Human Resources **(core)** | 96% | 100% |
-| Insights **(core)** | 96% | 100% |
-| Internet **(core)** | 96% | 100% |
-| pregnancy **(core)** | 96% | 100% |
-| Team Player **(core)** | 96% | 100% |
-| Termination **(core)** | 96% | 100% |
-| Troubleshooting **(core)** | 96% | 100% |
-| Troubleshooting skills **(core)** | 96% | 100% |
-
-## Soft skills employers mention
-
-Collaboration (96%), Communication (96%), Communication Skills (96%), Problem Solving (96%)
+- CATIA (65%, tool)
+- SolidWorks (60%, tool)
+- Technical Drawings (55%, hard)
+- AutoCAD (50%, tool)
+- MATLAB/Simulink (45%, tool)
+- Finite Element Analysis (FEA) (45%, hard)
+- Manufacturing Processes (45%, hard)
+- Geometric Dimensioning and Tolerancing (GD&T) (40%, hard)
+- Siemens Teamcenter (35%, tool)
+- Design Failure Mode and Effects Analysis (DFMEA) (35%, hard)
+- Hybrid and Electric Vehicle Architecture (35%, hard)
+- IATF 16949 Internal Auditor (30%, certification)
+- Advanced Product Quality Planning (APQP) (30%, hard)
+- 8D Problem Solving (30%, hard)
+- Microsoft Excel (30%, tool)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
@@ -96,6 +88,8 @@ Autodesk AutoCAD, Dassault Systemes SolidWorks, Python, Microsoft Excel, Microso
 ## Core abilities (O*NET importance ≥ 3.5 of 5)
 
 Critical Thinking, Reading Comprehension, Writing, Mathematics, Speaking, Active Listening
+
+> **Limited market data:** fewer than 20 job ads matched this title, so skills rely mainly on ESCO and O*NET.
 
 ---
 Sources: O*NET 31.0 (USDOL/ETA, CC BY 4.0); ESCO v1.2.1 (European Commission); LinkedIn Job Postings 2023–24 (CC BY-SA 4.0); Data Science Job Postings & Skills 2024 (ODC-By).

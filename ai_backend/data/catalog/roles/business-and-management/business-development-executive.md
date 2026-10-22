@@ -4,7 +4,7 @@
 - **Also called:** Business Development Manager
 - **O*NET:** 11-2022.00 Sales Managers
 - **ESCO:** business developer
-- **Job ads analysed:** 313 (Internship / Fresh Graduate 4, Junior 37, Mid-level 245, Senior 18, Lead / Manager 9)
+- **Job ads analysed:** 256 (Internship / Fresh Graduate 3, Junior 33, Mid-level 196, Senior 17, Lead / Manager 7)
 
 ## What the job involves
 
@@ -17,36 +17,36 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads | Junior | Mid-level | Senior |
 |---|---|---|---|---|
 | Business Development **(core)** | 100% | 100% | 100% | 100% |
-| CRM **(core)** | 28% | 27% | 29% | 28% |
-| Meetings | 25% | 14% | 26% | 17% |
-| Objectives | 22% | 24% | 24% | 11% |
-| Presentation | 22% | 38% | 20% | 17% |
-| Network | 21% | 24% | 19% | 39% |
-| Networking | 20% | 22% | 21% | 17% |
-| Proposals | 19% | 16% | 19% | 33% |
-| Prospecting | 19% | 35% | 18% | 11% |
-| Energy | 18% | 8% | 20% | 22% |
-| Pricing | 18% | 14% | 18% | 33% |
-| Excel | 18% | 16% | 18% | 22% |
-| Analytical | 17% | 11% | 19% | 17% |
-| Account Management | 16% | 32% | 15% | 0% |
-| work independently | 14% | 5% | 16% | 17% |
-| Partnerships | 14% | 14% | 14% | 22% |
-| Microsoft Office | 14% | 14% | 14% | 11% |
-| Execution | 14% | 8% | 14% | 22% |
-| Recruiting | 14% | 30% | 12% | 17% |
-| Word | 13% | 16% | 14% | 11% |
-| B2B | 13% | 30% | 13% | 0% |
-| Lead Generation | 12% | 16% | 11% | 11% |
-| Communications | 12% | 8% | 14% | 11% |
-| 401k | 12% | 19% | 12% | 11% |
-| Portfolio | 12% | 16% | 10% | 28% |
-| industrial software | 12% | 14% | 12% | 11% |
-| Vacation | 12% | 16% | 12% | 6% |
+| CRM **(core)** | 30% | 30% | 31% | 29% |
+| Meetings | 25% | 15% | 26% | 18% |
+| Network | 21% | 24% | 18% | 35% |
+| Objectives | 20% | 18% | 22% | 12% |
+| Excel | 20% | 18% | 20% | 24% |
+| Presentation | 20% | 33% | 19% | 18% |
+| Proposals | 19% | 15% | 18% | 29% |
+| Networking | 19% | 21% | 19% | 18% |
+| Prospecting | 18% | 33% | 16% | 12% |
+| Energy | 18% | 6% | 19% | 24% |
+| Word | 16% | 18% | 16% | 12% |
+| work independently | 16% | 6% | 18% | 18% |
+| Pricing | 15% | 6% | 16% | 35% |
+| Analytical | 15% | 12% | 16% | 18% |
+| Microsoft Office | 14% | 15% | 13% | 12% |
+| Partnerships | 14% | 15% | 13% | 18% |
+| Lead Generation | 13% | 18% | 12% | 12% |
+| Holidays | 13% | 24% | 12% | 6% |
+| Account Management | 13% | 24% | 12% | 0% |
+| Communications | 13% | 9% | 14% | 6% |
+| Portfolio | 13% | 15% | 11% | 29% |
+| B2B | 12% | 30% | 11% | 0% |
+| Recruiting | 12% | 30% | 10% | 18% |
+| Work Environment | 12% | 6% | 14% | 6% |
+| 401k | 12% | 18% | 12% | 12% |
+| Metrics | 12% | 24% | 10% | 12% |
 
 ## Soft skills employers mention
 
-Communication (63%), Leadership (33%), Presentations (27%), Communication Skills (24%), Negotiation (23%), Customer Service (17%), Collaboration (15%), Problem Solving (14%), Interpersonal Skills (10%), Presentation Skills (10%)
+Communication (60%), Leadership (29%), Presentations (27%), Negotiation (23%), Communication Skills (23%), Customer Service (17%), Collaboration (14%), Problem Solving (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

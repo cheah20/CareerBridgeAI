@@ -4,7 +4,7 @@
 - **Also called:** Legal Assistant
 - **O*NET:** 23-2011.00 Paralegals and Legal Assistants
 - **ESCO:** legal assistant
-- **Job ads analysed:** 132 (Internship / Fresh Graduate 43, Junior 19, Mid-level 64, Senior 6)
+- **Job ads analysed:** 108 (Internship / Fresh Graduate 24, Junior 18, Mid-level 62, Senior 4)
 
 ## What the job involves
 
@@ -16,43 +16,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
 |---|---|---|---|---|
-| Filing **(core)** | 44% | 40% | 42% | 48% |
-| Litigation **(core)** | 41% | 40% | 32% | 42% |
-| Word **(core)** | 36% | 44% | 37% | 34% |
-| Deadlines **(core)** | 33% | 23% | 47% | 38% |
-| Correspondence **(core)** | 33% | 42% | 16% | 34% |
-| Microsoft Office **(core)** | 31% | 23% | 26% | 39% |
-| Excel **(core)** | 29% | 40% | 26% | 23% |
-| Scheduling **(core)** | 26% | 16% | 26% | 31% |
-| Case Management | 22% | 33% | 10% | 20% |
-| Resume | 21% | 12% | 16% | 31% |
-| Meetings | 21% | 9% | 32% | 28% |
-| Email | 20% | 28% | 26% | 14% |
-| Paid Time Off | 20% | 46% | 16% | 6% |
-| Administrative Support | 20% | 19% | 21% | 16% |
-| Organized | 19% | 14% | 32% | 20% |
-| Organizing | 19% | 5% | 26% | 25% |
-| Calendar | 18% | 23% | 21% | 16% |
-| MS | 17% | 30% | 10% | 12% |
-| Drafting | 17% | 9% | 21% | 20% |
-| Government | 17% | 30% | 10% | 11% |
-| work independently | 17% | 12% | 16% | 20% |
-| Legal research | 16% | 7% | 32% | 17% |
-| High School Diploma | 16% | 30% | 5% | 11% |
-| PTO | 16% | 30% | 5% | 9% |
-| Billing | 15% | 9% | 16% | 16% |
-| Phone | 15% | 9% | 26% | 17% |
-| Life Insurance | 15% | 28% | 10% | 9% |
-| Communications | 14% | 30% | 0% | 9% |
-| Outlook | 14% | 12% | 21% | 16% |
-| Microsoft Office Suite | 14% | 12% | 16% | 16% |
-| Verbal Communication | 13% | 14% | 10% | 14% |
-| Document Management | 13% | 9% | 26% | 11% |
-| Written and Verbal Communication | 12% | 14% | 5% | 14% |
+| Litigation **(core)** | 44% | 54% | 33% | 42% |
+| Filing **(core)** | 43% | 29% | 39% | 48% |
+| Deadlines **(core)** | 37% | 29% | 44% | 39% |
+| Microsoft Office **(core)** | 32% | 21% | 28% | 40% |
+| Word **(core)** | 32% | 25% | 33% | 36% |
+| Correspondence **(core)** | 29% | 29% | 11% | 36% |
+| Scheduling **(core)** | 27% | 17% | 22% | 32% |
+| Meetings | 23% | 8% | 28% | 29% |
+| Resume | 22% | 4% | 17% | 32% |
+| Organized | 21% | 17% | 33% | 21% |
+| Organizing | 21% | 8% | 28% | 24% |
+| Excel | 20% | 17% | 22% | 23% |
+| Case Management | 18% | 25% | 11% | 19% |
+| Drafting | 18% | 12% | 17% | 21% |
+| Legal research | 18% | 8% | 33% | 18% |
+| Phone | 18% | 17% | 22% | 18% |
+| Email | 18% | 21% | 22% | 14% |
+| Administrative Support | 17% | 12% | 17% | 16% |
+| Verbal Communication | 16% | 25% | 11% | 14% |
+| work independently | 16% | 4% | 17% | 21% |
+| Outlook | 16% | 12% | 22% | 16% |
+| Calendar | 16% | 12% | 22% | 16% |
+| Billing | 15% | 8% | 11% | 16% |
+| Written and Verbal Communication | 15% | 25% | 6% | 14% |
+| Document Management | 14% | 17% | 22% | 11% |
+| Life Insurance | 14% | 29% | 11% | 10% |
+| MS | 14% | 21% | 11% | 13% |
+| Microsoft Office Suite | 13% | 4% | 17% | 16% |
+| HR | 12% | 21% | 17% | 8% |
+| Holidays | 12% | 17% | 11% | 11% |
+| Proactive | 12% | 8% | 22% | 11% |
+| Work Environment | 12% | 29% | 11% | 5% |
 
 ## Soft skills employers mention
 
-Communication (62%), Communication Skills (31%), Attention to Detail (29%), Organizational Skills (21%), Problem Solving (13%), Time Management (11%), Interpersonal Skills (11%)
+Communication (64%), Communication Skills (35%), Attention to Detail (30%), Organizational Skills (20%), Time Management (14%), Problem Solving (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

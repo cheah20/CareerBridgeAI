@@ -3,7 +3,7 @@
 - **Field:** Design, Media & Communications
 - **O*NET:** 27-4032.00 Film and Video Editors
 - **ESCO:** video and motion picture editor
-- **Job ads analysed:** 26 (Internship / Fresh Graduate 1, Junior 10, Mid-level 14, Senior 1)
+- **Job ads analysed:** 23 (Junior 9, Mid-level 13, Senior 1)
 
 ## What the job involves
 
@@ -16,53 +16,53 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads |  |
 |---|---|
 | Video **(core)** | 100% |  |
-| Editing **(core)** | 92% |  |
-| Adobe **(core)** | 81% |  |
-| Video editing **(core)** | 73% |  |
-| Graphics **(core)** | 65% |  |
-| Storytelling **(core)** | 54% |  |
-| Motion graphics **(core)** | 50% |  |
-| Social media **(core)** | 50% |  |
-| Photoshop **(core)** | 46% |  |
-| Portfolio **(core)** | 42% |  |
+| Editing **(core)** | 96% |  |
+| Adobe **(core)** | 78% |  |
+| Video editing **(core)** | 78% |  |
+| Graphics **(core)** | 70% |  |
+| Storytelling **(core)** | 56% |  |
+| Social media **(core)** | 56% |  |
+| Motion graphics **(core)** | 52% |  |
+| Photoshop **(core)** | 44% |  |
+| Portfolio **(core)** | 39% |  |
 | work independently **(core)** | 35% |  |
-| Organized **(core)** | 35% |  |
-| Work Experience **(core)** | 31% |  |
-| Adobe After Effects **(core)** | 31% |  |
-| Deadlines **(core)** | 31% |  |
-| Project Management **(core)** | 31% |  |
-| Lighting **(core)** | 31% |  |
-| Video production **(core)** | 27% |  |
-| Onsite **(core)** | 27% |  |
-| Collaborative | 23% |  |
-| Workflow | 23% |  |
-| Workflows | 19% |  |
-| Microsoft Office | 19% |  |
-| DaVinci Resolve | 19% |  |
-| cinematography | 15% |  |
-| Grading | 15% |  |
-| Music | 15% |  |
-| Photography | 15% |  |
-| Team Player | 15% |  |
-| Visual Storytelling | 15% |  |
-| Adobe Premiere Pro | 15% |  |
-| Animation | 15% |  |
-| Interviews | 15% |  |
-| YouTube | 15% |  |
-| Adobe Creative Cloud | 15% |  |
-| Audio editing | 15% |  |
-| Carrying | 15% |  |
-| Cloud | 15% |  |
-| JD | 15% |  |
-| Mac | 15% |  |
-| Operating Systems | 15% |  |
-| Project management skills | 15% |  |
-| Educational | 12% |  |
-| Email | 12% |  |
+| Deadlines **(core)** | 35% |  |
+| Video production **(core)** | 30% |  |
+| Adobe After Effects **(core)** | 30% |  |
+| Project Management **(core)** | 30% |  |
+| Lighting **(core)** | 30% |  |
+| Organized **(core)** | 30% |  |
+| Work Experience **(core)** | 26% |  |
+| Onsite **(core)** | 26% |  |
+| Collaborative | 22% |  |
+| Workflow | 22% |  |
+| DaVinci Resolve | 22% |  |
+| cinematography | 17% |  |
+| Grading | 17% |  |
+| Music | 17% |  |
+| Visual Storytelling | 17% |  |
+| Adobe Premiere Pro | 17% |  |
+| Animation | 17% |  |
+| Interviews | 17% |  |
+| Workflows | 17% |  |
+| YouTube | 17% |  |
+| Microsoft Office | 17% |  |
+| Part Time | 13% |  |
+| Instagram | 13% |  |
+| Photography | 13% |  |
+| Team Player | 13% |  |
+| TikTok | 13% |  |
+| Adobe Creative Suite | 13% |  |
+| 401k | 13% |  |
+| Entrepreneurial | 13% |  |
+| Strong Attention to Detail | 13% |  |
+| Industry Trends | 13% |  |
+| Adobe Creative Cloud | 13% |  |
+| Audio editing | 13% |  |
 
 ## Soft skills employers mention
 
-Communication (58%), Attention to Detail (23%), Collaboration (19%), Communication Skills (19%), Time Management (15%), Creativity (15%), Leadership (12%), Problem Solving (12%), Interpersonal Skills (12%)
+Communication (56%), Attention to Detail (26%), Collaboration (22%), Time Management (17%), Communication Skills (17%), Creativity (17%), Problem Solving (13%), Interpersonal Skills (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

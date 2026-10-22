@@ -5,7 +5,7 @@
 - **Emerging role** (fast-growing in 2025–2026)
 - **O*NET:** 15-1221.00 Computer and Information Research Scientists; 15-2051.00 Data Scientists
 - **ESCO:** artificial intelligence engineer
-- **Job ads analysed:** 552 (Internship / Fresh Graduate 10, Junior 20, Mid-level 260, Senior 196, Lead / Manager 66)
+- **Job ads analysed:** 529 (Internship / Fresh Graduate 7, Junior 20, Mid-level 247, Senior 192, Lead / Manager 63)
 
 ## What the job involves
 
@@ -17,41 +17,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|
-| Machine Learning **(core)** | 86% | 75% | 90% | 82% | 77% |
-| Python **(core)** | 84% | 65% | 84% | 87% | 85% |
-| TensorFlow **(core)** | 62% | 50% | 61% | 65% | 70% |
-| PyTorch **(core)** | 50% | 60% | 36% | 66% | 58% |
-| Deep Learning **(core)** | 38% | 25% | 39% | 45% | 17% |
-| AWS **(core)** | 32% | 20% | 29% | 28% | 61% |
-| Azure | 25% | 20% | 22% | 21% | 48% |
-| Java | 24% | 25% | 13% | 29% | 58% |
-| Computer Science | 22% | 20% | 21% | 25% | 12% |
-| Data Science | 22% | 55% | 19% | 21% | 26% |
-| Pandas | 20% | 5% | 37% | 4% | 8% |
-| NumPy | 20% | 5% | 36% | 4% | 8% |
-| Kubernetes | 19% | 10% | 7% | 35% | 20% |
-| SQL | 18% | 25% | 17% | 17% | 21% |
-| Scala | 18% | 20% | 8% | 21% | 55% |
-| Natural Language Processing | 18% | 20% | 21% | 15% | 17% |
-| Spark | 18% | 5% | 10% | 19% | 47% |
-| Docker | 17% | 0% | 7% | 35% | 14% |
-| Model Deployment | 17% | 15% | 12% | 22% | 20% |
-| Data Preparation | 17% | 0% | 0% | 34% | 38% |
-| Data Pipelines | 16% | 0% | 7% | 19% | 52% |
-| Cloud Computing | 16% | 20% | 10% | 18% | 38% |
-| Agile Methodologies | 16% | 0% | 33% | 0% | 4% |
-| Jupyter | 16% | 0% | 34% | 0% | 0% |
-| Numba | 16% | 0% | 34% | 0% | 0% |
-| GCP | 15% | 10% | 20% | 11% | 15% |
-| Feature Engineering | 15% | 10% | 6% | 32% | 8% |
-| Cloud Services | 15% | 0% | 30% | 2% | 0% |
-| Model Training | 15% | 5% | 20% | 7% | 20% |
-| Data Analysis | 14% | 30% | 19% | 8% | 9% |
-| AI | 14% | 5% | 12% | 17% | 12% |
+| Machine Learning **(core)** | 85% | 75% | 90% | 82% | 76% |
+| Python **(core)** | 84% | 65% | 84% | 87% | 84% |
+| TensorFlow **(core)** | 63% | 50% | 61% | 65% | 71% |
+| PyTorch **(core)** | 50% | 60% | 35% | 65% | 59% |
+| Deep Learning **(core)** | 38% | 25% | 38% | 46% | 13% |
+| AWS **(core)** | 32% | 20% | 30% | 27% | 64% |
+| Azure **(core)** | 25% | 20% | 24% | 20% | 51% |
+| Java | 23% | 25% | 10% | 28% | 57% |
+| NumPy | 21% | 5% | 38% | 4% | 8% |
+| Data Science | 21% | 55% | 18% | 19% | 24% |
+| Pandas | 21% | 5% | 38% | 4% | 8% |
+| Computer Science | 19% | 20% | 18% | 23% | 8% |
+| Kubernetes | 19% | 10% | 7% | 36% | 19% |
+| SQL | 18% | 25% | 17% | 17% | 22% |
+| Scala | 18% | 20% | 7% | 20% | 56% |
+| Docker | 18% | 0% | 7% | 35% | 13% |
+| Model Deployment | 17% | 15% | 13% | 23% | 21% |
+| Data Preparation | 17% | 0% | 0% | 34% | 40% |
+| Natural Language Processing | 17% | 20% | 19% | 16% | 14% |
+| Jupyter | 17% | 0% | 36% | 0% | 0% |
+| Agile Methodologies | 17% | 0% | 34% | 0% | 3% |
+| Cloud Computing | 16% | 20% | 9% | 18% | 40% |
+| Spark | 16% | 5% | 8% | 18% | 48% |
+| Numba | 16% | 0% | 35% | 0% | 0% |
+| Data Pipelines | 16% | 0% | 7% | 18% | 52% |
+| GCP | 16% | 10% | 21% | 11% | 16% |
+| Cloud Services | 16% | 0% | 32% | 2% | 0% |
+| Feature Engineering | 15% | 10% | 4% | 32% | 6% |
+| Model Training | 15% | 5% | 21% | 5% | 21% |
+| Model Evaluation | 15% | 10% | 4% | 31% | 6% |
+| Scikitlearn | 15% | 40% | 4% | 16% | 48% |
+| Data Analysis | 14% | 30% | 19% | 8% | 10% |
 
 ## Soft skills employers mention
 
-Communication (20%), Communication Skills (13%), Collaboration (13%), Problem Solving (11%)
+Communication (19%), Communication Skills (12%), Collaboration (12%), Problem Solving (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

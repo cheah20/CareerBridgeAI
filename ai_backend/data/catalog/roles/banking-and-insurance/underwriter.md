@@ -4,7 +4,7 @@
 - **Also called:** Insurance Underwriter
 - **O*NET:** 13-2053.00 Insurance Underwriters; 13-2072.00 Loan Officers
 - **ESCO:** insurance underwriter
-- **Job ads analysed:** 119 (Internship / Fresh Graduate 3, Junior 15, Mid-level 54, Senior 44, Lead / Manager 3)
+- **Job ads analysed:** 85 (Internship / Fresh Graduate 3, Junior 12, Mid-level 35, Senior 32, Lead / Manager 3)
 
 ## What the job involves
 
@@ -14,44 +14,44 @@ Review individual applications for insurance to evaluate degree of risk involved
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Junior | Mid-level | Senior |
-|---|---|---|---|---|
-| Underwriting **(core)** | 94% | 87% | 94% | 100% |
-| Risk **(core)** | 68% | 60% | 61% | 82% |
-| Risks **(core)** | 45% | 33% | 50% | 43% |
-| Pricing **(core)** | 41% | 33% | 35% | 50% |
-| Analytical **(core)** | 35% | 40% | 32% | 41% |
-| Analyze **(core)** | 30% | 13% | 30% | 39% |
-| Claims **(core)** | 28% | 13% | 32% | 30% |
-| Regulatory | 22% | 13% | 17% | 32% |
-| Profitability | 21% | 27% | 7% | 32% |
-| Paid Time Off | 21% | 33% | 13% | 27% |
-| Collaborative | 19% | 7% | 18% | 27% |
-| Excel | 19% | 27% | 24% | 14% |
-| Equity | 19% | 33% | 18% | 18% |
-| Brokerage | 19% | 7% | 24% | 14% |
-| Recommendations | 18% | 27% | 22% | 14% |
-| Portfolio | 18% | 27% | 13% | 23% |
-| Microsoft Office | 18% | 7% | 15% | 27% |
-| Written Communication | 15% | 33% | 9% | 18% |
-| Loans | 15% | 27% | 18% | 7% |
-| Email | 15% | 13% | 17% | 16% |
-| Retention | 15% | 7% | 13% | 18% |
-| Risk Management | 15% | 13% | 6% | 27% |
-| Integrity | 14% | 33% | 9% | 14% |
-| PTO | 14% | 7% | 13% | 20% |
-| Independent | 14% | 13% | 18% | 9% |
-| Risk Assessment | 13% | 13% | 9% | 18% |
-| Responsibility | 13% | 20% | 11% | 11% |
-| Resource | 13% | 13% | 11% | 16% |
-| Verbal and Written Communication | 13% | 20% | 9% | 16% |
-| Reasonable accommodations | 13% | 7% | 17% | 9% |
-| Guidance | 13% | 13% | 7% | 18% |
-| LESS | 13% | 13% | 9% | 18% |
+| Skill | All ads | Mid-level | Senior |
+|---|---|---|---|
+| Underwriting **(core)** | 92% | 91% | 100% |
+| Risk **(core)** | 71% | 66% | 84% |
+| Risks **(core)** | 45% | 49% | 44% |
+| Pricing **(core)** | 41% | 37% | 50% |
+| Analytical **(core)** | 38% | 40% | 34% |
+| Analyze **(core)** | 31% | 31% | 38% |
+| Claims **(core)** | 26% | 29% | 31% |
+| Portfolio | 24% | 20% | 25% |
+| Excel | 22% | 29% | 16% |
+| Profitability | 21% | 11% | 25% |
+| Regulatory | 21% | 14% | 31% |
+| Microsoft Office | 20% | 20% | 28% |
+| Written Communication | 20% | 14% | 25% |
+| Equity | 19% | 17% | 19% |
+| Recommendations | 18% | 17% | 16% |
+| Paid Time Off | 18% | 11% | 25% |
+| Verbal and Written Communication | 16% | 14% | 22% |
+| Collaborative | 15% | 11% | 25% |
+| Integrity | 15% | 11% | 12% |
+| Guidance | 15% | 11% | 19% |
+| Word | 14% | 14% | 12% |
+| Reasonable accommodations | 14% | 17% | 12% |
+| Hybrid Work | 14% | 17% | 16% |
+| Independent | 14% | 20% | 9% |
+| Retention | 14% | 11% | 19% |
+| Risk Management | 14% | 6% | 22% |
+| Objectives | 13% | 3% | 19% |
+| Resource | 13% | 14% | 12% |
+| Written communication skills | 13% | 9% | 19% |
+| financial statements | 13% | 11% | 9% |
+| Holidays | 13% | 9% | 19% |
+| Loans | 13% | 11% | 9% |
 
 ## Soft skills employers mention
 
-Communication (69%), Communication Skills (27%), Negotiation (24%), Decision Making (20%), Customer Service (19%), Problem Solving (15%), Collaboration (15%), Analytical Skills (14%), Leadership (14%), Time Management (13%)
+Communication (73%), Communication Skills (29%), Negotiation (26%), Decision Making (22%), Customer Service (21%), Problem Solving (20%), Leadership (15%), Time Management (14%), Collaboration (13%), Analytical Skills (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

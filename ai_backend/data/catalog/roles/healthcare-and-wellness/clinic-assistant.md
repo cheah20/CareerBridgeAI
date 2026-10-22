@@ -4,7 +4,7 @@
 - **Also called:** Medical Assistant, Healthcare Assistant
 - **O*NET:** 31-9092.00 Medical Assistants
 - **ESCO:** healthcare assistant
-- **Job ads analysed:** 584 (Internship / Fresh Graduate 425, Junior 16, Mid-level 129, Senior 5, Lead / Manager 9)
+- **Job ads analysed:** 405 (Internship / Fresh Graduate 291, Junior 7, Mid-level 96, Senior 5, Lead / Manager 6)
 
 ## What the job involves
 
@@ -14,47 +14,47 @@ Perform administrative and certain clinical duties under the direction of a phys
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
-|---|---|---|---|---|
-| Patient Care **(core)** | 70% | 69% | 69% | 74% |
-| Clinical **(core)** | 69% | 73% | 44% | 61% |
-| High School Diploma **(core)** | 47% | 48% | 44% | 43% |
-| BLS **(core)** | 37% | 40% | 25% | 29% |
-| Testing **(core)** | 35% | 37% | 50% | 27% |
-| Health Care **(core)** | 30% | 32% | 12% | 26% |
-| history **(core)** | 29% | 28% | 62% | 30% |
-| Medical Records **(core)** | 26% | 24% | 12% | 36% |
-| Scheduling **(core)** | 26% | 24% | 0% | 37% |
-| Basic Life Support (BLS) **(core)** | 26% | 26% | 19% | 26% |
-| GED | 25% | 28% | 50% | 14% |
-| Nursing | 24% | 24% | 6% | 26% |
-| Phone | 24% | 23% | 38% | 26% |
-| Phlebotomy | 24% | 21% | 12% | 32% |
-| primary care | 22% | 25% | 12% | 12% |
-| terminology | 21% | 16% | 12% | 42% |
-| Medical Terminology | 21% | 15% | 12% | 41% |
-| Laboratory | 20% | 19% | 31% | 24% |
-| Equity | 20% | 21% | 6% | 17% |
-| EMR | 20% | 19% | 12% | 24% |
-| CPR | 19% | 16% | 6% | 26% |
-| Paid Time Off | 19% | 22% | 25% | 11% |
-| Infection Control | 18% | 19% | 6% | 17% |
-| Excellence | 17% | 18% | 19% | 15% |
-| English | 16% | 15% | 19% | 22% |
-| Policies and procedures | 16% | 12% | 50% | 22% |
-| Responsibility | 15% | 16% | 25% | 14% |
-| Work Experience | 15% | 19% | 6% | 5% |
-| BLS Certification (AHA) | 15% | 16% | 12% | 8% |
-| Affirmative Action | 14% | 15% | 38% | 9% |
-| Compassion | 14% | 19% | 0% | 2% |
-| 401k | 14% | 15% | 25% | 7% |
-| Computer skills | 14% | 12% | 12% | 20% |
-| Inventory | 14% | 11% | 25% | 20% |
-| Charts | 13% | 13% | 0% | 16% |
+| Skill | All ads | Internship / Fresh Graduate | Mid-level |
+|---|---|---|---|
+| Patient Care **(core)** | 69% | 68% | 76% |
+| Clinical **(core)** | 69% | 74% | 53% |
+| High School Diploma **(core)** | 45% | 47% | 42% |
+| BLS **(core)** | 35% | 37% | 29% |
+| Testing **(core)** | 32% | 34% | 27% |
+| Health Care **(core)** | 31% | 34% | 24% |
+| Scheduling **(core)** | 28% | 29% | 30% |
+| history **(core)** | 27% | 26% | 26% |
+| Medical Records **(core)** | 26% | 22% | 42% |
+| Nursing **(core)** | 26% | 26% | 27% |
+| Phlebotomy | 24% | 22% | 31% |
+| Basic Life Support (BLS) | 24% | 24% | 24% |
+| terminology | 24% | 17% | 44% |
+| GED | 24% | 29% | 14% |
+| Medical Terminology | 23% | 16% | 43% |
+| Phone | 22% | 22% | 22% |
+| primary care | 21% | 25% | 10% |
+| CPR | 20% | 18% | 24% |
+| Laboratory | 20% | 19% | 24% |
+| Equity | 19% | 21% | 16% |
+| Excellence | 18% | 19% | 17% |
+| Policies and procedures | 18% | 16% | 21% |
+| EMR | 17% | 16% | 24% |
+| Paid Time Off | 17% | 21% | 8% |
+| Work Experience | 16% | 20% | 6% |
+| English | 16% | 14% | 23% |
+| Infection Control | 16% | 16% | 16% |
+| Charts | 15% | 15% | 16% |
+| Compassion | 15% | 19% | 2% |
+| HIPAA | 14% | 11% | 20% |
+| Computer skills | 14% | 10% | 24% |
+| surgery | 13% | 11% | 19% |
+| BLS Certification (AHA) | 13% | 16% | 7% |
+| Maintenance | 13% | 14% | 9% |
+| Affirmative Action | 13% | 14% | 9% |
 
 ## Soft skills employers mention
 
-Communication (36%), Customer Service (29%), Communication Skills (16%), Problem Solving (13%), Attention to Detail (11%), Leadership (11%)
+Communication (31%), Customer Service (23%), Communication Skills (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

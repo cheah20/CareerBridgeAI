@@ -4,7 +4,7 @@
 - **Also called:** Risk Executive, Risk Manager
 - **O*NET:** 13-2054.00 Financial Risk Specialists; 11-9199.02 Compliance Managers; 15-2031.00 Operations Research Analysts
 - **ESCO:** —
-- **Job ads analysed:** 113 (Internship / Fresh Graduate 2, Junior 5, Mid-level 71, Senior 28, Lead / Manager 7)
+- **Job ads analysed:** 80 (Junior 5, Mid-level 56, Senior 16, Lead / Manager 3)
 
 ## What the job involves
 
@@ -16,44 +16,41 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level | Senior |
 |---|---|---|---|
-| Risk **(core)** | 93% | 92% | 93% |
-| Risk Management **(core)** | 75% | 72% | 86% |
-| Risks **(core)** | 63% | 58% | 68% |
-| Regulatory **(core)** | 40% | 48% | 11% |
-| Implementation **(core)** | 35% | 39% | 29% |
-| Analytical **(core)** | 33% | 30% | 21% |
-| Assessments **(core)** | 26% | 24% | 21% |
-| Controls **(core)** | 26% | 24% | 32% |
-| Governance **(core)** | 26% | 20% | 39% |
-| Influence | 25% | 17% | 46% |
-| Testing | 24% | 27% | 18% |
-| Project Management | 23% | 24% | 18% |
-| Objectives | 20% | 16% | 39% |
-| Paid Time Off | 20% | 14% | 25% |
-| Excel | 20% | 20% | 18% |
-| Analyze | 20% | 20% | 14% |
-| Recommendations | 19% | 13% | 25% |
-| Analytics | 19% | 17% | 29% |
-| Quantitative | 19% | 17% | 21% |
-| Independent | 18% | 20% | 11% |
-| Financial Services | 18% | 16% | 18% |
-| Audit | 17% | 17% | 18% |
-| Equity | 17% | 20% | 7% |
-| Banking | 17% | 14% | 7% |
-| pregnancy | 17% | 17% | 11% |
-| Risk Assessment | 16% | 13% | 21% |
-| Validation | 16% | 17% | 18% |
-| Policies and procedures | 15% | 11% | 18% |
-| Maintenance | 15% | 16% | 7% |
-| Risk Mitigation | 15% | 14% | 14% |
-| Trust | 15% | 11% | 32% |
-| Economics | 15% | 16% | 21% |
-| Execution | 14% | 14% | 14% |
-| Risk Assessments | 14% | 13% | 11% |
+| Risk **(core)** | 90% | 89% | 88% |
+| Risk Management **(core)** | 71% | 73% | 75% |
+| Risks **(core)** | 56% | 55% | 44% |
+| Regulatory **(core)** | 39% | 45% | 19% |
+| Implementation **(core)** | 35% | 38% | 31% |
+| Analytical **(core)** | 28% | 29% | 6% |
+| Assessments | 24% | 23% | 19% |
+| Governance | 24% | 23% | 31% |
+| Testing | 24% | 27% | 12% |
+| Controls | 22% | 23% | 19% |
+| Project Management | 22% | 29% | 6% |
+| Excel | 21% | 21% | 19% |
+| Risk Assessment | 19% | 14% | 31% |
+| Execution | 18% | 18% | 19% |
+| Data Analysis | 18% | 16% | 19% |
+| Analyze | 18% | 20% | 6% |
+| Audit | 16% | 18% | 12% |
+| Objectives | 16% | 18% | 19% |
+| Maintenance | 16% | 16% | 6% |
+| Financial Services | 16% | 14% | 19% |
+| Quantitative | 16% | 18% | 6% |
+| Banking | 16% | 14% | 6% |
+| Paid Time Off | 15% | 11% | 6% |
+| Risk Analysis | 15% | 11% | 6% |
+| Independent | 14% | 16% | 6% |
+| Recommendations | 14% | 12% | 0% |
+| Policies and procedures | 14% | 12% | 19% |
+| Influence | 14% | 14% | 19% |
+| Equity | 14% | 16% | 6% |
+| Investment | 14% | 7% | 19% |
+| Risk Mitigation | 14% | 14% | 6% |
 
 ## Soft skills employers mention
 
-Communication (55%), Leadership (41%), Collaboration (26%), Communication Skills (24%), Presentations (16%), Attention to Detail (16%), Problem Solving (13%)
+Communication (46%), Leadership (35%), Collaboration (24%), Presentations (16%), Attention to Detail (16%), Communication Skills (15%), Problem Solving (14%), Decision Making (11%), Analytical Skills (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

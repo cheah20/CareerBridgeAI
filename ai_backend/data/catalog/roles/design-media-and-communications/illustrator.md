@@ -4,7 +4,7 @@
 - **Also called:** Artist
 - **O*NET:** 27-1013.00 Fine Artists, Including Painters, Sculptors, and Illustrators; 27-1012.00 Craft Artists; 27-1014.00 Special Effects Artists and Animators
 - **ESCO:** illustrator
-- **Job ads analysed:** 61 (Internship / Fresh Graduate 18, Junior 7, Mid-level 20, Senior 12, Lead / Manager 4)
+- **Job ads analysed:** 50 (Internship / Fresh Graduate 13, Junior 6, Mid-level 19, Senior 8, Lead / Manager 4)
 
 ## What the job involves
 
@@ -14,42 +14,40 @@ Create original artwork using any of a wide variety of media and techniques.
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Mid-level |
-|---|---|---|---|
-| Photoshop **(core)** | 33% | 44% | 20% |
-| Adobe **(core)** | 30% | 33% | 25% |
-| Portfolio **(core)** | 28% | 39% | 15% |
-| Graphics **(core)** | 28% | 50% | 10% |
-| Animation **(core)** | 26% | 28% | 15% |
-| Deadlines | 21% | 33% | 10% |
-| Email | 20% | 22% | 10% |
-| Equity | 20% | 6% | 10% |
-| Video | 20% | 17% | 15% |
-| pregnancy | 18% | 28% | 20% |
-| Adobe Creative Suite | 18% | 22% | 10% |
-| Graphic Design | 18% | 33% | 20% |
-| Recruiting | 18% | 6% | 15% |
-| Work Environment | 16% | 17% | 25% |
-| Python | 16% | 11% | 10% |
-| Organized | 15% | 11% | 15% |
-| Part Time | 15% | 17% | 15% |
-| Reasonable Accommodation | 15% | 17% | 5% |
-| Excel | 13% | 6% | 15% |
-| Go | 13% | 11% | 10% |
-| Character | 13% | 6% | 5% |
-| Lighting | 13% | 22% | 10% |
-| Respect | 13% | 0% | 0% |
-| Vacation | 12% | 0% | 5% |
-| Editing | 12% | 17% | 5% |
-| Shape | 12% | 11% | 10% |
-| Human Resources | 12% | 11% | 0% |
-| Resume | 12% | 6% | 5% |
-| Modeling | 12% | 17% | 5% |
-| Relevant Experience | 12% | 6% | 0% |
+| Skill | All ads | Mid-level |
+|---|---|---|
+| Photoshop **(core)** | 34% | 21% |
+| Adobe **(core)** | 30% | 26% |
+| Animation **(core)** | 26% | 16% |
+| Portfolio | 24% | 16% |
+| Video | 24% | 16% |
+| Graphics | 22% | 10% |
+| Holidays | 20% | 16% |
+| Organized | 18% | 16% |
+| pregnancy | 18% | 21% |
+| Email | 18% | 10% |
+| Graphic Design | 18% | 21% |
+| Equity | 18% | 10% |
+| Work Environment | 16% | 21% |
+| Adobe Creative Suite | 16% | 10% |
+| Recruiting | 16% | 16% |
+| Part Time | 14% | 16% |
+| Vacation | 14% | 5% |
+| Excel | 14% | 16% |
+| Editing | 14% | 5% |
+| Deadlines | 14% | 10% |
+| Python | 14% | 10% |
+| Ownership | 14% | 10% |
+| Paid Holidays | 12% | 10% |
+| Reasonable Accommodation | 12% | 5% |
+| Resume | 12% | 5% |
+| Lighting | 12% | 10% |
+| Integrity | 12% | 5% |
+| Partnership | 10% | 10% |
 
 ## Soft skills employers mention
 
-Communication (54%), Collaboration (36%), Creativity (21%), Attention to Detail (12%), Communication Skills (12%)
+Communication (50%), Collaboration (38%), Creativity (20%), Attention to Detail (14%), Communication Skills (14%), Problem Solving (10%), Organizational Skills (10%), Time Management (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

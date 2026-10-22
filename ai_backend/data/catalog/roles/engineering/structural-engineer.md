@@ -3,7 +3,7 @@
 - **Field:** Engineering
 - **O*NET:** 17-2051.00 Civil Engineers
 - **ESCO:** civil engineer
-- **Job ads analysed:** 116 (Internship / Fresh Graduate 22, Junior 10, Mid-level 46, Senior 31, Lead / Manager 7)
+- **Job ads analysed:** 87 (Internship / Fresh Graduate 15, Junior 10, Mid-level 38, Senior 18, Lead / Manager 6)
 
 ## What the job involves
 
@@ -15,43 +15,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Mid-level | Senior |
 |---|---|---|---|---|
-| Structural Engineering **(core)** | 56% | 68% | 54% | 32% |
-| industrial software **(core)** | 39% | 32% | 37% | 55% |
-| Revit **(core)** | 39% | 50% | 26% | 55% |
-| AutoCAD **(core)** | 34% | 55% | 37% | 23% |
-| PE **(core)** | 32% | 55% | 30% | 23% |
-| Civil Engineering **(core)** | 31% | 46% | 30% | 26% |
-| Methods **(core)** | 27% | 14% | 24% | 52% |
-| Energy **(core)** | 25% | 23% | 30% | 19% |
-| Recommendations | 24% | 18% | 24% | 36% |
-| Consulting | 23% | 46% | 22% | 13% |
-| Coordination | 23% | 32% | 33% | 13% |
-| Infrastructure | 23% | 46% | 22% | 13% |
-| Paid Time Off | 23% | 18% | 11% | 45% |
-| Budget | 22% | 36% | 22% | 13% |
-| Building Codes | 21% | 14% | 28% | 10% |
-| Guidance | 21% | 14% | 24% | 19% |
-| Meetings | 21% | 32% | 24% | 13% |
-| Drafting | 21% | 14% | 17% | 42% |
-| Manufacturing | 21% | 18% | 22% | 19% |
-| Packages | 20% | 23% | 13% | 39% |
-| Inspections | 20% | 32% | 26% | 6% |
-| Ownership | 20% | 4% | 17% | 45% |
-| Quality Control | 18% | 23% | 6% | 36% |
-| Excel | 17% | 18% | 17% | 10% |
-| Electrical | 17% | 18% | 22% | 3% |
-| Construction Management | 16% | 27% | 9% | 13% |
-| Project Management | 16% | 23% | 13% | 23% |
-| Project Delivery | 16% | 4% | 11% | 42% |
-| Installation | 16% | 9% | 20% | 16% |
-| Mechanical | 15% | 9% | 15% | 3% |
-| Strong Communication | 15% | 4% | 4% | 39% |
-| Health Care | 15% | 4% | 11% | 36% |
-| Architectural Engineering | 14% | 4% | 4% | 39% |
+| Structural Engineering **(core)** | 63% | 60% | 58% | 56% |
+| AutoCAD **(core)** | 38% | 53% | 42% | 33% |
+| PE **(core)** | 36% | 60% | 34% | 33% |
+| Civil Engineering **(core)** | 36% | 53% | 34% | 33% |
+| industrial software **(core)** | 34% | 33% | 42% | 33% |
+| Revit **(core)** | 33% | 53% | 29% | 28% |
+| Building Codes **(core)** | 26% | 20% | 32% | 17% |
+| Inspections | 24% | 33% | 32% | 11% |
+| Coordination | 23% | 33% | 26% | 22% |
+| Manufacturing | 23% | 13% | 24% | 28% |
+| Meetings | 22% | 27% | 26% | 22% |
+| Excel | 21% | 13% | 21% | 17% |
+| Energy | 21% | 13% | 24% | 22% |
+| Budget | 20% | 33% | 13% | 22% |
+| Installation | 20% | 13% | 21% | 28% |
+| Consulting | 18% | 40% | 13% | 17% |
+| Construction Management | 18% | 27% | 10% | 22% |
+| Guidance | 18% | 20% | 13% | 28% |
+| Infrastructure | 18% | 27% | 13% | 22% |
+| Project Management | 18% | 20% | 16% | 33% |
+| Electrical | 17% | 20% | 16% | 6% |
+| Mechanical | 17% | 13% | 13% | 6% |
+| Methods | 16% | 13% | 13% | 33% |
+| Testing | 16% | 7% | 18% | 22% |
+| Resume | 16% | 40% | 13% | 11% |
+| Word | 16% | 13% | 21% | 22% |
+| Verbal Communication | 15% | 0% | 24% | 0% |
+| Writing | 15% | 20% | 5% | 11% |
+| Holidays | 15% | 20% | 10% | 6% |
+| Deadlines | 15% | 27% | 18% | 11% |
+| Vendors | 14% | 13% | 13% | 22% |
+| PE License | 14% | 13% | 16% | 22% |
 
 ## Soft skills employers mention
 
-Communication (59%), Communication Skills (27%), Collaboration (11%), Problem Solving (10%)
+Communication (56%), Communication Skills (29%), Problem Solving (13%), Collaboration (12%), Leadership (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

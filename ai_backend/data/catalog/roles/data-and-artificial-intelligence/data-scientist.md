@@ -3,7 +3,7 @@
 - **Field:** Data & Artificial Intelligence
 - **O*NET:** 15-2051.00 Data Scientists
 - **ESCO:** data scientist
-- **Job ads analysed:** 1,053 (Internship / Fresh Graduate 52, Junior 80, Mid-level 341, Senior 455, Lead / Manager 125)
+- **Job ads analysed:** 982 (Internship / Fresh Graduate 36, Junior 71, Mid-level 329, Senior 434, Lead / Manager 112)
 
 ## What the job involves
 
@@ -15,47 +15,46 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| Python **(core)** | 84% | 83% | 84% | 79% | 88% | 85% |
-| Machine Learning **(core)** | 75% | 71% | 70% | 68% | 78% | 84% |
-| Data Science **(core)** | 69% | 77% | 70% | 62% | 72% | 75% |
-| SQL **(core)** | 58% | 62% | 49% | 56% | 59% | 64% |
-| Statistics **(core)** | 43% | 67% | 46% | 38% | 42% | 46% |
-| Data Visualization **(core)** | 34% | 15% | 40% | 39% | 31% | 34% |
-| Data Analysis **(core)** | 33% | 40% | 39% | 36% | 29% | 34% |
-| Computer Science **(core)** | 27% | 60% | 40% | 21% | 25% | 31% |
-| Mathematics | 23% | 48% | 25% | 17% | 22% | 29% |
-| Spark | 21% | 12% | 21% | 17% | 24% | 27% |
-| Analytics | 21% | 52% | 22% | 18% | 18% | 24% |
-| Tableau | 21% | 8% | 25% | 23% | 19% | 22% |
-| Data Mining | 20% | 15% | 16% | 15% | 22% | 27% |
-| Data Analytics | 19% | 23% | 22% | 18% | 21% | 10% |
-| AWS | 19% | 12% | 12% | 18% | 21% | 23% |
-| Artificial Intelligence | 19% | 19% | 19% | 19% | 18% | 17% |
-| Statistical Analysis | 17% | 15% | 20% | 15% | 18% | 16% |
-| Programming | 17% | 54% | 19% | 14% | 13% | 21% |
-| Algorithms | 16% | 50% | 12% | 13% | 14% | 22% |
-| Deep Learning | 16% | 8% | 10% | 14% | 21% | 15% |
-| TensorFlow | 16% | 4% | 11% | 12% | 22% | 16% |
-| PyTorch | 16% | 6% | 9% | 13% | 22% | 16% |
-| Natural Language Processing | 16% | 21% | 12% | 16% | 17% | 11% |
-| Modeling | 15% | 54% | 18% | 12% | 11% | 21% |
-| Statistical Software | 15% | 62% | 10% | 13% | 10% | 19% |
-| Hadoop | 14% | 17% | 15% | 10% | 16% | 15% |
-| Insights | 14% | 58% | 14% | 11% | 10% | 14% |
-| Statistical Modeling | 13% | 10% | 10% | 11% | 16% | 13% |
-| Data Engineering | 13% | 17% | 12% | 9% | 13% | 19% |
-| Java | 12% | 8% | 22% | 11% | 12% | 13% |
-| AI | 12% | 33% | 8% | 11% | 9% | 19% |
-| Predictive Modeling | 12% | 10% | 14% | 11% | 10% | 17% |
-| Azure | 11% | 10% | 6% | 10% | 11% | 17% |
+| Python **(core)** | 84% | 78% | 82% | 79% | 87% | 86% |
+| Machine Learning **(core)** | 74% | 64% | 69% | 67% | 78% | 86% |
+| Data Science **(core)** | 68% | 75% | 66% | 62% | 71% | 74% |
+| SQL **(core)** | 57% | 53% | 51% | 56% | 58% | 62% |
+| Statistics **(core)** | 40% | 64% | 41% | 36% | 41% | 42% |
+| Data Visualization **(core)** | 35% | 19% | 35% | 40% | 32% | 38% |
+| Data Analysis **(core)** | 32% | 33% | 41% | 35% | 28% | 30% |
+| Computer Science | 24% | 56% | 32% | 20% | 24% | 27% |
+| Spark | 22% | 14% | 24% | 17% | 24% | 29% |
+| Tableau | 21% | 6% | 18% | 23% | 20% | 24% |
+| Mathematics | 20% | 44% | 18% | 16% | 20% | 25% |
+| Data Mining | 20% | 14% | 18% | 15% | 22% | 30% |
+| Artificial Intelligence | 19% | 11% | 21% | 19% | 19% | 18% |
+| AWS | 18% | 17% | 14% | 18% | 19% | 20% |
+| Data Analytics | 18% | 22% | 17% | 18% | 19% | 12% |
+| Analytics | 17% | 42% | 16% | 16% | 16% | 18% |
+| TensorFlow | 17% | 3% | 13% | 12% | 22% | 17% |
+| Statistical Analysis | 17% | 14% | 22% | 14% | 18% | 16% |
+| Deep Learning | 16% | 6% | 11% | 14% | 20% | 17% |
+| PyTorch | 16% | 3% | 10% | 13% | 21% | 17% |
+| Natural Language Processing | 16% | 17% | 14% | 16% | 16% | 12% |
+| Algorithms | 14% | 42% | 13% | 13% | 13% | 16% |
+| Hadoop | 14% | 14% | 17% | 10% | 16% | 17% |
+| Statistical Modeling | 13% | 11% | 10% | 12% | 15% | 14% |
+| Programming | 13% | 50% | 11% | 13% | 11% | 13% |
+| Java | 12% | 11% | 17% | 11% | 12% | 13% |
+| Azure | 12% | 14% | 7% | 11% | 12% | 19% |
+| Predictive Modeling | 12% | 8% | 16% | 12% | 11% | 18% |
+| Modeling | 12% | 42% | 16% | 12% | 8% | 15% |
+| Data Engineering | 12% | 6% | 13% | 9% | 13% | 16% |
+| Statistical Software | 11% | 61% | 10% | 10% | 7% | 12% |
+| Business Intelligence | 11% | 3% | 7% | 10% | 12% | 12% |
 
 ## Soft skills employers mention
 
-Communication (31%), Collaboration (16%), Problem Solving (15%), Communication Skills (15%), Leadership (10%)
+Communication (29%), Problem Solving (15%), Collaboration (15%), Communication Skills (14%), Leadership (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Amazon Web Services AWS, Apache Hadoop, Apache Spark, C++, Git, Microsoft Azure, Microsoft Excel, Microsoft Power BI, Microsoft PowerPoint, Python, R, PyTorch, Snowflake, SAS, TensorFlow, The MathWorks MATLAB, Tableau, Structured query language SQL, pandas, NumPy
+Amazon Web Services AWS, Apache Hadoop, Apache Spark, C++, Git, Microsoft Azure, Microsoft Excel, Microsoft Power BI, Microsoft PowerPoint, PyTorch, Python, SAS, R, TensorFlow, Tableau, Snowflake, Structured query language SQL, The MathWorks MATLAB, pandas, NumPy
 
 ## Essential skills (ESCO)
 

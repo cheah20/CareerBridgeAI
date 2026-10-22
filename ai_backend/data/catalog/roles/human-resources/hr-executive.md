@@ -4,7 +4,7 @@
 - **Also called:** Human Resources Executive, Human Resources Specialist, HR Generalist
 - **O*NET:** 13-1071.00 Human Resources Specialists
 - **ESCO:** human resources officer
-- **Job ads analysed:** 74 (Internship / Fresh Graduate 10, Junior 8, Mid-level 46, Senior 9, Lead / Manager 1)
+- **Job ads analysed:** 66 (Internship / Fresh Graduate 10, Junior 8, Mid-level 39, Senior 9)
 
 ## What the job involves
 
@@ -16,51 +16,48 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| HR **(core)** | 96% | 98% |
-| Human Resources **(core)** | 86% | 85% |
-| Employee Relations **(core)** | 58% | 67% |
-| Onboarding **(core)** | 54% | 48% |
+| HR **(core)** | 96% | 97% |
+| Human Resources **(core)** | 88% | 87% |
+| Employee Relations **(core)** | 55% | 64% |
+| Onboarding **(core)** | 55% | 49% |
 | Payroll **(core)** | 47% | 46% |
-| Recruiting **(core)** | 38% | 44% |
-| Recruitment **(core)** | 36% | 41% |
-| HRIS **(core)** | 35% | 39% |
-| Guidance **(core)** | 32% | 35% |
-| Performance Management **(core)** | 30% | 35% |
-| Manufacturing **(core)** | 30% | 33% |
-| Resource **(core)** | 28% | 28% |
-| Confidentiality **(core)** | 27% | 24% |
-| company policies **(core)** | 26% | 26% |
-| Investigations **(core)** | 26% | 26% |
-| Policies and procedures **(core)** | 26% | 28% |
-| Excel | 24% | 30% |
-| Enrollment | 22% | 24% |
-| Business Administration | 22% | 22% |
-| Resolution | 20% | 24% |
-| Microsoft Office | 20% | 24% |
-| Talent Management | 20% | 20% |
-| Meetings | 20% | 22% |
-| Communications | 19% | 22% |
-| Work Environment | 19% | 22% |
-| Implementation | 19% | 24% |
-| Interviews | 19% | 22% |
-| Acquisition | 18% | 24% |
-| Coordination | 18% | 22% |
-| Talent Acquisition | 16% | 22% |
-| Reasonable accommodations | 16% | 22% |
-| Affirmative Action | 16% | 15% |
+| Recruiting **(core)** | 39% | 46% |
+| HRIS **(core)** | 36% | 41% |
+| Guidance **(core)** | 33% | 36% |
+| Recruitment **(core)** | 33% | 36% |
+| Resource **(core)** | 29% | 31% |
+| Performance Management **(core)** | 27% | 33% |
+| Manufacturing **(core)** | 27% | 28% |
+| Confidentiality **(core)** | 26% | 20% |
+| Policies and procedures | 24% | 28% |
+| Business Administration | 24% | 26% |
+| company policies | 23% | 23% |
+| Investigations | 23% | 20% |
+| Implementation | 21% | 28% |
+| Enrollment | 20% | 20% |
+| Interviews | 20% | 23% |
+| Meetings | 20% | 20% |
+| Resolution | 18% | 20% |
+| Work Environment | 18% | 20% |
+| Communications | 18% | 20% |
+| Excel | 18% | 23% |
+| Affirmative Action | 18% | 18% |
+| Talent Management | 18% | 18% |
+| Acquisition | 17% | 23% |
+| Microsoft Office | 17% | 20% |
 | employment law | 15% | 20% |
-| Training and Development | 15% | 17% |
-| Retention | 15% | 17% |
-| Analytical | 15% | 20% |
-| Special Projects | 14% | 13% |
-| Integrity | 14% | 17% |
-| Maintenance | 14% | 13% |
-| Testing | 14% | 17% |
-| Employee Benefits | 14% | 15% |
+| Talent Acquisition | 15% | 20% |
+| Employee Benefits | 15% | 18% |
+| Coordination | 15% | 18% |
+| Analytical | 15% | 23% |
+| Background checks | 14% | 13% |
+| Energy | 14% | 15% |
+| Retention | 14% | 15% |
+| Recommendations | 14% | 18% |
 
 ## Soft skills employers mention
 
-Communication (65%), Communication Skills (38%), Leadership (26%), Attention to Detail (22%), Problem Solving (22%), Interpersonal Skills (19%), Customer Service (15%), Coaching (12%), Time Management (11%)
+Communication (64%), Communication Skills (36%), Leadership (26%), Problem Solving (24%), Attention to Detail (21%), Interpersonal Skills (18%), Customer Service (15%), Coaching (14%), Time Management (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

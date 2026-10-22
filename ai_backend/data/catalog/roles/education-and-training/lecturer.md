@@ -4,7 +4,7 @@
 - **Also called:** University Lecturer
 - **O*NET:** 25-1021.00 Computer Science Teachers, Postsecondary; 25-1031.00 Architecture Teachers, Postsecondary; 25-1042.00 Biological Science Teachers, Postsecondary
 - **ESCO:** higher education lecturer
-- **Job ads analysed:** 25 (Mid-level 22, Senior 3)
+- **Job ads analysed:** 24 (Mid-level 21, Senior 3)
 
 ## What the job involves
 
@@ -16,47 +16,49 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Teaching **(core)** | 72% | 73% |
-| Excellence **(core)** | 44% | 50% |
-| Educational **(core)** | 36% | 41% |
-| Equity **(core)** | 36% | 41% |
-| PhD **(core)** | 32% | 32% |
-| Cover Letter **(core)** | 28% | 32% |
-| Master's Degree **(core)** | 28% | 32% |
-| Part Time **(core)** | 28% | 32% |
-| References **(core)** | 28% | 32% |
-| Email **(core)** | 28% | 32% |
-| philosophy **(core)** | 28% | 32% |
-| Statistics **(core)** | 28% | 23% |
-| Curriculum Vitae | 24% | 27% |
-| Teaching Experience | 24% | 27% |
-| CV | 24% | 27% |
-| Posting | 20% | 23% |
-| Writing | 20% | 23% |
-| Background Check | 20% | 23% |
-| Human Resources | 20% | 23% |
-| Affirmative Action | 20% | 23% |
-| Ph.D. | 20% | 23% |
-| Psychology | 20% | 23% |
-| Recruiting | 20% | 23% |
-| Equal Employment Opportunity | 20% | 23% |
-| Data Science | 20% | 9% |
-| HTTP | 16% | 18% |
-| Transcripts | 16% | 18% |
-| HR | 16% | 18% |
-| journalism | 16% | 18% |
-| Recruitment | 16% | 18% |
-| Search | 16% | 18% |
-| Affirmative Action Employer | 16% | 18% |
-| Clinical | 16% | 18% |
-| pregnancy | 16% | 18% |
-| English | 16% | 18% |
-| Phone | 16% | 18% |
-| Artificial Intelligence | 16% | 14% |
+| Teaching **(core)** | 71% | 71% |
+| Excellence **(core)** | 42% | 48% |
+| Educational **(core)** | 33% | 38% |
+| Equity **(core)** | 33% | 38% |
+| Cover Letter **(core)** | 29% | 33% |
+| Master's Degree **(core)** | 29% | 33% |
+| Part Time **(core)** | 29% | 33% |
+| PhD **(core)** | 29% | 29% |
+| References **(core)** | 29% | 33% |
+| Email **(core)** | 29% | 33% |
+| Statistics **(core)** | 29% | 24% |
+| Curriculum Vitae **(core)** | 25% | 29% |
+| Teaching Experience **(core)** | 25% | 29% |
+| philosophy **(core)** | 25% | 29% |
+| Posting | 21% | 24% |
+| Background Check | 21% | 24% |
+| Human Resources | 21% | 24% |
+| Affirmative Action | 21% | 24% |
+| Ph.D. | 21% | 24% |
+| Psychology | 21% | 24% |
+| Recruiting | 21% | 24% |
+| CV | 21% | 24% |
+| Equal Employment Opportunity | 21% | 24% |
+| Data Science | 21% | 10% |
+| HTTP | 17% | 19% |
+| Transcripts | 17% | 19% |
+| Writing | 17% | 19% |
+| HR | 17% | 19% |
+| Search | 17% | 19% |
+| Affirmative Action Employer | 17% | 19% |
+| Clinical | 17% | 19% |
+| pregnancy | 17% | 19% |
+| Phone | 17% | 19% |
+| Bachelor of Science | 12% | 14% |
+| Mathematics | 12% | 14% |
+| Reading | 12% | 14% |
+| Certificates | 12% | 14% |
+| journalism | 12% | 14% |
+| Recruitment | 12% | 14% |
 
 ## Soft skills employers mention
 
-Communication (40%), Leadership (24%), Mentoring (12%)
+Communication (38%), Leadership (25%), Mentoring (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

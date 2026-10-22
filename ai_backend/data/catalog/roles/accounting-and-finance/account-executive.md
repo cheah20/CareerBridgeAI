@@ -4,7 +4,7 @@
 - **Also called:** Accounts Executive, Accounts Assistant, Junior Accountant
 - **O*NET:** 13-2011.00 Accountants and Auditors
 - **ESCO:** accountant
-- **Job ads analysed:** 340 (Internship / Fresh Graduate 120, Junior 105, Mid-level 83, Senior 31, Lead / Manager 1)
+- **Job ads analysed:** 318 (Internship / Fresh Graduate 107, Junior 102, Mid-level 78, Senior 30, Lead / Manager 1)
 
 ## What the job involves
 
@@ -16,45 +16,46 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Accounting **(core)** | 98% | 98% | 98% | 99% | 94% |
-| Excel **(core)** | 54% | 52% | 49% | 63% | 55% |
-| General ledger **(core)** | 44% | 40% | 46% | 43% | 55% |
-| Analytical **(core)** | 36% | 38% | 35% | 34% | 39% |
-| Tax **(core)** | 34% | 28% | 33% | 47% | 32% |
-| Accounts Payable **(core)** | 33% | 32% | 32% | 34% | 39% |
-| financial statements **(core)** | 30% | 27% | 30% | 26% | 55% |
-| Accounts receivable **(core)** | 28% | 34% | 26% | 25% | 13% |
-| Accounting Principles **(core)** | 26% | 23% | 24% | 32% | 29% |
-| Audit **(core)** | 26% | 25% | 29% | 22% | 29% |
-| GAAP | 25% | 25% | 23% | 25% | 29% |
-| Payroll | 24% | 24% | 23% | 29% | 16% |
-| Reconciliation | 22% | 24% | 19% | 22% | 26% |
-| Financial Reporting | 20% | 18% | 22% | 17% | 29% |
-| Audits | 19% | 22% | 15% | 18% | 23% |
-| CPA | 18% | 11% | 16% | 23% | 39% |
-| Analyze | 17% | 17% | 10% | 19% | 32% |
-| Special Projects | 17% | 15% | 18% | 13% | 29% |
-| Detail Oriented | 16% | 15% | 17% | 22% | 6% |
-| Microsoft Office | 16% | 18% | 10% | 24% | 10% |
-| work independently | 15% | 13% | 14% | 18% | 19% |
-| Deadlines | 15% | 14% | 11% | 17% | 26% |
-| Microsoft Excel | 15% | 16% | 14% | 16% | 13% |
+| Accounting **(core)** | 98% | 97% | 98% | 99% | 93% |
+| Excel **(core)** | 55% | 55% | 50% | 63% | 53% |
+| General ledger **(core)** | 44% | 40% | 46% | 44% | 57% |
+| Analytical **(core)** | 35% | 36% | 34% | 33% | 37% |
+| Tax **(core)** | 35% | 28% | 34% | 47% | 30% |
+| Accounts Payable **(core)** | 34% | 35% | 32% | 36% | 37% |
+| financial statements **(core)** | 31% | 28% | 30% | 28% | 53% |
+| Accounts receivable **(core)** | 27% | 32% | 26% | 26% | 13% |
+| Accounting Principles **(core)** | 26% | 22% | 24% | 32% | 30% |
+| GAAP **(core)** | 25% | 25% | 24% | 26% | 30% |
+| Audit **(core)** | 25% | 22% | 28% | 23% | 30% |
+| Payroll | 24% | 24% | 24% | 30% | 17% |
+| Reconciliation | 22% | 24% | 20% | 22% | 27% |
+| Financial Reporting | 20% | 19% | 22% | 17% | 30% |
+| Audits | 19% | 22% | 16% | 17% | 20% |
+| CPA | 18% | 10% | 17% | 22% | 37% |
+| Detail Oriented | 17% | 16% | 17% | 23% | 7% |
+| Analyze | 16% | 15% | 11% | 19% | 33% |
+| Special Projects | 16% | 16% | 17% | 13% | 27% |
+| Microsoft Office | 16% | 18% | 11% | 23% | 10% |
+| work independently | 15% | 13% | 14% | 19% | 17% |
+| Deadlines | 15% | 14% | 12% | 17% | 23% |
 | Billing | 15% | 15% | 16% | 14% | 10% |
-| ERP | 14% | 18% | 14% | 14% | 3% |
-| Financial Data | 14% | 13% | 16% | 10% | 19% |
-| Integrity | 14% | 12% | 15% | 11% | 19% |
-| Written Communication | 13% | 13% | 13% | 14% | 10% |
-| Word | 13% | 13% | 8% | 14% | 26% |
-| Controls | 12% | 14% | 12% | 6% | 23% |
-| Verbal Communication | 12% | 12% | 10% | 17% | 10% |
-| Budgets | 12% | 13% | 8% | 13% | 19% |
-| Written and Verbal Communication | 12% | 12% | 8% | 16% | 10% |
-| MS | 11% | 9% | 10% | 13% | 16% |
-| Vendors | 11% | 15% | 9% | 10% | 10% |
+| ERP | 15% | 19% | 15% | 14% | 3% |
+| Microsoft Excel | 14% | 15% | 15% | 15% | 10% |
+| Financial Data | 14% | 13% | 17% | 9% | 20% |
+| Integrity | 13% | 11% | 16% | 10% | 17% |
+| Written Communication | 13% | 12% | 14% | 14% | 10% |
+| Word | 13% | 13% | 8% | 14% | 27% |
+| Verbal Communication | 13% | 13% | 10% | 17% | 10% |
+| Budgets | 12% | 15% | 8% | 13% | 17% |
+| Controls | 12% | 14% | 13% | 6% | 20% |
+| MS | 12% | 10% | 10% | 14% | 17% |
+| Written and Verbal Communication | 12% | 13% | 8% | 15% | 10% |
+| Vendors | 11% | 15% | 9% | 9% | 10% |
+| Manufacturing | 11% | 14% | 7% | 10% | 13% |
 
 ## Soft skills employers mention
 
-Communication (58%), Communication Skills (27%), Attention to Detail (25%), Problem Solving (18%), Analytical Skills (12%), Organizational Skills (11%), Time Management (11%)
+Communication (57%), Communication Skills (26%), Attention to Detail (25%), Problem Solving (18%), Analytical Skills (11%), Organizational Skills (11%), Time Management (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

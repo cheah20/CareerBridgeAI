@@ -4,7 +4,7 @@
 - **Also called:** Manufacturing Engineer, Production Engineer, Semiconductor Process Engineer
 - **O*NET:** 17-2112.03 Manufacturing Engineers; 17-2112.00 Industrial Engineers; 17-2041.00 Chemical Engineers
 - **ESCO:** process engineer
-- **Job ads analysed:** 419 (Internship / Fresh Graduate 128, Junior 50, Mid-level 167, Senior 64, Lead / Manager 10)
+- **Job ads analysed:** 340 (Internship / Fresh Graduate 90, Junior 45, Mid-level 145, Senior 51, Lead / Manager 9)
 
 ## What the job involves
 
@@ -16,44 +16,44 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Manufacturing **(core)** | 82% | 86% | 88% | 80% | 81% |
-| Mechanical **(core)** | 43% | 37% | 44% | 43% | 53% |
-| industrial software **(core)** | 35% | 30% | 26% | 38% | 44% |
-| Lean **(core)** | 33% | 38% | 28% | 33% | 28% |
-| Continuous Improvement **(core)** | 33% | 34% | 36% | 30% | 36% |
-| Methods **(core)** | 33% | 32% | 28% | 35% | 36% |
-| manufacturing processes **(core)** | 32% | 32% | 26% | 33% | 30% |
-| Maintenance **(core)** | 28% | 27% | 34% | 26% | 31% |
-| Efficiency **(core)** | 26% | 23% | 28% | 28% | 22% |
-| Chemical | 25% | 24% | 26% | 24% | 22% |
-| Assembly | 24% | 29% | 22% | 22% | 25% |
-| Tooling | 23% | 23% | 18% | 23% | 25% |
-| Implementation | 22% | 20% | 28% | 22% | 27% |
-| Analytical | 22% | 22% | 22% | 23% | 17% |
-| Productivity | 22% | 22% | 20% | 22% | 23% |
-| Analyze | 21% | 19% | 26% | 21% | 19% |
-| Project Management | 20% | 20% | 14% | 20% | 22% |
-| Testing | 20% | 13% | 14% | 26% | 23% |
-| Electrical | 19% | 16% | 22% | 16% | 28% |
-| lean manufacturing | 19% | 27% | 18% | 17% | 8% |
-| Statistical Software | 19% | 16% | 22% | 20% | 14% |
-| Process Improvement | 18% | 21% | 8% | 16% | 28% |
-| Six Sigma | 17% | 21% | 12% | 20% | 8% |
-| REDUCE | 17% | 20% | 26% | 12% | 17% |
-| Troubleshooting | 17% | 17% | 30% | 16% | 9% |
-| 401k | 17% | 27% | 12% | 12% | 16% |
-| Excel | 17% | 18% | 18% | 16% | 16% |
-| Mechanical Engineering | 16% | 10% | 18% | 17% | 25% |
-| Word | 16% | 16% | 12% | 16% | 20% |
-| CAD | 16% | 16% | 18% | 14% | 19% |
-| Automation | 16% | 17% | 14% | 14% | 17% |
-| AutoCAD | 14% | 20% | 22% | 9% | 9% |
-| Installation | 14% | 19% | 18% | 13% | 8% |
-| Power | 14% | 21% | 10% | 8% | 19% |
+| Manufacturing **(core)** | 82% | 87% | 87% | 79% | 80% |
+| Mechanical **(core)** | 44% | 36% | 44% | 47% | 51% |
+| manufacturing processes **(core)** | 33% | 31% | 27% | 34% | 37% |
+| Continuous Improvement **(core)** | 33% | 34% | 36% | 29% | 35% |
+| industrial software **(core)** | 32% | 24% | 24% | 38% | 39% |
+| Methods **(core)** | 32% | 30% | 27% | 34% | 39% |
+| Lean **(core)** | 31% | 32% | 27% | 31% | 28% |
+| Maintenance **(core)** | 28% | 31% | 36% | 23% | 31% |
+| Efficiency **(core)** | 26% | 27% | 29% | 27% | 22% |
+| Chemical | 24% | 23% | 27% | 23% | 24% |
+| Implementation | 24% | 22% | 29% | 20% | 31% |
+| Assembly | 23% | 28% | 22% | 22% | 22% |
+| Analyze | 22% | 20% | 27% | 22% | 22% |
+| Tooling | 22% | 20% | 16% | 26% | 22% |
+| Project Management | 22% | 19% | 16% | 23% | 22% |
+| Testing | 20% | 16% | 13% | 25% | 26% |
+| Analytical | 19% | 14% | 22% | 21% | 20% |
+| Electrical | 19% | 18% | 22% | 17% | 26% |
+| Statistical Software | 19% | 19% | 22% | 18% | 18% |
+| Productivity | 19% | 17% | 20% | 19% | 26% |
+| Troubleshooting | 18% | 20% | 33% | 15% | 12% |
+| lean manufacturing | 18% | 23% | 18% | 17% | 10% |
+| Mechanical Engineering | 18% | 11% | 20% | 20% | 24% |
+| Excel | 17% | 19% | 20% | 15% | 16% |
+| Process Improvement | 17% | 19% | 7% | 16% | 26% |
+| CAD | 16% | 16% | 20% | 15% | 20% |
+| REDUCE | 16% | 14% | 27% | 13% | 20% |
+| Word | 16% | 17% | 13% | 16% | 20% |
+| Six Sigma | 16% | 14% | 9% | 20% | 10% |
+| Components | 15% | 16% | 13% | 12% | 22% |
+| Microsoft Office | 14% | 12% | 18% | 17% | 10% |
+| Installation | 14% | 14% | 18% | 14% | 10% |
+| 401k | 14% | 17% | 11% | 12% | 18% |
+| Automation | 14% | 13% | 16% | 12% | 14% |
 
 ## Soft skills employers mention
 
-Communication (44%), Problem Solving (38%), Leadership (26%), Communication Skills (20%), Collaboration (13%)
+Communication (40%), Problem Solving (34%), Leadership (23%), Communication Skills (18%), Collaboration (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

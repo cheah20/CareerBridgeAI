@@ -4,7 +4,7 @@
 - **Also called:** Account Manager
 - **O*NET:** 11-2022.00 Sales Managers; 11-2033.00 Fundraising Managers; 11-2011.00 Advertising and Promotions Managers
 - **ESCO:** sales account manager
-- **Job ads analysed:** 1,039 (Internship / Fresh Graduate 140, Junior 133, Mid-level 677, Senior 79, Lead / Manager 10)
+- **Job ads analysed:** 675 (Internship / Fresh Graduate 94, Junior 83, Mid-level 432, Senior 58, Lead / Manager 8)
 
 ## What the job involves
 
@@ -16,40 +16,36 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Meetings **(core)** | 30% | 15% | 26% | 33% | 40% |
-| Account Management **(core)** | 27% | 20% | 25% | 27% | 42% |
-| Communications **(core)** | 26% | 14% | 23% | 30% | 29% |
-| Microsoft Office **(core)** | 26% | 17% | 15% | 32% | 13% |
-| CRM **(core)** | 26% | 19% | 17% | 31% | 10% |
-| Network | 24% | 11% | 24% | 27% | 23% |
-| Presentation | 21% | 21% | 18% | 20% | 39% |
-| Written Communication | 20% | 13% | 12% | 24% | 16% |
-| Prospecting | 20% | 13% | 14% | 23% | 15% |
-| Work Environment | 20% | 11% | 9% | 25% | 6% |
-| Objectives | 19% | 19% | 19% | 20% | 20% |
-| Energy | 18% | 12% | 4% | 24% | 9% |
-| Email | 18% | 14% | 8% | 22% | 10% |
-| Retail | 18% | 8% | 14% | 23% | 4% |
-| Excel | 18% | 26% | 21% | 15% | 23% |
-| Portfolio | 18% | 21% | 19% | 17% | 16% |
-| Team Environment | 17% | 9% | 10% | 20% | 11% |
-| 401k | 17% | 16% | 10% | 19% | 10% |
-| Relationship Building | 17% | 11% | 4% | 22% | 5% |
-| B2B | 16% | 9% | 8% | 20% | 2% |
-| Networks | 15% | 6% | 8% | 20% | 2% |
-| Written communication skills | 14% | 6% | 7% | 18% | 10% |
-| Internet | 14% | 1% | 2% | 21% | 4% |
-| Resume | 14% | 2% | 9% | 19% | 0% |
-| Deadlines | 14% | 6% | 4% | 18% | 11% |
-| Retention | 14% | 13% | 20% | 12% | 19% |
-| Business Development | 14% | 11% | 11% | 14% | 24% |
-| Mentorship | 14% | 1% | 3% | 20% | 4% |
-| Analytical | 14% | 11% | 12% | 14% | 22% |
-| Customer Needs | 14% | 26% | 16% | 10% | 14% |
+| Account Management **(core)** | 34% | 22% | 29% | 36% | 45% |
+| Objectives | 23% | 26% | 23% | 23% | 28% |
+| Presentation | 23% | 19% | 17% | 24% | 33% |
+| Meetings | 22% | 17% | 22% | 22% | 31% |
+| Excel | 20% | 28% | 25% | 17% | 28% |
+| Microsoft Office | 18% | 20% | 17% | 19% | 14% |
+| Portfolio | 17% | 20% | 12% | 18% | 19% |
+| Analytical | 16% | 10% | 16% | 17% | 28% |
+| Business Development | 16% | 13% | 17% | 16% | 28% |
+| CRM | 16% | 19% | 18% | 17% | 2% |
+| Retention | 16% | 16% | 20% | 14% | 19% |
+| Holidays | 15% | 15% | 16% | 14% | 16% |
+| Proposals | 14% | 8% | 16% | 15% | 19% |
+| Pricing | 14% | 8% | 16% | 16% | 9% |
+| Customer Needs | 14% | 24% | 12% | 11% | 14% |
+| Phone | 14% | 18% | 13% | 13% | 10% |
+| Analyze | 13% | 22% | 12% | 12% | 14% |
+| Paid Time Off | 13% | 18% | 14% | 12% | 14% |
+| Communications | 13% | 6% | 11% | 13% | 26% |
+| Word | 12% | 16% | 16% | 10% | 17% |
+| Execution | 12% | 7% | 8% | 14% | 14% |
+| Written Communication | 12% | 17% | 12% | 10% | 21% |
+| Network | 12% | 10% | 10% | 13% | 12% |
+| Collaborative | 12% | 13% | 8% | 11% | 19% |
+| Contracts | 11% | 8% | 10% | 13% | 10% |
+| 401k | 11% | 12% | 14% | 11% | 10% |
 
 ## Soft skills employers mention
 
-Communication (69%), Communication Skills (33%), Customer Service (26%), Problem Solving (19%), Leadership (16%), Coaching (16%), Presentations (12%), Time Management (12%), Negotiation (12%), Collaboration (12%)
+Communication (66%), Customer Service (28%), Communication Skills (27%), Problem Solving (20%), Leadership (18%), Presentations (14%), Collaboration (13%), Time Management (12%), Negotiation (12%), Interpersonal Skills (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -3,7 +3,7 @@
 - **Field:** Healthcare & Wellness
 - **O*NET:** 29-1051.00 Pharmacists
 - **ESCO:** pharmacist
-- **Job ads analysed:** 161 (Internship / Fresh Graduate 87, Junior 15, Mid-level 53, Senior 1, Lead / Manager 5)
+- **Job ads analysed:** 115 (Internship / Fresh Graduate 63, Junior 11, Mid-level 39, Senior 1, Lead / Manager 1)
 
 ## What the job involves
 
@@ -13,46 +13,45 @@ Dispense drugs prescribed by physicians and other health practitioners and provi
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
-|---|---|---|---|---|
-| Clinical **(core)** | 76% | 78% | 80% | 77% |
-| Pharmaceutical **(core)** | 37% | 36% | 60% | 36% |
-| Health Care **(core)** | 35% | 42% | 40% | 24% |
-| Patient Care **(core)** | 35% | 38% | 47% | 30% |
-| Inventory **(core)** | 33% | 40% | 40% | 23% |
-| Counseling **(core)** | 30% | 30% | 40% | 32% |
-| Quality Assurance **(core)** | 27% | 21% | 53% | 32% |
-| Standing **(core)** | 27% | 25% | 13% | 26% |
-| Policies and procedures **(core)** | 26% | 25% | 40% | 26% |
-| Regulatory | 21% | 29% | 13% | 13% |
-| Retail | 20% | 17% | 20% | 26% |
-| Nursing | 19% | 31% | 0% | 8% |
-| Maintenance | 16% | 16% | 7% | 19% |
-| Excellence | 16% | 14% | 0% | 24% |
-| Network | 16% | 17% | 0% | 9% |
-| Protocols | 16% | 13% | 0% | 26% |
-| company policies | 15% | 9% | 47% | 17% |
-| Responsibility | 15% | 23% | 0% | 8% |
-| Core Values | 15% | 10% | 7% | 26% |
-| Recommendations | 14% | 14% | 47% | 8% |
-| Part Time | 14% | 15% | 27% | 11% |
-| Respect | 14% | 13% | 0% | 23% |
-| Objectives | 14% | 7% | 47% | 6% |
-| Distribution | 14% | 17% | 0% | 4% |
-| HIPAA | 14% | 8% | 47% | 15% |
-| Pharmaceuticals | 14% | 17% | 0% | 13% |
-| Consultation | 14% | 8% | 0% | 28% |
-| Collaborative | 13% | 6% | 40% | 17% |
-| Workflow | 13% | 12% | 7% | 8% |
-| Integrity | 13% | 7% | 40% | 17% |
-| Supervising | 13% | 18% | 7% | 8% |
-| application process | 13% | 5% | 7% | 21% |
-| allergies | 12% | 13% | 0% | 17% |
-| Paid Time Off | 12% | 15% | 20% | 8% |
+| Skill | All ads | Internship / Fresh Graduate | Mid-level |
+|---|---|---|---|
+| Clinical **(core)** | 74% | 78% | 69% |
+| Pharmaceutical **(core)** | 39% | 38% | 41% |
+| Patient Care **(core)** | 31% | 33% | 31% |
+| Inventory **(core)** | 31% | 40% | 23% |
+| Health Care **(core)** | 30% | 38% | 23% |
+| Policies and procedures **(core)** | 26% | 29% | 26% |
+| Standing **(core)** | 26% | 29% | 23% |
+| Counseling **(core)** | 26% | 29% | 26% |
+| Regulatory | 21% | 25% | 15% |
+| Nursing | 20% | 30% | 10% |
+| Quality Assurance | 19% | 14% | 23% |
+| Retail | 18% | 11% | 28% |
+| Maintenance | 16% | 18% | 15% |
+| Pharmaceuticals | 16% | 21% | 13% |
+| Part Time | 15% | 14% | 15% |
+| Protocols | 15% | 14% | 20% |
+| allergies | 14% | 16% | 15% |
+| Workflow | 14% | 14% | 10% |
+| Paid Time Off | 14% | 19% | 8% |
+| Email | 13% | 13% | 13% |
+| Excellence | 13% | 10% | 23% |
+| Network | 13% | 14% | 13% |
+| Recommendations | 13% | 14% | 8% |
+| Distribution | 13% | 21% | 3% |
+| Respect | 13% | 13% | 18% |
+| Collaborative | 12% | 8% | 15% |
+| Resume | 12% | 11% | 15% |
+| company policies | 12% | 10% | 13% |
+| Patient outcomes | 12% | 8% | 20% |
+| surgery | 11% | 16% | 8% |
+| BLS | 11% | 13% | 10% |
+| Responsibility | 11% | 19% | 3% |
+| Consultation | 11% | 8% | 20% |
 
 ## Soft skills employers mention
 
-Communication (40%), Customer Service (36%), Communication Skills (17%), Leadership (17%), Teamwork (14%), Collaboration (11%)
+Communication (40%), Customer Service (29%), Communication Skills (20%), Leadership (15%), Teamwork (11%)
 
 ## Essential skills (ESCO)
 

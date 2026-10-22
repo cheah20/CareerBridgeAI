@@ -4,7 +4,7 @@
 - **Also called:** Facility Engineer
 - **O*NET:** 17-2141.00 Mechanical Engineers
 - **ESCO:** —
-- **Job ads analysed:** 41 (Internship / Fresh Graduate 4, Junior 5, Mid-level 16, Senior 14, Lead / Manager 2)
+- **Job ads analysed:** 29 (Internship / Fresh Graduate 4, Junior 2, Mid-level 15, Senior 6, Lead / Manager 2)
 
 ## What the job involves
 
@@ -16,47 +16,43 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Maintenance **(core)** | 73% | 62% |
-| Mechanical **(core)** | 66% | 50% |
-| Electrical **(core)** | 61% | 50% |
-| Manufacturing **(core)** | 44% | 25% |
-| HVAC **(core)** | 37% | 44% |
-| Infrastructure **(core)** | 34% | 38% |
-| Utilities **(core)** | 32% | 12% |
-| Excel **(core)** | 29% | 25% |
-| Methods **(core)** | 29% | 25% |
-| Excellence **(core)** | 29% | 0% |
-| Word **(core)** | 27% | 19% |
-| Efficiency **(core)** | 27% | 12% |
-| Implementation | 24% | 31% |
-| Project Management | 24% | 25% |
-| Facilities Management | 24% | 6% |
-| Rules | 24% | 12% |
-| Coordination | 24% | 12% |
-| Repair | 24% | 19% |
-| Troubleshooting | 22% | 19% |
-| Installation | 22% | 12% |
-| Electrical Systems | 22% | 38% |
-| Plumbing | 22% | 38% |
-| Energy | 20% | 12% |
-| Vendors | 20% | 19% |
-| Verbal Communication | 20% | 19% |
-| Written and Verbal Communication | 20% | 19% |
-| Work Experience | 20% | 12% |
-| Controls | 20% | 25% |
-| Preventative Maintenance | 20% | 19% |
-| CAD | 20% | 12% |
-| industrial software | 20% | 0% |
-| Piping | 17% | 25% |
-| Regulatory | 17% | 12% |
-| Reliability | 17% | 19% |
-| Power | 17% | 25% |
-| Recommendations | 17% | 12% |
-| Affirmative Action | 17% | 12% |
+| Maintenance **(core)** | 66% | 60% |
+| Electrical **(core)** | 59% | 53% |
+| Mechanical **(core)** | 52% | 47% |
+| HVAC **(core)** | 41% | 40% |
+| Infrastructure **(core)** | 34% | 40% |
+| Manufacturing **(core)** | 31% | 20% |
+| Electrical Systems **(core)** | 31% | 40% |
+| Troubleshooting **(core)** | 28% | 20% |
+| Methods | 24% | 20% |
+| Project Management | 24% | 20% |
+| Work Experience | 24% | 13% |
+| Plumbing | 24% | 40% |
+| Excel | 21% | 20% |
+| Implementation | 21% | 27% |
+| Vendors | 21% | 20% |
+| Utilities | 21% | 7% |
+| Controls | 21% | 20% |
+| Efficiency | 21% | 13% |
+| Energy | 17% | 7% |
+| Pumps | 17% | 33% |
+| Reliability | 17% | 20% |
+| Continuous Improvement | 17% | 7% |
+| Generators | 17% | 20% |
+| Mechanical Engineering | 17% | 7% |
+| Power | 17% | 20% |
+| Lighting | 17% | 33% |
+| Microsoft Office | 17% | 13% |
+| Data Center | 17% | 20% |
+| Distribution | 17% | 13% |
+| Proactive | 17% | 7% |
+| Repair | 17% | 20% |
+| Excellence | 17% | 0% |
+| High School Diploma | 17% | 7% |
 
 ## Soft skills employers mention
 
-Communication (54%), Leadership (29%), Communication Skills (20%), Customer Service (15%), Problem Solving (15%), Organizational Skills (12%), Time Management (12%)
+Communication (45%), Communication Skills (24%), Customer Service (17%), Leadership (17%), Time Management (17%), Organizational Skills (10%), Teamwork (10%), Problem Solving (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

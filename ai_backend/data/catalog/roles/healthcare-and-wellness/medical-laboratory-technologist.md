@@ -4,7 +4,7 @@
 - **Also called:** Medical Laboratory Scientist, Medical Lab Technologist
 - **O*NET:** 29-2011.00 Medical and Clinical Laboratory Technologists; 19-1042.00 Medical Scientists, Except Epidemiologists; 19-1022.00 Microbiologists
 - **ESCO:** biomedical scientist
-- **Job ads analysed:** 202 (Internship / Fresh Graduate 3, Junior 5, Mid-level 187, Lead / Manager 7)
+- **Job ads analysed:** 198 (Internship / Fresh Graduate 3, Junior 5, Mid-level 183, Lead / Manager 7)
 
 ## What the job involves
 
@@ -16,38 +16,38 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Quality Control **(core)** | 51% | 51% |
+| Quality Control **(core)** | 52% | 52% |
 | Medical Technology **(core)** | 34% | 35% |
 | Chemistry **(core)** | 26% | 25% |
-| Medical Technologist | 22% | 23% |
-| ASCP | 21% | 20% |
-| Troubleshooting | 21% | 22% |
+| Medical Technologist | 22% | 24% |
+| Troubleshooting | 22% | 22% |
 | Patient Care | 20% | 20% |
-| ASCP Certification | 19% | 20% |
-| Clinical Laboratory Science | 19% | 20% |
-| Medical Laboratory | 17% | 15% |
+| ASCP | 20% | 18% |
+| ASCP Certification | 20% | 21% |
+| Clinical Laboratory Science | 20% | 21% |
 | Hematology | 17% | 17% |
-| Medical Laboratory Science | 17% | 17% |
-| Laboratory | 16% | 14% |
-| Instrumentation | 16% | 13% |
-| Equipment Maintenance | 16% | 17% |
-| Testing | 15% | 12% |
+| Medical Laboratory Science | 17% | 18% |
+| Instrumentation | 16% | 14% |
+| Equipment Maintenance | 16% | 18% |
+| Medical Laboratory | 16% | 13% |
+| Laboratory | 15% | 12% |
+| Microbiology | 15% | 15% |
 | Biology | 14% | 14% |
-| Microbiology | 14% | 14% |
-| Medical Laboratory Technician | 14% | 14% |
-| Laboratory Procedures | 13% | 13% |
-| Standard Operating Procedures | 13% | 12% |
+| Testing | 14% | 10% |
+| Standard Operating Procedures | 14% | 13% |
 | MLT | 13% | 11% |
-| Laboratory Equipment | 12% | 13% |
+| Medical Laboratory Technician | 13% | 13% |
+| Laboratory Procedures | 12% | 12% |
 | Clinical Laboratory | 12% | 11% |
-| Confidentiality | 12% | 12% |
+| Confidentiality | 12% | 13% |
 | Quality Assurance | 12% | 13% |
 | Clinical Laboratory Scientist | 12% | 13% |
-| AMT | 11% | 10% |
+| Preventive Maintenance | 12% | 10% |
+| Laboratory Equipment | 11% | 12% |
 
 ## Soft skills employers mention
 
-Attention to Detail (13%), Communication Skills (12%), Teamwork (11%), Communication (11%), Interpersonal Skills (11%)
+Attention to Detail (14%), Communication Skills (12%), Communication (11%), Teamwork (11%), Interpersonal Skills (11%), Problem Solving (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

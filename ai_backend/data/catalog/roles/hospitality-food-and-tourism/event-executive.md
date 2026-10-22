@@ -4,7 +4,7 @@
 - **Also called:** Event Planner, Event Coordinator
 - **O*NET:** 13-1121.00 Meeting, Convention, and Event Planners; 11-9072.00 Entertainment and Recreation Managers, Except Gambling
 - **ESCO:** event assistant
-- **Job ads analysed:** 42 (Internship / Fresh Graduate 18, Junior 2, Mid-level 21, Senior 1)
+- **Job ads analysed:** 31 (Internship / Fresh Graduate 10, Junior 2, Mid-level 18, Senior 1)
 
 ## What the job involves
 
@@ -14,47 +14,51 @@ Coordinate activities of staff, convention personnel, or clients to make arrange
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Mid-level |
-|---|---|---|---|
-| Coordination **(core)** | 57% | 67% | 43% |
-| Meetings **(core)** | 43% | 28% | 52% |
-| Project Management **(core)** | 38% | 50% | 24% |
-| Vendors **(core)** | 36% | 17% | 52% |
-| Logistics **(core)** | 33% | 11% | 48% |
-| work independently **(core)** | 31% | 50% | 19% |
-| Execution **(core)** | 29% | 11% | 38% |
-| Event Management Software | 24% | 11% | 33% |
-| Event planning | 24% | 6% | 33% |
-| Detail Oriented | 21% | 11% | 33% |
-| Attendance | 21% | 50% | 0% |
-| sales activities | 21% | 50% | 0% |
-| Communications | 19% | 6% | 24% |
-| Transportation | 19% | 11% | 24% |
-| Email | 19% | 11% | 29% |
-| Onsite | 19% | 6% | 29% |
-| Conferences | 19% | 0% | 29% |
-| Calendar | 14% | 6% | 24% |
-| Packages | 14% | 11% | 19% |
-| Contracts | 14% | 6% | 24% |
-| Timelines | 14% | 0% | 24% |
-| Budget | 14% | 6% | 14% |
-| Liaison | 12% | 17% | 10% |
-| Equal Employment Opportunity | 12% | 17% | 10% |
-| Negotiations | 12% | 6% | 10% |
-| Written Communication | 12% | 6% | 19% |
-| Written communication skills | 12% | 6% | 19% |
-| BI | 12% | 0% | 24% |
-| Deadlines | 12% | 0% | 24% |
-| Selection | 12% | 0% | 19% |
-| Organized | 12% | 6% | 19% |
+| Skill | All ads | Mid-level |
+|---|---|---|
+| Meetings **(core)** | 48% | 44% |
+| Vendors **(core)** | 45% | 56% |
+| Coordination **(core)** | 45% | 39% |
+| Execution **(core)** | 39% | 44% |
+| Logistics **(core)** | 36% | 39% |
+| Event planning **(core)** | 32% | 39% |
+| Event Management Software **(core)** | 29% | 33% |
+| Communications **(core)** | 26% | 28% |
+| Transportation **(core)** | 26% | 28% |
+| Email **(core)** | 26% | 33% |
+| Detail Oriented | 23% | 28% |
+| Project Management | 23% | 22% |
+| Onsite | 23% | 28% |
+| Packages | 19% | 22% |
+| Timelines | 19% | 28% |
+| Budget | 19% | 17% |
+| Contracts | 16% | 22% |
+| Liaison | 16% | 11% |
+| Equal Employment Opportunity | 16% | 11% |
+| Negotiations | 16% | 11% |
+| Written Communication | 16% | 22% |
+| Written communication skills | 16% | 22% |
+| BI | 16% | 28% |
+| Deadlines | 16% | 28% |
+| Conferences | 16% | 17% |
+| Budgets | 13% | 22% |
+| Part Time | 13% | 17% |
+| Calendar | 13% | 17% |
+| Scheduling | 13% | 17% |
+| Timeline | 13% | 6% |
+| Affirmative Action | 13% | 0% |
+| Affirmative Action Employer | 13% | 0% |
+| Phone | 13% | 22% |
+| Work Environment | 13% | 22% |
+| work independently | 13% | 17% |
 
 ## Soft skills employers mention
 
-Communication (86%), Customer Service (40%), Communication Skills (21%), Organizational Skills (17%), Attention to Detail (14%), Problem Solving (14%), Leadership (12%), Time Management (12%)
+Communication (81%), Customer Service (26%), Communication Skills (26%), Organizational Skills (23%), Attention to Detail (19%), Leadership (16%), Time Management (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Microsoft Excel, Microsoft Office, Microsoft Outlook, Microsoft PowerPoint
+Microsoft Excel, Microsoft Office, Microsoft Outlook, Microsoft PowerPoint, Salesforce
 
 ## Essential skills (ESCO)
 

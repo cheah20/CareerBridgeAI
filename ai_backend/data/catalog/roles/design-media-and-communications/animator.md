@@ -4,7 +4,7 @@
 - **Also called:** 2D Animator, 3D Animator
 - **O*NET:** 27-1014.00 Special Effects Artists and Animators
 - **ESCO:** animator
-- **Job ads analysed:** 9 (Internship / Fresh Graduate 2, Junior 1, Mid-level 5, Lead / Manager 1)
+- **Job ads analysed:** 8 (Internship / Fresh Graduate 2, Mid-level 5, Lead / Manager 1)
 
 ## What the job involves
 

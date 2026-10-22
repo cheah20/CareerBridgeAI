@@ -4,7 +4,7 @@
 - **Also called:** Reporter
 - **O*NET:** 27-3023.00 News Analysts, Reporters, and Journalists; 27-3011.00 Broadcast Announcers and Radio Disc Jockeys; 43-4199.00 Information and Record Clerks, All Other
 - **ESCO:** journalist
-- **Job ads analysed:** 58 (Internship / Fresh Graduate 26, Junior 7, Mid-level 25)
+- **Job ads analysed:** 49 (Internship / Fresh Graduate 23, Junior 4, Mid-level 22)
 
 ## What the job involves
 
@@ -16,46 +16,45 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Mid-level |
 |---|---|---|---|
-| journalism **(core)** | 62% | 73% | 48% |
-| Writing **(core)** | 60% | 77% | 40% |
-| Social media **(core)** | 41% | 46% | 40% |
-| Video **(core)** | 34% | 50% | 20% |
-| Resume **(core)** | 31% | 19% | 36% |
-| Editing **(core)** | 31% | 42% | 16% |
-| Portfolio **(core)** | 31% | 46% | 12% |
-| Deadlines **(core)** | 31% | 50% | 16% |
-| Storytelling **(core)** | 29% | 46% | 12% |
-| Network **(core)** | 28% | 35% | 24% |
-| Driver's License **(core)** | 26% | 42% | 16% |
-| Interviews | 24% | 31% | 12% |
-| Reasonable accommodations | 22% | 38% | 4% |
-| Equity | 21% | 27% | 16% |
-| Equal Employment Opportunity | 19% | 35% | 8% |
-| Posting | 19% | 38% | 0% |
-| spelling | 19% | 35% | 0% |
-| Cover Letter | 19% | 19% | 20% |
-| Writing Skills | 16% | 19% | 4% |
-| Government | 16% | 12% | 16% |
-| Integrity | 16% | 15% | 16% |
-| Internet | 16% | 23% | 8% |
-| Diversity and Inclusion | 14% | 27% | 4% |
-| Life Insurance | 14% | 27% | 4% |
-| Outlets | 14% | 31% | 0% |
-| Transparency | 14% | 23% | 4% |
-| English | 14% | 12% | 12% |
-| meet deadlines | 14% | 23% | 8% |
-| Publication | 14% | 8% | 16% |
-| Programming | 14% | 19% | 8% |
-| Excel | 12% | 0% | 28% |
-| Employee Assistance Program | 12% | 27% | 0% |
-| Mobile | 12% | 27% | 0% |
-| Observation | 12% | 27% | 0% |
-| SAN | 12% | 19% | 4% |
-| Analytics | 12% | 12% | 8% |
+| journalism **(core)** | 63% | 78% | 41% |
+| Writing **(core)** | 61% | 78% | 41% |
+| Social media **(core)** | 45% | 48% | 41% |
+| Video **(core)** | 35% | 48% | 18% |
+| Storytelling **(core)** | 33% | 48% | 14% |
+| Deadlines **(core)** | 33% | 48% | 18% |
+| Resume **(core)** | 31% | 22% | 36% |
+| Portfolio **(core)** | 31% | 48% | 9% |
+| Editing **(core)** | 29% | 39% | 14% |
+| Driver's License **(core)** | 26% | 39% | 18% |
+| Network | 24% | 30% | 23% |
+| Reasonable accommodations | 22% | 39% | 4% |
+| Interviews | 22% | 30% | 14% |
+| Equal Employment Opportunity | 20% | 35% | 9% |
+| Equity | 20% | 26% | 18% |
+| spelling | 20% | 35% | 0% |
+| Cover Letter | 20% | 22% | 18% |
+| Posting | 18% | 35% | 0% |
+| Writing Skills | 18% | 22% | 4% |
+| Government | 18% | 13% | 18% |
+| Excel | 14% | 0% | 32% |
+| Diversity and Inclusion | 14% | 26% | 4% |
+| Life Insurance | 14% | 26% | 4% |
+| Outlets | 14% | 30% | 0% |
+| Holidays | 14% | 17% | 14% |
+| meet deadlines | 14% | 22% | 9% |
+| Integrity | 14% | 13% | 18% |
+| Employee Assistance Program | 12% | 26% | 0% |
+| Mobile | 12% | 26% | 0% |
+| Observation | 12% | 26% | 0% |
+| Transparency | 12% | 22% | 4% |
+| English | 12% | 9% | 14% |
+| Publication | 12% | 9% | 14% |
+| Collaborative | 12% | 17% | 9% |
+| Analytics | 12% | 13% | 4% |
 
 ## Soft skills employers mention
 
-Communication (33%), Communication Skills (26%), Attention to Detail (10%), Leadership (10%)
+Communication (31%), Communication Skills (26%), Creativity (10%), Attention to Detail (10%), Leadership (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

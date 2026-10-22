@@ -3,7 +3,7 @@
 - **Field:** Banking & Insurance
 - **O*NET:** 13-2052.00 Personal Financial Advisors
 - **ESCO:** relationship banking manager
-- **Job ads analysed:** 107 (Internship / Fresh Graduate 3, Junior 2, Mid-level 76, Senior 13, Lead / Manager 13)
+- **Job ads analysed:** 84 (Internship / Fresh Graduate 2, Junior 2, Mid-level 61, Senior 10, Lead / Manager 9)
 
 ## What the job involves
 
@@ -15,46 +15,46 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Portfolio **(core)** | 41% | 38% |
-| Banking **(core)** | 38% | 32% |
-| Risk **(core)** | 38% | 38% |
-| Relationship Management **(core)** | 35% | 30% |
-| Investment **(core)** | 34% | 28% |
-| Regulatory **(core)** | 31% | 24% |
-| Meetings **(core)** | 28% | 26% |
-| Equity **(core)** | 27% | 21% |
-| Lending **(core)** | 25% | 20% |
-| Influence **(core)** | 25% | 21% |
-| Written Communication **(core)** | 25% | 18% |
-| Email | 24% | 28% |
-| Prospecting | 24% | 25% |
-| Financial Services | 23% | 21% |
-| Excel | 23% | 25% |
-| Business Development | 23% | 21% |
-| Work Experience | 22% | 21% |
-| Presentation | 22% | 21% |
-| Posting | 22% | 20% |
-| Paid Time Off | 21% | 20% |
-| Objectives | 20% | 17% |
-| Phone | 20% | 18% |
-| Network | 20% | 16% |
-| Policies and procedures | 19% | 18% |
+| Portfolio **(core)** | 40% | 39% |
+| Risk **(core)** | 39% | 39% |
+| Banking **(core)** | 38% | 34% |
+| Investment **(core)** | 33% | 30% |
+| Regulatory **(core)** | 33% | 25% |
+| Relationship Management **(core)** | 31% | 28% |
+| Meetings **(core)** | 27% | 28% |
+| Equity **(core)** | 26% | 21% |
+| Email **(core)** | 26% | 28% |
+| Influence **(core)** | 26% | 23% |
+| Financial Services **(core)** | 25% | 23% |
+| Work Experience | 24% | 23% |
+| Presentation | 24% | 23% |
+| Lending | 23% | 20% |
+| Policies and procedures | 23% | 23% |
+| Network | 21% | 18% |
+| Business Development | 21% | 21% |
+| Go | 20% | 15% |
+| Paid Time Off | 20% | 16% |
+| Phone | 20% | 16% |
+| history | 20% | 16% |
+| Business Needs | 20% | 21% |
+| Recommendations | 20% | 15% |
+| Written Communication | 20% | 15% |
+| Objectives | 19% | 16% |
+| Partnership | 19% | 25% |
+| Prospecting | 19% | 20% |
+| Profitability | 19% | 23% |
+| CRM | 19% | 21% |
+| Independent | 18% | 15% |
 | Retention | 18% | 18% |
-| Analyze | 18% | 18% |
-| history | 17% | 14% |
-| Recruiting | 17% | 20% |
-| Partnership | 17% | 21% |
-| Vacation | 17% | 17% |
-| Business Needs | 17% | 18% |
-| CRM | 17% | 18% |
-| Analytical | 17% | 18% |
-| Wealth Management | 17% | 18% |
-| Verbal and Written Communication | 17% | 16% |
-| Independent | 16% | 12% |
+| Partnerships | 18% | 12% |
+| Analyze | 18% | 21% |
+| Customer Needs | 18% | 23% |
+| Posting | 18% | 15% |
+| Tuition Reimbursement | 18% | 13% |
 
 ## Soft skills employers mention
 
-Communication (73%), Leadership (28%), Communication Skills (27%), Customer Service (25%), Problem Solving (25%), Negotiation (20%), Collaboration (19%), Presentations (18%), Decision Making (13%), Interpersonal Skills (12%)
+Communication (69%), Communication Skills (26%), Leadership (26%), Problem Solving (21%), Customer Service (20%), Collaboration (19%), Negotiation (18%), Coaching (16%), Interpersonal Skills (14%), Presentations (14%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

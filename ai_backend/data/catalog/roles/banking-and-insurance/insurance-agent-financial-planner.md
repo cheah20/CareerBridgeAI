@@ -4,7 +4,7 @@
 - **Also called:** Insurance Agent, Financial Planner, Unit Trust Consultant, Financial Advisor
 - **O*NET:** 13-2052.00 Personal Financial Advisors; 41-3021.00 Insurance Sales Agents; 41-3031.00 Securities, Commodities, and Financial Services Sales Agents
 - **ESCO:** financial planner
-- **Job ads analysed:** 308 (Internship / Fresh Graduate 28, Junior 38, Mid-level 233, Senior 6, Lead / Manager 3)
+- **Job ads analysed:** 158 (Internship / Fresh Graduate 21, Junior 18, Mid-level 111, Senior 6, Lead / Manager 2)
 
 ## What the job involves
 
@@ -16,55 +16,40 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
 |---|---|---|---|---|
-| Investment **(core)** | 59% | 36% | 68% | 60% |
-| Financial Services **(core)** | 51% | 36% | 47% | 55% |
-| Network **(core)** | 50% | 50% | 37% | 55% |
-| Flexibility **(core)** | 42% | 7% | 29% | 49% |
-| Objectives **(core)** | 36% | 25% | 10% | 42% |
-| work independently **(core)** | 35% | 7% | 8% | 44% |
-| pregnancy **(core)** | 35% | 4% | 16% | 43% |
-| Partnership **(core)** | 35% | 11% | 8% | 43% |
-| history **(core)** | 34% | 14% | 0% | 43% |
-| Ownership **(core)** | 34% | 7% | 8% | 43% |
-| Resource **(core)** | 32% | 11% | 26% | 36% |
-| Motivation **(core)** | 31% | 4% | 3% | 40% |
-| Ambition **(core)** | 30% | 0% | 0% | 40% |
-| Equity **(core)** | 30% | 14% | 0% | 38% |
-| Stability **(core)** | 30% | 18% | 26% | 34% |
-| Apex **(core)** | 30% | 4% | 3% | 39% |
-| Financial Planning **(core)** | 28% | 39% | 32% | 25% |
-| Power **(core)** | 27% | 4% | 5% | 34% |
-| Relationship Building **(core)** | 26% | 4% | 3% | 34% |
-| Life Insurance **(core)** | 25% | 32% | 16% | 27% |
-| Judgment | 25% | 7% | 3% | 31% |
-| philosophy | 25% | 0% | 0% | 33% |
-| JD | 24% | 0% | 0% | 31% |
-| Ranking | 24% | 0% | 0% | 32% |
-| trademarks | 24% | 0% | 3% | 31% |
-| Sound judgment | 24% | 0% | 0% | 31% |
-| think critically | 24% | 0% | 0% | 31% |
-| Helm | 22% | 0% | 0% | 30% |
-| securities | 20% | 29% | 45% | 15% |
-| Trust | 20% | 7% | 42% | 17% |
-| Independent | 16% | 14% | 29% | 13% |
-| Entrepreneurial | 16% | 29% | 10% | 15% |
-| Networking | 15% | 21% | 5% | 17% |
-| Recommendations | 14% | 21% | 16% | 13% |
-| Regulatory | 13% | 11% | 13% | 14% |
-| Respect | 13% | 11% | 5% | 15% |
-| Health Insurance | 13% | 29% | 3% | 12% |
-| Guidance | 12% | 18% | 5% | 12% |
-| Excellence | 12% | 7% | 8% | 13% |
-| Pension | 11% | 0% | 29% | 9% |
-| Professional Development | 11% | 4% | 10% | 12% |
-| Wealth Management | 11% | 25% | 13% | 8% |
-| Portfolio | 11% | 25% | 26% | 6% |
-| Integrity | 10% | 29% | 5% | 9% |
-| Standing | 10% | 4% | 13% | 11% |
+| Investment **(core)** | 43% | 29% | 78% | 39% |
+| Financial Planning **(core)** | 42% | 33% | 56% | 40% |
+| Life Insurance **(core)** | 35% | 29% | 33% | 39% |
+| Financial Services **(core)** | 30% | 33% | 39% | 30% |
+| Network **(core)** | 26% | 52% | 22% | 23% |
+| Independent | 23% | 14% | 17% | 25% |
+| Entrepreneurial | 20% | 19% | 17% | 22% |
+| Health Insurance | 19% | 29% | 6% | 20% |
+| Flexibility | 18% | 10% | 22% | 19% |
+| Wealth Management | 16% | 29% | 22% | 11% |
+| Portfolio | 16% | 29% | 39% | 10% |
+| Guidance | 16% | 19% | 11% | 17% |
+| Integrity | 15% | 24% | 11% | 14% |
+| securities | 15% | 24% | 33% | 11% |
+| Trust | 15% | 10% | 28% | 13% |
+| Networking | 15% | 29% | 11% | 14% |
+| Pension | 13% | 0% | 17% | 14% |
+| Risk | 13% | 10% | 28% | 10% |
+| Meetings | 13% | 5% | 22% | 12% |
+| work independently | 12% | 10% | 11% | 14% |
+| Prospecting | 12% | 5% | 11% | 14% |
+| Remote Work | 12% | 24% | 0% | 12% |
+| Tax | 12% | 5% | 11% | 12% |
+| Recommendations | 12% | 14% | 17% | 11% |
+| Mentorship | 11% | 19% | 17% | 10% |
+| Work Environment | 11% | 24% | 0% | 11% |
+| Client Service | 11% | 19% | 17% | 7% |
+| Excel | 11% | 10% | 6% | 11% |
+| Business Development | 10% | 0% | 6% | 13% |
+| Retirement planning | 10% | 10% | 6% | 11% |
 
 ## Soft skills employers mention
 
-Communication (26%), Customer Service (14%), Leadership (13%), Coaching (12%)
+Communication (40%), Customer Service (23%), Leadership (17%), Interpersonal Skills (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

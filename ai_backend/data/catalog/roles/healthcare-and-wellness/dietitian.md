@@ -4,7 +4,7 @@
 - **Also called:** Nutritionist
 - **O*NET:** 29-1031.00 Dietitians and Nutritionists
 - **ESCO:** dietitian
-- **Job ads analysed:** 77 (Internship / Fresh Graduate 39, Junior 4, Mid-level 34)
+- **Job ads analysed:** 70 (Internship / Fresh Graduate 37, Junior 4, Mid-level 29)
 
 ## What the job involves
 
@@ -17,43 +17,44 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads | Internship / Fresh Graduate | Mid-level |
 |---|---|---|---|
 | nutrition **(core)** | 100% | 100% | 100% |
-| Clinical **(core)** | 71% | 72% | 74% |
-| dietetics **(core)** | 71% | 64% | 76% |
-| Assessments **(core)** | 44% | 56% | 35% |
-| Health Care **(core)** | 40% | 46% | 32% |
-| Counseling **(core)** | 40% | 41% | 44% |
-| Meetings **(core)** | 27% | 36% | 21% |
-| Patient Care **(core)** | 26% | 23% | 32% |
-| Part Time **(core)** | 26% | 36% | 15% |
-| Risk | 25% | 20% | 29% |
-| Guidance | 23% | 23% | 26% |
-| Continuing education | 23% | 20% | 24% |
-| Regulatory | 21% | 20% | 21% |
-| Policies and procedures | 20% | 28% | 12% |
-| Compassion | 20% | 28% | 12% |
-| Performance Improvement | 18% | 15% | 21% |
-| Resource | 18% | 15% | 24% |
-| Educational | 18% | 20% | 15% |
-| Internship | 18% | 28% | 9% |
-| Integrity | 17% | 18% | 18% |
-| Excellence | 17% | 18% | 18% |
-| Nursing | 17% | 20% | 15% |
-| Conferences | 16% | 26% | 6% |
-| Teaching | 14% | 8% | 24% |
-| Master's Degree | 14% | 10% | 21% |
-| Multidisciplinary | 14% | 5% | 26% |
-| Paid Time Off | 14% | 26% | 3% |
-| history | 14% | 18% | 12% |
-| Affirmative Action | 14% | 18% | 12% |
-| Affirmative Action Employer | 14% | 18% | 12% |
-| Government | 14% | 18% | 6% |
-| Availability | 13% | 8% | 21% |
-| Liaison | 13% | 5% | 24% |
-| Network | 13% | 8% | 21% |
+| dietetics **(core)** | 73% | 65% | 79% |
+| Clinical **(core)** | 69% | 70% | 69% |
+| Assessments **(core)** | 43% | 54% | 34% |
+| Health Care **(core)** | 41% | 49% | 31% |
+| Counseling **(core)** | 41% | 40% | 48% |
+| Part Time **(core)** | 29% | 38% | 17% |
+| Risk **(core)** | 27% | 22% | 34% |
+| Meetings **(core)** | 27% | 32% | 24% |
+| Patient Care **(core)** | 26% | 24% | 31% |
+| Continuing education | 24% | 19% | 28% |
+| Guidance | 21% | 22% | 24% |
+| Regulatory | 21% | 22% | 21% |
+| Policies and procedures | 21% | 30% | 14% |
+| Holidays | 20% | 24% | 14% |
+| Internship | 19% | 30% | 7% |
+| Performance Improvement | 17% | 14% | 21% |
+| Nursing | 17% | 19% | 17% |
+| Resource | 16% | 14% | 21% |
+| Master's Degree | 16% | 11% | 24% |
+| Multidisciplinary | 16% | 5% | 31% |
+| Compassion | 16% | 24% | 7% |
+| Conferences | 16% | 24% | 7% |
+| Educational | 16% | 22% | 7% |
+| Paid Time Off | 16% | 27% | 3% |
+| Resume | 14% | 14% | 17% |
+| Rules | 14% | 14% | 14% |
+| Integrity | 14% | 16% | 14% |
+| Objectives | 14% | 24% | 3% |
+| Diagnosis | 14% | 14% | 17% |
+| 401k | 14% | 24% | 3% |
+| Accreditation | 14% | 19% | 10% |
+| Affirmative Action | 14% | 19% | 10% |
+| Affirmative Action Employer | 14% | 19% | 10% |
+| history | 14% | 16% | 14% |
 
 ## Soft skills employers mention
 
-Communication (36%), Communication Skills (16%), Customer Service (13%), Teamwork (13%), Problem Solving (12%), Leadership (10%)
+Communication (37%), Communication Skills (17%), Customer Service (14%), Problem Solving (13%), Leadership (11%), Critical Thinking (10%), Teamwork (10%)
 
 ## Essential skills (ESCO)
 

@@ -3,7 +3,7 @@
 - **Field:** Engineering
 - **O*NET:** 17-2051.00 Civil Engineers; 17-2081.00 Environmental Engineers
 - **ESCO:** civil engineer
-- **Job ads analysed:** 115 (Internship / Fresh Graduate 41, Junior 5, Mid-level 40, Senior 24, Lead / Manager 5)
+- **Job ads analysed:** 86 (Internship / Fresh Graduate 31, Junior 5, Mid-level 32, Senior 14, Lead / Manager 4)
 
 ## What the job involves
 
@@ -13,49 +13,47 @@ Perform engineering duties in planning, designing, and overseeing construction a
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Mid-level | Senior |
-|---|---|---|---|---|
-| Civil Engineering **(core)** | 84% | 88% | 80% | 75% |
-| AutoCAD **(core)** | 50% | 54% | 52% | 33% |
-| Civil 3D **(core)** | 44% | 49% | 35% | 46% |
-| PE **(core)** | 42% | 34% | 32% | 62% |
-| Infrastructure **(core)** | 40% | 39% | 35% | 50% |
-| Drainage **(core)** | 32% | 27% | 30% | 29% |
-| Grading **(core)** | 31% | 27% | 30% | 38% |
-| Consulting **(core)** | 30% | 34% | 15% | 42% |
-| Estimates **(core)** | 30% | 42% | 25% | 8% |
-| Energy **(core)** | 30% | 29% | 22% | 38% |
-| Land Development **(core)** | 28% | 22% | 42% | 8% |
-| Transportation **(core)** | 27% | 24% | 18% | 38% |
-| industrial software | 24% | 10% | 32% | 33% |
-| Project Management | 23% | 20% | 18% | 38% |
-| Consultants | 19% | 27% | 15% | 8% |
-| Budget | 19% | 24% | 10% | 29% |
-| Resume | 18% | 22% | 12% | 17% |
-| Cost estimates | 18% | 24% | 20% | 4% |
-| Meetings | 18% | 10% | 22% | 17% |
-| Construction Management | 18% | 24% | 8% | 29% |
-| Writing | 18% | 10% | 30% | 12% |
-| Power | 17% | 20% | 15% | 17% |
-| Modeling | 17% | 17% | 15% | 12% |
-| Regulatory | 17% | 20% | 15% | 17% |
-| PE License | 16% | 10% | 15% | 33% |
-| Utilities | 16% | 15% | 10% | 25% |
-| Equity | 16% | 27% | 8% | 17% |
-| Government | 16% | 15% | 15% | 21% |
-| work independently | 16% | 20% | 8% | 8% |
-| Analytical | 16% | 15% | 18% | 12% |
-| Work Environment | 16% | 15% | 20% | 4% |
-| Word | 15% | 12% | 15% | 17% |
-| Inspections | 15% | 15% | 18% | 8% |
-| Project managers | 15% | 10% | 22% | 4% |
-| Microsoft Office | 15% | 20% | 18% | 4% |
-| Verbal Communication | 15% | 17% | 12% | 17% |
-| Written and Verbal Communication | 15% | 17% | 12% | 17% |
+| Skill | All ads | Internship / Fresh Graduate | Mid-level |
+|---|---|---|---|
+| Civil Engineering **(core)** | 81% | 84% | 78% |
+| AutoCAD **(core)** | 55% | 52% | 53% |
+| Civil 3D **(core)** | 44% | 48% | 31% |
+| PE **(core)** | 44% | 39% | 38% |
+| Infrastructure **(core)** | 40% | 42% | 31% |
+| Land Development **(core)** | 34% | 19% | 53% |
+| Grading **(core)** | 34% | 29% | 34% |
+| Drainage **(core)** | 30% | 26% | 28% |
+| Transportation **(core)** | 29% | 26% | 22% |
+| Estimates **(core)** | 26% | 39% | 19% |
+| Consulting | 23% | 23% | 12% |
+| Resume | 22% | 26% | 16% |
+| Energy | 21% | 16% | 16% |
+| Project Management | 20% | 16% | 12% |
+| industrial software | 20% | 0% | 31% |
+| Consultants | 19% | 29% | 9% |
+| PE License | 19% | 13% | 16% |
+| Budget | 19% | 26% | 12% |
+| Work Environment | 19% | 19% | 19% |
+| Meetings | 19% | 13% | 22% |
+| Analytical | 17% | 16% | 19% |
+| Objectives | 17% | 10% | 16% |
+| work independently | 16% | 13% | 9% |
+| Word | 16% | 16% | 12% |
+| Utilities | 16% | 19% | 9% |
+| Equity | 16% | 29% | 9% |
+| Modeling | 16% | 19% | 12% |
+| Regulatory | 16% | 10% | 19% |
+| Writing | 16% | 10% | 25% |
+| Responsibility | 16% | 6% | 28% |
+| Stormwater Management | 15% | 10% | 19% |
+| Inspections | 15% | 16% | 16% |
+| Cost estimates | 15% | 26% | 12% |
+| Excel | 15% | 19% | 12% |
+| Driver's License | 15% | 26% | 9% |
 
 ## Soft skills employers mention
 
-Communication (57%), Communication Skills (28%), Leadership (23%), Problem Solving (21%), Attention to Detail (14%), Collaboration (12%), Mentoring (10%)
+Communication (56%), Leadership (26%), Communication Skills (26%), Problem Solving (20%), Attention to Detail (13%), Time Management (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

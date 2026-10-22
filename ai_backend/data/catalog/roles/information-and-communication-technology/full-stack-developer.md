@@ -4,7 +4,7 @@
 - **Also called:** Full-stack Developer
 - **O*NET:** 15-1254.00 Web Developers; 15-1252.00 Software Developers
 - **ESCO:** web developer
-- **Job ads analysed:** 87 (Internship / Fresh Graduate 12, Junior 6, Mid-level 46, Senior 20, Lead / Manager 3)
+- **Job ads analysed:** 78 (Internship / Fresh Graduate 11, Junior 5, Mid-level 40, Senior 19, Lead / Manager 3)
 
 ## What the job involves
 
@@ -16,64 +16,64 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level | Senior |
 |---|---|---|---|
-| Full Stack **(core)** | 98% | 96% | 100% |
-| Java **(core)** | 54% | 52% | 45% |
-| Agile **(core)** | 53% | 52% | 50% |
-| React **(core)** | 49% | 33% | 75% |
-| JavaScript **(core)** | 49% | 41% | 70% |
-| Cloud **(core)** | 46% | 39% | 70% |
-| Computer Science **(core)** | 42% | 48% | 30% |
-| Angular **(core)** | 39% | 39% | 30% |
-| AWS **(core)** | 37% | 30% | 65% |
-| Testing **(core)** | 36% | 28% | 45% |
-| Programming **(core)** | 34% | 35% | 35% |
-| API **(core)** | 34% | 30% | 45% |
-| SQL **(core)** | 33% | 35% | 30% |
-| Database **(core)** | 33% | 30% | 30% |
-| Frameworks **(core)** | 32% | 24% | 45% |
-| Spring **(core)** | 32% | 30% | 25% |
-| Git **(core)** | 32% | 28% | 40% |
-| Software Development **(core)** | 31% | 26% | 45% |
-| CSS **(core)** | 30% | 22% | 35% |
-| DevOps **(core)** | 26% | 24% | 30% |
-| Scrum **(core)** | 26% | 26% | 20% |
-| Architecture **(core)** | 26% | 24% | 30% |
-| Docker **(core)** | 25% | 22% | 45% |
-| Coding **(core)** | 25% | 35% | 10% |
-| HTML **(core)** | 25% | 24% | 20% |
-| Spring Boot | 24% | 28% | 20% |
-| APIs | 24% | 24% | 30% |
-| Databases | 24% | 22% | 25% |
-| Application Development | 23% | 24% | 10% |
-| Python | 22% | 24% | 20% |
-| REST | 22% | 20% | 20% |
-| Analytical | 22% | 24% | 20% |
-| Deployment | 21% | 17% | 30% |
-| Methodologies | 21% | 20% | 25% |
-| CI/CD | 20% | 20% | 15% |
-| .NET | 20% | 20% | 25% |
-| Jenkins | 18% | 9% | 25% |
-| Microservices | 18% | 20% | 10% |
-| Information Technology | 18% | 13% | 10% |
-| Full Stack Development | 17% | 22% | 10% |
-| MySQL | 17% | 15% | 30% |
-| Version Control | 17% | 17% | 20% |
-| Scalable | 17% | 17% | 30% |
-| Azure | 17% | 20% | 25% |
-| Maintenance | 17% | 13% | 15% |
-| Node.js | 16% | 9% | 35% |
-| Debugging | 16% | 15% | 15% |
-| Implementation | 16% | 11% | 25% |
-| Web Applications | 16% | 17% | 20% |
-| J2EE | 15% | 15% | 5% |
+| Full Stack **(core)** | 97% | 95% | 100% |
+| Java **(core)** | 55% | 55% | 42% |
+| React **(core)** | 51% | 38% | 74% |
+| JavaScript **(core)** | 50% | 42% | 68% |
+| Agile **(core)** | 50% | 48% | 53% |
+| Cloud **(core)** | 45% | 32% | 74% |
+| Computer Science **(core)** | 42% | 50% | 26% |
+| Angular **(core)** | 41% | 40% | 32% |
+| Programming **(core)** | 37% | 38% | 37% |
+| AWS **(core)** | 36% | 28% | 68% |
+| Testing **(core)** | 35% | 30% | 42% |
+| API **(core)** | 33% | 28% | 47% |
+| Spring **(core)** | 33% | 32% | 26% |
+| SQL **(core)** | 33% | 35% | 26% |
+| Database **(core)** | 33% | 30% | 32% |
+| Frameworks **(core)** | 31% | 25% | 42% |
+| CSS **(core)** | 30% | 20% | 37% |
+| Software Development **(core)** | 30% | 28% | 42% |
+| Git **(core)** | 30% | 22% | 37% |
+| Architecture **(core)** | 28% | 25% | 32% |
+| Server **(core)** | 27% | 28% | 21% |
+| Spring Boot **(core)** | 26% | 30% | 21% |
+| Docker **(core)** | 26% | 20% | 47% |
+| Application Development **(core)** | 26% | 28% | 10% |
+| Scrum **(core)** | 26% | 25% | 21% |
+| DevOps | 24% | 22% | 32% |
+| Databases | 24% | 20% | 26% |
+| APIs | 24% | 22% | 32% |
+| HTML | 24% | 22% | 21% |
+| REST | 23% | 20% | 21% |
+| CI/CD | 20% | 20% | 16% |
+| Python | 20% | 22% | 21% |
+| Deployment | 20% | 15% | 32% |
+| MySQL | 19% | 18% | 32% |
+| Analytical | 19% | 22% | 16% |
+| Microservices | 19% | 20% | 10% |
+| .NET | 19% | 20% | 26% |
+| Methodologies | 19% | 18% | 26% |
+| Full Stack Development | 18% | 22% | 10% |
+| Jenkins | 18% | 10% | 21% |
+| Information Technology | 18% | 15% | 10% |
+| Azure | 18% | 20% | 26% |
+| J2EE | 17% | 18% | 5% |
+| Node.js | 17% | 8% | 37% |
+| Web Development | 17% | 22% | 5% |
+| Debugging | 17% | 18% | 16% |
+| Version Control | 17% | 15% | 21% |
+| Scalable | 17% | 15% | 32% |
+| Oracle | 15% | 12% | 16% |
+| Implementation | 15% | 12% | 21% |
 
 ## Soft skills employers mention
 
-Communication (33%), Problem Solving (31%), Collaboration (18%), Problem Solving Skills (14%), Communication Skills (13%)
+Communication (33%), Problem Solving (30%), Collaboration (19%), Problem Solving Skills (14%), Communication Skills (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Amazon Web Services AWS, Apache Kafka, Atlassian JIRA, C, C#, C++, Cascading style sheets CSS, Docker, Git, GitHub, Go, Google Angular, Hypertext markup language HTML, IBM Terraform, JavaScript, Jenkins CI, Kubernetes, Linux, Microsoft Azure, Oracle Java
+Amazon Web Services AWS, Apache Kafka, Atlassian JIRA, C, C#, C++, Cascading style sheets CSS, Docker, Git, GitHub, Go, Google Angular, Hypertext markup language HTML, IBM Terraform, JavaScript, Jenkins CI, Kubernetes, Linux, Microsoft Azure, Node.js
 
 ## Essential skills (ESCO)
 

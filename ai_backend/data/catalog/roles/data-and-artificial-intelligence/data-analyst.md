@@ -3,7 +3,7 @@
 - **Field:** Data & Artificial Intelligence
 - **O*NET:** 15-2051.00 Data Scientists; 15-2041.00 Statisticians
 - **ESCO:** data analyst
-- **Job ads analysed:** 2,286 (Internship / Fresh Graduate 120, Junior 319, Mid-level 1126, Senior 610, Lead / Manager 111)
+- **Job ads analysed:** 2,178 (Internship / Fresh Graduate 67, Junior 315, Mid-level 1082, Senior 603, Lead / Manager 111)
 
 ## What the job involves
 
@@ -15,31 +15,31 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| Data Analysis **(core)** | 63% | 30% | 67% | 62% | 69% | 63% |
-| SQL **(core)** | 61% | 35% | 52% | 62% | 68% | 76% |
-| Data Visualization **(core)** | 46% | 12% | 41% | 46% | 51% | 62% |
-| Python **(core)** | 42% | 22% | 30% | 42% | 51% | 60% |
-| Tableau **(core)** | 36% | 17% | 30% | 32% | 46% | 57% |
-| Power BI | 23% | 11% | 18% | 26% | 22% | 17% |
-| Excel | 22% | 30% | 25% | 21% | 22% | 7% |
-| Data Analytics | 19% | 19% | 18% | 17% | 21% | 36% |
-| Business Intelligence | 18% | 5% | 18% | 14% | 24% | 41% |
-| Project Management | 18% | 5% | 13% | 21% | 18% | 14% |
-| Data Management | 18% | 5% | 16% | 21% | 15% | 16% |
-| Data Mining | 17% | 2% | 18% | 15% | 18% | 41% |
-| Statistics | 17% | 17% | 21% | 14% | 17% | 30% |
-| Machine Learning | 15% | 30% | 14% | 9% | 19% | 34% |
+| Data Analysis **(core)** | 65% | 39% | 67% | 65% | 69% | 63% |
+| SQL **(core)** | 61% | 43% | 52% | 60% | 68% | 76% |
+| Data Visualization **(core)** | 48% | 19% | 42% | 48% | 51% | 62% |
+| Python **(core)** | 42% | 27% | 30% | 40% | 51% | 60% |
+| Tableau **(core)** | 37% | 24% | 30% | 33% | 46% | 57% |
+| Power BI | 23% | 15% | 18% | 27% | 22% | 17% |
+| Excel | 22% | 48% | 25% | 22% | 22% | 7% |
+| Data Analytics | 20% | 25% | 18% | 18% | 20% | 36% |
+| Business Intelligence | 19% | 8% | 18% | 15% | 24% | 41% |
+| Project Management | 18% | 8% | 13% | 22% | 18% | 14% |
+| Data Management | 18% | 8% | 16% | 22% | 15% | 16% |
+| Data Mining | 18% | 3% | 19% | 15% | 18% | 41% |
+| Statistics | 17% | 19% | 20% | 14% | 16% | 30% |
+| Machine Learning | 14% | 18% | 14% | 10% | 19% | 34% |
 | Data Science | 13% | 15% | 14% | 8% | 18% | 32% |
 | Data Modeling | 13% | 2% | 11% | 12% | 16% | 22% |
-| Analytics | 12% | 32% | 12% | 9% | 12% | 11% |
-| Data Quality | 12% | 20% | 6% | 12% | 11% | 20% |
-| Statistical Analysis | 11% | 3% | 8% | 12% | 13% | 14% |
-| Data Warehousing | 10% | 4% | 8% | 8% | 15% | 17% |
-| Data Governance | 10% | 7% | 7% | 8% | 14% | 23% |
+| Data Quality | 12% | 15% | 6% | 12% | 11% | 20% |
+| Statistical Analysis | 11% | 4% | 8% | 12% | 12% | 14% |
+| Analytics | 11% | 40% | 11% | 9% | 12% | 11% |
+| Data Warehousing | 11% | 8% | 8% | 8% | 15% | 17% |
+| Data Governance | 10% | 10% | 7% | 8% | 14% | 23% |
 
 ## Soft skills employers mention
 
-Communication (30%), Communication Skills (18%), Analytical Skills (18%), Problem Solving (17%), Attention to Detail (14%), Teamwork (12%), Collaboration (11%)
+Communication (31%), Communication Skills (18%), Problem Solving (18%), Analytical Skills (18%), Attention to Detail (14%), Teamwork (12%), Collaboration (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

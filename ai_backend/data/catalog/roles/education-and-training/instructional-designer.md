@@ -3,7 +3,7 @@
 - **Field:** Education & Training
 - **O*NET:** 25-9031.00 Instructional Coordinators
 - **ESCO:** instructional designer
-- **Job ads analysed:** 39 (Internship / Fresh Graduate 8, Junior 7, Mid-level 18, Senior 6)
+- **Job ads analysed:** 37 (Internship / Fresh Graduate 7, Junior 7, Mid-level 18, Senior 5)
 
 ## What the job involves
 
@@ -17,43 +17,43 @@ Share of job ads for this role that mention the skill, overall and by experience
 |---|---|---|
 | Instructional **(core)** | 100% | 100% |
 | Project Management **(core)** | 46% | 33% |
-| Adobe **(core)** | 41% | 33% |
+| Adobe **(core)** | 43% | 33% |
 | Video **(core)** | 38% | 39% |
-| Objectives **(core)** | 36% | 17% |
-| Training Materials **(core)** | 33% | 33% |
-| Assessments **(core)** | 33% | 28% |
-| Deadlines **(core)** | 31% | 11% |
-| Deliverables **(core)** | 31% | 33% |
-| e-learning **(core)** | 31% | 6% |
-| Analytical | 23% | 39% |
-| HR | 23% | 28% |
-| Writing | 23% | 22% |
-| Methods | 23% | 22% |
-| Articulate Storyline | 23% | 22% |
-| Simulations | 20% | 22% |
-| Master's Degree | 20% | 17% |
-| Articulate 360 | 20% | 6% |
-| Graphics | 20% | 22% |
-| Retention | 20% | 17% |
-| Educational | 20% | 22% |
-| Analyze | 18% | 17% |
-| learning management systems | 18% | 17% |
-| Methodologies | 18% | 6% |
-| Presentation | 18% | 6% |
-| Project management skills | 18% | 17% |
-| instructional strategies | 18% | 11% |
-| Adobe Captivate | 18% | 6% |
-| Resource | 18% | 33% |
-| MS | 15% | 33% |
-| Teaching | 15% | 11% |
-| authoring software | 15% | 6% |
-| Microsoft Office | 15% | 17% |
-| Timelines | 15% | 28% |
-| Google | 15% | 17% |
+| Objectives **(core)** | 35% | 17% |
+| Assessments **(core)** | 35% | 28% |
+| Deadlines **(core)** | 32% | 11% |
+| Training Materials **(core)** | 32% | 33% |
+| Deliverables **(core)** | 30% | 33% |
+| e-learning **(core)** | 27% | 6% |
+| Analytical | 24% | 39% |
+| HR | 24% | 28% |
+| Articulate Storyline | 24% | 22% |
+| Simulations | 22% | 22% |
+| Graphics | 22% | 22% |
+| Writing | 22% | 22% |
+| Methods | 22% | 22% |
+| Educational | 22% | 22% |
+| Master's Degree | 19% | 17% |
+| Articulate 360 | 19% | 6% |
+| Analyze | 19% | 17% |
+| learning management systems | 19% | 17% |
+| Project management skills | 19% | 17% |
+| Retention | 19% | 17% |
+| Adobe Captivate | 19% | 6% |
+| Resource | 19% | 33% |
+| MS | 16% | 33% |
+| authoring software | 16% | 6% |
+| Methodologies | 16% | 6% |
+| Microsoft Office | 16% | 17% |
+| Presentation | 16% | 6% |
+| Timelines | 16% | 28% |
+| instructional strategies | 16% | 11% |
+| Google | 16% | 17% |
+| Learning and development | 16% | 22% |
 
 ## Soft skills employers mention
 
-Communication (56%), Problem Solving (26%), Collaboration (18%), Communication Skills (15%), Leadership (13%), Presentations (13%), Interpersonal Skills (13%), Attention to Detail (13%)
+Communication (54%), Problem Solving (27%), Collaboration (16%), Communication Skills (16%), Presentations (14%), Interpersonal Skills (14%), Attention to Detail (14%), Leadership (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Technical Product Manager
 - **O*NET:** 11-2021.00 Marketing Managers; 27-1021.00 Commercial and Industrial Designers
 - **ESCO:** product manager
-- **Job ads analysed:** 567 (Internship / Fresh Graduate 78, Junior 30, Mid-level 208, Senior 195, Lead / Manager 56)
+- **Job ads analysed:** 418 (Internship / Fresh Graduate 54, Junior 19, Mid-level 163, Senior 143, Lead / Manager 39)
 
 ## What the job involves
 
@@ -16,43 +16,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| Product Management **(core)** | 72% | 70% | 80% | 66% | 77% | 70% |
-| Roadmap **(core)** | 48% | 49% | 30% | 38% | 59% | 61% |
-| Agile **(core)** | 37% | 50% | 43% | 30% | 41% | 30% |
-| Execution **(core)** | 31% | 31% | 30% | 26% | 36% | 39% |
-| Product Development **(core)** | 31% | 30% | 47% | 33% | 30% | 21% |
-| Analytical **(core)** | 30% | 32% | 33% | 28% | 32% | 29% |
-| Insights **(core)** | 27% | 32% | 20% | 24% | 31% | 27% |
-| Metrics **(core)** | 27% | 24% | 33% | 24% | 28% | 32% |
-| Product Strategy | 25% | 22% | 40% | 20% | 29% | 23% |
-| Product Roadmap | 23% | 32% | 13% | 15% | 29% | 27% |
-| Analytics | 22% | 20% | 23% | 15% | 27% | 29% |
-| Product Vision | 21% | 18% | 17% | 11% | 31% | 27% |
-| Management Experience | 21% | 14% | 17% | 18% | 27% | 20% |
-| Objectives | 20% | 30% | 33% | 21% | 12% | 29% |
-| Equity | 19% | 13% | 20% | 11% | 26% | 38% |
-| Influence | 19% | 26% | 17% | 15% | 20% | 23% |
-| Portfolio | 19% | 23% | 30% | 14% | 21% | 20% |
-| Implementation | 18% | 22% | 20% | 16% | 17% | 23% |
-| Market Research | 18% | 22% | 33% | 15% | 16% | 16% |
-| Go | 17% | 18% | 20% | 17% | 14% | 27% |
-| Analyze | 17% | 17% | 20% | 16% | 20% | 11% |
-| Customer Needs | 17% | 18% | 30% | 10% | 20% | 27% |
-| Prioritization | 17% | 14% | 13% | 16% | 18% | 20% |
-| Tech | 17% | 19% | 10% | 10% | 23% | 18% |
-| Computer Science | 16% | 17% | 20% | 15% | 17% | 18% |
-| Scrum | 16% | 19% | 13% | 13% | 19% | 14% |
-| User Stories | 16% | 20% | 27% | 14% | 17% | 4% |
-| Adoption | 16% | 14% | 20% | 11% | 18% | 27% |
-| Roadmaps | 16% | 13% | 17% | 16% | 16% | 16% |
-| Software Development | 16% | 17% | 7% | 16% | 16% | 14% |
-| Project Management | 15% | 19% | 23% | 14% | 13% | 21% |
-| Equal Employment Opportunity | 15% | 19% | 10% | 14% | 13% | 27% |
-| Collaborative | 14% | 17% | 20% | 10% | 13% | 29% |
+| Product Management **(core)** | 69% | 63% | 79% | 62% | 77% | 77% |
+| Roadmap **(core)** | 46% | 50% | 26% | 35% | 57% | 59% |
+| Agile **(core)** | 35% | 50% | 53% | 29% | 38% | 23% |
+| Product Development **(core)** | 32% | 28% | 53% | 34% | 34% | 15% |
+| Execution **(core)** | 30% | 30% | 32% | 25% | 36% | 28% |
+| Analytical **(core)** | 28% | 22% | 32% | 31% | 31% | 18% |
+| Metrics **(core)** | 26% | 22% | 42% | 23% | 26% | 38% |
+| Insights | 25% | 24% | 21% | 23% | 27% | 26% |
+| Product Strategy | 24% | 20% | 47% | 20% | 27% | 20% |
+| Analytics | 22% | 18% | 26% | 17% | 27% | 28% |
+| Product Roadmap | 21% | 35% | 10% | 14% | 23% | 31% |
+| Product Vision | 21% | 22% | 16% | 10% | 31% | 28% |
+| Objectives | 20% | 30% | 26% | 22% | 13% | 23% |
+| Go | 18% | 22% | 26% | 17% | 13% | 33% |
+| Management Experience | 18% | 13% | 5% | 17% | 23% | 18% |
+| Influence | 18% | 28% | 21% | 14% | 19% | 15% |
+| Equity | 18% | 11% | 21% | 6% | 27% | 38% |
+| Roadmaps | 17% | 17% | 16% | 17% | 18% | 18% |
+| Implementation | 17% | 22% | 21% | 14% | 17% | 20% |
+| Computer Science | 17% | 11% | 32% | 16% | 18% | 20% |
+| Market Research | 17% | 22% | 42% | 17% | 13% | 10% |
+| Analyze | 16% | 15% | 26% | 13% | 21% | 10% |
+| Prioritization | 16% | 17% | 10% | 16% | 18% | 13% |
+| Customer Needs | 16% | 24% | 32% | 12% | 13% | 23% |
+| Portfolio | 16% | 20% | 21% | 14% | 17% | 13% |
+| User Stories | 16% | 17% | 32% | 17% | 15% | 5% |
+| Adoption | 15% | 18% | 26% | 10% | 15% | 26% |
+| Project Management | 15% | 20% | 5% | 13% | 15% | 23% |
+| Tech | 15% | 11% | 10% | 10% | 20% | 20% |
+| User Experience | 14% | 13% | 16% | 15% | 15% | 10% |
+| Testing | 14% | 17% | 5% | 12% | 16% | 13% |
+| Pricing | 14% | 15% | 21% | 15% | 12% | 10% |
 
 ## Soft skills employers mention
 
-Communication (60%), Leadership (39%), Collaboration (31%), Communication Skills (29%), Problem Solving (21%), Analytical Skills (12%), Decision Making (11%)
+Communication (58%), Leadership (39%), Collaboration (28%), Communication Skills (25%), Problem Solving (20%), Decision Making (12%), Analytical Skills (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

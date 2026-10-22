@@ -5,7 +5,7 @@
 - **Emerging role** (fast-growing in 2025–2026)
 - **O*NET:** 15-1244.00 Network and Computer Systems Administrators; 15-1252.00 Software Developers
 - **ESCO:** cloud DevOps engineer
-- **Job ads analysed:** 126 (Internship / Fresh Graduate 15, Junior 5, Mid-level 54, Senior 35, Lead / Manager 17)
+- **Job ads analysed:** 108 (Internship / Fresh Graduate 12, Junior 4, Mid-level 49, Senior 30, Lead / Manager 13)
 
 ## What the job involves
 
@@ -15,59 +15,60 @@ Install, configure, and maintain an organization's local area network (LAN), wid
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Mid-level | Senior | Lead / Manager |
-|---|---|---|---|---|---|
-| Reliability **(core)** | 81% | 87% | 72% | 89% | 82% |
-| Infrastructure **(core)** | 69% | 87% | 63% | 71% | 65% |
-| Cloud **(core)** | 68% | 80% | 61% | 71% | 65% |
-| Python **(core)** | 61% | 80% | 61% | 51% | 59% |
-| Automation **(core)** | 50% | 87% | 35% | 40% | 76% |
-| AWS **(core)** | 45% | 67% | 41% | 29% | 59% |
-| Computer Science **(core)** | 43% | 27% | 41% | 51% | 41% |
-| DevOps **(core)** | 40% | 60% | 35% | 31% | 53% |
-| Scripting **(core)** | 39% | 53% | 43% | 23% | 41% |
-| Linux **(core)** | 39% | 60% | 30% | 46% | 18% |
-| Kubernetes **(core)** | 38% | 27% | 37% | 43% | 29% |
-| Java **(core)** | 37% | 60% | 35% | 37% | 29% |
-| Availability **(core)** | 34% | 33% | 33% | 29% | 47% |
-| Networking **(core)** | 32% | 60% | 26% | 37% | 12% |
-| Terraform **(core)** | 32% | 33% | 26% | 23% | 47% |
-| Agile **(core)** | 31% | 47% | 35% | 20% | 29% |
-| CI/CD **(core)** | 31% | 47% | 24% | 31% | 35% |
-| Programming **(core)** | 31% | 53% | 20% | 37% | 29% |
-| Ansible **(core)** | 31% | 40% | 26% | 20% | 41% |
-| Go **(core)** | 30% | 40% | 20% | 37% | 41% |
-| Docker **(core)** | 26% | 33% | 17% | 40% | 12% |
-| Troubleshooting **(core)** | 25% | 40% | 20% | 23% | 35% |
-| Deployment | 25% | 20% | 24% | 23% | 24% |
-| SQL | 25% | 20% | 30% | 29% | 12% |
-| Azure | 25% | 67% | 17% | 14% | 29% |
-| Efficiency | 25% | 20% | 20% | 29% | 29% |
-| Alerting | 25% | 13% | 18% | 17% | 65% |
-| Architecture | 24% | 27% | 18% | 31% | 24% |
-| Database | 21% | 40% | 20% | 9% | 29% |
-| Scalable | 21% | 33% | 18% | 20% | 24% |
-| Shell | 21% | 13% | 32% | 11% | 12% |
-| Network | 21% | 7% | 13% | 31% | 35% |
-| Grafana | 20% | 7% | 20% | 17% | 29% |
-| Infrastructure as Code | 20% | 27% | 17% | 23% | 18% |
-| Observability | 20% | 47% | 13% | 14% | 29% |
-| Jenkins | 19% | 27% | 26% | 6% | 18% |
-| Configuration | 19% | 27% | 9% | 26% | 12% |
-| Software Development | 19% | 20% | 15% | 23% | 18% |
-| Splunk | 19% | 13% | 24% | 6% | 24% |
-| Bash | 18% | 13% | 17% | 11% | 29% |
-| Cloud Infrastructure | 18% | 40% | 18% | 9% | 12% |
-| Site Reliability Engineering | 18% | 13% | 20% | 9% | 35% |
-| Scalability | 18% | 47% | 6% | 11% | 35% |
-| Metrics | 18% | 0% | 15% | 14% | 53% |
-| Kafka | 18% | 13% | 20% | 17% | 12% |
-| Testing | 17% | 13% | 17% | 9% | 35% |
-| Dynatrace | 16% | 0% | 22% | 3% | 41% |
+| Skill | All ads | Mid-level | Senior |
+|---|---|---|---|
+| Reliability **(core)** | 78% | 69% | 87% |
+| Infrastructure **(core)** | 65% | 61% | 67% |
+| Cloud **(core)** | 64% | 57% | 70% |
+| Python **(core)** | 58% | 59% | 53% |
+| Automation **(core)** | 48% | 35% | 40% |
+| AWS **(core)** | 44% | 39% | 30% |
+| Kubernetes **(core)** | 41% | 39% | 47% |
+| Computer Science **(core)** | 41% | 39% | 50% |
+| Linux **(core)** | 39% | 33% | 43% |
+| DevOps **(core)** | 36% | 33% | 30% |
+| Scripting **(core)** | 36% | 41% | 27% |
+| Java **(core)** | 34% | 35% | 37% |
+| Ansible **(core)** | 33% | 26% | 20% |
+| Availability **(core)** | 33% | 31% | 33% |
+| Terraform **(core)** | 33% | 24% | 23% |
+| Networking **(core)** | 31% | 26% | 37% |
+| Agile **(core)** | 29% | 35% | 23% |
+| Programming **(core)** | 29% | 20% | 33% |
+| Docker **(core)** | 28% | 18% | 40% |
+| SQL **(core)** | 27% | 31% | 30% |
+| Go **(core)** | 27% | 22% | 37% |
+| CI/CD **(core)** | 26% | 22% | 23% |
+| Alerting **(core)** | 25% | 18% | 20% |
+| Deployment | 24% | 24% | 17% |
+| Shell | 24% | 35% | 13% |
+| Azure | 24% | 18% | 17% |
+| Efficiency | 22% | 18% | 27% |
+| Architecture | 21% | 18% | 27% |
+| Network | 21% | 12% | 37% |
+| Jenkins | 20% | 26% | 3% |
+| Infrastructure as Code | 20% | 16% | 23% |
+| Splunk | 20% | 24% | 7% |
+| Configuration | 19% | 10% | 23% |
+| Troubleshooting | 19% | 18% | 20% |
+| Kafka | 18% | 20% | 17% |
+| Dynatrace | 18% | 22% | 3% |
+| Continuous Integration | 17% | 18% | 20% |
+| Database | 17% | 18% | 7% |
+| Cloud Infrastructure | 17% | 18% | 10% |
+| Site Reliability Engineering | 17% | 18% | 10% |
+| Distributed Systems | 16% | 18% | 13% |
+| Git | 16% | 14% | 10% |
+| Grafana | 16% | 18% | 13% |
+| Scalability | 16% | 4% | 13% |
+| Software Development | 15% | 16% | 23% |
+| Writing | 15% | 12% | 17% |
+| Scalable | 15% | 14% | 17% |
+| Metrics | 15% | 14% | 13% |
 
 ## Soft skills employers mention
 
-Communication (31%), Collaboration (25%), Problem Solving (21%), Communication Skills (20%), Leadership (15%)
+Communication (29%), Communication Skills (19%), Problem Solving (19%), Collaboration (18%), Leadership (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

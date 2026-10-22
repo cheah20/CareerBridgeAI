@@ -4,7 +4,7 @@
 - **Also called:** Physical Therapist
 - **O*NET:** 29-1123.00 Physical Therapists
 - **ESCO:** physiotherapist
-- **Job ads analysed:** 608 (Internship / Fresh Graduate 403, Junior 13, Mid-level 185, Senior 5, Lead / Manager 2)
+- **Job ads analysed:** 403 (Internship / Fresh Graduate 262, Junior 11, Mid-level 124, Senior 4, Lead / Manager 2)
 
 ## What the job involves
 
@@ -16,39 +16,40 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Mid-level |
 |---|---|---|---|
-| rehabilitation **(core)** | 49% | 46% | 52% |
-| Clinical **(core)** | 43% | 46% | 34% |
-| Patient Care **(core)** | 36% | 32% | 42% |
-| CPR **(core)** | 27% | 31% | 20% |
-| Continuing education | 21% | 18% | 26% |
-| CPR Certification | 19% | 27% | 5% |
-| Recovery | 19% | 21% | 16% |
-| Paid Time Off | 18% | 20% | 16% |
-| Excellence | 17% | 19% | 11% |
-| Compassion | 17% | 10% | 32% |
-| Productivity | 17% | 22% | 6% |
-| Work Environment | 16% | 20% | 8% |
-| Independence | 14% | 13% | 18% |
-| Health Care | 14% | 10% | 19% |
-| Integrity | 14% | 16% | 9% |
-| Part Time | 14% | 13% | 15% |
-| BLS | 13% | 15% | 9% |
-| Competitive Compensation | 13% | 15% | 10% |
-| Addressing | 13% | 17% | 5% |
-| Phone | 12% | 17% | 3% |
-| Power | 12% | 18% | 1% |
-| Mentorship | 12% | 11% | 12% |
-| Meetings | 12% | 13% | 8% |
-| PTO | 12% | 13% | 8% |
-| Mobility | 12% | 13% | 9% |
-| Policies and procedures | 11% | 14% | 6% |
-| Collaborative | 11% | 12% | 11% |
-| Professional Development | 11% | 10% | 12% |
-| Patient outcomes | 11% | 8% | 17% |
+| Clinical **(core)** | 52% | 55% | 43% |
+| Patient Care **(core)** | 44% | 42% | 44% |
+| rehabilitation **(core)** | 42% | 39% | 47% |
+| CPR **(core)** | 30% | 36% | 18% |
+| Continuing education **(core)** | 25% | 27% | 23% |
+| CPR Certification | 22% | 30% | 6% |
+| Paid Time Off | 20% | 22% | 18% |
+| Excellence | 17% | 20% | 13% |
+| Part Time | 16% | 14% | 20% |
+| Health Care | 16% | 15% | 16% |
+| Policies and procedures | 16% | 20% | 10% |
+| Meetings | 16% | 18% | 10% |
+| BLS | 15% | 16% | 12% |
+| acute care | 15% | 19% | 6% |
+| Mentorship | 14% | 14% | 14% |
+| Compassion | 14% | 13% | 17% |
+| Mobility | 14% | 15% | 13% |
+| PTO | 13% | 15% | 9% |
+| Collaborative | 13% | 14% | 13% |
+| Patient outcomes | 13% | 12% | 14% |
+| Network | 12% | 14% | 6% |
+| Life Insurance | 12% | 12% | 13% |
+| Competitive Compensation | 12% | 13% | 9% |
+| 401k | 11% | 14% | 6% |
+| Integrity | 11% | 13% | 8% |
+| Productivity | 11% | 13% | 8% |
+| Quality Patient Care | 11% | 14% | 6% |
+| Independent | 11% | 13% | 5% |
+| Standing | 11% | 13% | 6% |
+| Recovery | 10% | 10% | 12% |
 
 ## Soft skills employers mention
 
-Communication (28%), Collaboration (18%), Leadership (15%), Customer Service (12%), Communication Skills (11%)
+Communication (34%), Leadership (18%), Customer Service (16%), Communication Skills (13%), Interpersonal Skills (11%), Problem Solving (10%)
 
 ## Essential skills (ESCO)
 

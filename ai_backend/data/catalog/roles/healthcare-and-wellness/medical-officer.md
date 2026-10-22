@@ -4,7 +4,7 @@
 - **Also called:** Doctor, Physician, General Practitioner
 - **O*NET:** 29-1215.00 Family Medicine Physicians
 - **ESCO:** general practitioner
-- **Job ads analysed:** 710 (Internship / Fresh Graduate 106, Junior 23, Mid-level 540, Senior 2, Lead / Manager 39)
+- **Job ads analysed:** 555 (Internship / Fresh Graduate 58, Junior 16, Mid-level 449, Lead / Manager 32)
 
 ## What the job involves
 
@@ -16,34 +16,28 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Lead / Manager |
 |---|---|---|---|---|---|
-| Clinical **(core)** | 49% | 70% | 65% | 42% | 80% |
-| Patient Care **(core)** | 28% | 42% | 26% | 24% | 38% |
-| primary care **(core)** | 28% | 37% | 26% | 26% | 20% |
-| Health Care | 22% | 11% | 22% | 22% | 41% |
-| 401k | 21% | 34% | 17% | 18% | 20% |
-| Excellence | 21% | 50% | 30% | 14% | 26% |
-| Network | 19% | 43% | 9% | 15% | 10% |
-| Nursing | 19% | 40% | 17% | 16% | 8% |
-| Part Time | 15% | 24% | 4% | 13% | 28% |
-| Life Insurance | 15% | 34% | 9% | 12% | 3% |
-| history | 14% | 9% | 30% | 14% | 15% |
-| Flexibility | 13% | 32% | 9% | 10% | 5% |
-| surgery | 13% | 13% | 9% | 12% | 23% |
-| BLS | 13% | 27% | 9% | 11% | 5% |
-| Search | 12% | 7% | 0% | 14% | 15% |
-| Reasonable Accommodation | 12% | 33% | 13% | 8% | 15% |
-| Phone | 12% | 35% | 4% | 8% | 3% |
-| CV | 11% | 5% | 0% | 14% | 0% |
-| Educational | 11% | 4% | 26% | 10% | 28% |
-| Availability | 11% | 33% | 0% | 7% | 10% |
-| emergency medicine | 11% | 29% | 13% | 7% | 5% |
-| Confidentiality | 10% | 6% | 13% | 12% | 3% |
-| Scheduling | 10% | 15% | 4% | 9% | 15% |
-| Equity | 10% | 8% | 13% | 11% | 5% |
+| Clinical **(core)** | 44% | 57% | 69% | 40% | 75% |
+| Patient Care | 22% | 22% | 25% | 20% | 44% |
+| primary care | 21% | 17% | 31% | 21% | 22% |
+| Health Care | 21% | 14% | 19% | 21% | 34% |
+| Search | 15% | 10% | 0% | 16% | 16% |
+| history | 14% | 10% | 12% | 14% | 19% |
+| CV | 14% | 9% | 0% | 16% | 0% |
+| 401k | 14% | 14% | 19% | 13% | 22% |
+| surgery | 14% | 16% | 6% | 13% | 25% |
+| Excellence | 14% | 24% | 25% | 11% | 19% |
+| BLS | 13% | 34% | 12% | 10% | 6% |
+| Holidays | 12% | 19% | 19% | 10% | 31% |
+| Confidentiality | 12% | 10% | 12% | 13% | 3% |
+| Nursing | 12% | 19% | 19% | 11% | 6% |
+| Network | 12% | 19% | 12% | 11% | 12% |
+| Part Time | 12% | 14% | 0% | 10% | 31% |
+| Educational | 11% | 7% | 25% | 10% | 31% |
+| Equity | 11% | 14% | 6% | 11% | 6% |
 
 ## Soft skills employers mention
 
-Leadership (24%), Communication (18%)
+Leadership (19%), Communication (18%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

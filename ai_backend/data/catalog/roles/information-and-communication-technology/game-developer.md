@@ -4,60 +4,11 @@
 - **Also called:** Video Game Developer
 - **O*NET:** 15-1255.01 Video Game Designers; 15-1252.00 Software Developers; 27-1014.00 Special Effects Artists and Animators
 - **ESCO:** digital games developer
-- **Job ads analysed:** 10 (Mid-level 9, Lead / Manager 1)
+- **Job ads analysed:** 9 (Mid-level 8, Lead / Manager 1)
 
 ## What the job involves
 
 Design core features of video games. Specify innovative game and role-play mechanics, story lines, and character biographies. Create and maintain design documentation. Guide and collaborate with production staff to produce games as designed.
-
-## Skills employers ask for
-
-Share of job ads for this role that mention the skill, overall and by experience level.
-
-| Skill | All ads |  |
-|---|---|
-| C++ **(core)** | 70% |  |
-| Implementation **(core)** | 50% |  |
-| Computer Science **(core)** | 40% |  |
-| Posting **(core)** | 30% |  |
-| Unreal Engine **(core)** | 30% |  |
-| AI **(core)** | 30% |  |
-| APIs **(core)** | 30% |  |
-| Graphics **(core)** | 30% |  |
-| Mathematics **(core)** | 30% |  |
-| Optimization **(core)** | 30% |  |
-| QA **(core)** | 30% |  |
-| UI/UX **(core)** | 30% |  |
-| Pushing **(core)** | 30% |  |
-| Coding | 20% |  |
-| debug software | 20% |  |
-| Data Management | 20% |  |
-| Distributed Systems | 20% |  |
-| Hardware | 20% |  |
-| history | 20% |  |
-| Networking | 20% |  |
-| Physics | 20% |  |
-| Shipping | 20% |  |
-| Timelines | 20% |  |
-| Architecture | 20% |  |
-| Blueprints | 20% |  |
-| Git | 20% |  |
-| Version Control | 20% |  |
-| mechanics | 20% |  |
-| Shape | 20% |  |
-| Perforce | 20% |  |
-| SVN | 20% |  |
-| C# | 20% |  |
-| Developers | 20% |  |
-| English | 20% |  |
-| Programming | 20% |  |
-| REST | 20% |  |
-| Business Requirements | 10% |  |
-| Emerging Technologies | 10% |  |
-
-## Soft skills employers mention
-
-Communication (30%), Collaboration (20%), Communication Skills (20%), Problem Solving (20%), Problem Solving Skills (20%), Leadership (20%), Attention to Detail (10%), Time Management (10%), Creativity (10%)
 
 ## Malaysia / Singapore skills (AI-drafted, pending human review)
 
@@ -82,7 +33,7 @@ Drafted by DeepSeek because few job ads matched this title. Estimated share of j
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Amazon Web Services AWS, Apache Kafka, Atlassian JIRA, C, Docker, C#, C++, Cascading style sheets CSS, GitHub, Git, Google Angular, Go, Microsoft Azure, Node.js, Hypertext markup language HTML, IBM Terraform, JavaScript, Jenkins CI, Kubernetes, Linux
+Amazon Web Services AWS, Apache Kafka, Atlassian JIRA, C, C#, C++, Cascading style sheets CSS, Docker, Git, GitHub, Go, Google Angular, Hypertext markup language HTML, IBM Terraform, JavaScript, Jenkins CI, Kubernetes, Linux, Microsoft Azure, Node.js
 
 ## Essential skills (ESCO)
 

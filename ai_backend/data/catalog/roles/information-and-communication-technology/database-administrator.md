@@ -4,7 +4,7 @@
 - **Also called:** SQL Developer
 - **O*NET:** 15-1242.00 Database Administrators
 - **ESCO:** database administrator
-- **Job ads analysed:** 477 (Internship / Fresh Graduate 24, Junior 36, Mid-level 233, Senior 163, Lead / Manager 21)
+- **Job ads analysed:** 460 (Internship / Fresh Graduate 16, Junior 34, Mid-level 228, Senior 161, Lead / Manager 21)
 
 ## What the job involves
 
@@ -16,40 +16,39 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| SQL **(core)** | 51% | 67% | 53% | 54% | 46% | 43% |
-| Database Administration **(core)** | 36% | 29% | 33% | 30% | 45% | 33% |
-| Database **(core)** | 33% | 100% | 33% | 38% | 17% | 14% |
-| Oracle **(core)** | 28% | 42% | 22% | 26% | 29% | 33% |
-| SQL Server **(core)** | 28% | 38% | 31% | 29% | 22% | 33% |
-| Performance Tuning | 24% | 46% | 22% | 24% | 23% | 10% |
-| Troubleshooting | 22% | 46% | 31% | 22% | 18% | 19% |
-| Databases | 19% | 62% | 19% | 22% | 9% | 14% |
-| Disaster Recovery | 18% | 17% | 14% | 16% | 20% | 33% |
-| Linux | 17% | 17% | 22% | 16% | 18% | 19% |
-| Database Security | 16% | 25% | 14% | 15% | 17% | 19% |
-| Server | 15% | 46% | 19% | 16% | 8% | 10% |
-| Tuning | 15% | 46% | 17% | 17% | 7% | 10% |
-| AWS | 14% | 21% | 11% | 15% | 12% | 24% |
-| Database Design | 14% | 4% | 14% | 14% | 15% | 24% |
-| DBA | 14% | 46% | 11% | 16% | 7% | 14% |
-| Maintenance | 14% | 67% | 14% | 12% | 8% | 10% |
-| Data Modeling | 13% | 25% | 11% | 12% | 13% | 19% |
-| High Availability | 13% | 21% | 11% | 10% | 16% | 24% |
-| Automation | 13% | 33% | 8% | 12% | 13% | 10% |
-| Recovery | 13% | 50% | 17% | 14% | 4% | 10% |
-| Availability | 12% | 50% | 8% | 13% | 6% | 10% |
-| Python | 12% | 4% | 17% | 11% | 12% | 24% |
-| Computer Science | 12% | 25% | 14% | 13% | 9% | 5% |
-| Backup | 12% | 50% | 11% | 12% | 6% | 5% |
-| ETL | 11% | 8% | 11% | 15% | 7% | 5% |
-| MySQL | 11% | 25% | 3% | 9% | 14% | 14% |
-| SSIS | 11% | 25% | 14% | 9% | 13% | 0% |
-| Azure | 11% | 21% | 19% | 11% | 7% | 14% |
-| Stored Procedures | 11% | 8% | 11% | 12% | 10% | 5% |
+| SQL **(core)** | 50% | 56% | 56% | 53% | 45% | 43% |
+| Database Administration **(core)** | 36% | 38% | 35% | 31% | 45% | 33% |
+| Database **(core)** | 30% | 100% | 29% | 37% | 16% | 14% |
+| Oracle **(core)** | 27% | 38% | 21% | 26% | 29% | 33% |
+| SQL Server **(core)** | 27% | 25% | 32% | 29% | 22% | 33% |
+| Performance Tuning | 22% | 31% | 24% | 23% | 22% | 10% |
+| Troubleshooting | 20% | 25% | 32% | 20% | 18% | 19% |
+| Linux | 18% | 25% | 24% | 16% | 18% | 19% |
+| Disaster Recovery | 17% | 0% | 15% | 14% | 20% | 33% |
+| Databases | 17% | 50% | 18% | 20% | 9% | 14% |
+| Database Security | 16% | 38% | 15% | 14% | 16% | 19% |
+| AWS | 15% | 25% | 12% | 15% | 12% | 24% |
+| Database Design | 14% | 0% | 15% | 14% | 16% | 24% |
+| Tuning | 13% | 31% | 18% | 16% | 6% | 10% |
+| Server | 13% | 31% | 21% | 14% | 7% | 10% |
+| DBA | 13% | 31% | 12% | 16% | 6% | 14% |
+| Automation | 13% | 50% | 9% | 11% | 12% | 10% |
+| Python | 13% | 6% | 18% | 11% | 12% | 24% |
+| Data Modeling | 12% | 6% | 12% | 12% | 12% | 19% |
+| High Availability | 12% | 6% | 12% | 9% | 16% | 24% |
+| Computer Science | 12% | 31% | 15% | 13% | 9% | 5% |
+| Maintenance | 12% | 62% | 15% | 11% | 7% | 10% |
+| ETL | 11% | 6% | 12% | 14% | 8% | 5% |
+| PL/SQL | 11% | 0% | 15% | 13% | 10% | 5% |
+| Availability | 11% | 44% | 9% | 12% | 6% | 10% |
+| Azure | 11% | 25% | 21% | 10% | 7% | 14% |
+| MySQL | 11% | 6% | 3% | 9% | 14% | 14% |
+| Recovery | 10% | 38% | 15% | 13% | 4% | 10% |
+| Stored Procedures | 10% | 6% | 12% | 11% | 9% | 5% |
 
 ## Soft skills employers mention
 
-Communication (22%), Communication Skills (15%), Problem Solving (12%)
+Communication (20%), Communication Skills (14%), Problem Solving (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

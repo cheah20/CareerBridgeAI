@@ -5,7 +5,7 @@
 - **Emerging role** (fast-growing in 2025–2026)
 - **O*NET:** 15-1299.08 Computer Systems Engineers/Architects
 - **ESCO:** —
-- **Job ads analysed:** 2 (Mid-level 2)
+- **Job ads analysed:** 1 (Mid-level 1)
 
 ## What the job involves
 

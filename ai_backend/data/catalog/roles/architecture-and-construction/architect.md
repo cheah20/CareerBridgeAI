@@ -3,7 +3,7 @@
 - **Field:** Architecture & Construction
 - **O*NET:** 17-1011.00 Architects, Except Landscape and Naval
 - **ESCO:** architect
-- **Job ads analysed:** 1,857 (Internship / Fresh Graduate 14, Junior 79, Mid-level 1325, Senior 242, Lead / Manager 197)
+- **Job ads analysed:** 1,689 (Internship / Fresh Graduate 10, Junior 64, Mid-level 1225, Senior 210, Lead / Manager 180)
 
 ## What the job involves
 
@@ -15,38 +15,38 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|
-| Architecture **(core)** | 44% | 43% | 43% | 43% | 55% |
-| Cloud **(core)** | 35% | 22% | 36% | 31% | 38% |
-| SQL **(core)** | 26% | 30% | 26% | 28% | 22% |
-| Azure | 24% | 22% | 26% | 19% | 18% |
-| Implementation | 24% | 37% | 24% | 26% | 20% |
-| AWS | 24% | 13% | 25% | 22% | 23% |
-| Computer Science | 23% | 19% | 23% | 22% | 22% |
-| Python | 21% | 11% | 22% | 16% | 24% |
-| Infrastructure | 18% | 18% | 18% | 19% | 18% |
-| Data Architecture | 16% | 18% | 15% | 23% | 17% |
-| Agile | 16% | 18% | 14% | 21% | 21% |
-| Data Modeling | 16% | 13% | 16% | 16% | 11% |
-| Guidance | 14% | 13% | 14% | 11% | 21% |
-| Deployment | 14% | 22% | 14% | 12% | 15% |
-| Testing | 14% | 13% | 12% | 15% | 22% |
-| Analytics | 14% | 4% | 13% | 12% | 21% |
+| Architecture **(core)** | 42% | 38% | 41% | 42% | 51% |
+| Cloud **(core)** | 34% | 17% | 34% | 30% | 37% |
+| SQL **(core)** | 26% | 22% | 26% | 27% | 21% |
+| Azure | 24% | 17% | 26% | 21% | 18% |
+| AWS | 24% | 12% | 25% | 22% | 24% |
+| Implementation | 23% | 30% | 23% | 24% | 19% |
+| Python | 22% | 14% | 23% | 17% | 26% |
+| Computer Science | 22% | 16% | 22% | 19% | 21% |
+| Infrastructure | 17% | 11% | 18% | 19% | 16% |
+| Data Architecture | 17% | 20% | 16% | 23% | 18% |
+| Data Modeling | 16% | 14% | 17% | 16% | 12% |
+| Agile | 15% | 8% | 14% | 17% | 22% |
+| Guidance | 14% | 9% | 13% | 10% | 21% |
+| Deployment | 14% | 17% | 13% | 13% | 16% |
 | DevOps | 13% | 5% | 14% | 10% | 15% |
-| Architectures | 13% | 13% | 13% | 10% | 19% |
-| Java | 13% | 10% | 12% | 14% | 17% |
-| Business Requirements | 12% | 13% | 12% | 13% | 17% |
-| Data Governance | 12% | 9% | 12% | 12% | 13% |
-| Network | 12% | 16% | 11% | 17% | 10% |
-| Analytical | 12% | 13% | 12% | 17% | 6% |
-| Frameworks | 12% | 10% | 12% | 9% | 12% |
-| Scalable | 12% | 10% | 11% | 13% | 14% |
-| Database | 12% | 9% | 11% | 13% | 15% |
-| Consulting | 11% | 18% | 10% | 9% | 18% |
-| Automation | 11% | 4% | 12% | 7% | 14% |
+| Data Governance | 13% | 11% | 13% | 14% | 14% |
+| Testing | 13% | 6% | 13% | 12% | 19% |
+| Java | 13% | 11% | 12% | 15% | 15% |
+| Analytics | 13% | 5% | 13% | 11% | 17% |
+| Architectures | 13% | 9% | 12% | 11% | 18% |
+| Data Warehousing | 11% | 16% | 12% | 11% | 7% |
+| Business Requirements | 11% | 3% | 11% | 10% | 17% |
+| Database | 11% | 8% | 11% | 13% | 13% |
+| Frameworks | 11% | 11% | 12% | 9% | 10% |
+| Automation | 11% | 5% | 12% | 7% | 13% |
+| Scalable | 11% | 8% | 10% | 12% | 14% |
+| Analytical | 11% | 8% | 12% | 13% | 4% |
+| Data Integration | 11% | 9% | 12% | 10% | 8% |
 
 ## Soft skills employers mention
 
-Communication (38%), Leadership (23%), Collaboration (18%), Communication Skills (17%), Problem Solving (16%)
+Communication (37%), Leadership (22%), Communication Skills (17%), Collaboration (17%), Problem Solving (16%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

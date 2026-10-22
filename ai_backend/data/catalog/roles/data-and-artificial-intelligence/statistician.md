@@ -3,7 +3,7 @@
 - **Field:** Data & Artificial Intelligence
 - **O*NET:** 15-2041.00 Statisticians
 - **ESCO:** statistician
-- **Job ads analysed:** 27 (Internship / Fresh Graduate 2, Junior 1, Mid-level 19, Senior 1, Lead / Manager 4)
+- **Job ads analysed:** 21 (Internship / Fresh Graduate 1, Mid-level 16, Senior 1, Lead / Manager 3)
 
 ## What the job involves
 
@@ -15,50 +15,49 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| SAS **(core)** | 52% | 42% |
-| Data Analysis **(core)** | 48% | 42% |
-| Statistics **(core)** | 48% | 37% |
-| Statistical Software **(core)** | 44% | 37% |
-| Python **(core)** | 37% | 32% |
-| SQL **(core)** | 37% | 37% |
-| Programming **(core)** | 26% | 10% |
-| Data Science **(core)** | 26% | 16% |
-| Machine Learning **(core)** | 26% | 16% |
-| Methods **(core)** | 26% | 21% |
-| Predictive Modeling **(core)** | 26% | 16% |
-| Statistical Analysis | 22% | 21% |
-| Analytics | 18% | 5% |
-| Data Analytics | 18% | 5% |
-| Manufacturing | 18% | 5% |
-| Modeling | 18% | 5% |
-| Network | 18% | 26% |
-| Organized | 18% | 26% |
-| Optimization | 18% | 0% |
-| Testing | 18% | 10% |
-| Data Management | 18% | 21% |
-| Analyze | 15% | 10% |
-| Clinical | 15% | 10% |
-| JMP | 15% | 5% |
-| Packages | 15% | 10% |
-| Regulatory | 15% | 10% |
-| Availability | 15% | 21% |
-| betting | 15% | 21% |
-| e-learning | 15% | 21% |
-| football | 15% | 21% |
-| Go | 15% | 21% |
-| Interpretation | 15% | 10% |
-| Database | 15% | 10% |
-| Data Mining | 15% | 10% |
-| Writing | 15% | 10% |
-| Data Visualization | 15% | 16% |
+| Data Analysis **(core)** | 57% | 50% |
+| SAS **(core)** | 57% | 50% |
+| Statistics **(core)** | 52% | 44% |
+| Statistical Software **(core)** | 48% | 44% |
+| SQL **(core)** | 48% | 44% |
+| Python **(core)** | 38% | 38% |
+| Data Science **(core)** | 29% | 19% |
+| Machine Learning **(core)** | 29% | 19% |
+| Methods **(core)** | 29% | 25% |
+| Predictive Modeling **(core)** | 29% | 19% |
+| Programming | 24% | 12% |
+| Statistical Analysis | 24% | 25% |
+| Data Management | 24% | 25% |
+| Interpretation | 19% | 12% |
+| Optimization | 19% | 0% |
+| Testing | 19% | 12% |
+| Data Visualization | 19% | 19% |
+| Affirmative Action | 14% | 6% |
+| Biostatistics | 14% | 12% |
+| Clinical | 14% | 12% |
+| Manufacturing | 14% | 6% |
+| Regulatory | 14% | 12% |
+| Analytics | 14% | 6% |
+| Data Analytics | 14% | 6% |
+| Database | 14% | 12% |
+| Modeling | 14% | 6% |
+| Reasoning | 14% | 6% |
+| Quantitative | 14% | 12% |
+| Statistical Models | 14% | 19% |
+| Packages | 14% | 12% |
+| Analyze | 14% | 12% |
+| Tableau | 14% | 19% |
+| Data Collection | 14% | 12% |
+| Methodologies | 14% | 12% |
+| Writing | 14% | 12% |
 
 ## Soft skills employers mention
 
-Communication (18%), Analytical Skills (18%), Problem Solving (15%), Communication Skills (15%), Collaboration (11%), Creativity (11%), Interpersonal Skills (11%)
+Communication (24%), Analytical Skills (24%), Problem Solving (19%), Communication Skills (19%), Interpersonal Skills (14%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-IBM SPSS Statistics, Microsoft Excel, Microsoft Office, Python, Structured query language SQL, R, SAS, Tableau, Statistical, SAS JMP, StataCorp Stata, C++
+IBM SPSS Statistics, Microsoft Excel, Microsoft Office, Python, R, SAS, Tableau, Structured query language SQL, SAS JMP, Statistical, StataCorp Stata
 
 ## Essential skills (ESCO)
 

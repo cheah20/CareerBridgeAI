@@ -4,7 +4,7 @@
 - **Also called:** Laboratory Analyst, Lab Technician, Laboratory Technician
 - **O*NET:** 19-4099.01 Quality Control Analysts
 - **ESCO:** scientific laboratory technician
-- **Job ads analysed:** 266 (Internship / Fresh Graduate 108, Junior 22, Mid-level 131, Senior 5)
+- **Job ads analysed:** 240 (Internship / Fresh Graduate 88, Junior 18, Mid-level 129, Senior 5)
 
 ## What the job involves
 
@@ -16,40 +16,40 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
 |---|---|---|---|---|
-| Laboratory **(core)** | 57% | 86% | 77% | 29% |
-| Testing **(core)** | 38% | 62% | 46% | 17% |
-| Chemistry **(core)** | 33% | 42% | 55% | 23% |
-| Quality Control **(core)** | 33% | 27% | 23% | 40% |
-| Maintenance **(core)** | 27% | 41% | 36% | 14% |
-| Medical Laboratory Technician | 22% | 10% | 9% | 35% |
-| Manufacturing | 19% | 23% | 36% | 12% |
-| Analytical | 18% | 34% | 14% | 6% |
-| ASCP | 18% | 11% | 9% | 27% |
-| Biology | 18% | 29% | 4% | 11% |
-| Laboratory Equipment | 16% | 18% | 18% | 14% |
-| Integrity | 16% | 28% | 9% | 7% |
-| Clinical | 16% | 25% | 14% | 8% |
-| High School Diploma | 15% | 28% | 14% | 3% |
-| Chemical | 15% | 21% | 18% | 9% |
-| Medical Technology | 14% | 4% | 4% | 25% |
-| Troubleshooting | 14% | 14% | 23% | 12% |
-| Clinical Laboratory | 14% | 11% | 4% | 18% |
-| Microbiology | 13% | 10% | 14% | 15% |
-| Laboratory Testing | 12% | 10% | 4% | 16% |
-| Computer skills | 12% | 13% | 14% | 12% |
-| Inventory | 12% | 18% | 18% | 6% |
+| Laboratory **(core)** | 55% | 88% | 83% | 28% |
+| Testing **(core)** | 34% | 58% | 44% | 16% |
+| Quality Control **(core)** | 33% | 28% | 17% | 40% |
+| Chemistry **(core)** | 31% | 40% | 50% | 22% |
+| Maintenance **(core)** | 25% | 41% | 39% | 13% |
+| Medical Laboratory Technician | 23% | 9% | 11% | 35% |
+| ASCP | 18% | 8% | 11% | 26% |
+| Manufacturing | 18% | 24% | 28% | 11% |
+| Laboratory Equipment | 17% | 19% | 22% | 15% |
+| Analytical | 16% | 33% | 11% | 5% |
+| Biology | 16% | 26% | 6% | 10% |
+| Medical Technology | 16% | 4% | 6% | 26% |
+| Integrity | 15% | 26% | 11% | 7% |
+| Clinical | 14% | 23% | 17% | 8% |
+| Chemical | 14% | 22% | 17% | 9% |
+| High School Diploma | 14% | 27% | 17% | 3% |
+| Microbiology | 14% | 12% | 17% | 14% |
+| Troubleshooting | 13% | 11% | 22% | 12% |
+| Clinical Laboratory | 13% | 10% | 6% | 17% |
+| Medical Laboratory Science | 13% | 3% | 0% | 22% |
+| Laboratory Testing | 12% | 11% | 6% | 15% |
+| Computer skills | 12% | 12% | 11% | 12% |
 | Standing | 12% | 16% | 0% | 11% |
-| Medical Laboratory Science | 12% | 3% | 0% | 21% |
-| AMT | 11% | 6% | 4% | 18% |
-| Medical Technologist | 11% | 4% | 0% | 19% |
-| Work Environment | 10% | 17% | 4% | 7% |
-| Hematology | 10% | 5% | 18% | 14% |
-| Instrumentation | 10% | 11% | 14% | 10% |
-| Excel | 10% | 15% | 14% | 5% |
+| Instrumentation | 12% | 14% | 17% | 10% |
+| Inventory | 12% | 18% | 17% | 6% |
+| Medical Technologist | 12% | 3% | 0% | 19% |
+| Hematology | 11% | 6% | 22% | 14% |
+| AMT | 11% | 4% | 6% | 17% |
+| Lifting | 11% | 12% | 6% | 11% |
+| Work Environment | 10% | 17% | 6% | 7% |
 
 ## Soft skills employers mention
 
-Communication (29%), Communication Skills (14%), Problem Solving (12%)
+Communication (27%), Communication Skills (13%), Problem Solving (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

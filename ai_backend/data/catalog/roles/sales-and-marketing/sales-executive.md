@@ -4,7 +4,7 @@
 - **Also called:** Sales Representative
 - **O*NET:** 41-4012.00 Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products
 - **ESCO:** commercial sales representative
-- **Job ads analysed:** 1,395 (Internship / Fresh Graduate 522, Junior 208, Mid-level 537, Senior 46, Lead / Manager 82)
+- **Job ads analysed:** 926 (Internship / Fresh Graduate 295, Junior 155, Mid-level 437, Senior 32, Lead / Manager 7)
 
 ## What the job involves
 
@@ -14,37 +14,37 @@ Sell goods for wholesalers or manufacturers to businesses or groups of individua
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
-|---|---|---|---|---|---|---|
-| CRM | 24% | 16% | 26% | 21% | 30% | 92% |
-| Phone | 22% | 29% | 17% | 20% | 15% | 0% |
-| Driver's License | 20% | 30% | 18% | 14% | 13% | 1% |
-| Meetings | 19% | 26% | 20% | 15% | 26% | 0% |
-| Prospecting | 19% | 20% | 24% | 19% | 28% | 2% |
-| 401k | 18% | 29% | 18% | 12% | 9% | 0% |
-| Presentation | 18% | 14% | 14% | 24% | 24% | 5% |
-| Paid Time Off | 17% | 20% | 9% | 20% | 15% | 1% |
-| Excel | 17% | 20% | 14% | 17% | 4% | 2% |
-| Pricing | 16% | 21% | 15% | 13% | 26% | 0% |
-| Life Insurance | 16% | 18% | 12% | 18% | 15% | 1% |
-| Ownership | 15% | 7% | 6% | 15% | 6% | 90% |
-| High School Diploma | 15% | 26% | 6% | 11% | 4% | 1% |
-| Microsoft Office | 14% | 19% | 11% | 15% | 6% | 1% |
-| Objectives | 14% | 22% | 12% | 9% | 11% | 2% |
-| Portfolio | 14% | 9% | 16% | 18% | 17% | 6% |
-| Valid Driver's License | 13% | 23% | 10% | 8% | 11% | 1% |
-| Network | 13% | 13% | 11% | 17% | 13% | 0% |
-| B2B | 13% | 15% | 14% | 13% | 22% | 0% |
-| Vacation | 13% | 17% | 12% | 10% | 22% | 2% |
-| Affirmative Action | 13% | 16% | 4% | 13% | 33% | 2% |
-| work independently | 12% | 12% | 17% | 12% | 22% | 0% |
-| Integrity | 12% | 18% | 8% | 10% | 13% | 2% |
-| Retail | 12% | 20% | 6% | 8% | 4% | 1% |
-| GED | 12% | 16% | 4% | 13% | 2% | 1% |
+| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
+|---|---|---|---|---|---|
+| CRM | 22% | 19% | 27% | 22% | 31% |
+| Phone | 21% | 28% | 19% | 18% | 19% |
+| Holidays | 21% | 23% | 16% | 23% | 16% |
+| Prospecting | 20% | 15% | 24% | 22% | 22% |
+| Meetings | 19% | 24% | 19% | 15% | 25% |
+| Paid Time Off | 18% | 16% | 10% | 22% | 16% |
+| Driver's License | 17% | 22% | 17% | 15% | 6% |
+| Presentation | 17% | 12% | 16% | 20% | 22% |
+| Life Insurance | 17% | 19% | 10% | 18% | 16% |
+| 401k | 16% | 23% | 17% | 12% | 6% |
+| Excel | 16% | 15% | 16% | 16% | 6% |
+| Affirmative Action | 14% | 18% | 4% | 14% | 25% |
+| Pricing | 14% | 16% | 14% | 12% | 22% |
+| High School Diploma | 14% | 20% | 7% | 13% | 6% |
+| Microsoft Office | 14% | 16% | 11% | 13% | 9% |
+| B2B | 13% | 15% | 12% | 13% | 16% |
+| Objectives | 13% | 20% | 10% | 9% | 12% |
+| Email | 13% | 14% | 14% | 11% | 19% |
+| GED | 13% | 18% | 4% | 13% | 3% |
+| Portfolio | 12% | 10% | 13% | 14% | 12% |
+| work independently | 12% | 11% | 12% | 13% | 22% |
+| Affirmative Action Employer | 12% | 15% | 3% | 13% | 19% |
+| Vacation | 12% | 14% | 11% | 10% | 22% |
+| Work Environment | 12% | 19% | 7% | 9% | 19% |
+| Customer Needs | 12% | 15% | 8% | 11% | 6% |
 
 ## Soft skills employers mention
 
-Communication (54%), Customer Service (30%), Communication Skills (19%), Presentations (18%), Leadership (15%), Negotiation (15%), Problem Solving (10%)
+Communication (56%), Customer Service (31%), Communication Skills (21%), Negotiation (18%), Presentations (17%), Leadership (15%), Problem Solving (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

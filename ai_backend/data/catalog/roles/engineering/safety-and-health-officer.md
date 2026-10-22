@@ -4,7 +4,7 @@
 - **Also called:** Safety and Health Officer, HSE Officer, EHS Officer, Safety Officer, HSE Executive
 - **O*NET:** 19-5011.00 Occupational Health and Safety Specialists
 - **ESCO:** health and safety officer
-- **Job ads analysed:** 24 (Internship / Fresh Graduate 1, Junior 1, Mid-level 21, Lead / Manager 1)
+- **Job ads analysed:** 16 (Internship / Fresh Graduate 1, Junior 1, Mid-level 14)
 
 ## What the job involves
 
@@ -14,58 +14,80 @@ Review, evaluate, and analyze work environments and design programs and procedur
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Mid-level |
-|---|---|---|
-| Public Safety **(core)** | 67% | 67% |
-| High School Diploma **(core)** | 54% | 57% |
-| Core Values **(core)** | 46% | 52% |
-| Driver's License **(core)** | 42% | 43% |
-| application process **(core)** | 42% | 48% |
-| Compassion **(core)** | 42% | 43% |
-| Paid Time Off **(core)** | 38% | 33% |
-| Surveillance **(core)** | 38% | 43% |
-| Flexibility **(core)** | 33% | 33% |
-| Health Care **(core)** | 33% | 33% |
-| Tuition Reimbursement **(core)** | 33% | 33% |
-| acute care **(core)** | 33% | 33% |
-| Competitive Compensation **(core)** | 33% | 38% |
-| history **(core)** | 33% | 38% |
-| Human Resources **(core)** | 33% | 38% |
-| Screen reader **(core)** | 33% | 38% |
-| Patient safety **(core)** | 29% | 29% |
-| Retirement Plan **(core)** | 29% | 29% |
-| Implementation **(core)** | 25% | 24% |
-| Part Time **(core)** | 25% | 29% |
-| 401k **(core)** | 25% | 29% |
-| Law Enforcement | 21% | 14% |
-| Vision Coverage | 21% | 24% |
-| Work Environment | 21% | 24% |
-| Risk | 17% | 19% |
-| Liaison | 17% | 14% |
-| Standing | 17% | 14% |
-| Transparency | 17% | 19% |
-| Audits | 17% | 19% |
-| Responsibility | 17% | 19% |
-| Policies and procedures | 17% | 19% |
-| Initiative | 12% | 14% |
-| Escalation | 12% | 14% |
-| Discounts | 12% | 10% |
-| Employee Discounts | 12% | 10% |
-| Judgment | 12% | 14% |
-| Posting | 12% | 14% |
-| Written Communication | 12% | 10% |
-| Investigation | 12% | 10% |
-| Testing | 12% | 10% |
-| Vacation | 12% | 5% |
-| Writing | 12% | 10% |
-| Emergency Response | 12% | 14% |
-| Independent | 12% | 14% |
-| Maintenance | 12% | 14% |
-| OSHA | 12% | 14% |
+| Skill | All ads |  |
+|---|---|
+| Public Safety **(core)** | 62% |  |
+| High School Diploma **(core)** | 44% |  |
+| Driver's License **(core)** | 38% |  |
+| Core Values **(core)** | 38% |  |
+| Flexibility **(core)** | 31% |  |
+| Paid Time Off **(core)** | 31% |  |
+| Patient safety **(core)** | 31% |  |
+| application process **(core)** | 31% |  |
+| Competitive Compensation **(core)** | 31% |  |
+| history **(core)** | 31% |  |
+| Law Enforcement **(core)** | 25% |  |
+| Implementation **(core)** | 25% |  |
+| Health Care **(core)** | 25% |  |
+| Tuition Reimbursement **(core)** | 25% |  |
+| acute care **(core)** | 25% |  |
+| Compassion **(core)** | 25% |  |
+| Human Resources **(core)** | 25% |  |
+| Retirement Plan **(core)** | 25% |  |
+| Screen reader **(core)** | 25% |  |
+| Surveillance **(core)** | 25% |  |
+| Policies and procedures **(core)** | 25% |  |
+| Initiative | 19% |  |
+| Risk | 19% |  |
+| Part Time | 19% |  |
+| 401k | 19% |  |
+| Standing | 19% |  |
+| Testing | 19% |  |
+| Writing | 19% |  |
+| Equity | 12% |  |
+| Holidays | 12% |  |
+| Parental Leave | 12% |  |
+| Risk Management | 12% |  |
+| Escalation | 12% |  |
+| Liaison | 12% |  |
+| Judgment | 12% |  |
+| Posting | 12% |  |
+| Vision Coverage | 12% |  |
+| Agility | 12% |  |
+| First Aid | 12% |  |
+| Investigation | 12% |  |
+| Positive attitude | 12% |  |
+| Vacation | 12% |  |
+| Transparency | 12% |  |
+| Work Environment | 12% |  |
+| Carrying | 12% |  |
+| Coordination | 12% |  |
 
 ## Soft skills employers mention
 
-Communication (46%), Communication Skills (29%), Customer Service (25%), Problem Solving (17%), Leadership (12%), Critical Thinking (12%)
+Communication (44%), Communication Skills (31%), Customer Service (19%), Leadership (12%)
+
+## Malaysia / Singapore skills (AI-drafted, pending human review)
+
+Drafted by DeepSeek because few job ads matched this title. Estimated share of job ads in brackets.
+
+- Hazard Identification, Risk Assessment and Risk Control (HIRARC) (80%, hard)
+- DOSH Registered Safety and Health Officer (Green Book) (70%, certification)
+- Occupational Safety and Health Act 1994 (OSHA) (70%, hard)
+- Incident investigation and reporting (70%, hard)
+- Safety audits and inspections (70%, hard)
+- Workplace Safety and Health Act (WSH Act) (60%, hard)
+- ISO 45001 Occupational Health and Safety Management System (60%, hard)
+- Emergency response planning (60%, hard)
+- Permit to Work (PTW) system (60%, hard)
+- Personal Protective Equipment (PPE) management (60%, hard)
+- Safety training and toolbox talks (60%, hard)
+- Microsoft Office (Excel, Word, PowerPoint, Outlook) (60%, tool)
+- MOM Registered Workplace Safety and Health Officer (60%, certification)
+- CIDB Green Card (50%, certification)
+- First Aid certification (50%, certification)
+- Confined space safety (50%, hard)
+- Chemical safety and Safety Data Sheets (SDS) (50%, hard)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
@@ -118,6 +140,8 @@ Microsoft Excel, Microsoft Office, Microsoft Outlook, Microsoft PowerPoint, Micr
 ## Core abilities (O*NET importance ≥ 3.5 of 5)
 
 Active Listening, Speaking, Reading Comprehension, Writing, Critical Thinking, Monitoring
+
+> **Limited market data:** fewer than 20 job ads matched this title, so skills rely mainly on ESCO and O*NET.
 
 ---
 Sources: O*NET 31.0 (USDOL/ETA, CC BY 4.0); ESCO v1.2.1 (European Commission); LinkedIn Job Postings 2023–24 (CC BY-SA 4.0); Data Science Job Postings & Skills 2024 (ODC-By).

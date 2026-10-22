@@ -4,7 +4,7 @@
 - **Also called:** Compliance Executive, Compliance Analyst
 - **O*NET:** 13-1041.00 Compliance Officers; 47-4011.00 Construction and Building Inspectors; 13-2061.00 Financial Examiners
 - **ESCO:** —
-- **Job ads analysed:** 136 (Internship / Fresh Graduate 7, Junior 16, Mid-level 70, Senior 23, Lead / Manager 20)
+- **Job ads analysed:** 118 (Internship / Fresh Graduate 5, Junior 16, Mid-level 63, Senior 15, Lead / Manager 19)
 
 ## What the job involves
 
@@ -16,46 +16,44 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|
-| Regulatory **(core)** | 66% | 62% | 57% | 87% | 80% |
-| Risk **(core)** | 54% | 44% | 46% | 78% | 65% |
-| Audit **(core)** | 43% | 25% | 41% | 65% | 40% |
-| Controls **(core)** | 35% | 31% | 24% | 61% | 50% |
-| Analytical **(core)** | 32% | 38% | 26% | 48% | 35% |
-| Testing **(core)** | 28% | 19% | 23% | 44% | 40% |
-| Implementation **(core)** | 27% | 19% | 21% | 13% | 65% |
-| Risks **(core)** | 27% | 19% | 14% | 74% | 35% |
-| Policies and procedures **(core)** | 27% | 0% | 29% | 22% | 40% |
-| Rules **(core)** | 26% | 38% | 30% | 13% | 25% |
-| Audits **(core)** | 26% | 19% | 26% | 35% | 25% |
-| Assessments | 24% | 31% | 14% | 39% | 25% |
-| Regulatory Requirements | 23% | 19% | 21% | 13% | 35% |
-| Excel | 23% | 19% | 26% | 26% | 10% |
-| Governance | 21% | 12% | 17% | 35% | 25% |
-| Integrity | 19% | 19% | 19% | 4% | 45% |
-| Investment | 19% | 25% | 17% | 9% | 25% |
-| trading software | 19% | 19% | 19% | 0% | 40% |
-| Risk Management | 19% | 0% | 14% | 44% | 30% |
-| Guidance | 19% | 6% | 20% | 22% | 30% |
-| Analyze | 17% | 0% | 16% | 30% | 25% |
-| Ethics | 16% | 25% | 11% | 4% | 40% |
-| work independently | 16% | 12% | 19% | 22% | 10% |
-| Financial Services | 16% | 12% | 20% | 13% | 10% |
-| Regulatory Compliance | 16% | 6% | 20% | 26% | 5% |
-| Verbal Communication | 16% | 6% | 11% | 26% | 15% |
-| Independent | 16% | 25% | 14% | 17% | 20% |
-| Written and Verbal Communication | 15% | 6% | 11% | 26% | 15% |
-| Equity | 15% | 12% | 14% | 9% | 25% |
-| Risk Assessments | 15% | 25% | 9% | 30% | 15% |
-| Project Management | 15% | 6% | 20% | 13% | 5% |
-| Work Experience | 14% | 6% | 16% | 9% | 5% |
-| Communications | 13% | 0% | 10% | 9% | 30% |
-| Contracts | 13% | 19% | 7% | 26% | 20% |
-| Government | 13% | 19% | 17% | 4% | 10% |
-| Responsibility | 13% | 6% | 19% | 4% | 15% |
+| Regulatory **(core)** | 65% | 62% | 57% | 87% | 79% |
+| Risk **(core)** | 50% | 44% | 43% | 67% | 68% |
+| Audit **(core)** | 40% | 25% | 41% | 53% | 42% |
+| Analytical **(core)** | 34% | 38% | 27% | 60% | 37% |
+| Controls **(core)** | 33% | 31% | 25% | 53% | 47% |
+| Implementation **(core)** | 29% | 19% | 21% | 20% | 68% |
+| Rules **(core)** | 27% | 38% | 29% | 13% | 26% |
+| Testing **(core)** | 25% | 19% | 22% | 33% | 37% |
+| Policies and procedures **(core)** | 25% | 0% | 27% | 20% | 37% |
+| Regulatory Requirements | 24% | 19% | 21% | 20% | 32% |
+| Risks | 23% | 19% | 14% | 60% | 32% |
+| Audits | 23% | 19% | 24% | 20% | 26% |
+| Excel | 22% | 19% | 24% | 27% | 10% |
+| trading software | 20% | 19% | 18% | 0% | 42% |
+| Integrity | 20% | 19% | 18% | 7% | 42% |
+| Investment | 20% | 25% | 14% | 13% | 26% |
+| Assessments | 19% | 31% | 14% | 13% | 26% |
+| Guidance | 18% | 6% | 18% | 27% | 26% |
+| Ethics | 17% | 25% | 11% | 0% | 42% |
+| Governance | 17% | 12% | 14% | 20% | 26% |
+| Analyze | 17% | 0% | 14% | 40% | 26% |
+| Regulatory Compliance | 17% | 6% | 21% | 33% | 5% |
+| Equity | 16% | 12% | 14% | 13% | 26% |
+| Risk Management | 16% | 0% | 16% | 20% | 32% |
+| Independent | 16% | 25% | 13% | 20% | 21% |
+| work independently | 15% | 12% | 16% | 27% | 10% |
+| Financial Services | 14% | 12% | 18% | 13% | 5% |
+| Risk Assessment | 14% | 6% | 10% | 33% | 26% |
+| Project Management | 14% | 6% | 19% | 13% | 5% |
+| Government | 14% | 19% | 16% | 7% | 10% |
+| securities | 14% | 12% | 8% | 13% | 26% |
+| Deadlines | 14% | 19% | 11% | 13% | 16% |
+| Execution | 14% | 6% | 11% | 0% | 42% |
+| Responsibility | 14% | 6% | 18% | 7% | 16% |
 
 ## Soft skills employers mention
 
-Communication (62%), Leadership (30%), Communication Skills (28%), Problem Solving (16%), Attention to Detail (15%), Organizational Skills (12%), Interpersonal Skills (12%), Analytical Skills (10%)
+Communication (59%), Leadership (27%), Communication Skills (25%), Problem Solving (17%), Attention to Detail (16%), Interpersonal Skills (13%), Organizational Skills (13%), Analytical Skills (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

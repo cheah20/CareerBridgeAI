@@ -4,7 +4,7 @@
 - **Also called:** Tax Consultant, Tax Executive, Tax Accountant
 - **O*NET:** 13-2082.00 Tax Preparers; 13-2011.00 Accountants and Auditors; 13-2081.00 Tax Examiners and Collectors, and Revenue Agents
 - **ESCO:** tax advisor
-- **Job ads analysed:** 110 (Internship / Fresh Graduate 19, Junior 29, Mid-level 14, Senior 48)
+- **Job ads analysed:** 91 (Internship / Fresh Graduate 15, Junior 20, Mid-level 13, Senior 43)
 
 ## What the job involves
 
@@ -17,40 +17,37 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads | Internship / Fresh Graduate | Junior | Senior |
 |---|---|---|---|---|
 | Tax **(core)** | 100% | 100% | 100% | 100% |
-| Accounting **(core)** | 87% | 84% | 100% | 81% |
-| CPA **(core)** | 55% | 21% | 66% | 69% |
-| Tax planning **(core)** | 34% | 5% | 38% | 44% |
-| Excel **(core)** | 33% | 42% | 52% | 21% |
-| Partnership **(core)** | 28% | 10% | 38% | 31% |
-| Deadlines | 24% | 37% | 14% | 25% |
-| Analytical | 20% | 5% | 28% | 25% |
-| Tax accounting | 20% | 42% | 7% | 19% |
-| 401k | 18% | 10% | 17% | 23% |
-| Microsoft Office | 17% | 10% | 24% | 17% |
-| Email | 16% | 10% | 38% | 6% |
-| Flexibility | 16% | 5% | 41% | 8% |
-| Audits | 16% | 32% | 14% | 10% |
-| pregnancy | 16% | 10% | 31% | 6% |
-| Filing | 16% | 32% | 14% | 10% |
-| PTO | 16% | 0% | 14% | 27% |
-| Work Experience | 14% | 0% | 34% | 6% |
-| Audit | 14% | 10% | 24% | 6% |
-| Paid Holidays | 14% | 5% | 31% | 8% |
-| Reasonable Accommodation | 14% | 10% | 34% | 4% |
-| Verbal Communication | 14% | 0% | 41% | 6% |
-| Affirmative Action | 14% | 10% | 38% | 0% |
-| Written and Verbal Communication | 14% | 0% | 38% | 6% |
-| Professional services | 13% | 5% | 28% | 10% |
-| Guidance | 13% | 16% | 3% | 17% |
-| Recruiting | 12% | 0% | 31% | 6% |
-| Master's Degree | 12% | 0% | 17% | 15% |
-| Word | 12% | 10% | 14% | 10% |
-| Consulting | 12% | 5% | 21% | 10% |
-| Team Environment | 11% | 0% | 38% | 2% |
+| Accounting **(core)** | 87% | 87% | 100% | 81% |
+| CPA **(core)** | 53% | 20% | 55% | 70% |
+| Excel **(core)** | 32% | 47% | 50% | 21% |
+| Tax planning **(core)** | 32% | 7% | 30% | 44% |
+| Deadlines **(core)** | 26% | 33% | 20% | 26% |
+| Partnership | 24% | 13% | 20% | 30% |
+| Analytical | 21% | 7% | 35% | 23% |
+| Tax accounting | 20% | 33% | 5% | 21% |
+| 401k | 19% | 13% | 25% | 19% |
+| Audits | 15% | 33% | 15% | 9% |
+| Microsoft Office | 14% | 7% | 20% | 14% |
+| PTO | 14% | 0% | 15% | 23% |
+| Filing | 13% | 27% | 10% | 9% |
+| Word | 13% | 13% | 20% | 9% |
+| Guidance | 13% | 20% | 5% | 14% |
+| Audit | 12% | 13% | 15% | 5% |
+| Financial Reporting | 12% | 20% | 10% | 9% |
+| Partnerships | 12% | 7% | 5% | 19% |
+| Email | 11% | 13% | 20% | 7% |
+| Flexibility | 11% | 7% | 25% | 9% |
+| Analyze | 11% | 20% | 15% | 5% |
+| Master's Degree | 11% | 0% | 20% | 14% |
+| Resume | 11% | 13% | 5% | 16% |
+| Estimates | 11% | 20% | 10% | 7% |
+| Trust | 11% | 20% | 20% | 5% |
+| Controls | 11% | 20% | 5% | 7% |
+| Regulatory | 11% | 33% | 10% | 0% |
 
 ## Soft skills employers mention
 
-Communication (41%), Communication Skills (19%), Problem Solving (17%), Leadership (13%), Attention to Detail (12%)
+Communication (37%), Problem Solving (20%), Communication Skills (15%), Attention to Detail (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

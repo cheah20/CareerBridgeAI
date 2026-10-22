@@ -1,0 +1,100 @@
+{
+  "role": "Environmental Executive",
+  "status": "draft - needs human review",
+  "generated": "2026-10-22",
+  "model_note": "DeepSeek (deepseek-flash)",
+  "cost_usd": 0.0059,
+  "skills": [
+    {
+      "name": "Environmental compliance",
+      "type": "hard",
+      "importance": 0.75
+    },
+    {
+      "name": "ISO 14001 Environmental Management System",
+      "type": "certification",
+      "importance": 0.65
+    },
+    {
+      "name": "Environmental monitoring",
+      "type": "hard",
+      "importance": 0.6
+    },
+    {
+      "name": "Microsoft Excel",
+      "type": "tool",
+      "importance": 0.6
+    },
+    {
+      "name": "Environmental reporting",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Environmental Impact Assessment (EIA)",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Scheduled waste management",
+      "type": "hard",
+      "importance": 0.55
+    },
+    {
+      "name": "Environmental legislation",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Industrial effluent treatment system operation",
+      "type": "hard",
+      "importance": 0.5
+    },
+    {
+      "name": "Microsoft Word",
+      "type": "tool",
+      "importance": 0.5
+    },
+    {
+      "name": "Communication skills",
+      "type": "soft",
+      "importance": 0.5
+    },
+    {
+      "name": "CePSWaM (Certified Environmental Professional in Scheduled Waste Management)",
+      "type": "certification",
+      "importance": 0.45
+    },
+    {
+      "name": "Microsoft PowerPoint",
+      "type": "tool",
+      "importance": 0.45
+    },
+    {
+      "name": "Air pollution control systems",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "Data analysis",
+      "type": "hard",
+      "importance": 0.4
+    },
+    {
+      "name": "GIS (ArcGIS/QGIS)",
+      "type": "tool",
+      "importance": 0.35
+    },
+    {
+      "name": "CePIETSO (Certified Environmental Professional in Industrial Effluent Treatment System Operation)",
+      "type": "certification",
+      "importance": 0.35
+    },
+    {
+      "name": "Problem-solving",
+      "type": "soft",
+      "importance": 0.3
+    }
+  ],
+  "local_notes": "In Malaysia, DOE compliance and CePSWaM/CePIETSO certifications are commonly specified; in Singapore, NEA environmental regulations and ISO 14001 are commonly referenced."
+}

@@ -4,7 +4,7 @@
 - **Also called:** Bank Officer, Banking Officer, Personal Financial Consultant
 - **O*NET:** 41-3031.00 Securities, Commodities, and Financial Services Sales Agents; 43-4141.00 New Accounts Clerks; 13-2052.00 Personal Financial Advisors
 - **ESCO:** financial planner
-- **Job ads analysed:** 159 (Internship / Fresh Graduate 19, Junior 114, Mid-level 23, Senior 3)
+- **Job ads analysed:** 37 (Internship / Fresh Graduate 12, Junior 10, Mid-level 13, Senior 2)
 
 ## What the job involves
 
@@ -14,51 +14,58 @@ Buy and sell securities or commodities in investment and trading firms, or provi
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
-|---|---|---|---|---|
-| Banking **(core)** | 99% | 100% | 99% | 100% |
-| Customer Experience **(core)** | 83% | 37% | 97% | 56% |
-| Policies and procedures **(core)** | 82% | 32% | 98% | 52% |
-| Risk **(core)** | 79% | 16% | 97% | 48% |
-| NMLS **(core)** | 73% | 26% | 96% | 4% |
-| Work Experience **(core)** | 72% | 16% | 97% | 4% |
-| Mobile **(core)** | 71% | 26% | 90% | 22% |
-| Proactive **(core)** | 70% | 10% | 90% | 26% |
-| Responsibility **(core)** | 70% | 5% | 96% | 4% |
-| Phone **(core)** | 68% | 21% | 90% | 9% |
-| Posting **(core)** | 68% | 10% | 90% | 17% |
-| Network **(core)** | 67% | 10% | 86% | 26% |
-| Execution **(core)** | 67% | 5% | 90% | 17% |
-| Balancing **(core)** | 67% | 26% | 88% | 4% |
-| Cash handling **(core)** | 67% | 26% | 89% | 0% |
-| Investigation **(core)** | 67% | 10% | 90% | 0% |
-| Regulatory **(core)** | 66% | 5% | 90% | 4% |
-| Equity **(core)** | 65% | 0% | 91% | 0% |
-| Regulation **(core)** | 65% | 10% | 90% | 0% |
-| Job posting **(core)** | 65% | 5% | 90% | 0% |
-| Outreach **(core)** | 65% | 0% | 90% | 0% |
-| pregnancy **(core)** | 65% | 5% | 90% | 0% |
-| Regulatory Compliance **(core)** | 65% | 0% | 90% | 0% |
-| Background Investigation **(core)** | 64% | 0% | 90% | 0% |
-| Escalation **(core)** | 64% | 0% | 90% | 0% |
-| Part Time | 18% | 21% | 14% | 35% |
-| Judgment | 16% | 16% | 10% | 48% |
-| Lending | 16% | 58% | 1% | 44% |
-| High School Diploma | 15% | 53% | 2% | 48% |
-| Loans | 14% | 37% | 10% | 9% |
-| Equal Employment Opportunity | 13% | 10% | 8% | 30% |
-| Guidance | 12% | 21% | 9% | 22% |
-| Trust | 12% | 37% | 8% | 9% |
-| College degree | 11% | 10% | 8% | 30% |
-| Bilingual | 11% | 16% | 9% | 22% |
-| Customer Needs | 11% | 5% | 3% | 56% |
-| Customer base | 11% | 5% | 8% | 30% |
-| Risks | 11% | 5% | 8% | 30% |
-| GED | 10% | 16% | 2% | 44% |
+| Skill | All ads |  |
+|---|---|
+| Banking **(core)** | 97% |  |
+| Retail **(core)** | 57% |  |
+| Holidays **(core)** | 49% |  |
+| Policies and procedures **(core)** | 46% |  |
+| Lending **(core)** | 46% |  |
+| Risk **(core)** | 46% |  |
+| Customer Experience **(core)** | 40% |  |
+| High School Diploma **(core)** | 40% |  |
+| GED **(core)** | 32% |  |
+| Judgment **(core)** | 32% |  |
+| Paid Holidays **(core)** | 32% |  |
+| Proactive **(core)** | 32% |  |
+| Loans **(core)** | 32% |  |
+| Posting **(core)** | 30% |  |
+| Mobile **(core)** | 27% |  |
+| Influence **(core)** | 27% |  |
+| Cash handling **(core)** | 27% |  |
+| Execution **(core)** | 27% |  |
+| Phone **(core)** | 27% |  |
+| Affirmative Action **(core)** | 27% |  |
+| Guidance **(core)** | 27% |  |
+| Network | 24% |  |
+| Vacation | 24% |  |
+| NMLS | 24% |  |
+| Work Experience | 24% |  |
+| Paid Time Off | 24% |  |
+| Equal Employment Opportunity | 22% |  |
+| Transparency | 19% |  |
+| College degree | 19% |  |
+| Incentives | 19% |  |
+| Part Time | 19% |  |
+| Balancing | 19% |  |
+| Equity | 19% |  |
+| Fraud | 19% |  |
+| Integrity | 19% |  |
+| Investigation | 19% |  |
+| Regulatory | 19% |  |
+| Responsibility | 19% |  |
+| Packages | 19% |  |
+| Retention | 19% |  |
+| Verbal Communication | 19% |  |
+| Verbal communication skills | 19% |  |
+| Written and Verbal Communication | 19% |  |
+| Banking Experience | 19% |  |
+| Trust | 19% |  |
+| Customer Needs | 16% |  |
 
 ## Soft skills employers mention
 
-Customer Service (76%), Leadership (67%), Communication (22%), Communication Skills (11%)
+Communication (62%), Customer Service (49%), Communication Skills (38%), Leadership (16%), Coaching (16%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

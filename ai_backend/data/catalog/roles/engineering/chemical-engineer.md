@@ -3,7 +3,7 @@
 - **Field:** Engineering
 - **O*NET:** 17-2041.00 Chemical Engineers
 - **ESCO:** chemical engineer
-- **Job ads analysed:** 19 (Internship / Fresh Graduate 4, Junior 5, Mid-level 7, Senior 2, Lead / Manager 1)
+- **Job ads analysed:** 17 (Internship / Fresh Graduate 4, Junior 4, Mid-level 7, Senior 1, Lead / Manager 1)
 
 ## What the job involves
 
@@ -16,47 +16,46 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads |  |
 |---|---|
 | Chemical **(core)** | 100% |  |
-| Chemical Engineering **(core)** | 58% |  |
 | Manufacturing **(core)** | 53% |  |
-| Chemistry **(core)** | 42% |  |
-| Energy **(core)** | 37% |  |
-| Testing **(core)** | 37% |  |
-| industrial software **(core)** | 32% |  |
-| Maintenance **(core)** | 32% |  |
-| Risk **(core)** | 32% |  |
-| Optimization **(core)** | 32% |  |
-| Mechanical **(core)** | 26% |  |
-| Project Management **(core)** | 26% |  |
-| Technical Reports **(core)** | 26% |  |
-| Affirmative Action | 21% |  |
-| Affirmative Action Employer | 21% |  |
-| Efficiency | 21% |  |
-| Experiments | 21% |  |
-| Innovative Solutions | 21% |  |
-| Paid Holidays | 21% |  |
-| Research and Development | 21% |  |
-| Written Communication | 21% |  |
-| Analytical | 21% |  |
-| Analyze | 21% |  |
-| history | 21% |  |
-| Laboratory | 21% |  |
-| Excellence | 21% |  |
-| Implementation | 21% |  |
-| Technical Support | 21% |  |
-| Troubleshooting | 21% |  |
-| Government | 16% |  |
-| Paid Time Off | 16% |  |
-| pregnancy | 16% |  |
-| Procurement | 16% |  |
-| 401k | 16% |  |
-| Work Environment | 16% |  |
-| Process Flow | 16% |  |
-| New technologies | 16% |  |
-| PhD | 16% |  |
+| Chemical Engineering **(core)** | 53% |  |
+| Chemistry **(core)** | 41% |  |
+| Testing **(core)** | 41% |  |
+| industrial software **(core)** | 35% |  |
+| Maintenance **(core)** | 35% |  |
+| Energy **(core)** | 29% |  |
+| Project Management **(core)** | 29% |  |
+| Technical Reports **(core)** | 29% |  |
+| Risk **(core)** | 29% |  |
+| Optimization **(core)** | 29% |  |
+| Efficiency | 24% |  |
+| Holidays | 24% |  |
+| Innovative Solutions | 24% |  |
+| Mechanical | 24% |  |
+| Paid Holidays | 24% |  |
+| Research and Development | 24% |  |
+| Written Communication | 24% |  |
+| Analytical | 24% |  |
+| Laboratory | 24% |  |
+| Implementation | 24% |  |
+| Technical Support | 24% |  |
+| Troubleshooting | 24% |  |
+| Affirmative Action | 18% |  |
+| Affirmative Action Employer | 18% |  |
+| Experiments | 18% |  |
+| Government | 18% |  |
+| Paid Time Off | 18% |  |
+| pregnancy | 18% |  |
+| Procurement | 18% |  |
+| Analyze | 18% |  |
+| history | 18% |  |
+| Work Environment | 18% |  |
+| Excellence | 18% |  |
+| Process Flow | 18% |  |
+| New technologies | 18% |  |
 
 ## Soft skills employers mention
 
-Communication (58%), Communication Skills (32%), Collaboration (26%), Problem Solving (21%), Presentations (21%), Leadership (10%), Creativity (10%)
+Communication (53%), Communication Skills (29%), Collaboration (24%), Presentations (24%), Problem Solving (18%), Leadership (12%)
 
 ## Malaysia / Singapore skills (AI-drafted, pending human review)
 

@@ -4,7 +4,7 @@
 - **Also called:** Business Consultant
 - **O*NET:** 13-1111.00 Management Analysts; 19-3032.00 Industrial-Organizational Psychologists; 13-1199.04 Business Continuity Planners
 - **ESCO:** business consultant
-- **Job ads analysed:** 90 (Internship / Fresh Graduate 6, Junior 7, Mid-level 65, Senior 10, Lead / Manager 2)
+- **Job ads analysed:** 76 (Internship / Fresh Graduate 5, Junior 6, Mid-level 56, Senior 7, Lead / Manager 2)
 
 ## What the job involves
 
@@ -16,38 +16,37 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Consulting **(core)** | 38% | 34% |
-| Excel **(core)** | 29% | 32% |
-| Analytical **(core)** | 26% | 18% |
-| Project Management | 24% | 23% |
-| Analytics | 21% | 18% |
-| Implementation | 21% | 20% |
-| Data Analytics | 19% | 22% |
-| PowerPoint | 19% | 22% |
-| Business Processes | 18% | 18% |
-| Change Management | 18% | 20% |
-| Transformation | 18% | 15% |
-| Risk | 18% | 15% |
-| Consultants | 17% | 11% |
-| Insights | 17% | 18% |
-| SharePoint | 16% | 20% |
-| Objectives | 16% | 14% |
-| Consulting Experience | 16% | 15% |
-| Power BI | 16% | 20% |
-| Guidance | 14% | 17% |
-| Meetings | 14% | 12% |
-| Analyze | 14% | 6% |
-| Visio | 13% | 17% |
-| Presentation | 13% | 12% |
-| Agile | 13% | 11% |
-| Strategic Planning | 13% | 12% |
-| MBA | 13% | 12% |
-| Work ethic | 13% | 14% |
-| Business Analysis | 12% | 9% |
+| Consulting **(core)** | 33% | 30% |
+| Excel **(core)** | 32% | 36% |
+| Analytical | 24% | 18% |
+| Project Management | 22% | 23% |
+| Implementation | 21% | 21% |
+| Change Management | 21% | 23% |
+| Data Analytics | 21% | 23% |
+| PowerPoint | 21% | 25% |
+| SharePoint | 18% | 23% |
+| Power BI | 18% | 23% |
+| Analytics | 17% | 18% |
+| Consultants | 16% | 11% |
+| Business Processes | 16% | 20% |
+| Visio | 16% | 20% |
+| Insights | 16% | 18% |
+| Risk | 16% | 14% |
+| Consulting Experience | 16% | 18% |
+| Guidance | 14% | 18% |
+| Transformation | 14% | 14% |
+| Work ethic | 14% | 16% |
+| Meetings | 13% | 12% |
+| Flexibility | 13% | 12% |
+| Strategic Planning | 13% | 14% |
+| MBA | 13% | 14% |
+| Building Information Modeling (BIM) | 13% | 18% |
+| Financial Analysis | 13% | 18% |
+| Business Analysis | 12% | 11% |
 
 ## Soft skills employers mention
 
-Communication (48%), Problem Solving (24%), Leadership (23%), Analytical Skills (20%), Communication Skills (19%), Collaboration (17%), Attention to Detail (14%), Presentations (13%), Teamwork (13%), Interpersonal Skills (10%)
+Communication (43%), Communication Skills (21%), Problem Solving (20%), Leadership (20%), Analytical Skills (20%), Collaboration (18%), Attention to Detail (17%), Presentations (16%), Teamwork (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

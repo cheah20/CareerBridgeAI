@@ -3,7 +3,7 @@
 - **Field:** Architecture & Construction
 - **O*NET:** 13-1051.00 Cost Estimators
 - **ESCO:** quantity surveyor
-- **Job ads analysed:** 12 (Mid-level 7, Senior 5)
+- **Job ads analysed:** 10 (Mid-level 5, Senior 5)
 
 ## What the job involves
 
@@ -15,60 +15,51 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads |  |
 |---|---|
-| Quantity Surveying **(core)** | 92% |  |
-| Construction Management **(core)** | 75% |  |
-| Cost Management **(core)** | 75% |  |
-| Estimating **(core)** | 75% |  |
-| Value Engineering **(core)** | 75% |  |
-| Cost Planning **(core)** | 75% |  |
-| Change Orders **(core)** | 67% |  |
-| Cost estimates **(core)** | 67% |  |
-| Cost Control **(core)** | 67% |  |
-| Value management **(core)** | 58% |  |
-| Scheduling **(core)** | 42% |  |
-| Estimates **(core)** | 33% |  |
-| Project Management **(core)** | 33% |  |
-| Contingency management **(core)** | 33% |  |
-| Cost reports **(core)** | 33% |  |
-| Construction Project Management **(core)** | 25% |  |
-| Cost estimating **(core)** | 25% |  |
-| Data Center **(core)** | 25% |  |
-| Diversity and Inclusion **(core)** | 25% |  |
-| Estimation **(core)** | 25% |  |
-| Independent **(core)** | 25% |  |
-| Packages **(core)** | 25% |  |
-| Proposals **(core)** | 25% |  |
-| Recommendation **(core)** | 25% |  |
-| surveying **(core)** | 25% |  |
-| 3+ Years of Experience | 17% |  |
-| Architecture | 17% |  |
-| Bluebeam | 17% |  |
-| Budget | 17% |  |
-| Budgets | 17% |  |
-| CAD | 17% |  |
-| Commercial Construction | 17% |  |
-| Completeness | 17% |  |
-| Construction Documents | 17% |  |
-| Consulting | 17% |  |
-| Contracts | 17% |  |
-| Data Center Experience | 17% |  |
-| Document Control | 17% |  |
-| Dynamic Environment | 17% |  |
-| Electrical | 17% |  |
-| Employee Assistance Program | 17% |  |
-| Employee Stock Purchase Plan | 17% |  |
-| Energy | 17% |  |
-| Engineering Drawings | 17% |  |
-| Entrepreneurial | 17% |  |
-| Entrepreneurial spirit | 17% |  |
-| Equity | 17% |  |
-| Excel | 17% |  |
-| Flexibility | 17% |  |
-| GC | 17% |  |
+| Cost Planning **(core)** | 90% |  |
+| Quantity Surveying **(core)** | 90% |  |
+| Cost Control **(core)** | 80% |  |
+| Construction Management **(core)** | 70% |  |
+| Cost Management **(core)** | 70% |  |
+| Estimating **(core)** | 70% |  |
+| Value management **(core)** | 70% |  |
+| Value Engineering **(core)** | 70% |  |
+| Cost estimates **(core)** | 60% |  |
+| Change Orders **(core)** | 60% |  |
+| Scheduling **(core)** | 50% |  |
+| Contingency management **(core)** | 40% |  |
+| Cost reports **(core)** | 40% |  |
+| Benchmarking **(core)** | 30% |  |
+| Change Control **(core)** | 30% |  |
+| Change Management **(core)** | 30% |  |
+| Estimates | 20% |  |
+| Procurement | 20% |  |
+| College degree | 20% |  |
+| Project Management | 20% |  |
+| Negotiations | 20% |  |
+| Email | 10% |  |
+| Account Management | 10% |  |
+| Agile | 10% |  |
+| Asset Management | 10% |  |
+| Claims | 10% |  |
+| Curiosity | 10% |  |
+| Diversity and Inclusion | 10% |  |
+| Effective Communication | 10% |  |
+| Estimation | 10% |  |
+| Forecasting | 10% |  |
+| Independent | 10% |  |
+| Invoicing | 10% |  |
+| Liaising | 10% |  |
+| Mentor | 10% |  |
+| MEP | 10% |  |
+| Mobility | 10% |  |
+| Network | 10% |  |
+| Order Management | 10% |  |
+| Organized | 10% |  |
+| Packages | 10% |  |
 
 ## Soft skills employers mention
 
-Communication (42%), Communication Skills (25%), Negotiation (17%)
+Communication (30%), Negotiation (20%), Communication Skills (10%), Problem Solving (10%)
 
 ## Malaysia / Singapore skills (AI-drafted, pending human review)
 

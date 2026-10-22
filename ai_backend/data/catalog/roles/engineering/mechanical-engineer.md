@@ -3,7 +3,7 @@
 - **Field:** Engineering
 - **O*NET:** 17-2141.00 Mechanical Engineers
 - **ESCO:** mechanical engineer
-- **Job ads analysed:** 258 (Internship / Fresh Graduate 58, Junior 21, Mid-level 94, Senior 62, Lead / Manager 23)
+- **Job ads analysed:** 211 (Internship / Fresh Graduate 49, Junior 19, Mid-level 80, Senior 45, Lead / Manager 18)
 
 ## What the job involves
 
@@ -15,43 +15,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| Mechanical **(core)** | 91% | 100% | 100% | 93% | 87% | 65% |
-| Mechanical Engineering **(core)** | 66% | 69% | 62% | 56% | 73% | 87% |
-| Manufacturing **(core)** | 39% | 38% | 52% | 36% | 42% | 35% |
-| CAD **(core)** | 33% | 22% | 33% | 37% | 40% | 17% |
-| Electrical **(core)** | 27% | 26% | 48% | 23% | 24% | 35% |
-| Testing **(core)** | 27% | 31% | 43% | 30% | 18% | 17% |
-| SolidWorks **(core)** | 27% | 24% | 38% | 26% | 32% | 13% |
-| Components **(core)** | 26% | 28% | 29% | 23% | 27% | 26% |
-| Mechanical Systems | 22% | 19% | 24% | 21% | 29% | 17% |
-| Maintenance | 22% | 28% | 29% | 20% | 8% | 44% |
-| Energy | 20% | 19% | 19% | 16% | 24% | 30% |
-| Modeling | 20% | 17% | 48% | 14% | 29% | 4% |
-| industrial software | 20% | 21% | 29% | 16% | 19% | 26% |
-| AutoCAD | 19% | 19% | 29% | 15% | 18% | 35% |
-| Project Management | 19% | 5% | 10% | 20% | 19% | 56% |
-| Troubleshooting | 17% | 10% | 14% | 28% | 14% | 4% |
-| PE | 17% | 17% | 0% | 14% | 31% | 13% |
-| HVAC | 17% | 19% | 10% | 8% | 27% | 30% |
-| Drawing | 17% | 22% | 24% | 18% | 5% | 22% |
-| Coordination | 16% | 12% | 14% | 17% | 18% | 17% |
-| Consulting | 16% | 9% | 5% | 22% | 18% | 9% |
-| Assembly | 15% | 22% | 29% | 14% | 10% | 4% |
-| Revit | 14% | 9% | 10% | 15% | 19% | 17% |
-| MS | 14% | 10% | 5% | 16% | 16% | 17% |
-| Onsite | 14% | 10% | 14% | 17% | 18% | 0% |
-| Meetings | 14% | 9% | 14% | 11% | 19% | 26% |
-| Vendors | 14% | 14% | 14% | 18% | 10% | 4% |
-| Analyze | 14% | 14% | 10% | 17% | 8% | 17% |
-| Methods | 13% | 19% | 14% | 12% | 13% | 4% |
-| Guidance | 13% | 7% | 14% | 17% | 11% | 17% |
-| Product Development | 13% | 19% | 24% | 11% | 8% | 9% |
-| Plumbing | 12% | 12% | 10% | 7% | 19% | 17% |
-| Power | 12% | 7% | 14% | 14% | 14% | 9% |
+| Mechanical **(core)** | 89% | 100% | 100% | 91% | 82% | 56% |
+| Mechanical Engineering **(core)** | 67% | 71% | 63% | 59% | 73% | 83% |
+| Manufacturing **(core)** | 40% | 39% | 53% | 39% | 44% | 28% |
+| CAD **(core)** | 34% | 24% | 37% | 39% | 40% | 17% |
+| Electrical **(core)** | 29% | 29% | 47% | 25% | 27% | 33% |
+| SolidWorks **(core)** | 29% | 29% | 42% | 28% | 31% | 17% |
+| Testing **(core)** | 29% | 31% | 47% | 32% | 20% | 11% |
+| Components | 24% | 26% | 32% | 22% | 24% | 17% |
+| Mechanical Systems | 23% | 20% | 26% | 21% | 29% | 17% |
+| Maintenance | 22% | 29% | 32% | 21% | 4% | 44% |
+| AutoCAD | 20% | 22% | 26% | 16% | 16% | 39% |
+| Modeling | 20% | 18% | 42% | 15% | 27% | 6% |
+| Project Management | 19% | 6% | 5% | 22% | 16% | 67% |
+| industrial software | 19% | 18% | 32% | 18% | 13% | 28% |
+| Troubleshooting | 18% | 8% | 10% | 30% | 16% | 6% |
+| Drawing | 17% | 22% | 26% | 20% | 2% | 11% |
+| Assembly | 16% | 22% | 32% | 14% | 11% | 6% |
+| HVAC | 16% | 20% | 10% | 6% | 22% | 33% |
+| Energy | 15% | 18% | 16% | 12% | 13% | 22% |
+| Vendors | 14% | 16% | 16% | 19% | 7% | 0% |
+| Analyze | 14% | 12% | 10% | 19% | 7% | 17% |
+| Methods | 13% | 20% | 16% | 11% | 11% | 0% |
+| Coordination | 12% | 10% | 10% | 14% | 16% | 6% |
+| PE | 12% | 16% | 0% | 8% | 24% | 6% |
+| Onsite | 12% | 8% | 16% | 14% | 18% | 0% |
+| Product Development | 12% | 16% | 21% | 11% | 7% | 11% |
+| Analytical | 12% | 4% | 10% | 22% | 2% | 11% |
+| Excel | 12% | 10% | 16% | 16% | 4% | 11% |
+| MS | 12% | 12% | 5% | 15% | 11% | 6% |
+| Guidance | 12% | 8% | 16% | 12% | 13% | 11% |
+| Revit | 12% | 10% | 5% | 9% | 18% | 22% |
+| Efficiency | 11% | 12% | 21% | 12% | 4% | 11% |
 
 ## Soft skills employers mention
 
-Communication (43%), Problem Solving (22%), Communication Skills (20%), Leadership (15%), Collaboration (11%)
+Communication (40%), Problem Solving (26%), Communication Skills (20%), Leadership (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

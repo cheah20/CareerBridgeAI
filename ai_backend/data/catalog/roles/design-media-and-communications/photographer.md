@@ -3,7 +3,7 @@
 - **Field:** Design, Media & Communications
 - **O*NET:** 27-4021.00 Photographers
 - **ESCO:** photographer
-- **Job ads analysed:** 22 (Internship / Fresh Graduate 6, Junior 9, Mid-level 7)
+- **Job ads analysed:** 17 (Internship / Fresh Graduate 4, Junior 6, Mid-level 7)
 
 ## What the job involves
 
@@ -15,37 +15,59 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads |  |
 |---|---|
-| Photography **(core)** | 91% |  |
-| Portfolio **(core)** | 36% |  |
-| Editing **(core)** | 32% |  |
-| LinkedIn **(core)** | 27% |  |
-| Lighting **(core)** | 27% |  |
-| Onsite | 23% |  |
-| Photoshop | 23% |  |
-| Organized | 23% |  |
-| Independent | 23% |  |
-| Fundraising | 23% |  |
-| Resume | 18% |  |
-| Adobe | 18% |  |
-| Part Time | 18% |  |
-| work independently | 18% |  |
-| Real Estate | 18% |  |
-| Equity | 18% |  |
-| LinkedIn for Good | 18% |  |
-| Partnership | 18% |  |
-| VolunteerMatch | 18% |  |
-| Ability to work independently | 14% |  |
-| Photo editing | 14% |  |
-| Business Needs | 14% |  |
-| Deadlines | 14% |  |
-| Resolution | 14% |  |
-| Advocacy | 14% |  |
-| Health Care | 14% |  |
-| Vendors | 14% |  |
+| Photography **(core)** | 88% |  |
+| Portfolio **(core)** | 35% |  |
+| Editing **(core)** | 35% |  |
+| Onsite **(core)** | 29% |  |
+| Resume | 24% |  |
+| Lighting | 24% |  |
+| Part Time | 24% |  |
+| work independently | 24% |  |
+| Real Estate | 24% |  |
+| Equity | 24% |  |
+| LinkedIn | 18% |  |
+| Ability to work independently | 18% |  |
+| Photoshop | 18% |  |
+| Organized | 18% |  |
+| Photo editing | 18% |  |
+| Business Needs | 18% |  |
+| Confidentiality | 12% |  |
+| Email | 12% |  |
+| Receiving | 12% |  |
+| Word | 12% |  |
+| Adobe | 12% |  |
+| Adobe Photoshop | 12% |  |
+| Team Player | 12% |  |
+| Flexible Schedule | 12% |  |
+| Independent | 12% |  |
+| Transportation | 12% |  |
+| Driver's License | 12% |  |
+| Internet | 12% |  |
+| Video | 12% |  |
 
 ## Soft skills employers mention
 
-Communication (46%), Communication Skills (23%), Collaboration (14%)
+Communication (47%), Communication Skills (18%), Collaboration (18%), Problem Solving (12%), Customer Service (12%), Attention to Detail (12%)
+
+## Malaysia / Singapore skills (AI-drafted, pending human review)
+
+Drafted by DeepSeek because few job ads matched this title. Estimated share of job ads in brackets.
+
+- Camera operation (DSLR/mirrorless) (90%, hard)
+- Adobe Photoshop (85%, tool)
+- Photo retouching and editing (80%, hard)
+- Adobe Photoshop Lightroom (75%, tool)
+- Lighting setup (studio and on-location) (70%, hard)
+- Image composition (65%, hard)
+- Studio lighting equipment (strobes, softboxes, reflectors) (60%, tool)
+- Event photography (45%, hard)
+- Product photography (40%, hard)
+- Portrait photography (40%, hard)
+- Color correction and color grading (40%, hard)
+- Capture One (30%, tool)
+- Print preparation and printing (25%, hard)
+- Image cataloging and digital asset management (20%, hard)
+- Adobe Certified Professional (Photoshop) (10%, certification)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
@@ -101,6 +123,8 @@ Adobe Photoshop, Adobe Photoshop Lightroom
 ## Core abilities (O*NET importance ≥ 3.5 of 5)
 
 Active Listening, Speaking
+
+> **Limited market data:** fewer than 20 job ads matched this title, so skills rely mainly on ESCO and O*NET.
 
 ---
 Sources: O*NET 31.0 (USDOL/ETA, CC BY 4.0); ESCO v1.2.1 (European Commission); LinkedIn Job Postings 2023–24 (CC BY-SA 4.0); Data Science Job Postings & Skills 2024 (ODC-By).

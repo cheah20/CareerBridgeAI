@@ -4,7 +4,7 @@
 - **Also called:** Surveyor
 - **O*NET:** 17-1022.00 Surveyors; 17-1022.01 Geodetic Surveyors; 17-3031.00 Surveying and Mapping Technicians
 - **ESCO:** land surveyor
-- **Job ads analysed:** 60 (Internship / Fresh Graduate 6, Junior 1, Mid-level 45, Senior 8)
+- **Job ads analysed:** 41 (Junior 1, Mid-level 32, Senior 8)
 
 ## What the job involves
 
@@ -16,42 +16,37 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Survey **(core)** | 55% | 67% |
-| surveying **(core)** | 45% | 47% |
-| Transportation **(core)** | 33% | 31% |
-| Paid Time Off **(core)** | 32% | 27% |
-| Surveys **(core)** | 30% | 38% |
-| Driver's License **(core)** | 28% | 24% |
-| Life Insurance **(core)** | 27% | 18% |
-| Vacation | 23% | 18% |
-| Architecture | 22% | 18% |
-| Equal Employment Opportunity | 22% | 16% |
-| FSA | 22% | 16% |
-| Independent | 22% | 18% |
-| English | 20% | 13% |
-| Insights | 20% | 16% |
-| Reasonable Accommodation | 20% | 16% |
-| Risk | 20% | 16% |
-| Writing | 20% | 24% |
-| Infrastructure | 20% | 27% |
-| AutoCAD | 20% | 24% |
-| Background Check | 18% | 11% |
-| Climbing | 18% | 13% |
-| Recruitment | 18% | 13% |
-| Risk Management | 18% | 11% |
-| Valid Driver's License | 18% | 11% |
-| Quantity Surveying | 18% | 13% |
-| Energy | 17% | 20% |
-| HSA | 17% | 9% |
-| Analytical | 17% | 9% |
-| Commuter Benefits | 17% | 11% |
-| Confidence | 17% | 11% |
-| Diversity and Inclusion | 17% | 11% |
-| Facts | 17% | 11% |
+| Survey **(core)** | 56% | 66% |
+| surveying **(core)** | 42% | 50% |
+| Surveys **(core)** | 32% | 38% |
+| Transportation | 22% | 28% |
+| Cost Planning | 22% | 12% |
+| Quantity Surveying | 22% | 12% |
+| Scheduling | 20% | 16% |
+| Cost Control | 20% | 9% |
+| Infrastructure | 17% | 22% |
+| AutoCAD | 17% | 19% |
+| Survey Data | 17% | 22% |
+| Cost estimates | 17% | 12% |
+| Construction Management | 17% | 9% |
+| Cost Management | 17% | 12% |
+| Estimating | 17% | 6% |
+| Value management | 17% | 9% |
+| Value Engineering | 17% | 9% |
+| Change Orders | 15% | 6% |
+| Civil Engineering | 12% | 16% |
+| Driver's License | 12% | 12% |
+| Energy | 12% | 12% |
+| Holidays | 12% | 9% |
+| Resume | 12% | 12% |
+| Life Insurance | 12% | 6% |
+| CAD | 12% | 12% |
+| Project Management | 12% | 9% |
+| Data Collection | 12% | 16% |
 
 ## Soft skills employers mention
 
-Communication (37%), Communication Skills (28%), Problem Solving (27%), Customer Service (17%), Leadership (12%), Interpersonal Skills (10%), Time Management (10%)
+Communication (29%), Leadership (17%), Communication Skills (17%), Problem Solving (17%), Customer Service (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

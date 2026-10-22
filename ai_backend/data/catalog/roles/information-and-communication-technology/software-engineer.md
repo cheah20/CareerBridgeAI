@@ -4,7 +4,7 @@
 - **Also called:** Software Developer, Application Developer
 - **O*NET:** 15-1252.00 Software Developers
 - **ESCO:** software developer
-- **Job ads analysed:** 1,776 (Internship / Fresh Graduate 232, Junior 92, Mid-level 588, Senior 613, Lead / Manager 251)
+- **Job ads analysed:** 1,345 (Internship / Fresh Graduate 168, Junior 79, Mid-level 455, Senior 444, Lead / Manager 199)
 
 ## What the job involves
 
@@ -16,48 +16,47 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| Computer Science **(core)** | 43% | 50% | 56% | 42% | 44% | 36% |
-| Programming **(core)** | 42% | 44% | 47% | 45% | 41% | 34% |
-| Python **(core)** | 41% | 37% | 41% | 41% | 38% | 51% |
-| Java **(core)** | 40% | 49% | 38% | 33% | 43% | 41% |
-| Cloud **(core)** | 37% | 37% | 27% | 29% | 43% | 43% |
-| Software Development **(core)** | 36% | 44% | 42% | 30% | 39% | 32% |
-| Agile **(core)** | 35% | 37% | 30% | 24% | 42% | 47% |
-| Testing **(core)** | 35% | 56% | 41% | 31% | 35% | 25% |
-| SQL **(core)** | 34% | 28% | 32% | 37% | 34% | 34% |
-| Software Engineering **(core)** | 30% | 36% | 21% | 22% | 30% | 51% |
-| AWS **(core)** | 28% | 23% | 18% | 22% | 30% | 44% |
-| JavaScript **(core)** | 28% | 33% | 22% | 30% | 26% | 24% |
-| Architecture **(core)** | 27% | 28% | 17% | 21% | 34% | 27% |
-| Frameworks | 24% | 24% | 17% | 17% | 30% | 24% |
-| C++ | 23% | 32% | 32% | 30% | 16% | 14% |
-| Coding | 23% | 25% | 21% | 30% | 19% | 16% |
-| Azure | 20% | 17% | 13% | 14% | 25% | 30% |
-| Infrastructure | 20% | 20% | 15% | 18% | 22% | 21% |
-| Scalable | 19% | 18% | 16% | 14% | 26% | 17% |
-| Equity | 19% | 27% | 16% | 12% | 22% | 19% |
-| C# | 18% | 18% | 16% | 23% | 16% | 13% |
-| Full Stack | 18% | 19% | 13% | 8% | 25% | 21% |
-| Databases | 17% | 16% | 13% | 11% | 23% | 20% |
-| Kubernetes | 17% | 15% | 8% | 10% | 22% | 28% |
-| Implementation | 17% | 20% | 20% | 15% | 19% | 15% |
-| Docker | 17% | 17% | 6% | 10% | 22% | 26% |
-| Go | 17% | 16% | 11% | 8% | 24% | 25% |
-| Database | 17% | 20% | 20% | 17% | 19% | 7% |
-| Tech | 16% | 17% | 11% | 8% | 23% | 22% |
-| pregnancy | 16% | 17% | 10% | 10% | 19% | 25% |
-| Programming Languages | 16% | 21% | 17% | 11% | 18% | 19% |
-| Developers | 16% | 19% | 15% | 12% | 16% | 25% |
-| Collaborative | 16% | 18% | 14% | 8% | 20% | 23% |
-| React | 15% | 15% | 20% | 15% | 15% | 14% |
-| HTML | 15% | 18% | 9% | 18% | 14% | 10% |
-| API | 15% | 15% | 14% | 14% | 17% | 9% |
-| Git | 14% | 17% | 14% | 14% | 15% | 12% |
-| Deployment | 14% | 19% | 13% | 13% | 14% | 14% |
+| Computer Science **(core)** | 44% | 48% | 60% | 46% | 44% | 33% |
+| Java **(core)** | 39% | 46% | 38% | 38% | 39% | 37% |
+| Python **(core)** | 38% | 37% | 40% | 35% | 35% | 50% |
+| Software Development **(core)** | 37% | 40% | 44% | 33% | 40% | 33% |
+| Programming **(core)** | 36% | 40% | 44% | 37% | 37% | 26% |
+| Testing **(core)** | 36% | 51% | 40% | 34% | 36% | 26% |
+| Cloud **(core)** | 34% | 30% | 27% | 30% | 40% | 37% |
+| Agile **(core)** | 34% | 38% | 34% | 26% | 36% | 42% |
+| SQL **(core)** | 30% | 29% | 34% | 28% | 32% | 31% |
+| Software Engineering **(core)** | 29% | 31% | 22% | 24% | 28% | 48% |
+| AWS **(core)** | 28% | 23% | 19% | 25% | 28% | 42% |
+| Architecture **(core)** | 27% | 27% | 19% | 22% | 32% | 28% |
+| JavaScript | 22% | 29% | 22% | 20% | 22% | 20% |
+| Frameworks | 21% | 23% | 16% | 19% | 25% | 20% |
+| C++ | 20% | 27% | 32% | 21% | 16% | 13% |
+| Azure | 19% | 16% | 13% | 15% | 23% | 25% |
+| Coding | 19% | 25% | 19% | 20% | 16% | 19% |
+| Infrastructure | 18% | 16% | 9% | 19% | 19% | 20% |
+| Scalable | 18% | 15% | 15% | 15% | 22% | 16% |
+| Database | 17% | 20% | 19% | 19% | 19% | 8% |
+| Kubernetes | 16% | 14% | 6% | 12% | 19% | 26% |
+| Docker | 16% | 15% | 5% | 12% | 20% | 23% |
+| Implementation | 16% | 18% | 20% | 14% | 18% | 14% |
+| CI/CD | 15% | 12% | 9% | 16% | 18% | 14% |
+| Databases | 15% | 18% | 13% | 12% | 18% | 15% |
+| React | 15% | 15% | 19% | 16% | 14% | 15% |
+| Go | 15% | 14% | 9% | 8% | 21% | 23% |
+| Developers | 15% | 18% | 14% | 13% | 13% | 21% |
+| C# | 15% | 17% | 16% | 12% | 17% | 14% |
+| Full Stack | 15% | 20% | 13% | 8% | 21% | 15% |
+| Deployment | 15% | 20% | 9% | 14% | 15% | 15% |
+| Equity | 14% | 20% | 11% | 11% | 15% | 16% |
+| API | 14% | 13% | 14% | 15% | 16% | 9% |
+| Automation | 14% | 16% | 11% | 14% | 14% | 13% |
+| Programming Languages | 14% | 16% | 15% | 13% | 13% | 14% |
+| APIs | 14% | 18% | 13% | 10% | 16% | 12% |
+| Collaborative | 13% | 14% | 13% | 8% | 16% | 18% |
 
 ## Soft skills employers mention
 
-Communication (34%), Problem Solving (22%), Collaboration (17%), Communication Skills (15%), Leadership (14%), Mentoring (11%)
+Communication (36%), Problem Solving (22%), Communication Skills (16%), Collaboration (16%), Leadership (15%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

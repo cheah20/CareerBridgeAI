@@ -3,7 +3,7 @@
 - **Field:** Administration & Customer Service
 - **O*NET:** 43-1011.00 First-Line Supervisors of Office and Administrative Support Workers; 11-1021.00 General and Operations Managers
 - **ESCO:** office manager
-- **Job ads analysed:** 186 (Internship / Fresh Graduate 8, Junior 27, Mid-level 146, Senior 1, Lead / Manager 4)
+- **Job ads analysed:** 160 (Internship / Fresh Graduate 7, Junior 25, Mid-level 125, Senior 1, Lead / Manager 2)
 
 ## What the job involves
 
@@ -15,40 +15,40 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Junior | Mid-level |
 |---|---|---|---|
-| Microsoft Office **(core)** | 35% | 44% | 34% |
-| Scheduling **(core)** | 35% | 41% | 36% |
-| Meetings **(core)** | 29% | 59% | 25% |
-| Excel **(core)** | 28% | 33% | 29% |
-| Accounting **(core)** | 27% | 33% | 29% |
-| Word | 23% | 30% | 23% |
-| Work Environment | 23% | 18% | 23% |
-| Maintenance | 22% | 33% | 22% |
-| Payroll | 18% | 15% | 20% |
-| Microsoft Office Suite | 17% | 26% | 17% |
-| Efficiency | 17% | 18% | 16% |
-| Budget | 17% | 22% | 15% |
-| Coordination | 17% | 30% | 16% |
-| Phone | 16% | 18% | 16% |
-| Outlook | 16% | 30% | 14% |
-| Administrative Support | 16% | 37% | 14% |
-| Policies and procedures | 16% | 7% | 18% |
-| Paid Time Off | 15% | 0% | 18% |
-| Organized | 15% | 30% | 12% |
-| Vendors | 15% | 30% | 13% |
-| HR | 15% | 22% | 15% |
-| Confidentiality | 15% | 33% | 13% |
-| Collaborative | 14% | 7% | 17% |
-| High School Diploma | 14% | 0% | 16% |
-| Billing | 14% | 4% | 15% |
-| Inventory | 14% | 22% | 12% |
-| Human Resources | 13% | 11% | 13% |
-| 401k | 13% | 11% | 14% |
-| Verbal Communication | 13% | 7% | 14% |
-| Correspondence | 13% | 22% | 13% |
+| Microsoft Office **(core)** | 36% | 44% | 34% |
+| Scheduling **(core)** | 33% | 36% | 34% |
+| Meetings **(core)** | 32% | 60% | 27% |
+| Excel **(core)** | 28% | 28% | 29% |
+| Accounting **(core)** | 27% | 28% | 29% |
+| Word | 23% | 24% | 23% |
+| Maintenance | 22% | 32% | 22% |
+| Work Environment | 21% | 16% | 21% |
+| Payroll | 18% | 16% | 19% |
+| Microsoft Office Suite | 18% | 24% | 18% |
+| Outlook | 18% | 24% | 16% |
+| Confidentiality | 18% | 36% | 15% |
+| Efficiency | 17% | 20% | 16% |
+| Organized | 17% | 32% | 13% |
+| Budget | 17% | 20% | 15% |
+| Holidays | 16% | 4% | 18% |
+| Coordination | 16% | 28% | 15% |
+| Administrative Support | 16% | 36% | 13% |
+| Phone | 15% | 16% | 15% |
+| Collaborative | 15% | 8% | 18% |
+| Inventory | 15% | 24% | 12% |
+| Vendors | 15% | 28% | 13% |
+| Policies and procedures | 14% | 8% | 17% |
+| 401k | 14% | 12% | 14% |
+| Paid Time Off | 14% | 0% | 16% |
+| Communications | 14% | 24% | 12% |
+| Verbal Communication | 14% | 8% | 14% |
+| Correspondence | 14% | 24% | 13% |
+| HR | 14% | 20% | 14% |
+| Resume | 13% | 0% | 17% |
 
 ## Soft skills employers mention
 
-Communication (72%), Communication Skills (30%), Customer Service (30%), Leadership (28%), Attention to Detail (22%), Problem Solving (19%), Organizational Skills (18%), Time Management (16%), Collaboration (13%), Interpersonal Skills (11%)
+Communication (72%), Communication Skills (32%), Customer Service (30%), Leadership (28%), Attention to Detail (22%), Organizational Skills (19%), Time Management (17%), Problem Solving (17%), Collaboration (12%), Interpersonal Skills (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** ETL Developer, Big Data Engineer
 - **O*NET:** 15-1243.00 Database Architects; 15-1243.01 Data Warehousing Specialists; 15-1242.00 Database Administrators
 - **ESCO:** data engineer
-- **Job ads analysed:** 1,871 (Internship / Fresh Graduate 64, Junior 112, Mid-level 639, Senior 734, Lead / Manager 322)
+- **Job ads analysed:** 1,804 (Internship / Fresh Graduate 47, Junior 107, Mid-level 618, Senior 713, Lead / Manager 319)
 
 ## What the job involves
 
@@ -16,52 +16,51 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| Python **(core)** | 72% | 75% | 65% | 64% | 77% | 77% |
-| SQL **(core)** | 66% | 62% | 63% | 66% | 70% | 57% |
-| Data Engineering **(core)** | 48% | 36% | 49% | 46% | 54% | 38% |
-| Spark **(core)** | 38% | 34% | 22% | 26% | 42% | 62% |
-| AWS **(core)** | 37% | 42% | 33% | 32% | 35% | 52% |
-| Java **(core)** | 35% | 23% | 28% | 22% | 34% | 67% |
-| Snowflake **(core)** | 32% | 30% | 19% | 18% | 39% | 49% |
-| Scala **(core)** | 32% | 23% | 11% | 18% | 32% | 67% |
-| Data Warehousing **(core)** | 30% | 23% | 28% | 22% | 34% | 39% |
-| ETL **(core)** | 28% | 47% | 28% | 31% | 30% | 12% |
-| Hadoop **(core)** | 26% | 11% | 12% | 16% | 26% | 56% |
-| Kafka **(core)** | 25% | 14% | 15% | 10% | 32% | 46% |
-| Data Modeling **(core)** | 25% | 16% | 30% | 30% | 25% | 15% |
-| Machine Learning | 23% | 28% | 20% | 14% | 24% | 39% |
-| Data Pipelines | 23% | 31% | 24% | 26% | 25% | 10% |
-| Redshift | 20% | 27% | 5% | 9% | 21% | 47% |
-| Agile | 20% | 30% | 7% | 16% | 20% | 34% |
-| NoSQL | 20% | 12% | 11% | 13% | 21% | 35% |
-| Azure | 19% | 36% | 20% | 19% | 21% | 12% |
-| Hive | 18% | 9% | 7% | 8% | 20% | 42% |
-| Cloud Computing | 18% | 9% | 14% | 11% | 15% | 42% |
-| Computer Science | 16% | 47% | 19% | 22% | 12% | 8% |
-| MySQL | 16% | 8% | 7% | 6% | 16% | 38% |
-| Big Data | 15% | 25% | 14% | 14% | 16% | 15% |
-| EMR | 15% | 14% | 4% | 7% | 15% | 36% |
-| Airflow | 14% | 5% | 10% | 17% | 18% | 7% |
-| Data Quality | 14% | 22% | 12% | 16% | 14% | 8% |
-| Cloud | 14% | 55% | 12% | 16% | 10% | 8% |
-| Data Analysis | 13% | 20% | 18% | 15% | 12% | 8% |
-| Data Analytics | 13% | 9% | 16% | 14% | 13% | 8% |
-| Data Governance | 13% | 14% | 12% | 13% | 15% | 7% |
-| Data Science | 13% | 19% | 14% | 11% | 17% | 7% |
-| Analytics | 12% | 45% | 13% | 15% | 10% | 5% |
-| Cassandra | 12% | 6% | 0% | 2% | 13% | 35% |
-| Data Visualization | 12% | 12% | 17% | 12% | 15% | 4% |
-| PySpark | 12% | 17% | 6% | 10% | 16% | 8% |
-| Data Integration | 12% | 16% | 17% | 12% | 12% | 6% |
-| UNIX/Linux | 12% | 6% | 1% | 1% | 14% | 33% |
+| Python **(core)** | 72% | 77% | 66% | 64% | 77% | 77% |
+| SQL **(core)** | 65% | 66% | 63% | 65% | 70% | 57% |
+| Data Engineering **(core)** | 48% | 36% | 50% | 47% | 55% | 38% |
+| Spark **(core)** | 39% | 32% | 22% | 26% | 42% | 61% |
+| AWS **(core)** | 36% | 40% | 33% | 32% | 34% | 52% |
+| Java **(core)** | 35% | 19% | 26% | 22% | 34% | 68% |
+| Snowflake **(core)** | 32% | 28% | 19% | 18% | 39% | 49% |
+| Scala **(core)** | 32% | 19% | 11% | 18% | 31% | 67% |
+| Data Warehousing **(core)** | 30% | 23% | 29% | 22% | 34% | 40% |
+| ETL **(core)** | 27% | 55% | 28% | 30% | 29% | 12% |
+| Hadoop **(core)** | 27% | 8% | 12% | 16% | 26% | 56% |
+| Kafka **(core)** | 26% | 11% | 15% | 10% | 32% | 46% |
+| Data Modeling | 25% | 17% | 31% | 30% | 24% | 14% |
+| Machine Learning | 23% | 23% | 21% | 14% | 24% | 39% |
+| Data Pipelines | 22% | 26% | 25% | 25% | 24% | 9% |
+| Redshift | 20% | 21% | 6% | 9% | 20% | 47% |
+| Agile | 20% | 28% | 6% | 15% | 19% | 34% |
+| NoSQL | 20% | 11% | 10% | 13% | 20% | 35% |
+| Hive | 19% | 8% | 8% | 8% | 20% | 42% |
+| Cloud Computing | 18% | 6% | 15% | 12% | 15% | 42% |
+| Azure | 18% | 34% | 20% | 18% | 19% | 11% |
+| MySQL | 16% | 6% | 6% | 6% | 15% | 38% |
+| Computer Science | 15% | 45% | 17% | 21% | 11% | 8% |
+| EMR | 15% | 11% | 5% | 7% | 15% | 35% |
+| Airflow | 15% | 4% | 10% | 17% | 18% | 7% |
+| Big Data | 15% | 21% | 11% | 14% | 16% | 14% |
+| Data Quality | 14% | 15% | 12% | 15% | 15% | 8% |
+| Data Analysis | 13% | 19% | 19% | 15% | 13% | 8% |
+| Data Analytics | 13% | 6% | 16% | 14% | 14% | 8% |
+| Data Governance | 13% | 15% | 12% | 13% | 15% | 7% |
+| Data Science | 13% | 21% | 11% | 10% | 17% | 7% |
+| Cassandra | 12% | 4% | 0% | 2% | 13% | 35% |
+| Data Visualization | 12% | 6% | 16% | 12% | 15% | 4% |
+| PySpark | 12% | 15% | 6% | 10% | 16% | 7% |
+| UNIX/Linux | 12% | 4% | 1% | 1% | 14% | 33% |
+| Data Integration | 12% | 13% | 16% | 12% | 13% | 6% |
+| Cloud | 11% | 49% | 9% | 15% | 9% | 7% |
 
 ## Soft skills employers mention
 
-Communication (16%), Communication Skills (12%)
+Communication (15%), Communication Skills (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Amazon Redshift, Amazon Web Services AWS, Apache Airflow, Apache Hadoop, Apache Kafka, Apache Spark, Atlassian JIRA, Git, GitHub, IBM Terraform, Informatica, Kubernetes, Linux, Microsoft Access, Microsoft Azure, Microsoft Power BI, Microsoft SQL Server, Microsoft PowerShell, Microsoft SQL Server Integration Services SSIS, MongoDB
+Amazon Redshift, Amazon Web Services AWS, Apache Airflow, Apache Hadoop, Apache Kafka, Apache Spark, Atlassian JIRA, Git, GitHub, IBM Terraform, Informatica, Kubernetes, Linux, Microsoft Access, Microsoft Azure, Microsoft PowerShell, Microsoft Power BI, Microsoft SQL Server, Microsoft SQL Server Integration Services SSIS, Python
 
 ## Essential skills (ESCO)
 

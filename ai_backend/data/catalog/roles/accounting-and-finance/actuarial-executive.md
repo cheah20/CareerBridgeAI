@@ -4,7 +4,7 @@
 - **Also called:** Actuary, Actuarial Analyst
 - **O*NET:** 15-2011.00 Actuaries; 43-9111.00 Statistical Assistants
 - **ESCO:** actuarial consultant
-- **Job ads analysed:** 91 (Internship / Fresh Graduate 2, Junior 12, Mid-level 58, Senior 9, Lead / Manager 10)
+- **Job ads analysed:** 63 (Internship / Fresh Graduate 2, Junior 9, Mid-level 36, Senior 9, Lead / Manager 7)
 
 ## What the job involves
 
@@ -16,43 +16,41 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Actuarial **(core)** | 81% | 78% |
-| Pricing **(core)** | 69% | 69% |
-| Modeling **(core)** | 50% | 47% |
-| ACAS **(core)** | 44% | 52% |
-| reinsurance **(core)** | 38% | 50% |
-| SQL **(core)** | 31% | 29% |
-| Python **(core)** | 31% | 24% |
-| Life Insurance **(core)** | 26% | 21% |
-| Risk **(core)** | 26% | 19% |
-| Analytics | 22% | 14% |
-| FSA | 20% | 19% |
-| Profitability | 18% | 21% |
-| Consulting | 18% | 12% |
-| SAS | 15% | 16% |
-| Risks | 15% | 10% |
-| Paid Time Off | 14% | 12% |
-| Statistics | 14% | 5% |
-| Mathematics | 14% | 2% |
-| Underwriting | 13% | 9% |
-| Accounting | 13% | 14% |
-| Programming | 13% | 5% |
-| Actuarial Science | 13% | 5% |
-| Claims | 12% | 12% |
-| Excel | 12% | 12% |
-| Testing | 12% | 12% |
-| Predictive Modeling | 12% | 14% |
-| Analyze | 12% | 7% |
-| Forecasting | 12% | 3% |
-| Assumptions | 12% | 10% |
-| Economics | 12% | 2% |
-| Statistical Software | 11% | 7% |
-| Pension | 11% | 10% |
-| Posting | 11% | 10% |
+| Actuarial **(core)** | 79% | 75% |
+| Pricing **(core)** | 64% | 64% |
+| Modeling **(core)** | 48% | 42% |
+| ACAS **(core)** | 46% | 53% |
+| reinsurance **(core)** | 32% | 39% |
+| SQL **(core)** | 32% | 36% |
+| Python **(core)** | 27% | 19% |
+| Analytics | 24% | 19% |
+| Life Insurance | 22% | 14% |
+| Risk | 22% | 14% |
+| Consulting | 19% | 19% |
+| FSA | 18% | 19% |
+| Profitability | 16% | 17% |
+| Underwriting | 16% | 8% |
+| Testing | 14% | 14% |
+| Predictive Modeling | 14% | 17% |
+| Statistical Software | 14% | 8% |
+| Statistics | 14% | 6% |
+| Excel | 13% | 14% |
+| VBA | 13% | 11% |
+| SAS | 13% | 19% |
+| Analytical | 13% | 11% |
+| P&C Insurance | 11% | 14% |
+| Risk Management | 11% | 6% |
+| Forecasting | 11% | 6% |
+| Paid Time Off | 11% | 6% |
+| Assumptions | 11% | 6% |
+| Programming | 11% | 6% |
+| Holidays | 11% | 11% |
+| Actuarial Science | 11% | 6% |
+| Mathematics | 11% | 3% |
 
 ## Soft skills employers mention
 
-Communication (18%), Leadership (12%)
+Communication (21%), Communication Skills (11%), Problem Solving (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

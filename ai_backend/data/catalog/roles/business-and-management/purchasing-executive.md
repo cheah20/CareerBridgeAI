@@ -4,7 +4,7 @@
 - **Also called:** Procurement Executive, Buyer, Purchaser
 - **O*NET:** 13-1023.00 Purchasing Agents, Except Wholesale, Retail, and Farm Products
 - **ESCO:** purchaser
-- **Job ads analysed:** 193 (Internship / Fresh Graduate 12, Junior 33, Mid-level 112, Senior 35, Lead / Manager 1)
+- **Job ads analysed:** 156 (Internship / Fresh Graduate 8, Junior 32, Mid-level 89, Senior 26, Lead / Manager 1)
 
 ## What the job involves
 
@@ -16,44 +16,44 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Junior | Mid-level | Senior |
 |---|---|---|---|---|
-| Purchasing **(core)** | 65% | 61% | 63% | 71% |
-| Inventory **(core)** | 51% | 52% | 51% | 46% |
-| Procurement **(core)** | 45% | 42% | 43% | 57% |
-| Supply Chain **(core)** | 44% | 46% | 40% | 54% |
-| Excel **(core)** | 40% | 36% | 34% | 46% |
-| Vendors **(core)** | 36% | 36% | 36% | 31% |
-| Pricing **(core)** | 36% | 39% | 35% | 40% |
-| Manufacturing **(core)** | 31% | 39% | 25% | 49% |
-| Word **(core)** | 27% | 21% | 20% | 40% |
-| Analytical | 24% | 18% | 27% | 29% |
-| ERP | 24% | 27% | 21% | 34% |
-| Maintenance | 23% | 18% | 25% | 11% |
-| Analyze | 23% | 30% | 23% | 20% |
-| Retail | 18% | 21% | 17% | 3% |
-| Contracts | 17% | 21% | 17% | 20% |
+| Purchasing **(core)** | 64% | 62% | 63% | 65% |
+| Inventory **(core)** | 48% | 53% | 47% | 42% |
+| Procurement **(core)** | 47% | 44% | 47% | 54% |
+| Supply Chain **(core)** | 44% | 44% | 40% | 50% |
+| Excel **(core)** | 36% | 38% | 30% | 42% |
+| Vendors **(core)** | 36% | 38% | 36% | 35% |
+| Pricing **(core)** | 34% | 38% | 32% | 38% |
+| Manufacturing **(core)** | 28% | 38% | 21% | 46% |
+| Analyze **(core)** | 25% | 31% | 25% | 19% |
+| ERP | 24% | 28% | 18% | 38% |
+| Analytical | 23% | 16% | 26% | 27% |
+| Word | 23% | 22% | 17% | 38% |
+| Maintenance | 20% | 16% | 22% | 15% |
+| Contracts | 19% | 22% | 18% | 23% |
+| Holidays | 17% | 12% | 21% | 8% |
 | Negotiations | 17% | 12% | 15% | 23% |
-| Inventory Management | 16% | 6% | 20% | 14% |
-| Microsoft Office | 16% | 12% | 15% | 29% |
-| Distribution | 16% | 15% | 16% | 11% |
-| Merchandising | 16% | 15% | 17% | 3% |
-| Receiving | 15% | 15% | 15% | 17% |
-| Availability | 14% | 15% | 13% | 11% |
-| Written Communication | 14% | 24% | 16% | 6% |
-| MS | 14% | 12% | 10% | 23% |
-| 401k | 14% | 6% | 18% | 14% |
-| industrial software | 14% | 15% | 12% | 20% |
-| MRP | 14% | 12% | 12% | 26% |
-| Responsibility | 14% | 6% | 16% | 17% |
-| SAP | 14% | 12% | 13% | 20% |
-| Vacation | 13% | 15% | 14% | 11% |
-| Profitability | 13% | 6% | 12% | 6% |
-| Math | 12% | 12% | 12% | 3% |
-| Work Environment | 12% | 15% | 12% | 11% |
-| Logistics | 12% | 9% | 12% | 20% |
+| Retail | 16% | 22% | 16% | 4% |
+| Written Communication | 16% | 25% | 18% | 4% |
+| MS | 15% | 12% | 11% | 23% |
+| Receiving | 15% | 12% | 17% | 15% |
+| Microsoft Office | 15% | 9% | 16% | 23% |
+| Vacation | 14% | 16% | 16% | 12% |
+| Inventory Management | 14% | 6% | 16% | 12% |
+| Work Environment | 14% | 16% | 12% | 15% |
+| Responsibility | 14% | 6% | 16% | 15% |
+| Merchandising | 14% | 16% | 15% | 4% |
+| 401k | 13% | 6% | 17% | 12% |
+| MRP | 12% | 12% | 10% | 23% |
+| Distribution | 12% | 12% | 14% | 8% |
+| Recommendations | 12% | 16% | 12% | 4% |
+| Components | 12% | 9% | 10% | 23% |
+| Objectives | 12% | 12% | 10% | 23% |
+| Supply Chain Management | 12% | 9% | 12% | 19% |
+| Integrity | 12% | 9% | 11% | 19% |
 
 ## Soft skills employers mention
 
-Communication (64%), Communication Skills (29%), Negotiation (23%), Leadership (22%), Customer Service (21%), Problem Solving (17%), Collaboration (15%), Time Management (14%), Attention to Detail (11%)
+Communication (64%), Communication Skills (25%), Negotiation (21%), Leadership (19%), Problem Solving (16%), Collaboration (15%), Customer Service (15%), Attention to Detail (12%), Time Management (12%), Teamwork (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

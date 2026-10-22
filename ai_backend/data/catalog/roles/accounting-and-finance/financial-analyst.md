@@ -4,7 +4,7 @@
 - **Also called:** Finance Analyst
 - **O*NET:** 13-2051.00 Financial and Investment Analysts; 13-2099.01 Financial Quantitative Analysts; 15-2041.00 Statisticians
 - **ESCO:** financial analyst
-- **Job ads analysed:** 425 (Internship / Fresh Graduate 83, Junior 58, Mid-level 95, Senior 175, Lead / Manager 14)
+- **Job ads analysed:** 365 (Internship / Fresh Graduate 65, Junior 54, Mid-level 80, Senior 153, Lead / Manager 13)
 
 ## What the job involves
 
@@ -16,44 +16,44 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Accounting **(core)** | 79% | 78% | 84% | 78% | 82% |
-| Excel **(core)** | 64% | 65% | 69% | 63% | 66% |
-| Analytical **(core)** | 52% | 55% | 52% | 46% | 55% |
-| Forecasting **(core)** | 40% | 34% | 38% | 39% | 46% |
-| Analyze **(core)** | 37% | 41% | 36% | 30% | 41% |
-| Financial Analysis **(core)** | 36% | 35% | 31% | 36% | 38% |
-| Budget **(core)** | 34% | 39% | 38% | 28% | 37% |
-| Modeling **(core)** | 29% | 28% | 33% | 20% | 34% |
-| Budgeting **(core)** | 26% | 20% | 26% | 30% | 30% |
-| Recommendations | 24% | 23% | 31% | 22% | 23% |
-| Financial Planning | 24% | 14% | 12% | 20% | 34% |
-| Insights | 23% | 20% | 17% | 22% | 28% |
-| Budgets | 23% | 25% | 26% | 23% | 22% |
-| Financial Reporting | 23% | 20% | 29% | 26% | 21% |
-| Analytics | 21% | 26% | 21% | 15% | 22% |
-| Power | 20% | 17% | 22% | 27% | 17% |
-| Financial Data | 20% | 25% | 17% | 19% | 18% |
-| PowerPoint | 19% | 14% | 17% | 22% | 21% |
-| Metrics | 18% | 14% | 31% | 13% | 19% |
-| CPA | 17% | 8% | 7% | 17% | 26% |
-| MS | 17% | 16% | 14% | 21% | 17% |
-| SAP | 17% | 7% | 22% | 8% | 24% |
-| MBA | 16% | 17% | 12% | 10% | 21% |
-| Economics | 15% | 12% | 14% | 14% | 19% |
-| Word | 15% | 18% | 14% | 17% | 14% |
-| Integrity | 15% | 14% | 14% | 17% | 16% |
-| Variance Analysis | 15% | 13% | 14% | 10% | 18% |
-| Financial Modeling | 14% | 16% | 16% | 12% | 15% |
-| Investment | 14% | 7% | 16% | 19% | 15% |
-| Efficiency | 14% | 13% | 7% | 16% | 17% |
-| Microsoft Office | 14% | 16% | 14% | 18% | 11% |
-| Presentation | 14% | 16% | 14% | 18% | 11% |
-| SQL | 14% | 7% | 14% | 16% | 14% |
-| BI | 14% | 10% | 14% | 20% | 13% |
+| Accounting **(core)** | 79% | 80% | 83% | 76% | 82% |
+| Excel **(core)** | 63% | 66% | 70% | 60% | 63% |
+| Analytical **(core)** | 52% | 49% | 52% | 48% | 56% |
+| Forecasting **(core)** | 39% | 31% | 39% | 40% | 44% |
+| Analyze **(core)** | 36% | 43% | 37% | 31% | 38% |
+| Financial Analysis **(core)** | 36% | 42% | 33% | 36% | 36% |
+| Budget **(core)** | 34% | 37% | 39% | 29% | 36% |
+| Modeling **(core)** | 29% | 28% | 33% | 22% | 33% |
+| Budgeting **(core)** | 27% | 23% | 28% | 28% | 30% |
+| Recommendations | 25% | 26% | 32% | 22% | 23% |
+| Financial Planning | 23% | 12% | 13% | 19% | 35% |
+| Insights | 23% | 20% | 18% | 22% | 28% |
+| Budgets | 22% | 22% | 28% | 21% | 22% |
+| Financial Reporting | 21% | 14% | 30% | 26% | 20% |
+| Analytics | 20% | 23% | 22% | 18% | 20% |
+| Financial Data | 19% | 26% | 17% | 19% | 17% |
+| Metrics | 19% | 12% | 32% | 11% | 21% |
+| Power | 18% | 12% | 22% | 24% | 16% |
+| SAP | 17% | 8% | 22% | 9% | 24% |
+| PowerPoint | 17% | 14% | 17% | 19% | 17% |
+| CPA | 16% | 6% | 7% | 15% | 24% |
+| MS | 16% | 15% | 15% | 22% | 14% |
+| Economics | 16% | 12% | 13% | 14% | 21% |
+| Presentation | 15% | 18% | 13% | 18% | 12% |
+| MBA | 14% | 14% | 11% | 11% | 19% |
+| Financial Modeling | 14% | 17% | 15% | 12% | 15% |
+| BI | 14% | 9% | 15% | 20% | 14% |
+| Efficiency | 14% | 12% | 7% | 16% | 18% |
+| Microsoft Office | 14% | 17% | 15% | 16% | 12% |
+| Variance Analysis | 14% | 11% | 15% | 9% | 18% |
+| SQL | 14% | 8% | 15% | 14% | 14% |
+| Investment | 14% | 6% | 17% | 18% | 15% |
+| Integrity | 14% | 11% | 15% | 14% | 16% |
+| Word | 14% | 18% | 15% | 16% | 10% |
 
 ## Soft skills employers mention
 
-Communication (57%), Leadership (32%), Communication Skills (25%), Problem Solving (24%), Decision Making (22%), Presentations (16%), Analytical Skills (16%), Attention to Detail (13%), Interpersonal Skills (11%), Collaboration (10%)
+Communication (56%), Leadership (30%), Communication Skills (25%), Problem Solving (24%), Decision Making (22%), Analytical Skills (16%), Presentations (15%), Attention to Detail (14%), Collaboration (11%), Problem Solving Skills (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

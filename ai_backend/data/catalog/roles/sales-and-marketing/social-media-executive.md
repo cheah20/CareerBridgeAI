@@ -4,7 +4,7 @@
 - **Also called:** Social Media Manager, Social Media Specialist
 - **O*NET:** 27-3031.00 Public Relations Specialists
 - **ESCO:** online community manager
-- **Job ads analysed:** 62 (Internship / Fresh Graduate 2, Junior 10, Mid-level 47, Senior 3)
+- **Job ads analysed:** 55 (Internship / Fresh Graduate 2, Junior 8, Mid-level 42, Senior 3)
 
 ## What the job involves
 
@@ -17,49 +17,50 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads | Mid-level |
 |---|---|---|
 | Social media **(core)** | 100% | 100% |
-| Instagram **(core)** | 58% | 62% |
-| Facebook **(core)** | 56% | 55% |
-| Analytics **(core)** | 55% | 55% |
-| Communications **(core)** | 50% | 47% |
-| Video **(core)** | 42% | 45% |
+| Instagram **(core)** | 60% | 62% |
+| Analytics **(core)** | 55% | 52% |
+| Facebook **(core)** | 55% | 52% |
+| Communications **(core)** | 46% | 43% |
+| Video **(core)** | 46% | 48% |
+| Editing **(core)** | 36% | 43% |
 | TikTok **(core)** | 36% | 40% |
-| Editing **(core)** | 34% | 40% |
-| LinkedIn **(core)** | 32% | 28% |
-| Analyze **(core)** | 32% | 36% |
-| Metrics **(core)** | 29% | 28% |
-| Insights **(core)** | 29% | 30% |
-| social media management **(core)** | 27% | 32% |
-| Twitter **(core)** | 27% | 30% |
-| Digital Marketing **(core)** | 26% | 26% |
-| Posting | 23% | 21% |
-| Writing | 23% | 26% |
-| Analytical | 23% | 21% |
-| YouTube | 23% | 21% |
-| Graphic Design | 21% | 28% |
-| Visibility | 21% | 21% |
-| Execution | 19% | 19% |
-| Google | 19% | 17% |
-| Portfolio | 18% | 19% |
-| Verbal Communication | 18% | 23% |
-| Objectives | 18% | 13% |
-| Video editing | 18% | 21% |
-| Calendar | 18% | 15% |
-| Performance Metrics | 16% | 19% |
-| KPIs | 16% | 8% |
-| Recommendations | 16% | 15% |
-| Advertising | 16% | 19% |
-| Email | 16% | 17% |
+| LinkedIn **(core)** | 33% | 29% |
+| Analyze **(core)** | 31% | 33% |
+| social media management **(core)** | 29% | 36% |
+| Digital Marketing **(core)** | 29% | 29% |
+| Metrics **(core)** | 26% | 21% |
+| Insights **(core)** | 26% | 26% |
+| Twitter **(core)** | 26% | 29% |
+| YouTube **(core)** | 26% | 24% |
+| Graphic Design | 24% | 31% |
+| Analytical | 24% | 21% |
+| Writing | 22% | 24% |
+| Posting | 20% | 19% |
+| Portfolio | 20% | 21% |
+| Video editing | 20% | 24% |
+| Execution | 20% | 19% |
+| Google | 20% | 17% |
+| Recommendations | 18% | 17% |
+| Verbal Communication | 18% | 24% |
+| Objectives | 18% | 14% |
+| Visibility | 16% | 17% |
+| KPIs | 16% | 10% |
+| Email | 16% | 19% |
 | Written and Verbal Communication | 16% | 21% |
 | Part Time | 16% | 17% |
 | Canva | 16% | 17% |
+| Calendar | 16% | 14% |
 | Adobe | 16% | 17% |
 | Analytics Tools | 14% | 17% |
-| Voice | 14% | 13% |
+| Voice | 14% | 14% |
+| AI | 14% | 14% |
+| Advertising | 14% | 17% |
 | work independently | 14% | 19% |
+| Hootsuite | 14% | 14% |
 
 ## Soft skills employers mention
 
-Communication (60%), Communication Skills (37%), Collaboration (27%), Creativity (18%), Problem Solving (16%), Leadership (11%), Customer Service (11%)
+Communication (60%), Communication Skills (34%), Collaboration (24%), Creativity (18%), Problem Solving (16%), Attention to Detail (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

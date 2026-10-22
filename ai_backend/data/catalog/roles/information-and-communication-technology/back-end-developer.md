@@ -4,7 +4,7 @@
 - **Also called:** Backend Developer
 - **O*NET:** 15-1252.00 Software Developers
 - **ESCO:** software developer
-- **Job ads analysed:** 30 (Junior 6, Mid-level 17, Senior 3, Lead / Manager 4)
+- **Job ads analysed:** 29 (Junior 6, Mid-level 16, Senior 3, Lead / Manager 4)
 
 ## What the job involves
 
@@ -16,47 +16,46 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Java **(core)** | 70% | 71% |
-| Spring **(core)** | 43% | 47% |
-| AWS **(core)** | 43% | 35% |
-| SQL **(core)** | 40% | 24% |
-| Architecture **(core)** | 37% | 29% |
-| Cloud **(core)** | 37% | 35% |
-| Agile **(core)** | 33% | 24% |
-| Azure **(core)** | 33% | 24% |
-| Spring Boot **(core)** | 30% | 29% |
-| API **(core)** | 30% | 35% |
-| Computer Science **(core)** | 27% | 24% |
-| Testing **(core)** | 27% | 18% |
-| Software Development | 23% | 6% |
-| Email | 23% | 29% |
-| J2EE | 23% | 24% |
-| Scrum | 23% | 18% |
-| Unit Testing | 23% | 18% |
-| Onsite | 20% | 18% |
-| Git | 20% | 12% |
-| Infrastructure | 20% | 18% |
-| REST | 20% | 35% |
-| Lambda | 20% | 12% |
-| Components | 20% | 12% |
-| Scalable | 20% | 18% |
+| Java **(core)** | 72% | 75% |
+| Spring **(core)** | 45% | 50% |
+| SQL **(core)** | 41% | 25% |
+| AWS **(core)** | 41% | 31% |
+| Agile **(core)** | 34% | 25% |
+| Architecture **(core)** | 34% | 25% |
+| Cloud **(core)** | 34% | 31% |
+| Azure **(core)** | 31% | 19% |
+| Spring Boot **(core)** | 31% | 31% |
+| API **(core)** | 31% | 38% |
+| Testing **(core)** | 28% | 19% |
+| Software Development | 24% | 6% |
+| Computer Science | 24% | 19% |
+| J2EE | 24% | 25% |
+| Scrum | 24% | 19% |
+| Unit Testing | 24% | 19% |
+| Onsite | 21% | 19% |
+| Email | 21% | 25% |
+| Git | 21% | 12% |
+| Lambda | 21% | 12% |
+| Components | 21% | 12% |
+| Scalable | 21% | 19% |
+| Infrastructure | 17% | 12% |
 | Kafka | 17% | 12% |
 | Microservices | 17% | 12% |
 | NoSQL | 17% | 6% |
-| Analyze | 17% | 18% |
-| Backend Development | 17% | 18% |
+| REST | 17% | 31% |
+| Backend Development | 17% | 19% |
 | APIs | 17% | 6% |
-| Database | 17% | 18% |
+| Database | 17% | 19% |
 | Programming | 17% | 12% |
 | Code Reviews | 17% | 6% |
 | Frameworks | 17% | 6% |
 | React | 17% | 6% |
 | Patterns | 17% | 12% |
-| Coding | 13% | 0% |
+| Coding | 14% | 0% |
 
 ## Soft skills employers mention
 
-Communication (47%), Problem Solving (23%), Communication Skills (17%), Problem Solving Skills (13%), Collaboration (10%), Mentoring (10%)
+Communication (45%), Problem Solving (24%), Communication Skills (17%), Problem Solving Skills (14%), Collaboration (10%), Mentoring (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

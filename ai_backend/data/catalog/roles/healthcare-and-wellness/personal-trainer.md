@@ -4,7 +4,7 @@
 - **Also called:** Fitness Trainer, Fitness Coach
 - **O*NET:** 39-9031.00 Exercise Trainers and Group Fitness Instructors; 29-9091.00 Athletic Trainers; 21-1091.00 Health Education Specialists
 - **ESCO:** personal trainer
-- **Job ads analysed:** 27 (Internship / Fresh Graduate 1, Mid-level 26)
+- **Job ads analysed:** 20 (Internship / Fresh Graduate 1, Mid-level 19)
 
 ## What the job involves
 
@@ -16,60 +16,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| nutrition **(core)** | 48% | 50% |
-| Onboarding **(core)** | 44% | 46% |
-| CPR **(core)** | 41% | 38% |
-| Assessments **(core)** | 41% | 42% |
-| Programming **(core)** | 37% | 38% |
-| High School Diploma **(core)** | 37% | 38% |
-| kinesiology **(core)** | 33% | 35% |
-| Physiology **(core)** | 33% | 31% |
-| Educational **(core)** | 33% | 35% |
-| Go **(core)** | 30% | 31% |
-| Flexibility **(core)** | 30% | 31% |
-| Testing **(core)** | 30% | 31% |
-| GED **(core)** | 30% | 31% |
-| Mechanical **(core)** | 30% | 31% |
-| Noise **(core)** | 30% | 31% |
-| Organized **(core)** | 30% | 31% |
-| Racking **(core)** | 30% | 31% |
-| Walking **(core)** | 30% | 31% |
-| Part Time **(core)** | 26% | 23% |
-| Work Environment **(core)** | 26% | 23% |
-| Cleaning **(core)** | 26% | 27% |
-| Objectives **(core)** | 26% | 27% |
-| Retail **(core)** | 26% | 27% |
-| Rules **(core)** | 26% | 27% |
-| Core Values **(core)** | 26% | 27% |
-| Active Listening | 22% | 23% |
-| Audit | 22% | 23% |
-| clean equipment | 22% | 23% |
-| company policies | 22% | 23% |
-| Dig | 22% | 23% |
-| Front Desk | 22% | 23% |
-| Honesty | 22% | 23% |
-| Initiative | 22% | 23% |
-| Listening | 22% | 23% |
-| Methods | 22% | 23% |
-| Mirroring | 22% | 23% |
-| Personal Development | 22% | 23% |
-| Physical Requirements | 22% | 23% |
-| Rack | 22% | 23% |
-| React | 22% | 23% |
-| solve problems | 22% | 23% |
-| Goal Setting | 18% | 19% |
-| Reaching | 15% | 15% |
-| Independent | 15% | 12% |
-| Scheduling | 15% | 12% |
-| Standing | 15% | 15% |
-| Continuing education | 11% | 12% |
-| Resume | 11% | 8% |
-| Availability | 11% | 12% |
-| Retention | 11% | 12% |
+| CPR **(core)** | 45% | 42% |
+| nutrition **(core)** | 40% | 42% |
+| Part Time **(core)** | 35% | 32% |
+| Onboarding **(core)** | 25% | 26% |
+| Programming **(core)** | 25% | 26% |
+| Goal Setting **(core)** | 25% | 26% |
+| High School Diploma **(core)** | 25% | 26% |
+| kinesiology | 20% | 21% |
+| Reaching | 20% | 21% |
+| Independent | 20% | 16% |
+| Physiology | 20% | 16% |
+| Scheduling | 20% | 16% |
+| Assessments | 20% | 21% |
+| Standing | 20% | 21% |
+| Educational | 20% | 21% |
+| Continuing education | 15% | 16% |
+| Resume | 15% | 10% |
+| Availability | 15% | 16% |
+| Retention | 15% | 16% |
+| Attendance | 15% | 10% |
+| CPR Certification | 15% | 10% |
+| Government | 15% | 10% |
+| Holidays | 15% | 10% |
+| Teaching | 15% | 10% |
+| Training Programs | 15% | 10% |
+| Productivity | 15% | 16% |
+| history | 15% | 16% |
+| Go | 15% | 16% |
+| Flexibility | 15% | 16% |
+| Acquisition | 15% | 16% |
+| GED | 15% | 16% |
+| Mechanical | 15% | 16% |
 
 ## Soft skills employers mention
 
-Communication (44%), Coaching (37%), Customer Service (26%), Leadership (26%)
+Communication (35%), Coaching (25%), Teamwork (10%), Interpersonal Skills (10%), Customer Service (10%), Leadership (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

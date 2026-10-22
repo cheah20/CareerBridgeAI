@@ -4,7 +4,7 @@
 - **Also called:** Copywriter, Content Creator
 - **O*NET:** 27-3043.00 Writers and Authors; 27-3043.05 Poets, Lyricists and Creative Writers; 15-1255.01 Video Game Designers
 - **ESCO:** advertising copywriter
-- **Job ads analysed:** 186 (Internship / Fresh Graduate 21, Junior 24, Mid-level 112, Senior 20, Lead / Manager 9)
+- **Job ads analysed:** 138 (Internship / Fresh Graduate 19, Junior 21, Mid-level 75, Senior 15, Lead / Manager 8)
 
 ## What the job involves
 
@@ -16,43 +16,45 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Writing **(core)** | 78% | 52% | 71% | 84% | 85% |
-| Social media **(core)** | 38% | 52% | 46% | 36% | 25% |
-| Communications **(core)** | 36% | 48% | 46% | 28% | 50% |
-| Editing **(core)** | 36% | 57% | 50% | 29% | 45% |
-| Grammar **(core)** | 28% | 5% | 17% | 38% | 15% |
-| Voice **(core)** | 27% | 29% | 38% | 22% | 40% |
-| Video **(core)** | 26% | 38% | 21% | 20% | 50% |
-| Part Time **(core)** | 26% | 5% | 8% | 38% | 15% |
-| Flexibility | 25% | 14% | 4% | 36% | 10% |
-| AI | 24% | 10% | 4% | 37% | 0% |
-| SEO | 23% | 33% | 21% | 22% | 20% |
-| English | 23% | 29% | 38% | 20% | 15% |
-| Remote Work | 23% | 0% | 8% | 36% | 0% |
-| journalism | 20% | 29% | 25% | 16% | 30% |
-| Email | 20% | 24% | 21% | 15% | 35% |
-| Portfolio | 20% | 29% | 8% | 14% | 45% |
-| Chatbots | 19% | 0% | 0% | 32% | 0% |
-| Messaging | 19% | 10% | 25% | 14% | 35% |
-| Data Annotation | 19% | 0% | 0% | 31% | 0% |
-| PayPal | 19% | 0% | 0% | 31% | 0% |
-| Deadlines | 18% | 29% | 21% | 17% | 10% |
-| crafting | 17% | 10% | 21% | 16% | 15% |
-| Collaborative | 16% | 5% | 29% | 12% | 35% |
-| Search | 14% | 10% | 12% | 14% | 25% |
-| Storytelling | 14% | 19% | 12% | 10% | 35% |
-| Proofreading | 13% | 14% | 21% | 11% | 10% |
-| Objectives | 13% | 5% | 38% | 10% | 15% |
-| Insights | 13% | 14% | 25% | 9% | 20% |
-| Advertising | 12% | 0% | 21% | 7% | 25% |
-| Proactive | 12% | 14% | 17% | 11% | 10% |
-| Graphic Design | 12% | 10% | 12% | 11% | 25% |
-| Adobe | 12% | 19% | 21% | 9% | 5% |
-| Industry Trends | 12% | 5% | 29% | 10% | 10% |
+| Writing **(core)** | 74% | 53% | 71% | 76% | 87% |
+| Social media **(core)** | 49% | 58% | 48% | 52% | 20% |
+| Communications **(core)** | 44% | 47% | 48% | 39% | 53% |
+| Editing **(core)** | 43% | 53% | 48% | 41% | 40% |
+| Voice **(core)** | 35% | 32% | 43% | 32% | 40% |
+| Video **(core)** | 32% | 42% | 19% | 31% | 47% |
+| SEO **(core)** | 30% | 37% | 24% | 32% | 27% |
+| English **(core)** | 29% | 32% | 38% | 29% | 13% |
+| journalism **(core)** | 26% | 32% | 29% | 23% | 33% |
+| Email **(core)** | 25% | 26% | 24% | 23% | 33% |
+| Deadlines | 25% | 32% | 24% | 25% | 13% |
+| Messaging | 25% | 10% | 29% | 21% | 40% |
+| Portfolio | 24% | 26% | 10% | 21% | 40% |
+| Collaborative | 21% | 5% | 29% | 17% | 47% |
+| crafting | 20% | 10% | 19% | 21% | 20% |
+| Search | 17% | 10% | 14% | 20% | 20% |
+| Proofreading | 17% | 16% | 24% | 16% | 7% |
+| Insights | 17% | 16% | 29% | 12% | 27% |
+| Storytelling | 17% | 21% | 10% | 15% | 33% |
+| Objectives | 16% | 5% | 43% | 13% | 13% |
+| Proactive | 16% | 16% | 14% | 16% | 13% |
+| Adobe | 15% | 21% | 19% | 13% | 7% |
+| Industry Trends | 15% | 5% | 29% | 15% | 13% |
+| Advertising | 14% | 0% | 24% | 11% | 20% |
+| Resume | 14% | 26% | 5% | 17% | 0% |
+| Digital Marketing | 14% | 16% | 10% | 17% | 0% |
+| Graphic Design | 14% | 10% | 10% | 16% | 13% |
+| Analytics | 13% | 21% | 19% | 12% | 0% |
+| Optimization | 13% | 5% | 10% | 16% | 13% |
+| Metrics | 13% | 26% | 19% | 12% | 0% |
+| Grammar | 13% | 5% | 19% | 11% | 20% |
+| Content Management | 12% | 26% | 19% | 7% | 13% |
+| work independently | 12% | 5% | 14% | 16% | 0% |
+| Scripts | 12% | 10% | 14% | 11% | 13% |
+| Instagram | 12% | 32% | 14% | 8% | 7% |
 
 ## Soft skills employers mention
 
-Communication (44%), Attention to Detail (18%), Communication Skills (16%), Collaboration (15%), Creativity (13%), Time Management (12%)
+Communication (54%), Attention to Detail (22%), Communication Skills (21%), Collaboration (19%), Creativity (15%), Time Management (14%), Leadership (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

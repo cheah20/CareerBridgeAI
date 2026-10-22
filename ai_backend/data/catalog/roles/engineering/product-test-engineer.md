@@ -4,7 +4,7 @@
 - **Also called:** Semiconductor Test Engineer, Hardware Test Engineer
 - **O*NET:** 17-2072.00 Electronics Engineers, Except Computer
 - **ESCO:** electronics engineer
-- **Job ads analysed:** 6 (Internship / Fresh Graduate 1, Mid-level 3, Lead / Manager 2)
+- **Job ads analysed:** 5 (Internship / Fresh Graduate 1, Mid-level 3, Lead / Manager 1)
 
 ## What the job involves
 

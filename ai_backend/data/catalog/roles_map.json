@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18",
+  "generated": "2026-10-22",
   "roles": [
     {
       "field": "Information & Communication Technology",
@@ -25,11 +25,11 @@
         "label": "software developer"
       },
       "matched_by": "automatic",
-      "postings": 1776,
+      "postings": 1345,
       "postings_by_level": {
-        "entry": 226,
-        "mid/senior": 796,
-        "junior": 88,
+        "mid/senior": 587,
+        "entry": 164,
+        "junior": 63,
         "lead": 7
       }
     },
@@ -52,11 +52,11 @@
         "label": "web developer"
       },
       "matched_by": "automatic",
-      "postings": 69,
+      "postings": 37,
       "postings_by_level": {
-        "mid/senior": 12,
+        "mid/senior": 10,
         "entry": 9,
-        "junior": 2
+        "junior": 1
       }
     },
     {
@@ -83,10 +83,10 @@
         "label": "web developer"
       },
       "matched_by": "manual",
-      "postings": 103,
+      "postings": 66,
       "postings_by_level": {
-        "mid/senior": 27,
-        "entry": 6,
+        "mid/senior": 24,
+        "entry": 5,
         "junior": 2
       }
     },
@@ -112,7 +112,7 @@
         "label": "software developer"
       },
       "matched_by": "manual",
-      "postings": 30,
+      "postings": 29,
       "postings_by_level": {
         "junior": 2,
         "mid/senior": 11,
@@ -145,10 +145,10 @@
         "label": "web developer"
       },
       "matched_by": "manual",
-      "postings": 87,
+      "postings": 78,
       "postings_by_level": {
-        "entry": 15,
-        "mid/senior": 37,
+        "entry": 13,
+        "mid/senior": 33,
         "junior": 2
       }
     },
@@ -180,10 +180,10 @@
         "label": "mobile application developer"
       },
       "matched_by": "automatic",
-      "postings": 72,
+      "postings": 68,
       "postings_by_level": {
-        "entry": 5,
-        "mid/senior": 26,
+        "mid/senior": 24,
+        "entry": 3,
         "lead": 1
       }
     },
@@ -217,9 +217,9 @@
         "label": "digital games developer"
       },
       "matched_by": "manual",
-      "postings": 10,
+      "postings": 9,
       "postings_by_level": {
-        "mid/senior": 4
+        "mid/senior": 3
       }
     },
     {
@@ -258,11 +258,11 @@
         "label": "software tester"
       },
       "matched_by": "automatic",
-      "postings": 247,
+      "postings": 212,
       "postings_by_level": {
-        "mid/senior": 87,
-        "entry": 63,
-        "junior": 26
+        "mid/senior": 77,
+        "entry": 50,
+        "junior": 21
       }
     },
     {
@@ -288,11 +288,11 @@
         "label": "cloud DevOps engineer"
       },
       "matched_by": "manual",
-      "postings": 178,
+      "postings": 164,
       "postings_by_level": {
-        "mid/senior": 93,
-        "entry": 16,
-        "junior": 4
+        "mid/senior": 84,
+        "entry": 15,
+        "junior": 3
       }
     },
     {
@@ -317,10 +317,10 @@
         "label": "cloud engineer"
       },
       "matched_by": "manual",
-      "postings": 183,
+      "postings": 170,
       "postings_by_level": {
-        "mid/senior": 87,
-        "junior": 15,
+        "mid/senior": 79,
+        "junior": 11,
         "entry": 17,
         "lead": 1
       }
@@ -351,12 +351,12 @@
         "label": "cloud DevOps engineer"
       },
       "matched_by": "manual",
-      "postings": 126,
+      "postings": 108,
       "postings_by_level": {
-        "mid/senior": 62,
-        "entry": 15,
+        "mid/senior": 50,
+        "entry": 12,
         "lead": 1,
-        "junior": 5
+        "junior": 4
       }
     },
     {
@@ -383,11 +383,11 @@
         "label": "ICT system administrator"
       },
       "matched_by": "manual",
-      "postings": 369,
+      "postings": 324,
       "postings_by_level": {
-        "entry": 54,
-        "junior": 45,
-        "mid/senior": 179,
+        "entry": 32,
+        "junior": 44,
+        "mid/senior": 169,
         "lead": 2
       }
     },
@@ -417,11 +417,11 @@
         "label": "ICT network engineer"
       },
       "matched_by": "manual",
-      "postings": 295,
+      "postings": 267,
       "postings_by_level": {
-        "entry": 71,
-        "mid/senior": 136,
-        "junior": 23
+        "entry": 59,
+        "mid/senior": 127,
+        "junior": 21
       }
     },
     {
@@ -452,10 +452,10 @@
         "label": "ICT security administrator"
       },
       "matched_by": "manual",
-      "postings": 152,
+      "postings": 133,
       "postings_by_level": {
-        "mid/senior": 64,
-        "entry": 23,
+        "mid/senior": 52,
+        "entry": 19,
         "junior": 14
       }
     },
@@ -515,11 +515,11 @@
         "label": "ICT help desk agent"
       },
       "matched_by": "manual",
-      "postings": 216,
+      "postings": 190,
       "postings_by_level": {
-        "mid/senior": 56,
-        "entry": 78,
-        "junior": 46
+        "mid/senior": 48,
+        "entry": 64,
+        "junior": 45
       }
     },
     {
@@ -550,10 +550,9 @@
         "label": "ICT system administrator"
       },
       "matched_by": "manual",
-      "postings": 3,
+      "postings": 2,
       "postings_by_level": {
-        "entry": 2,
-        "mid/senior": 1
+        "entry": 2
       }
     },
     {
@@ -578,11 +577,11 @@
         "label": "database administrator"
       },
       "matched_by": "automatic",
-      "postings": 477,
+      "postings": 460,
       "postings_by_level": {
-        "entry": 27,
-        "mid/senior": 77,
-        "junior": 10
+        "entry": 19,
+        "mid/senior": 71,
+        "junior": 8
       }
     },
     {
@@ -609,11 +608,11 @@
         "label": "ICT system architect"
       },
       "matched_by": "manual",
-      "postings": 368,
+      "postings": 330,
       "postings_by_level": {
-        "mid/senior": 196,
-        "junior": 11,
-        "lead": 10
+        "mid/senior": 166,
+        "junior": 10,
+        "lead": 9
       }
     },
     {
@@ -642,11 +641,11 @@
         "label": "user interface designer"
       },
       "matched_by": "manual",
-      "postings": 116,
+      "postings": 110,
       "postings_by_level": {
         "junior": 13,
         "entry": 7,
-        "mid/senior": 60,
+        "mid/senior": 55,
         "lead": 1
       }
     },
@@ -676,12 +675,12 @@
         "label": "product manager"
       },
       "matched_by": "automatic",
-      "postings": 567,
+      "postings": 418,
       "postings_by_level": {
-        "mid/senior": 312,
-        "entry": 83,
-        "junior": 20,
-        "lead": 10
+        "mid/senior": 224,
+        "entry": 55,
+        "junior": 14,
+        "lead": 6
       }
     },
     {
@@ -767,11 +766,11 @@
         "label": "embedded system designer"
       },
       "matched_by": "automatic",
-      "postings": 81,
+      "postings": 73,
       "postings_by_level": {
         "junior": 6,
-        "mid/senior": 41,
-        "entry": 12
+        "mid/senior": 37,
+        "entry": 9
       }
     },
     {
@@ -793,10 +792,8 @@
       ],
       "esco": null,
       "matched_by": "manual",
-      "postings": 2,
-      "postings_by_level": {
-        "mid/senior": 1
-      }
+      "postings": 1,
+      "postings_by_level": {}
     },
     {
       "field": "Data & Artificial Intelligence",
@@ -821,11 +818,11 @@
         "label": "data analyst"
       },
       "matched_by": "manual",
-      "postings": 2286,
+      "postings": 2178,
       "postings_by_level": {
-        "mid/senior": 134,
-        "junior": 39,
-        "entry": 118
+        "mid/senior": 126,
+        "junior": 35,
+        "entry": 66
       }
     },
     {
@@ -854,10 +851,10 @@
         "label": "business intelligence manager"
       },
       "matched_by": "automatic",
-      "postings": 94,
+      "postings": 85,
       "postings_by_level": {
-        "junior": 10,
-        "mid/senior": 47
+        "junior": 7,
+        "mid/senior": 41
       }
     },
     {
@@ -879,11 +876,11 @@
         "label": "data scientist"
       },
       "matched_by": "manual",
-      "postings": 1053,
+      "postings": 982,
       "postings_by_level": {
-        "entry": 58,
-        "junior": 13,
-        "mid/senior": 101,
+        "entry": 36,
+        "junior": 9,
+        "mid/senior": 66,
         "lead": 4
       }
     },
@@ -919,11 +916,11 @@
         "label": "data engineer"
       },
       "matched_by": "automatic",
-      "postings": 1871,
+      "postings": 1804,
       "postings_by_level": {
-        "entry": 61,
-        "mid/senior": 192,
-        "junior": 18,
+        "entry": 43,
+        "mid/senior": 159,
+        "junior": 15,
         "lead": 2
       }
     },
@@ -953,11 +950,11 @@
         "label": "artificial intelligence engineer"
       },
       "matched_by": "manual",
-      "postings": 552,
+      "postings": 529,
       "postings_by_level": {
-        "mid/senior": 54,
-        "entry": 10,
-        "junior": 2
+        "mid/senior": 45,
+        "entry": 7,
+        "junior": 1
       }
     },
     {
@@ -982,10 +979,10 @@
         "label": "artificial intelligence engineer"
       },
       "matched_by": "automatic",
-      "postings": 51,
+      "postings": 44,
       "postings_by_level": {
-        "mid/senior": 21,
-        "entry": 4,
+        "mid/senior": 16,
+        "entry": 2,
         "junior": 1
       }
     },
@@ -1012,9 +1009,9 @@
         "label": "cloud DevOps engineer"
       },
       "matched_by": "manual",
-      "postings": 160,
+      "postings": 158,
       "postings_by_level": {
-        "mid/senior": 9
+        "mid/senior": 7
       }
     },
     {
@@ -1043,11 +1040,10 @@
         "label": "artificial intelligence engineer"
       },
       "matched_by": "manual",
-      "postings": 14,
+      "postings": 9,
       "postings_by_level": {
-        "mid/senior": 5,
-        "junior": 1,
-        "entry": 3
+        "mid/senior": 3,
+        "junior": 1
       }
     },
     {
@@ -1123,11 +1119,11 @@
         "label": "database designer"
       },
       "matched_by": "automatic",
-      "postings": 427,
+      "postings": 413,
       "postings_by_level": {
-        "mid/senior": 67,
-        "junior": 4,
-        "lead": 6
+        "mid/senior": 56,
+        "lead": 6,
+        "junior": 3
       }
     },
     {
@@ -1149,10 +1145,9 @@
         "label": "statistician"
       },
       "matched_by": "automatic",
-      "postings": 27,
+      "postings": 21,
       "postings_by_level": {
-        "mid/senior": 5,
-        "junior": 1
+        "mid/senior": 4
       }
     },
     {
@@ -1178,10 +1173,10 @@
         "label": "civil engineer"
       },
       "matched_by": "automatic",
-      "postings": 115,
+      "postings": 86,
       "postings_by_level": {
-        "mid/senior": 51,
-        "entry": 41,
+        "mid/senior": 35,
+        "entry": 31,
         "junior": 4,
         "lead": 2
       }
@@ -1208,10 +1203,10 @@
         "label": "civil engineer"
       },
       "matched_by": "manual",
-      "postings": 5,
+      "postings": 4,
       "postings_by_level": {
-        "entry": 4,
-        "junior": 1
+        "junior": 1,
+        "entry": 3
       }
     },
     {
@@ -1233,11 +1228,11 @@
         "label": "civil engineer"
       },
       "matched_by": "manual",
-      "postings": 116,
+      "postings": 87,
       "postings_by_level": {
         "junior": 11,
-        "entry": 23,
-        "mid/senior": 64
+        "entry": 16,
+        "mid/senior": 42
       }
     },
     {
@@ -1259,11 +1254,11 @@
         "label": "mechanical engineer"
       },
       "matched_by": "automatic",
-      "postings": 258,
+      "postings": 211,
       "postings_by_level": {
-        "mid/senior": 116,
-        "entry": 58,
-        "junior": 18,
+        "mid/senior": 86,
+        "entry": 48,
+        "junior": 15,
         "lead": 1
       }
     },
@@ -1290,11 +1285,11 @@
         "label": "electrical engineer"
       },
       "matched_by": "automatic",
-      "postings": 359,
+      "postings": 291,
       "postings_by_level": {
-        "mid/senior": 175,
-        "entry": 84,
-        "junior": 27,
+        "mid/senior": 138,
+        "entry": 63,
+        "junior": 23,
         "lead": 1
       }
     },
@@ -1317,9 +1312,9 @@
         "label": "electronics engineer"
       },
       "matched_by": "manual",
-      "postings": 10,
+      "postings": 9,
       "postings_by_level": {
-        "junior": 3,
+        "junior": 2,
         "lead": 1,
         "entry": 4,
         "mid/senior": 1
@@ -1344,11 +1339,11 @@
         "label": "chemical engineer"
       },
       "matched_by": "automatic",
-      "postings": 19,
+      "postings": 17,
       "postings_by_level": {
-        "entry": 5,
+        "entry": 4,
         "junior": 3,
-        "mid/senior": 7
+        "mid/senior": 6
       }
     },
     {
@@ -1385,11 +1380,11 @@
         "label": "process engineer"
       },
       "matched_by": "automatic",
-      "postings": 419,
+      "postings": 340,
       "postings_by_level": {
-        "entry": 128,
-        "junior": 51,
-        "mid/senior": 137,
+        "entry": 90,
+        "junior": 46,
+        "mid/senior": 117,
         "lead": 1
       }
     },
@@ -1417,9 +1412,9 @@
         "label": "electronics engineer"
       },
       "matched_by": "manual",
-      "postings": 6,
+      "postings": 5,
       "postings_by_level": {
-        "mid/senior": 4,
+        "mid/senior": 3,
         "entry": 1
       }
     },
@@ -1457,11 +1452,11 @@
         "label": "automation engineer"
       },
       "matched_by": "automatic",
-      "postings": 286,
+      "postings": 253,
       "postings_by_level": {
-        "mid/senior": 111,
-        "junior": 26,
-        "entry": 75,
+        "mid/senior": 101,
+        "junior": 24,
+        "entry": 62,
         "lead": 1
       }
     },
@@ -1499,11 +1494,11 @@
         "label": "quality engineer"
       },
       "matched_by": "automatic",
-      "postings": 331,
+      "postings": 258,
       "postings_by_level": {
-        "junior": 41,
-        "entry": 99,
-        "mid/senior": 105,
+        "junior": 37,
+        "entry": 62,
+        "mid/senior": 90,
         "lead": 1
       }
     },
@@ -1526,11 +1521,11 @@
         "label": "industrial engineer"
       },
       "matched_by": "automatic",
-      "postings": 47,
+      "postings": 38,
       "postings_by_level": {
         "junior": 7,
-        "entry": 11,
-        "mid/senior": 17
+        "entry": 7,
+        "mid/senior": 13
       }
     },
     {
@@ -1552,11 +1547,11 @@
       ],
       "esco": null,
       "matched_by": "manual",
-      "postings": 41,
+      "postings": 29,
       "postings_by_level": {
         "entry": 4,
-        "mid/senior": 17,
-        "junior": 4
+        "mid/senior": 8,
+        "junior": 1
       }
     },
     {
@@ -1586,10 +1581,10 @@
         "label": "maintenance and repair engineer"
       },
       "matched_by": "automatic",
-      "postings": 38,
+      "postings": 34,
       "postings_by_level": {
         "mid/senior": 6,
-        "entry": 19,
+        "entry": 16,
         "junior": 7
       }
     },
@@ -1612,9 +1607,9 @@
         "label": "automotive engineer"
       },
       "matched_by": "automatic",
-      "postings": 28,
+      "postings": 2,
       "postings_by_level": {
-        "entry": 27,
+        "entry": 1,
         "junior": 1
       }
     },
@@ -1724,11 +1719,11 @@
         "label": "environmental engineer"
       },
       "matched_by": "automatic",
-      "postings": 23,
+      "postings": 16,
       "postings_by_level": {
         "junior": 2,
-        "entry": 10,
-        "mid/senior": 8
+        "entry": 8,
+        "mid/senior": 5
       }
     },
     {
@@ -1761,12 +1756,11 @@
         "label": "health and safety officer"
       },
       "matched_by": "manual",
-      "postings": 24,
+      "postings": 16,
       "postings_by_level": {
         "entry": 1,
-        "mid/senior": 19,
-        "junior": 1,
-        "lead": 1
+        "mid/senior": 13,
+        "junior": 1
       }
     },
     {
@@ -1796,11 +1790,11 @@
         "label": "accountant"
       },
       "matched_by": "manual",
-      "postings": 340,
+      "postings": 318,
       "postings_by_level": {
-        "mid/senior": 44,
-        "junior": 98,
-        "entry": 131
+        "mid/senior": 42,
+        "junior": 95,
+        "entry": 118
       }
     },
     {
@@ -1825,12 +1819,12 @@
         "label": "accountant"
       },
       "matched_by": "automatic",
-      "postings": 1319,
+      "postings": 1174,
       "postings_by_level": {
-        "mid/senior": 547,
-        "junior": 287,
-        "entry": 248,
-        "lead": 5
+        "mid/senior": 472,
+        "junior": 271,
+        "entry": 209,
+        "lead": 4
       }
     },
     {
@@ -1865,12 +1859,11 @@
         "label": "audit supervisor"
       },
       "matched_by": "automatic",
-      "postings": 322,
+      "postings": 230,
       "postings_by_level": {
-        "mid/senior": 166,
-        "junior": 30,
-        "entry": 45,
-        "lead": 1
+        "mid/senior": 117,
+        "junior": 23,
+        "entry": 28
       }
     },
     {
@@ -1907,11 +1900,11 @@
         "label": "tax advisor"
       },
       "matched_by": "automatic",
-      "postings": 110,
+      "postings": 91,
       "postings_by_level": {
-        "mid/senior": 42,
-        "entry": 31,
-        "junior": 18
+        "mid/senior": 38,
+        "entry": 24,
+        "junior": 17
       }
     },
     {
@@ -1944,11 +1937,11 @@
         "label": "financial analyst"
       },
       "matched_by": "automatic",
-      "postings": 425,
+      "postings": 365,
       "postings_by_level": {
-        "junior": 63,
-        "mid/senior": 189,
-        "entry": 86
+        "junior": 57,
+        "mid/senior": 162,
+        "entry": 69
       }
     },
     {
@@ -1970,9 +1963,9 @@
         "label": "financial manager"
       },
       "matched_by": "automatic",
-      "postings": 112,
+      "postings": 99,
       "postings_by_level": {
-        "mid/senior": 79,
+        "mid/senior": 68,
         "lead": 4,
         "junior": 3,
         "entry": 1
@@ -2006,12 +1999,12 @@
         "label": "credit analyst"
       },
       "matched_by": "automatic",
-      "postings": 43,
+      "postings": 36,
       "postings_by_level": {
         "mid/senior": 8,
         "lead": 1,
-        "entry": 10,
-        "junior": 13
+        "junior": 13,
+        "entry": 5
       }
     },
     {
@@ -2043,11 +2036,10 @@
       ],
       "esco": null,
       "matched_by": "automatic",
-      "postings": 113,
+      "postings": 80,
       "postings_by_level": {
-        "mid/senior": 64,
+        "mid/senior": 41,
         "junior": 9,
-        "entry": 7,
         "lead": 1
       }
     },
@@ -2070,10 +2062,10 @@
         "label": "investment analyst"
       },
       "matched_by": "automatic",
-      "postings": 11,
+      "postings": 10,
       "postings_by_level": {
         "mid/senior": 3,
-        "junior": 3,
+        "junior": 2,
         "entry": 2
       }
     },
@@ -2105,10 +2097,10 @@
         "label": "actuarial consultant"
       },
       "matched_by": "automatic",
-      "postings": 91,
+      "postings": 63,
       "postings_by_level": {
-        "mid/senior": 68,
-        "entry": 8,
+        "mid/senior": 45,
+        "entry": 5,
         "junior": 4,
         "lead": 2
       }
@@ -2151,12 +2143,12 @@
         "label": "relationship banking manager"
       },
       "matched_by": "manual",
-      "postings": 107,
+      "postings": 84,
       "postings_by_level": {
-        "mid/senior": 59,
-        "entry": 3,
+        "mid/senior": 43,
+        "entry": 2,
         "junior": 2,
-        "lead": 2
+        "lead": 1
       }
     },
     {
@@ -2193,11 +2185,11 @@
         "label": "financial planner"
       },
       "matched_by": "automatic",
-      "postings": 159,
+      "postings": 37,
       "postings_by_level": {
-        "junior": 104,
-        "entry": 29,
-        "mid/senior": 9
+        "junior": 7,
+        "entry": 15,
+        "mid/senior": 5
       }
     },
     {
@@ -2224,11 +2216,11 @@
         "label": "loan officer"
       },
       "matched_by": "automatic",
-      "postings": 134,
+      "postings": 58,
       "postings_by_level": {
-        "entry": 86,
-        "mid/senior": 7,
-        "junior": 6
+        "entry": 18,
+        "mid/senior": 6,
+        "junior": 4
       }
     },
     {
@@ -2260,12 +2252,12 @@
       ],
       "esco": null,
       "matched_by": "automatic",
-      "postings": 136,
+      "postings": 118,
       "postings_by_level": {
         "junior": 16,
-        "mid/senior": 63,
-        "lead": 12,
-        "entry": 8
+        "mid/senior": 51,
+        "lead": 11,
+        "entry": 6
       }
     },
     {
@@ -2294,10 +2286,10 @@
         "label": "insurance underwriter"
       },
       "matched_by": "automatic",
-      "postings": 119,
+      "postings": 85,
       "postings_by_level": {
-        "entry": 8,
-        "mid/senior": 69,
+        "entry": 6,
+        "mid/senior": 44,
         "junior": 13,
         "lead": 2
       }
@@ -2326,10 +2318,10 @@
         "label": "insurance claims handler"
       },
       "matched_by": "automatic",
-      "postings": 55,
+      "postings": 26,
       "postings_by_level": {
-        "entry": 18,
-        "mid/senior": 9
+        "entry": 15,
+        "mid/senior": 4
       }
     },
     {
@@ -2368,12 +2360,11 @@
         "label": "financial planner"
       },
       "matched_by": "automatic",
-      "postings": 308,
+      "postings": 158,
       "postings_by_level": {
-        "mid/senior": 126,
-        "entry": 32,
-        "junior": 32,
-        "lead": 1
+        "mid/senior": 29,
+        "entry": 21,
+        "junior": 16
       }
     },
     {
@@ -2403,12 +2394,12 @@
         "label": "business analyst"
       },
       "matched_by": "automatic",
-      "postings": 652,
+      "postings": 577,
       "postings_by_level": {
-        "mid/senior": 307,
-        "entry": 28,
-        "junior": 55,
-        "lead": 3
+        "mid/senior": 268,
+        "entry": 19,
+        "junior": 52,
+        "lead": 1
       }
     },
     {
@@ -2430,12 +2421,12 @@
         "label": "project manager"
       },
       "matched_by": "manual",
-      "postings": 2139,
+      "postings": 1761,
       "postings_by_level": {
-        "mid/senior": 1120,
-        "junior": 148,
-        "lead": 18,
-        "entry": 259
+        "mid/senior": 913,
+        "junior": 128,
+        "lead": 17,
+        "entry": 206
       }
     },
     {
@@ -2464,10 +2455,10 @@
         "label": "project support officer"
       },
       "matched_by": "manual",
-      "postings": 149,
+      "postings": 129,
       "postings_by_level": {
-        "mid/senior": 35,
-        "entry": 58,
+        "mid/senior": 26,
+        "entry": 47,
         "junior": 21,
         "lead": 1
       }
@@ -2504,12 +2495,12 @@
         "label": "operations manager"
       },
       "matched_by": "automatic",
-      "postings": 615,
+      "postings": 448,
       "postings_by_level": {
-        "mid/senior": 426,
+        "mid/senior": 287,
         "lead": 12,
-        "entry": 7,
-        "junior": 28
+        "entry": 4,
+        "junior": 24
       }
     },
     {
@@ -2542,12 +2533,12 @@
         "label": "business consultant"
       },
       "matched_by": "automatic",
-      "postings": 90,
+      "postings": 76,
       "postings_by_level": {
-        "mid/senior": 43,
-        "entry": 5,
+        "mid/senior": 36,
+        "entry": 4,
         "lead": 1,
-        "junior": 5
+        "junior": 4
       }
     },
     {
@@ -2572,12 +2563,12 @@
         "label": "business developer"
       },
       "matched_by": "manual",
-      "postings": 313,
+      "postings": 256,
       "postings_by_level": {
-        "mid/senior": 170,
-        "lead": 8,
-        "entry": 4,
-        "junior": 37
+        "mid/senior": 127,
+        "lead": 6,
+        "entry": 3,
+        "junior": 33
       }
     },
     {
@@ -2608,9 +2599,9 @@
         "label": "logistics analyst"
       },
       "matched_by": "automatic",
-      "postings": 47,
+      "postings": 41,
       "postings_by_level": {
-        "mid/senior": 24,
+        "mid/senior": 19,
         "junior": 8,
         "entry": 3
       }
@@ -2641,11 +2632,11 @@
         "label": "purchaser"
       },
       "matched_by": "manual",
-      "postings": 193,
+      "postings": 156,
       "postings_by_level": {
-        "mid/senior": 111,
+        "mid/senior": 81,
         "junior": 29,
-        "entry": 12
+        "entry": 8
       }
     },
     {
@@ -2702,12 +2693,12 @@
         "label": "commercial sales representative"
       },
       "matched_by": "manual",
-      "postings": 1395,
+      "postings": 926,
       "postings_by_level": {
-        "entry": 530,
-        "junior": 195,
-        "mid/senior": 215,
-        "lead": 81
+        "entry": 300,
+        "junior": 147,
+        "mid/senior": 142,
+        "lead": 7
       }
     },
     {
@@ -2740,11 +2731,11 @@
         "label": "sales account manager"
       },
       "matched_by": "automatic",
-      "postings": 1039,
+      "postings": 675,
       "postings_by_level": {
-        "junior": 133,
-        "mid/senior": 516,
-        "entry": 144,
+        "junior": 76,
+        "mid/senior": 294,
+        "entry": 97,
         "lead": 5
       }
     },
@@ -2770,11 +2761,11 @@
         "label": "marketing manager"
       },
       "matched_by": "manual",
-      "postings": 186,
+      "postings": 168,
       "postings_by_level": {
-        "junior": 32,
-        "mid/senior": 25,
-        "entry": 52,
+        "junior": 29,
+        "mid/senior": 20,
+        "entry": 44,
         "lead": 2
       }
     },
@@ -2859,10 +2850,10 @@
         "label": "online community manager"
       },
       "matched_by": "manual",
-      "postings": 62,
+      "postings": 55,
       "postings_by_level": {
-        "junior": 11,
-        "mid/senior": 16,
+        "junior": 9,
+        "mid/senior": 11,
         "entry": 2
       }
     },
@@ -2898,11 +2889,11 @@
         "label": "advertising copywriter"
       },
       "matched_by": "automatic",
-      "postings": 186,
+      "postings": 138,
       "postings_by_level": {
-        "mid/senior": 38,
-        "entry": 19,
-        "junior": 22
+        "mid/senior": 34,
+        "entry": 17,
+        "junior": 17
       }
     },
     {
@@ -2927,9 +2918,9 @@
         "label": "brand manager"
       },
       "matched_by": "automatic",
-      "postings": 36,
+      "postings": 31,
       "postings_by_level": {
-        "mid/senior": 19,
+        "mid/senior": 16,
         "entry": 2,
         "junior": 2
       }
@@ -3010,7 +3001,7 @@
         "label": "real estate agent"
       },
       "matched_by": "automatic",
-      "postings": 54,
+      "postings": 41,
       "postings_by_level": {
         "entry": 8,
         "junior": 2
@@ -3042,9 +3033,9 @@
         "label": "human resources officer"
       },
       "matched_by": "manual",
-      "postings": 74,
+      "postings": 66,
       "postings_by_level": {
-        "mid/senior": 44,
+        "mid/senior": 37,
         "entry": 10,
         "junior": 10
       }
@@ -3075,11 +3066,11 @@
         "label": "talent acquisition manager"
       },
       "matched_by": "automatic",
-      "postings": 339,
+      "postings": 275,
       "postings_by_level": {
-        "junior": 84,
-        "entry": 78,
-        "mid/senior": 95
+        "junior": 71,
+        "entry": 56,
+        "mid/senior": 75
       }
     },
     {
@@ -3098,11 +3089,11 @@
       ],
       "esco": null,
       "matched_by": "automatic",
-      "postings": 51,
+      "postings": 34,
       "postings_by_level": {
-        "mid/senior": 26,
+        "mid/senior": 20,
         "junior": 2,
-        "lead": 7,
+        "lead": 4,
         "entry": 1
       }
     },
@@ -3128,11 +3119,11 @@
         "label": "payroll clerk"
       },
       "matched_by": "manual",
-      "postings": 90,
+      "postings": 79,
       "postings_by_level": {
-        "entry": 19,
-        "junior": 34,
-        "mid/senior": 22
+        "entry": 18,
+        "junior": 28,
+        "mid/senior": 18
       }
     },
     {
@@ -3161,11 +3152,11 @@
         "label": "corporate training manager"
       },
       "matched_by": "manual",
-      "postings": 46,
+      "postings": 37,
       "postings_by_level": {
-        "mid/senior": 13,
         "junior": 3,
-        "entry": 18
+        "entry": 13,
+        "mid/senior": 11
       }
     },
     {
@@ -3187,11 +3178,11 @@
         "label": "graphic designer"
       },
       "matched_by": "automatic",
-      "postings": 123,
+      "postings": 114,
       "postings_by_level": {
-        "junior": 21,
-        "entry": 18,
-        "mid/senior": 29
+        "junior": 20,
+        "entry": 15,
+        "mid/senior": 27
       }
     },
     {
@@ -3243,11 +3234,10 @@
         "label": "video and motion picture editor"
       },
       "matched_by": "automatic",
-      "postings": 26,
+      "postings": 23,
       "postings_by_level": {
-        "entry": 1,
-        "mid/senior": 6,
-        "junior": 10
+        "mid/senior": 5,
+        "junior": 9
       }
     },
     {
@@ -3274,10 +3264,9 @@
         "label": "animator"
       },
       "matched_by": "automatic",
-      "postings": 9,
+      "postings": 8,
       "postings_by_level": {
         "mid/senior": 2,
-        "junior": 1,
         "entry": 2
       }
     },
@@ -3300,10 +3289,10 @@
         "label": "photographer"
       },
       "matched_by": "automatic",
-      "postings": 22,
+      "postings": 17,
       "postings_by_level": {
-        "entry": 8,
-        "junior": 6,
+        "entry": 6,
+        "junior": 3,
         "mid/senior": 2
       }
     },
@@ -3326,11 +3315,11 @@
         "label": "interior designer"
       },
       "matched_by": "automatic",
-      "postings": 39,
+      "postings": 31,
       "postings_by_level": {
-        "entry": 9,
-        "junior": 5,
-        "mid/senior": 8
+        "entry": 8,
+        "junior": 4,
+        "mid/senior": 5
       }
     },
     {
@@ -3387,9 +3376,9 @@
         "label": "public relations manager"
       },
       "matched_by": "automatic",
-      "postings": 30,
+      "postings": 8,
       "postings_by_level": {
-        "entry": 27,
+        "entry": 5,
         "junior": 2
       }
     },
@@ -3423,11 +3412,11 @@
         "label": "journalist"
       },
       "matched_by": "automatic",
-      "postings": 58,
+      "postings": 49,
       "postings_by_level": {
-        "entry": 26,
-        "junior": 7,
-        "mid/senior": 8
+        "entry": 23,
+        "mid/senior": 6,
+        "junior": 4
       }
     },
     {
@@ -3460,10 +3449,10 @@
         "label": "illustrator"
       },
       "matched_by": "automatic",
-      "postings": 61,
+      "postings": 50,
       "postings_by_level": {
-        "entry": 21,
-        "mid/senior": 15,
+        "entry": 15,
+        "mid/senior": 11,
         "junior": 4
       }
     },
@@ -3486,12 +3475,12 @@
         "label": "architect"
       },
       "matched_by": "automatic",
-      "postings": 1857,
+      "postings": 1689,
       "postings_by_level": {
-        "mid/senior": 740,
-        "lead": 77,
-        "junior": 47,
-        "entry": 14
+        "mid/senior": 620,
+        "lead": 69,
+        "junior": 34,
+        "entry": 11
       }
     },
     {
@@ -3513,10 +3502,8 @@
         "label": "quantity surveyor"
       },
       "matched_by": "automatic",
-      "postings": 12,
-      "postings_by_level": {
-        "mid/senior": 2
-      }
+      "postings": 10,
+      "postings_by_level": {}
     },
     {
       "field": "Architecture & Construction",
@@ -3540,11 +3527,11 @@
         "label": "construction manager"
       },
       "matched_by": "automatic",
-      "postings": 292,
+      "postings": 240,
       "postings_by_level": {
-        "mid/senior": 173,
-        "entry": 8,
-        "junior": 20,
+        "mid/senior": 134,
+        "junior": 16,
+        "entry": 3,
         "lead": 1
       }
     },
@@ -3574,9 +3561,9 @@
         "label": "construction general supervisor"
       },
       "matched_by": "automatic",
-      "postings": 20,
+      "postings": 18,
       "postings_by_level": {
-        "mid/senior": 15,
+        "mid/senior": 13,
         "lead": 2
       }
     },
@@ -3612,9 +3599,9 @@
         "label": "drafter"
       },
       "matched_by": "automatic",
-      "postings": 46,
+      "postings": 40,
       "postings_by_level": {
-        "entry": 24,
+        "entry": 18,
         "junior": 6,
         "mid/senior": 4
       }
@@ -3673,10 +3660,9 @@
         "label": "land surveyor"
       },
       "matched_by": "automatic",
-      "postings": 60,
+      "postings": 41,
       "postings_by_level": {
-        "mid/senior": 32,
-        "entry": 5,
+        "mid/senior": 20,
         "junior": 1
       }
     },
@@ -3706,12 +3692,12 @@
         "label": "general practitioner"
       },
       "matched_by": "manual",
-      "postings": 710,
+      "postings": 555,
       "postings_by_level": {
-        "lead": 26,
-        "junior": 18,
-        "mid/senior": 405,
-        "entry": 107
+        "lead": 21,
+        "junior": 12,
+        "mid/senior": 330,
+        "entry": 59
       }
     },
     {
@@ -3738,12 +3724,12 @@
         "label": "nurse responsible for general care"
       },
       "matched_by": "manual",
-      "postings": 5175,
+      "postings": 3568,
       "postings_by_level": {
-        "mid/senior": 2515,
-        "entry": 773,
-        "junior": 129,
-        "lead": 14
+        "mid/senior": 1884,
+        "entry": 571,
+        "junior": 99,
+        "lead": 13
       }
     },
     {
@@ -3765,12 +3751,12 @@
         "label": "pharmacist"
       },
       "matched_by": "manual",
-      "postings": 161,
+      "postings": 115,
       "postings_by_level": {
-        "entry": 85,
-        "junior": 15,
-        "mid/senior": 24,
-        "lead": 5
+        "entry": 61,
+        "junior": 11,
+        "mid/senior": 15,
+        "lead": 1
       }
     },
     {
@@ -3805,10 +3791,10 @@
         "label": "biomedical scientist"
       },
       "matched_by": "automatic",
-      "postings": 202,
+      "postings": 198,
       "postings_by_level": {
-        "mid/senior": 20,
         "junior": 3,
+        "mid/senior": 19,
         "entry": 3
       }
     },
@@ -3834,11 +3820,11 @@
         "label": "physiotherapist"
       },
       "matched_by": "automatic",
-      "postings": 608,
+      "postings": 403,
       "postings_by_level": {
-        "entry": 404,
-        "mid/senior": 30,
-        "junior": 13,
+        "entry": 263,
+        "mid/senior": 27,
+        "junior": 11,
         "lead": 1
       }
     },
@@ -3864,11 +3850,11 @@
         "label": "dietitian"
       },
       "matched_by": "automatic",
-      "postings": 77,
+      "postings": 70,
       "postings_by_level": {
         "junior": 4,
-        "entry": 39,
-        "mid/senior": 7
+        "entry": 37,
+        "mid/senior": 5
       }
     },
     {
@@ -3901,11 +3887,11 @@
         "label": "radiographer"
       },
       "matched_by": "automatic",
-      "postings": 86,
+      "postings": 60,
       "postings_by_level": {
-        "mid/senior": 58,
-        "entry": 12,
-        "junior": 5
+        "mid/senior": 38,
+        "entry": 7,
+        "junior": 4
       }
     },
     {
@@ -3932,12 +3918,11 @@
         "label": "healthcare assistant"
       },
       "matched_by": "automatic",
-      "postings": 585,
+      "postings": 405,
       "postings_by_level": {
-        "entry": 434,
-        "mid/senior": 13,
-        "junior": 14,
-        "lead": 1
+        "entry": 296,
+        "mid/senior": 12,
+        "junior": 6
       }
     },
     {
@@ -3972,10 +3957,10 @@
         "label": "personal trainer"
       },
       "matched_by": "automatic",
-      "postings": 27,
+      "postings": 20,
       "postings_by_level": {
         "entry": 1,
-        "mid/senior": 15
+        "mid/senior": 8
       }
     },
     {
@@ -4000,12 +3985,12 @@
         "label": "secondary school teacher"
       },
       "matched_by": "manual",
-      "postings": 821,
+      "postings": 470,
       "postings_by_level": {
-        "mid/senior": 59,
-        "entry": 527,
-        "lead": 4,
-        "junior": 49
+        "mid/senior": 42,
+        "entry": 250,
+        "lead": 3,
+        "junior": 10
       }
     },
     {
@@ -4038,9 +4023,9 @@
         "label": "higher education lecturer"
       },
       "matched_by": "automatic",
-      "postings": 25,
+      "postings": 24,
       "postings_by_level": {
-        "mid/senior": 13
+        "mid/senior": 12
       }
     },
     {
@@ -4071,11 +4056,11 @@
         "label": "tutor"
       },
       "matched_by": "automatic",
-      "postings": 73,
+      "postings": 57,
       "postings_by_level": {
-        "entry": 48,
+        "entry": 35,
         "mid/senior": 2,
-        "junior": 4
+        "junior": 2
       }
     },
     {
@@ -4097,11 +4082,11 @@
         "label": "instructional designer"
       },
       "matched_by": "automatic",
-      "postings": 39,
+      "postings": 37,
       "postings_by_level": {
         "junior": 7,
-        "entry": 8,
-        "mid/senior": 15
+        "entry": 7,
+        "mid/senior": 14
       }
     },
     {
@@ -4128,9 +4113,9 @@
         "label": "early years teacher"
       },
       "matched_by": "manual",
-      "postings": 28,
+      "postings": 26,
       "postings_by_level": {
-        "entry": 17
+        "entry": 15
       }
     },
     {
@@ -4169,12 +4154,12 @@
         "label": "lawyer"
       },
       "matched_by": "automatic",
-      "postings": 859,
+      "postings": 759,
       "postings_by_level": {
-        "junior": 229,
-        "mid/senior": 270,
-        "entry": 49,
-        "lead": 14
+        "junior": 196,
+        "mid/senior": 229,
+        "entry": 43,
+        "lead": 13
       }
     },
     {
@@ -4199,11 +4184,11 @@
         "label": "legal assistant"
       },
       "matched_by": "automatic",
-      "postings": 132,
+      "postings": 108,
       "postings_by_level": {
-        "entry": 43,
-        "mid/senior": 13,
-        "junior": 22
+        "entry": 24,
+        "mid/senior": 12,
+        "junior": 20
       }
     },
     {
@@ -4225,11 +4210,11 @@
         "label": "legal assistant"
       },
       "matched_by": "manual",
-      "postings": 335,
+      "postings": 286,
       "postings_by_level": {
-        "entry": 85,
-        "junior": 71,
-        "mid/senior": 67,
+        "entry": 61,
+        "junior": 64,
+        "mid/senior": 58,
         "lead": 1
       }
     },
@@ -4287,12 +4272,12 @@
         "label": "chef"
       },
       "matched_by": "automatic",
-      "postings": 604,
+      "postings": 417,
       "postings_by_level": {
-        "entry": 299,
-        "mid/senior": 164,
-        "junior": 30,
-        "lead": 10
+        "entry": 176,
+        "mid/senior": 127,
+        "junior": 14,
+        "lead": 9
       }
     },
     {
@@ -4323,9 +4308,9 @@
         "label": "restaurant manager"
       },
       "matched_by": "automatic",
-      "postings": 104,
+      "postings": 69,
       "postings_by_level": {
-        "mid/senior": 73,
+        "mid/senior": 50,
         "junior": 2,
         "entry": 1
       }
@@ -4364,10 +4349,10 @@
         "label": "receptionist"
       },
       "matched_by": "automatic",
-      "postings": 79,
+      "postings": 32,
       "postings_by_level": {
-        "entry": 74,
-        "junior": 3,
+        "entry": 29,
+        "junior": 1,
         "mid/senior": 1
       }
     },
@@ -4399,10 +4384,10 @@
         "label": "event assistant"
       },
       "matched_by": "automatic",
-      "postings": 42,
+      "postings": 31,
       "postings_by_level": {
-        "entry": 17,
-        "mid/senior": 9,
+        "entry": 9,
+        "mid/senior": 7,
         "junior": 2
       }
     },
@@ -4486,10 +4471,10 @@
         "label": "logistics and distribution manager"
       },
       "matched_by": "manual",
-      "postings": 41,
+      "postings": 40,
       "postings_by_level": {
         "mid/senior": 7,
-        "entry": 10,
+        "entry": 9,
         "junior": 3
       }
     },
@@ -4525,10 +4510,10 @@
         "label": "warehouse manager"
       },
       "matched_by": "automatic",
-      "postings": 101,
+      "postings": 77,
       "postings_by_level": {
-        "mid/senior": 76,
-        "junior": 8,
+        "mid/senior": 55,
+        "junior": 7,
         "lead": 1
       }
     },
@@ -4630,10 +4615,10 @@
         "label": "airline transport pilot"
       },
       "matched_by": "automatic",
-      "postings": 39,
+      "postings": 33,
       "postings_by_level": {
-        "entry": 6,
-        "mid/senior": 12,
+        "entry": 3,
+        "mid/senior": 11,
         "junior": 4
       }
     },
@@ -4764,11 +4749,11 @@
         "label": "chemist"
       },
       "matched_by": "automatic",
-      "postings": 109,
+      "postings": 96,
       "postings_by_level": {
-        "entry": 8,
-        "junior": 16,
-        "mid/senior": 59,
+        "entry": 7,
+        "junior": 14,
+        "mid/senior": 52,
         "lead": 1
       }
     },
@@ -4829,9 +4814,9 @@
         "label": "environmental scientist"
       },
       "matched_by": "automatic",
-      "postings": 28,
+      "postings": 17,
       "postings_by_level": {
-        "mid/senior": 19,
+        "mid/senior": 9,
         "junior": 1,
         "entry": 1
       }
@@ -4862,11 +4847,11 @@
         "label": "scientific laboratory technician"
       },
       "matched_by": "manual",
-      "postings": 266,
+      "postings": 240,
       "postings_by_level": {
-        "entry": 108,
+        "entry": 88,
         "mid/senior": 18,
-        "junior": 20
+        "junior": 16
       }
     },
     {
@@ -4903,11 +4888,11 @@
         "label": "administrative assistant"
       },
       "matched_by": "automatic",
-      "postings": 609,
+      "postings": 527,
       "postings_by_level": {
-        "junior": 103,
-        "entry": 245,
-        "mid/senior": 87
+        "junior": 91,
+        "entry": 212,
+        "mid/senior": 63
       }
     },
     {
@@ -4933,12 +4918,12 @@
         "label": "office manager"
       },
       "matched_by": "automatic",
-      "postings": 186,
+      "postings": 160,
       "postings_by_level": {
-        "mid/senior": 95,
-        "entry": 8,
-        "junior": 26,
-        "lead": 4
+        "mid/senior": 75,
+        "entry": 7,
+        "junior": 24,
+        "lead": 2
       }
     },
     {
@@ -4969,11 +4954,11 @@
         "label": "customer service representative"
       },
       "matched_by": "automatic",
-      "postings": 847,
+      "postings": 536,
       "postings_by_level": {
-        "entry": 162,
-        "junior": 48,
-        "mid/senior": 443
+        "entry": 95,
+        "junior": 40,
+        "mid/senior": 225
       }
     },
     {
@@ -5037,12 +5022,12 @@
         "label": "executive assistant"
       },
       "matched_by": "automatic",
-      "postings": 580,
+      "postings": 464,
       "postings_by_level": {
-        "entry": 72,
-        "mid/senior": 258,
-        "junior": 95,
-        "lead": 13
+        "mid/senior": 171,
+        "entry": 56,
+        "junior": 88,
+        "lead": 12
       }
     }
   ]

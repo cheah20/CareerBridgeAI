@@ -4,7 +4,7 @@
 - **Emerging role** (fast-growing in 2025–2026)
 - **O*NET:** 15-2051.00 Data Scientists; 15-1252.00 Software Developers
 - **ESCO:** cloud DevOps engineer
-- **Job ads analysed:** 160 (Mid-level 9, Senior 149, Lead / Manager 2)
+- **Job ads analysed:** 158 (Mid-level 8, Senior 149, Lead / Manager 1)
 
 ## What the job involves
 
@@ -16,26 +16,26 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Senior |
 |---|---|---|
-| Reinforcement Learning **(core)** | 84% | 89% |
-| Probabilistic Graphs **(core)** | 83% | 89% |
-| Data Engineering **(core)** | 81% | 87% |
-| Deep Learning **(core)** | 81% | 86% |
+| Reinforcement Learning **(core)** | 85% | 89% |
+| Probabilistic Graphs **(core)** | 84% | 89% |
+| Data Engineering **(core)** | 82% | 87% |
+| Deep Learning **(core)** | 82% | 86% |
 | NLP **(core)** | 74% | 78% |
-| LLMs **(core)** | 73% | 78% |
-| Workflow orchestration **(core)** | 72% | 78% |
-| Flexibility **(core)** | 71% | 76% |
+| LLMs **(core)** | 74% | 78% |
+| Workflow orchestration **(core)** | 73% | 78% |
+| Flexibility **(core)** | 72% | 76% |
 | Autonomy **(core)** | 68% | 72% |
-| Product ownership **(core)** | 66% | 71% |
+| Product ownership **(core)** | 67% | 71% |
 | Teamfirst mentality **(core)** | 66% | 70% |
-| A/B Testing **(core)** | 64% | 69% |
+| A/B Testing **(core)** | 65% | 69% |
 | Experimentation **(core)** | 52% | 54% |
-| ML Ops **(core)** | 50% | 54% |
-| NYCbased **(core)** | 48% | 52% |
-| ETL Pipelines **(core)** | 45% | 48% |
-| Passion for vision **(core)** | 42% | 46% |
+| ML Ops **(core)** | 51% | 54% |
+| NYCbased **(core)** | 49% | 52% |
+| ETL Pipelines **(core)** | 46% | 48% |
+| Passion for vision **(core)** | 43% | 46% |
 | Financial Workflows **(core)** | 40% | 43% |
-| Machine Learning **(core)** | 32% | 28% |
 | Visibility **(core)** | 32% | 34% |
+| Machine Learning **(core)** | 31% | 28% |
 | ETL pipeline **(core)** | 28% | 30% |
 | ML systems | 23% | 24% |
 | Machine Learning Operations | 22% | 22% |
@@ -49,7 +49,7 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 ## Soft skills employers mention
 
-Mentoring (29%)
+Mentoring (30%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -5,7 +5,7 @@
 - **Emerging role** (fast-growing in 2025–2026)
 - **O*NET:** 15-1221.00 Computer and Information Research Scientists
 - **ESCO:** artificial intelligence engineer
-- **Job ads analysed:** 51 (Internship / Fresh Graduate 5, Junior 1, Mid-level 28, Senior 13, Lead / Manager 4)
+- **Job ads analysed:** 44 (Internship / Fresh Graduate 4, Junior 1, Mid-level 26, Senior 11, Lead / Manager 2)
 
 ## What the job involves
 
@@ -17,58 +17,57 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| AI **(core)** | 84% | 86% |
-| Machine Learning **(core)** | 71% | 75% |
-| Python **(core)** | 69% | 68% |
-| Artificial Intelligence **(core)** | 47% | 54% |
-| Algorithms **(core)** | 45% | 50% |
-| Computer Science **(core)** | 43% | 36% |
-| Programming **(core)** | 43% | 43% |
-| Natural Language Processing **(core)** | 41% | 50% |
-| Generative AI **(core)** | 41% | 36% |
+| AI **(core)** | 82% | 85% |
+| Machine Learning **(core)** | 73% | 73% |
+| Python **(core)** | 73% | 69% |
+| Artificial Intelligence **(core)** | 46% | 50% |
+| Natural Language Processing **(core)** | 46% | 50% |
+| Programming **(core)** | 46% | 42% |
+| Algorithms **(core)** | 46% | 46% |
+| Computer Science **(core)** | 43% | 38% |
 | TensorFlow **(core)** | 41% | 46% |
 | Azure **(core)** | 39% | 46% |
-| Cloud **(core)** | 37% | 39% |
-| Frameworks **(core)** | 35% | 43% |
-| PyTorch **(core)** | 35% | 32% |
-| Analytical **(core)** | 28% | 25% |
-| NLP **(core)** | 28% | 32% |
-| Infrastructure **(core)** | 28% | 7% |
-| Master's Degree **(core)** | 28% | 36% |
-| ML **(core)** | 28% | 18% |
-| Computer Vision **(core)** | 28% | 32% |
-| Deep Learning **(core)** | 26% | 11% |
-| Scalable **(core)** | 26% | 29% |
-| Testing **(core)** | 26% | 25% |
-| AWS | 24% | 25% |
-| AI/ML | 24% | 21% |
-| Software Development | 22% | 25% |
-| DevOps | 22% | 29% |
-| Programming Languages | 22% | 32% |
-| Software Engineering | 22% | 25% |
-| Data Science | 20% | 11% |
-| Machine Learning Algorithms | 20% | 29% |
-| Data Privacy | 20% | 29% |
-| Data Scientists | 20% | 18% |
-| Architectures | 20% | 29% |
-| Agile | 20% | 18% |
-| LLM | 18% | 21% |
+| Cloud **(core)** | 39% | 38% |
+| Generative AI **(core)** | 39% | 35% |
+| Frameworks **(core)** | 34% | 38% |
+| NLP **(core)** | 32% | 35% |
+| PyTorch **(core)** | 32% | 31% |
+| Analytical **(core)** | 30% | 27% |
+| Computer Vision **(core)** | 30% | 31% |
+| AWS **(core)** | 27% | 27% |
+| Deep Learning **(core)** | 27% | 12% |
+| Testing **(core)** | 27% | 23% |
+| Master's Degree **(core)** | 27% | 35% |
+| Infrastructure **(core)** | 25% | 8% |
+| ML | 23% | 15% |
+| Scalable | 23% | 23% |
+| Programming Languages | 23% | 31% |
+| Software Engineering | 23% | 23% |
+| Software Development | 20% | 23% |
+| Machine Learning Algorithms | 20% | 27% |
+| Architectures | 20% | 27% |
+| Data Science | 18% | 12% |
 | AI Solutions | 18% | 4% |
-| Business Requirements | 18% | 25% |
-| Database | 18% | 21% |
-| Scalability | 18% | 14% |
-| Technical Concepts | 18% | 18% |
-| Insights | 18% | 11% |
-| Scikit | 18% | 14% |
-| Computing | 18% | 25% |
-| Libraries | 18% | 21% |
-| Reliability | 18% | 21% |
-| Equity | 16% | 7% |
-| work independently | 16% | 14% |
+| Scalability | 18% | 15% |
+| AI/ML | 18% | 19% |
+| Agile | 18% | 15% |
+| Libraries | 18% | 19% |
+| DevOps | 18% | 27% |
+| Efficiency | 18% | 8% |
+| Reliability | 18% | 19% |
+| work independently | 16% | 15% |
+| Azure Machine Learning | 16% | 23% |
+| LLM | 16% | 23% |
+| Database | 16% | 19% |
+| NoSQL | 16% | 19% |
+| Data Scientists | 16% | 12% |
+| Technical Concepts | 16% | 15% |
+| Strong Communication | 16% | 23% |
+| Data Privacy | 16% | 27% |
 
 ## Soft skills employers mention
 
-Problem Solving (43%), Collaboration (37%), Communication (37%), Problem Solving Skills (28%), Leadership (18%), Communication Skills (14%)
+Problem Solving (46%), Collaboration (39%), Communication (39%), Problem Solving Skills (30%), Leadership (16%), Communication Skills (14%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

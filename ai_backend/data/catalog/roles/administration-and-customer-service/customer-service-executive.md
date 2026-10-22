@@ -4,7 +4,7 @@
 - **Also called:** Customer Service Representative, Customer Service Officer
 - **O*NET:** 43-4051.00 Customer Service Representatives; 43-4041.00 Credit Authorizers, Checkers, and Clerks
 - **ESCO:** customer service representative
-- **Job ads analysed:** 847 (Internship / Fresh Graduate 161, Junior 49, Mid-level 610, Senior 5, Lead / Manager 22)
+- **Job ads analysed:** 536 (Internship / Fresh Graduate 94, Junior 41, Mid-level 377, Senior 3, Lead / Manager 21)
 
 ## What the job involves
 
@@ -16,40 +16,45 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Lead / Manager |
 |---|---|---|---|---|---|
-| Retail **(core)** | 44% | 39% | 20% | 46% | 96% |
-| Physical Requirements **(core)** | 34% | 35% | 0% | 34% | 91% |
-| Availability **(core)** | 33% | 26% | 12% | 34% | 91% |
-| Climbing **(core)** | 28% | 24% | 0% | 29% | 91% |
-| Phone **(core)** | 26% | 15% | 51% | 27% | 9% |
-| High School Diploma | 25% | 13% | 29% | 28% | 4% |
-| Spanish | 23% | 40% | 6% | 17% | 96% |
-| English | 22% | 40% | 4% | 16% | 96% |
-| Reasonable Accommodation | 22% | 38% | 4% | 17% | 91% |
-| Human Resources | 20% | 37% | 6% | 15% | 91% |
-| Life Insurance | 20% | 26% | 10% | 17% | 91% |
-| Attendance | 20% | 25% | 16% | 16% | 96% |
-| Customer Service Experience | 19% | 20% | 18% | 19% | 0% |
-| Onsite | 18% | 26% | 6% | 15% | 96% |
-| Selection | 17% | 2% | 20% | 21% | 0% |
-| Coordination | 17% | 26% | 2% | 13% | 91% |
-| E-Verify | 17% | 26% | 0% | 13% | 91% |
-| application process | 16% | 24% | 0% | 13% | 91% |
-| ADA | 16% | 24% | 0% | 12% | 91% |
-| Part Time | 15% | 27% | 2% | 14% | 9% |
-| Willingness to learn | 15% | 24% | 4% | 12% | 86% |
-| Twisting | 15% | 24% | 0% | 12% | 91% |
-| Customer Satisfaction | 15% | 5% | 10% | 18% | 0% |
-| 401k | 14% | 16% | 10% | 14% | 4% |
-| Walking | 14% | 0% | 2% | 18% | 0% |
-| Customer Focus | 13% | 0% | 0% | 18% | 0% |
-| Resolution | 13% | 19% | 10% | 12% | 0% |
-| Relationship Management | 13% | 1% | 2% | 18% | 0% |
-| Standing | 13% | 0% | 2% | 18% | 0% |
-| Lifting | 13% | 0% | 0% | 18% | 0% |
+| Retail **(core)** | 30% | 43% | 12% | 25% | 100% |
+| Life Insurance **(core)** | 29% | 39% | 12% | 24% | 95% |
+| Attendance **(core)** | 28% | 38% | 10% | 24% | 95% |
+| Spanish **(core)** | 28% | 45% | 7% | 23% | 95% |
+| Onsite **(core)** | 27% | 39% | 7% | 23% | 95% |
+| English **(core)** | 27% | 45% | 5% | 21% | 95% |
+| Reasonable Accommodation **(core)** | 27% | 42% | 5% | 22% | 95% |
+| Availability **(core)** | 27% | 38% | 12% | 22% | 95% |
+| Physical Requirements **(core)** | 26% | 37% | 0% | 22% | 95% |
+| Human Resources **(core)** | 25% | 39% | 7% | 20% | 95% |
+| E-Verify | 25% | 39% | 0% | 20% | 95% |
+| Coordination | 24% | 38% | 2% | 19% | 95% |
+| application process | 23% | 36% | 0% | 19% | 95% |
+| ADA | 23% | 37% | 0% | 18% | 95% |
+| Climbing | 23% | 36% | 0% | 18% | 95% |
+| Willingness to learn | 23% | 36% | 5% | 18% | 90% |
+| Twisting | 22% | 36% | 0% | 18% | 95% |
+| Phone | 22% | 19% | 42% | 21% | 5% |
+| High School Diploma | 22% | 18% | 29% | 23% | 5% |
+| A/B Testing | 16% | 0% | 2% | 23% | 0% |
+| Power BI | 16% | 0% | 2% | 22% | 0% |
+| Python | 16% | 0% | 0% | 23% | 0% |
+| Data Analysis | 16% | 0% | 0% | 22% | 0% |
+| SQL | 16% | 0% | 0% | 22% | 0% |
+| Tableau | 16% | 0% | 0% | 22% | 0% |
+| Hypothesis Testing | 16% | 0% | 0% | 22% | 0% |
+| Data Visualization | 16% | 0% | 0% | 22% | 0% |
+| Microsoft Office | 13% | 12% | 17% | 14% | 0% |
+| Call center | 13% | 13% | 17% | 13% | 0% |
+| Work Environment | 12% | 5% | 24% | 14% | 0% |
+| Data Management | 12% | 1% | 2% | 16% | 0% |
+| Email | 12% | 7% | 15% | 13% | 0% |
+| Holidays | 12% | 8% | 15% | 13% | 0% |
+| Part Time | 12% | 42% | 2% | 5% | 10% |
+| Resolution | 11% | 7% | 12% | 13% | 0% |
 
 ## Soft skills employers mention
 
-Customer Service (89%), Communication (56%), Problem Solving (33%), Communication Skills (31%), Organizational Skills (16%), Decision Making (14%), Leadership (11%)
+Customer Service (83%), Communication (47%), Communication Skills (24%), Problem Solving (17%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

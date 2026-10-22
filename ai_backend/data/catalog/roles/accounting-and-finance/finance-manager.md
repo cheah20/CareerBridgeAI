@@ -3,7 +3,7 @@
 - **Field:** Accounting & Finance
 - **O*NET:** 11-3031.00 Financial Managers
 - **ESCO:** financial manager
-- **Job ads analysed:** 112 (Internship / Fresh Graduate 1, Junior 4, Mid-level 83, Senior 20, Lead / Manager 4)
+- **Job ads analysed:** 99 (Internship / Fresh Graduate 1, Junior 4, Mid-level 74, Senior 16, Lead / Manager 4)
 
 ## What the job involves
 
@@ -15,48 +15,48 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level | Senior |
 |---|---|---|---|
-| Accounting **(core)** | 80% | 83% | 70% |
-| Forecasting **(core)** | 46% | 43% | 60% |
-| Analytical **(core)** | 45% | 51% | 40% |
-| Excel **(core)** | 42% | 45% | 25% |
-| Budgeting **(core)** | 40% | 41% | 40% |
-| Budget **(core)** | 38% | 37% | 40% |
-| CPA **(core)** | 36% | 37% | 40% |
-| Insights **(core)** | 33% | 34% | 40% |
-| Financial Analysis **(core)** | 30% | 26% | 35% |
-| Financial Reporting **(core)** | 28% | 31% | 20% |
-| MBA **(core)** | 28% | 25% | 45% |
-| Analyze **(core)** | 27% | 24% | 35% |
-| Recommendations **(core)** | 25% | 29% | 15% |
-| Controls | 24% | 26% | 25% |
-| Modeling | 24% | 25% | 20% |
-| Risk | 23% | 23% | 35% |
-| Budgets | 23% | 23% | 30% |
-| Guidance | 23% | 29% | 10% |
-| Financial Planning | 22% | 22% | 30% |
-| Equity | 21% | 24% | 20% |
-| Investment | 21% | 18% | 35% |
-| Integrity | 20% | 20% | 30% |
-| Risks | 20% | 20% | 20% |
-| Economics | 20% | 22% | 20% |
-| Financial Management | 20% | 20% | 15% |
-| Metrics | 20% | 19% | 15% |
-| Work Environment | 20% | 18% | 30% |
-| Presentation | 19% | 17% | 25% |
-| Tax | 19% | 24% | 5% |
-| Financial Data | 19% | 20% | 20% |
-| Efficiency | 18% | 17% | 30% |
-| Collaborative | 17% | 16% | 20% |
-| GAAP | 17% | 18% | 10% |
-| financial statements | 16% | 18% | 15% |
-| SAP | 16% | 13% | 25% |
-| Partnership | 16% | 13% | 30% |
-| Financial Modeling | 16% | 16% | 15% |
-| Portfolio | 16% | 16% | 20% |
+| Accounting **(core)** | 79% | 81% | 69% |
+| Analytical **(core)** | 46% | 51% | 44% |
+| Forecasting **(core)** | 44% | 43% | 56% |
+| Excel **(core)** | 42% | 43% | 31% |
+| Budgeting **(core)** | 39% | 40% | 38% |
+| Budget **(core)** | 37% | 38% | 31% |
+| CPA **(core)** | 36% | 38% | 44% |
+| Insights **(core)** | 33% | 35% | 38% |
+| Financial Analysis **(core)** | 31% | 27% | 44% |
+| Financial Reporting **(core)** | 29% | 32% | 25% |
+| MBA **(core)** | 28% | 27% | 44% |
+| Modeling **(core)** | 25% | 26% | 25% |
+| Analyze **(core)** | 25% | 23% | 31% |
+| Recommendations | 23% | 27% | 12% |
+| Guidance | 22% | 28% | 6% |
+| Financial Planning | 22% | 23% | 25% |
+| Risk | 21% | 23% | 25% |
+| Controls | 21% | 23% | 25% |
+| Risks | 21% | 22% | 19% |
+| Budgets | 20% | 22% | 19% |
+| Metrics | 20% | 22% | 6% |
+| Presentation | 20% | 18% | 31% |
+| Financial Management | 19% | 22% | 6% |
+| Equity | 19% | 23% | 12% |
+| Tax | 19% | 24% | 6% |
+| Economics | 19% | 20% | 19% |
+| Investment | 19% | 16% | 31% |
+| Work Environment | 19% | 19% | 25% |
+| Integrity | 18% | 19% | 25% |
+| Influence | 17% | 16% | 25% |
+| Variance Analysis | 17% | 22% | 6% |
+| financial statements | 16% | 18% | 19% |
+| SAP | 16% | 12% | 31% |
+| PowerPoint | 16% | 18% | 19% |
+| Financial Data | 16% | 18% | 19% |
+| Financial Modeling | 16% | 15% | 19% |
+| Efficiency | 16% | 16% | 25% |
+| Portfolio | 16% | 16% | 19% |
 
 ## Soft skills employers mention
 
-Communication (58%), Leadership (55%), Communication Skills (29%), Decision Making (25%), Problem Solving (20%), Collaboration (15%), Attention to Detail (15%), Presentations (13%), Analytical Skills (11%), Interpersonal Skills (11%)
+Communication (56%), Leadership (54%), Communication Skills (27%), Decision Making (25%), Problem Solving (19%), Collaboration (16%), Attention to Detail (15%), Presentations (14%), Analytical Skills (12%), Interpersonal Skills (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

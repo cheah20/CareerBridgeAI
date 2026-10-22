@@ -3,7 +3,7 @@
 - **Field:** Information & Communication Technology
 - **O*NET:** 15-1244.00 Network and Computer Systems Administrators; 15-1252.00 Software Developers
 - **ESCO:** cloud DevOps engineer
-- **Job ads analysed:** 178 (Internship / Fresh Graduate 16, Junior 2, Mid-level 107, Senior 42, Lead / Manager 11)
+- **Job ads analysed:** 164 (Internship / Fresh Graduate 15, Junior 2, Mid-level 101, Senior 36, Lead / Manager 10)
 
 ## What the job involves
 
@@ -15,62 +15,62 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Mid-level | Senior |
 |---|---|---|---|---|
-| DevOps **(core)** | 99% | 100% | 99% | 98% |
-| Infrastructure **(core)** | 72% | 69% | 68% | 83% |
-| Cloud **(core)** | 66% | 44% | 65% | 71% |
-| CI/CD **(core)** | 56% | 12% | 55% | 76% |
-| Automation **(core)** | 53% | 44% | 50% | 52% |
-| AWS **(core)** | 50% | 25% | 52% | 52% |
-| Python **(core)** | 49% | 44% | 50% | 50% |
-| Kubernetes **(core)** | 48% | 6% | 50% | 55% |
-| Deployment **(core)** | 47% | 50% | 40% | 60% |
-| Docker **(core)** | 46% | 19% | 42% | 60% |
-| Scripting **(core)** | 45% | 38% | 40% | 55% |
-| Azure **(core)** | 41% | 25% | 39% | 50% |
-| Terraform **(core)** | 41% | 25% | 43% | 40% |
-| Infrastructure as Code **(core)** | 39% | 12% | 42% | 38% |
-| Computer Science **(core)** | 35% | 25% | 30% | 45% |
-| Jenkins **(core)** | 35% | 25% | 34% | 43% |
-| Linux **(core)** | 33% | 19% | 37% | 33% |
-| Configuration **(core)** | 31% | 31% | 32% | 24% |
-| CI/CD pipelines **(core)** | 29% | 0% | 28% | 48% |
-| Ansible **(core)** | 29% | 31% | 25% | 36% |
-| Troubleshooting **(core)** | 28% | 19% | 28% | 26% |
-| Continuous Integration **(core)** | 26% | 19% | 17% | 48% |
-| Agile **(core)** | 25% | 38% | 17% | 31% |
-| troubleshoot | 24% | 31% | 23% | 26% |
-| PowerShell | 23% | 25% | 23% | 29% |
-| Testing | 23% | 19% | 21% | 26% |
-| Shell | 22% | 19% | 21% | 33% |
-| IaC | 22% | 6% | 26% | 14% |
-| Software Development | 22% | 31% | 17% | 33% |
-| Git | 21% | 19% | 26% | 14% |
-| Networking | 21% | 12% | 25% | 12% |
-| Containerization | 20% | 12% | 22% | 17% |
-| Azure DevOps | 20% | 12% | 22% | 19% |
-| Scripts | 20% | 12% | 21% | 17% |
-| Java | 19% | 6% | 20% | 21% |
-| Reliability | 19% | 6% | 21% | 12% |
-| GCP | 18% | 0% | 27% | 7% |
-| Orchestration | 18% | 6% | 15% | 26% |
-| Bash | 18% | 12% | 17% | 29% |
-| Scalable | 18% | 12% | 15% | 21% |
-| GitHub | 17% | 25% | 12% | 21% |
-| Gitlab | 17% | 0% | 16% | 24% |
-| Windows | 17% | 19% | 17% | 24% |
-| Network | 17% | 6% | 15% | 24% |
-| Availability | 16% | 12% | 15% | 17% |
-| Cloud Infrastructure | 16% | 19% | 14% | 21% |
-| Developers | 16% | 12% | 11% | 24% |
-| Resource | 16% | 12% | 18% | 14% |
+| DevOps **(core)** | 99% | 100% | 99% | 97% |
+| Infrastructure **(core)** | 71% | 67% | 67% | 81% |
+| Cloud **(core)** | 65% | 47% | 64% | 69% |
+| CI/CD **(core)** | 54% | 7% | 54% | 78% |
+| Automation **(core)** | 52% | 40% | 48% | 53% |
+| AWS **(core)** | 48% | 20% | 50% | 50% |
+| Python **(core)** | 47% | 40% | 48% | 44% |
+| Kubernetes **(core)** | 46% | 0% | 48% | 53% |
+| Deployment **(core)** | 45% | 47% | 40% | 58% |
+| Docker **(core)** | 44% | 13% | 42% | 61% |
+| Scripting **(core)** | 44% | 33% | 41% | 53% |
+| Azure **(core)** | 40% | 27% | 39% | 47% |
+| Terraform **(core)** | 40% | 20% | 42% | 42% |
+| Infrastructure as Code **(core)** | 38% | 7% | 42% | 39% |
+| Computer Science **(core)** | 35% | 27% | 29% | 47% |
+| Linux **(core)** | 34% | 20% | 38% | 36% |
+| Jenkins **(core)** | 32% | 27% | 31% | 42% |
+| Configuration **(core)** | 31% | 33% | 32% | 25% |
+| CI/CD pipelines **(core)** | 29% | 0% | 28% | 50% |
+| Ansible **(core)** | 27% | 33% | 25% | 33% |
+| Continuous Integration **(core)** | 27% | 20% | 18% | 50% |
+| Troubleshooting **(core)** | 26% | 20% | 26% | 25% |
+| Agile **(core)** | 26% | 40% | 18% | 31% |
+| troubleshoot | 24% | 33% | 24% | 25% |
+| PowerShell | 23% | 27% | 23% | 31% |
+| IaC | 22% | 0% | 27% | 14% |
+| Software Development | 22% | 33% | 17% | 33% |
+| Networking | 22% | 13% | 27% | 11% |
+| Git | 21% | 20% | 25% | 17% |
+| Shell | 21% | 13% | 20% | 33% |
+| Testing | 21% | 20% | 21% | 19% |
+| Scripts | 21% | 13% | 21% | 19% |
+| Azure DevOps | 20% | 13% | 22% | 19% |
+| Containerization | 19% | 7% | 20% | 17% |
+| Reliability | 19% | 0% | 20% | 14% |
+| Java | 18% | 7% | 19% | 19% |
+| Windows | 18% | 20% | 16% | 28% |
+| GCP | 17% | 0% | 26% | 6% |
+| Bash | 17% | 7% | 16% | 28% |
+| GitHub | 16% | 20% | 13% | 19% |
+| Gitlab | 16% | 0% | 15% | 25% |
+| Developers | 16% | 13% | 11% | 25% |
+| Availability | 16% | 13% | 16% | 14% |
+| Cloud Infrastructure | 16% | 20% | 14% | 19% |
+| Scalable | 16% | 13% | 13% | 19% |
+| Efficiency | 16% | 7% | 15% | 19% |
+| Information Technology | 15% | 7% | 15% | 19% |
+| Components | 15% | 0% | 12% | 25% |
 
 ## Soft skills employers mention
 
-Communication (37%), Problem Solving (31%), Collaboration (20%), Communication Skills (17%)
+Communication (37%), Problem Solving (28%), Collaboration (18%), Communication Skills (18%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Amazon Web Services AWS, Ansible, Bash, Microsoft Excel, Microsoft Azure, Microsoft Active Directory, Linux, ServiceNow, Microsoft Windows Server, Python, Red Hat Enterprise Linux, Microsoft Outlook, Microsoft Office, Microsoft PowerShell, Microsoft SharePoint, UNIX, Structured query language SQL, C++, C, C#
+Amazon Web Services AWS, Ansible, Bash, Microsoft Azure, Microsoft Active Directory, Linux, ServiceNow, Microsoft Windows Server, Python, Microsoft Excel, Microsoft Outlook, Microsoft Office, Microsoft PowerShell, Microsoft SharePoint, UNIX, Structured query language SQL, Red Hat Enterprise Linux, C, C#, Atlassian JIRA
 
 ## Essential skills (ESCO)
 

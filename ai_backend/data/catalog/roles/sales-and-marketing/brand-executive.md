@@ -4,7 +4,7 @@
 - **Also called:** Brand Manager
 - **O*NET:** 11-2021.00 Marketing Managers
 - **ESCO:** brand manager
-- **Job ads analysed:** 36 (Internship / Fresh Graduate 2, Junior 7, Mid-level 22, Senior 5)
+- **Job ads analysed:** 31 (Internship / Fresh Graduate 2, Junior 5, Mid-level 21, Senior 3)
 
 ## What the job involves
 
@@ -16,52 +16,53 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Analytical **(core)** | 56% | 50% |
-| Insights **(core)** | 56% | 55% |
-| Execution **(core)** | 53% | 41% |
-| Communications **(core)** | 47% | 36% |
-| Project Management **(core)** | 47% | 46% |
-| Advertising **(core)** | 44% | 41% |
-| MBA **(core)** | 39% | 27% |
-| Collaborative **(core)** | 39% | 32% |
-| Objectives **(core)** | 39% | 32% |
-| Social media **(core)** | 33% | 41% |
-| Equity **(core)** | 33% | 41% |
-| Work Environment **(core)** | 31% | 36% |
-| Portfolio **(core)** | 31% | 32% |
-| Go **(core)** | 28% | 27% |
-| Retail **(core)** | 28% | 36% |
-| Analytics **(core)** | 25% | 27% |
-| Excel **(core)** | 25% | 32% |
-| Analyze | 22% | 27% |
-| Excellence | 22% | 27% |
-| Flexibility | 22% | 23% |
-| pregnancy | 22% | 18% |
+| Insights **(core)** | 58% | 52% |
+| Analytical **(core)** | 55% | 48% |
+| Execution **(core)** | 48% | 38% |
+| Communications **(core)** | 45% | 38% |
+| Project Management **(core)** | 45% | 48% |
+| Advertising **(core)** | 45% | 43% |
+| Collaborative **(core)** | 39% | 33% |
+| Social media **(core)** | 39% | 43% |
+| MBA **(core)** | 36% | 24% |
+| Work Environment **(core)** | 36% | 38% |
+| Objectives **(core)** | 32% | 29% |
+| Excel **(core)** | 29% | 33% |
+| Retail **(core)** | 29% | 33% |
+| Portfolio **(core)** | 29% | 29% |
+| Equity **(core)** | 29% | 38% |
+| Go **(core)** | 26% | 29% |
+| Analyze **(core)** | 26% | 29% |
+| Excellence **(core)** | 26% | 29% |
+| Budgets | 23% | 29% |
+| PowerPoint | 23% | 29% |
+| Microsoft Office | 19% | 24% |
+| Pricing | 19% | 5% |
 | Business Objectives | 19% | 14% |
-| Messaging | 19% | 18% |
-| Budgets | 19% | 27% |
-| PowerPoint | 19% | 27% |
-| Entrepreneurial | 19% | 23% |
-| Partnership | 19% | 14% |
-| Influence | 17% | 18% |
-| Microsoft Office | 17% | 23% |
-| Pricing | 17% | 4% |
-| crafting | 17% | 14% |
-| Presentation | 17% | 18% |
-| Product Development | 17% | 9% |
-| Reasonable accommodations | 17% | 27% |
-| Ownership | 17% | 14% |
-| Budget | 17% | 14% |
-| Packaging | 17% | 14% |
-| R&D | 17% | 4% |
-| Merchandising | 17% | 4% |
-| Written Communication | 17% | 23% |
-| Digital Marketing | 17% | 27% |
-| Coordination | 14% | 14% |
+| Analytics | 19% | 24% |
+| Entrepreneurial | 19% | 24% |
+| Reasonable accommodations | 19% | 29% |
+| Flexibility | 19% | 19% |
+| Merchandising | 19% | 5% |
+| pregnancy | 19% | 14% |
+| Written Communication | 19% | 24% |
+| Messaging | 16% | 19% |
+| Metrics | 16% | 19% |
+| Market Research | 16% | 24% |
+| Presentation | 16% | 19% |
+| Word | 16% | 19% |
+| Educational | 16% | 19% |
+| Vacation | 16% | 19% |
+| Ecommerce | 16% | 14% |
+| Listening | 16% | 14% |
+| Manufacturing | 16% | 14% |
+| Packaging | 16% | 14% |
+| R&D | 16% | 5% |
+| Recommendations | 16% | 14% |
 
 ## Soft skills employers mention
 
-Communication (83%), Communication Skills (39%), Collaboration (31%), Leadership (28%), Presentations (25%), Analytical Skills (22%), Problem Solving (19%), Attention to Detail (14%), Critical Thinking (14%), Creativity (14%)
+Communication (81%), Communication Skills (42%), Leadership (29%), Collaboration (23%), Presentations (23%), Analytical Skills (19%), Problem Solving (16%), Creativity (16%), Attention to Detail (13%), Critical Thinking (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

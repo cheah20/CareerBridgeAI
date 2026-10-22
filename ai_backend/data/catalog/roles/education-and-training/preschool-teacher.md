@@ -4,7 +4,7 @@
 - **Also called:** Kindergarten Teacher, Early Childhood Educator
 - **O*NET:** 25-2011.00 Preschool Teachers, Except Special Education
 - **ESCO:** early years teacher
-- **Job ads analysed:** 28 (Internship / Fresh Graduate 17, Mid-level 4, Lead / Manager 7)
+- **Job ads analysed:** 26 (Internship / Fresh Graduate 15, Mid-level 4, Lead / Manager 7)
 
 ## What the job involves
 
@@ -16,44 +16,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate |
 |---|---|---|
-| Teaching **(core)** | 61% | 71% |
-| Childcare **(core)** | 43% | 59% |
-| Professional Development **(core)** | 39% | 41% |
-| Character **(core)** | 36% | 59% |
-| Go **(core)** | 36% | 59% |
-| solve problems **(core)** | 36% | 59% |
-| Mobile **(core)** | 29% | 47% |
-| Dynamic Environment **(core)** | 25% | 41% |
-| Employee Assistance Program **(core)** | 25% | 41% |
-| Job posting | 21% | 35% |
-| PDF | 21% | 35% |
-| Posting | 21% | 35% |
-| Vacation | 21% | 29% |
-| Background Check | 21% | 24% |
-| Paid Time Off | 21% | 35% |
-| Pathways | 21% | 35% |
-| Disability Insurance | 21% | 35% |
-| Life Insurance | 21% | 35% |
-| Vision Insurance | 21% | 35% |
-| Teaching Experience | 21% | 24% |
-| GED | 21% | 35% |
-| High School Diploma | 21% | 35% |
-| High School Diploma/GED | 21% | 35% |
-| history | 18% | 29% |
-| Attendance | 18% | 6% |
-| Meetings | 18% | 0% |
-| Conferences | 14% | 0% |
-| Responsibility | 14% | 6% |
-| Part Time | 14% | 18% |
-| Tuition Reimbursement | 14% | 24% |
-| Health and Safety | 14% | 18% |
-| Associate Degree | 14% | 24% |
-| English | 11% | 6% |
-| Sheets | 11% | 0% |
+| Teaching **(core)** | 58% | 67% |
+| Childcare **(core)** | 42% | 60% |
+| Professional Development **(core)** | 38% | 40% |
+| Character **(core)** | 35% | 60% |
+| Go **(core)** | 35% | 60% |
+| solve problems **(core)** | 35% | 60% |
+| Mobile **(core)** | 27% | 47% |
+| Background Check | 23% | 27% |
+| Dynamic Environment | 23% | 40% |
+| Employee Assistance Program | 23% | 40% |
+| Job posting | 19% | 33% |
+| PDF | 19% | 33% |
+| Posting | 19% | 33% |
+| Attendance | 19% | 7% |
+| Meetings | 19% | 0% |
+| Vacation | 19% | 27% |
+| Paid Time Off | 19% | 33% |
+| Pathways | 19% | 33% |
+| Disability Insurance | 19% | 33% |
+| Life Insurance | 19% | 33% |
+| Vision Insurance | 19% | 33% |
+| Teaching Experience | 19% | 20% |
+| GED | 19% | 33% |
+| High School Diploma | 19% | 33% |
+| High School Diploma/GED | 19% | 33% |
+| history | 15% | 27% |
+| Conferences | 15% | 0% |
+| Responsibility | 15% | 7% |
+| Part Time | 15% | 20% |
+| Health and Safety | 15% | 20% |
+| English | 12% | 7% |
+| Sheets | 12% | 0% |
 
 ## Soft skills employers mention
 
-Communication (29%), Leadership (29%)
+Communication (31%), Leadership (27%)
 
 ## Essential skills (ESCO)
 

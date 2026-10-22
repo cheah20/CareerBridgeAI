@@ -4,7 +4,7 @@
 - **Also called:** Senior Accountant
 - **O*NET:** 13-2011.00 Accountants and Auditors
 - **ESCO:** accountant
-- **Job ads analysed:** 1,319 (Internship / Fresh Graduate 229, Junior 231, Mid-level 313, Senior 536, Lead / Manager 10)
+- **Job ads analysed:** 1,174 (Internship / Fresh Graduate 193, Junior 217, Mid-level 283, Senior 472, Lead / Manager 9)
 
 ## What the job involves
 
@@ -16,44 +16,43 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Accounting **(core)** | 97% | 94% | 98% | 96% | 98% |
-| Excel **(core)** | 51% | 52% | 50% | 52% | 50% |
-| General ledger **(core)** | 37% | 34% | 40% | 34% | 39% |
-| Tax **(core)** | 35% | 30% | 34% | 41% | 35% |
-| Analytical **(core)** | 34% | 32% | 35% | 29% | 37% |
-| financial statements **(core)** | 32% | 28% | 30% | 32% | 36% |
-| Audit **(core)** | 30% | 26% | 29% | 21% | 37% |
-| GAAP **(core)** | 28% | 24% | 21% | 24% | 36% |
-| CPA **(core)** | 26% | 13% | 16% | 19% | 40% |
-| Financial Reporting | 23% | 18% | 23% | 21% | 26% |
-| Accounts Payable | 22% | 25% | 27% | 24% | 18% |
-| Analyze | 22% | 20% | 16% | 22% | 26% |
-| Accounting Principles | 22% | 22% | 20% | 28% | 19% |
-| Audits | 21% | 24% | 21% | 18% | 22% |
-| Controls | 18% | 19% | 11% | 13% | 24% |
-| Reconciliation | 18% | 20% | 19% | 19% | 16% |
-| Payroll | 18% | 16% | 20% | 24% | 14% |
-| ERP | 17% | 14% | 15% | 17% | 20% |
-| Deadlines | 17% | 18% | 14% | 18% | 17% |
-| Budget | 16% | 15% | 10% | 22% | 16% |
-| Accounts receivable | 16% | 24% | 22% | 17% | 10% |
-| Microsoft Office | 16% | 17% | 13% | 20% | 16% |
-| Integrity | 15% | 17% | 15% | 16% | 15% |
-| Word | 14% | 19% | 12% | 17% | 11% |
-| Manufacturing | 13% | 15% | 10% | 11% | 15% |
-| Budgeting | 13% | 8% | 15% | 13% | 14% |
-| Special Projects | 13% | 11% | 16% | 10% | 14% |
-| Budgets | 12% | 12% | 10% | 13% | 13% |
-| work independently | 12% | 14% | 12% | 12% | 12% |
-| Inventory | 12% | 11% | 12% | 12% | 13% |
-| Microsoft Excel | 12% | 14% | 14% | 13% | 10% |
-| Maintenance | 12% | 15% | 9% | 16% | 10% |
-| Financial Data | 12% | 12% | 13% | 14% | 10% |
-| Efficiency | 12% | 12% | 8% | 9% | 14% |
+| Accounting **(core)** | 97% | 94% | 98% | 95% | 98% |
+| Excel **(core)** | 51% | 50% | 51% | 53% | 51% |
+| General ledger **(core)** | 37% | 34% | 39% | 35% | 40% |
+| Tax **(core)** | 35% | 30% | 36% | 39% | 35% |
+| Analytical **(core)** | 33% | 28% | 34% | 28% | 37% |
+| financial statements **(core)** | 32% | 27% | 30% | 32% | 37% |
+| Audit **(core)** | 30% | 22% | 30% | 22% | 37% |
+| GAAP **(core)** | 28% | 21% | 21% | 24% | 35% |
+| CPA | 25% | 13% | 16% | 18% | 38% |
+| Accounts Payable | 23% | 26% | 28% | 25% | 20% |
+| Financial Reporting | 23% | 20% | 23% | 21% | 25% |
+| Accounting Principles | 22% | 22% | 21% | 27% | 20% |
+| Analyze | 22% | 17% | 15% | 22% | 28% |
+| Audits | 20% | 23% | 21% | 18% | 21% |
+| Reconciliation | 18% | 21% | 19% | 19% | 16% |
+| Payroll | 18% | 18% | 20% | 24% | 14% |
+| Controls | 18% | 17% | 11% | 13% | 23% |
+| ERP | 18% | 14% | 15% | 18% | 20% |
+| Accounts receivable | 17% | 24% | 22% | 17% | 12% |
+| Deadlines | 16% | 16% | 14% | 17% | 17% |
+| Budget | 16% | 12% | 11% | 20% | 17% |
+| Microsoft Office | 16% | 17% | 12% | 19% | 15% |
+| Integrity | 15% | 16% | 16% | 14% | 14% |
+| Word | 14% | 16% | 12% | 17% | 12% |
+| Budgeting | 13% | 8% | 14% | 13% | 14% |
+| Special Projects | 13% | 12% | 14% | 10% | 14% |
+| work independently | 13% | 14% | 12% | 13% | 13% |
+| Budgets | 13% | 12% | 10% | 14% | 13% |
+| Manufacturing | 12% | 14% | 10% | 12% | 14% |
+| Microsoft Excel | 12% | 13% | 14% | 14% | 10% |
+| Inventory | 12% | 10% | 12% | 12% | 12% |
+| Financial Data | 12% | 12% | 13% | 13% | 11% |
+| Maintenance | 12% | 14% | 8% | 14% | 11% |
 
 ## Soft skills employers mention
 
-Communication (49%), Communication Skills (23%), Attention to Detail (20%), Problem Solving (20%), Leadership (12%), Analytical Skills (10%)
+Communication (48%), Communication Skills (22%), Attention to Detail (20%), Problem Solving (19%), Leadership (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

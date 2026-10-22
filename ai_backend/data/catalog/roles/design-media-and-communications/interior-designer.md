@@ -3,7 +3,7 @@
 - **Field:** Design, Media & Communications
 - **O*NET:** 27-1025.00 Interior Designers
 - **ESCO:** interior designer
-- **Job ads analysed:** 39 (Internship / Fresh Graduate 8, Junior 7, Mid-level 15, Senior 9)
+- **Job ads analysed:** 31 (Internship / Fresh Graduate 7, Junior 5, Mid-level 13, Senior 6)
 
 ## What the job involves
 
@@ -13,54 +13,54 @@ Plan, design, and furnish the internal space of rooms or buildings. Design inter
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Mid-level |
-|---|---|---|
-| AutoCAD **(core)** | 64% | 47% |
-| Architecture **(core)** | 44% | 47% |
-| Revit **(core)** | 41% | 33% |
-| Presentation **(core)** | 36% | 47% |
-| Microsoft Office **(core)** | 31% | 13% |
-| Paid Holidays **(core)** | 31% | 20% |
-| Vendors **(core)** | 31% | 33% |
-| Excellence **(core)** | 28% | 33% |
-| Meetings **(core)** | 28% | 40% |
-| 401k **(core)** | 28% | 27% |
-| Project Management **(core)** | 28% | 27% |
-| Coordination **(core)** | 26% | 20% |
-| Portfolio **(core)** | 26% | 40% |
-| Installation **(core)** | 26% | 13% |
-| Organized **(core)** | 26% | 20% |
-| Programming **(core)** | 26% | 0% |
-| Adobe **(core)** | 26% | 13% |
-| Resume | 23% | 27% |
-| SketchUp | 23% | 33% |
-| Budget | 23% | 7% |
-| Dental Insurance | 23% | 20% |
-| Specification | 23% | 27% |
-| Lighting | 23% | 7% |
-| Construction Documents | 20% | 27% |
-| Government | 20% | 7% |
-| Building Codes | 20% | 7% |
-| Construction Drawings | 20% | 27% |
-| Drawing | 20% | 13% |
-| Paid Time Off | 20% | 0% |
-| Photoshop | 20% | 20% |
-| Objectives | 20% | 0% |
-| Consultants | 20% | 7% |
-| Work Environment | 18% | 13% |
-| Excel | 18% | 7% |
-| Layout | 18% | 13% |
-| Vision Insurance | 18% | 0% |
-| Budgeting | 18% | 0% |
-| Budgets | 18% | 7% |
-| Microsoft Office Suite | 18% | 0% |
-| PTO | 18% | 7% |
-| Verbal Communication | 18% | 33% |
-| Vacation | 18% | 27% |
+| Skill | All ads |  |
+|---|---|
+| AutoCAD **(core)** | 64% |  |
+| Architecture **(core)** | 45% |  |
+| Revit **(core)** | 39% |  |
+| Holidays **(core)** | 39% |  |
+| Presentation **(core)** | 36% |  |
+| Microsoft Office **(core)** | 32% |  |
+| Paid Holidays **(core)** | 32% |  |
+| Vendors **(core)** | 32% |  |
+| Project Management **(core)** | 32% |  |
+| Excellence **(core)** | 29% |  |
+| Meetings **(core)** | 29% |  |
+| Organized **(core)** | 29% |  |
+| 401k **(core)** | 29% |  |
+| Portfolio **(core)** | 26% |  |
+| Budget **(core)** | 26% |  |
+| Construction Drawings **(core)** | 26% |  |
+| Dental Insurance **(core)** | 26% |  |
+| SketchUp | 23% |  |
+| Drawing | 23% |  |
+| Installation | 23% |  |
+| Programming | 23% |  |
+| Specification | 23% |  |
+| Adobe | 23% |  |
+| CAD | 19% |  |
+| Construction Documents | 19% |  |
+| Coordination | 19% |  |
+| Government | 19% |  |
+| Resume | 19% |  |
+| Building Codes | 19% |  |
+| Layout | 19% |  |
+| Paid Time Off | 19% |  |
+| Photoshop | 19% |  |
+| Vision Insurance | 19% |  |
+| Objectives | 19% |  |
+| Verbal Communication | 19% |  |
+| Deadlines | 16% |  |
+| Budgeting | 16% |  |
+| Budgets | 16% |  |
+| Microsoft Office Suite | 16% |  |
+| PTO | 16% |  |
+| Hospitality | 16% |  |
+| Scheduling | 16% |  |
 
 ## Soft skills employers mention
 
-Communication (69%), Presentations (31%), Communication Skills (31%), Creativity (28%), Attention to Detail (20%), Collaboration (18%), Leadership (13%), Presentation Skills (10%), Teamwork (10%), Organizational Skills (10%)
+Communication (64%), Presentations (39%), Communication Skills (32%), Creativity (29%), Attention to Detail (19%), Collaboration (16%), Teamwork (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

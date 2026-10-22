@@ -4,7 +4,7 @@
 - **Also called:** Mechatronics Engineer, Robotics Engineer, Controls Engineer
 - **O*NET:** 17-2199.08 Robotics Engineers; 17-2199.05 Mechatronics Engineers; 17-2071.00 Electrical Engineers
 - **ESCO:** automation engineer
-- **Job ads analysed:** 286 (Internship / Fresh Graduate 75, Junior 27, Mid-level 107, Senior 66, Lead / Manager 11)
+- **Job ads analysed:** 253 (Internship / Fresh Graduate 62, Junior 23, Mid-level 98, Senior 61, Lead / Manager 9)
 
 ## What the job involves
 
@@ -16,49 +16,46 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
 |---|---|---|---|---|---|
-| Automation **(core)** | 76% | 80% | 74% | 74% | 76% |
-| Controls **(core)** | 57% | 68% | 82% | 49% | 50% |
-| Electrical **(core)** | 53% | 61% | 63% | 46% | 53% |
-| Programming **(core)** | 47% | 55% | 48% | 43% | 41% |
-| PLC **(core)** | 44% | 55% | 59% | 38% | 36% |
-| Testing **(core)** | 43% | 40% | 33% | 47% | 42% |
-| Manufacturing **(core)** | 42% | 47% | 56% | 38% | 41% |
-| control systems **(core)** | 38% | 45% | 56% | 29% | 36% |
-| Troubleshooting **(core)** | 35% | 44% | 44% | 29% | 33% |
-| Mechanical **(core)** | 32% | 35% | 52% | 28% | 32% |
-| Implementation **(core)** | 28% | 28% | 11% | 23% | 41% |
-| Maintenance **(core)** | 27% | 28% | 44% | 22% | 27% |
-| industrial software **(core)** | 26% | 32% | 33% | 21% | 26% |
-| Electrical Engineering **(core)** | 26% | 36% | 26% | 20% | 27% |
-| Hardware | 20% | 27% | 22% | 16% | 21% |
-| Logic | 20% | 19% | 33% | 22% | 12% |
-| Python | 20% | 15% | 4% | 24% | 21% |
-| Commissioning | 19% | 29% | 15% | 12% | 23% |
-| troubleshoot | 19% | 20% | 44% | 19% | 11% |
-| Onsite | 18% | 12% | 15% | 22% | 26% |
-| Instrumentation | 18% | 19% | 26% | 12% | 21% |
-| Robotics | 16% | 24% | 7% | 17% | 14% |
-| Power | 15% | 21% | 7% | 14% | 15% |
-| Control system | 15% | 24% | 11% | 11% | 12% |
-| Installation | 15% | 23% | 7% | 11% | 15% |
-| Network | 15% | 32% | 11% | 11% | 3% |
-| Project Management | 15% | 12% | 22% | 16% | 14% |
-| Continuous Improvement | 14% | 23% | 18% | 8% | 12% |
-| Components | 14% | 12% | 18% | 16% | 15% |
-| Reliability | 14% | 16% | 22% | 13% | 12% |
-| Computer Science | 14% | 8% | 11% | 15% | 21% |
-| Infrastructure | 14% | 15% | 11% | 16% | 15% |
-| 401k | 14% | 17% | 11% | 10% | 20% |
-| Efficiency | 14% | 21% | 7% | 12% | 14% |
-| Validation | 14% | 13% | 11% | 13% | 18% |
-| Schematics | 13% | 15% | 30% | 13% | 8% |
-| AutoCAD | 13% | 13% | 22% | 12% | 12% |
-| Execution | 13% | 13% | 4% | 12% | 14% |
-| Networks | 12% | 15% | 15% | 8% | 17% |
+| Automation **(core)** | 77% | 79% | 74% | 76% | 77% |
+| Controls **(core)** | 55% | 64% | 83% | 47% | 48% |
+| Electrical **(core)** | 51% | 61% | 65% | 43% | 49% |
+| Programming **(core)** | 44% | 50% | 48% | 41% | 41% |
+| PLC **(core)** | 43% | 56% | 61% | 37% | 34% |
+| Testing **(core)** | 41% | 31% | 30% | 48% | 41% |
+| Manufacturing **(core)** | 40% | 45% | 56% | 37% | 38% |
+| control systems **(core)** | 36% | 42% | 52% | 28% | 36% |
+| Troubleshooting **(core)** | 35% | 44% | 52% | 29% | 31% |
+| Mechanical **(core)** | 30% | 29% | 56% | 26% | 30% |
+| Implementation **(core)** | 26% | 23% | 13% | 20% | 41% |
+| Electrical Engineering | 25% | 37% | 26% | 18% | 25% |
+| industrial software | 25% | 27% | 35% | 20% | 25% |
+| Maintenance | 24% | 24% | 48% | 18% | 25% |
+| Python | 21% | 16% | 0% | 26% | 23% |
+| Hardware | 20% | 24% | 22% | 17% | 21% |
+| troubleshoot | 19% | 19% | 48% | 19% | 8% |
+| Onsite | 19% | 11% | 13% | 24% | 25% |
+| Commissioning | 18% | 24% | 17% | 11% | 23% |
+| Robotics | 16% | 19% | 9% | 18% | 15% |
+| Instrumentation | 16% | 18% | 30% | 11% | 16% |
+| Logic | 16% | 16% | 30% | 18% | 8% |
+| 401k | 15% | 21% | 9% | 10% | 21% |
+| Project Management | 15% | 10% | 26% | 16% | 13% |
+| Computer Science | 15% | 10% | 4% | 16% | 20% |
+| Components | 14% | 11% | 22% | 16% | 13% |
+| Installation | 14% | 26% | 9% | 10% | 13% |
+| Validation | 14% | 14% | 13% | 13% | 16% |
+| Reliability | 14% | 19% | 13% | 12% | 12% |
+| Infrastructure | 14% | 14% | 9% | 15% | 15% |
+| Power | 14% | 19% | 4% | 12% | 15% |
+| Control system | 13% | 23% | 13% | 9% | 10% |
+| Efficiency | 13% | 19% | 4% | 11% | 15% |
+| Scripts | 13% | 2% | 4% | 18% | 18% |
+| Network | 13% | 31% | 9% | 11% | 0% |
+| Continuous Improvement | 12% | 19% | 17% | 6% | 12% |
 
 ## Soft skills employers mention
 
-Communication (48%), Problem Solving (21%), Communication Skills (19%), Leadership (16%), Collaboration (12%)
+Communication (46%), Problem Solving (22%), Communication Skills (17%), Leadership (15%), Collaboration (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

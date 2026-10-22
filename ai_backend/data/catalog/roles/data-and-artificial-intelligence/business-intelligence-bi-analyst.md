@@ -4,7 +4,7 @@
 - **Also called:** Business Intelligence Analyst, BI Analyst, BI Developer
 - **O*NET:** 15-2051.01 Business Intelligence Analysts
 - **ESCO:** business intelligence manager
-- **Job ads analysed:** 94 (Junior 12, Mid-level 60, Senior 20, Lead / Manager 2)
+- **Job ads analysed:** 85 (Junior 11, Mid-level 58, Senior 16)
 
 ## What the job involves
 
@@ -16,55 +16,54 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level | Senior |
 |---|---|---|---|
-| SQL **(core)** | 74% | 75% | 70% |
-| BI **(core)** | 66% | 65% | 75% |
-| Power BI **(core)** | 63% | 58% | 70% |
-| Business Intelligence **(core)** | 58% | 58% | 50% |
-| Dashboards **(core)** | 57% | 62% | 40% |
-| Power **(core)** | 56% | 52% | 75% |
-| Analytics **(core)** | 46% | 38% | 65% |
-| Data Visualization **(core)** | 42% | 40% | 45% |
-| Data Analysis **(core)** | 40% | 37% | 45% |
-| Visualization **(core)** | 37% | 33% | 40% |
-| Insights **(core)** | 36% | 37% | 35% |
-| Queries **(core)** | 34% | 40% | 25% |
-| Computer Science **(core)** | 34% | 40% | 20% |
-| ETL **(core)** | 33% | 35% | 30% |
-| Tableau **(core)** | 33% | 30% | 30% |
-| Analytical **(core)** | 32% | 30% | 40% |
-| Modeling **(core)** | 30% | 28% | 40% |
-| DAX **(core)** | 30% | 32% | 25% |
-| Excel **(core)** | 27% | 18% | 40% |
-| Data Modeling **(core)** | 27% | 28% | 15% |
-| Data Warehousing | 21% | 20% | 30% |
-| Python | 21% | 22% | 15% |
-| Data Warehouse | 21% | 25% | 20% |
-| Visualizations | 20% | 22% | 20% |
-| Database | 20% | 17% | 30% |
-| Actionable Insights | 19% | 22% | 10% |
-| Integrity | 19% | 22% | 15% |
-| Programming | 19% | 23% | 10% |
-| Data Sources | 19% | 22% | 15% |
-| Data Analytics | 18% | 17% | 10% |
-| Datasets | 18% | 18% | 20% |
-| SQL Server | 18% | 18% | 20% |
-| Cloud | 17% | 20% | 10% |
-| BI solutions | 17% | 15% | 25% |
-| Business Requirements | 17% | 17% | 15% |
-| Analyze | 16% | 18% | 15% |
-| Azure | 16% | 20% | 0% |
-| Data Models | 15% | 17% | 5% |
-| SQL Queries | 15% | 18% | 10% |
-| Metrics | 15% | 20% | 10% |
+| SQL **(core)** | 74% | 76% | 69% |
+| BI **(core)** | 65% | 66% | 69% |
+| Power BI **(core)** | 62% | 60% | 62% |
+| Business Intelligence **(core)** | 58% | 57% | 56% |
+| Dashboards **(core)** | 58% | 60% | 50% |
+| Power **(core)** | 54% | 52% | 69% |
+| Analytics **(core)** | 41% | 36% | 56% |
+| Data Visualization **(core)** | 40% | 40% | 38% |
+| Data Analysis **(core)** | 39% | 36% | 38% |
+| Queries **(core)** | 36% | 40% | 31% |
+| Insights **(core)** | 34% | 34% | 44% |
+| ETL **(core)** | 33% | 36% | 19% |
+| Computer Science **(core)** | 33% | 40% | 19% |
+| Visualization **(core)** | 32% | 31% | 31% |
+| Tableau **(core)** | 32% | 28% | 38% |
+| Analytical **(core)** | 31% | 28% | 50% |
+| Data Modeling **(core)** | 28% | 29% | 19% |
+| Modeling **(core)** | 27% | 28% | 31% |
+| DAX **(core)** | 27% | 33% | 6% |
+| Excel | 24% | 17% | 31% |
+| Data Warehouse | 22% | 24% | 25% |
+| Visualizations | 21% | 22% | 25% |
+| Python | 21% | 21% | 19% |
+| Data Warehousing | 20% | 21% | 19% |
+| Data Sources | 20% | 21% | 19% |
+| Data Analytics | 19% | 16% | 12% |
+| Programming | 19% | 22% | 12% |
+| SQL Server | 19% | 19% | 25% |
+| Actionable Insights | 18% | 21% | 12% |
+| BI solutions | 18% | 16% | 25% |
+| Business Requirements | 18% | 17% | 19% |
+| Database | 18% | 16% | 19% |
+| Azure | 16% | 21% | 0% |
+| Data Accuracy | 16% | 21% | 0% |
+| Analyze | 15% | 17% | 19% |
+| Cloud | 15% | 19% | 6% |
+| SQL Queries | 15% | 17% | 12% |
+| Datasets | 15% | 19% | 6% |
+| Integrity | 15% | 19% | 0% |
+| Metrics | 15% | 19% | 12% |
 | Information Systems | 15% | 22% | 0% |
-| Transformation | 15% | 12% | 20% |
-| Data Accuracy | 15% | 20% | 0% |
-| Databases | 14% | 15% | 5% |
-| ETL Processes | 14% | 15% | 20% |
+| Data Models | 14% | 16% | 6% |
+| Databases | 13% | 16% | 6% |
+| Visualization Tools | 13% | 14% | 12% |
 
 ## Soft skills employers mention
 
-Communication (48%), Problem Solving (31%), Decision Making (22%), Communication Skills (22%), Leadership (17%), Problem Solving Skills (17%), Analytical Skills (12%)
+Communication (51%), Problem Solving (33%), Communication Skills (25%), Decision Making (20%), Leadership (18%), Problem Solving Skills (18%), Analytical Skills (13%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

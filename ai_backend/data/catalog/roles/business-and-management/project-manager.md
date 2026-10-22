@@ -3,7 +3,7 @@
 - **Field:** Business & Management
 - **O*NET:** 13-1082.00 Project Management Specialists
 - **ESCO:** project manager
-- **Job ads analysed:** 2,139 (Internship / Fresh Graduate 254, Junior 178, Mid-level 1264, Senior 395, Lead / Manager 48)
+- **Job ads analysed:** 1,761 (Internship / Fresh Graduate 202, Junior 148, Mid-level 1061, Senior 317, Lead / Manager 33)
 
 ## What the job involves
 
@@ -15,40 +15,39 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior | Lead / Manager |
 |---|---|---|---|---|---|---|
-| Project Management **(core)** | 70% | 68% | 70% | 68% | 76% | 75% |
-| Budget **(core)** | 38% | 47% | 32% | 34% | 46% | 48% |
-| Meetings **(core)** | 30% | 34% | 25% | 30% | 31% | 29% |
-| Execution **(core)** | 29% | 27% | 28% | 30% | 27% | 35% |
-| Risk **(core)** | 27% | 24% | 18% | 28% | 27% | 42% |
-| Risks | 24% | 22% | 21% | 22% | 28% | 44% |
-| Implementation | 22% | 26% | 22% | 20% | 25% | 44% |
-| Deliverables | 22% | 22% | 21% | 21% | 27% | 27% |
-| Coordination | 21% | 26% | 22% | 20% | 22% | 23% |
-| Objectives | 21% | 23% | 16% | 19% | 29% | 21% |
-| Excel | 21% | 24% | 29% | 20% | 20% | 4% |
-| Budgets | 21% | 27% | 26% | 18% | 25% | 8% |
-| PMP | 20% | 20% | 15% | 20% | 25% | 17% |
-| Resource | 20% | 21% | 22% | 17% | 26% | 23% |
-| Management Experience | 19% | 22% | 21% | 18% | 19% | 21% |
-| Vendors | 18% | 26% | 16% | 17% | 22% | 8% |
-| Scheduling | 18% | 26% | 14% | 18% | 20% | 4% |
-| Timelines | 18% | 18% | 20% | 18% | 19% | 10% |
-| MS | 17% | 18% | 18% | 16% | 16% | 17% |
-| Communications | 16% | 16% | 12% | 17% | 13% | 23% |
-| Collaborative | 16% | 14% | 16% | 16% | 18% | 10% |
-| Construction Management | 15% | 16% | 18% | 15% | 15% | 4% |
-| Project Management Experience | 15% | 20% | 20% | 13% | 14% | 6% |
-| Agile | 14% | 8% | 10% | 14% | 20% | 29% |
-| Microsoft Office | 14% | 18% | 19% | 14% | 11% | 0% |
-| Word | 14% | 19% | 17% | 13% | 13% | 2% |
-| Analytical | 14% | 14% | 12% | 13% | 16% | 12% |
-| Work Environment | 13% | 18% | 10% | 11% | 16% | 27% |
-| Subcontractors | 13% | 19% | 9% | 13% | 12% | 6% |
-| Testing | 13% | 14% | 12% | 13% | 11% | 10% |
+| Project Management **(core)** | 68% | 66% | 70% | 67% | 76% | 64% |
+| Budget **(core)** | 37% | 46% | 31% | 33% | 43% | 46% |
+| Meetings **(core)** | 28% | 31% | 25% | 27% | 31% | 33% |
+| Execution **(core)** | 26% | 26% | 24% | 25% | 27% | 27% |
+| Risks | 24% | 22% | 22% | 23% | 29% | 27% |
+| Risk | 24% | 20% | 18% | 24% | 28% | 30% |
+| Deliverables | 22% | 25% | 20% | 20% | 28% | 30% |
+| Objectives | 22% | 21% | 12% | 21% | 29% | 24% |
+| Implementation | 21% | 22% | 20% | 20% | 23% | 33% |
+| Excel | 20% | 23% | 26% | 19% | 20% | 3% |
+| Budgets | 20% | 25% | 23% | 18% | 23% | 9% |
+| Resource | 20% | 21% | 23% | 17% | 26% | 24% |
+| Timelines | 19% | 19% | 18% | 18% | 21% | 12% |
+| Vendors | 19% | 26% | 18% | 17% | 20% | 12% |
+| Management Experience | 18% | 20% | 19% | 18% | 19% | 12% |
+| Coordination | 18% | 22% | 23% | 16% | 21% | 21% |
+| PMP | 18% | 17% | 14% | 16% | 25% | 18% |
+| Scheduling | 18% | 23% | 14% | 17% | 20% | 3% |
+| Construction Management | 16% | 18% | 17% | 16% | 14% | 6% |
+| Agile | 15% | 8% | 11% | 15% | 22% | 27% |
+| Project Management Experience | 14% | 19% | 18% | 13% | 14% | 6% |
+| MS | 14% | 18% | 15% | 12% | 16% | 18% |
+| Microsoft Office | 14% | 19% | 19% | 13% | 10% | 0% |
+| Word | 13% | 20% | 16% | 12% | 14% | 0% |
+| Analytical | 13% | 15% | 14% | 14% | 11% | 18% |
+| Communications | 13% | 14% | 12% | 13% | 13% | 12% |
+| Collaborative | 13% | 14% | 18% | 11% | 16% | 12% |
+| Methodologies | 12% | 11% | 7% | 13% | 13% | 27% |
+| Work Environment | 12% | 18% | 10% | 10% | 15% | 27% |
 
 ## Soft skills employers mention
 
-Communication (65%), Leadership (40%), Communication Skills (27%), Problem Solving (21%), Collaboration (19%), Time Management (10%), Attention to Detail (10%)
+Communication (63%), Leadership (38%), Communication Skills (24%), Problem Solving (20%), Collaboration (16%), Time Management (10%), Attention to Detail (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** QC Chemist, Analytical Chemist
 - **O*NET:** 19-2031.00 Chemists; 19-1021.00 Biochemists and Biophysicists
 - **ESCO:** chemist
-- **Job ads analysed:** 109 (Internship / Fresh Graduate 8, Junior 18, Mid-level 72, Senior 7, Lead / Manager 4)
+- **Job ads analysed:** 96 (Internship / Fresh Graduate 6, Junior 16, Mid-level 64, Senior 6, Lead / Manager 4)
 
 ## What the job involves
 
@@ -16,48 +16,49 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Junior | Mid-level |
 |---|---|---|---|
-| Chemistry **(core)** | 90% | 78% | 93% |
-| Laboratory **(core)** | 76% | 72% | 79% |
-| Analytical **(core)** | 62% | 83% | 64% |
-| Chemical **(core)** | 54% | 50% | 54% |
-| Testing **(core)** | 53% | 56% | 54% |
-| Methods **(core)** | 42% | 50% | 42% |
-| MS **(core)** | 39% | 39% | 39% |
-| GC **(core)** | 38% | 44% | 39% |
-| Manufacturing **(core)** | 32% | 39% | 29% |
-| Quality Control **(core)** | 30% | 28% | 32% |
-| HPLC **(core)** | 28% | 50% | 25% |
-| R&D **(core)** | 28% | 17% | 26% |
-| Maintenance **(core)** | 27% | 22% | 29% |
-| Instrumentation | 23% | 22% | 24% |
-| QC | 21% | 22% | 18% |
-| Biology | 20% | 17% | 22% |
-| Product Development | 18% | 11% | 17% |
-| Validation | 18% | 33% | 15% |
-| FDA | 18% | 33% | 18% |
-| Regulatory | 18% | 17% | 17% |
-| Word | 18% | 28% | 17% |
-| Laboratory Equipment | 17% | 22% | 18% |
-| Stability | 17% | 11% | 17% |
-| Experiments | 16% | 22% | 19% |
-| Protocols | 16% | 22% | 15% |
-| SOPs | 16% | 22% | 18% |
+| Chemistry **(core)** | 90% | 81% | 92% |
+| Laboratory **(core)** | 78% | 81% | 78% |
+| Analytical **(core)** | 66% | 94% | 64% |
+| Testing **(core)** | 54% | 62% | 53% |
+| Chemical **(core)** | 53% | 56% | 53% |
+| Methods **(core)** | 48% | 56% | 47% |
+| GC **(core)** | 41% | 50% | 39% |
+| MS **(core)** | 41% | 44% | 38% |
+| Quality Control **(core)** | 32% | 31% | 34% |
+| Manufacturing **(core)** | 30% | 44% | 25% |
+| HPLC **(core)** | 29% | 56% | 25% |
+| R&D **(core)** | 27% | 19% | 27% |
+| Instrumentation **(core)** | 25% | 25% | 27% |
+| Maintenance **(core)** | 25% | 25% | 28% |
+| QC | 22% | 25% | 19% |
+| Validation | 20% | 38% | 16% |
+| Biology | 20% | 19% | 22% |
+| Product Development | 18% | 12% | 16% |
+| FDA | 18% | 38% | 17% |
+| Laboratory Equipment | 18% | 25% | 17% |
+| Protocols | 18% | 25% | 16% |
+| SOPs | 18% | 25% | 19% |
+| Stability | 17% | 12% | 16% |
+| Regulatory | 17% | 19% | 14% |
 | Responsibility | 16% | 0% | 17% |
-| Analytical Techniques | 15% | 11% | 17% |
-| Analyze | 15% | 17% | 14% |
-| Excel | 15% | 11% | 15% |
-| Pharmaceutical | 14% | 11% | 14% |
-| Troubleshooting | 14% | 11% | 11% |
-| GMP | 14% | 22% | 14% |
-| Writing | 14% | 28% | 14% |
-| Rules | 14% | 22% | 12% |
-| GLP | 14% | 28% | 14% |
-| Work Environment | 13% | 6% | 14% |
-| Email | 13% | 17% | 15% |
+| Experiments | 16% | 25% | 17% |
+| Excel | 16% | 12% | 16% |
+| Word | 16% | 19% | 14% |
+| Analyze | 15% | 19% | 12% |
+| Pharmaceutical | 14% | 12% | 14% |
+| Troubleshooting | 14% | 12% | 11% |
+| GMP | 14% | 25% | 12% |
+| Calibration | 14% | 12% | 16% |
+| Standard Operating Procedures | 14% | 19% | 16% |
+| Analytical Techniques | 14% | 12% | 14% |
+| Rules | 14% | 25% | 12% |
+| Written Communication | 12% | 6% | 11% |
+| Clinical | 12% | 31% | 9% |
+| Writing | 12% | 25% | 12% |
 
 ## Soft skills employers mention
 
-Communication (37%), Problem Solving (22%), Communication Skills (13%), Leadership (11%), Collaboration (10%)
+Communication (38%), Problem Solving (20%), Communication Skills (14%), Leadership (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Marketing Specialist
 - **O*NET:** 13-1161.00 Market Research Analysts and Marketing Specialists
 - **ESCO:** marketing manager
-- **Job ads analysed:** 186 (Internship / Fresh Graduate 53, Junior 34, Mid-level 89, Senior 8, Lead / Manager 2)
+- **Job ads analysed:** 168 (Internship / Fresh Graduate 45, Junior 31, Mid-level 84, Senior 6, Lead / Manager 2)
 
 ## What the job involves
 
@@ -16,44 +16,43 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level |
 |---|---|---|---|---|
-| Social media **(core)** | 41% | 40% | 35% | 46% |
-| Digital Marketing **(core)** | 34% | 32% | 41% | 34% |
-| Email **(core)** | 32% | 38% | 47% | 21% |
-| Advertising **(core)** | 31% | 34% | 38% | 28% |
-| Communications **(core)** | 31% | 47% | 50% | 16% |
-| Analytics **(core)** | 30% | 36% | 38% | 24% |
-| Execution **(core)** | 30% | 36% | 38% | 20% |
-| Analyze **(core)** | 27% | 30% | 38% | 21% |
-| Project Management **(core)** | 26% | 30% | 32% | 20% |
-| Analytical | 24% | 28% | 29% | 19% |
-| Excel | 20% | 21% | 29% | 16% |
-| Objectives | 19% | 28% | 18% | 14% |
-| Google | 19% | 19% | 21% | 19% |
-| work independently | 19% | 17% | 18% | 18% |
-| Insights | 19% | 24% | 32% | 10% |
-| Deadlines | 18% | 28% | 18% | 11% |
-| Metrics | 18% | 15% | 35% | 15% |
-| CRM | 17% | 17% | 21% | 18% |
-| Optimization | 17% | 26% | 18% | 12% |
-| Collaborative | 17% | 17% | 32% | 11% |
-| Recommendations | 17% | 17% | 18% | 17% |
-| Messaging | 16% | 24% | 21% | 11% |
-| Verbal Communication | 16% | 17% | 21% | 15% |
-| Budget | 16% | 21% | 15% | 11% |
-| SEO | 16% | 24% | 15% | 12% |
-| Writing | 16% | 17% | 21% | 15% |
-| B2B | 15% | 15% | 18% | 11% |
-| Facebook | 15% | 11% | 24% | 16% |
-| Written and Verbal Communication | 14% | 13% | 21% | 14% |
-| LinkedIn | 14% | 17% | 21% | 12% |
-| PowerPoint | 14% | 17% | 29% | 8% |
-| Vendors | 14% | 13% | 21% | 10% |
-| Google Analytics | 13% | 9% | 15% | 16% |
-| Market Research | 13% | 15% | 3% | 16% |
+| Social media **(core)** | 41% | 38% | 39% | 46% |
+| Digital Marketing **(core)** | 35% | 36% | 45% | 33% |
+| Email **(core)** | 32% | 33% | 48% | 23% |
+| Communications **(core)** | 30% | 44% | 52% | 17% |
+| Analytics **(core)** | 29% | 38% | 39% | 23% |
+| Advertising **(core)** | 29% | 31% | 39% | 25% |
+| Analyze **(core)** | 28% | 31% | 36% | 23% |
+| Execution **(core)** | 26% | 31% | 32% | 19% |
+| Analytical | 24% | 27% | 32% | 20% |
+| Project Management | 23% | 29% | 26% | 18% |
+| Excel | 21% | 22% | 32% | 16% |
+| work independently | 20% | 18% | 19% | 18% |
+| Google | 19% | 20% | 23% | 18% |
+| Insights | 19% | 24% | 32% | 11% |
+| Objectives | 18% | 27% | 13% | 14% |
+| Metrics | 18% | 18% | 36% | 14% |
+| Optimization | 17% | 27% | 16% | 13% |
+| CRM | 17% | 16% | 19% | 18% |
+| Verbal Communication | 16% | 16% | 23% | 16% |
+| SEO | 16% | 27% | 16% | 11% |
+| Deadlines | 16% | 24% | 16% | 11% |
+| Writing | 16% | 16% | 19% | 16% |
+| Messaging | 15% | 22% | 16% | 12% |
+| B2B | 15% | 16% | 16% | 12% |
+| Facebook | 15% | 13% | 23% | 14% |
+| Lead Generation | 14% | 18% | 13% | 13% |
+| Budget | 14% | 24% | 13% | 10% |
+| Written and Verbal Communication | 14% | 11% | 23% | 14% |
+| Collaborative | 14% | 16% | 26% | 11% |
+| Recommendations | 14% | 16% | 16% | 13% |
+| PowerPoint | 14% | 18% | 29% | 7% |
+| Google Analytics | 14% | 11% | 16% | 14% |
+| Market Research | 14% | 13% | 3% | 17% |
 
 ## Soft skills employers mention
 
-Communication (72%), Communication Skills (31%), Collaboration (23%), Leadership (16%), Attention to Detail (11%), Problem Solving (11%), Analytical Skills (11%), Customer Service (11%), Creativity (10%)
+Communication (71%), Communication Skills (30%), Collaboration (21%), Leadership (12%), Customer Service (12%), Analytical Skills (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

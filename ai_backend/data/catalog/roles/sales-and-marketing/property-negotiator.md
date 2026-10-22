@@ -4,7 +4,7 @@
 - **Also called:** Real Estate Negotiator, Real Estate Agent, Real Estate Sales Agent
 - **O*NET:** 41-9022.00 Real Estate Sales Agents
 - **ESCO:** real estate agent
-- **Job ads analysed:** 54 (Internship / Fresh Graduate 8, Junior 2, Mid-level 44)
+- **Job ads analysed:** 41 (Internship / Fresh Graduate 8, Junior 2, Mid-level 31)
 
 ## What the job involves
 
@@ -17,44 +17,30 @@ Share of job ads for this role that mention the skill, overall and by experience
 | Skill | All ads | Mid-level |
 |---|---|---|
 | Real Estate **(core)** | 100% | 100% |
-| Brokerage **(core)** | 56% | 50% |
-| SAN **(core)** | 32% | 39% |
-| Genetics **(core)** | 30% | 36% |
-| Interpersonal communication **(core)** | 30% | 36% |
-| MLS **(core)** | 30% | 36% |
-| Recruitment **(core)** | 30% | 36% |
-| Sick Leave **(core)** | 30% | 36% |
-| Vacation **(core)** | 30% | 36% |
-| CRM **(core)** | 26% | 25% |
-| Commuter Benefits | 24% | 30% |
-| Disability Insurance | 24% | 30% |
-| Flexible Spending Account | 24% | 30% |
-| Health Savings Account | 24% | 30% |
-| Job posting | 24% | 30% |
-| Paid Holidays | 24% | 30% |
-| Paid Parental Leave | 24% | 30% |
-| Paid Vacation | 24% | 30% |
-| Parental Leave | 24% | 30% |
-| Phone | 24% | 25% |
-| Posting | 24% | 30% |
-| Vision Insurance | 24% | 30% |
-| Market Trends | 22% | 27% |
-| Commercial Real Estate | 20% | 9% |
-| 401k | 20% | 25% |
-| Alerting | 20% | 25% |
-| Calendar | 20% | 25% |
-| Organizing | 20% | 25% |
-| State License | 20% | 25% |
-| Views | 20% | 25% |
-| Guidance | 17% | 20% |
-| Investment | 17% | 7% |
-| work independently | 17% | 20% |
-| real estate market | 17% | 20% |
-| Mentorship | 15% | 7% |
+| Brokerage **(core)** | 42% | 29% |
+| Commercial Real Estate **(core)** | 27% | 13% |
+| Investment | 22% | 10% |
+| work independently | 22% | 29% |
+| real estate market | 22% | 29% |
+| Mentorship | 20% | 10% |
+| Market Trends | 20% | 26% |
+| Networking | 20% | 10% |
+| Entrepreneurial | 20% | 6% |
+| Contracts | 17% | 23% |
+| Professionalism | 15% | 3% |
+| Independent | 15% | 13% |
+| Standing | 15% | 0% |
+| Collaborative | 12% | 13% |
+| Guidance | 12% | 16% |
+| Remote Work | 12% | 16% |
+| Flexibility | 12% | 16% |
+| CRM | 12% | 6% |
+| Roadmap | 12% | 0% |
+| Urgency | 12% | 0% |
 
 ## Soft skills employers mention
 
-Communication (82%), Customer Service (48%), Coaching (22%), Mentoring (22%), Negotiation (18%), Communication Skills (17%), Leadership (13%), Collaboration (11%)
+Communication (76%), Customer Service (32%), Negotiation (24%), Communication Skills (22%), Coaching (20%), Mentoring (20%), Leadership (17%), Collaboration (15%), Time Management (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Environmental Officer, Environmental Scientist
 - **O*NET:** 19-2041.00 Environmental Scientists and Specialists, Including Health; 17-2081.00 Environmental Engineers
 - **ESCO:** environmental scientist
-- **Job ads analysed:** 28 (Internship / Fresh Graduate 1, Junior 1, Mid-level 16, Senior 9, Lead / Manager 1)
+- **Job ads analysed:** 17 (Internship / Fresh Graduate 1, Junior 1, Mid-level 13, Senior 1, Lead / Manager 1)
 
 ## What the job involves
 
@@ -14,62 +14,75 @@ Conduct research or perform investigation for the purpose of identifying, abatin
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Mid-level |
-|---|---|---|
-| Regulatory **(core)** | 71% | 56% |
-| Consulting **(core)** | 57% | 50% |
-| Writing **(core)** | 57% | 44% |
-| Proposals **(core)** | 50% | 25% |
-| Resource **(core)** | 50% | 31% |
-| Investigations **(core)** | 46% | 25% |
-| Environmental Science **(core)** | 46% | 56% |
-| Assessments **(core)** | 43% | 25% |
-| GIS **(core)** | 43% | 38% |
-| Excel **(core)** | 43% | 31% |
-| Technical Reports **(core)** | 43% | 25% |
-| Energy **(core)** | 39% | 44% |
-| Word **(core)** | 39% | 25% |
-| Biology **(core)** | 36% | 19% |
-| Microsoft Office **(core)** | 36% | 19% |
-| Project Management **(core)** | 36% | 6% |
-| Remediation **(core)** | 32% | 44% |
-| ecology **(core)** | 32% | 19% |
-| Surveys **(core)** | 32% | 19% |
-| PowerPoint **(core)** | 32% | 12% |
-| Government **(core)** | 29% | 38% |
-| work independently **(core)** | 29% | 38% |
-| Natural Science **(core)** | 29% | 12% |
-| wildlife **(core)** | 29% | 12% |
-| Architecture **(core)** | 29% | 12% |
-| Inspections | 21% | 31% |
-| Work Plans | 21% | 19% |
-| Equity | 21% | 25% |
-| Budgets | 21% | 6% |
-| Business Development | 21% | 0% |
-| Project Management Professional (PMP) | 21% | 0% |
-| Stormwater Management | 21% | 6% |
-| Strategic Planning | 21% | 0% |
-| Analytical | 21% | 25% |
-| Innovative Solutions | 18% | 19% |
-| Mobile | 18% | 19% |
-| Environmental Engineering | 18% | 31% |
-| Guidance | 18% | 19% |
-| MS | 18% | 19% |
-| Professional services | 18% | 19% |
-| Technical Support | 18% | 31% |
-| 7+ Years of Experience | 18% | 0% |
-| animal species | 18% | 0% |
-| Collections | 18% | 0% |
-| Performance reviews | 18% | 0% |
-| Writing Skills | 18% | 12% |
-| Job posting | 18% | 12% |
-| Posting | 18% | 12% |
-| Reasonable accommodations | 18% | 19% |
-| Recruitment | 18% | 12% |
+| Skill | All ads |  |
+|---|---|
+| Environmental Science **(core)** | 59% |  |
+| Energy **(core)** | 53% |  |
+| Regulatory **(core)** | 53% |  |
+| Consulting **(core)** | 41% |  |
+| Remediation **(core)** | 41% |  |
+| Writing **(core)** | 41% |  |
+| Government **(core)** | 35% |  |
+| Geology **(core)** | 29% |  |
+| Investigations **(core)** | 29% |  |
+| Transportation **(core)** | 29% |  |
+| work independently **(core)** | 29% |  |
+| Coordination **(core)** | 29% |  |
+| Infrastructure **(core)** | 29% |  |
+| Resource **(core)** | 29% |  |
+| Environmental Engineering **(core)** | 29% |  |
+| Technical Support **(core)** | 29% |  |
+| Analytical **(core)** | 29% |  |
+| Assessments | 24% |  |
+| Cost estimates | 24% |  |
+| Estimates | 24% |  |
+| Inspections | 24% |  |
+| Investigation | 24% |  |
+| Proposals | 24% |  |
+| Work Plans | 24% |  |
+| Equity | 24% |  |
+| GIS | 24% |  |
+| Guidance | 24% |  |
+| Professional services | 24% |  |
+| Meetings | 24% |  |
+| Reasonable accommodations | 24% |  |
+| Collection | 24% |  |
+| Sustainability | 24% |  |
+| Technical Reports | 24% |  |
+| Ability to work independently | 18% |  |
+| Chemical | 18% |  |
+| Implementation | 18% |  |
+| Innovative Solutions | 18% |  |
+| Manufacturing | 18% |  |
+| Power | 18% |  |
+| Project managers | 18% |  |
+| Sampling | 18% |  |
+| Biology | 18% |  |
 
 ## Soft skills employers mention
 
-Communication (32%), Collaboration (18%), Communication Skills (14%), Leadership (14%), Problem Solving (14%), Attention to Detail (11%), Presentations (11%)
+Communication (35%), Collaboration (24%), Communication Skills (18%), Problem Solving (18%), Leadership (12%), Attention to Detail (12%), Presentations (12%), Creativity (12%), Mentoring (12%)
+
+## Malaysia / Singapore skills (AI-drafted, pending human review)
+
+Drafted by DeepSeek because few job ads matched this title. Estimated share of job ads in brackets.
+
+- Environmental compliance (75%, hard)
+- ISO 14001 Environmental Management System (65%, certification)
+- Environmental monitoring (60%, hard)
+- Microsoft Excel (60%, tool)
+- Environmental reporting (55%, hard)
+- Environmental Impact Assessment (EIA) (55%, hard)
+- Scheduled waste management (55%, hard)
+- Environmental legislation (50%, hard)
+- Industrial effluent treatment system operation (50%, hard)
+- Microsoft Word (50%, tool)
+- CePSWaM (Certified Environmental Professional in Scheduled Waste Management) (45%, certification)
+- Microsoft PowerPoint (45%, tool)
+- Air pollution control systems (40%, hard)
+- Data analysis (40%, hard)
+- GIS (ArcGIS/QGIS) (35%, tool)
+- CePIETSO (Certified Environmental Professional in Industrial Effluent Treatment System Operation) (35%, certification)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
@@ -139,6 +152,8 @@ Autodesk AutoCAD, Microsoft Excel, Microsoft Office, Microsoft PowerPoint, Micro
 ## Core abilities (O*NET importance ≥ 3.5 of 5)
 
 Active Listening, Speaking, Reading Comprehension, Writing, Critical Thinking, Monitoring, Active Learning, Science
+
+> **Limited market data:** fewer than 20 job ads matched this title, so skills rely mainly on ESCO and O*NET.
 
 ---
 Sources: O*NET 31.0 (USDOL/ETA, CC BY 4.0); ESCO v1.2.1 (European Commission); LinkedIn Job Postings 2023–24 (CC BY-SA 4.0); Data Science Job Postings & Skills 2024 (ODC-By).

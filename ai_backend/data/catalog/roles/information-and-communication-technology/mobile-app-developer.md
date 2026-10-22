@@ -4,7 +4,7 @@
 - **Also called:** Mobile Application Developer, Android Developer, iOS Developer, Flutter Developer
 - **O*NET:** 15-1252.00 Software Developers
 - **ESCO:** mobile application developer
-- **Job ads analysed:** 72 (Internship / Fresh Graduate 6, Mid-level 53, Senior 9, Lead / Manager 4)
+- **Job ads analysed:** 68 (Internship / Fresh Graduate 4, Mid-level 52, Senior 9, Lead / Manager 3)
 
 ## What the job involves
 
@@ -16,52 +16,54 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Mobile **(core)** | 68% | 66% |
-| Android **(core)** | 65% | 62% |
-| iOS **(core)** | 56% | 60% |
-| Computer Science **(core)** | 43% | 47% |
-| Swift **(core)** | 42% | 49% |
-| Java **(core)** | 39% | 40% |
-| Programming **(core)** | 38% | 38% |
-| Developers **(core)** | 36% | 32% |
-| Agile **(core)** | 33% | 34% |
-| APIs **(core)** | 33% | 32% |
-| Kotlin **(core)** | 33% | 32% |
-| Software Development **(core)** | 32% | 34% |
-| Frameworks **(core)** | 31% | 36% |
-| Architecture **(core)** | 31% | 24% |
-| Mobile application **(core)** | 28% | 28% |
-| Testing **(core)** | 28% | 23% |
-| Libraries **(core)** | 28% | 26% |
-| Patterns | 24% | 21% |
-| Cloud | 24% | 23% |
-| Application Development | 24% | 24% |
-| Objective C | 22% | 28% |
-| Components | 21% | 21% |
+| Mobile **(core)** | 66% | 65% |
+| Android **(core)** | 63% | 62% |
+| iOS **(core)** | 53% | 60% |
+| Computer Science **(core)** | 43% | 48% |
+| Swift **(core)** | 41% | 48% |
+| Java **(core)** | 40% | 40% |
+| Developers **(core)** | 37% | 33% |
+| Programming **(core)** | 35% | 36% |
+| APIs **(core)** | 34% | 33% |
+| Kotlin **(core)** | 34% | 31% |
+| Software Development **(core)** | 34% | 35% |
+| Agile **(core)** | 32% | 33% |
+| Frameworks **(core)** | 31% | 35% |
+| Architecture **(core)** | 31% | 25% |
+| Mobile application **(core)** | 28% | 29% |
+| Libraries **(core)** | 26% | 25% |
+| Testing **(core)** | 26% | 23% |
+| Patterns **(core)** | 25% | 21% |
+| Application Development **(core)** | 25% | 25% |
+| Objective C | 24% | 29% |
+| Components | 22% | 21% |
+| Cloud | 22% | 21% |
+| Git | 21% | 21% |
 | Software Engineering | 21% | 23% |
-| Git | 19% | 21% |
-| Mobile Development | 19% | 21% |
-| Code Reviews | 18% | 17% |
-| Design patterns | 18% | 19% |
-| Writing | 18% | 17% |
-| Onsite | 18% | 17% |
-| Debugging | 18% | 21% |
-| Analytical | 18% | 23% |
-| CI/CD | 17% | 15% |
-| RESTful APIs | 17% | 17% |
-| Version Control | 17% | 17% |
-| MVC | 17% | 15% |
-| GitHub | 15% | 13% |
-| REST | 15% | 13% |
-| design principles | 15% | 17% |
+| Code Reviews | 19% | 17% |
+| Design patterns | 19% | 19% |
+| Onsite | 19% | 17% |
+| Debugging | 19% | 21% |
+| Mobile Development | 19% | 19% |
+| Version Control | 18% | 17% |
+| MVC | 18% | 15% |
+| Writing | 18% | 15% |
+| Analytical | 18% | 21% |
+| CI/CD | 16% | 14% |
+| RESTful APIs | 16% | 17% |
+| REST | 16% | 14% |
+| Mentor | 15% | 10% |
+| Flexibility | 15% | 14% |
+| design principles | 15% | 15% |
+| AWS | 15% | 14% |
 | Architectures | 15% | 17% |
-| Coding | 14% | 15% |
-| Mentor | 14% | 9% |
-| Flexibility | 14% | 13% |
+| Coding | 13% | 14% |
+| control systems | 13% | 14% |
+| Innovative Solutions | 13% | 12% |
 
 ## Soft skills employers mention
 
-Communication (42%), Problem Solving (31%), Communication Skills (17%), Leadership (17%)
+Communication (41%), Problem Solving (31%), Communication Skills (18%), Leadership (16%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

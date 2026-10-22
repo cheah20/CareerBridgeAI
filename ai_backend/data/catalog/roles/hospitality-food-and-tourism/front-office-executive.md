@@ -4,7 +4,7 @@
 - **Also called:** Hotel Front Office Executive, Front Desk Agent, Guest Service Agent
 - **O*NET:** 39-6012.00 Concierges; 43-4081.00 Hotel, Motel, and Resort Desk Clerks; 43-4051.00 Customer Service Representatives
 - **ESCO:** receptionist
-- **Job ads analysed:** 79 (Internship / Fresh Graduate 74, Junior 3, Mid-level 2)
+- **Job ads analysed:** 32 (Internship / Fresh Graduate 29, Junior 1, Mid-level 2)
 
 ## What the job involves
 
@@ -16,60 +16,48 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate |
 |---|---|---|
-| Front Desk **(core)** | 86% | 88% |
-| Hospitality **(core)** | 75% | 76% |
-| High School Diploma **(core)** | 57% | 61% |
-| Packages **(core)** | 57% | 61% |
-| Microsoft Office **(core)** | 53% | 57% |
-| 401k **(core)** | 53% | 54% |
-| Paid Time Off **(core)** | 53% | 54% |
-| Retirement Plan **(core)** | 52% | 55% |
-| Work Environment **(core)** | 52% | 53% |
-| Organized **(core)** | 47% | 47% |
-| Employee Assistance Program **(core)** | 47% | 47% |
-| Listening **(core)** | 44% | 47% |
-| Portfolio **(core)** | 44% | 45% |
-| Attendance **(core)** | 43% | 46% |
-| Rules **(core)** | 43% | 46% |
-| Transportation **(core)** | 43% | 46% |
-| Vision Coverage **(core)** | 43% | 46% |
-| Competitive Benefits **(core)** | 42% | 45% |
-| Facts **(core)** | 42% | 43% |
-| Scheduling **(core)** | 42% | 45% |
-| Communications **(core)** | 40% | 43% |
-| Correspondence **(core)** | 40% | 43% |
-| Detail Oriented **(core)** | 40% | 43% |
-| Logging **(core)** | 40% | 43% |
-| Logic **(core)** | 40% | 43% |
-| English | 19% | 20% |
-| Selection | 18% | 19% |
-| Phone | 18% | 16% |
-| HR | 18% | 18% |
-| Profitability | 15% | 16% |
-| Vacation | 15% | 16% |
-| Certificates | 14% | 15% |
-| Urgency | 14% | 15% |
-| Bending | 14% | 15% |
-| Objectives | 14% | 12% |
-| Standing | 14% | 15% |
-| Writing | 13% | 11% |
-| Cash handling | 11% | 10% |
-| Coding | 11% | 12% |
-| greet guests | 11% | 12% |
-| Kneeling | 11% | 12% |
-| Lifting | 11% | 12% |
-| Math | 11% | 12% |
-| Verbal and Written Communication | 11% | 12% |
-| Written Communication | 11% | 12% |
-| Go | 10% | 11% |
-| Reservation | 10% | 11% |
-| Retail | 10% | 11% |
-| PTO | 10% | 7% |
-| Walking | 10% | 11% |
+| Hospitality **(core)** | 72% | 76% |
+| Front Desk **(core)** | 66% | 69% |
+| Packages **(core)** | 38% | 41% |
+| Profitability **(core)** | 38% | 41% |
+| Holidays **(core)** | 34% | 38% |
+| Urgency **(core)** | 34% | 38% |
+| Selection **(core)** | 31% | 34% |
+| Paid Time Off **(core)** | 28% | 31% |
+| Certificates **(core)** | 28% | 31% |
+| Coding **(core)** | 28% | 31% |
+| greet guests **(core)** | 28% | 31% |
+| Go **(core)** | 25% | 28% |
+| 401k **(core)** | 25% | 28% |
+| English | 22% | 24% |
+| High School Diploma | 19% | 21% |
+| Microsoft Office | 19% | 21% |
+| Writing | 19% | 21% |
+| Work Environment | 19% | 21% |
+| Discounts | 19% | 17% |
+| Parental Leave | 19% | 21% |
+| PTO | 19% | 17% |
+| Integrity | 19% | 21% |
+| Educational | 16% | 17% |
+| Walking | 16% | 17% |
+| Phone | 16% | 17% |
+| Vacation | 16% | 17% |
+| LESS | 16% | 17% |
+| Computers | 12% | 14% |
+| Confidentiality | 12% | 14% |
+| Organized | 12% | 14% |
+| Policies and procedures | 12% | 14% |
+| Word | 12% | 14% |
+| Employee Assistance Program | 12% | 14% |
+| Listening | 12% | 14% |
+| Retirement Plan | 12% | 14% |
+| Transportation | 12% | 14% |
+| 401K Plan | 12% | 14% |
+| Counseling | 12% | 14% |
 
 ## Soft skills employers mention
 
-Customer Service (66%), Communication (25%), Teamwork (18%), Leadership (16%)
+Customer Service (47%), Leadership (38%), Communication (34%), Teamwork (25%), Attention to Detail (16%), Communication Skills (16%), Adaptability (12%), Problem Solving (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -3,72 +3,11 @@
 - **Field:** Engineering
 - **O*NET:** 17-2072.00 Electronics Engineers, Except Computer
 - **ESCO:** electronics engineer
-- **Job ads analysed:** 10 (Internship / Fresh Graduate 4, Junior 3, Mid-level 1, Senior 1, Lead / Manager 1)
+- **Job ads analysed:** 9 (Internship / Fresh Graduate 4, Junior 2, Mid-level 1, Senior 1, Lead / Manager 1)
 
 ## What the job involves
 
 Research, design, develop, or test electronic components and systems for commercial, industrial, military, or scientific use employing knowledge of electronic theory and materials properties. Design electronic circuits and components for use in fields such as telecommunications, aerospace guidance and propulsion control, acoustics, or instruments and controls.
-
-## Skills employers ask for
-
-Share of job ads for this role that mention the skill, overall and by experience level.
-
-| Skill | All ads |  |
-|---|---|
-| Electronics **(core)** | 100% |  |
-| Electrical **(core)** | 90% |  |
-| Electrical Engineering **(core)** | 70% |  |
-| Power **(core)** | 60% |  |
-| Testing **(core)** | 60% |  |
-| Hardware **(core)** | 50% |  |
-| Simulation **(core)** | 50% |  |
-| Computer Science **(core)** | 40% |  |
-| Proposals **(core)** | 40% |  |
-| Python **(core)** | 40% |  |
-| Reliability **(core)** | 40% |  |
-| Aerospace **(core)** | 30% |  |
-| Ethernet **(core)** | 30% |  |
-| Installation **(core)** | 30% |  |
-| MATLAB **(core)** | 30% |  |
-| Methodologies **(core)** | 30% |  |
-| R&D **(core)** | 30% |  |
-| Relevant Experience **(core)** | 30% |  |
-| Sensors **(core)** | 30% |  |
-| Software Development **(core)** | 30% |  |
-| Validation **(core)** | 30% |  |
-| Verification **(core)** | 30% |  |
-| Government **(core)** | 30% |  |
-| Components **(core)** | 30% |  |
-| Troubleshooting **(core)** | 30% |  |
-| Aerospace Engineering | 20% |  |
-| Agile | 20% |  |
-| Agile Scrum | 20% |  |
-| Analytical | 20% |  |
-| Analytical Thinking | 20% |  |
-| Architecture | 20% |  |
-| Automotive | 20% |  |
-| Avionics | 20% |  |
-| Debugging | 20% |  |
-| Deliverables | 20% |  |
-| Developers | 20% |  |
-| Embedded Systems | 20% |  |
-| Jira | 20% |  |
-| Master's Degree | 20% |  |
-| Mentorship | 20% |  |
-| Modeling | 20% |  |
-| Proactive | 20% |  |
-| Protocols | 20% |  |
-| provide mentorship | 20% |  |
-| Regulatory | 20% |  |
-| Regulatory Requirements | 20% |  |
-| Requirements Definition | 20% |  |
-| Scripting | 20% |  |
-| Scripting languages | 20% |  |
-| Scrum | 20% |  |
-
-## Soft skills employers mention
-
-Communication (50%), Communication Skills (50%), Organizational Skills (30%), Problem Solving (30%), Problem Solving Skills (30%), Leadership (30%), Attention to Detail (20%), Coaching (20%), Teamwork (20%), Collaboration (10%)
 
 ## Malaysia / Singapore skills (AI-drafted, pending human review)
 
@@ -93,7 +32,7 @@ Drafted by DeepSeek because few job ads matched this title. Estimated share of j
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Microsoft Excel, Microsoft Office, The MathWorks MATLAB, Python, C++, Microsoft Word
+Microsoft Excel, Microsoft Office, Python, The MathWorks MATLAB
 
 ## Essential skills (ESCO)
 

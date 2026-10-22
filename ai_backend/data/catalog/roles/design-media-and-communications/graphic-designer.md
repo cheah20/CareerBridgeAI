@@ -3,7 +3,7 @@
 - **Field:** Design, Media & Communications
 - **O*NET:** 27-1024.00 Graphic Designers
 - **ESCO:** graphic designer
-- **Job ads analysed:** 123 (Internship / Fresh Graduate 15, Junior 25, Mid-level 66, Senior 16, Lead / Manager 1)
+- **Job ads analysed:** 114 (Internship / Fresh Graduate 12, Junior 24, Mid-level 62, Senior 15, Lead / Manager 1)
 
 ## What the job involves
 
@@ -13,49 +13,49 @@ Design or create graphics to meet specific commercial or promotional needs, such
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Junior | Mid-level | Senior |
-|---|---|---|---|---|---|
-| Adobe **(core)** | 84% | 87% | 84% | 82% | 94% |
-| Graphic Design **(core)** | 72% | 73% | 80% | 68% | 75% |
-| Photoshop **(core)** | 61% | 67% | 56% | 61% | 62% |
-| Graphics **(core)** | 53% | 60% | 56% | 53% | 44% |
-| Social media **(core)** | 50% | 27% | 52% | 56% | 44% |
-| Portfolio **(core)** | 48% | 27% | 52% | 48% | 56% |
-| Adobe Creative Suite **(core)** | 44% | 47% | 56% | 38% | 50% |
-| typography **(core)** | 43% | 53% | 40% | 41% | 44% |
-| Deadlines **(core)** | 34% | 33% | 36% | 33% | 31% |
-| Video **(core)** | 31% | 27% | 32% | 33% | 25% |
-| Layout **(core)** | 31% | 40% | 44% | 23% | 31% |
-| Email **(core)** | 28% | 33% | 40% | 24% | 25% |
-| Editing | 24% | 7% | 20% | 27% | 31% |
-| Advertising | 20% | 13% | 20% | 18% | 25% |
-| Presentation | 20% | 7% | 28% | 18% | 19% |
-| Communications | 19% | 27% | 20% | 20% | 6% |
-| work independently | 19% | 33% | 16% | 15% | 19% |
-| PowerPoint | 18% | 40% | 24% | 9% | 25% |
-| Packaging | 18% | 13% | 16% | 18% | 19% |
-| Collaborative | 17% | 13% | 16% | 14% | 38% |
-| Objectives | 16% | 13% | 12% | 14% | 38% |
-| design principles | 16% | 7% | 36% | 14% | 0% |
-| Photography | 15% | 13% | 12% | 17% | 12% |
-| Resume | 15% | 20% | 12% | 17% | 12% |
-| Execution | 15% | 7% | 24% | 12% | 25% |
-| Project Management | 15% | 27% | 20% | 9% | 19% |
-| Figma | 14% | 7% | 8% | 14% | 31% |
-| Organized | 13% | 33% | 12% | 8% | 19% |
-| HTML | 13% | 7% | 20% | 14% | 6% |
-| Web design | 13% | 7% | 24% | 14% | 0% |
-| Work Environment | 12% | 0% | 4% | 11% | 44% |
-| Digital Marketing | 12% | 13% | 20% | 11% | 6% |
-| Microsoft Office | 12% | 20% | 12% | 9% | 19% |
-| digital media | 11% | 13% | 12% | 12% | 6% |
-| Retail | 11% | 20% | 8% | 6% | 25% |
-| Animation | 11% | 13% | 4% | 11% | 25% |
-| Word | 11% | 40% | 8% | 4% | 19% |
+| Skill | All ads | Junior | Mid-level | Senior |
+|---|---|---|---|---|
+| Adobe **(core)** | 83% | 83% | 82% | 93% |
+| Graphic Design **(core)** | 71% | 79% | 68% | 73% |
+| Photoshop **(core)** | 61% | 58% | 63% | 60% |
+| Graphics **(core)** | 53% | 54% | 53% | 47% |
+| Social media **(core)** | 52% | 54% | 56% | 47% |
+| Portfolio **(core)** | 48% | 54% | 48% | 53% |
+| Adobe Creative Suite **(core)** | 44% | 54% | 39% | 47% |
+| typography **(core)** | 42% | 42% | 40% | 47% |
+| Deadlines **(core)** | 32% | 33% | 32% | 33% |
+| Video **(core)** | 32% | 33% | 32% | 27% |
+| Layout **(core)** | 30% | 42% | 21% | 33% |
+| Email **(core)** | 29% | 42% | 26% | 27% |
+| Editing | 25% | 21% | 29% | 33% |
+| Advertising | 21% | 21% | 19% | 27% |
+| Presentation | 19% | 29% | 18% | 20% |
+| work independently | 19% | 17% | 16% | 20% |
+| Communications | 18% | 21% | 19% | 7% |
+| Packaging | 18% | 17% | 18% | 20% |
+| Collaborative | 17% | 17% | 14% | 33% |
+| PowerPoint | 17% | 25% | 10% | 27% |
+| Objectives | 17% | 12% | 14% | 33% |
+| design principles | 17% | 38% | 14% | 0% |
+| Photography | 16% | 12% | 18% | 13% |
+| Resume | 16% | 12% | 18% | 13% |
+| Figma | 15% | 8% | 14% | 33% |
+| Execution | 15% | 21% | 13% | 27% |
+| Project Management | 14% | 21% | 10% | 20% |
+| Web design | 14% | 25% | 14% | 0% |
+| HTML | 13% | 21% | 14% | 7% |
+| digital media | 12% | 12% | 13% | 7% |
+| Retail | 12% | 8% | 6% | 27% |
+| Work Environment | 11% | 4% | 10% | 40% |
+| Digital Marketing | 11% | 21% | 11% | 7% |
+| Video editing | 11% | 8% | 13% | 20% |
+| Animation | 11% | 4% | 10% | 27% |
+| Microsoft Office | 11% | 8% | 10% | 20% |
+| Motion graphics | 10% | 4% | 14% | 7% |
 
 ## Soft skills employers mention
 
-Communication (60%), Attention to Detail (28%), Collaboration (24%), Communication Skills (23%), Creativity (20%), Presentations (20%), Time Management (19%), Problem Solving (14%), Leadership (11%)
+Communication (60%), Attention to Detail (26%), Collaboration (25%), Communication Skills (24%), Creativity (20%), Presentations (19%), Time Management (18%), Problem Solving (14%), Leadership (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

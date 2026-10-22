@@ -3,7 +3,7 @@
 - **Field:** Engineering
 - **O*NET:** 17-2112.00 Industrial Engineers
 - **ESCO:** industrial engineer
-- **Job ads analysed:** 47 (Internship / Fresh Graduate 11, Junior 7, Mid-level 25, Senior 3, Lead / Manager 1)
+- **Job ads analysed:** 38 (Internship / Fresh Graduate 7, Junior 7, Mid-level 20, Senior 3, Lead / Manager 1)
 
 ## What the job involves
 
@@ -15,59 +15,56 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| industrial software **(core)** | 98% | 96% |
-| Manufacturing **(core)** | 85% | 80% |
-| Lean **(core)** | 77% | 76% |
-| Industrial Engineering **(core)** | 68% | 72% |
-| Efficiency **(core)** | 66% | 72% |
-| Six Sigma **(core)** | 43% | 52% |
-| Productivity **(core)** | 43% | 52% |
-| Continuous Improvement **(core)** | 40% | 40% |
-| Implementation **(core)** | 40% | 40% |
-| lean manufacturing **(core)** | 34% | 40% |
-| Recommendations **(core)** | 34% | 24% |
-| Excel **(core)** | 32% | 8% |
-| Methods **(core)** | 30% | 36% |
-| Layout **(core)** | 30% | 20% |
-| Analyze **(core)** | 28% | 28% |
-| manufacturing processes **(core)** | 28% | 16% |
-| Material Handling **(core)** | 28% | 16% |
-| Onsite **(core)** | 28% | 20% |
-| Process Improvement **(core)** | 28% | 32% |
-| Modeling **(core)** | 26% | 8% |
-| Optimization **(core)** | 26% | 20% |
-| Mapping **(core)** | 26% | 24% |
-| Automation **(core)** | 26% | 28% |
-| Resource **(core)** | 26% | 28% |
-| Assembly | 23% | 12% |
-| CAD | 23% | 4% |
-| Metrics | 23% | 20% |
-| Analytical | 23% | 36% |
-| Kaizen | 21% | 8% |
-| Project Management | 21% | 24% |
-| Profitability | 21% | 20% |
-| Verbal Communication | 21% | 20% |
-| Methodologies | 21% | 16% |
-| Workflow | 21% | 36% |
-| Supply Chain | 21% | 16% |
-| Data Analysis | 21% | 28% |
-| Written Communication | 19% | 8% |
-| Business Process | 19% | 32% |
-| Aerospace | 19% | 12% |
-| Constraints | 19% | 28% |
-| Affirmative Action | 17% | 16% |
-| Proposals | 17% | 24% |
-| Written communication skills | 17% | 8% |
-| Budgets | 17% | 8% |
-| Excellence | 17% | 8% |
-| Storage | 17% | 4% |
-| Throughput | 17% | 4% |
-| Tooling | 17% | 8% |
-| Lean Six Sigma | 17% | 28% |
+| industrial software **(core)** | 97% | 95% |
+| Manufacturing **(core)** | 84% | 80% |
+| Industrial Engineering **(core)** | 74% | 70% |
+| Lean **(core)** | 71% | 70% |
+| Efficiency **(core)** | 58% | 65% |
+| Continuous Improvement **(core)** | 45% | 40% |
+| Six Sigma **(core)** | 42% | 45% |
+| lean manufacturing **(core)** | 40% | 45% |
+| Methods **(core)** | 34% | 40% |
+| Layout **(core)** | 34% | 20% |
+| Analyze **(core)** | 32% | 30% |
+| Productivity **(core)** | 32% | 45% |
+| Process Improvement **(core)** | 32% | 35% |
+| Implementation **(core)** | 29% | 30% |
+| Recommendations **(core)** | 29% | 25% |
+| Mapping **(core)** | 29% | 25% |
+| Project Management **(core)** | 26% | 30% |
+| Excel **(core)** | 26% | 5% |
+| Automation **(core)** | 26% | 25% |
+| Resource **(core)** | 26% | 25% |
+| Methodologies **(core)** | 26% | 20% |
+| Data Analysis | 24% | 30% |
+| manufacturing processes | 21% | 15% |
+| Material Handling | 21% | 15% |
+| Metrics | 21% | 10% |
+| Aerospace | 21% | 10% |
+| Workflow | 21% | 35% |
+| Supply Chain | 21% | 10% |
+| Affirmative Action | 18% | 15% |
+| CAD | 18% | 5% |
+| Modeling | 18% | 5% |
+| Optimization | 18% | 20% |
+| Analytical | 18% | 25% |
+| Assembly | 16% | 10% |
+| Kaizen | 16% | 10% |
+| Holidays | 16% | 5% |
+| Energy | 16% | 10% |
+| production processes | 16% | 10% |
+| REDUCE | 16% | 15% |
+| Cost Reduction | 16% | 20% |
+| Statistical Software | 16% | 15% |
+| Automotive | 13% | 10% |
+| Affirmative Action Employer | 13% | 10% |
+| Life Insurance | 13% | 5% |
+| Logistics | 13% | 10% |
+| Microsoft Office | 13% | 15% |
 
 ## Soft skills employers mention
 
-Communication (55%), Problem Solving (43%), Communication Skills (26%), Leadership (13%), Attention to Detail (13%), Customer Service (13%), Collaboration (13%), Time Management (11%)
+Problem Solving (45%), Communication (45%), Communication Skills (21%), Attention to Detail (16%), Leadership (13%), Time Management (13%), Collaboration (13%), Coaching (10%), Problem Solving Skills (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

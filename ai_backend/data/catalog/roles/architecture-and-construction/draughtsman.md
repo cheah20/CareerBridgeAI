@@ -4,7 +4,7 @@
 - **Also called:** Drafter, CAD Drafter
 - **O*NET:** 17-3013.00 Mechanical Drafters; 17-3012.00 Electrical and Electronics Drafters; 17-3011.00 Architectural and Civil Drafters
 - **ESCO:** drafter
-- **Job ads analysed:** 46 (Internship / Fresh Graduate 24, Junior 7, Mid-level 13, Senior 2)
+- **Job ads analysed:** 40 (Internship / Fresh Graduate 18, Junior 7, Mid-level 13, Senior 2)
 
 ## What the job involves
 
@@ -16,43 +16,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate |
 |---|---|---|
-| CAD **(core)** | 74% | 79% |
-| Drafting **(core)** | 70% | 79% |
-| AutoCAD **(core)** | 46% | 50% |
-| Drawing **(core)** | 33% | 25% |
-| Mechanical **(core)** | 28% | 38% |
-| Project managers **(core)** | 26% | 17% |
-| Manufacturing **(core)** | 26% | 21% |
-| Electrical **(core)** | 26% | 33% |
-| Microsoft Office | 22% | 29% |
+| CAD **(core)** | 72% | 78% |
+| Drafting **(core)** | 68% | 78% |
+| AutoCAD **(core)** | 48% | 56% |
+| Drawing **(core)** | 35% | 28% |
+| Electrical **(core)** | 30% | 44% |
+| Mechanical **(core)** | 28% | 39% |
+| Project managers **(core)** | 28% | 17% |
+| Microsoft Office | 22% | 33% |
+| Manufacturing | 22% | 11% |
 | Modeling | 20% | 17% |
-| Infrastructure | 17% | 29% |
-| Reasonable Accommodation | 17% | 12% |
-| Consulting | 17% | 25% |
-| Components | 15% | 21% |
-| Architecture | 15% | 8% |
-| Equal Employment Opportunity | 15% | 17% |
-| Power | 15% | 21% |
+| Reasonable Accommodation | 20% | 17% |
+| Architecture | 18% | 11% |
+| Revit | 18% | 22% |
+| Technical Drawings | 18% | 17% |
+| Components | 15% | 22% |
+| Power | 15% | 22% |
 | Layout | 15% | 17% |
-| Revit | 15% | 17% |
-| Technical Drawings | 15% | 12% |
-| Excel | 13% | 21% |
-| industrial software | 13% | 12% |
-| Paid Time Off | 13% | 8% |
-| SolidWorks | 13% | 8% |
-| Written Communication | 13% | 8% |
-| High School Diploma | 13% | 25% |
-| Energy | 13% | 17% |
-| Engineering Drawings | 11% | 8% |
-| Bill of Materials | 11% | 8% |
-| Email | 11% | 12% |
-| Coordination | 11% | 4% |
-| Excellence | 11% | 12% |
-| Vacation | 11% | 17% |
+| industrial software | 15% | 17% |
+| SolidWorks | 15% | 11% |
+| Written Communication | 15% | 11% |
+| High School Diploma | 15% | 33% |
+| Engineering Drawings | 12% | 11% |
+| Infrastructure | 12% | 22% |
+| Email | 12% | 17% |
+| Coordination | 12% | 6% |
+| Equal Employment Opportunity | 12% | 11% |
+| Excel | 12% | 22% |
+| Meetings | 12% | 11% |
+| Detail Oriented | 12% | 6% |
+| Paid Time Off | 12% | 6% |
+| Installation | 12% | 22% |
+| Energy | 12% | 17% |
 
 ## Soft skills employers mention
 
-Communication (50%), Attention to Detail (26%), Problem Solving (20%), Communication Skills (17%), Time Management (11%)
+Communication (55%), Attention to Detail (28%), Communication Skills (18%), Problem Solving (18%), Teamwork (10%), Customer Service (10%), Organizational Skills (10%), Time Management (10%), Collaboration (10%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -4,7 +4,7 @@
 - **Also called:** Radiologic Technologist
 - **O*NET:** 29-2034.00 Radiologic Technologists and Technicians; 29-2031.00 Cardiovascular Technologists and Technicians; 19-4099.00 Life, Physical, and Social Science Technicians, All Other
 - **ESCO:** radiographer
-- **Job ads analysed:** 86 (Internship / Fresh Graduate 12, Junior 5, Mid-level 69)
+- **Job ads analysed:** 60 (Internship / Fresh Graduate 7, Junior 4, Mid-level 49)
 
 ## What the job involves
 
@@ -16,42 +16,42 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| Radiology **(core)** | 57% | 62% |
-| Patient Care **(core)** | 43% | 54% |
-| Imaging **(core)** | 40% | 45% |
-| Ray **(core)** | 36% | 36% |
-| Clinical **(core)** | 35% | 33% |
-| BLS **(core)** | 33% | 41% |
-| Quality Control **(core)** | 26% | 32% |
-| Health Care | 23% | 26% |
-| Core Values | 23% | 19% |
-| Continuing education | 20% | 22% |
-| Protocols | 20% | 23% |
-| Testing | 19% | 23% |
-| Responsibility | 17% | 13% |
-| Diversity and Inclusion | 17% | 13% |
-| Regulatory | 16% | 20% |
-| history | 15% | 17% |
-| BLS Certification (AHA) | 14% | 17% |
-| Tech | 14% | 16% |
-| pregnancy | 14% | 16% |
-| Anatomy | 14% | 17% |
-| Work Environment | 14% | 17% |
-| CPR | 14% | 16% |
+| Radiology **(core)** | 60% | 61% |
+| Imaging **(core)** | 42% | 45% |
+| BLS **(core)** | 37% | 45% |
+| Patient Care **(core)** | 37% | 45% |
+| Clinical **(core)** | 30% | 33% |
+| Health Care **(core)** | 27% | 29% |
+| Core Values **(core)** | 25% | 26% |
+| Ray | 23% | 26% |
+| Protocols | 22% | 24% |
+| Quality Control | 18% | 22% |
+| Diversity and Inclusion | 17% | 18% |
+| Equity | 17% | 20% |
+| Part Time | 17% | 20% |
+| BLS Certification (AHA) | 15% | 18% |
+| Continuing education | 15% | 14% |
+| Regulatory | 15% | 18% |
 | Basic Life Support (BLS) | 13% | 16% |
-| Maintenance | 13% | 14% |
-| Registry Eligible | 13% | 14% |
-| radiation protection | 13% | 16% |
-| Competitive Salary | 13% | 16% |
-| Parental Leave | 13% | 14% |
-| Part Time | 13% | 16% |
-| surgery | 12% | 12% |
-| FSA | 12% | 14% |
-| HSA | 12% | 14% |
+| surgery | 13% | 12% |
+| Nursing | 13% | 16% |
+| Testing | 13% | 16% |
+| Excellence | 13% | 14% |
+| Network | 13% | 8% |
+| Tech | 12% | 12% |
+| Diagnosis | 12% | 14% |
+| CPR | 12% | 12% |
+| Policies and procedures | 12% | 14% |
+| pregnancy | 12% | 12% |
+| Resource | 12% | 12% |
+| acute care | 12% | 6% |
+| Compassion | 10% | 12% |
+| Responsibility | 10% | 10% |
+| Compassionate care | 10% | 6% |
 
 ## Soft skills employers mention
 
-Communication (29%), Customer Service (13%)
+Communication (17%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

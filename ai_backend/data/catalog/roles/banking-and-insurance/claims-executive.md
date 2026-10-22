@@ -4,7 +4,7 @@
 - **Also called:** Claims Adjuster, Insurance Claims Executive
 - **O*NET:** 13-1031.00 Claims Adjusters, Examiners, and Investigators
 - **ESCO:** insurance claims handler
-- **Job ads analysed:** 55 (Internship / Fresh Graduate 26, Mid-level 20, Senior 9)
+- **Job ads analysed:** 26 (Internship / Fresh Graduate 17, Mid-level 8, Senior 1)
 
 ## What the job involves
 
@@ -14,51 +14,48 @@ Review settled claims to determine that payments and settlements are made in acc
 
 Share of job ads for this role that mention the skill, overall and by experience level.
 
-| Skill | All ads | Internship / Fresh Graduate | Mid-level |
-|---|---|---|---|
-| Claims **(core)** | 100% | 100% | 100% |
-| Analyze **(core)** | 44% | 46% | 20% |
-| Mental Health **(core)** | 34% | 31% | 35% |
-| Driver's License **(core)** | 34% | 31% | 55% |
-| Resource **(core)** | 31% | 38% | 30% |
-| Office Environment **(core)** | 29% | 31% | 40% |
-| Work Experience **(core)** | 27% | 31% | 30% |
-| Walking **(core)** | 27% | 27% | 40% |
-| Resolution **(core)** | 26% | 8% | 40% |
-| Flexible Spending Accounts **(core)** | 26% | 31% | 30% |
-| Sick Leave **(core)** | 26% | 31% | 30% |
-| Tuition Assistance **(core)** | 26% | 31% | 30% |
-| Investigation **(core)** | 26% | 23% | 15% |
-| Regulatory **(core)** | 26% | 15% | 10% |
-| Flexibility | 24% | 31% | 25% |
-| High School Diploma | 24% | 15% | 30% |
-| Hybrid Work | 24% | 31% | 5% |
-| Investigations | 24% | 12% | 45% |
-| Facts | 24% | 27% | 10% |
-| Climbing | 24% | 27% | 30% |
-| Excel | 24% | 27% | 30% |
-| Valid Driver's License | 24% | 31% | 25% |
-| Word | 24% | 27% | 30% |
-| Estimates | 22% | 8% | 50% |
-| Inspections | 22% | 27% | 25% |
-| Competitive Salary | 22% | 0% | 40% |
-| Recruitment | 22% | 0% | 40% |
-| Work Environment | 20% | 35% | 10% |
-| Analytical | 18% | 8% | 15% |
-| Phone | 18% | 35% | 5% |
-| Contracts | 18% | 38% | 0% |
-| Meetings | 18% | 31% | 10% |
-| Audits | 18% | 31% | 10% |
-| Recommendations | 18% | 31% | 10% |
-| Posting | 16% | 8% | 35% |
-| Collaborative | 16% | 35% | 0% |
-| Hybrid Work Environment | 16% | 31% | 5% |
-| Basic computer skills | 16% | 27% | 10% |
-| Computer skills | 16% | 27% | 10% |
+| Skill | All ads | Internship / Fresh Graduate |
+|---|---|---|
+| Claims **(core)** | 100% | 100% |
+| Analyze **(core)** | 50% | 59% |
+| Driver's License **(core)** | 31% | 35% |
+| Facts **(core)** | 27% | 29% |
+| Audits **(core)** | 27% | 35% |
+| Climbing **(core)** | 27% | 29% |
+| Excel **(core)** | 27% | 29% |
+| Recommendations **(core)** | 27% | 35% |
+| Valid Driver's License **(core)** | 27% | 35% |
+| Walking **(core)** | 27% | 29% |
+| Word **(core)** | 27% | 29% |
+| Resource | 23% | 24% |
+| Investigation | 23% | 29% |
+| Regulatory | 23% | 24% |
+| Investigations | 23% | 18% |
+| Basic computer skills | 23% | 29% |
+| Computer skills | 23% | 29% |
+| Inspections | 23% | 29% |
+| Microsoft Word | 23% | 29% |
+| Physical Demands | 23% | 29% |
+| Quality Control | 23% | 29% |
+| Storage | 23% | 29% |
+| Strong Communication | 23% | 29% |
+| Strong communication skills | 23% | 29% |
+| Resolution | 19% | 12% |
+| Risk | 19% | 24% |
+| Analytical | 15% | 12% |
+| Work Environment | 15% | 18% |
+| Flexibility | 15% | 12% |
+| Flexible Spending Accounts | 15% | 12% |
+| Mental Health | 15% | 12% |
+| Phone | 15% | 18% |
+| Sick Leave | 15% | 12% |
+| Tuition Assistance | 15% | 12% |
+| Work Experience | 15% | 12% |
+| Estimates | 15% | 12% |
 
 ## Soft skills employers mention
 
-Communication (51%), Customer Service (49%), Leadership (36%), Communication Skills (31%), Collaboration (29%), Coaching (22%), Negotiation (16%), Attention to Detail (16%), Decision Making (14%)
+Communication (50%), Customer Service (35%), Communication Skills (35%), Negotiation (23%), Coaching (19%), Leadership (19%), Problem Solving (12%), Collaboration (12%), Attention to Detail (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

@@ -3,7 +3,7 @@
 - **Field:** Engineering
 - **O*NET:** 17-2081.00 Environmental Engineers; 19-4043.00 Geological Technicians, Except Hydrologic Technicians
 - **ESCO:** environmental engineer
-- **Job ads analysed:** 23 (Internship / Fresh Graduate 10, Junior 2, Mid-level 9, Senior 2)
+- **Job ads analysed:** 16 (Internship / Fresh Graduate 8, Junior 2, Mid-level 5, Senior 1)
 
 ## What the job involves
 
@@ -15,51 +15,71 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads |  |
 |---|---|
-| Regulatory **(core)** | 61% |  |
-| Environmental Engineering **(core)** | 48% |  |
-| Writing **(core)** | 44% |  |
-| OSHA **(core)** | 39% |  |
-| Chemical **(core)** | 35% |  |
-| Consulting **(core)** | 35% |  |
-| Guidance **(core)** | 35% |  |
-| Investigations **(core)** | 30% |  |
-| Project Management **(core)** | 30% |  |
-| Remediation **(core)** | 30% |  |
-| Inspections **(core)** | 26% |  |
-| Energy **(core)** | 26% |  |
-| Life Insurance **(core)** | 26% |  |
-| Deliverables **(core)** | 26% |  |
-| Work Plans **(core)** | 26% |  |
-| Proposals **(core)** | 26% |  |
-| Microsoft Office | 22% |  |
-| AutoCAD | 22% |  |
-| Driver's License | 22% |  |
-| Infrastructure | 22% |  |
-| Execution | 22% |  |
-| Professional Development | 22% |  |
-| Work Environment | 22% |  |
-| Power | 22% |  |
-| Collaborative | 22% |  |
-| Health and Safety | 22% |  |
-| Implementation | 22% |  |
-| industrial software | 22% |  |
-| Investigation | 22% |  |
-| Technical Writing | 22% |  |
-| PE | 17% |  |
-| Presentation | 17% |  |
-| 401k | 17% |  |
-| Civil 3D | 17% |  |
-| Civil Engineering | 17% |  |
-| Meetings | 17% |  |
-| PTO | 17% |  |
-| Recruiting | 17% |  |
-| Relevant Experience | 17% |  |
-| Responsibility | 17% |  |
-| Flexibility | 17% |  |
+| Regulatory **(core)** | 56% |  |
+| Environmental Engineering **(core)** | 44% |  |
+| Guidance **(core)** | 38% |  |
+| Chemical **(core)** | 31% |  |
+| PE **(core)** | 25% |  |
+| Consulting **(core)** | 25% |  |
+| Driver's License **(core)** | 25% |  |
+| Recruiting **(core)** | 25% |  |
+| Writing **(core)** | 25% |  |
+| Professional Development **(core)** | 25% |  |
+| Energy **(core)** | 25% |  |
+| Investigations **(core)** | 25% |  |
+| Work Environment **(core)** | 25% |  |
+| OSHA **(core)** | 25% |  |
+| Presentation | 19% |  |
+| 401k | 19% |  |
+| Civil Engineering | 19% |  |
+| Drafting | 19% |  |
+| Holidays | 19% |  |
+| Inspections | 19% |  |
+| Relevant Experience | 19% |  |
+| Standing | 19% |  |
+| Verbal and Written Communication | 19% |  |
+| Written Communication | 19% |  |
+| Flexibility | 19% |  |
+| Audits | 19% |  |
+| Life Insurance | 19% |  |
+| Modeling | 19% |  |
+| Coordination | 19% |  |
+| Manufacturing | 12% |  |
+| Microsoft Office | 12% |  |
+| natural gas | 12% |  |
+| Strong Communication | 12% |  |
+| AutoCAD | 12% |  |
+| Career advancement | 12% |  |
+| Civil 3D | 12% |  |
+| Conferences | 12% |  |
+| Employee Stock Ownership Plan (ESOP) | 12% |  |
+| Infrastructure | 12% |  |
 
 ## Soft skills employers mention
 
-Communication (44%), Communication Skills (26%), Leadership (26%), Mentoring (17%), Presentations (17%), Collaboration (17%), Teamwork (13%), Attention to Detail (13%)
+Communication (38%), Leadership (31%), Communication Skills (25%), Mentoring (19%), Collaboration (12%)
+
+## Malaysia / Singapore skills (AI-drafted, pending human review)
+
+Drafted by DeepSeek because few job ads matched this title. Estimated share of job ads in brackets.
+
+- Environmental Impact Assessment (EIA) (75%, hard)
+- ISO 14001 Environmental Management System (70%, hard)
+- Environmental monitoring and sampling (65%, hard)
+- Wastewater treatment design (60%, hard)
+- Environmental Quality Act 1974 (Malaysia) (60%, hard)
+- Department of Environment (DOE) Malaysia compliance (55%, hard)
+- Air pollution control (55%, hard)
+- AutoCAD (55%, tool)
+- Microsoft Excel (50%, tool)
+- Environmental Protection and Management Act (Singapore) (50%, hard)
+- National Environment Agency (NEA) Singapore compliance (45%, hard)
+- Environmental audit (45%, hard)
+- Solid waste management (45%, hard)
+- Hazardous waste management (40%, hard)
+- GIS (ArcGIS) (40%, tool)
+- Report writing (40%, hard)
+- ISO 14001 Lead Auditor (35%, certification)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
@@ -129,6 +149,8 @@ Autodesk AutoCAD, Microsoft Excel, Microsoft Office, Microsoft PowerPoint, Micro
 ## Core abilities (O*NET importance ≥ 3.5 of 5)
 
 Reading Comprehension, Critical Thinking, Writing, Monitoring, Active Listening, Speaking
+
+> **Limited market data:** fewer than 20 job ads matched this title, so skills rely mainly on ESCO and O*NET.
 
 ---
 Sources: O*NET 31.0 (USDOL/ETA, CC BY 4.0); ESCO v1.2.1 (European Commission); LinkedIn Job Postings 2023–24 (CC BY-SA 4.0); Data Science Job Postings & Skills 2024 (ODC-By).

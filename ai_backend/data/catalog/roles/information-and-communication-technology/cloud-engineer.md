@@ -4,7 +4,7 @@
 - **Also called:** Cloud Architect
 - **O*NET:** 15-1299.08 Computer Systems Engineers/Architects
 - **ESCO:** cloud engineer
-- **Job ads analysed:** 183 (Internship / Fresh Graduate 17, Junior 13, Mid-level 102, Senior 43, Lead / Manager 8)
+- **Job ads analysed:** 170 (Internship / Fresh Graduate 17, Junior 9, Mid-level 97, Senior 41, Lead / Manager 6)
 
 ## What the job involves
 
@@ -16,52 +16,50 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Internship / Fresh Graduate | Mid-level | Senior |
 |---|---|---|---|---|
-| Cloud **(core)** | 87% | 100% | 96% | 56% |
-| Infrastructure **(core)** | 61% | 59% | 67% | 40% |
-| AWS **(core)** | 51% | 76% | 49% | 54% |
-| Azure **(core)** | 50% | 41% | 53% | 42% |
-| Architecture **(core)** | 39% | 29% | 44% | 23% |
-| Implementation **(core)** | 38% | 35% | 38% | 28% |
-| DevOps **(core)** | 35% | 35% | 38% | 23% |
-| Automation **(core)** | 33% | 47% | 32% | 19% |
-| Python **(core)** | 33% | 35% | 28% | 49% |
-| Terraform **(core)** | 31% | 24% | 32% | 28% |
-| Networking **(core)** | 28% | 35% | 26% | 28% |
-| Kubernetes **(core)** | 28% | 24% | 19% | 51% |
-| Troubleshooting **(core)** | 28% | 24% | 31% | 30% |
-| Computer Science **(core)** | 27% | 47% | 28% | 19% |
-| Storage **(core)** | 26% | 24% | 26% | 21% |
-| Scripting **(core)** | 26% | 24% | 26% | 19% |
-| Cloud Infrastructure **(core)** | 25% | 35% | 24% | 16% |
-| GCP | 25% | 24% | 17% | 46% |
-| Docker | 24% | 18% | 18% | 40% |
-| Deployment | 24% | 24% | 22% | 19% |
-| Azure Cloud | 24% | 0% | 26% | 21% |
-| Configuration | 23% | 24% | 24% | 21% |
-| Network | 23% | 24% | 22% | 19% |
-| CI/CD | 21% | 41% | 19% | 16% |
-| Agile | 21% | 29% | 17% | 14% |
-| Onsite | 21% | 6% | 26% | 21% |
-| SQL | 19% | 24% | 17% | 12% |
-| Guidance | 19% | 29% | 22% | 9% |
-| Infrastructure as Code | 18% | 12% | 22% | 12% |
-| Scalability | 18% | 18% | 13% | 33% |
-| Cloud Computing | 18% | 18% | 15% | 28% |
-| Resource | 17% | 12% | 16% | 9% |
-| AWS Cloud | 16% | 29% | 19% | 9% |
-| Computing | 16% | 24% | 18% | 14% |
-| Linux | 16% | 18% | 12% | 19% |
-| Cloud Solutions | 16% | 24% | 16% | 12% |
-| Windows | 16% | 24% | 11% | 19% |
-| Information Technology | 16% | 24% | 13% | 12% |
-| Cloud Architecture | 16% | 12% | 18% | 9% |
-| Scalable | 16% | 18% | 17% | 9% |
-| IAM | 15% | 24% | 19% | 9% |
-| PowerShell | 15% | 6% | 17% | 9% |
+| Cloud **(core)** | 86% | 100% | 96% | 54% |
+| Infrastructure **(core)** | 58% | 59% | 65% | 37% |
+| AWS **(core)** | 54% | 76% | 50% | 56% |
+| Azure **(core)** | 48% | 41% | 52% | 44% |
+| DevOps **(core)** | 36% | 35% | 39% | 24% |
+| Implementation **(core)** | 36% | 35% | 39% | 24% |
+| Architecture **(core)** | 36% | 29% | 43% | 20% |
+| Python **(core)** | 34% | 35% | 28% | 51% |
+| Automation **(core)** | 33% | 47% | 31% | 20% |
+| Terraform **(core)** | 30% | 24% | 31% | 24% |
+| Troubleshooting **(core)** | 29% | 24% | 32% | 32% |
+| Kubernetes **(core)** | 29% | 24% | 19% | 54% |
+| Computer Science **(core)** | 28% | 47% | 27% | 20% |
+| Cloud Infrastructure **(core)** | 25% | 35% | 24% | 17% |
+| Docker **(core)** | 25% | 18% | 19% | 42% |
+| GCP | 24% | 24% | 16% | 44% |
+| Networking | 24% | 35% | 22% | 24% |
+| Storage | 24% | 24% | 25% | 22% |
+| Deployment | 22% | 24% | 22% | 20% |
+| Scripting | 22% | 24% | 24% | 15% |
+| CI/CD | 22% | 41% | 19% | 17% |
+| Configuration | 22% | 24% | 23% | 17% |
+| Azure Cloud | 21% | 0% | 26% | 22% |
+| Onsite | 21% | 6% | 25% | 17% |
+| Network | 20% | 24% | 21% | 20% |
+| Guidance | 19% | 29% | 23% | 10% |
+| Agile | 19% | 29% | 16% | 15% |
+| AWS Cloud | 18% | 29% | 20% | 10% |
+| Infrastructure as Code | 18% | 12% | 20% | 12% |
+| SQL | 18% | 24% | 16% | 12% |
+| Cloud Computing | 17% | 18% | 13% | 29% |
+| Linux | 17% | 18% | 12% | 20% |
+| IAM | 16% | 24% | 20% | 10% |
+| Scalability | 16% | 18% | 11% | 29% |
+| Cloud Architecture | 16% | 12% | 19% | 10% |
+| Scalable | 16% | 18% | 18% | 10% |
+| Computing | 16% | 24% | 16% | 15% |
+| Cloud Solutions | 15% | 24% | 13% | 12% |
+| Resource | 15% | 12% | 14% | 10% |
+| IaC | 14% | 12% | 14% | 10% |
 
 ## Soft skills employers mention
 
-Communication (39%), Problem Solving (22%), Leadership (21%), Collaboration (20%), Problem Solving Skills (10%)
+Communication (38%), Problem Solving (22%), Leadership (20%), Collaboration (18%), Problem Solving Skills (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

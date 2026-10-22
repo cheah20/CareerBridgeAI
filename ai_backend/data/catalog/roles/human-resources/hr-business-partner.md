@@ -3,7 +3,7 @@
 - **Field:** Human Resources
 - **O*NET:** 13-1071.00 Human Resources Specialists
 - **ESCO:** —
-- **Job ads analysed:** 51 (Internship / Fresh Graduate 1, Junior 8, Mid-level 24, Senior 7, Lead / Manager 11)
+- **Job ads analysed:** 34 (Internship / Fresh Graduate 1, Junior 3, Mid-level 18, Senior 5, Lead / Manager 7)
 
 ## What the job involves
 
@@ -15,60 +15,58 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| HR **(core)** | 98% | 96% |
-| Employee Relations **(core)** | 74% | 92% |
-| Human Resources **(core)** | 74% | 67% |
-| Objectives **(core)** | 71% | 58% |
-| Performance Management **(core)** | 71% | 67% |
-| Resource **(core)** | 53% | 42% |
-| Guidance **(core)** | 53% | 50% |
-| Partnership **(core)** | 49% | 33% |
-| Metrics **(core)** | 39% | 38% |
-| Policies and procedures **(core)** | 39% | 42% |
-| Talent Management **(core)** | 37% | 46% |
-| Microsoft Office **(core)** | 33% | 29% |
-| Insights **(core)** | 33% | 21% |
-| Recruitment **(core)** | 31% | 21% |
-| Influence **(core)** | 31% | 33% |
-| Talent Acquisition **(core)** | 31% | 50% |
-| Work Environment **(core)** | 29% | 33% |
-| Equity **(core)** | 29% | 4% |
-| Acquisition **(core)** | 29% | 46% |
-| Change Management **(core)** | 28% | 21% |
-| Partnerships **(core)** | 28% | 29% |
-| Proactive **(core)** | 28% | 8% |
-| Business Objectives **(core)** | 28% | 17% |
-| Risk **(core)** | 28% | 29% |
-| Excellence **(core)** | 26% | 29% |
-| HR Metrics | 24% | 21% |
-| HRIS | 24% | 33% |
-| Resolution | 24% | 8% |
-| Trust | 24% | 17% |
-| Integrity | 24% | 8% |
-| Responsibility | 24% | 8% |
-| Affirmative Action | 24% | 8% |
-| Excel | 22% | 21% |
-| Implementation | 22% | 25% |
-| Onboarding | 22% | 29% |
-| Communications | 22% | 8% |
-| MS | 20% | 25% |
-| Work Experience | 20% | 8% |
-| Analytics | 20% | 4% |
-| Hybrid Work | 20% | 17% |
-| Management Experience | 20% | 8% |
-| Career Development | 20% | 17% |
-| Counseling | 20% | 25% |
-| Leadership development | 20% | 21% |
-| Confidentiality | 18% | 21% |
-| Posting | 18% | 25% |
-| Presentation | 18% | 12% |
-| Regulatory | 18% | 12% |
-| Data Analysis | 18% | 8% |
-| work independently | 18% | 12% |
+| HR **(core)** | 97% | 94% |
+| Employee Relations **(core)** | 76% | 94% |
+| Human Resources **(core)** | 71% | 56% |
+| Performance Management **(core)** | 68% | 61% |
+| Objectives **(core)** | 59% | 44% |
+| Guidance **(core)** | 47% | 44% |
+| Resource **(core)** | 47% | 44% |
+| Talent Acquisition **(core)** | 44% | 61% |
+| Talent Management **(core)** | 41% | 44% |
+| Acquisition **(core)** | 41% | 56% |
+| Partnership **(core)** | 38% | 28% |
+| Change Management **(core)** | 35% | 28% |
+| Influence **(core)** | 32% | 33% |
+| Policies and procedures **(core)** | 32% | 33% |
+| Microsoft Office **(core)** | 29% | 39% |
+| Analytical **(core)** | 26% | 11% |
+| Partnerships **(core)** | 26% | 22% |
+| Excel **(core)** | 26% | 22% |
+| Retention **(core)** | 26% | 33% |
+| Business Objectives **(core)** | 26% | 17% |
+| Work Environment **(core)** | 26% | 22% |
+| Investigations **(core)** | 26% | 28% |
+| Risk **(core)** | 26% | 22% |
+| Integrity | 24% | 11% |
+| Interviews | 24% | 28% |
+| Work Experience | 24% | 6% |
+| Proactive | 24% | 11% |
+| Excellence | 24% | 17% |
+| Career Development | 24% | 17% |
+| Counseling | 24% | 28% |
+| Recommendations | 24% | 22% |
+| Flexibility | 21% | 17% |
+| Project Management | 21% | 22% |
+| Trust | 21% | 6% |
+| Confidentiality | 21% | 17% |
+| HRIS | 21% | 17% |
+| Onboarding | 21% | 22% |
+| Recruitment | 21% | 11% |
+| Equity | 21% | 6% |
+| Insights | 21% | 17% |
+| Metrics | 21% | 17% |
+| Talent Development | 21% | 6% |
+| Interpretation | 21% | 22% |
+| Judgment | 21% | 17% |
+| Facilitation | 21% | 22% |
+| Posting | 21% | 22% |
+| Implementation | 18% | 17% |
+| Business Needs | 18% | 11% |
 
 ## Soft skills employers mention
 
-Leadership (69%), Communication (63%), Coaching (55%), Communication Skills (33%), Collaboration (33%), Time Management (26%), Customer Service (24%), Attention to Detail (14%), Problem Solving (14%), Presentation Skills (14%)
+Leadership (71%), Coaching (62%), Communication (50%), Collaboration (26%), Communication Skills (24%), Problem Solving (15%), Time Management (15%), Attention to Detail (12%), Customer Service (12%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 

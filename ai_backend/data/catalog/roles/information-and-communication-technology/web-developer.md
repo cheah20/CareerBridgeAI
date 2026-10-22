@@ -3,7 +3,7 @@
 - **Field:** Information & Communication Technology
 - **O*NET:** 15-1254.00 Web Developers
 - **ESCO:** web developer
-- **Job ads analysed:** 69 (Internship / Fresh Graduate 9, Junior 4, Mid-level 46, Senior 9, Lead / Manager 1)
+- **Job ads analysed:** 37 (Internship / Fresh Graduate 9, Junior 3, Mid-level 15, Senior 9, Lead / Manager 1)
 
 ## What the job involves
 
@@ -15,53 +15,46 @@ Share of job ads for this role that mention the skill, overall and by experience
 
 | Skill | All ads | Mid-level |
 |---|---|---|
-| HTML **(core)** | 74% | 85% |
-| JavaScript **(core)** | 72% | 80% |
-| Programming **(core)** | 59% | 72% |
-| SQL **(core)** | 58% | 70% |
-| Python **(core)** | 54% | 72% |
-| Coding **(core)** | 52% | 72% |
-| Writing **(core)** | 52% | 74% |
-| Part Time **(core)** | 49% | 72% |
-| Flexibility **(core)** | 49% | 67% |
-| C# **(core)** | 49% | 67% |
-| Code quality **(core)** | 46% | 67% |
-| English **(core)** | 46% | 67% |
-| Remote Work **(core)** | 46% | 70% |
-| AI **(core)** | 45% | 67% |
-| Bilingual **(core)** | 44% | 65% |
-| C++ **(core)** | 44% | 65% |
-| Chatbot **(core)** | 44% | 65% |
-| Chatbots **(core)** | 44% | 65% |
-| Data Annotation **(core)** | 44% | 65% |
-| Grammar **(core)** | 44% | 65% |
-| PayPal **(core)** | 44% | 65% |
-| CSS **(core)** | 28% | 17% |
-| Web Development | 20% | 11% |
-| React | 16% | 9% |
-| Server | 16% | 9% |
-| Developers | 14% | 11% |
-| Database | 13% | 4% |
-| PHP | 13% | 6% |
-| Web Applications | 13% | 4% |
-| Architecture | 12% | 6% |
-| Testing | 12% | 4% |
-| Angular | 12% | 6% |
-| WordPress | 12% | 6% |
-| Java | 12% | 4% |
-| Web design | 12% | 6% |
-| Computer Science | 12% | 4% |
-| Deployment | 10% | 2% |
-| Git | 10% | 4% |
-| Life Insurance | 10% | 4% |
+| HTML **(core)** | 60% | 67% |
+| JavaScript **(core)** | 54% | 47% |
+| CSS **(core)** | 51% | 53% |
+| Web Development **(core)** | 38% | 33% |
+| Programming **(core)** | 30% | 27% |
+| SQL **(core)** | 30% | 20% |
+| Server **(core)** | 27% | 20% |
+| Developers | 24% | 27% |
+| React | 24% | 13% |
+| Database | 24% | 13% |
+| PHP | 24% | 20% |
+| Architecture | 22% | 20% |
+| Testing | 22% | 13% |
+| Angular | 22% | 20% |
+| Python | 22% | 27% |
+| WordPress | 22% | 20% |
+| Web design | 22% | 20% |
+| Web Applications | 22% | 7% |
+| Computer Science | 22% | 13% |
+| Coding | 19% | 27% |
+| Deployment | 19% | 7% |
+| Java | 19% | 7% |
+| Git | 19% | 13% |
+| User Experience | 16% | 20% |
+| Maintenance | 16% | 0% |
+| Content Management | 16% | 13% |
+| Analytical | 16% | 7% |
+| Analytics | 16% | 13% |
+| DevOps | 16% | 13% |
+| jQuery | 16% | 13% |
+| Writing | 16% | 27% |
+| Databases | 16% | 13% |
 
 ## Soft skills employers mention
 
-Communication (26%), Problem Solving (16%), Collaboration (13%), Communication Skills (10%), Problem Solving Skills (10%)
+Communication (49%), Problem Solving (30%), Collaboration (22%), Communication Skills (19%), Problem Solving Skills (19%), Attention to Detail (14%), Leadership (11%)
 
 ## Tools and technologies (O*NET in-demand, or seen in this role's ads)
 
-Amazon Web Services AWS, Apache Kafka, Atlassian JIRA, C#, Cascading style sheets CSS, Docker, Spring Boot, Git, GitHub, Go, Google Angular, GraphQL, Hypertext markup language HTML, JavaScript, JavaScript Object Notation JSON, Jenkins CI, jQuery, Kubernetes, Microsoft Azure, Linux
+Amazon Web Services AWS, Apache Kafka, Atlassian JIRA, Cascading style sheets CSS, C#, Docker, Git, Spring Boot, GitHub, Go, Google Angular, Hypertext markup language HTML, GraphQL, JavaScript, JavaScript Object Notation JSON, Microsoft Azure, Jenkins CI, jQuery, Kubernetes, MongoDB
 
 ## Essential skills (ESCO)
 
