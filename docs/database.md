@@ -92,6 +92,21 @@ Row Level Security (RLS) is enabled on every table. The frontend uses the public
 
 Storage-saving rules: parsed Markdown is stored in the database (not as files); images are OCR-processed at full quality, then compressed for storage; maximum 5 resumes per user; deleting a resume or account deletes its files.
 
+## Local data (not in the database)
+
+During testing, some data is kept as files on the developer's computer instead of Supabase.
+None of it is uploaded to GitHub.
+
+| Folder | What is kept | Main fields |
+|---|---|---|
+| `ai_backend/data/logbook/` | One JSON file per resume analysis in testing mode, plus a copy of the uploaded file in `files/` | `file` (name, type, pages, OCR), `clean_markdown` (text with personal details removed), `profile` (details read from the resume), `profile_original` (first reading, kept when the user corrects it), `profile_edited_at`, `role`, `level`, `assessment` (score, label, reasons), `directions` (career model), `advice`, `advice_stale`, `feedback`, `timings` |
+| `ai_backend/data/llm/usage.jsonl` | One line per AI request | `timestamp`, `purpose`, `model`, `user`, `status` (`ok`, `cache_hit`, `error`, `blocked_daily`, `blocked_budget`), token counts |
+| `ai_backend/data/llm/cache/` | Saved AI answers, so the same question is not sent twice | — |
+| `ai_backend/models/` | Trained career-direction models and `registry.json` (versions, which one is deployed) | — |
+
+When the Job Seeker flow moves to real accounts, the logbook fields map to the `resumes` table
+(`parsed_markdown`, `parsed_data`, `parse_status`) and the `seeker_profiles` table (`skills`, `education`, `experience`, `headline`).
+
 ## Applying migrations
 
 ```bash

@@ -14,8 +14,8 @@
 
 | Week | Dates | Phase | Goal / exit criteria | Status |
 |---|---|---|---|---|
-| 1 | Oct 15 – Oct 21 | 0 + 1 | Setup done; DB schema v1; sign-up / login works for all roles | In Progress |
-| 2 | Oct 22 – Oct 28 | 1 | RLS + role permissions verified with test accounts; app shell per role | Todo |
+| 1 | Oct 15 – Oct 21 | 0 + 1 | Setup done; DB schema v1; sign-up / login works for all roles | Done |
+| 2 | Oct 22 – Oct 28 | 1 | RLS + role permissions verified with test accounts; app shell per role | In Progress |
 | 3 | Oct 29 – Nov 4 | 2 | Upload PDF/DOCX resume, extract text, show parsed result | Todo |
 | 4 | Nov 5 – Nov 11 | 2 | OCR for JPG/PNG; profile sync; dataset selected | Todo |
 | 5 | Nov 12 – Nov 18 | 3 | 4 ML models compared; rule-based match score shown | Todo |
@@ -24,6 +24,53 @@
 | 8 | Dec 3 – Dec 9 | 5 | Admin dashboard, company verification, model versions | Todo |
 | 9 | Dec 10 – Dec 16 | 6 | Email, bug reports, monitoring, usage alerts; cloud deployment | Todo |
 | 10 | Dec 17 – Dec 23 | 7 | Full testing, documentation, demo preparation (buffer week) | Todo |
+
+---
+
+## Progress reviews
+
+| Review | When | What the supervisor expects to see |
+|---|---|---|
+| Progress 1 | Week of Oct 26 | Early stage: plan, database, login, and the core AI flow working |
+| Progress 2 | Mid-project | Jobs and applications working; Recruiter and Admin pages started |
+| Progress 3 | 1–2 weeks before the final presentation | Near pre-demo: all P1 features working on the hosted demo |
+
+### Progress 1 snapshot (2026-10-25)
+
+Percent done for each GitHub task card (#1–#36), judged from the code and documents.
+
+| # | Task | Done | # | Task | Done |
+|---|---|---|---|---|---|
+| 1 | 1.6 End-to-end check | 80% | 19 | 5.5 User & role management | 5% |
+| 2 | 2.1 Storage + upload | 40% | 20 | 5.6 Model management | 60% |
+| 3 | 2.2 PDF / DOCX reading | 90% | 21 | 6.1 Emails | 15% |
+| 4 | 2.3 Resume details + edit page | 80% | 22 | 6.2 Bug reports | 0% |
+| 5 | 2.4 OCR | 80% | 23 | 6.3 Logs and audit | 10% |
+| 6 | 2.5 Profile sync | 0% | 24 | 6.4 Backup | 0% |
+| 7 | 2.6 Task status | 80% | 25 | 6.5 Account deletion | 0% |
+| 8 | 3.3 Match score | 85% | 26 | 6.6 Cloud deployment | 0% |
+| 9 | 3.5 AI advice | 75% | 27 | 7.1 Test plan | 30% |
+| 10 | 3.6 AI limits | 90% | 28 | 7.2 Documentation | 55% |
+| 11 | 4.1 Job posting + review | 5% | 29 | 7.3 Demo accounts | 10% |
+| 12 | 4.2 Job search | 5% | 30 | 7.4 Android APK | 0% |
+| 13 | 4.3 Apply / withdraw | 5% | 31 | Ong: Admin dashboard page | 0% |
+| 14 | 4.4 Status tracking | 5% | 32 | Ong: Users and roles page | 0% |
+| 15 | 5.1 Company verification | 5% | 33 | Fiqz: Company profile page | 0% |
+| 16 | 5.2 Applicant management | 5% | 34 | Fiqz: My job posts page | 0% |
+| 17 | 5.3 Interviews | 0% | 35 | Fathiyah: Job Seeker home page | 0% |
+| 18 | 5.4 Admin dashboard | 10% | 36 | Fathiyah: Resume profile page | 0% |
+
+5% = only the database tables and permissions exist. Teammate pages (#31–#36) are due Oct 31.
+
+| Measure | Done |
+|---|---|
+| Owner tasks #1–#30 (average) | about 31% |
+| All cards #1–#36 (average) | about 26% |
+| Whole plan (42 tasks, including the 12 finished before the cards were made) | about 51% |
+| Time used at Progress 1 (week 3 of 10) | about 25% |
+
+The AI core (datasets, model comparison, fit score, AI advice) was built early, so the project is slightly
+ahead overall. Behind plan: 1.6 (manual check) and 2.1 (saving files to the bucket).
 
 ---
 
@@ -47,18 +94,18 @@
 | 1.3 | FastAPI skeleton: `/health`, Supabase JWT check, role check (15 tests pass) | P1 | Oct 21 | 0.3 | Done |
 | 1.4 | Flutter skeleton: routing + role guards, glass theme, role shells, public pages (9 tests pass) | P1 | Oct 21 | — | Done |
 | 1.5 | Sign-up / login (Job Seeker, Recruiter); Admin created by system (20 frontend tests pass) | P1 | Oct 23 | 1.1, 1.4 | Done |
-| 1.6 | End-to-end check: login → correct role home; Flutter ↔ FastAPI | P1 | Oct 28 | 1.2–1.5 | Todo |
+| 1.6 | End-to-end check: login → correct role home; Flutter ↔ FastAPI (automated 30/30 pass; manual browser checklist left) | P1 | Oct 28 | 1.2–1.5 | In Progress |
 
 ### Phase 2 — Resume upload & parsing
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
-| 2.1 | Private storage bucket + upload via FastAPI (type/size validation, 10 MB) | P1 | Nov 1 | 1.6 | Todo |
+| 2.1 | Private storage bucket + upload via FastAPI (type/size validation, 10 MB) (bucket + checked upload done; saving to the bucket left) | P1 | Nov 1 | 1.6 | In Progress |
 | 2.2 | PDF / DOCX text extraction → normalized Markdown (extraction module + CLI done, 12 tests) | P1 | Nov 3 | 2.1 | In Progress |
-| 2.3 | Structured field extraction + Resume Profile page (view / correct) | P1 | Nov 6 | 2.2 | Todo |
+| 2.3 | Structured field extraction + Resume Profile page (view / correct) (AI reading + "Edit details" tab done in testing mode; saving to Supabase left) | P1 | Nov 6 | 2.2 | In Progress |
 | 2.4 | OCR for JPG / PNG (RapidOCR, also scanned PDF pages; terminal version done) | P2 | Nov 8 | 2.2 | In Progress |
 | 2.5 | Profile sync: show differences, user confirms updates | P2 | Nov 10 | 2.3 | Todo |
-| 2.6 | Background task status (Pending / Processing / Completed / Failed) | P2 | Nov 11 | 2.2 | Todo |
+| 2.6 | Background task status (Pending / Processing / Completed / Failed) (done in testing mode; real accounts left) | P2 | Nov 11 | 2.2 | In Progress |
 
 ### Phase 3 — AI core
 
@@ -69,7 +116,7 @@
 | 3.3 | Rule-based match score + match levels (e.g. "84% — Strong Match"); terminal version done, thresholds provisional | P1 | Nov 18 | 2.3 | In Progress |
 | 3.4 | Choose LLM provider; backend-only key; usage logging | P1 | Nov 20 | — | Done |
 | 3.5 | LLM explanations, skill gaps, resume advice, interview questions, roadmap (terminal report done; UI pending) | P1 | Nov 25 | 3.3, 3.4 | In Progress |
-| 3.6 | Per-user rate limit + usage alerts (80% / 100%) + no-key mock mode (usage alerts + `--no-llm` done) | P2 | Nov 25 | 3.4 | In Progress |
+| 3.6 | Per-user rate limit + usage alerts (80% / 100%) + no-key mock mode (all done; uses one local tester until login is connected) | P2 | Nov 25 | 3.4 | In Progress |
 
 ### Phase 4 — Jobs & applications
 
@@ -106,8 +153,8 @@
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
-| 7.1 | Test plan + test report (roles, upload, AI, workflows, failures) | P1 | Dec 20 | 6.6 | Todo |
-| 7.2 | Documentation: README, setup, API, DB structure, AI model report | P1 | Dec 21 | — | Todo |
+| 7.1 | Test plan + test report (roles, upload, AI, workflows, failures) (draft plan: [testing/test-plan.md](testing/test-plan.md)) | P1 | Dec 20 | 6.6 | In Progress |
+| 7.2 | Documentation: README, setup, API, DB structure, AI model report (README, setup, [api.md](api.md), [database.md](database.md), AI report done; final pass left) | P1 | Dec 21 | — | In Progress |
 | 7.3 | Demo test accounts, sample data, backup plan | P1 | Dec 22 | 6.6 | Todo |
 | 7.4 | Android APK build | P3 | Dec 23 | 6.6 | Todo |
 
