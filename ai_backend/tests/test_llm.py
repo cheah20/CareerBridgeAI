@@ -20,7 +20,7 @@ SKILLS
 SQL, Python, Power BI
 Data Analyst, Retail Group, 2024 - Present"""
     out = redact_personal_info(resume)
-    for secret in ["AINA", "Jalan Merdeka", "gmail", "345 6789", "990101", "1 Jan 1999", "linkedin.com/in/aina"]:
+    for secret in ["AINA", "Jalan Merdeka", "example.com", "345 6789", "990101", "1 Jan 1999", "linkedin.com/in/aina"]:
         assert secret not in out
     # Content needed for advice stays.
     for kept in ["SQL, Python, Power BI", "Data Analyst, Retail Group, 2024 - Present"]:
@@ -85,3 +85,28 @@ def test_missing_key_gives_a_clear_message():
     settings = Settings(supabase_url="https://x.supabase.co", supabase_publishable_key="k", deepseek_api_key="")
     with pytest.raises(client.LLMUnavailable, match="not configured"):
         client.chat_json(MESSAGES, purpose="test", settings=settings)
+
+
+def test_each_user_has_a_daily_limit(llm):
+    settings, calls = llm
+    settings.llm_daily_requests_per_user = 2
+    for n in range(2):
+        client.chat_json([{"role": "user", "content": f"Reply in json {n}"}], purpose="test", user_id="u1",
+                         settings=settings)
+    with pytest.raises(client.DailyLimitReached, match="reset tomorrow"):
+        client.chat_json([{"role": "user", "content": "Reply in json 3"}], purpose="test", user_id="u1",
+                         settings=settings)
+    assert len(calls) == 2
+    # Other users and developer tools are not affected.
+    client.chat_json([{"role": "user", "content": "Reply in json 4"}], purpose="test", user_id="u2", settings=settings)
+    client.chat_json([{"role": "user", "content": "Reply in json 5"}], purpose="test", settings=settings)
+    assert len(calls) == 4
+
+
+def test_cached_answers_do_not_use_the_daily_limit(llm):
+    settings, calls = llm
+    settings.llm_daily_requests_per_user = 1
+    client.chat_json(MESSAGES, purpose="test", user_id="u1", settings=settings)
+    client.chat_json(MESSAGES, purpose="test", user_id="u1", settings=settings)  # same question, from the cache
+    assert len(calls) == 1
+    assert client.user_status("u1", settings) == {"used_today": 1, "daily_limit": 1, "left_today": 0}

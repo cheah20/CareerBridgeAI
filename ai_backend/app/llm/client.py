@@ -1,4 +1,4 @@
-"""DeepSeek chat client with JSON output, caching, usage logging and budget limits."""
+"""DeepSeek chat client with JSON output, caching, usage logging, budget limits and a daily limit per user."""
 
 import hashlib
 import json
@@ -29,6 +29,10 @@ class BudgetExceeded(LLMUnavailable):
     pass
 
 
+class DailyLimitReached(LLMUnavailable):
+    pass
+
+
 @dataclass(frozen=True)
 class LLMReply:
     data: dict
@@ -56,6 +60,26 @@ def budget_status(settings: Settings | None = None) -> dict:
             "alert": share >= 0.8, "limited": share >= 1.0}
 
 
+def requests_today(user_id: str, now: datetime | None = None) -> int:
+    """AI requests this user sent today (UTC). Cache hits and blocked requests are not counted."""
+    if not USAGE_LOG.exists():
+        return 0
+    day = (now or datetime.now(UTC)).strftime("%Y-%m-%d")
+    count = 0
+    for line in USAGE_LOG.read_text(encoding="utf-8").splitlines():
+        entry = json.loads(line)
+        if entry.get("user") == user_id and entry["timestamp"].startswith(day) and entry["status"] in ("ok", "error"):
+            count += 1
+    return count
+
+
+def user_status(user_id: str, settings: Settings | None = None) -> dict:
+    s = settings or get_settings()
+    used = requests_today(user_id)
+    return {"used_today": used, "daily_limit": s.llm_daily_requests_per_user,
+            "left_today": max(s.llm_daily_requests_per_user - used, 0)}
+
+
 def _log(entry: dict) -> None:
     LLM_DIR.mkdir(parents=True, exist_ok=True)
     with USAGE_LOG.open("a", encoding="utf-8") as f:
@@ -70,9 +94,13 @@ def chat_json(
     max_tokens: int = 2500,
     temperature: float = 0.3,
     thinking: bool = True,
+    user_id: str | None = None,
     settings: Settings | None = None,
 ) -> LLMReply:
-    """Send a chat request that must return a JSON object. The prompt must mention JSON."""
+    """Send a chat request that must return a JSON object. The prompt must mention JSON.
+
+    user_id: who asked, for the daily limit. None means a developer tool (no daily limit).
+    """
     s = settings or get_settings()
     if not s.deepseek_api_key:
         raise LLMUnavailable("AI explanations are not configured on this server.")
@@ -90,18 +118,24 @@ def chat_json(
     cache_file = CACHE_DIR / f"{key}.json"
     if cache_file.exists():
         _log({"timestamp": datetime.now(UTC).isoformat(timespec="seconds"), "purpose": purpose, "model": s.deepseek_model,
-              "status": "cache_hit", "cost_usd": 0.0})
+              "user": user_id, "status": "cache_hit", "cost_usd": 0.0})
         return LLMReply(json.loads(cache_file.read_text(encoding="utf-8")), cached=True, cost_usd=0.0)
+
+    if user_id is not None and requests_today(user_id) >= s.llm_daily_requests_per_user:
+        _log({"timestamp": datetime.now(UTC).isoformat(timespec="seconds"), "purpose": purpose, "model": s.deepseek_model,
+              "user": user_id, "status": "blocked_daily", "cost_usd": 0.0})
+        raise DailyLimitReached("You have used today's AI requests. They reset tomorrow, and your score still works without them.")
 
     status = budget_status(s)
     if status["limited"] and not essential:
         _log({"timestamp": datetime.now(UTC).isoformat(timespec="seconds"), "purpose": purpose, "model": s.deepseek_model,
-              "status": "blocked_budget", "cost_usd": 0.0})
+              "user": user_id, "status": "blocked_budget", "cost_usd": 0.0})
         raise BudgetExceeded("The monthly AI budget has been reached. AI explanations will return next month.")
     if status["alert"]:
         logger.warning("LLM budget alert: %.0f%% of USD %.2f used", status["used"] * 100, status["budget_usd"])
 
-    entry = {"timestamp": datetime.now(UTC).isoformat(timespec="seconds"), "purpose": purpose, "model": s.deepseek_model}
+    entry = {"timestamp": datetime.now(UTC).isoformat(timespec="seconds"), "purpose": purpose, "model": s.deepseek_model,
+             "user": user_id}
     usage_total: dict[str, int] = {}
     data = None
     request = dict(payload)

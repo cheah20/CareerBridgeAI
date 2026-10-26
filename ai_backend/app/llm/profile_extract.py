@@ -99,12 +99,13 @@ def from_dict(data: dict) -> Profile:
                    uncertain=_strings(data.get("uncertain")))
 
 
-def extract_profile(clean_markdown: str) -> Profile:
+def extract_profile(clean_markdown: str, user_id: str | None = None) -> Profile:
     reply = chat_json(
         [{"role": "system", "content": SYSTEM_PROMPT},
          {"role": "user", "content": f"Today is {date.today():%d %B %Y}. Read this resume into JSON.\n\n"
                                      + clean_markdown[:MAX_CHARS]}],
-        purpose="profile_extract", essential=True, max_tokens=3000, temperature=0.0, thinking=False)
+        purpose="profile_extract", essential=True, max_tokens=3000, temperature=0.0, thinking=False,
+        user_id=user_id)
     return from_dict(reply.data)
 
 

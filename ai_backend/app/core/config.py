@@ -35,6 +35,8 @@ class Settings(BaseSettings):
     deepseek_base_url: str = "https://api.deepseek.com"
     deepseek_model: str = "deepseek-flash"
     llm_monthly_budget_usd: float = 5.0
+    # AI requests one user can make per day (answers from the cache do not count).
+    llm_daily_requests_per_user: int = 30
     # Token rates for estimating AI usage (set on the high side).
     llm_price_input_hit: float = 0.006
     llm_price_input_miss: float = 0.30

@@ -84,6 +84,7 @@ def coach_messages(role: dict, level_label: str, assessment: dict, profile: dict
             {"role": "user", "content": "Write the coaching advice as JSON.\n" + json.dumps(context, ensure_ascii=False)}]
 
 
-def coach(role: dict, level_label: str, assessment: dict, profile: dict, thinking: bool = False) -> LLMReply:
+def coach(role: dict, level_label: str, assessment: dict, profile: dict, thinking: bool = False,
+          user_id: str | None = None) -> LLMReply:
     return chat_json(coach_messages(role, level_label, assessment, profile), purpose="coach_advice",
-                     max_tokens=1400, temperature=0.4, thinking=thinking)
+                     max_tokens=1400, temperature=0.4, thinking=thinking, user_id=user_id)
