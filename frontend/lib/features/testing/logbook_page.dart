@@ -34,6 +34,7 @@ class _LogbookPageState extends ConsumerState<LogbookPage> {
             ..._entry!,
             'advice': reply['advice'],
             'advice_error': reply['advice_error'],
+            'advice_stale': false,
           },
         );
       }
@@ -132,6 +133,7 @@ class _LogbookPageState extends ConsumerState<LogbookPage> {
               entry: _entry!,
               adviceLoading: _adviceLoading,
               onRequestAdvice: _requestAdvice,
+              onEntryChanged: (e) => setState(() => _entry = e),
             ),
         ],
       ],

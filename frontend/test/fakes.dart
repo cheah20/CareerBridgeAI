@@ -105,14 +105,53 @@ class FakeTestingApi implements TestingApi {
     {'entry': 'Internship / Fresh Graduate', 'junior': 'Junior'},
   );
 
+  /// What the fake task reports on each poll, then 'completed'.
+  List<Map<String, dynamic>> taskSteps = [];
+  final List<Map<String, dynamic>> savedProfiles = [];
+  int taskPolls = 0;
+
   @override
-  Future<Map<String, dynamic>> analyse({
+  Future<Map<String, dynamic>> startAnalysis({
     required Uint8List bytes,
     required String fileName,
     required String roleId,
     required String level,
     required bool useLlm,
-  }) async => sampleEntry();
+  }) async => {'id': 't1', 'status': 'pending', 'step': 'Waiting to start'};
+
+  @override
+  Future<Map<String, dynamic>> task(String id) async {
+    taskPolls++;
+    if (taskPolls <= taskSteps.length) return taskSteps[taskPolls - 1];
+    return {'id': id, 'status': 'completed', 'entry': sampleEntry()};
+  }
+
+  @override
+  Future<Map<String, dynamic>> saveProfile(
+    String id,
+    Map<String, dynamic> profile,
+  ) async {
+    savedProfiles.add(profile);
+    final entry = entries.firstWhere((e) => e['id'] == id);
+    return {
+      ...entry,
+      'profile': profile,
+      'profile_edited_at': '2026-10-25T09:30:00+00:00',
+      'assessment': {
+        ...(entry['assessment'] as Map).cast<String, dynamic>(),
+        'score': 81,
+      },
+    };
+  }
+
+  @override
+  Future<Map<String, dynamic>> usage() async => {
+    'used_today': 3,
+    'daily_limit': 30,
+    'left_today': 27,
+    'monthly_alert': false,
+    'monthly_limited': false,
+  };
 
   @override
   Future<List<Map<String, dynamic>>> logbook() async => [

@@ -39,14 +39,26 @@ class TestingFailure implements Exception {
 abstract class TestingApi {
   Future<Catalog> catalog();
 
-  /// Full analysis; the returned map is the logbook entry.
-  Future<Map<String, dynamic>> analyse({
+  /// Start an analysis in the background; returns the task (id, status, step).
+  Future<Map<String, dynamic>> startAnalysis({
     required Uint8List bytes,
     required String fileName,
     required String roleId,
     required String level,
     required bool useLlm,
   });
+
+  /// Task status: pending, processing, completed (with `entry`) or failed (with `error`).
+  Future<Map<String, dynamic>> task(String id);
+
+  /// Save corrected resume details; returns the entry scored again.
+  Future<Map<String, dynamic>> saveProfile(
+    String id,
+    Map<String, dynamic> profile,
+  );
+
+  /// AI requests left today for this tester.
+  Future<Map<String, dynamic>> usage();
 
   Future<List<Map<String, dynamic>>> logbook();
 
@@ -56,10 +68,18 @@ abstract class TestingApi {
   Future<Map<String, dynamic>> advice(String id);
 
   /// Preview the score at another level or with extra skills (nothing is saved).
-  Future<Map<String, dynamic>> whatIf(String id, {required String level, List<String> skills = const []});
+  Future<Map<String, dynamic>> whatIf(
+    String id, {
+    required String level,
+    List<String> skills = const [],
+  });
 
   /// A thumbs up or down on part of the result, kept in the logbook.
-  Future<void> feedback(String id, {required String section, required bool helpful});
+  Future<void> feedback(
+    String id, {
+    required String section,
+    required bool helpful,
+  });
 }
 
 final testingApiProvider = Provider<TestingApi>(
@@ -68,6 +88,11 @@ final testingApiProvider = Provider<TestingApi>(
 
 final catalogProvider = FutureProvider<Catalog>(
   (ref) => ref.read(testingApiProvider).catalog(),
+  retry: (_, _) => null,
+);
+
+final usageProvider = FutureProvider.autoDispose<Map<String, dynamic>>(
+  (ref) => ref.read(testingApiProvider).usage(),
   retry: (_, _) => null,
 );
 
@@ -134,25 +159,45 @@ class HttpTestingApi implements TestingApi {
   }
 
   @override
-  Future<Map<String, dynamic>> analyse({
+  Future<Map<String, dynamic>> startAnalysis({
     required Uint8List bytes,
     required String fileName,
     required String roleId,
     required String level,
     required bool useLlm,
   }) async {
-    final request = http.MultipartRequest('POST', _uri('/analyse'))
+    final request = http.MultipartRequest('POST', _uri('/tasks'))
       ..fields.addAll({'role_id': roleId, 'level': level, 'use_llm': '$useLlm'})
       ..files.add(
         http.MultipartFile.fromBytes('file', bytes, filename: fileName),
       );
-    // OCR and the AI explanation can take a while.
     final body = await _send(
       () async => http.Response.fromStream(await _client.send(request)),
-      timeout: const Duration(seconds: 180),
+      timeout: const Duration(seconds: 60),
     );
     return body as Map<String, dynamic>;
   }
+
+  @override
+  Future<Map<String, dynamic>> task(String id) async =>
+      await _send(() => _client.get(_uri('/tasks/$id')))
+          as Map<String, dynamic>;
+
+  @override
+  Future<Map<String, dynamic>> saveProfile(
+    String id,
+    Map<String, dynamic> profile,
+  ) async => await _send(
+    () => _client.put(
+      _uri('/logbook/$id/profile'),
+      headers: const {'Content-Type': 'application/json'},
+      body: jsonEncode({'profile': profile}),
+    ),
+  ) as Map<String, dynamic>;
+
+  @override
+  Future<Map<String, dynamic>> usage() async =>
+      await _send(() => _client.get(_uri('/usage'))) as Map<String, dynamic>;
 
   @override
   Future<List<Map<String, dynamic>>> logbook() async {
@@ -167,16 +212,31 @@ class HttpTestingApi implements TestingApi {
   ) as Map<String, dynamic>;
 
   @override
-  Future<Map<String, dynamic>> whatIf(String id, {required String level, List<String> skills = const []}) async =>
-      await _send(() => _client.post(_uri('/logbook/$id/whatif'),
-          headers: const {'Content-Type': 'application/json'},
-          body: jsonEncode({'level': level, 'skills': skills}))) as Map<String, dynamic>;
+  Future<Map<String, dynamic>> whatIf(
+    String id, {
+    required String level,
+    List<String> skills = const [],
+  }) async => await _send(
+    () => _client.post(
+      _uri('/logbook/$id/whatif'),
+      headers: const {'Content-Type': 'application/json'},
+      body: jsonEncode({'level': level, 'skills': skills}),
+    ),
+  ) as Map<String, dynamic>;
 
   @override
-  Future<void> feedback(String id, {required String section, required bool helpful}) async {
-    await _send(() => _client.post(_uri('/logbook/$id/feedback'),
+  Future<void> feedback(
+    String id, {
+    required String section,
+    required bool helpful,
+  }) async {
+    await _send(
+      () => _client.post(
+        _uri('/logbook/$id/feedback'),
         headers: const {'Content-Type': 'application/json'},
-        body: jsonEncode({'section': section, 'helpful': helpful})));
+        body: jsonEncode({'section': section, 'helpful': helpful}),
+      ),
+    );
   }
 
   @override

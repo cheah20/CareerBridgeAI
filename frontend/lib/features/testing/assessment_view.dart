@@ -5,20 +5,25 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/theme/glass_tokens.dart';
 import '../../core/widgets/glass.dart';
+import 'profile_editor.dart';
 import 'testing_api.dart';
 
-/// Result page: score banner on top, then Overview, Skills, Jobs and Details tabs.
+/// Result page: score banner on top, then Overview, Skills, Jobs, Details and Edit details tabs.
 class AssessmentView extends ConsumerStatefulWidget {
   const AssessmentView({
     super.key,
     required this.entry,
     this.adviceLoading = false,
     this.onRequestAdvice,
+    this.onEntryChanged,
   });
 
   final Map<String, dynamic> entry;
   final bool adviceLoading;
   final VoidCallback? onRequestAdvice;
+
+  /// Called with the updated entry after the Job Seeker corrects their details.
+  final ValueChanged<Map<String, dynamic>>? onEntryChanged;
 
   @override
   ConsumerState<AssessmentView> createState() => _AssessmentViewState();
@@ -32,7 +37,7 @@ const _levelNames = {
   'lead': 'Lead',
 };
 
-enum _Tab { overview, skills, jobs, details }
+enum _Tab { overview, skills, jobs, details, edit }
 
 class _AssessmentViewState extends ConsumerState<AssessmentView> {
   late String _level = widget.entry['level'] as String;
@@ -70,6 +75,24 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
       _selected = null;
       _feedbackGiven = null;
       _tab = _Tab.overview;
+    } else if (!identical(
+      old.entry['assessment'],
+      widget.entry['assessment'],
+    )) {
+      _previews.clear(); // details were corrected; old previews are out of date
+    }
+  }
+
+  Future<String?> _saveProfile(Map<String, dynamic> profile) async {
+    try {
+      final entry = await ref
+          .read(testingApiProvider)
+          .saveProfile(widget.entry['id'] as String, profile);
+      widget.onEntryChanged?.call(entry);
+      ref.invalidate(logbookProvider);
+      return null;
+    } on TestingFailure catch (e) {
+      return e.message;
     }
   }
 
@@ -135,6 +158,11 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
           _Tab.skills => _skillsPanel(wide),
           _Tab.jobs => _jobsPanel(wide),
           _Tab.details => _detailsPanel(wide),
+          _Tab.edit => ProfileEditor(
+            profile: widget.entry['profile'] as Map<String, dynamic>?,
+            editedAt: widget.entry['profile_edited_at'] as String?,
+            onSave: _saveProfile,
+          ),
         };
         return Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -397,6 +425,11 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
       _Tab.skills: ('Skills', toAdd > 0 ? '$toAdd to add' : null),
       _Tab.jobs: ('Jobs', roles > 0 ? '$roles roles' : null),
       _Tab.details: ('Details', null),
+      if (widget.onEntryChanged != null)
+        _Tab.edit: (
+          'Edit details',
+          widget.entry['profile_edited_at'] != null ? 'edited' : null,
+        ),
     };
     return DecoratedBox(
       decoration: BoxDecoration(
@@ -729,6 +762,26 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
                   ],
                 ),
               ),
+          ],
+          if (widget.entry['advice_stale'] == true) ...[
+            const SizedBox(height: 12),
+            Wrap(
+              spacing: 12,
+              runSpacing: 6,
+              crossAxisAlignment: WrapCrossAlignment.center,
+              children: [
+                Text(
+                  'You changed your details after these tips were written.',
+                  style: TextStyle(fontSize: 14, color: t.warning),
+                ),
+                if (widget.onRequestAdvice != null)
+                  OutlinedButton(
+                    key: const Key('refresh-tips'),
+                    onPressed: widget.onRequestAdvice,
+                    child: const Text('Get new tips'),
+                  ),
+              ],
+            ),
           ],
           const SizedBox(height: 8),
           Align(

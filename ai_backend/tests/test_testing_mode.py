@@ -7,6 +7,7 @@ from app.api import testing
 from app.core.errors import register_error_handlers
 from app.llm.client import LLMReply, LLMUnavailable
 from app.llm.profile_extract import from_dict
+from app.ml.predict import CareerSuggestion
 from app.services import logbook
 
 RESUME = ("Aina Rahman\nData Analyst\naina@example.com | 012-345 6789\n\nEXPERIENCE\nJunior Data Analyst\nMaybank\n"
@@ -30,12 +31,16 @@ def local(tmp_path, monkeypatch):
     monkeypatch.setattr(logbook, "LOGBOOK_DIR", tmp_path)
     seen = {}
 
-    def fake_extract(clean_markdown):
+    def fake_extract(clean_markdown, user_id=None):
         seen["clean"] = clean_markdown
         return from_dict(PROFILE)
 
     monkeypatch.setattr(testing, "extract_profile", fake_extract)
     monkeypatch.setattr(testing, "coach", lambda *a, **k: LLMReply({"summary": "Great start."}, cached=False, cost_usd=0))
+    # The trained model is not in Git, so use a fixed answer.
+    monkeypatch.setattr(testing, "suggest_careers", lambda text, top=3: (
+        "test", [CareerSuggestion("DATA-SCIENCE", "Data Science", 0.8),
+                   CareerSuggestion("INFORMATION-TECHNOLOGY", "Information Technology", 0.1)]))
     app = FastAPI()
     register_error_handlers(app)
     app.include_router(testing.router)
@@ -99,7 +104,7 @@ def test_advice_is_added_later_to_the_same_entry(local):
 
 
 def test_without_the_ai_service_the_analysis_still_works(local, monkeypatch):
-    def unavailable(_):
+    def unavailable(_, user_id=None):
         raise LLMUnavailable("The AI service is not responding right now.")
 
     monkeypatch.setattr(testing, "extract_profile", unavailable)
@@ -143,3 +148,64 @@ def test_analysis_is_enriched_and_supports_whatif_and_feedback(local):
                        json={"section": "score", "helpful": False, "note": "Experience looks too low"})
     assert saved.json() == {"saved": 1}
     assert local.get(f"/testing/logbook/{entry['id']}").json()["feedback"][0]["helpful"] is False
+
+
+def test_corrected_profile_is_saved_and_scored_again(local, tmp_path):
+    entry = analyse(local, use_llm="true").json()
+    local.post(f"/testing/logbook/{entry['id']}/advice")
+    fixed = dict(PROFILE, skills=["Python", "SQL", "Power BI", "Excel", "Tableau", "Statistics", "sql"],
+                 headline="  ")
+    response = local.put(f"/testing/logbook/{entry['id']}/profile", json={"profile": fixed})
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["profile"]["skills"].count("SQL") == 1 and "sql" not in body["profile"]["skills"]
+    assert "Tableau" in body["profile"]["skills"] and body["profile"]["headline"] is None
+    assert body["profile_original"]["skills"] == PROFILE["skills"]  # the first reading is kept
+    assert body["advice_stale"] is True
+    assert body["assessment"]["score"] >= entry["assessment"]["score"]
+    saved = local.get(f"/testing/logbook/{entry['id']}").json()
+    assert saved["profile"] == body["profile"] and saved["assessment"]["score"] == body["assessment"]["score"]
+
+
+@pytest.mark.parametrize("change", [
+    {"experience": [{"title": "Analyst", "start": "Jan 2023"}]},
+    {"education": [{"level": "Degree"}]},
+    {"skills": ["x" * 81]},
+    {"skills": [""]},
+])
+def test_bad_profile_corrections_are_refused(local, change):
+    entry = analyse(local).json()
+    response = local.put(f"/testing/logbook/{entry['id']}/profile", json={"profile": dict(PROFILE, **change)})
+    assert response.status_code == 422
+
+
+def test_background_task_goes_from_pending_to_completed(local):
+    response = local.post("/testing/tasks", files={"file": ("aina.pdf", make_pdf(), "application/pdf")},
+                          data={"role_id": "data-analyst", "level": "junior"})
+    assert response.status_code == 200
+    started = response.json()
+    assert started["status"] == "pending"
+
+    task = local.get(f"/testing/tasks/{started['id']}").json()  # the test client runs the task before returning
+    assert task["status"] == "completed" and task["error"] is None
+    assert task["entry"]["id"] == task["entry_id"]
+    assert local.get(f"/testing/logbook/{task['entry_id']}").status_code == 200
+
+
+def test_background_task_reports_a_failed_file(local):
+    started = local.post("/testing/tasks", files={"file": ("notes.txt", b"just text", "text/plain")},
+                         data={"role_id": "data-analyst", "level": "junior"}).json()
+    task = local.get(f"/testing/tasks/{started['id']}").json()
+    assert task["status"] == "failed" and task["error"]
+    assert "entry" not in task
+
+
+def test_unknown_task_is_404(local):
+    assert local.get("/testing/tasks/nope").status_code == 404
+
+
+def test_usage_shows_ai_requests_left_today(local):
+    body = local.get("/testing/usage").json()
+    assert {"used_today", "daily_limit", "left_today", "monthly_alert"} <= body.keys()
+    assert "spent_usd" not in body

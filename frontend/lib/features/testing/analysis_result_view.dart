@@ -13,11 +13,13 @@ class AnalysisResultView extends StatelessWidget {
     required this.entry,
     this.adviceLoading = false,
     this.onRequestAdvice,
+    this.onEntryChanged,
   });
 
   final Map<String, dynamic> entry;
   final bool adviceLoading;
   final VoidCallback? onRequestAdvice;
+  final ValueChanged<Map<String, dynamic>>? onEntryChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -26,6 +28,7 @@ class AnalysisResultView extends StatelessWidget {
         entry: entry,
         adviceLoading: adviceLoading,
         onRequestAdvice: onRequestAdvice,
+        onEntryChanged: onEntryChanged,
       );
     }
     final t = GlassTokens.of(context);

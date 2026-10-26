@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:typed_data';
 
 import 'package:file_picker/file_picker.dart';
@@ -31,6 +32,9 @@ class _ResumeAnalysisPageState extends ConsumerState<ResumeAnalysisPage> {
   String? _error;
   Map<String, dynamic>? _result;
 
+  /// The running analysis: status pending / processing / completed / failed.
+  Map<String, dynamic>? _task;
+
   static const _maxBytes = 10 * 1024 * 1024;
 
   Future<void> _pickFile() async {
@@ -49,24 +53,46 @@ class _ResumeAnalysisPageState extends ConsumerState<ResumeAnalysisPage> {
     });
   }
 
+  static const _pollEvery = Duration(seconds: 1);
+  static const _giveUpAfter = Duration(minutes: 4);
+
   Future<void> _analyse() async {
     setState(() {
       _busy = true;
       _error = null;
+      _result = null;
+      _task = null;
     });
+    final api = ref.read(testingApiProvider);
     try {
-      final result = await ref
-          .read(testingApiProvider)
-          .analyse(
-            bytes: _bytes!,
-            fileName: _fileName!,
-            roleId: _roleId!,
-            level: _level,
-            useLlm: _useLlm,
+      var task = await api.startAnalysis(
+        bytes: _bytes!,
+        fileName: _fileName!,
+        roleId: _roleId!,
+        level: _level,
+        useLlm: _useLlm,
+      );
+      final started = DateTime.now();
+      while (mounted) {
+        setState(() => _task = task);
+        if (task['status'] == 'completed' || task['status'] == 'failed') break;
+        if (DateTime.now().difference(started) > _giveUpAfter) {
+          setState(
+            () => _task = {
+              ...task,
+              'status': 'failed',
+              'error': 'This is taking longer than usual. Please check the logbook later, or try again.',
+            },
           );
-      if (!mounted) return;
-      setState(() => _result = result);
+          break;
+        }
+        await Future<void>.delayed(_pollEvery);
+        task = await api.task(task['id'] as String);
+      }
+      if (!mounted || task['status'] != 'completed') return;
+      setState(() => _result = task['entry'] as Map<String, dynamic>);
       ref.invalidate(logbookProvider);
+      ref.invalidate(usageProvider);
       if (_useLlm) _requestAdvice(); // the score shows first; tips follow
     } on TestingFailure catch (e) {
       if (mounted) setState(() => _error = e.message);
@@ -87,9 +113,11 @@ class _ResumeAnalysisPageState extends ConsumerState<ResumeAnalysisPage> {
           ..._result!,
           'advice': reply['advice'],
           'advice_error': reply['advice_error'],
+          'advice_stale': false,
         },
       );
       ref.invalidate(logbookProvider);
+      ref.invalidate(usageProvider);
     } on TestingFailure catch (e) {
       if (mounted) {
         setState(() => _result = {..._result!, 'advice_error': e.message});
@@ -218,13 +246,12 @@ class _ResumeAnalysisPageState extends ConsumerState<ResumeAnalysisPage> {
                   controlAffinity: ListTileControlAffinity.leading,
                 ),
               ),
+              const _UsageLine(),
               const SizedBox(height: 8),
               FilledButton(
                 key: const Key('analyse'),
                 onPressed: ready ? _analyse : null,
-                child: Text(
-                  _busy ? 'Reading your resume…' : 'Analyse resume',
-                ),
+                child: Text(_busy ? 'Reading your resume…' : 'Analyse resume'),
               ),
               if (_error != null) ...[
                 const SizedBox(height: 12),
@@ -246,7 +273,10 @@ class _ResumeAnalysisPageState extends ConsumerState<ResumeAnalysisPage> {
             entry: _result!,
             adviceLoading: _adviceLoading,
             onRequestAdvice: _requestAdvice,
+            onEntryChanged: (e) => setState(() => _result = e),
           )
+        : _task != null
+        ? TaskStatusCard(task: _task!, onRetry: _busy ? null : _analyse)
         : GlassCard(
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 40),
@@ -302,5 +332,177 @@ class _ResumeAnalysisPageState extends ConsumerState<ResumeAnalysisPage> {
         ),
       ],
     );
+  }
+}
+
+/// Shows where a background analysis is: Pending, Processing, Completed or Failed.
+class TaskStatusCard extends StatelessWidget {
+  const TaskStatusCard({super.key, required this.task, this.onRetry});
+
+  final Map<String, dynamic> task;
+  final VoidCallback? onRetry;
+
+  static const _steps = ['Pending', 'Processing', 'Completed'];
+
+  @override
+  Widget build(BuildContext context) {
+    final t = GlassTokens.of(context);
+    final status = task['status'] as String? ?? 'pending';
+    final failed = status == 'failed';
+    final reached = switch (status) {
+      'pending' => 0,
+      'processing' => 1,
+      _ => 2,
+    };
+    return GlassCard(
+      key: const Key('task-status'),
+      padding: const EdgeInsets.all(24),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Text(
+            failed
+                ? 'We could not finish this analysis'
+                : 'Analysing your resume',
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.w600,
+              color: t.text,
+            ),
+          ),
+          const SizedBox(height: 16),
+          Row(
+            children: [
+              for (final (i, name) in _steps.indexed) ...[
+                if (i > 0)
+                  Expanded(
+                    child: Divider(
+                      thickness: 2,
+                      color: !failed && i <= reached ? t.accent : t.cardEdge,
+                    ),
+                  ),
+                _StepDot(
+                  label: failed && i == 2 ? 'Failed' : name,
+                  done: !failed && i < reached || status == 'completed',
+                  active: !failed && i == reached && status != 'completed',
+                  failed: failed && i == 2,
+                ),
+              ],
+            ],
+          ),
+          const SizedBox(height: 16),
+          if (failed) ...[
+            Text(
+              '${task['error'] ?? 'Something went wrong.'}',
+              key: const Key('task-error'),
+              style: TextStyle(fontSize: 15, color: t.danger),
+            ),
+            const SizedBox(height: 12),
+            Align(
+              alignment: Alignment.centerLeft,
+              child: OutlinedButton(
+                onPressed: onRetry,
+                child: const Text('Try again'),
+              ),
+            ),
+          ] else
+            Row(
+              children: [
+                if (status != 'completed') ...[
+                  const SizedBox(
+                    width: 16,
+                    height: 16,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  ),
+                  const SizedBox(width: 10),
+                ],
+                Expanded(
+                  child: Text(
+                    status == 'completed'
+                        ? 'Done. Opening your result…'
+                        : '${task['step'] ?? 'Waiting to start'}…',
+                    key: const Key('task-step'),
+                    style: TextStyle(fontSize: 15, color: t.textSub),
+                  ),
+                ),
+              ],
+            ),
+        ],
+      ),
+    );
+  }
+}
+
+class _StepDot extends StatelessWidget {
+  const _StepDot({
+    required this.label,
+    required this.done,
+    required this.active,
+    required this.failed,
+  });
+
+  final String label;
+  final bool done, active, failed;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = GlassTokens.of(context);
+    final color = failed ? t.danger : (done || active ? t.accent : t.textFaint);
+    return Column(
+      children: [
+        Icon(
+          failed
+              ? Icons.error_outline
+              : done
+              ? Icons.check_circle
+              : active
+              ? Icons.radio_button_checked
+              : Icons.radio_button_unchecked,
+          color: color,
+          size: 26,
+        ),
+        const SizedBox(height: 4),
+        Text(
+          label,
+          style: TextStyle(
+            fontSize: 13,
+            fontWeight: active || failed ? FontWeight.w600 : FontWeight.w400,
+            color: failed ? t.danger : (active || done ? t.text : t.textSub),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// "AI requests left today: 27 of 30" under the AI tips box.
+class _UsageLine extends ConsumerWidget {
+  const _UsageLine();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final t = GlassTokens.of(context);
+    return ref
+        .watch(usageProvider)
+        .maybeWhen(
+          data: (u) => Padding(
+            padding: const EdgeInsets.only(bottom: 4),
+            child: Text(
+              u['monthly_limited'] == true
+                  ? 'AI tips are paused for this month. Your score still works.'
+                  : 'AI requests left today: ${u['left_today']} of ${u['daily_limit']}',
+              key: const Key('usage-line'),
+              style: TextStyle(
+                fontSize: 12,
+                color:
+                    (u['left_today'] as num? ?? 1) == 0 ||
+                        u['monthly_limited'] == true
+                    ? t.warning
+                    : t.textFaint,
+              ),
+            ),
+          ),
+          orElse: () => const SizedBox.shrink(),
+        );
   }
 }

@@ -1,13 +1,18 @@
 """Testing mode: the Job Seeker analysis without login, results kept in the local logbook."""
 
+import logging
+import threading
 import time
+import uuid
+from collections.abc import Callable
 from datetime import UTC, datetime
-from typing import Annotated
+from typing import Annotated, Literal
 
-from fastapi import APIRouter, Body, Depends, File, Form, HTTPException, Request, UploadFile, status
+from fastapi import APIRouter, BackgroundTasks, Body, Depends, File, Form, HTTPException, Request, UploadFile, status
+from pydantic import BaseModel, BeforeValidator, Field
 
 from app.llm.advice import coach
-from app.llm.client import LLMUnavailable
+from app.llm.client import LLMUnavailable, budget_status, user_status
 from app.llm.profile_extract import extract_profile, from_dict
 from app.matching.assess import assess
 from app.matching.fit import LEVEL_LABELS, score_fit
@@ -18,6 +23,10 @@ from app.services.resume_markdown import to_markdown, without_personal_details
 from app.services.resume_text import MAX_FILE_BYTES, UnsupportedFile, extract_text
 
 MIN_DIRECTION = 0.05
+# Testing mode has no login, so every AI request counts for this one local tester.
+TESTER_ID = "local-tester"
+
+logger = logging.getLogger(__name__)
 _LOCAL_HOSTS = {"127.0.0.1", "::1", "localhost", "testclient"}
 
 
@@ -70,20 +79,19 @@ def catalog() -> dict:
             "fields": [{"field": f, "roles": sorted(r, key=lambda x: x["title"])} for f, r in sorted(by_field.items())]}
 
 
-@router.post("/analyse")
-async def analyse(
-    file: Annotated[UploadFile, File()],
-    role_id: Annotated[str, Form()],
-    level: Annotated[str, Form()],
-    use_llm: Annotated[bool, Form()] = False,
-) -> dict:
+def _check_choice(role_id: str, level: str) -> dict:
     role = _role(role_id)
     if level not in LEVEL_LABELS:
         raise HTTPException(status.HTTP_400_BAD_REQUEST, "Unknown experience level.")
-    data = await file.read(MAX_FILE_BYTES + 1)
+    return role
 
+
+def _run(data: bytes, file_name: str, role: dict, level: str, use_llm: bool,
+         step: Callable[[str], None] = lambda _: None) -> dict:
+    """The whole analysis of one resume. `step` is told which part is running."""
     timings = {}
     t0 = time.perf_counter()
+    step("Reading the file")
     try:
         extracted = extract_text(data)
     except UnsupportedFile as exc:
@@ -95,12 +103,14 @@ async def analyse(
     # Read the resume with AI; use the simple rules if the AI is down.
     t0 = time.perf_counter()
     profile, profile_error = None, None
+    step("Reading the details with AI")
     try:
-        profile = extract_profile(clean)
+        profile = extract_profile(clean, user_id=TESTER_ID)
     except LLMUnavailable as exc:
         profile_error = str(exc)
     timings["profile_ms"] = round((time.perf_counter() - t0) * 1000)
 
+    step("Scoring the fit")
     t0 = time.perf_counter()
     if profile is not None:
         result = assess(profile, clean, role, level).to_dict()
@@ -115,6 +125,7 @@ async def analyse(
                   "suggested_level": None, "notes": fit.notes}
     timings["score_ms"] = round((time.perf_counter() - t0) * 1000)
 
+    step("Finding career directions")
     t0 = time.perf_counter()
     try:
         version, suggestions = suggest_careers(extracted.text, top=3)
@@ -130,7 +141,7 @@ async def analyse(
         "format": 2,
         "id": logbook.new_id(),
         "created_at": datetime.now(UTC).isoformat(timespec="seconds"),
-        "file": {"name": file.filename or "resume", "kind": str(extracted.kind), "method": extracted.method,
+        "file": {"name": file_name, "kind": str(extracted.kind), "method": extracted.method,
                  "pages": extracted.pages, "ocr_pages": extracted.ocr_pages, "warnings": extracted.warnings,
                  "words": len(extracted.text.split())},
         "markdown": markdown,             # full content, kept like the original file
@@ -145,9 +156,93 @@ async def analyse(
         "feedback": [],
         "timings": timings,
     }
+    step("Saving the result")
     enrich(entry)
-    logbook.save(entry, data, file.filename or "resume")
+    logbook.save(entry, data, file_name)
     return entry
+
+
+
+
+@router.post("/analyse")
+async def analyse(
+    file: Annotated[UploadFile, File()],
+    role_id: Annotated[str, Form()],
+    level: Annotated[str, Form()],
+    use_llm: Annotated[bool, Form()] = False,
+) -> dict:
+    """Analyse and wait for the result."""
+    role = _check_choice(role_id, level)
+    data = await file.read(MAX_FILE_BYTES + 1)
+    return _run(data, file.filename or "resume", role, level, use_llm)
+
+
+# ------------------------------------------------------------------ background tasks
+# Pending -> Processing -> Completed or Failed. Kept in memory: a server restart clears them.
+
+_TASKS: dict[str, dict] = {}
+_TASKS_LOCK = threading.Lock()
+MAX_TASKS = 50
+
+
+def _set_task(task_id: str, **fields) -> None:
+    with _TASKS_LOCK:
+        _TASKS[task_id].update(fields, updated_at=datetime.now(UTC).isoformat(timespec="seconds"))
+
+
+def _work(task_id: str, data: bytes, file_name: str, role: dict, level: str, use_llm: bool) -> None:
+    _set_task(task_id, status="processing", step="Starting")
+    try:
+        entry = _run(data, file_name, role, level, use_llm, step=lambda text: _set_task(task_id, step=text))
+    except HTTPException as exc:
+        _set_task(task_id, status="failed", step=None, error=str(exc.detail))
+    except Exception:
+        logger.exception("Resume analysis task %s failed", task_id)
+        _set_task(task_id, status="failed", step=None,
+                  error="Something went wrong while reading this resume. Please try again, or try another file.")
+    else:
+        _set_task(task_id, status="completed", step=None, entry_id=entry["id"], entry=entry)
+
+
+@router.post("/tasks")
+async def start_analysis(
+    background: BackgroundTasks,
+    file: Annotated[UploadFile, File()],
+    role_id: Annotated[str, Form()],
+    level: Annotated[str, Form()],
+    use_llm: Annotated[bool, Form()] = False,
+) -> dict:
+    """Start an analysis in the background; poll GET /testing/tasks/{id} for its status."""
+    role = _check_choice(role_id, level)
+    data = await file.read(MAX_FILE_BYTES + 1)
+    if len(data) > MAX_FILE_BYTES:
+        raise HTTPException(status.HTTP_400_BAD_REQUEST, "The file is larger than 10 MB.")
+    now = datetime.now(UTC).isoformat(timespec="seconds")
+    task = {"id": uuid.uuid4().hex, "status": "pending", "step": "Waiting to start", "error": None,
+            "file_name": file.filename or "resume", "created_at": now, "updated_at": now}
+    with _TASKS_LOCK:
+        while len(_TASKS) >= MAX_TASKS:  # drop the oldest
+            _TASKS.pop(next(iter(_TASKS)))
+        _TASKS[task["id"]] = task
+    background.add_task(_work, task["id"], data, task["file_name"], role, level, use_llm)
+    return dict(task)
+
+
+@router.get("/tasks/{task_id}")
+def task_status(task_id: str) -> dict:
+    with _TASKS_LOCK:
+        task = _TASKS.get(task_id)
+        if task is None:
+            raise HTTPException(status.HTTP_404_NOT_FOUND, "This task was not found. Please analyse the resume again.")
+        return dict(task)
+
+
+@router.get("/usage")
+def usage() -> dict:
+    """How many AI requests the tester has left today, and whether the monthly AI limit is close."""
+    budget = budget_status()
+    return {**user_status(TESTER_ID), "monthly_used": budget["used"], "monthly_alert": budget["alert"],
+            "monthly_limited": budget["limited"]}
 
 
 @router.post("/logbook/{entry_id}/advice")
@@ -162,8 +257,9 @@ def advice(entry_id: str) -> dict:
     t0 = time.perf_counter()
     try:
         entry["advice"] = coach(role, entry["level_label"], entry["assessment"], from_dict(entry["profile"]).to_dict(),
-                                thinking=True).data
+                                thinking=True, user_id=TESTER_ID).data
         entry["advice_error"] = None
+        entry["advice_stale"] = False
     except LLMUnavailable as exc:
         entry["advice_error"] = str(exc)
     entry["advice_requested"] = True
@@ -189,6 +285,75 @@ def whatif(entry_id: str, level: Annotated[str, Body()], skills: Annotated[list[
         raise HTTPException(status.HTTP_503_SERVICE_UNAVAILABLE, "The resume could not be read in detail.")
     profile = from_dict(_with_skills(entry["profile"], [s for s in skills if isinstance(s, str)][:20]))
     return assess(profile, entry["clean_markdown"], _role(entry["role"]["id"]), level).to_dict()
+
+
+def _blank_to_none(value):
+    if isinstance(value, str):
+        value = value.strip()
+    return value or None
+
+
+Text = Annotated[str, Field(min_length=1, max_length=80)]
+Optional120 = Annotated[Annotated[str, Field(max_length=120)] | None, BeforeValidator(_blank_to_none)]
+DateText = Annotated[Annotated[str, Field(pattern=r"^((19|20)\d{2}(-(0?[1-9]|1[0-2]))?|present)$")] | None,
+                     BeforeValidator(_blank_to_none)]
+
+
+class JobIn(BaseModel):
+    title: Annotated[str, Field(min_length=1, max_length=120)]
+    organisation: Optional120 = None
+    start: DateText = None
+    end: DateText = None
+    type: Literal["full-time", "part-time", "internship", "freelance", "contract", "unknown"] = "unknown"
+    highlights: list[Annotated[str, Field(max_length=300)]] = Field(default_factory=list, max_length=3)
+
+
+class EducationIn(BaseModel):
+    level: Literal["SPM", "STPM", "Certificate", "Diploma", "Bachelor", "Master", "PhD", "Professional", "Other"]
+    field: Optional120 = None
+    institution: Optional120 = None
+    end_year: int | None = Field(None, ge=1950, le=2100)
+
+
+class ProfileIn(BaseModel):
+    headline: Optional120 = None
+    skills: list[Text] = Field(default_factory=list, max_length=80)
+    soft_skills: list[Text] = Field(default_factory=list, max_length=30)
+    experience: list[JobIn] = Field(default_factory=list, max_length=20)
+    education: list[EducationIn] = Field(default_factory=list, max_length=10)
+    certifications: list[Text] = Field(default_factory=list, max_length=30)
+    languages: list[Text] = Field(default_factory=list, max_length=15)
+
+
+def _unique(items: list[str]) -> list[str]:
+    seen, out = set(), []
+    for item in (i.strip() for i in items):
+        if item and item.lower() not in seen:
+            seen.add(item.lower())
+            out.append(item)
+    return out
+
+
+@router.put("/logbook/{entry_id}/profile")
+def edit_profile(entry_id: str, profile: Annotated[ProfileIn, Body(embed=True)]) -> dict:
+    """Save the Job Seeker's corrections to what was read from the resume, then score again."""
+    entry = _saved(entry_id)
+    data = profile.model_dump()
+    for key in ("skills", "soft_skills", "certifications", "languages"):
+        data[key] = _unique(data[key])
+    data["uncertain"] = (entry.get("profile") or {}).get("uncertain", [])
+    entry.setdefault("profile_original", entry.get("profile"))  # first version read from the file
+    entry["profile"] = from_dict(data).to_dict()
+    entry["profile_error"] = None
+    entry["profile_edited_at"] = datetime.now(UTC).isoformat(timespec="seconds")
+    entry["assessment"] = assess(from_dict(entry["profile"]), entry["clean_markdown"], _role(entry["role"]["id"]),
+                                 entry["level"]).to_dict()
+    entry.pop("rescored_from", None)
+    if entry.get("advice"):
+        entry["advice_stale"] = True  # tips were written for the old details
+    enrich(entry)
+    logbook.update(entry)
+    return entry
 
 
 @router.post("/logbook/{entry_id}/feedback")
