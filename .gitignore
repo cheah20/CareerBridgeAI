@@ -21,6 +21,10 @@ build/
 key.properties
 local.properties
 
+# Editor settings
+.vscode/
+.idea/
+
 # Logs
 *.log
 

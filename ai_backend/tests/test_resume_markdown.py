@@ -2,7 +2,7 @@ from app.services.resume_markdown import is_heading, to_markdown, without_person
 
 RESUME = """MICHELLE YI
 Professional Clerk
-+60 12 3456 7890 • mich.yi@email.com • linkedin.com/in/michelle
++60 12 3456 7890 • mich.yi@example.com • linkedin.com/in/michelle
 No. 12, Jalan Merdeka, 75000 Melaka
 
 EXECUTIVE SUMMARY
@@ -37,7 +37,7 @@ def test_sentences_and_job_titles_are_not_headings():
 
 def test_personal_details_are_removed_but_work_stays():
     clean = without_personal_details(to_markdown(RESUME))
-    for private in ("MICHELLE YI", "3456 7890", "mich.yi@email.com", "linkedin", "Jalan Merdeka", "1990", "Islam", "Dr. Tan"):
+    for private in ("MICHELLE YI", "3456 7890", "mich.yi@example.com", "linkedin", "Jalan Merdeka", "1990", "Islam", "Dr. Tan"):
         assert private not in clean
     assert "PERSONAL ASSISTANT" in clean and "Feb 2007 - Aug 2010" in clean
     assert "Professional Clerk" in clean
