@@ -119,26 +119,21 @@ class GlassBar extends StatelessWidget {
   }
 }
 
-/// The KL skyline photo used behind the public pages, darkened a little so glass panels stand out.
+/// The KL skyline photo behind the public pages, softened and darkened so the panels stay in front.
 class PhotoBackground extends StatelessWidget {
   const PhotoBackground({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Stack(
+    return Stack(
       fit: StackFit.expand,
       children: [
-        ColoredBox(color: Color(0xFF1C2238)),
-        Image(image: AssetImage('assets/images/kl-skyline.jpg'), fit: BoxFit.cover, alignment: Alignment(-0.2, 0)),
-        DecoratedBox(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.centerLeft,
-              end: Alignment.centerRight,
-              colors: [Color(0x66101528), Color(0x00101528)],
-            ),
-          ),
+        const ColoredBox(color: Color(0xFF1C2238)),
+        ImageFiltered(
+          imageFilter: ui.ImageFilter.blur(sigmaX: 3, sigmaY: 3, tileMode: TileMode.clamp),
+          child: const Image(image: AssetImage('web/background/kl-skyline.jpg'), fit: BoxFit.cover, alignment: Alignment(-0.2, 0)),
         ),
+        const ColoredBox(color: Color(0x47101528)),
       ],
     );
   }
