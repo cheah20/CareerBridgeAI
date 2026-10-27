@@ -43,3 +43,7 @@ ai_backend/models/
 /*.dmg
 /Dial/
 /design-handoff/
+
+# Methodology sources kept locally (only the PNG diagrams are shared)
+Methodology/drawio/
+Methodology/*.zip
