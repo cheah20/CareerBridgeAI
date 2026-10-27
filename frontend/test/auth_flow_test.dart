@@ -46,7 +46,7 @@ void main() {
 
     await logIn(tester, recruiterEmail, 'correct-password');
 
-    expect(find.text('Hiring at a glance.'), findsOneWidget);
+    expect(find.text('Hiring at a glance'), findsOneWidget);
     expect(container.read(sessionProvider).role, UserRole.recruiter);
   });
 
@@ -61,7 +61,7 @@ void main() {
     );
     container.read(routerProvider).go('/seeker/applications');
     await tester.pumpAndSettle();
-    expect(find.text('Log in to CareerBridge.'), findsOneWidget);
+    expect(find.text('Log in to CareerBridge'), findsOneWidget);
 
     await logIn(tester, seekerEmail, 'correct-password');
 
@@ -130,7 +130,7 @@ void main() {
     );
 
     expect(container.read(sessionProvider).role, UserRole.jobSeeker);
-    expect(find.text('Your career this week.'), findsOneWidget);
+    expect(find.text('Your career this week'), findsOneWidget);
   });
 
   testWidgets('sign-up sends the chosen role and asks to confirm the email', (
@@ -212,7 +212,7 @@ void main() {
       auth: accounts(savedToken: 'token:$seekerEmail'),
       profiles: roles,
     );
-    expect(find.text('Your career this week.'), findsOneWidget);
+    expect(find.text('Your career this week'), findsOneWidget);
 
     await tester.tap(find.byTooltip('Account'));
     await tester.pumpAndSettle();
@@ -221,7 +221,7 @@ void main() {
 
     expect(container.read(sessionProvider).isLoggedIn, isFalse);
     expect(
-      find.text('Find the career your resume is ready for.'),
+      find.text('Find the career your resume is ready for'),
       findsOneWidget,
     );
   });

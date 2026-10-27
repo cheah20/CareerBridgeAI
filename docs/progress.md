@@ -182,6 +182,7 @@ ahead overall. Behind plan: 1.6 (manual check) and 2.1 (saving files to the buck
 | 2026-10-18 | Test labels for model comparison must come from someone other than the person who labels the training data, to avoid shared-convention bias. Large synthetic data generation is on hold until a broader real-CV test set exists. |
 | 2026-10-18 | Synthetic training resumes are generated from random profiles in code and written up by the LLM in layouts modelled on real Malaysian CVs and the JobStreet template, then typeset and read back with the app's extractor. Real CVs are kept for testing only. |
 | 2026-10-18 | No public Malaysian resume dataset exists; a small consented set of local resumes is planned for testing only. |
+| 2026-10-27 | UI refresh after user feedback: the all-glass Vision Smoke look was hard to read, so the app moves to a light paper style (navy text, green for skills you have, amber for points to add, all text 4.5:1 or more) with glass kept for the top bar, the side menu and the public pages over a Kuala Lumpur skyline photo. Dark glass stays as dark mode. Font changed from Inter to Atkinson Hyperlegible; all-caps labels removed; the side menu shows icons and opens on hover, with a pin. |
 | 2026-10-15 | Secret keys (Supabase secret key, LLM key) live only in backend environment variables, never in Git or the frontend. Team members review code on GitHub and try the system on the hosted demo. |
 
 ## Backlog (after the confirmed core features)

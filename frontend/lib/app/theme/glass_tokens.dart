@@ -13,6 +13,7 @@ class GlassTokens extends ThemeExtension<GlassTokens> {
     required this.textFaint,
     required this.shell,
     required this.shellEdge,
+    required this.bar,
     required this.card,
     required this.cardEdge,
     required this.highlight,
@@ -26,6 +27,7 @@ class GlassTokens extends ThemeExtension<GlassTokens> {
     required this.ink,
     required this.inkText,
     required this.success,
+    required this.successSoft,
     required this.warning,
     required this.danger,
     required this.sceneBase,
@@ -36,142 +38,118 @@ class GlassTokens extends ThemeExtension<GlassTokens> {
 
   final Brightness brightness;
 
-  // Text on glass.
+  // Text.
   final Color text;
   final Color textSub;
   final Color textFaint;
 
-  // The big floating window (the only surface with real background blur).
+  // Side menu.
   final Color shell;
   final Color shellEdge;
 
-  // Cards inside the window: translucent fill + hairline + top highlight.
+  // Frosted glass for the top bar and the open side menu (content scrolls under it).
+  final Color bar;
+
+  // Cards.
   final Color card;
   final Color cardEdge;
   final Color highlight;
   final Color row;
   final Color selected;
 
+  // Links and small highlights.
   final Color accent;
 
-  // The single dark focus card per page (e.g. "Upcoming interview").
+  // The one dark card per page (e.g. "Upcoming interview").
   final Color focusCard;
   final Color focusText;
   final Color focusTextSub;
   final Color focusGlow;
 
-  // Primary button ("ink"): black on light glass, white on dark glass.
+  // Main button.
   final Color ink;
   final Color inkText;
 
-  // Status colours (match levels, skill gaps, alerts).
+  // Green = you have it, amber = points you can add, red = problem.
   final Color success;
+  final Color successSoft;
   final Color warning;
   final Color danger;
 
-  // Background scene behind the glass.
+  // Background behind everything.
   final Color sceneBase;
   final List<SceneBlob> sceneBlobs;
   final Color sceneVeil;
 
-  /// Blur strength of the big window (the design value "40px").
+  /// Blur used by the glass bars.
   final double blurSigma;
 
-  /// Default look, chosen in the design preview: glass opacity 31%, blur 40.
-  static const smoke = GlassTokens(
-    brightness: Brightness.dark,
-    text: Color(0xFFF4F7FB),
-    textSub: Color(0xC7EAF0F8),
-    textFaint: Color(0x8FE2E9F3),
-    shell: Color(0x21788492), // rgba(120,132,146, 0.13)
-    shellEdge: Color(0x47FFFFFF),
-    card: Color(0x1AFFFFFF), // white 10%
-    cardEdge: Color(0x33FFFFFF),
-    highlight: Color(0x59FFFFFF),
-    row: Color(0x0FFFFFFF), // white 6%
-    selected: Color(0x38FFFFFF), // white 22%
-    accent: Color(0xFF8CC4FF),
-    focusCard: Color(0xB80A0D14),
-    focusText: Color(0xFFF3F6FB),
-    focusTextSub: Color(0x9EE1E8F5),
-    focusGlow: Color(0x736EAAFF),
-    ink: Color(0xFFFFFFFF),
-    inkText: Color(0xFF0F1626),
-    success: Color(0xFF5FD7A5),
-    warning: Color(0xFFF2C25A),
-    danger: Color(0xFFFF8A80),
-    sceneBase: Color(0xFFD8DCDF),
-    sceneBlobs: officeScene,
-    sceneVeil: Color(0x61121822),
-    blurSigma: 40,
-  );
-
-  /// Light page, white cards, dark text (default).
+  /// Light: paper white, navy text, green and amber. All text is 4.5:1 or more.
   static const paper = GlassTokens(
     brightness: Brightness.light,
-    text: Color(0xFF111827),
-    textSub: Color(0xFF4B5563),
-    textFaint: Color(0xFF5B6472),
-    shell: Color(0xFFF4F6F9),
-    shellEdge: Color(0xFFE1E6ED),
+    text: Color(0xFF172033),
+    textSub: Color(0xFF4A5468),
+    textFaint: Color(0xFF656D7C),
+    shell: Color(0xFFFBFBF9),
+    shellEdge: Color(0xFFE3E4E0),
+    bar: Color(0xA8FBFBF9),
     card: Color(0xFFFFFFFF),
-    cardEdge: Color(0xFFE1E6ED),
+    cardEdge: Color(0xFFE3E4E0),
     highlight: Color(0x00FFFFFF),
-    row: Color(0xFFF1F4F8),
-    selected: Color(0xFFE8F0FD),
-    accent: Color(0xFF2F6FDB),
-    focusCard: Color(0xFF111827),
-    focusText: Color(0xFFF3F6FB),
-    focusTextSub: Color(0xFFC9D1DC),
-    focusGlow: Color(0xFF1F2A44),
-    ink: Color(0xFF111827),
+    row: Color(0xFFF3F4F1),
+    selected: Color(0xFFECEEE9),
+    accent: Color(0xFF2F5BD3),
+    focusCard: Color(0xFF172033),
+    focusText: Color(0xFFF3F5F8),
+    focusTextSub: Color(0xFFC5CBD6),
+    focusGlow: Color(0xFF26355A),
+    ink: Color(0xFF172033),
     inkText: Color(0xFFFFFFFF),
-    success: Color(0xFF15803D),
-    warning: Color(0xFFB45309),
-    danger: Color(0xFFB91C1C),
-    sceneBase: Color(0xFFE9EDF2),
+    success: Color(0xFF047C58),
+    successSoft: Color(0xFFE8F3ED),
+    warning: Color(0xFF9A5A0E),
+    danger: Color(0xFFB3261E),
+    sceneBase: Color(0xFFFBFBF9),
     sceneBlobs: [],
     sceneVeil: Color(0x00000000),
-    blurSigma: 0,
+    blurSigma: 16,
   );
 
-  /// Optional light mode.
-  static const ice = GlassTokens(
-    brightness: Brightness.light,
-    text: Color(0xFF111A2B),
-    textSub: Color(0xFF586377),
-    textFaint: Color(0xFF7C8698),
-    shell: Color(0x42FFFFFF),
-    shellEdge: Color(0x9EFFFFFF),
-    card: Color(0x85FFFFFF),
-    cardEdge: Color(0xD9FFFFFF),
-    highlight: Color(0xEBFFFFFF),
-    row: Color(0x57FFFFFF),
-    selected: Color(0xE6FFFFFF),
-    accent: Color(0xFF3F7BE0),
-    focusCard: Color(0xE6101521),
-    focusText: Color(0xFFF3F6FB),
-    focusTextSub: Color(0x9EE1E8F5),
-    focusGlow: Color(0x8C4A86E8),
-    ink: Color(0xFF111827),
-    inkText: Color(0xFFFFFFFF),
-    success: Color(0xFF1F9D6F),
-    warning: Color(0xFFD4911A),
-    danger: Color(0xFFD9483F),
-    sceneBase: Color(0xFFD8DCDF),
-    sceneBlobs: officeScene,
+  /// Dark: smoky glass over soft purple and teal light.
+  static const night = GlassTokens(
+    brightness: Brightness.dark,
+    text: Color(0xFFF2F2F4),
+    textSub: Color(0xFFC4C6CF),
+    textFaint: Color(0xFF9EA1AE),
+    shell: Color(0x8C12141C),
+    shellEdge: Color(0x1FFFFFFF),
+    bar: Color(0x9912141C),
+    card: Color(0x8C1E1F26),
+    cardEdge: Color(0x1FFFFFFF),
+    highlight: Color(0x2EFFFFFF),
+    row: Color(0x0FFFFFFF),
+    selected: Color(0x24FFFFFF),
+    accent: Color(0xFF60CDFF),
+    focusCard: Color(0xE6070A14),
+    focusText: Color(0xFFF2F2F4),
+    focusTextSub: Color(0xFFB4B8C4),
+    focusGlow: Color(0x993B2A7A),
+    ink: Color(0xFFF2F2F4),
+    inkText: Color(0xFF0B1020),
+    success: Color(0xFF5FD7A5),
+    successSoft: Color(0x245FD7A5),
+    warning: Color(0xFFFFC46B),
+    danger: Color(0xFFFF8A80),
+    sceneBase: Color(0xFF0B1020),
+    sceneBlobs: nightScene,
     sceneVeil: Color(0x00000000),
-    blurSigma: 28,
+    blurSigma: 24,
   );
 
-  /// A defocused office: warm wall, window light, teal chair, wooden desk.
-  static const officeScene = <SceneBlob>[
-    SceneBlob(Rect.fromLTWH(-0.10, -0.15, 0.70, 0.55), Color(0xFFF1EDE6)),
-    SceneBlob(Rect.fromLTWH(0.57, -0.10, 0.55, 0.60), Color(0xFFA9C4DD)),
-    SceneBlob(Rect.fromLTWH(0.30, 0.35, 0.45, 0.50), Color(0xB33F7C77)),
-    SceneBlob(Rect.fromLTWH(-0.08, 0.70, 0.35, 0.45), Color(0xBFB98A5E)),
-    SceneBlob(Rect.fromLTWH(0.65, 0.72, 0.30, 0.40), Color(0xFF7D8A96)),
-    SceneBlob(Rect.fromLTWH(0.62, 0.05, 0.18, 0.70), Color(0xE6FFFFFF)),
+  /// Soft purple and teal glow for dark mode.
+  static const nightScene = <SceneBlob>[
+    SceneBlob(Rect.fromLTWH(-0.15, -0.20, 0.75, 0.75), Color(0xB33B2A7A)),
+    SceneBlob(Rect.fromLTWH(0.50, 0.40, 0.70, 0.80), Color(0xA60D4F6E)),
   ];
 
   static GlassTokens of(BuildContext context) => Theme.of(context).extension<GlassTokens>()!;
@@ -190,6 +168,7 @@ class GlassTokens extends ThemeExtension<GlassTokens> {
       textFaint: c(textFaint, other.textFaint),
       shell: c(shell, other.shell),
       shellEdge: c(shellEdge, other.shellEdge),
+      bar: c(bar, other.bar),
       card: c(card, other.card),
       cardEdge: c(cardEdge, other.cardEdge),
       highlight: c(highlight, other.highlight),
@@ -203,6 +182,7 @@ class GlassTokens extends ThemeExtension<GlassTokens> {
       ink: c(ink, other.ink),
       inkText: c(inkText, other.inkText),
       success: c(success, other.success),
+      successSoft: c(successSoft, other.successSoft),
       warning: c(warning, other.warning),
       danger: c(danger, other.danger),
       sceneBase: c(sceneBase, other.sceneBase),
@@ -213,12 +193,12 @@ class GlassTokens extends ThemeExtension<GlassTokens> {
   }
 }
 
-/// One soft colour shape in the background scene.
+/// One soft colour shape in the background.
 @immutable
 class SceneBlob {
   const SceneBlob(this.bounds, this.color);
 
-  /// Position and size as fractions of the scene (0–1, may overflow edges).
+  /// Position and size as fractions of the screen (0 to 1, may go past the edges).
   final Rect bounds;
   final Color color;
 }

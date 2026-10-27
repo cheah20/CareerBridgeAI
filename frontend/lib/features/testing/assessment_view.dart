@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../app/theme/app_theme.dart';
 import '../../app/theme/glass_tokens.dart';
 import '../../core/widgets/glass.dart';
 import 'profile_editor.dart';
@@ -219,7 +220,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          '${role['title']} · ${role['field']} · ${file['name']}',
+          '${role['title']}, ${role['field']}, ${file['name']}',
           style: TextStyle(fontSize: 15, color: t.textSub),
         ),
         const SizedBox(height: 4),
@@ -870,7 +871,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
           _Head(
             title: 'Skills for ${(widget.entry['role'] as Map)['title']}',
             trailing: ads
-                ? 'From real job ads · click a skill to learn more'
+                ? 'From real job ads, click a skill to learn more'
                 : 'Click a skill to learn more',
           ),
           const SizedBox(height: 18),
@@ -1363,7 +1364,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
                 if (j['organisation'] != null) '${j['organisation']}',
                 '${j['start'] ?? '?'} – ${j['end'] ?? '?'}',
                 '${j['type']}',
-              ].join(' · '),
+              ].join(', '),
               faded: j['type'] == 'internship' || j['type'] == 'part-time',
             ),
           for (final r
@@ -1413,7 +1414,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
                 if (e['field'] != null) e['field'],
               ].join(', '),
               detail:
-                  '${e['institution'] ?? 'Institution not stated'}${e['end_year'] != null ? ' · ${e['end_year']}' : ''}',
+                  '${e['institution'] ?? 'Institution not stated'}${e['end_year'] != null ? ', ${e['end_year']}' : ''}',
             ),
           if (certs.isNotEmpty)
             Text(
@@ -1583,7 +1584,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
             if (uncertain.isNotEmpty)
               section('Things we were not sure about', uncertain),
             section('How we read your file', [
-              '${file['name']} · ${file['method']} · ${file['pages']} page(s) · ${file['words']} words · ${(total / 1000).toStringAsFixed(1)} s',
+              '${file['name']}, ${file['method']}, ${file['pages']} page(s), ${file['words']} words, ${(total / 1000).toStringAsFixed(1)} s',
             ]),
             Theme(
               data: Theme.of(context)
@@ -1942,12 +1943,11 @@ class _Label extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
       child: Text(
-        text.toUpperCase(),
+        text,
         style: TextStyle(
-          fontSize: 13,
-          fontWeight: FontWeight.w600,
-          letterSpacing: 0.6,
-          color: t.textSub,
+          fontSize: 15,
+          fontWeight: FontWeight.w700,
+          color: t.text,
         ),
       ),
     );
@@ -2098,7 +2098,7 @@ class _HistoryPainter extends CustomPainter {
     final style = TextStyle(
       fontSize: 12,
       color: tokens.textSub,
-      fontFamily: 'Inter',
+      fontFamily: appFont,
     );
 
     void label(String text, Offset at, {TextStyle? s, bool center = true}) {

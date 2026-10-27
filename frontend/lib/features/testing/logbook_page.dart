@@ -69,7 +69,7 @@ class _LogbookPageState extends ConsumerState<LogbookPage> {
       children: [
         PageHeader(
           kicker: 'Testing mode',
-          title: 'Test logbook.',
+          title: 'Test logbook',
           subtitle: 'Every analysis run in testing mode, newest first. Stored on this computer only.',
           trailing: OutlinedButton(
             onPressed: () => ref.invalidate(logbookProvider),
@@ -102,11 +102,11 @@ class _LogbookPageState extends ConsumerState<LogbookPage> {
                           onTap: () => _open(e['id'] as String),
                           child: GlassListRow(
                             initials: '${e['score']}',
-                            title: '${e['role']} · ${e['level']}',
+                            title: '${e['role']}, ${e['level']}',
                             subtitle:
-                                '${e['file_name']} · ${_when(e['created_at'] as String)}'
-                                '${e['top_direction'] != null ? ' · direction: ${e['top_direction']}' : ''}'
-                                '${e['with_advice'] == true ? ' · with AI advice' : ''}',
+                                '${e['file_name']}, ${_when(e['created_at'] as String)}'
+                                '${e['top_direction'] != null ? ', direction: ${e['top_direction']}' : ''}'
+                                '${e['with_advice'] == true ? ', with AI advice' : ''}',
                             value: '${e['score']}%',
                             valueCaption: e['label'] as String,
                             progress: (e['score'] as num) / 100,

@@ -24,7 +24,7 @@ class LoginPage extends StatelessWidget {
       showLoginButton: false,
       child: AuthLayout(
         kicker: 'Welcome back',
-        title: 'Log in to CareerBridge.',
+        title: 'Log in to CareerBridge',
         subtitle: 'One account for your resume, job matches and applications.',
         form: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,

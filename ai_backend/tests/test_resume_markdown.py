@@ -64,6 +64,6 @@ def test_details_section_and_home_city_are_removed():
 
 
 def test_invisible_characters_do_not_hide_the_name():
-    clean = without_personal_details(to_markdown("Tay Jun Cheng​\nProduct Engineer\n​\nㅡ​\n\nSKILLS\nHTML"))
-    assert "Tay" not in clean and "​" not in clean and "ㅡ" not in clean
+    clean = without_personal_details(to_markdown("Daniel Lim Wei​\nProduct Engineer\n​\nㅡ​\n\nSKILLS\nHTML"))
+    assert "Daniel" not in clean and "​" not in clean and "ㅡ" not in clean
     assert "Product Engineer" in clean and "HTML" in clean

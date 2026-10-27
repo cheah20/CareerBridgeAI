@@ -12,12 +12,12 @@ void main() {
 
       container.read(routerProvider).go('/seeker/resume');
       await tester.pumpAndSettle();
-      expect(find.text('Log in to CareerBridge.'), findsOneWidget);
+      expect(find.text('Log in to CareerBridge'), findsOneWidget);
 
       await tester.ensureVisible(find.byKey(const Key('preview-seeker')));
       await tester.tap(find.byKey(const Key('preview-seeker')));
       await tester.pumpAndSettle();
-      expect(find.text('Coming in Phase 2'.toUpperCase()), findsOneWidget);
+      expect(find.text('Coming in Phase 2'), findsOneWidget);
       expect(find.text('Resume profile'), findsWidgets);
     },
   );
@@ -30,7 +30,7 @@ void main() {
     await tester.tap(find.byKey(const Key('preview-recruiter')));
     await tester.pumpAndSettle();
 
-    expect(find.text('Hiring at a glance.'), findsOneWidget);
+    expect(find.text('Hiring at a glance'), findsOneWidget);
     expect(find.text('Company profile'), findsOneWidget); // sidebar entry
     expect(find.byKey(const Key('bottom-nav')), findsNothing);
   });
@@ -46,14 +46,14 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(
-      Theme.of(tester.element(find.text('Everything running smoothly.')))
+      Theme.of(tester.element(find.text('Everything running smoothly')))
           .brightness,
       Brightness.light,
     );
     await tester.tap(find.byTooltip('Switch to dark'));
     await tester.pumpAndSettle();
     expect(
-      Theme.of(tester.element(find.text('Everything running smoothly.')))
+      Theme.of(tester.element(find.text('Everything running smoothly')))
           .brightness,
       Brightness.dark,
     );

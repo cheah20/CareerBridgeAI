@@ -306,7 +306,7 @@ class _ResumeAnalysisPageState extends ConsumerState<ResumeAnalysisPage> {
       children: [
         const PageHeader(
           kicker: 'Testing mode',
-          title: 'Resume analysis.',
+          title: 'Resume analysis',
           subtitle: 'Upload a resume, choose the job you are aiming for, and see how it fits.',
           trailing: GlassChip(label: 'Local logbook'),
         ),

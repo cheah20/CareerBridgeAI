@@ -43,8 +43,8 @@ void main() {
 
       await logIn(tester, seekerEmail, 'correct-password');
 
-      expect(find.text('Your career this week.'), findsOneWidget);
-      expect(find.text('Server offline · retry'), findsOneWidget);
+      expect(find.text('Your career this week'), findsOneWidget);
+      expect(find.text('Server offline, retry'), findsOneWidget);
     },
   );
 }

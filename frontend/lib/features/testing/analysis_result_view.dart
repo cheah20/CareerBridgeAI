@@ -95,7 +95,7 @@ class AnalysisResultView extends StatelessWidget {
                       trailing: '${role['field']}',
                     ),
                     Text(
-                      '$score% · ${fit['label']}',
+                      '$score%, ${fit['label']}',
                       style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.w700,
@@ -398,7 +398,7 @@ class _AdviceCard extends StatelessWidget {
             list(
               'learning_roadmap',
               (s) =>
-                  '${s['step']}. ${s['focus']} · ${s['weeks']} wk — ${s['activities']}',
+                  '${s['step']}. ${s['focus']}, ${s['weeks']} wk — ${s['activities']}',
             ),
           ),
         ],

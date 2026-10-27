@@ -23,7 +23,7 @@ void main() {
     await tester.tap(find.byKey(const Key('testing-mode')));
     await tester.pumpAndSettle();
 
-    expect(find.text('Resume analysis.'), findsOneWidget);
+    expect(find.text('Resume analysis'), findsWidgets); // page title and menu item
     expect(find.text('Choose resume (PDF, DOCX, JPG, PNG)'), findsOneWidget);
     expect(
       find.text('Test logbook (dev)'),
@@ -39,7 +39,7 @@ void main() {
     addTearDown(tester.view.reset);
     await tester.pumpWidget(
       MaterialApp(
-        theme: ThemeData(extensions: const [GlassTokens.smoke]),
+        theme: ThemeData(extensions: const [GlassTokens.night]),
         home: Scaffold(
           body: SingleChildScrollView(
             child: AnalysisResultView(entry: sampleEntry()),
@@ -48,7 +48,7 @@ void main() {
       ),
     );
 
-    expect(find.text('82% · Strong Match'), findsOneWidget);
+    expect(find.text('82%, Strong Match'), findsOneWidget);
     expect(find.text('SQL'), findsOneWidget);
     expect(find.text('Tableau'), findsOneWidget);
     expect(find.text('Data Science'), findsWidgets);
@@ -152,9 +152,9 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('1 analyses'), findsOneWidget);
-    await tester.tap(find.text('Data Analyst · junior'));
+    await tester.tap(find.text('Data Analyst, junior'));
     await tester.pumpAndSettle();
-    expect(find.text('82% · Strong Match'), findsOneWidget);
+    expect(find.text('82%, Strong Match'), findsOneWidget);
   });
 
   testWidgets('corrected details are saved and the new result is passed up', (

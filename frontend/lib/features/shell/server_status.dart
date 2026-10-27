@@ -79,7 +79,7 @@ class ServerStatusChip extends ConsumerWidget {
             child: InkWell(
               borderRadius: BorderRadius.circular(999),
               onTap: () => ref.invalidate(serverCheckProvider),
-              child: GlassChip(label: 'Server offline · retry', color: t.danger),
+              child: GlassChip(label: 'Server offline, retry', color: t.danger),
             ),
           ),
         );
