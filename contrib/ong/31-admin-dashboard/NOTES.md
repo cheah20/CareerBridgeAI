@@ -6,6 +6,7 @@
 - Added the Current AI Model version and status section.
 - Added the Recent Errors monitoring section.
 - Implemented a functional "Refresh Data" button.
+- Applied minimalist and modern UI enhancements.
 
 **What is not finished / I was unsure about:**
 
