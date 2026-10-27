@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Starter page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left menu: change the links to the pages of your role -->
+    <!-- <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Page two</a>
+      <a href="#">Page three</a>
+    </nav> -->
+
+    <!-- Left menu: Updated to match Admin pages -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Users and roles</a>
+      <a href="#">Company verification</a>
+      <a href="#">Job review</a>
+      <a href="#">AI model and datasets</a>
+      <a href="#">Alerts and errors</a>
+      <a href="#">Bug reports</a>
+    </nav>
+
+    <!-- Your page goes inside <main> -->
+    <main>
+      <!-- Page title and Refresh button -->
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <h1 class="page-title">Admin Dashboard</h1>
+          <p class="page-sub">System overview and numbers at a glance.</p>
+        </div>
+        <!-- Refresh button to reload the current page -->
+        <button class="btn primary" onclick="location.reload()">Refresh Data</button>
+      </div>
+
+      <!-- Data cards: Number of users per role -->
+      <h2 style="margin-top:24px; margin-bottom:12px; font-size:16px;">Users Per Role</h2>
+      <div class="grid-4">
+        <div class="card"><div class="muted">Total Users</div><div class="number">12,845</div></div>
+        <div class="card"><div class="muted">Job Seekers</div><div class="number">10,240</div></div>
+        <div class="card"><div class="muted">Recruiters</div><div class="number">2,580</div></div>
+        <div class="card"><div class="muted">Admins</div><div class="number">25</div></div>
+      </div>
+      
+
+      <!-- Data cards: Pending reviews, application statuses, and API usage -->
+      <h2 style="margin-top:24px; margin-bottom:12px; font-size:16px;">System Operations</h2>
+      <div class="grid-4">
+        <div class="card"><div class="muted">Pending Company Reviews</div><div class="number">18</div></div>
+        <div class="card"><div class="muted">Pending Job Reviews</div><div class="number">42</div></div>
+        <div class="card"><div class="muted">Active Applications</div><div class="number">3,491</div></div>
+        <div class="card"><div class="muted">API Usage (Today)</div><div class="number">842k</div></div>
+      </div>
+
+      <!-- Side-by-side sections: AI model version and Recent errors -->
+      <div style="display: flex; gap: 24px; margin-top: 24px;">
+        <section class="card" style="flex: 1;">
+          <h2>Current AI Model</h2>
+          <p style="margin-top: 12px;"><strong>Version:</strong> v2.4.1-stable</p>
+          <p style="margin-top: 8px;"><strong>Last Updated:</strong> 24 Oct 2026</p>
+          <p style="margin-top: 8px;"><strong>Status:</strong> <span class="status ok">Online</span></p>
+        </section>
+
+        <section class="card" style="flex: 1;">
+          <h2>Recent Errors</h2>
+          <p style="margin-top: 12px;"><strong>Critical Errors:</strong> <span class="status danger">0</span></p>
+          <p style="margin-top: 8px;"><strong>Warning Alerts:</strong> <span class="status warn">3</span></p>
+          <p style="margin-top: 8px;"><strong>System Health:</strong> <span class="status ok">Good</span></p>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
