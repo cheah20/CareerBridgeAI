@@ -1,6 +1,6 @@
 # GPU fine-tuning environment (separate from the app; Python 3.12, conda env: careerbridge-train)
 #   conda create -n careerbridge-train python=3.12
-#   python -m pip install -r training/requirements-train.txt
+#   python -m pip install -r research/training/requirements-train.txt
 # PyTorch with CUDA 13.0 wheels: https://pytorch.org/get-started/locally/
 torch==2.14.1
 transformers==5.20.1

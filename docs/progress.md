@@ -112,7 +112,7 @@ ahead overall. Behind plan: 1.6 (manual check) and 2.1 (saving files to the buck
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
 | 3.1 | Select public dataset (check licence): ResumeAtlas (MIT) + Kaggle Resume (CC0), O*NET, ESCO, job-posting sets | P1 | Nov 11 | — | Done |
-| 3.2 | Train & compare LR / KNN / RF / SVM (Accuracy, Precision, Recall, F1); fine-tuned Transformer — see [ml/](ml/README.md) | P1 | Nov 16 | 3.1 | Done |
+| 3.2 | Train & compare LR / KNN / RF / SVM (Accuracy, Precision, Recall, F1); fine-tuned Transformer — see [research/](../research/README.md) | P1 | Nov 16 | 3.1 | Done |
 | 3.3 | Rule-based match score + match levels (e.g. "84% — Strong Match"); terminal version done, thresholds provisional | P1 | Nov 18 | 2.3 | In Progress |
 | 3.4 | Choose LLM provider; backend-only key; usage logging | P1 | Nov 20 | — | Done |
 | 3.5 | LLM explanations, skill gaps, resume advice, interview questions, roadmap (terminal report done; UI pending) | P1 | Nov 25 | 3.3, 3.4 | In Progress |

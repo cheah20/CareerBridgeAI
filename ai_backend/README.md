@@ -13,7 +13,6 @@ The part that reads resumes, scores them and talks to the AI. The website calls 
 | `app/core/` | Settings, login checks, error messages |
 | `app/schemas/` | The shape of the data sent to the website |
 | `app/cli/` | Small tools to run from the terminal |
-| `training/` | Scripts used to train the models |
 | `tests/` | Automatic checks (`python -m pytest`) |
 | `tests_e2e/` | A full check against the real running system |
 | `data/` | **On the developer's computer only:** datasets, caches, logs, test results |

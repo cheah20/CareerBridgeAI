@@ -15,7 +15,7 @@ from the "Result" columns.
 | Database permission checks | Each role can only see and change what it should (RLS) | SQL script | `supabase/checks/rls_check.sql` | See `supabase/checks/README.md` |
 | End-to-end check | Real login → real backend → right home page | Python script | `ai_backend/tests_e2e/e2e_check.py` | [1.6-end-to-end.md](1.6-end-to-end.md) |
 | Manual browser checks | What a real user clicks through | Checklist | `docs/testing/*.md` | Follow the checklist, tick each row |
-| AI model evaluation | Career-direction model accuracy on held-out and real CVs | Python scripts | `ai_backend/app/ml/` | [ml/README.md](../ml/README.md) |
+| AI model evaluation | Career-direction model accuracy on held-out and real CVs | Python scripts | `ai_backend/app/ml/` | [research/README.md](../../research/README.md) |
 | User acceptance | Teammates try the demo and report problems | Bug report form (Phase 6) | Hosted demo | Week 9–10 |
 
 Rules for test data: made-up names and `@example.test` emails only. Real CVs are used for model testing only,
