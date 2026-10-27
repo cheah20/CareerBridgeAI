@@ -55,7 +55,7 @@ def match_label(score: float) -> str:
     return next(label for threshold, label in MATCH_LEVELS if score >= threshold)
 
 
-# ------------------------------------------------------------------ requirements
+# Requirements
 
 def requirements_for(role: dict, level: str) -> list[tuple[str, float, str]]:
     """(skill name, weight, source) for this role and level, strongest first."""
@@ -88,7 +88,7 @@ def has_skill(name: str, resume_phrases: set[str]) -> bool:
     return bool(skill_aliases(name) & resume_phrases)
 
 
-# ------------------------------------------------------------------ experience & education
+# Experience & education
 
 _MONTHS = "jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec"
 _RANGE = re.compile(
@@ -169,7 +169,7 @@ def education_score(text: str) -> tuple[float, str | None]:
     return 0.3, "No qualification was found. Add your education (degree, diploma or certificate)."
 
 
-# ------------------------------------------------------------------ main
+# Main
 
 def score_fit(resume_text: str, role: dict, level: str) -> FitResult:
     if level not in LEVEL_YEARS:

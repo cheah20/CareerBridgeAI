@@ -1,4 +1,4 @@
--- CareerBridge AI — database schema v1
+-- CareerBridge AI database schema v1
 -- Tables: profiles, seeker_profiles, companies, company_members, jobs,
 --         resumes, applications, application_status_history
 -- Access model (architecture B):
@@ -8,9 +8,7 @@
 --   * Users may directly edit only their own basic profile fields.
 --   * Guests (anon) may browse published jobs and verified companies only.
 
--- ---------------------------------------------------------------------------
 -- Enum types
--- ---------------------------------------------------------------------------
 create type public.user_role as enum ('job_seeker', 'recruiter', 'admin');
 create type public.account_status as enum ('active', 'disabled', 'pending_deletion');
 create type public.verification_status as enum ('pending', 'verified', 'rejected', 're_review');
@@ -24,9 +22,7 @@ create type public.application_status as enum (
   'applied', 'under_review', 'shortlisted', 'interview', 'offer', 'hired', 'rejected', 'withdrawn'
 );
 
--- ---------------------------------------------------------------------------
 -- Shared trigger: keep updated_at current
--- ---------------------------------------------------------------------------
 create function public.set_updated_at()
 returns trigger
 language plpgsql
@@ -38,9 +34,7 @@ begin
 end;
 $$;
 
--- ---------------------------------------------------------------------------
 -- Tables
--- ---------------------------------------------------------------------------
 
 -- One row per user, created automatically on sign-up.
 create table public.profiles (
@@ -174,9 +168,7 @@ create table public.application_status_history (
   changed_at      timestamptz not null default now()
 );
 
--- ---------------------------------------------------------------------------
 -- Indexes (foreign keys and common filters)
--- ---------------------------------------------------------------------------
 create index on public.profiles (role);
 create index on public.company_members (user_id);
 create index on public.companies (verification_status);
@@ -188,9 +180,7 @@ create index on public.applications (resume_id);
 create index on public.applications (status);
 create index on public.application_status_history (application_id);
 
--- ---------------------------------------------------------------------------
 -- updated_at triggers
--- ---------------------------------------------------------------------------
 create trigger set_updated_at before update on public.profiles
   for each row execute function public.set_updated_at();
 create trigger set_updated_at before update on public.seeker_profiles
@@ -204,9 +194,7 @@ create trigger set_updated_at before update on public.resumes
 create trigger set_updated_at before update on public.applications
   for each row execute function public.set_updated_at();
 
--- ---------------------------------------------------------------------------
 -- Business-rule triggers
--- ---------------------------------------------------------------------------
 
 -- Sign-up: create the profile. Only job_seeker / recruiter can be chosen;
 -- admin is never accepted from sign-up data.
@@ -280,9 +268,7 @@ create trigger log_application_status
   after insert or update of status on public.applications
   for each row execute function public.log_application_status();
 
--- ---------------------------------------------------------------------------
 -- Helper functions for RLS (security definer avoids recursive policy checks)
--- ---------------------------------------------------------------------------
 create function public.is_admin()
 returns boolean
 language sql
@@ -354,9 +340,7 @@ grant execute on function public.is_company_member(uuid) to authenticated;
 grant execute on function public.is_applicant_of_my_company(uuid) to authenticated;
 grant execute on function public.is_resume_shared_with_me(uuid) to authenticated;
 
--- ---------------------------------------------------------------------------
 -- Row Level Security
--- ---------------------------------------------------------------------------
 alter table public.profiles enable row level security;
 alter table public.seeker_profiles enable row level security;
 alter table public.companies enable row level security;
@@ -430,9 +414,7 @@ create policy "Read history of visible applications" on public.application_statu
   for select to authenticated
   using (exists (select 1 from public.applications a where a.id = application_id));
 
--- ---------------------------------------------------------------------------
 -- Table privileges (new tables are not exposed automatically in this project)
--- ---------------------------------------------------------------------------
 grant all on all tables in schema public to service_role;
 grant usage, select on all sequences in schema public to service_role;
 
@@ -454,9 +436,7 @@ grant select (id, company_id, title, description, location, work_type, work_mode
   status, published_at)
   on public.jobs to anon;
 
--- ---------------------------------------------------------------------------
 -- Private storage buckets (uploads go through FastAPI)
--- ---------------------------------------------------------------------------
 insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
 values
   ('resumes', 'resumes', false, 10485760, array[

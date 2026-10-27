@@ -92,7 +92,7 @@ class Assessment:
                 "suggested_level": self.suggested_level, "notes": self.notes, "skills_detail": self.skills_detail}
 
 
-# ------------------------------------------------------------------ skills
+# Skills
 
 def _work_text(profile: Profile, markdown: str) -> str:
     """Text that shows skills being used: job titles, job highlights and the experience section."""
@@ -156,7 +156,7 @@ def _skills(profile: Profile, markdown: str, role: dict, level: str) -> tuple[Pa
     return Part(score, WEIGHTS["skills"], reasons), core_found, core_missing, bonus_found, bonus_missing, detail
 
 
-# ------------------------------------------------------------------ experience
+# Experience
 
 def _tokens(title: str) -> set[str]:
     """Title words without seniority, cut short so Science and Scientist match."""
@@ -245,7 +245,7 @@ def _experience(profile: Profile, role: dict, level: str) -> tuple[Part, float |
     return Part(score, WEIGHTS["experience"], reasons), relevant, total, suggested if suggested != level else None
 
 
-# ------------------------------------------------------------------ education
+# Education
 
 def _education(profile: Profile, role: dict) -> Part:
     if not profile.education:
@@ -270,7 +270,7 @@ def _education(profile: Profile, role: dict) -> Part:
     return Part(best, WEIGHTS["education"], [best_reason])
 
 
-# ------------------------------------------------------------------ overall
+# Overall
 
 def assess(profile: Profile, clean_markdown: str, role: dict, level: str) -> Assessment:
     if level not in LEVEL_YEARS:
