@@ -63,27 +63,22 @@ class LandingPage extends ConsumerWidget {
 
     return PublicFrame(
       panel: false,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          LayoutBuilder(
-            builder: (context, constraints) {
-              if (constraints.maxWidth < 980) {
-                return Column(children: [hero, const SizedBox(height: 20), const _SampleResult()]);
-              }
-              return Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(flex: 6, child: hero),
-                  const SizedBox(width: 28),
-                  const Expanded(flex: 4, child: Padding(padding: EdgeInsets.only(top: 80), child: _SampleResult())),
-                ],
-              );
-            },
-          ),
-          const SizedBox(height: 28),
-          const _PhotoCredit(),
-        ],
+      centerContent: true,
+      maxWidth: 1240,
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          if (constraints.maxWidth < 980) {
+            return Column(children: [hero, const SizedBox(height: 20), const _SampleResult()]);
+          }
+          return Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(flex: 7, child: hero),
+              const SizedBox(width: 24),
+              const Expanded(flex: 5, child: _SampleResult()),
+            ],
+          );
+        },
       ),
     );
   }
@@ -183,21 +178,6 @@ class _SampleResult extends StatelessWidget {
           const SizedBox(height: 4),
           Text('Asked for in 58% of web developer ads', style: TextStyle(fontSize: 13, color: t.textSub)),
         ],
-      ),
-    );
-  }
-}
-
-class _PhotoCredit extends StatelessWidget {
-  const _PhotoCredit();
-
-  @override
-  Widget build(BuildContext context) {
-    return const Align(
-      alignment: Alignment.centerRight,
-      child: Text(
-        'Photo: Kuala Lumpur sunrise by Marek Ślusarczyk, CC BY 3.0, via Wikimedia Commons',
-        style: TextStyle(fontSize: 12, color: Color(0xE6FFFFFF), shadows: [Shadow(color: Color(0xCC000000), blurRadius: 6)]),
       ),
     );
   }
