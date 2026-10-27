@@ -1,6 +1,6 @@
 #!/bin/bash
 # Run the training experiments one by one, with the heat guard on.
-cd "$(dirname "$0")/.." || exit 1
+cd "$(dirname "$0")/../../ai_backend" || exit 1
 PY=~/miniconda3/envs/careerbridge-train/bin/python
 THROTTLE=${THROTTLE:-1.0}     # seconds of rest after each step
 HEAT_LIMIT=${HEAT_LIMIT:-85}  # °C; lower than usual because nobody is watching
@@ -8,7 +8,7 @@ HEAT_LIMIT=${HEAT_LIMIT:-85}  # °C; lower than usual because nobody is watching
 run() {  # name, output folder, extra-data file, repeat
   local name=$1 out=$2 extra=$3 repeat=$4 dir=data/training_runs/$1
   mkdir -p "$dir"
-  local cmd="$PY -W ignore training/finetune_transformer.py --extra $extra --extra-repeat $repeat --out $out --throttle $THROTTLE"
+  local cmd="$PY -W ignore ../research/training/finetune_transformer.py --extra $extra --extra-repeat $repeat --out $out --throttle $THROTTLE"
   echo "$cmd" > "$dir/command.txt"
   echo "$(date '+%F %T') $name started (throttle ${THROTTLE}s, heat limit ${HEAT_LIMIT}C)"
   nvidia-smi --query-gpu=timestamp,temperature.gpu,power.draw,utilization.gpu,memory.used --format=csv -l 60 > "$dir/gpu.csv" &
@@ -16,7 +16,7 @@ run() {  # name, output folder, extra-data file, repeat
   $cmd > data/training_runs/train.log 2>&1 &
   local trainer=$!
   sleep 10
-  bash training/heat_guard.sh "$HEAT_LIMIT" >> "$dir/heat_guard.log" 2>&1 &
+  bash ../research/training/heat_guard.sh "$HEAT_LIMIT" >> "$dir/heat_guard.log" 2>&1 &
   wait $trainer
   local status=$?
   kill $gpu_logger 2>/dev/null

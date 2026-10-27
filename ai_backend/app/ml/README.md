@@ -9,4 +9,4 @@
 | `registry.py` | Remembers which model version is in use |
 | `other files` | Helpers for preparing data and test resumes |
 
-Training results and the full report are in [docs/ml/](../../../docs/ml/). Training logs are kept in `ai_backend/data/training_runs/` on the developer's computer.
+Training results and the full report are in [research/](../../../research/README.md). Training logs are kept in `ai_backend/data/training_runs/` on the developer's computer.

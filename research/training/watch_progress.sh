@@ -1,6 +1,6 @@
 #!/bin/bash
 # Live training dashboard: GPU, memory, and the latest progress lines.
-cd "$(dirname "$0")/.." || exit 1
+cd "$(dirname "$0")/../../ai_backend" || exit 1
 LOG=data/training_runs/progress.log
 
 while true; do

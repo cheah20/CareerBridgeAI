@@ -177,7 +177,7 @@ async def analyse(
     return _run(data, file.filename or "resume", role, level, use_llm)
 
 
-# ------------------------------------------------------------------ background tasks
+# Background tasks
 # Pending -> Processing -> Completed or Failed. Kept in memory: a server restart clears them.
 
 _TASKS: dict[str, dict] = {}

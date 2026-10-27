@@ -82,7 +82,7 @@ def extract_text(data: bytes) -> ExtractedText:
     return result
 
 
-# ---------------------------------------------------------------- PDF
+# PDF
 
 def _from_pdf(data: bytes) -> ExtractedText:
     import pymupdf
@@ -149,7 +149,7 @@ def _pdf_page_text(page) -> str:
     return to_text(order_boxes(boxes))
 
 
-# ---------------------------------------------------------------- DOCX
+# DOCX
 
 def _from_docx(data: bytes) -> ExtractedText:
     import docx
@@ -168,7 +168,7 @@ def _from_docx(data: bytes) -> ExtractedText:
     return ExtractedText(text=_clean("\n".join(parts)), kind=FileKind.DOCX, method="docx")
 
 
-# ---------------------------------------------------------------- Images / OCR
+# Images / OCR
 
 def _from_image(data: bytes, kind: FileKind) -> ExtractedText:
     try:
@@ -223,7 +223,7 @@ def _ocr(image) -> tuple[str, list[float]]:
     return to_text(order_boxes(boxes)), [float(s) for s in result.scores]
 
 
-# ---------------------------------------------------------------- helpers
+# Helpers
 
 def _clean(text: str) -> str:
     text = text.replace("\x00", "").replace("\r\n", "\n").replace("\r", "\n")

@@ -17,7 +17,7 @@ from sklearn.model_selection import train_test_split
 from transformers import (AutoModelForSequenceClassification, AutoTokenizer, DataCollatorWithPadding, Trainer,
                           TrainerCallback, TrainingArguments)
 
-BACKEND = Path(__file__).resolve().parents[1]
+BACKEND = Path(__file__).resolve().parents[2] / "ai_backend"
 sys.path.insert(0, str(BACKEND))
 from app.ml.text_prep import normalise_resume_text  # noqa: E402  (plain-Python module, no app settings needed)
 

@@ -1,5 +1,4 @@
-/* CareerBridge AI model report. Light, single theme, works offline (system fonts only).
-   Layout: a presentation-style page — one headline, KPI row, then one chart per finding with a one-line takeaway. */
+/* Styles for the model report page */
 :root {
   color-scheme: light;
   --bg: #f5f7fa;

@@ -272,13 +272,14 @@ CareerBridgeAI/
 │   │   ├── ml/                  # Career-direction models, evaluation, version registry
 │   │   ├── catalog/             # Job titles and skills by level
 │   │   └── cli/                 # Terminal tools
-│   ├── training/                # Model training scripts
 │   ├── tests/                   # Unit tests
 │   ├── tests_e2e/               # End-to-end check
 │   └── requirements.txt
 │
 ├── supabase/                    # Database migrations and permission checks
-├── docs/                        # Requirements, plan, API, database, test plan, AI report
+├── docs/                        # Requirements, plan, API, database, test plan
+├── research/                    # AI model research: report, training scripts, notebook
+├── Methodology/                 # Report figures: flowcharts, ERD, wireframes, Gantt chart
 ├── contrib/                     # Teammate submissions (HTML pages)
 ├── .github/                     # Task template for GitHub issues
 └── README.md
@@ -319,8 +320,8 @@ Full table and permission details: [docs/database.md](docs/database.md).
 | [docs/api.md](docs/api.md) | Every backend endpoint with examples |
 | [docs/database.md](docs/database.md) | Tables, permissions, storage, local data |
 | [docs/testing/test-plan.md](docs/testing/test-plan.md) | Test plan and current results |
-| [docs/ml/README.md](docs/ml/README.md) | Model training and evaluation report |
-| `docs/report/index.html` | Training report as a web page (download the ZIP and double-click it) |
+| [research/README.md](research/README.md) | Model training and evaluation report |
+| `research/report/index.html` | Training report as a web page (download the ZIP and double-click it) |
 | [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) | How teammates hand in work |
 
 ## Troubleshooting

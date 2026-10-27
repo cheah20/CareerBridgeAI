@@ -1,7 +1,7 @@
 # Model training scripts
 
 Scripts used to train the career direction models on the developer's GPU.
-Results and the written report are in [docs/ml/](../../docs/ml/).
+Results and the written report are in [research/README.md](../README.md).
 
 | File | What it is |
 |---|---|

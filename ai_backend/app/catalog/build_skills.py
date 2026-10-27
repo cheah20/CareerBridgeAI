@@ -67,7 +67,7 @@ SOFT_SKILLS = {
 }
 
 
-# ------------------------------------------------------------------ vocabulary
+# Vocabulary
 
 def build_vocabulary(ds_skills: pd.Series, onet_software: pd.DataFrame, esco_skills: pd.DataFrame,
                      role_names: set[str]) -> dict[str, str]:
@@ -86,7 +86,7 @@ def build_vocabulary(ds_skills: pd.Series, onet_software: pd.DataFrame, esco_ski
             if len(k) > 1 and 1 <= len(k.split()) <= 4 and k not in STOP and k not in role_names and not k.endswith(":")}
 
 
-# ------------------------------------------------------------------ postings
+# Postings
 
 def level_of(title: str, label: str | None, mapping: dict) -> str:
     t = str(title).lower()
@@ -143,7 +143,7 @@ def market_skills(roles: list[dict], vocab: dict[str, str]) -> dict[int, dict]:
     return stats
 
 
-# ------------------------------------------------------------------ build
+# Build
 
 def main() -> None:
     roles = json.loads((OUT / "roles_map.json").read_text(encoding="utf-8"))["roles"]

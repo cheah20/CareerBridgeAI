@@ -54,7 +54,7 @@ def explain_fit(role: dict, fit: FitResult, resume_text: str, known_names: list[
     return chat_json(build_messages(role, fit, resume_text, known_names), purpose="fit_explanation", max_tokens=2200)
 
 
-# ------------------------------------------------------------------ advice from a structured profile (testing mode)
+# Advice from a structured profile (testing mode)
 
 COACH_PROMPT = """You are the friendly career coach inside CareerBridge AI (Malaysia and Singapore).
 You receive the Job Seeker's resume profile (already read by the system) and the system's fit result for

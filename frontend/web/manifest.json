@@ -1,11 +1,11 @@
 {
-    "name": "careerbridge_ai",
-    "short_name": "careerbridge_ai",
+    "name": "CareerBridge AI",
+    "short_name": "CareerBridge",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Resume analysis and career recommendations.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

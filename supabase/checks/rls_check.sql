@@ -1,4 +1,4 @@
--- CareerBridge AI — RLS permission check (task 1.2)
+-- CareerBridge AI RLS permission check (task 1.2)
 --
 -- Creates temporary users and data inside one transaction, checks what each
 -- role can read/write, prints PASS/FAIL per test, then ROLLS BACK everything.
@@ -54,7 +54,7 @@ declare
   res  text;
   r    text;
 begin
-  -- ---------------- fixtures (as postgres) ----------------
+  -- fixtures (as postgres)
   insert into auth.users (id, email, raw_user_meta_data) values
     (seeker_a,    'seeker.a@example.test',    '{"full_name":"Seeker A"}'),
     (seeker_b,    'seeker.b@example.test',    '{"full_name":"Seeker B","role":"job_seeker"}'),
@@ -85,7 +85,7 @@ begin
   insert into public.applications (id, job_id, seeker_id, resume_id) values
     (app_a, job_x_pub, seeker_a, resume_a);   -- A applied to Company X
 
-  -- ---------------- sign-up trigger ----------------
+  -- sign-up trigger
   select role::text into r from public.profiles where id = hacker_f;
   perform pg_temp.check('Sign-up asking for admin becomes job_seeker', 'job_seeker', r);
   select role::text into r from public.profiles where id = recruiter_c;
@@ -93,7 +93,7 @@ begin
   select count(*) into n from public.seeker_profiles where user_id = recruiter_c;
   perform pg_temp.check('Recruiter has no seeker_profiles row', '0', n::text);
 
-  -- ---------------- Seeker A (applied to Company X) ----------------
+  -- Seeker A (applied to Company X)
   perform pg_temp.act_as('authenticated', seeker_a);
   select count(*) into n from public.profiles;        perform set_config('role', 'none', true);
   perform pg_temp.check('Seeker A sees only own profile', '1', n::text);
@@ -175,12 +175,12 @@ begin
   perform set_config('role', 'none', true);
   perform pg_temp.check('Seeker A cannot delete resumes directly', 'denied', res);
 
-  -- ---------------- Seeker B (no applications) ----------------
+  -- Seeker B (no applications)
   perform pg_temp.act_as('authenticated', seeker_b);
   select count(*) into n from public.applications;    perform set_config('role', 'none', true);
   perform pg_temp.check('Seeker B cannot see Seeker A''s application', '0', n::text);
 
-  -- ---------------- Recruiter C (Company X, has applicant A) ----------------
+  -- Recruiter C (Company X, has applicant A)
   perform pg_temp.act_as('authenticated', recruiter_c);
   select count(*) into n from public.profiles;        perform set_config('role', 'none', true);
   perform pg_temp.check('Recruiter C sees self + applicant A only', '2', n::text);
@@ -229,7 +229,7 @@ begin
   perform set_config('role', 'none', true);
   perform pg_temp.check('Recruiter C cannot verify own company', 'denied', res);
 
-  -- ---------------- Recruiter D (Company Y verified + Company Z pending, no applicants) ----------------
+  -- Recruiter D (Company Y verified + Company Z pending, no applicants)
   perform pg_temp.act_as('authenticated', recruiter_d);
   select count(*) into n from public.profiles;        perform set_config('role', 'none', true);
   perform pg_temp.check('Recruiter D sees only own profile', '1', n::text);
@@ -250,7 +250,7 @@ begin
   select count(*) into n from public.company_members; perform set_config('role', 'none', true);
   perform pg_temp.check('Recruiter D sees own 2 memberships only', '2', n::text);
 
-  -- ---------------- Admin E ----------------
+  -- Admin E
   perform pg_temp.act_as('authenticated', admin_e);
   select count(*) into n from public.profiles;        perform set_config('role', 'none', true);
   perform pg_temp.check('Admin sees all 6 profiles', '6', n::text);
@@ -267,7 +267,7 @@ begin
   select count(*) into n from public.resumes;         perform set_config('role', 'none', true);
   perform pg_temp.check('Admin cannot read resumes directly (backend only)', '0', n::text);
 
-  -- ---------------- Guest (anon) ----------------
+  -- Guest (anon)
   perform pg_temp.act_as('anon', null);
   select count(*) into n from public.jobs;            perform set_config('role', 'none', true);
   perform pg_temp.check('Guest sees published jobs only', '2', n::text);
@@ -294,7 +294,7 @@ begin
   perform set_config('role', 'none', true);
   perform pg_temp.check('Guest cannot read resumes', 'denied', res);
 
-  -- ---------------- Business-rule triggers (as postgres / backend) ----------------
+  -- Business-rule triggers (as postgres / backend)
   update public.applications set status = 'under_review' where id = app_a;
   select count(*) into n from public.application_status_history where application_id = app_a;
   perform pg_temp.check('Status change is recorded in history', '2', n::text);

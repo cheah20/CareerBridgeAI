@@ -119,7 +119,7 @@ class GlassBar extends StatelessWidget {
   }
 }
 
-/// The KL skyline photo behind the public pages, softened and darkened so the panels stay in front.
+/// Background photo for the public pages.
 class PhotoBackground extends StatelessWidget {
   const PhotoBackground({super.key});
 

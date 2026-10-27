@@ -1,7 +1,7 @@
 # Model training report
 
 CareerBridge AI career-direction classifier, 18 October 2026.
-For the charted version, open [docs/report/index.html](../report/index.html) in a browser (works offline).
+For the charted version, open [report/index.html](report/index.html) in a browser (works offline).
 
 ## Part 2 — testing on real Malaysian CVs (18 October 2026, afternoon)
 
@@ -242,14 +242,14 @@ The two runs finish within one point of each other, so the result is stable and 
 | 12:43 | 80.0% | 95.2 | 76 | 83.5 | 96% | 6,980 | 1.07 | 3.4 |
 | 12:48 | 100% | 96.6 | 75 | 84.5 | 96% | 6,979 | 1.19 | 3.4 |
 
-A heat guard (`ai_backend/training/heat_guard.sh`) checked the GPU every 5 seconds and would have stopped training at 89 °C. Peak temperature was 76 °C in run B and 78 °C in run A.
+A heat guard (`research/training/heat_guard.sh`) checked the GPU every 5 seconds and would have stopped training at 89 °C. Peak temperature was 76 °C in run B and 78 °C in run A.
 
 ## Issues found and fixed
 
 1. **VRAM overflow.** With batch 16, about 0.6 GB spilled into shared system memory, the GPU waited on transfers, and training ran at under 25 steps per minute. Batch 8 with 2 accumulation steps keeps the same effective batch and results, uses 6.9 GB, and runs at about 97 steps per minute.
 2. **int8 quantisation.** Quantising the whole network cut test accuracy from 0.872 to 0.784. Quantising only the MatMul layers still matched PyTorch on just 86.6% of validation resumes. v5 therefore ships as fp32 ONNX, which matches PyTorch on 1,127 of 1,127 validation resumes and scores 0.8821 on the test set, identical to PyTorch.
 3. **Lost weights in run A.** The first script deleted the PyTorch checkpoint after export. It now keeps the trained model in `models/transformer-candidate/pytorch/` and deletes only the epoch checkpoints.
-4. **No visible progress.** The script now writes step, percentage, speed, time left and loss to `data/training_runs/progress.log`. `ai_backend/training/watch_progress.sh` displays that log live, together with GPU temperature and a safety level.
+4. **No visible progress.** The script now writes step, percentage, speed, time left and loss to `data/training_runs/progress.log`. `research/training/watch_progress.sh` displays that log live, together with GPU temperature and a safety level.
 
 ## Error analysis of v5
 
@@ -325,9 +325,9 @@ Run these from `ai_backend/`:
 python -m app.ml.export_for_kaggle
 
 # 2. Fine-tune on the GPU (env careerbridge-train)
-python training/finetune_transformer.py
-bash training/heat_guard.sh 89          # optional, in a second terminal
-bash training/watch_progress.sh         # optional, live progress
+python ../research/training/finetune_transformer.py
+bash ../research/training/heat_guard.sh 89    # optional, in a second terminal
+bash ../research/training/watch_progress.sh   # optional, live progress
 
 # 3. Register and evaluate (env careerbridge-ai)
 python -m app.ml.transformer import models/transformer-candidate

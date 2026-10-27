@@ -5,7 +5,7 @@ import '../../app/theme/glass_tokens.dart';
 import '../../core/layout/breakpoints.dart';
 import '../../core/widgets/glass.dart';
 
-/// Pages guests can see (landing, job browsing, login): skyline photo, glass top bar, glass panel.
+/// Layout for the guest pages (home, jobs, login).
 class PublicFrame extends StatelessWidget {
   const PublicFrame({
     super.key,

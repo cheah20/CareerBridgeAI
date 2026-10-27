@@ -179,7 +179,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
     );
   }
 
-  // ------------------------------------------------------------------ banner
+  // Banner
 
   Widget _banner(bool wide) {
     final t = GlassTokens.of(context);
@@ -413,7 +413,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
     );
   }
 
-  // ------------------------------------------------------------------ tabs
+  // Tabs
 
   Widget _tabs() {
     final t = GlassTokens.of(context);
@@ -479,7 +479,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
     );
   }
 
-  // ------------------------------------------------------------------ overview
+  // Overview
 
   Widget _overview(bool wide) {
     return Column(
@@ -834,7 +834,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
     );
   }
 
-  // ------------------------------------------------------------------ skills
+  // Skills
 
   Widget _skillsPanel(bool wide) {
     final t = GlassTokens.of(context);
@@ -1149,7 +1149,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
     );
   }
 
-  // ------------------------------------------------------------------ jobs
+  // Jobs
 
   Widget _jobsPanel(bool wide) {
     final t = GlassTokens.of(context);
@@ -1317,7 +1317,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
     );
   }
 
-  // ------------------------------------------------------------------ details
+  // Details
 
   Widget _detailsPanel(bool wide) {
     return Column(
