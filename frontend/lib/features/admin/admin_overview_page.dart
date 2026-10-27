@@ -16,13 +16,13 @@ class AdminOverviewPage extends StatelessWidget {
       children: [
         PageHeader(
           kicker: 'System overview',
-          title: 'Everything running smoothly.',
+          title: 'Everything running smoothly',
           subtitle: 'Pending reviews, the current AI model, errors and API usage in one place.',
           trailing: Row(mainAxisSize: MainAxisSize.min, children: [ServerStatusChip(), GlassChip(label: 'Sample data')]),
         ),
         SizedBox(height: Gaps.section),
         StatStrip(items: [
-          StatItem('Users', '128', '96 seekers · 30 recruiters'),
+          StatItem('Users', '128', '96 seekers, 30 recruiters'),
           StatItem('Pending companies', '3', 'Oldest: 2 days'),
           StatItem('Pending jobs', '5', 'New postings'),
           StatItem('API budget used', '12%', 'This month'),
@@ -34,9 +34,9 @@ class AdminOverviewPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 CardHeader(title: 'Waiting for review', trailing: 'Oldest first'),
-                GlassListRow(initials: 'CX', title: 'Company X Sdn Bhd', subtitle: 'Company verification · 2 days ago', selected: true),
-                GlassListRow(initials: 'DE', title: 'Data Engineer (Contract)', subtitle: 'New job posting · Company X'),
-                GlassListRow(initials: 'MT', title: 'Melaka Tech Solutions', subtitle: 'Company re-review · details changed'),
+                GlassListRow(initials: 'CX', title: 'Company X Sdn Bhd', subtitle: 'Company verification, 2 days ago', selected: true),
+                GlassListRow(initials: 'DE', title: 'Data Engineer (Contract)', subtitle: 'New job posting, Company X'),
+                GlassListRow(initials: 'MT', title: 'Melaka Tech Solutions', subtitle: 'Company re-review, details changed'),
               ],
             ),
           ),

@@ -364,6 +364,7 @@ The AI key may be missing, today's AI requests may be used up, or the AI service
 
 - **Web first:** the desktop web app is built and demoed first. Phone layouts and the Android APK come after the web demo.
 - **Testing mode first:** the Job Seeker flow is tuned in testing mode with a local logbook before real accounts and the database are used for it.
+- **Credits:** skyline photo "Kuala Lumpur sunrise city skyline with Petronas Towers and KL Tower" by Marek Ślusarczyk, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons. Font: Atkinson Hyperlegible (SIL Open Font License).
 - **Open decisions:** final match-level thresholds, whether to deploy the Transformer model, and the hosting provider. See [docs/progress.md](docs/progress.md#open-decisions-tbd--decided-when-the-related-phase-starts).
 
 ---

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/theme/glass_tokens.dart';
 import 'glass.dart';
 
-/// Kicker line + large headline + supporting sentence, as in the design.
+/// Small context line, big title and one supporting sentence.
 class PageHeader extends StatelessWidget {
   const PageHeader({super.key, required this.kicker, required this.title, this.subtitle, this.trailing});
 
@@ -21,11 +21,11 @@ class PageHeader extends StatelessWidget {
       children: [
         Row(
           children: [
-            Expanded(child: Text(kicker.toUpperCase(), style: theme.textTheme.labelSmall)),
+            Expanded(child: Text(kicker, style: TextStyle(fontSize: 15, color: t.textSub))),
             ?trailing,
           ],
         ),
-        const SizedBox(height: 6),
+        const SizedBox(height: 4),
         Text(title, style: theme.textTheme.displaySmall?.copyWith(color: t.text)),
         if (subtitle != null) ...[
           const SizedBox(height: 6),
@@ -80,14 +80,14 @@ class StatStrip extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(item.label.toUpperCase(), style: theme.textTheme.labelSmall, maxLines: 1, overflow: TextOverflow.ellipsis),
+                        Text(item.label, style: TextStyle(fontSize: 14, color: t.textSub), maxLines: 1, overflow: TextOverflow.ellipsis),
                         const SizedBox(height: 2),
                         Text(
                           item.value,
                           style: theme.textTheme.headlineMedium?.copyWith(
                             color: t.text,
                             fontWeight: FontWeight.w600,
-                            letterSpacing: -0.8,
+                            letterSpacing: -0.5,
                             fontFeatures: const [FontFeature.tabularFigures()],
                           ),
                         ),

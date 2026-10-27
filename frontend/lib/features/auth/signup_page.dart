@@ -19,7 +19,7 @@ class SignUpPage extends StatelessWidget {
       centerContent: true,
       child: AuthLayout(
         kicker: 'Create your account',
-        title: 'Join CareerBridge.',
+        title: 'Join CareerBridge',
         subtitle: 'Choose how you will use CareerBridge. You can add your resume or company details after signing up.',
         form: _SignUpForm(),
       ),

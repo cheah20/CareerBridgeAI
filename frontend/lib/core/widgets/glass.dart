@@ -4,8 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../../app/theme/glass_tokens.dart';
 
-/// Soft, defocused "photo" behind the glass.
-/// The scene drifts very slowly (moving background, still cards).
+/// Page background. Plain paper in light mode; slow-moving soft light in dark mode.
 class SceneBackground extends StatefulWidget {
   const SceneBackground({super.key});
 
@@ -35,7 +34,7 @@ class _SceneBackgroundState extends State<SceneBackground> with SingleTickerProv
   @override
   Widget build(BuildContext context) {
     final t = GlassTokens.of(context);
-    if (t.sceneBlobs.isEmpty) return ColoredBox(color: t.sceneBase); // flat look: nothing to drift
+    if (t.sceneBlobs.isEmpty) return ColoredBox(color: t.sceneBase);
     final scene = RepaintBoundary(child: CustomPaint(painter: _ScenePainter(t.sceneBase, t.sceneBlobs)));
     return Stack(
       fit: StackFit.expand,
@@ -93,44 +92,59 @@ class _ScenePainter extends CustomPainter {
   bool shouldRepaint(_ScenePainter old) => old.base != base || old.blobs != blobs;
 }
 
-/// The big floating glass window.
-class GlassWindow extends StatelessWidget {
-  const GlassWindow({super.key, required this.child, this.padding = const EdgeInsets.all(18)});
+/// Frosted bar: whatever scrolls under it shows through, blurred.
+class GlassBar extends StatelessWidget {
+  const GlassBar({super.key, required this.child, this.border = const Border(), this.radius = 0, this.color});
 
   final Widget child;
-  final EdgeInsetsGeometry padding;
+  final BoxBorder border;
+  final double radius;
 
-  static const radius = 28.0;
+  /// Defaults to the theme's bar colour.
+  final Color? color;
 
   @override
   Widget build(BuildContext context) {
     final t = GlassTokens.of(context);
-    return DecoratedBox(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(radius),
-        boxShadow: const [BoxShadow(color: Color(0x33000000), blurRadius: 48, offset: Offset(0, 20), spreadRadius: -16)],
-      ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(radius),
-        child: t.blurSigma == 0
-            ? _GlassSurface(color: t.shell, edge: t.shellEdge, highlight: t.highlight, radius: radius, padding: padding, child: child)
-            : BackdropFilter(
-                filter: ui.ImageFilter.blur(sigmaX: t.blurSigma, sigmaY: t.blurSigma),
-                child: _GlassSurface(
-                  color: t.shell,
-                  edge: t.shellEdge,
-                  highlight: t.highlight,
-                  radius: radius,
-                  padding: padding,
-                  child: child,
-                ),
-              ),
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(radius),
+      child: BackdropFilter(
+        filter: ui.ImageFilter.blur(sigmaX: t.blurSigma, sigmaY: t.blurSigma),
+        child: DecoratedBox(
+          decoration: BoxDecoration(color: color ?? t.bar, border: border, borderRadius: radius > 0 ? BorderRadius.circular(radius) : null),
+          child: child,
+        ),
       ),
     );
   }
 }
 
-/// A card with a thin border and a light shadow.
+/// The KL skyline photo used behind the public pages, darkened a little so glass panels stand out.
+class PhotoBackground extends StatelessWidget {
+  const PhotoBackground({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Stack(
+      fit: StackFit.expand,
+      children: [
+        ColoredBox(color: Color(0xFF1C2238)),
+        Image(image: AssetImage('assets/images/kl-skyline.jpg'), fit: BoxFit.cover, alignment: Alignment(-0.2, 0)),
+        DecoratedBox(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.centerLeft,
+              end: Alignment.centerRight,
+              colors: [Color(0x66101528), Color(0x00101528)],
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// A plain card with a thin border.
 class GlassCard extends StatelessWidget {
   const GlassCard({
     super.key,
@@ -148,19 +162,13 @@ class GlassCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = GlassTokens.of(context);
-    return DecoratedBox(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(18),
-        boxShadow: const [BoxShadow(color: Color(0x1A000000), blurRadius: 12, offset: Offset(0, 4))],
-      ),
-      child: _GlassSurface(
-        color: selected ? t.selected : t.card,
-        edge: t.cardEdge,
-        highlight: t.highlight,
-        radius: 18,
-        padding: padding,
-        child: child,
-      ),
+    return _GlassSurface(
+      color: selected ? t.selected : t.card,
+      edge: selected ? t.text.withValues(alpha: 0.25) : t.cardEdge,
+      highlight: t.highlight,
+      radius: 12,
+      padding: padding,
+      child: child,
     );
   }
 }
@@ -206,7 +214,7 @@ class _GlassSurface extends StatelessWidget {
   }
 }
 
-/// The one dark, glowing focus card per page (e.g. "Upcoming interview").
+/// The one dark card per page (e.g. "Upcoming interview").
 class FocusCard extends StatelessWidget {
   const FocusCard({super.key, required this.child});
 
@@ -218,8 +226,7 @@ class FocusCard extends StatelessWidget {
     return Container(
       clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(18),
-        boxShadow: const [BoxShadow(color: Color(0x33000000), blurRadius: 16, offset: Offset(0, 6))],
+        borderRadius: BorderRadius.circular(12),
         gradient: RadialGradient(
           center: const Alignment(-1.1, -1.3),
           radius: 1.1,
@@ -246,12 +253,12 @@ class GlassChip extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
         color: t.row,
-        borderRadius: BorderRadius.circular(999),
+        borderRadius: BorderRadius.circular(6),
         border: Border.all(color: t.cardEdge),
       ),
       child: Text(
         label,
-        style: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w600, color: color ?? t.textSub),
+        style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: color ?? t.textSub),
       ),
     );
   }

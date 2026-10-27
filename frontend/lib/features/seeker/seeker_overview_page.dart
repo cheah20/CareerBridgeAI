@@ -18,7 +18,7 @@ class SeekerOverviewPage extends StatelessWidget {
       children: [
         const PageHeader(
           kicker: 'Resume v3 analysed',
-          title: 'Your career this week.',
+          title: 'Your career this week',
           subtitle: 'Your best direction is Data Analyst. Two new jobs match above 80%, '
               'and adding Power BI would lift your top match by about 6 points.',
           trailing: Row(mainAxisSize: MainAxisSize.min, children: [ServerStatusChip(), GlassChip(label: 'Sample data')]),
@@ -40,7 +40,7 @@ class SeekerOverviewPage extends StatelessWidget {
                 const GlassListRow(
                   initials: 'PD',
                   title: 'Junior Data Analyst',
-                  subtitle: 'Kuala Lumpur · Hybrid · RM 4,500–5,500',
+                  subtitle: 'Kuala Lumpur, Hybrid, RM 4,500–5,500',
                   value: '84%', progress: 0.84,
                   valueCaption: 'Strong',
                   selected: true,
@@ -48,14 +48,14 @@ class SeekerOverviewPage extends StatelessWidget {
                 const GlassListRow(
                   initials: 'MT',
                   title: 'Graduate Software Engineer',
-                  subtitle: 'Melaka · On-site · RM 4,000–5,000',
+                  subtitle: 'Melaka, On-site, RM 4,000–5,000',
                   value: '78%', progress: 0.78,
                   valueCaption: 'Good',
                 ),
                 const GlassListRow(
                   initials: 'IN',
                   title: 'AI Engineering Intern',
-                  subtitle: 'Penang · Internship · RM 1,500',
+                  subtitle: 'Penang, Internship, RM 1,500',
                   value: '71%', progress: 0.71,
                   valueCaption: 'Good',
                 ),
@@ -76,7 +76,7 @@ class SeekerOverviewPage extends StatelessWidget {
                   children: [
                     Text('Upcoming interview', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600)),
                     SizedBox(height: 12),
-                    FocusEntry(title: 'Junior Data Analyst · Round 1', subtitle: 'Mon, 20 Oct · 10:00–10:45 · Online'),
+                    FocusEntry(title: 'Junior Data Analyst, Round 1', subtitle: 'Mon, 20 Oct, 10:00–10:45, Online'),
                     FocusEntry(title: 'Prepare: 8 practice questions', subtitle: 'Generated from the job description', isLast: true),
                   ],
                 ),

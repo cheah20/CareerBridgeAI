@@ -19,7 +19,7 @@ class PublicJobsPage extends StatelessWidget {
           const SizedBox(height: 16),
           const PageHeader(
             kicker: 'Open jobs',
-            title: 'Browse jobs.',
+            title: 'Browse jobs',
             subtitle: 'Log in to see your match for each job and to apply.',
             trailing: GlassChip(label: 'Sample listings'),
           ),
@@ -29,9 +29,9 @@ class PublicJobsPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 const CardHeader(title: 'Latest jobs', trailing: 'Newest first'),
-                const GlassListRow(initials: 'PD', title: 'Junior Data Analyst', subtitle: 'Kuala Lumpur · Hybrid · RM 4,500–5,500'),
-                const GlassListRow(initials: 'MT', title: 'Graduate Software Engineer', subtitle: 'Melaka · On-site · RM 4,000–5,000'),
-                const GlassListRow(initials: 'IN', title: 'AI Engineering Intern', subtitle: 'Penang · Internship · RM 1,500'),
+                const GlassListRow(initials: 'PD', title: 'Junior Data Analyst', subtitle: 'Kuala Lumpur, Hybrid, RM 4,500–5,500'),
+                const GlassListRow(initials: 'MT', title: 'Graduate Software Engineer', subtitle: 'Melaka, On-site, RM 4,000–5,000'),
+                const GlassListRow(initials: 'IN', title: 'AI Engineering Intern', subtitle: 'Penang, Internship, RM 1,500'),
                 const SizedBox(height: 4),
                 Align(
                   alignment: Alignment.centerRight,

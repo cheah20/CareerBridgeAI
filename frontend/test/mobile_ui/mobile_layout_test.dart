@@ -16,14 +16,14 @@ void main() {
     await tester.tap(find.byKey(const Key('preview-seeker')));
     await tester.pumpAndSettle();
 
-    expect(find.text('Your career this week.'), findsOneWidget);
+    expect(find.text('Your career this week'), findsOneWidget);
     expect(find.byKey(const Key('bottom-nav')), findsOneWidget);
 
     // Every role's home must lay out cleanly on a phone (overflow fails the test).
     container.read(routerProvider).go('/');
     await tester.pumpAndSettle();
     expect(
-      find.text('Find the career your resume is ready for.'),
+      find.text('Find the career your resume is ready for'),
       findsOneWidget,
     );
   });
