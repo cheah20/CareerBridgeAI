@@ -320,6 +320,7 @@ Full table and permission details: [docs/database.md](docs/database.md).
 | [docs/api.md](docs/api.md) | Every backend endpoint with examples |
 | [docs/database.md](docs/database.md) | Tables, permissions, storage, local data |
 | [docs/testing/test-plan.md](docs/testing/test-plan.md) | Test plan and current results |
+| [Methodology/diagrams/](Methodology/diagrams/) | Progress Report I figures: methodology, flowcharts, structure chart, block diagram, ERD, wireframes, Gantt chart |
 | [research/README.md](research/README.md) | Model training and evaluation report |
 | `research/report/index.html` | Training report as a web page (download the ZIP and double-click it) |
 | [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) | How teammates hand in work |

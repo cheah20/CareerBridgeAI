@@ -72,6 +72,10 @@ Percent done for each GitHub task card (#1–#36), judged from the code and docu
 The AI core (datasets, model comparison, fit score, AI advice) was built early, so the project is slightly
 ahead overall. Behind plan: 1.6 (manual check) and 2.1 (saving files to the bucket).
 
+The figures for Progress Report I are done and kept in [Methodology/diagrams/](../Methodology/diagrams/): methodology,
+analysis of the current job search, platform comparison, system and process flowcharts, structure chart, AI technique,
+block diagram, ERD, low-fidelity wireframes, Gantt chart and work allocation.
+
 ---
 
 ## Task list
