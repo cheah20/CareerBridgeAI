@@ -379,7 +379,7 @@ class _AdviceCard extends StatelessWidget {
             list(
               'gaps',
               (g) =>
-                  '${g['skill']}: ${g['why_it_matters']} → ${g['how_to_improve']}',
+                  '${g['skill']}: ${g['why_it_matters']}\nHow to improve: ${g['how_to_improve']}',
             ),
           ),
           _Section(
