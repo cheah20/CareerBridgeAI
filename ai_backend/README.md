@@ -17,6 +17,8 @@ The part that reads resumes, scores them and talks to the AI. The website calls 
 | `tests_e2e/` | A full check against the real running system |
 | `data/` | **On the developer's computer only:** datasets, caches, logs, test results |
 
+Model experiments (the training report, GPU training scripts and notebook) are in [research/](../research/README.md).
+
 ## Setup (Windows)
 
 Full steps are in the main [README](../README.md#run-it-on-your-computer-windows). Short version, in **Anaconda Prompt**:
