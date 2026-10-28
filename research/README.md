@@ -3,6 +3,17 @@
 CareerBridge AI career-direction classifier, 18 October 2026.
 For the charted version, open [report/index.html](report/index.html) in a browser (works offline).
 
+## In this folder
+
+| Folder | What it is |
+|---|---|
+| `report/` | This report as a web page with charts |
+| `training/` | Scripts that fine-tuned the Transformer on the local GPU, with a heat guard |
+| `notebooks/` | The first training run, done on Kaggle |
+| `logs/` | Training logs (kept on the developer's computer only) |
+
+The models the app uses are trained and evaluated by `ai_backend/app/ml/`; this folder holds the experiments around them.
+
 ## Part 2 — testing on real Malaysian CVs (18 October 2026, afternoon)
 
 **Summary.** v5's public-test lead came from a formatting shortcut; normalising the text fixed it (v6). On 58 real
