@@ -696,7 +696,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
               child: TextButton(
                 onPressed: () => setState(() => _tab = _Tab.jobs),
                 child: Text(
-                  'See all in Jobs →',
+                  'See all roles',
                   style: TextStyle(color: t.accent),
                 ),
               ),
@@ -790,7 +790,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
             child: TextButton(
               onPressed: () => setState(() => _tab = _Tab.details),
               child: Text(
-                'Resume tips, interview practice and roadmap in Details →',
+                'See resume tips, interview practice and roadmap',
                 style: TextStyle(color: t.accent),
               ),
             ),
