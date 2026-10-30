@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CareerBridge – Admin Dashboard</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Left menu: Admin pages navigation -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Users and roles</a>
+      <a href="#">Company verification</a>
+      <a href="#">Job review</a>
+      <a href="#">AI model and datasets</a>
+      <a href="#">Alerts and errors</a>
+      <a href="#">Bug reports</a>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <h1 class="page-title">Admin Dashboard</h1>
+          <p class="page-sub">System overview and numbers at a glance.</p>
+        </div>
+        <!-- <button class="btn primary" id="refreshBtn">Refresh Data</button> -->
+        <button id="refreshBtn" class="btn primary">Refresh Data</button>
+      </div>
+
+      <h2 class="section-title">Users Per Role</h2>
+      <div class="grid-4" id="usersPerRole">
+        <!-- Cards dynamically filled by JS -->
+        <div class="card"><div class="muted">Total Users</div><div class="number">—</div></div>
+        <div class="card"><div class="muted">Job Seekers</div><div class="number">—</div></div>
+        <div class="card"><div class="muted">Recruiters</div><div class="number">—</div></div>
+        <div class="card"><div class="muted">Admins</div><div class="number">—</div></div>
+      </div>
+
+      <h2 class="section-title">System Operations</h2>
+      <div class="grid-4" id="systemOperations">
+        <div class="card"><div class="muted">Pending Company Reviews</div><div class="number">—</div></div>
+        <div class="card"><div class="muted">Pending Job Reviews</div><div class="number">—</div></div>
+        <div class="card"><div class="muted">Active Applications</div><div class="number">—</div></div>
+        <div class="card"><div class="muted">API Usage (Today)</div><div class="number">—</div></div>
+      </div>
+
+      <div class="flex-row space-between gap-24" style="margin-top: 24px;">
+        <section class="card" id="currentAIModel" >
+          <h2>Current AI Model</h2>
+          <p class="info-line"><strong>Version:</strong> <span>—</span></p>
+          <p class="info-line"><strong>Last Updated:</strong> <span>—</span></p>
+          <p class="info-line"><strong>Status:</strong> <span class="status ok">—</span></p>
+        </section>
+        <section class="card" id="recentErrors" >
+          <h2>Recent Errors</h2>
+          <p class="info-line"><strong>Critical Errors:</strong> <span class="status bad">—</span></p>
+          <p class="info-line"><strong>Warning Alerts:</strong> <span class="status warn">—</span></p>
+          <p class="info-line"><strong>System Health:</strong> <span class="status ok">—</span></p>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
