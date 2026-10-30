@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CareerBridge – Users and Roles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../31-admin-dashboard/index.html">Dashboard</a>
+      <a href="#" class="active">Users and roles</a>
+      <a href="#">Company verification</a>
+      <a href="#">Job review</a>
+      <a href="#">AI model and datasets</a>
+      <a href="#">Alerts and errors</a>
+      <a href="#">Bug reports</a>
+    </nav>
+
+    <main>
+      <h1 class="page-title">Users and Roles</h1>
+      <p class="page-sub">Manage system access, assign roles, and control account statuses.</p>
+
+      <!-- Summary KPI Cards (dynamically calculated from users.csv) -->
+      <div class="grid-4" style="margin-bottom: 20px;">
+        <div class="card" style="padding: 18px 20px;">
+          <div style="font-size: 13px; font-weight: 600; text-transform: uppercase; color: var(--sub); margin-bottom: 6px;">Total Users</div>
+          <div class="number" id="statTotal">0</div>
+          <div class="muted">All registered accounts</div>
+        </div>
+        <div class="card" style="padding: 18px 20px;">
+          <div style="font-size: 13px; font-weight: 600; text-transform: uppercase; color: var(--sub); margin-bottom: 6px;">Active Users</div>
+          <div class="number" id="statActive" style="color: var(--ok);">0</div>
+          <div class="muted">Currently enabled</div>
+        </div>
+        <div class="card" style="padding: 18px 20px;">
+          <div style="font-size: 13px; font-weight: 600; text-transform: uppercase; color: var(--sub); margin-bottom: 6px;">Recruiters</div>
+          <div class="number" id="statRecruiters" style="color: var(--accent);">0</div>
+          <div class="muted">Employer accounts</div>
+        </div>
+        <div class="card" style="padding: 18px 20px;">
+          <div style="font-size: 13px; font-weight: 600; text-transform: uppercase; color: var(--sub); margin-bottom: 6px;">Admins</div>
+          <div class="number" id="statAdmins">0</div>
+          <div class="muted">System restricted</div>
+        </div>
+      </div>
+
+      <!-- Search and Filter Controls -->
+      <div class="card" style="margin-bottom: 16px; display: flex; gap: 16px; align-items: flex-end; padding: 16px 24px;">
+        <div style="flex: 1;">
+          <label for="searchInput">Search Users</label>
+          <input id="searchInput" type="text" placeholder="Search by name or email address..." />
+        </div>
+        <div style="width: 200px;">
+          <label for="roleFilter">Filter by Role</label>
+          <select id="roleFilter">
+            <option value="">All Roles</option>
+            <option value="Job Seeker">Job Seeker</option>
+            <option value="Recruiter">Recruiter</option>
+            <option value="Admin">Admin</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- User Management Table -->
+      <section class="card">
+        <h2>User Management List</h2>
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Role</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="usersTableBody">
+            <!-- dynamic rows -->
+          </tbody>
+        </table>
+
+        <div id="paginationControls" style="margin-top: 16px; text-align: center;"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Highlight current menu item based on URL
+    document.querySelectorAll('.menu a').forEach(link => {
+      if (link.href === window.location.href) {
+        link.classList.add('active');
+      }
+    });
+  </script>
+</body>
+</html>
