@@ -1,0 +1,24 @@
+{
+  "usersPerRole": {
+    "total": 12845,
+    "jobSeekers": 10240,
+    "recruiters": 2580,
+    "admins": 25
+  },
+  "systemOperations": {
+    "pendingCompanyReviews": 18,
+    "pendingJobReviews": 42,
+    "activeApplications": 3491,
+    "apiUsageToday": "842k"
+  },
+  "aiModel": {
+    "version": "v2.4.1-stable",
+    "lastUpdated": "24 Oct 2026",
+    "status": "Online"
+  },
+  "recentErrors": {
+    "criticalErrors": 0,
+    "warningAlerts": 3,
+    "systemHealth": "Good"
+  }
+}
