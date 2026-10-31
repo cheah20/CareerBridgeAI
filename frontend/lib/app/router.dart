@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../core/widgets/page_parts.dart';
 import '../features/admin/admin_overview_page.dart';
+import '../features/admin/admin_users_page.dart';
 import '../features/auth/loading_page.dart';
 import '../features/auth/login_page.dart';
 import '../features/auth/session.dart';
@@ -89,6 +90,7 @@ Widget _pageFor(UserRole role, NavItem item) {
   return switch (item.path) {
     '/seeker/analyse' => const ResumeAnalysisPage(),
     '/seeker/logbook' => const LogbookPage(),
+    '/admin/users' => const AdminUsersPage(),
     _ => ComingSoonPage(title: item.label, description: item.description, phase: item.phase),
   };
 }
