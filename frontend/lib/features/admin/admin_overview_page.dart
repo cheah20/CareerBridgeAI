@@ -16,6 +16,18 @@ class AdminOverviewPage extends StatefulWidget {
 
 class _AdminOverviewPageState extends State<AdminOverviewPage> {
   DateTime _refreshed = DateTime.now();
+  bool _refreshing = false;
+
+  // Short wait so the admin can see the refresh happen (idea from Ong's page).
+  Future<void> _refresh() async {
+    setState(() => _refreshing = true);
+    await Future<void>.delayed(const Duration(milliseconds: 800));
+    if (!mounted) return;
+    setState(() {
+      _refreshing = false;
+      _refreshed = DateTime.now();
+    });
+  }
 
   // Sample counts per application status; they add up to the active total.
   static const _statuses = [
@@ -54,9 +66,11 @@ class _AdminOverviewPageState extends State<AdminOverviewPage> {
               const GlassChip(label: 'Sample data'),
               const SizedBox(width: 12),
               FilledButton.icon(
-                onPressed: () => setState(() => _refreshed = DateTime.now()),
-                icon: const Icon(Icons.refresh, size: 18),
-                label: const Text('Refresh data'),
+                onPressed: _refreshing ? null : _refresh,
+                icon: _refreshing
+                    ? const SizedBox.square(dimension: 16, child: CircularProgressIndicator(strokeWidth: 2))
+                    : const Icon(Icons.refresh, size: 18),
+                label: Text(_refreshing ? 'Refreshing…' : 'Refresh data'),
               ),
             ],
           ),
