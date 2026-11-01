@@ -138,8 +138,8 @@ block diagram, ERD, low-fidelity wireframes, Gantt chart and work allocation.
 | 5.1 | Company profile + Admin company verification | P1 | Dec 1 | 1.6 | Todo |
 | 5.2 | Applicant management, filters, authorized document viewer | P1 | Dec 4 | 4.3 | Todo |
 | 5.3 | Interview arrangement | P2 | Dec 5 | 4.4 | Todo |
-| 5.4 | Admin dashboard (stats, pending reviews, model, errors, API usage) | P1 | Dec 8 | 4.4 | Todo |
-| 5.5 | User & role management; job/content governance | P2 | Dec 8 | 1.2 | Todo |
+| 5.4 | Admin dashboard (stats, pending reviews, model, errors, API usage) (page done with sample numbers; real data left) | P1 | Dec 8 | 4.4 | In Progress |
+| 5.5 | User & role management; job/content governance (users page done with sample accounts; saving changes and job governance left) | P2 | Dec 8 | 1.2 | In Progress |
 | 5.6 | Model & dataset management: versions, evaluation, deploy, rollback (registry + CLI done; Admin UI pending) | P1 | Dec 9 | 3.2 | In Progress |
 
 ### Phase 6 — Notifications, monitoring, operations
