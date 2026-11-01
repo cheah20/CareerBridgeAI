@@ -306,8 +306,18 @@ class _UserRow extends StatelessWidget {
                 ? Text('Protected', style: TextStyle(fontSize: 14, color: t.textFaint))
                 : Wrap(
                     spacing: 4,
+                    crossAxisAlignment: WrapCrossAlignment.center,
                     children: [
-                      TextButton(onPressed: onToggle, child: Text(user.active ? 'Disable' : 'Enable')),
+                      // Fixed width so "Change role" lines up on every row.
+                      TextButton(
+                        onPressed: onToggle,
+                        style: TextButton.styleFrom(
+                          minimumSize: const Size(84, 40),
+                          foregroundColor: user.active ? t.danger : t.success,
+                          textStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
+                        ),
+                        child: Text(user.active ? 'Disable' : 'Enable'),
+                      ),
                       PopupMenuButton<_Role>(
                         tooltip: 'Change role',
                         onSelected: onRole,
