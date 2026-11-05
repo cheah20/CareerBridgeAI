@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Applicant Detail</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .status {
+      white-space: nowrap;
+    }
+    .skill-tag {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      margin: 0 6px 6px 0;
+    }
+    .skill-match {
+      background: var(--soft);
+      color: var(--ok);
+      border: 1px solid rgba(22, 163, 74, 0.2);
+    }
+    .skill-missing {
+      background: #fef2f2;
+      color: var(--bad);
+      border: 1px solid rgba(220, 38, 38, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Navigation Menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../33-company-profile/index.html">Company Profile</a>
+      <a href="../34-my-job-posts/index.html">My Job Posts</a>
+      <a href="../35-create-job/index.html">Post a Job</a>
+      <a href="../36-applicants/index.html">Applicants</a>
+      <a href="index.html" class="active">Applicant Detail</a>
+      <a href="../38-interview/index.html">Interview & Status</a>
+      <a href="../39-contact-admin/index.html">Contact Admin</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+      <!-- Page Header -->
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:20px;">
+        <div>
+          <h1 class="page-title">Candidate: Aina Example</h1>
+          <p class="page-sub">Applied for: <strong>Junior Mobile App Developer</strong> • Submitted: 25 Oct 2026</p>
+        </div>
+        <div style="flex-shrink:0; display:flex; gap:10px;">
+          <a href="../36-applicants/index.html" class="btn" style="text-decoration:none; white-space:nowrap;">&larr; Back to Applicants</a>
+          <a href="../38-interview/index.html" class="btn primary" style="text-decoration:none; white-space:nowrap;">Update Status / Interview &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Two-Column Layout: Resume Viewer (Left) vs AI & History (Right) -->
+      <div style="display:grid; grid-template-columns: 1.25fr 1fr; gap:24px; align-items:start; margin-top:20px;">
+        
+        <!-- Left: Resume File Viewer Area -->
+        <section class="card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <h2 style="margin:0;">Submitted Resume</h2>
+            <span class="status ok">Authorized Copy</span>
+          </div>
+
+          <div style="border:1px solid var(--line); border-radius:8px; padding:20px; background:#f8fafc; font-family:monospace; font-size:13px; line-height:1.65; color:var(--text);">
+            <div style="border-bottom:2px solid var(--line); padding-bottom:12px; margin-bottom:14px;">
+              <h3 style="margin:0 0 4px 0; font-size:18px; font-family:inherit;">AINA EXAMPLE</h3>
+              <p style="margin:0; color:var(--sub);">aina.example@email.test • +60 12-345 6789 • Petaling Jaya, Selangor</p>
+              <p style="margin:2px 0 0 0; color:var(--sub);"><a href="https://github.com/example-aina" target="_blank" style="color:var(--text);">github.com/example-aina</a> • Portfolio: aina-dev.test</p>
+            </div>
+
+            <div style="margin-bottom:14px;">
+              <strong style="text-decoration:underline;">EDUCATION</strong>
+              <p style="margin:4px 0 0 0;"><strong>Bachelor of Computer Science (Software Engineering)</strong><br>
+              Universiti Teknikal Malaysia Melaka (UTeM) | 2022 – 2026<br>
+              CGPA: 3.82 / 4.00 (Dean's List 5 Semesters)</p>
+            </div>
+
+            <div style="margin-bottom:14px;">
+              <strong style="text-decoration:underline;">TECHNICAL SKILLS</strong>
+              <p style="margin:4px 0 0 0;">
+                • Mobile & Frontend: Flutter, Dart, Android Studio, Provider, Bloc<br>
+                • Backend & API: RESTful APIs, Firebase Auth & Firestore, SQLite<br>
+                • Tools & DevOps: Git, GitHub Actions (Basic), Postman, Figma
+              </p>
+            </div>
+
+            <div style="margin-bottom:14px;">
+              <strong style="text-decoration:underline;">EXPERIENCE & INTERNSHIP</strong>
+              <p style="margin:4px 0 0 0;"><strong>Mobile Developer Intern</strong> — Tech Solutions Sdn Bhd<br>
+              <span style="color:var(--sub);">March 2026 – August 2026 (6 Months)</span><br>
+              • Built 4 core Flutter views for a logistics tracking client application.<br>
+              • Integrated JSON REST endpoints with offline SQLite cache synchronization.<br>
+              • Reduced mobile state re-rendering overhead by 22% using Provider architecture.</p>
+            </div>
+
+            <div>
+              <strong style="text-decoration:underline;">NOTABLE PROJECTS</strong>
+              <p style="margin:4px 0 0 0;"><strong>Campus Parcel Delivery Tracker App</strong> (Final Year Project)<br>
+              • Developed full Flutter client with live push notifications via Firebase Cloud Messaging.<br>
+              • Authenticated over 400 student users with secure JWT tokens.</p>
+            </div>
+          </div>
+
+          <p style="margin:16px 0 0 0; display:flex; justify-content:space-between; align-items:center;">
+            <button class="btn" data-demo="Downloading signed resume PDF (Aina_Example_Resume.pdf)...">Download Original PDF</button>
+            <span class="muted" style="font-size:12px;">Protected storage file: <code>/resumes/sec_aina_2026.pdf</code></span>
+          </p>
+        </section>
+
+        <!-- Right: AI Match Analysis & Status History -->
+        <div style="display:flex; flex-direction:column; gap:20px;">
+          
+          <!-- AI Match Card -->
+          <section class="card">
+            <h2 style="margin:0 0 12px 0;">AI Match Analysis</h2>
+            
+            <div style="display:flex; align-items:center; gap:14px; margin-bottom:14px;">
+              <span class="number" style="font-size:36px; color:var(--ok);">94%</span>
+              <div>
+                <span class="status ok" style="font-size:13px; font-weight:700;">Strong Match</span>
+                <p class="muted" style="margin:2px 0 0 0; font-size:12px;">Ranked #1 of 4 applicants</p>
+              </div>
+            </div>
+
+            <p style="font-size:14px; line-height:1.5; color:var(--sub); margin:0 0 14px 0;">
+              High alignment with core mobile requirements. Candidate demonstrates practical commercial Flutter experience, strong CS degree fundamentals, and relevant REST API integration history.
+            </p>
+
+            <hr style="margin:14px 0; border:none; border-top:1px solid var(--line);">
+
+            <!-- Matching Skills -->
+            <div style="margin-bottom:14px;">
+              <label style="margin-bottom:6px; display:block;">Matching Skills Evidenced (4)</label>
+              <div>
+                <span class="skill-tag skill-match">✓ Flutter</span>
+                <span class="skill-tag skill-match">✓ Dart</span>
+                <span class="skill-tag skill-match">✓ REST API</span>
+                <span class="skill-tag skill-match">✓ Git</span>
+                <span class="skill-tag skill-match">✓ Firebase</span>
+              </div>
+            </div>
+
+            <!-- Missing / Gap Skills -->
+            <div>
+              <label style="margin-bottom:6px; display:block;">Missing / Recommended Skills (2)</label>
+              <div>
+                <span class="skill-tag skill-missing">✕ Native Swift/Kotlin</span>
+                <span class="skill-tag skill-missing">✕ Production CI/CD Pipelines</span>
+              </div>
+              <p class="muted" style="font-size:12px; margin:6px 0 0 0;">
+                These gaps are secondary and can be evaluated during technical interview.
+              </p>
+            </div>
+          </section>
+
+          <!-- Status Audit History Card -->
+          <section class="card">
+            <h2 style="margin:0 0 12px 0;">Application Status History</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>Updated By</th>
+                </tr>
+              </thead>

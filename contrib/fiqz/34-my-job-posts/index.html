@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – My Job Posts</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Navigation Menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../33-company-profile/index.html">Company Profile</a>
+      <a href="index.html" class="active">My Job Posts</a>
+      <a href="../35-create-job/index.html">Post a Job</a>
+      <a href="../36-applicants/index.html">Applicants</a>
+      <a href="../37-applicant-detail/index.html">Applicant Detail</a>
+      <a href="../38-interview/index.html">Interview & Status</a>
+      <a href="../39-contact-admin/index.html">Contact Admin</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <div>
+          <h1 class="page-title">My Job Posts</h1>
+          <p class="page-sub">View and manage published vacancies, review statuses, and candidate volumes.</p>
+        </div>
+        <div>
+          <a href="../35-create-job/index.html" class="btn primary" style="text-decoration:none;">Post New Job</a>
+        </div>
+      </div>
+
+      <!-- Overview Metric Cards -->
+      <div class="grid-4" style="margin-bottom:24px;">
+        <div class="card">
+          <div class="muted">Total Jobs</div>
+          <div class="number">4</div>
+        </div>
+        <div class="card">
+          <div class="muted">Active (Open)</div>
+          <div class="number">1</div>
+        </div>
+        <div class="card">
+          <div class="muted">Waiting Review</div>
+          <div class="number">1</div>
+        </div>
+        <div class="card">
+          <div class="muted">Total Applicants</div>
+          <div class="number">52</div>
+        </div>
+      </div>
+
+      <!-- Jobs Table Card -->
+      <div class="card">
+        <h2>Company Job Listings</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Job Title</th>
+              <th>Status</th>
+              <th>Applicants</th>
+              <th>Closing Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <strong>Junior Mobile App Developer</strong><br>
+                <span class="muted" style="font-size:13px;">Full-time • Hybrid • Kuala Lumpur</span>
+              </td>
+              <td><span class="status ok">Open</span></td>
+              <td>
+                <a href="../36-applicants/index.html" style="font-weight:600; text-decoration:none;">
+                  18 applicants &rarr;
+                </a>
+              </td>
+              <td>15 Nov 2026</td>
+              <td>
+                <a href="../35-create-job/index.html" class="btn" style="text-decoration:none;">Edit</a>
+                <button class="btn danger" data-demo="Job marked as Closed">Close</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <strong>Backend Engineer (Python)</strong><br>
+                <span class="muted" style="font-size:13px;">Full-time • Remote • Kuala Lumpur</span>
+              </td>
+              <td><span class="status warn">Waiting Review</span></td>
+              <td><span class="muted">0 applicants</span></td>
+              <td>30 Nov 2026</td>
+              <td>
+                <a href="../35-create-job/index.html" class="btn" style="text-decoration:none;">Edit</a>
+                <button class="btn danger" data-demo="Job post withdrawn from review">Close</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <strong>Data Analyst Intern</strong><br>
+                <span class="muted" style="font-size:13px;">Internship • On-site • Bangsar South</span>
+              </td>
+              <td><span class="status info">Draft</span></td>
+              <td><span class="muted">0 applicants</span></td>
+              <td>—</td>
+              <td>
+                <a href="../35-create-job/index.html" class="btn" style="text-decoration:none;">Edit</a>
+                <button class="btn danger" data-demo="Draft post deleted">Delete</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <strong>UI/UX Designer</strong><br>
+                <span class="muted" style="font-size:13px;">Contract • Hybrid • Petaling Jaya</span>
+              </td>
+              <td><span class="status bad">Closed</span></td>
+              <td>
+                <a href="../36-applicants/index.html" class="muted" style="text-decoration:none;">
+                  34 applicants &rarr;
+                </a>
+              </td>
+              <td>01 Oct 2026</td>
+              <td>
+                <button class="btn" data-demo="Job reopened and submitted for review">Reopen</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Demo feedback output matching script.js -->
+        <p id="message" class="muted" style="margin-top:20px;"></p>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

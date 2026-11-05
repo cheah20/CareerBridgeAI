@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Company Profile</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    dialog#saveProfileModal {
+      border: none;
+      border-radius: 12px;
+      padding: 28px 24px;
+      max-width: 440px;
+      width: 90%;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+      font-family: inherit;
+    }
+    dialog#saveProfileModal::backdrop {
+      background: rgba(15, 23, 42, 0.55);
+      backdrop-filter: blur(2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="index.html" class="active">Company Profile</a>
+      <a href="../34-my-job-posts/index.html">My Job Posts</a>
+      <a href="../35-create-job/index.html">Post a Job</a>
+      <a href="../36-applicants/index.html">Applicants</a>
+      <a href="../37-applicant-detail/index.html">Applicant Detail</a>
+      <a href="../38-interview/index.html">Interview & Status</a>
+      <a href="../39-contact-admin/index.html">Contact Admin</a>
+    </nav>
+
+    <main>
+      <h1 class="page-title">Company Profile</h1>
+      <p class="page-sub">Manage your company information, verification status, and recruitment identity.</p>
+
+      <!-- Tab Switcher -->
+      <div class="tabs">
+        <button class="active" data-tab="overview">Profile Overview</button>
+        <button data-tab="edit">Edit Profile (Setup Guide)</button>
+      </div>
+
+      <section data-panel="overview" class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <div style="display:flex; align-items:center; gap:16px;">
+            <div style="width:64px; height:64px; background:#1e293b; color:#fff; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:26px; font-weight:700;">
+              Z
+            </div>
+            <div>
+              <h2 id="displayCompanyName" style="margin:0 0 4px 0">Zenith Global Solutions Sdn Bhd</h2>
+              <p class="muted" style="margin:0">Information Technology &amp; Software Services</p>
+            </div>
+          </div>
+          <div>
+            <span class="status ok">Verified</span>
+          </div>
+        </div>
+
+        <hr style="margin:20px 0; border:none; border-top:1px solid var(--line);">
+
+        <table>
+          <tr>
+            <th style="width:220px">Company Name</th>
+            <td>Zenith Global Solutions Sdn Bhd</td>
+          </tr>
+          <tr>
+            <th>Industry Category</th>
+            <td>Information Technology &amp; Services</td>
+          </tr>
+          <tr>
+            <th>Company Size</th>
+            <td>51 - 200 employees</td>
+          </tr>
+          <tr>
+            <th>Office Address</th>
+            <td>Level 14, Tower A, Bangsar South, 59200 Kuala Lumpur, Malaysia</td>
+          </tr>
+          <tr>
+            <th>Official Website</th>
+            <td><a href="https://www.zenithsolutions.example.my" target="_blank">https://www.zenithsolutions.example.my</a></td>
+          </tr>
+          <tr>
+            <th>Contact Email</th>
+            <td>recruitment@zenithsolutions.example.my</td>
+          </tr>
+          <tr>
+            <th>Verification Status</th>
+            <td>
+              <span class="status ok">Verified</span> 
+              <span class="muted" style="margin-left:8px;">(Document approved by Admin on 14 Oct 2026)</span>
+            </td>
+          </tr>
+        </table>
+
+        <div style="margin-top:24px; padding:16px; background:var(--soft); border-radius:10px;">
+          <h3 style="margin:0 0 6px 0; font-size:16px;">About Our Organization</h3>
+          <p style="margin:0; font-size:14px; color:var(--sub);">
+            Zenith Global Solutions provides next-generation enterprise AI and cloud integrations across Southeast Asia. We maintain a flexible hybrid work model, sponsored technical certifications, and comprehensive medical coverage.
+          </p>
+        </div>
+
+        <p style="margin-top:24px">
+          <button id="editProfileBtn" class="btn primary">Edit Profile</button>
+        </p>
+      </section>
+
+      <section data-panel="edit" class="card" hidden>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h2 style="margin:0">Edit Company Information</h2>
+          <span class="muted" style="font-weight:600">Profile Completeness: 70%</span>
+        </div>
+
+        <form id="editProfileForm">
+          <div style="border-bottom:1px solid var(--line); padding-bottom:20px; margin-bottom:20px;">
+            <h3 style="margin:0 0 12px 0; font-size:16px; color:var(--text);">1. Identity &amp; Corporate Basics</h3>
+            <div class="grid-2">
+              <div>
+                <label for="companyName">Company Name</label>
+                <input id="companyName" value="Zenith Global Solutions Sdn Bhd" required>
+              </div>
+              <div>
+                <label for="industryCat">Industry Category</label>
+                <select id="industryCat">
+                  <option selected>Information Technology &amp; Services</option>
+                  <option>Financial Services</option>
+                  <option>Telecommunications</option>
+                  <option>Manufacturing &amp; Production</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid-2" style="margin-top:12px;">
+              <div>
+                <label for="companySize">Company Size</label>
+                <select id="companySize">
+                  <option>1 - 50 employees</option>
+                  <option selected>51 - 200 employees</option>
+                  <option>201 - 500 employees</option>
+                  <option>500+ employees</option>
+                </select>
+              </div>
+              <div>
+                <label for="officeAddress">Office Address</label>
+                <input id="officeAddress" value="Level 14, Tower A, Bangsar South, 59200 Kuala Lumpur">
+              </div>
+            </div>
+
+            <div class="grid-2" style="margin-top:12px;">
+              <div>
+                <label for="website">Official Website</label>
+                <input id="website" type="url" value="https://www.zenithsolutions.example.my">
+              </div>
+              <div>
+                <label for="contactEmail">Recruitment Contact Email</label>
+                <input id="contactEmail" type="email" value="recruitment@zenithsolutions.example.my">
+              </div>
+            </div>
+          </div>
+
+          <div style="border-bottom:1px solid var(--line); padding-bottom:20px; margin-bottom:20px;">
+            <h3 style="margin:0 0 12px 0; font-size:16px; color:var(--text);">2. The Company Pitch</h3>
+            <label for="overviewText">Company Overview (2–3 sentences)</label>
+            <textarea id="overviewText" rows="3">Zenith Global Solutions provides next-generation enterprise AI and cloud integrations across Southeast Asia, empowering businesses with scalable automation tools.</textarea>
+
+            <div class="grid-2" style="margin-top:12px;">
+              <div>
+                <label for="culture">Culture &amp; Values</label>
+                <textarea id="culture" rows="3">Collaborative, fast-paced, continuous learning, with clear career progression paths.</textarea>
+              </div>
+              <div>
+                <label for="vision">Mission &amp; Vision</label>
+                <textarea id="vision" rows="3">To simplify enterprise digital workflows through responsible AI innovation.</textarea>
+              </div>
+            </div>
+          </div>
+
+          <div style="border-bottom:1px solid var(--line); padding-bottom:20px; margin-bottom:20px;">
+            <h3 style="margin:0 0 12px 0; font-size:16px; color:var(--text);">3. Branding &amp; Visuals</h3>
+            <div class="grid-2">
+              <div>
+                <label>Company Logo (1:1 Square, Max 2MB)</label>
+                <input type="file" accept="image/*">
+              </div>
+              <div>
+                <label>Office Cover Banner / Workspace Photos</label>
+                <input type="file" accept="image/*" multiple>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding-bottom:10px;">
+            <h3 style="margin:0 0 12px 0; font-size:16px; color:var(--text);">4. Benefits &amp; Work Arrangements</h3>
+            <div class="grid-2">
+              <div>
+                <label for="workArrangement">Work Arrangement</label>
+                <select id="workArrangement">
+                  <option selected>Hybrid (3 Days Office / 2 Days WFH)</option>
+                  <option>Fully Remote</option>
+                  <option>On-site</option>
+                  <option>Flexible Hours</option>
+                </select>
+              </div>
+              <div>
+                <label>Standard Benefits</label>
+                <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:8px;">
+                  <label style="font-weight:400; margin:0;"><input type="checkbox" checked style="width:auto; margin-right:6px;"> Medical &amp; Dental</label>
+                  <label style="font-weight:400; margin:0;"><input type="checkbox" checked style="width:auto; margin-right:6px;"> Parking Allowance</label>
+                  <label style="font-weight:400; margin:0;"><input type="checkbox" checked style="width:auto; margin-right:6px;"> Annual Performance Bonus</label>
+                  <label style="font-weight:400; margin:0;"><input type="checkbox" checked style="width:auto; margin-right:6px;"> Training Sponsorship</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p style="margin-top:24px; display:flex; gap:12px;">
+            <button type="submit" class="btn primary">Save &amp; Update Profile</button>
+            <button class="btn" type="reset">Reset Changes</button>
+          </p>
+        </form>
+      </section>
+
+      <p id="message" class="muted" style="margin-top:16px; display:none;"></p>
+    </main>
+  </div>
+
+  <!-- Centered Modal Dialog Component -->
+  <dialog id="saveProfileModal">
+    <div style="text-align:center;">
+      <div style="font-size:42px; margin-bottom:10px;">🏢</div>
+      <h3 style="margin:0 0 8px 0; font-size:20px; color:var(--text, #0f172a);">Profile Updated Successfully</h3>
+      <p style="margin:0 0 24px 0; font-size:14px; color:var(--sub, #475569); line-height:1.6;">
+        Your corporate profile details, pitch, and branding information have been saved. Candidate-facing views will reflect these changes immediately.
+      </p>
+      <button id="closeProfileModalBtn" class="btn primary" style="width:100%; padding:10px;">Got it</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
