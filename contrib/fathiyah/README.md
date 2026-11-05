@@ -1,30 +1,60 @@
-# Fathiyah — Job Seeker pages
+# Fathiyah — Job Seeker
 
 A job seeker uploads a resume, sees how well they fit jobs, and applies. The resume analysis result page already exists in the app, so these are the other pages around it.
 
-## Pages to make
+You own this role's part of CareerBridge: the pages, a small back end and one AI feature. Each row below is a task card on the **Projects** board, with the full steps inside.
 
-One HTML page per task. The owner will create a task card (#number) for each one on the Projects board.
+## Pages
 
-| # | Page | What it should show |
+| Card | Task | Due |
 |---|---|---|
-| 1 | Home | Welcome, latest match score, number of applications, top 3 recommended jobs, a button to upload a resume. |
-| 2 | My resume profile | What the system read from the resume: work, education, skills, languages. Each part can be corrected with an Edit button. |
-| 3 | Recommended jobs | Job list sorted by match % (highest first) with filters: location, salary range, work type, experience level, industry. |
-| 4 | Job detail | Job description, company, the match % with matching and missing skills, and an Apply button. |
-| 5 | My applications | Table of applications: job, company, date, status (Applied … Hired / Rejected / Withdrawn), and a Withdraw button where allowed. |
-| 6 | Interview practice and roadmap | Practice questions with tips, and a learning roadmap: steps with weeks. |
-| 7 | Contact admin / bug report | A simple form: subject, message, optional screenshot. |
+| [#35](https://github.com/cheah20/CareerBridgeAI/issues/35) | Job Seeker home page | 11 Nov 2026 |
+| [#36](https://github.com/cheah20/CareerBridgeAI/issues/36) | My resume profile page | 11 Nov 2026 |
+| [#76](https://github.com/cheah20/CareerBridgeAI/issues/76) | My applications page | 25 Nov 2026 |
+| [#77](https://github.com/cheah20/CareerBridgeAI/issues/77) | Interview practice and roadmap page | 25 Nov 2026 |
+| [#78](https://github.com/cheah20/CareerBridgeAI/issues/78) | Contact admin page | 25 Nov 2026 |
+| [#79](https://github.com/cheah20/CareerBridgeAI/issues/79) | Career digital twin page | 25 Nov 2026 |
+
+## Back end
+
+| Card | Task | Due |
+|---|---|---|
+| [#80](https://github.com/cheah20/CareerBridgeAI/issues/80) | Back end for your pages | 25 Nov 2026 |
+
+## AI feature
+
+| Card | Task | Due |
+|---|---|---|
+| [#81](https://github.com/cheah20/CareerBridgeAI/issues/81) | AI job recommendations | 9 Dec 2026 |
+| [#82](https://github.com/cheah20/CareerBridgeAI/issues/82) | AI digital twin ranking | 9 Dec 2026 |
+
+## Agent screens (from week 9)
+
+| Card | Task | Due |
+|---|---|---|
+| [#83](https://github.com/cheah20/CareerBridgeAI/issues/83) | Career coach chat page | 23 Dec 2026 |
+| [#84](https://github.com/cheah20/CareerBridgeAI/issues/84) | Mission board page | 23 Dec 2026 |
+
+## Other work
+
+| Card | Task | Due |
+|---|---|---|
+| [#85](https://github.com/cheah20/CareerBridgeAI/issues/85) | Coach test scenarios | 23 Dec 2026 |
+| [#86](https://github.com/cheah20/CareerBridgeAI/issues/86) | User study | 6 Jan 2027 |
+| [#91](https://github.com/cheah20/CareerBridgeAI/issues/91) | Two fictional sample resumes | 9 Dec 2026 |
+| [#92](https://github.com/cheah20/CareerBridgeAI/issues/92) | Sources for the problem statements | 25 Nov 2026 |
 
 ## Before you start
 
-1. Read the job seeker pages part of [docs/requirements.md](../../docs/requirements.md): sections 2 (Job Seeker), 5 (Job Seeker Features), 9 (Applications) and 10 (Profile sync).
-2. Copy the [`_starter/`](../_starter/) folder and rename it, for example `fathiyah/12-<short-name>/`.
-3. Double-click `index.html` to open it in Chrome. Edit it (VS Code or Notepad), save, press F5.
+1. Open the task card and read **What to make** and the steps.
+2. For pages, copy the [`_starter/`](../_starter/) folder and rename it to `<card number>-<short name>`. For the back end and AI, wait for the starters Cheah posts (`_starter_api/`, `_starter_ai/`).
+3. Hand in with **Add file → Upload files** into this folder and `Closes #<card number>` in the commit box. How-to: [docs/CONTRIBUTING.md](../../docs/CONTRIBUTING.md).
 
-## Rules for these pages
+## Rules
 
 - Use made-up data only (names like "Example Sdn Bhd", "Aina Example"). **No real people.**
+- Public datasets only, and check the licence first. Never upload `.env`, passwords or keys.
 - Keep the colours and fonts from `style.css`. Add new styles at the bottom of the file.
-- It only needs to look and click right. Buttons do not have to save anything.
+- Pages only need to look and click right. Buttons do not have to save anything.
+- Upload your progress every Wednesday with `Progress #<card number>`, and use `Closes` only when a task is done.
 - Write in `NOTES.md` anything you did not finish or were unsure about.
