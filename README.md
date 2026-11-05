@@ -10,7 +10,9 @@
 
 CareerBridge AI is a web-based career and recruitment platform for job seekers, recruiters and administrators in Malaysia and Singapore. It reads a resume, checks how well it fits a chosen job and experience level, explains the result, and gives short, practical advice on what to do next.
 
-The project is an undergraduate Workshop II project. The AI core (resume reading, career-direction model, fit score and AI advice) works end to end in testing mode; job, application, recruiter and admin features are being built phase by phase.
+The next stage turns these one-off answers into AI that follows through: a career coach that plans the next steps and checks in, and a recruitment workflow that gathers evidence for each applicant, with people making every hiring decision.
+
+The project is an undergraduate Workshop II project. The AI core (resume reading, career-direction model, fit score and AI advice) works end to end in testing mode; recruiter and admin pages run on sample data; jobs, applications and the AI agents are being built phase by phase.
 
 ## Table of Contents
 
@@ -43,6 +45,19 @@ CareerBridge AI brings these together in one platform. A job seeker uploads a re
 
 AI is used as decision support only. The fit score is a system indicator, not a hiring probability, and it never decides a hiring outcome.
 
+### What makes it different (planned)
+
+| Feature | What it does |
+|---|---|
+| Resume X-ray | Shows the resume next to the text a resume reader actually picked up, and marks the parts it missed, such as tables, two columns or text inside images |
+| Scan and snap | A QR code on the poster opens the site on a phone; a photo of a printed sample resume is analysed in about 20 seconds |
+| Talent simulator | While writing a job post, the recruiter sees how many people fit it and which requirement shuts out the most. Numbers come from counting data, never from AI |
+| No more ghosting | A rejected applicant gets kind, specific advice based on a fixed list of reasons, instead of silence |
+| Career digital twin | Switch skills on and off to see how the match for a target job would change, and the best order to learn them |
+| AI agents | One orchestrator with role-based tools: a **Career Coach** that keeps a plan and follows up, and a **Recruitment Workflow** that prepares an evidence report for each applicant and can ask the candidate for missing proof |
+
+The agents act on events (for example a new application or a due plan step), keep their state between visits, recover from failed tools, and show every step they took. Anything that affects another person waits for approval, and hiring decisions stay with people.
+
 ## Project Objectives
 
 1. Help job seekers analyse their resumes, find suitable career directions and jobs, see their skill gaps, and improve their resumes and interview readiness.
@@ -50,6 +65,7 @@ AI is used as decision support only. The fit score is a system indicator, not a 
 3. Give administrators tools to govern users, companies, jobs, datasets, AI model versions, system health and bug reports.
 4. Compare classic machine learning models (Logistic Regression, KNN, Random Forest, SVM) and a fine-tuned Transformer for career-direction prediction, and deploy the most reliable one.
 5. Protect personal data: private file storage, role-based access, and no personal details sent to the AI service.
+6. *(Proposed, awaiting supervisor approval)* Design and evaluate a tool-using AI workflow that coordinates these modules for job seekers and recruiters, adapts its next step to tool results, keeps track of progress, follows up on permitted events, and keeps people in control of decisions.
 
 ## Target Users
 
@@ -84,10 +100,10 @@ Guests (not logged in) can browse published jobs. Every other feature needs an a
 | Feature | Status |
 |---|---|
 | Recruiter sign-up and home page | Done |
-| Company profile and verification by Admin | Planned |
-| Job posting with Admin review | Planned |
-| Applicant management with filters and an authorised document viewer | Planned |
-| Interview arrangement | Planned |
+| Company profile, job posts, job form, applicants, applicant detail, status and interview, help page | Done (sample data) |
+| Saving these to the database, with Admin verification and job review | Planned |
+| Talent simulator | Planned |
+| Fixed rejection reasons for "No more ghosting" | Planned |
 
 ### Admin
 
@@ -95,9 +111,23 @@ Guests (not logged in) can browse published jobs. Every other feature needs an a
 |---|---|
 | Admin home page and role-protected access | Done |
 | Model version registry: evaluate, deploy, roll back (command line) | Done |
-| Admin dashboard: statistics, pending reviews, errors, AI usage | Planned |
-| User, role and content management | Planned |
+| Admin dashboard: statistics, pending reviews, errors, AI usage | Done (sample data) |
+| Users and roles: search, filter, change role, disable or enable | Done (sample data) |
+| Company verification, job review with AI risk score, model and dataset pages | Planned |
 | Bug reports and email notifications | Planned |
+
+### AI Features Planned for the Showcase
+
+| Feature | Approach |
+|---|---|
+| Career Coach agent | Plans steps toward a target job, saves them as a mission, checks in when a step is due |
+| Recruitment Workflow agent | Starts on a new application, builds an evidence report, asks the candidate for one missing piece of evidence |
+| Suspicious job detection | Logistic Regression and Random Forest compared on a public fake job dataset |
+| Job description skill extraction | Exact and fuzzy matching compared against 30 hand-labelled job descriptions |
+| Job recommendations | TF-IDF and a small embedding model compared with Precision@5 |
+| Resume layout check | Finds tables, two columns and text inside images for Resume X-ray |
+
+Every AI feature compares at least two methods and reports its scores.
 
 ### AI and Safety
 
@@ -110,7 +140,7 @@ Guests (not logged in) can browse published jobs. Every other feature needs an a
 | Component | Current Status |
 |---|---|
 | Requirements, plan and progress tracker | Done |
-| Git and private GitHub repository | Set up |
+| Git and public GitHub repository | Set up |
 | Supabase project (database, auth, private storage) | Set up |
 | Database schema v1 with Row Level Security | Done; 43/43 permission checks pass |
 | FastAPI backend with token and role checks | Done |
@@ -119,7 +149,9 @@ Guests (not logged in) can browse published jobs. Every other feature needs an a
 | Resume reading (PDF, DOCX, OCR) | Done |
 | Career-direction model (v2 SVM deployed) | Done; 81.5% on the held-out test set, 91–95% on 58 real Malaysian CVs |
 | Fit score, skill gaps and AI advice | Working in testing mode |
-| Jobs, applications, recruiter and admin features | In progress, phase by phase |
+| Recruiter and admin pages | Done with sample data |
+| Jobs and applications in the database | In progress |
+| AI agents and Showcase features | Planned (weeks 6–11) |
 | Cloud deployment | Planned (Week 9) |
 | Android APK | Only if time permits |
 
@@ -155,6 +187,7 @@ Flutter web app ──── login, simple reads (protected by RLS) ────
                                                               │
                                                               ├── resume reading + OCR
                                                               ├── career model + fit score
+                                                              ├── agent orchestrator + typed tools (planned)
                                                               └── DeepSeek API (personal details removed)
 ```
 
@@ -280,7 +313,7 @@ CareerBridgeAI/
 ├── docs/                        # Requirements, plan, API, database, test plan
 ├── research/                    # AI model research: report, training scripts, notebook
 ├── Methodology/                 # Report figures: flowcharts, ERD, wireframes, Gantt chart
-├── contrib/                     # Teammate submissions (HTML pages)
+├── contrib/                     # Teammate submissions (pages, back ends, AI work)
 ├── .github/                     # Task template for GitHub issues
 └── README.md
 ```
@@ -357,7 +390,8 @@ The AI key may be missing, today's AI requests may be used up, or the AI service
 
 ## Version Control and Collaboration
 
-- The owner (cheah20) builds the main app. Teammates review work and hand in HTML page designs through `contrib/`.
+- The owner (cheah20) builds the shared AI core, the AI agents, the Showcase features, the database and the Flutter app, and joins everyone's work in.
+- Each teammate owns one role: Ong (Admin), Fiqz (Recruiter), Fathiyah (Job Seeker). They hand in HTML page designs, a small FastAPI back end with sample data, and one AI feature through `contrib/`.
 - Tasks are GitHub issues on the **CareerBridge Tasks** project board. Teammate steps: [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
 - Before committing, check `git status` and make sure no `.env`, `dev.json`, datasets or model files are staged.
 - Never commit passwords, API keys or real personal data. Test accounts use made-up `@example.test` emails.
@@ -373,4 +407,4 @@ The AI key may be missing, today's AI requests may be used up, or the AI service
 
 **Project:** CareerBridge AI — AI Resume and Career Recommendation System  
 **Project Type:** Undergraduate Workshop II project  
-**Development Status:** Foundation and AI core completed; job, application, recruiter and admin features in progress.
+**Development Status:** Foundation and AI core completed; recruiter and admin pages on sample data; jobs, applications and AI agents in progress.
