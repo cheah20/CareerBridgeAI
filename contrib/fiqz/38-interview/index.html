@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Update Status & Interview</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .status {
+      white-space: nowrap;
+    }
+
+    /* Floating Corner Toast */
+    .toast-popup {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 12px 18px;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.25s ease;
+      pointer-events: none;
+      z-index: 9999;
+    }
+    .toast-popup.show {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    /* Centered Modal Dialog */
+    dialog#confirmModal {
+      border: none;
+      border-radius: 12px;
+      padding: 28px 24px;
+      max-width: 440px;
+      width: 90%;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+      font-family: inherit;
+    }
+    dialog#confirmModal::backdrop {
+      background: rgba(15, 23, 42, 0.55);
+      backdrop-filter: blur(2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Navigation Menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../33-company-profile/index.html">Company Profile</a>
+      <a href="../34-my-job-posts/index.html">My Job Posts</a>
+      <a href="../35-create-job/index.html">Post a Job</a>
+      <a href="../36-applicants/index.html">Applicants</a>
+      <a href="../37-applicant-detail/index.html">Applicant Detail</a>
+      <a href="index.html" class="active">Interview & Status</a>
+      <a href="../39-contact-admin/index.html">Contact Admin</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+      <!-- Header with Breadcrumb Back Links -->
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:20px;">
+        <div>
+          <h1 class="page-title">Manage Candidate: Aina Example</h1>
+          <p class="page-sub">Applied for: <strong>Junior Mobile App Developer</strong> • Current Status: <span id="currentStatusBadge" class="status ok">Shortlisted</span></p>
+        </div>
+        <div style="flex-shrink:0; display:flex; gap:10px;">
+          <a href="../37-applicant-detail/index.html" class="btn" style="text-decoration:none; white-space:nowrap;">&larr; Back to Detail</a>
+          <a href="../36-applicants/index.html" class="btn" style="text-decoration:none; white-space:nowrap;">Applicant List</a>
+        </div>
+      </div>
+
+      <!-- Section 1: Routine Status Update -> Option 2 (Toast Notification) -->
+      <section class="card" style="margin-top:20px;">
+        <h2 style="margin:0 0 8px 0;">1. Quick Status Update</h2>
+        <p class="muted" style="margin:0 0 16px 0; font-size:14px;">
+          Change candidate stage without scheduling an interview session.
+        </p>
+
+        <form id="statusOnlyForm">
+          <label for="statusSelect">Application Stage *</label>
+          <select id="statusSelect" style="max-width:320px;">
+            <option>Applied</option>
+            <option>Under Review</option>
+            <option>Shortlisted</option>
+            <option selected>Interview</option>
+            <option>Offer</option>
+            <option>Hired</option>
+            <option>Rejected</option>
+          </select>
+
+          <p style="margin-top:16px;">
+            <button type="submit" class="btn">Update Status Only</button>
+          </p>
+        </form>
+      </section>
+
+      <!-- Section 2: Interview Scheduling -> Option 1 (Modal Alert) -->
+      <section class="card" style="margin-top:20px;">
+        <h2 style="margin:0 0 8px 0;">2. Schedule Interview & Dispatch Invitation</h2>
+        <p class="muted" style="margin:0 0 16px 0; font-size:14px;">
+          Set appointment details. An official calendar invitation and meeting link will be emailed to <code>aina.example@email.test</code>.
+        </p>
+
+        <form id="interviewScheduleForm">
+          <div class="grid-2">
+            <div>
+              <label for="interviewDate">Interview Date *</label>
+              <input id="interviewDate" type="date" value="2026-11-10" required>
+            </div>
+            <div>
+              <label for="interviewTime">Interview Time (MYT) *</label>
+              <input id="interviewTime" type="time" value="10:30" required>
+            </div>
+          </div>
+
+          <div style="margin-top:14px;">
+            <label for="interviewPlace">Location / Meeting URL *</label>
+            <input id="interviewPlace" value="Google Meet: https://meet.google.com/abc-defg-hij (or Room 2B, Bangsar South)" required>
+          </div>
+
+          <div style="margin-top:14px;">
+            <label for="interviewNotes">Notes for Candidate <span class="muted" style="font-weight:400;">(Optional — included in email notice)</span></label>
+            <textarea id="interviewNotes" rows="4">Please come prepared with your Flutter development environment ready to showcase your campus parcel delivery app and discuss state management decisions.</textarea>
+          </div>
+
+          <div style="margin-top:16px; padding:12px 16px; background:var(--soft); border-radius:8px; font-size:13px; color:var(--sub);">
+            📧 <strong>Automated Action:</strong> Confirming this form updates the application status to <strong>Interview</strong> and dispatches an official calendar invitation.
+          </div>
+
+          <p style="margin-top:20px; display:flex; gap:12px;">
+            <button type="submit" class="btn primary">Confirm &amp; Send Invitation</button>
+            <a href="../37-applicant-detail/index.html" class="btn" style="text-decoration:none;">Cancel</a>
+          </p>
+        </form>
+      </section>
+
+      <p id="message" style="display:none;"></p>
+    </main>
+  </div>
+
+  <!-- Option 2 Element: Floating Corner Toast -->
+  <div id="toastBox" class="toast-popup" role="status">
+    <span style="font-size:18px;">✅</span>
+    <span id="toastMsg">Status updated successfully</span>
+  </div>
+
+  <!-- Option 1 Element: Centered Modal Dialog -->
+  <dialog id="confirmModal">
+    <div style="text-align:center;">
+      <div style="font-size:42px; margin-bottom:10px;">📅</div>
+      <h3 style="margin:0 0 10px 0; font-size:20px; color:var(--text, #0f172a);">Interview Invitation Sent</h3>
+      <p id="modalMsg" style="margin:0 0 24px 0; font-size:14px; color:var(--sub, #475569); line-height:1.6;">
+        Official invitation and calendar invite have been dispatched to <strong>aina.example@email.test</strong>. Application stage updated to <strong>Interview</strong>.
+      </p>
+      <button id="closeModalBtn" class="btn primary" style="width:100%; padding:10px;">Understood</button>
+    </div>
+  </dialog>
+
+  <!-- Notification Handlers -->
+  <script>
+    // 1. Toast logic (Option 2)
+    const toast = document.getElementById('toastBox');
+    const toastMsg = document.getElementById('toastMsg');
+    let toastTimer;
+
+    function triggerToast(text) {
+      toastMsg.textContent = text;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    // 2. Modal logic (Option 1)
+    const modal = document.getElementById('confirmModal');
+    const modalMsg = document.getElementById('modalMsg');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+
+    function triggerModal(text) {
+      if (text) modalMsg.innerHTML = text;
+      modal.showModal();
+    }
+
+    closeModalBtn.addEventListener('click', () => {
+      modal.close();
+    });
+
+    // "Update Status Only" triggers Toast
+    document.getElementById('statusOnlyForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const selected = document.getElementById('statusSelect').value;
+      document.getElementById('currentStatusBadge').textContent = selected;
+      triggerToast(`Status changed to "${selected}" (Audit logged)`);
+    });
+
+    // "Confirm & Send Invitation" triggers Modal
+    document.getElementById('interviewScheduleForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const date = document.getElementById('interviewDate').value;
+      const time = document.getElementById('interviewTime').value;
+      document.getElementById('currentStatusBadge').textContent = 'Interview';
+
+      triggerModal(`Interview confirmed for <strong>${date} at ${time} (MYT)</strong>.<br>Email invitation dispatched to <strong>aina.example@email.test</strong> and status updated to <strong>Interview</strong>.`);
+    });
+  </script>
+</body>
+</html>

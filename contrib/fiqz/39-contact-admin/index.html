@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Contact Admin / Bug Report</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .status {
+      white-space: nowrap;
+    }
+
+    /* Option 2: Floating Corner Toast */
+    .toast-popup {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 12px 18px;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.25s ease;
+      pointer-events: none;
+      z-index: 9999;
+    }
+    .toast-popup.show {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    /* Option 1: Centered Modal Dialog */
+    dialog#reportConfirmModal {
+      border: none;
+      border-radius: 12px;
+      padding: 28px 24px;
+      max-width: 440px;
+      width: 90%;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+      font-family: inherit;
+    }
+    dialog#reportConfirmModal::backdrop {
+      background: rgba(15, 23, 42, 0.55);
+      backdrop-filter: blur(2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Navigation Menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../33-company-profile/index.html">Company Profile</a>
+      <a href="../34-my-job-posts/index.html">My Job Posts</a>
+      <a href="../35-create-job/index.html">Post a Job</a>
+      <a href="../36-applicants/index.html">Applicants</a>
+      <a href="../37-applicant-detail/index.html">Applicant Detail</a>
+      <a href="../38-interview/index.html">Interview & Status</a>
+      <a href="index.html" class="active">Contact Admin</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:20px;">
+        <div>
+          <h1 class="page-title">Contact Admin / Bug Report</h1>
+          <p class="page-sub">Report system issues, AI scoring discrepancies, or administrative queries directly to the platform team.</p>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1.4fr 1fr; gap:24px; align-items:start; margin-top:20px;">
+        <!-- Left Column: Report Submission Form -->
+        <section class="card">
+          <h2 style="margin:0 0 8px 0;">Submit Support Ticket</h2>
+          <p class="muted" style="margin:0 0 16px 0; font-size:14px;">
+            Please provide steps to reproduce the issue or describe your request in detail.
+          </p>
+
+          <form id="contactAdminForm">
+            <!-- Subject -->
+            <label for="reportSubject">Subject *</label>
+            <input id="reportSubject" placeholder="e.g. Discrepancy in AI Match Score for Junior Mobile Dev" value="Inquiry on candidate match scoring weighting" required>
+
+            <!-- Category & Severity Grid -->
+            <div class="grid-2" style="margin-top:14px;">
+              <div>
+                <label for="ticketCategory">Category *</label>
+                <select id="ticketCategory">
+                  <option selected>Bug / Technical Issue</option>
+                  <option>Company Profile Verification</option>
+                  <option>Job Posting Approval</option>
+                  <option>Billing &amp; Account</option>
+                  <option>Feature Request</option>
+                </select>
+              </div>
+              <div>
+                <label for="ticketSeverity">Severity *</label>
+                <select id="ticketSeverity">
+                  <option>Low (Cosmetic / General Question)</option>
+                  <option selected>Medium (Standard Workflow Issue)</option>
+                  <option>High (Recruiter Feature Blocked)</option>
+                  <option>Critical (System Unresponsive)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Message Body -->
+            <div style="margin-top:14px;">
+              <label for="reportMessage">Message / Reproduction Steps *</label>
+              <textarea id="reportMessage" rows="5" placeholder="Explain the problem and include URLs or candidate names..." required>When viewing candidate Aina Example, the missing skills list shows CI/CD Pipelines, which was marked as optional in our posting criteria. Kindly advise if this weight can be adjusted.</textarea>
+            </div>
+
+            <!-- Optional Attachment Upload -->
+            <div style="margin-top:14px;">
+              <label for="reportAttachment">Optional Screenshot / Log File <span class="muted" style="font-weight:400;">(PNG, JPG, or PDF up to 10MB)</span></label>
+              <input id="reportAttachment" type="file" accept="image/*,.pdf">
+            </div>
+
+            <!-- Action Buttons -->
+            <p style="margin-top:24px; display:flex; gap:12px; align-items:center;">
+              <button type="submit" class="btn primary">Submit to Admin</button>
+              <button type="button" id="saveDraftBtn" class="btn">Save Draft</button>
+            </p>
+          </form>
+        </section>
+
+        <!-- Right Column: Support SLA & Recent Tickets -->
+        <div style="display:flex; flex-direction:column; gap:20px;">
+          <!-- Help Box Card -->
+          <section class="card" style="background:#f8fafc;">
+            <h3 style="margin:0 0 10px 0; font-size:16px;">Support SLA &amp; Hours</h3>
+            <p style="font-size:13px; line-height:1.6; color:var(--sub); margin:0 0 12px 0;">
+              Our administrator team reviews high &amp; critical tickets within <strong>4 business hours</strong>. General queries and verifications are resolved within <strong>24–48 hours</strong> (Mon–Fri, 9am–6pm MYT).
+            </p>
+            <p style="font-size:13px; margin:0; color:var(--sub);">
+              Direct Email: <a href="mailto:support@careerbridge.example" style="color:var(--text); font-weight:600;">support@careerbridge.example</a>
+            </p>
+          </section>
+
+          <!-- Prior Tickets History Card -->
+          <section class="card">
+            <h3 style="margin:0 0 12px 0; font-size:16px;">Previous Reports</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Ticket</th>
+                  <th>Status</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>#TKT-2041</strong><br>
+                    <span class="muted" style="font-size:12px;">SSM Verification Document</span>
+                  </td>
+                  <td><span class="status ok">Resolved</span></td>
+                  <td class="muted" style="font-size:12px;">14 Oct 2026</td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>#TKT-1982</strong><br>
+                    <span class="muted" style="font-size:12px;">Job Post Status Refresh</span>
+                  </td>
+                  <td><span class="status ok">Resolved</span></td>
+                  <td class="muted" style="font-size:12px;">02 Oct 2026</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </div>
+
+      <p id="message" style="display:none;"></p>
+    </main>
+  </div>
+
+  <!-- Option 2 Element: Floating Corner Toast (For Drafts) -->
+  <div id="toastBox" class="toast-popup" role="status">
+    <span style="font-size:18px;">💾</span>
+    <span id="toastMsg">Draft saved successfully</span>
+  </div>
+
+  <!-- Option 1 Element: Centered Modal Dialog (For Ticket Submission) -->
+  <dialog id="reportConfirmModal">
+    <div style="text-align:center;">
+      <div style="font-size:42px; margin-bottom:10px;">📨</div>
+      <h3 style="margin:0 0 8px 0; font-size:20px; color:var(--text, #0f172a);">Support Ticket Dispatched</h3>
+      <p style="margin:0 0 4px 0; font-size:13px; color:var(--sub);">Ticket Reference: <strong id="ticketNumberRef" style="color:var(--text);">#TKT-2026-8819</strong></p>
+      <p id="modalConfirmBody" style="margin:8px 0 24px 0; font-size:14px; color:var(--sub, #475569); line-height:1.6;">
+        Your inquiry has been submitted to the Admin team. A confirmation receipt has been sent to your registered recruiter email.
+      </p>
+      <button id="closeModalBtn" class="btn primary" style="width:100%; padding:10px;">Done</button>
+    </div>
+  </dialog>
+
+  <!-- Interactive Scripts -->
+  <script>
+    // 1. Toast logic (Option 2)
+    const toast = document.getElementById('toastBox');
+    const toastMsg = document.getElementById('toastMsg');
+    let toastTimer;
+
+    function triggerToast(text) {
+      toastMsg.textContent = text;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    // 2. Modal logic (Option 1)
+    const modal = document.getElementById('reportConfirmModal');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+
+    function triggerModal() {
+      modal.showModal();
+    }
+
+    closeModalBtn.addEventListener('click', () => {
+      modal.close();
+    });
+
+    // Handle "Save Draft" -> Triggers Toast
+    document.getElementById('saveDraftBtn').addEventListener('click', () => {
+      const subject = document.getElementById('reportSubject').value.trim();
+      if (!subject) {
+        triggerToast('⚠️ Please enter at least a Subject to save a draft');
+      } else {
+        triggerToast('Draft report saved to your local session');
+      }
+    });
+
+    // Handle "Submit to Admin" -> Triggers Centered Modal
+    document.getElementById('contactAdminForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      triggerModal();
+    });
+  </script>
+</body>
+</html>

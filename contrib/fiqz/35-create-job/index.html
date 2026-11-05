@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Post or Edit a Job</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Navigation Menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../33-company-profile/index.html">Company Profile</a>
+      <a href="../34-my-job-posts/index.html">My Job Posts</a>
+      <a href="index.html" class="active">Post a Job</a>
+      <a href="../36-applicants/index.html">Applicants</a>
+      <a href="../37-applicant-detail/index.html">Applicant Detail</a>
+      <a href="../38-interview/index.html">Interview & Status</a>
+      <a href="../39-contact-admin/index.html">Contact Admin</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <div>
+          <h1 class="page-title">Post or Edit a Job</h1>
+          <p class="page-sub">Define vacancy details and skill criteria used for AI applicant matching.</p>
+        </div>
+        <div>
+          <a href="../34-my-job-posts/index.html" class="btn" style="text-decoration:none;">&larr; Back to My Jobs</a>
+        </div>
+      </div>
+
+      <!-- Job Creation Card -->
+      <section class="card" style="margin-top:20px;">
+        <form id="jobForm">
+          <!-- Job Title -->
+          <label for="jobTitle">Job Title *</label>
+          <input id="jobTitle" value="Junior Mobile App Developer" placeholder="e.g. Junior Mobile App Developer" required>
+
+          <!-- Job Description -->
+          <label for="jobDesc">Job Description *</label>
+          <textarea id="jobDesc" rows="5" placeholder="Outline primary responsibilities, daily work, and expectations..." required>We are looking for a Junior Mobile App Developer to build responsive cross-platform apps using Flutter and Dart. You will collaborate with our backend team, consume RESTful APIs, and deliver user-friendly interfaces.</textarea>
+
+          <!-- Required Skills -->
+          <label for="requiredSkills">Required Skills * <span class="muted" style="font-weight:400;">(Comma-separated; extracted by AI for candidate scoring)</span></label>
+          <input id="requiredSkills" value="Flutter, Dart, REST API, Git, Firebase" placeholder="e.g. Flutter, Dart, REST API, Git" required>
+
+          <!-- 2-Column Grid: Experience Level & Education -->
+          <div class="grid-2">
+            <div>
+              <label for="expLevel">Experience Level *</label>
+              <select id="expLevel">
+                <option>Fresh Graduate / Entry Level</option>
+                <option selected>Junior (1-2 years)</option>
+                <option>Mid-Level (3-5 years)</option>
+                <option>Senior (5+ years)</option>
+              </select>
+            </div>
+            <div>
+              <label for="eduReq">Education Requirements *</label>
+              <select id="eduReq">
+                <option selected>Bachelor's Degree in CS/IT or equivalent</option>
+                <option>Diploma in CS/IT or related field</option>
+                <option>Master's Degree</option>
+                <option>No formal degree required</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 2-Column Grid: Work Mode & Work Type -->
+          <div class="grid-2">
+            <div>
+              <label for="workMode">Work Mode *</label>
+              <select id="workMode">
+                <option selected>Hybrid (3 Days Office / 2 Days Remote)</option>
+                <option>On-site</option>
+                <option>Fully Remote</option>
+              </select>
+            </div>
+            <div>
+              <label for="workType">Work Type *</label>
+              <select id="workType">
+                <option selected>Full-time</option>
+                <option>Contract</option>
+                <option>Internship</option>
+                <option>Part-time</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 2-Column Grid: Location & Vacancy Count -->
+          <div class="grid-2">
+            <div>
+              <label for="location">Location *</label>
+              <input id="location" value="Bangsar South, Kuala Lumpur, Malaysia" placeholder="e.g. Kuala Lumpur, Malaysia" required>
+            </div>
+            <div>
+              <label for="vacancyCount">Vacancy Count</label>
+              <input id="vacancyCount" type="number" min="1" value="2" placeholder="1">
+            </div>
+          </div>
+
+          <!-- 2-Column Grid: Salary Range & Application Deadline -->
+          <div class="grid-2">
+            <div>
+              <label for="salaryRange">Salary Range (MYR) <span class="muted" style="font-weight:400;">(Monthly)</span></label>
+              <input id="salaryRange" value="3,500 - 4,800" placeholder="e.g. 3,500 - 4,800">
+            </div>
+            <div>
+              <label for="closingDate">Application Closing Date *</label>
+              <input id="closingDate" type="date" value="2026-11-30" required>
+            </div>
+          </div>
+
+          <!-- Informational Note regarding Admin Review -->
+          <div style="margin-top:20px; padding:12px 16px; background:var(--soft); border-radius:10px; font-size:14px; color:var(--sub);">
+            ℹ️ <strong>Submitting this posting will send it to the Admin review queue.</strong> Once approved, it will become publicly visible to Job Seekers.
+          </div>
+
+          <!-- Action Buttons -->
+          <p style="margin-top:24px; display:flex; gap:12px;">
+            <button type="button" id="draftBtn" class="btn">Save as Draft</button>
+            <button type="submit" id="submitBtn" class="btn primary">Submit Job</button>
+          </p>
+
+          <!-- Error / Success Alert Box -->
+          <p id="message" class="muted" style="margin-top:16px; font-weight:600;"></p>
+        </form>
+      </section>
+
+          <!-- Feedback message line for script.js -->
+          <p id="message" class="muted" style="margin-top:16px;"></p>
+        </form>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
