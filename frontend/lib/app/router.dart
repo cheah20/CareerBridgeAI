@@ -11,7 +11,14 @@ import '../features/auth/session.dart';
 import '../features/auth/signup_page.dart';
 import '../features/public/landing_page.dart';
 import '../features/public/public_jobs_page.dart';
+import '../features/recruiter/applicant_detail_page.dart';
+import '../features/recruiter/applicant_manage_page.dart';
+import '../features/recruiter/applicants_page.dart';
+import '../features/recruiter/company_profile_page.dart';
+import '../features/recruiter/job_form_page.dart';
+import '../features/recruiter/job_posts_page.dart';
 import '../features/recruiter/recruiter_overview_page.dart';
+import '../features/recruiter/recruiter_support_page.dart';
 import '../features/seeker/seeker_overview_page.dart';
 import '../features/testing/logbook_page.dart';
 import '../features/testing/resume_analysis_page.dart';
@@ -67,8 +74,16 @@ final routerProvider = Provider<GoRouter>((ref) {
             for (final item in entry.value)
               GoRoute(
                 path: item.path,
-                pageBuilder: (context, state) => _fade(state, _pageFor(entry.key, item)),
+                pageBuilder: (context, state) => _fade(state, _pageFor(entry.key, item, state)),
               ),
+          // recruiter sub-pages
+          GoRoute(path: '/recruiter/jobs/new', pageBuilder: (context, state) => _fade(state, const JobFormPage())),
+          GoRoute(path: '/recruiter/jobs/:id/edit', pageBuilder: (context, state) => _fade(state, JobFormPage(jobId: _id(state)))),
+          GoRoute(path: '/recruiter/applicants/:id', pageBuilder: (context, state) => _fade(state, ApplicantDetailPage(applicantId: _id(state)))),
+          GoRoute(
+            path: '/recruiter/applicants/:id/manage',
+            pageBuilder: (context, state) => _fade(state, ApplicantManagePage(applicantId: _id(state))),
+          ),
         ],
       ),
     ],
@@ -79,7 +94,9 @@ final routerProvider = Provider<GoRouter>((ref) {
   return router;
 });
 
-Widget _pageFor(UserRole role, NavItem item) {
+int _id(GoRouterState state) => int.tryParse(state.pathParameters['id'] ?? '') ?? -1;
+
+Widget _pageFor(UserRole role, NavItem item, GoRouterState state) {
   if (item.path == role.homePath) {
     return switch (role) {
       UserRole.jobSeeker => const SeekerOverviewPage(),
@@ -91,6 +108,10 @@ Widget _pageFor(UserRole role, NavItem item) {
     '/seeker/analyse' => const ResumeAnalysisPage(),
     '/seeker/logbook' => const LogbookPage(),
     '/admin/users' => const AdminUsersPage(),
+    '/recruiter/company' => const CompanyProfilePage(),
+    '/recruiter/jobs' => const JobPostsPage(),
+    '/recruiter/applicants' => ApplicantsPage(jobId: int.tryParse(state.uri.queryParameters['job'] ?? '')),
+    '/recruiter/support' => const RecruiterSupportPage(),
     _ => ComingSoonPage(title: item.label, description: item.description, phase: item.phase),
   };
 }
