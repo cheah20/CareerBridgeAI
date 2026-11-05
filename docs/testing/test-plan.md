@@ -1,4 +1,4 @@
-# CareerBridge AI — Test Plan (draft)
+# CareerBridge AI: Test Plan (draft)
 
 Task 7.1. This is the first draft. Each phase adds its test cases here, and the final test report is built
 from the "Result" columns.
@@ -29,7 +29,7 @@ with consent, and never uploaded to GitHub.
 | Frontend widget tests | 35 passed | 2026-10-25 |
 | Database permission checks | 43 / 43 passed | 2026-10-15 |
 | End-to-end automated check | 30 / 30 passed | 2026-10-18 |
-| End-to-end manual checklist | Not done yet (11 steps) | — |
+| End-to-end manual checklist | Not done yet (11 steps) | - |
 | Career model v2, held-out test set (2,817 resumes, 45 categories) | 81.5% top-1 accuracy | 2026-10-18 |
 | Career model v2, 58 real Malaysian CVs | 91–95% (tied with v6–v8) | 2026-10-18 |
 
@@ -76,13 +76,13 @@ Status: `Pass` · `Fail` · `Not run` · `Planned` (feature not built yet)
 | C5 | First reading kept after a correction | `profile_original` unchanged | Unit | Pass |
 | C6 | Tips written before a correction | Marked out of date, "Get new tips" offered | Unit + widget | Pass |
 | C7 | AI could not read the file | User can type details in and get a full score | Live check | Pass |
-| C8 | Profile sync: show differences, user confirms | Only confirmed changes saved | — | Planned (2.5) |
+| C8 | Profile sync: show differences, user confirms | Only confirmed changes saved | - | Planned (2.5) |
 
 ### D. AI: score, model and advice
 
 | ID | Case | Expected | How | Status |
 |---|---|---|---|---|
-| D1 | Fit score 0–100 with a match level | e.g. "74% — Good Match" | Unit | Pass |
+| D1 | Fit score 0–100 with a match level | e.g. "74%, Good Match" | Unit | Pass |
 | D2 | Score shown as a fit indicator | Never called a hiring probability | Code review of page text | Pass |
 | D3 | "What if I add this skill" | Preview score, not saved | Unit + widget | Pass |
 | D4 | AI service down | Score still works (basic mode), friendly message | Unit | Pass |

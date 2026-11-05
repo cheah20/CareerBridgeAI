@@ -209,7 +209,7 @@ def _comparison_table(results, best) -> str:
 
 def _report(version, entry, results, best, per_class, labels, previous) -> str:
     lines = [
-        f"# Career classification model — {version}",
+        f"# Career classification model: {version}",
         "",
         f"- **Created:** {entry['created_at']}",
         f"- **Selected algorithm:** {best} (highest cross-validated macro F1)",

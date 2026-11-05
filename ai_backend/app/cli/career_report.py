@@ -37,10 +37,10 @@ def main() -> int:
 
     fit = score_fit(extracted.text, role, args.level)
     section(f"{fit.role} · {LEVEL_LABELS[fit.level]}")
-    print(f"{fit.score}% — {fit.label}   (system fit indicator, not a hiring prediction)")
+    print(f"{fit.score}%, {fit.label}   (system fit indicator, not a hiring prediction)")
     print(f"skills {fit.parts['skills']:.0%} · experience {fit.parts['experience']:.0%} · education {fit.parts['education']:.0%}")
     print("✓ " + (", ".join(r.name for r in fit.matched) or "no listed skills found"))
-    print("✗ " + (", ".join(r.name for r in fit.missing[:8]) or "—"))
+    print("✗ " + (", ".join(r.name for r in fit.missing[:8]) or "-"))
     for note in fit.notes:
         print(WRAP.fill(f"  • {note}"))
 

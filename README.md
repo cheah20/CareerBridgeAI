@@ -86,7 +86,7 @@ Guests (not logged in) can browse published jobs. Every other feature needs an a
 | Sign-up and login with email confirmation | Done |
 | Resume upload: PDF, DOCX, JPG, PNG (up to 10 MB), with OCR for photos and scanned pages | Done (testing mode) |
 | AI reading of skills, experience and education, with an "Edit details" page to correct it | Done (testing mode) |
-| Fit score for a chosen job title and level, with reasons (e.g. "74% — Good Match") | Done (testing mode) |
+| Fit score for a chosen job title and level, with reasons (e.g. "74%, Good Match") | Done (testing mode) |
 | Skill gaps and "what if I add this skill" score preview | Done (testing mode) |
 | Career-direction suggestions from the machine learning model | Done (testing mode) |
 | AI coach: resume tips, interview questions, learning roadmap | Done (testing mode) |
@@ -224,7 +224,7 @@ The owner's Ubuntu (WSL) setup is in [docs/setup-ubuntu.md](docs/setup-ubuntu.md
 
 Secrets live only in local files that Git ignores. The `.example` files are safe templates.
 
-**Backend — `ai_backend/.env`** (from `ai_backend/.env.example`)
+**Backend: `ai_backend/.env`** (from `ai_backend/.env.example`)
 
 | Variable | Purpose |
 |---|---|
@@ -237,7 +237,7 @@ Secrets live only in local files that Git ignores. The `.example` files are safe
 | `LLM_DAILY_REQUESTS_PER_USER` | AI requests one user can make per day |
 | `TESTING_MODE` | `true` turns on the no-login resume analysis page on this computer. Keep `false` when deployed |
 
-**Frontend — `frontend/config/dev.json`** (from `frontend/config/dev.example.json`)
+**Frontend: `frontend/config/dev.json`** (from `frontend/config/dev.example.json`)
 
 | Variable | Purpose |
 |---|---|
@@ -335,7 +335,7 @@ Only `ai_backend/data/catalog/` (job titles and skills built from public data) i
 
 ## Database Information
 
-The database is Supabase PostgreSQL (Southeast Asia — Singapore). The schema is managed with SQL migrations in [supabase/migrations/](supabase/migrations/).
+The database is Supabase PostgreSQL (Southeast Asia, Singapore). The schema is managed with SQL migrations in [supabase/migrations/](supabase/migrations/).
 
 - **Tables (v1):** profiles, seeker profiles, companies, company members, jobs, resumes, applications, application status history.
 - **Access control:** Row Level Security on every table. Each role sees only its own or authorised rows. 43 permission checks pass.
@@ -405,6 +405,6 @@ The AI key may be missing, today's AI requests may be used up, or the AI service
 
 ---
 
-**Project:** CareerBridge AI — AI Resume and Career Recommendation System  
+**Project:** CareerBridge AI: AI Resume and Career Recommendation System  
 **Project Type:** Undergraduate Workshop II project  
 **Development Status:** Foundation and AI core completed; recruiter and admin pages on sample data; jobs, applications and AI agents in progress.

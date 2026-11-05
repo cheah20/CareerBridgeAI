@@ -63,7 +63,7 @@ def make_docx() -> bytes:
     return buf.getvalue()
 
 
-# ---- file type detection
+# file type detection
 
 def test_detects_type_from_content_not_name():
     assert detect_kind(make_text_pdf()) is FileKind.PDF
@@ -99,7 +99,7 @@ def test_rejects_password_protected_pdf():
         extract_text(locked)
 
 
-# ---- readers
+# readers
 
 def test_text_pdf_is_read_directly_without_ocr():
     result = extract_text(make_text_pdf())

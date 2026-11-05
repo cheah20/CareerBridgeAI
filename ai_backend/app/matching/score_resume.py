@@ -34,13 +34,13 @@ def main() -> int:
     result = score_fit(extracted.text, role, args.level)
     print(f"Resume   : {args.file.name} (read with {extracted.method})")
     print(f"Target   : {result.role} · {LEVEL_LABELS[result.level]}")
-    print(f"Match    : {result.score}% — {result.label}   (fit indicator, not a hiring prediction)")
+    print(f"Match    : {result.score}%, {result.label}   (fit indicator, not a hiring prediction)")
     print(f"           skills {result.parts['skills']:.0%} · experience {result.parts['experience']:.0%} · "
           f"education {result.parts['education']:.0%}")
     if result.years_estimate is not None:
         print(f"Experience found: about {result.years_estimate:g} years")
-    print("\nMatching skills : " + (", ".join(r.name for r in result.matched) or "—"))
-    print("Missing skills  : " + (", ".join(f"{r.name} ({r.weight:.0%})" for r in result.missing[:10]) or "—"))
+    print("\nMatching skills : " + (", ".join(r.name for r in result.matched) or "-"))
+    print("Missing skills  : " + (", ".join(f"{r.name} ({r.weight:.0%})" for r in result.missing[:10]) or "-"))
     print("                  (%) = share of job ads at this level that ask for it")
     if result.soft_skills_found:
         print("Soft skills     : " + ", ".join(result.soft_skills_found))

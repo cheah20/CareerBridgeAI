@@ -1,10 +1,10 @@
-# CareerBridge AI — Database Structure (v1)
+# CareerBridge AI: Database Structure (v1)
 
-- **Platform:** Supabase PostgreSQL (free plan, Southeast Asia — Singapore)
+- **Platform:** Supabase PostgreSQL (free plan, Southeast Asia, Singapore)
 - **Source of truth:** SQL migrations in [`supabase/migrations/`](../supabase/migrations/)
 - **Migrations:**
-  - `20261015220000_initial_schema.sql` — tables, triggers, RLS policies, storage buckets
-  - `20261015230000_private_rls_helpers.sql` — moves RLS helper functions to the non-exposed `private` schema
+  - `20261015220000_initial_schema.sql`: tables, triggers, RLS policies, storage buckets
+  - `20261015230000_private_rls_helpers.sql`: moves RLS helper functions to the non-exposed `private` schema
 - **Scope of v1:** accounts, roles, companies, jobs, resumes, applications. Tables for AI tasks, model versions, LLM usage, interviews, bug reports, emails and audit logs are added in later migrations.
 
 ## Entity relationships
@@ -36,7 +36,7 @@ profiles ──1:1──► seeker_profiles            (Job Seekers only)
 | `company_members` | Which recruiters manage which companies | `company_id`, `user_id`, `member_role` (`owner` / `recruiter`) |
 | `jobs` | Job postings (fields from requirements §8) | `title`, `description`, `location`, `work_type`, `work_mode`, `experience_level`, `salary_min`, `salary_max`, `currency` (default `MYR`), `required_skills`, `education_requirement`, `industry`, `vacancy_count`, `application_deadline`, `status`, review fields |
 | `resumes` | Resume metadata and parsed content | `storage_path`, `mime_type`, `file_size_bytes` (≤ 10 MB), `parse_status`, `parsed_markdown`, `parsed_data`, `parse_error` |
-| `applications` | A Job Seeker applying to a job with a resume | `job_id`, `seeker_id`, `resume_id`, `status`, `match_score` (0–100, fit indicator — not a hiring probability), `applied_at`, `withdrawn_at`; one application per seeker per job |
+| `applications` | A Job Seeker applying to a job with a resume | `job_id`, `seeker_id`, `resume_id`, `status`, `match_score` (0–100, fit indicator, not a hiring probability), `applied_at`, `withdrawn_at`; one application per seeker per job |
 | `application_status_history` | Every status change, recorded automatically | `from_status`, `to_status`, `changed_by`, `note`, `changed_at` |
 
 ### Enumerations
@@ -68,14 +68,14 @@ Row Level Security (RLS) is enabled on every table. The frontend uses the public
 
 | Data | Owner | Recruiter | Admin | Guest (not logged in) |
 |---|---|---|---|---|
-| `profiles` | Read + edit basic fields (not `role` / `account_status`) | Only Job Seekers who applied to their company's jobs | Read all | — |
-| `seeker_profiles` | Read + edit | Only applicants to their company's jobs | Via backend only | — |
+| `profiles` | Read + edit basic fields (not `role` / `account_status`) | Only Job Seekers who applied to their company's jobs | Read all | - |
+| `seeker_profiles` | Read + edit | Only applicants to their company's jobs | Via backend only | - |
 | `companies` | Members read their companies | Verified companies visible to all logged-in users | Read all | Verified companies, public columns only |
 | `jobs` | Company members see drafts | Published jobs visible to all logged-in users | Read all | Published jobs, public columns only |
-| `resumes` | Read own | Only resumes submitted to their company's jobs | Via backend only, when necessary | — |
-| `applications` | Job Seeker reads own | Applications to their company's jobs | Read all | — |
+| `resumes` | Read own | Only resumes submitted to their company's jobs | Via backend only, when necessary | - |
+| `applications` | Job Seeker reads own | Applications to their company's jobs | Read all | - |
 
-**Writes with business rules** — publishing/reviewing jobs, verifying companies, uploading resumes, applying, changing application status — are performed by the FastAPI backend, which checks the user's role first. The frontend cannot change these directly.
+**Writes with business rules** (publishing and reviewing jobs, verifying companies, uploading resumes, applying, changing application status) are performed by the FastAPI backend, which checks the user's role first. The frontend cannot change these directly.
 
 **RLS helper functions** (`is_admin`, `is_company_member`, `is_applicant_of_my_company`, `is_resume_shared_with_me`) live in the `private` schema, which is not exposed through the Data API, so they cannot be called from the frontend. Supabase security advisors report 0 warnings for this schema.
 
@@ -101,8 +101,8 @@ None of it is uploaded to GitHub.
 |---|---|---|
 | `ai_backend/data/logbook/` | One JSON file per resume analysis in testing mode, plus a copy of the uploaded file in `files/` | `file` (name, type, pages, OCR), `clean_markdown` (text with personal details removed), `profile` (details read from the resume), `profile_original` (first reading, kept when the user corrects it), `profile_edited_at`, `role`, `level`, `assessment` (score, label, reasons), `directions` (career model), `advice`, `advice_stale`, `feedback`, `timings` |
 | `ai_backend/data/llm/usage.jsonl` | One line per AI request | `timestamp`, `purpose`, `model`, `user`, `status` (`ok`, `cache_hit`, `error`, `blocked_daily`, `blocked_budget`), token counts |
-| `ai_backend/data/llm/cache/` | Saved AI answers, so the same question is not sent twice | — |
-| `ai_backend/models/` | Trained career-direction models and `registry.json` (versions, which one is deployed) | — |
+| `ai_backend/data/llm/cache/` | Saved AI answers, so the same question is not sent twice | - |
+| `ai_backend/models/` | Trained career-direction models and `registry.json` (versions, which one is deployed) | - |
 
 When the Job Seeker flow moves to real accounts, the logbook fields map to the `resumes` table
 (`parsed_markdown`, `parsed_data`, `parse_status`) and the `seeker_profiles` table (`skills`, `education`, `experience`, `headline`).

@@ -15,7 +15,7 @@ def auth_header(token: str) -> dict:
     return {"Authorization": f"Bearer {token}"}
 
 
-# ---- /me: authentication ----
+# /me: authentication
 
 def test_me_without_token_is_401(client, profiles):
     response = client.get("/me")
@@ -80,7 +80,7 @@ def test_inactive_account_is_403(client, profiles):
     assert response.status_code == 403
 
 
-# ---- require_role: authorization ----
+# require_role: authorization
 
 @pytest.fixture
 def admin_only_client():
