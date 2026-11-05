@@ -74,7 +74,7 @@ class AnalysisResultView extends StatelessWidget {
             ),
             StatItem(
               'Top direction',
-              directions.isEmpty ? '—' : directions.first['name'] as String,
+              directions.isEmpty ? '-' : directions.first['name'] as String,
               directions.isEmpty
                   ? ''
                   : '${((directions.first['probability'] as num) * 100).round()}% model confidence',
@@ -174,7 +174,7 @@ class AnalysisResultView extends StatelessWidget {
                     CardHeader(
                       title: 'Other directions',
                       trailing:
-                          'model ${entry['directions']['model_version'] ?? '—'}',
+                          'model ${entry['directions']['model_version'] ?? '-'}',
                     ),
                     for (final d in directions)
                       GlassListRow(
@@ -209,9 +209,13 @@ class AnalysisResultView extends StatelessWidget {
                     for (final w in (file['warnings'] as List).cast<String>())
                       Padding(
                         padding: const EdgeInsets.only(top: 6),
-                        child: Text(
-                          '⚠ $w',
-                          style: TextStyle(fontSize: 12.5, color: t.warning),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.warning_amber_rounded, size: 15, color: t.warning),
+                            const SizedBox(width: 4),
+                            Expanded(child: Text(w, style: TextStyle(fontSize: 12.5, color: t.warning))),
+                          ],
                         ),
                       ),
                     const SizedBox(height: 6),
@@ -398,7 +402,7 @@ class _AdviceCard extends StatelessWidget {
             list(
               'learning_roadmap',
               (s) =>
-                  '${s['step']}. ${s['focus']}, ${s['weeks']} wk — ${s['activities']}',
+                  '${s['step']}. ${s['focus']}, ${s['weeks']} wk: ${s['activities']}',
             ),
           ),
         ],

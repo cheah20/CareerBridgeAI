@@ -340,7 +340,7 @@ begin
          count(*) filter (where expected is distinct from actual)
     into report, failed
   from results;
-  raise exception E'RLS CHECK DONE (rolled back) — % failed of %\n%',
+  raise exception E'RLS CHECK DONE (rolled back): % failed of %\n%',
     failed, (select count(*) from results), report;
 end;
 $$;

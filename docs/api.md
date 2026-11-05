@@ -1,4 +1,4 @@
-# CareerBridge AI — Backend API
+# CareerBridge AI: Backend API
 
 The FastAPI backend in [`ai_backend/`](../ai_backend/). While it is running, the full interactive list is at
 http://localhost:8000/docs.

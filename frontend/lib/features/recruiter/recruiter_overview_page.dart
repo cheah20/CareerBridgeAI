@@ -17,7 +17,7 @@ class RecruiterOverviewPage extends StatelessWidget {
         PageHeader(
           kicker: 'Company X, recruiter view',
           title: 'Hiring at a glance',
-          subtitle: 'Applicants are sorted by AI match. The match is a fit indicator only — '
+          subtitle: 'Applicants are sorted by AI match. The match is a fit indicator only: '
               'you review every candidate and make the decision.',
           trailing: Row(mainAxisSize: MainAxisSize.min, children: [ServerStatusChip(), GlassChip(label: 'Sample data')]),
         ),

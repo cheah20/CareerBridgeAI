@@ -1,4 +1,4 @@
-# CareerBridge AI — Project Plan & Progress Tracker
+# CareerBridge AI: Project Plan & Progress Tracker
 
 - **Timeline:** 10 weeks, 2026-10-15 → 2026-12-23
 - **Developer:** cheah20 · **Reviewers:** team members (via Pull Requests)
@@ -80,27 +80,27 @@ block diagram, ERD, low-fidelity wireframes, Gantt chart and work allocation.
 
 ## Task list
 
-### Phase 0 — Preparation
+### Phase 0: Preparation
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
-| 0.1 | Save requirements to `docs/requirements.md` | P1 | Oct 15 | — | Done |
-| 0.2 | Git identity, first commit, private GitHub repo | P1 | Oct 15 | — | Done |
-| 0.3 | Supabase free project (Singapore) + local `.env` | P1 | Oct 15 | — | Done |
-| 0.4 | Project plan & progress tracker (this file) | P1 | Oct 15 | — | Done |
+| 0.1 | Save requirements to `docs/requirements.md` | P1 | Oct 15 | - | Done |
+| 0.2 | Git identity, first commit, private GitHub repo | P1 | Oct 15 | - | Done |
+| 0.3 | Supabase free project (Singapore) + local `.env` | P1 | Oct 15 | - | Done |
+| 0.4 | Project plan & progress tracker (this file) | P1 | Oct 15 | - | Done |
 
-### Phase 1 — Foundation (auth, roles, database, RLS)
+### Phase 1: Foundation (auth, roles, database, RLS)
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
 | 1.1 | Database schema v1 (profiles, roles, companies, jobs, applications, resumes) | P1 | Oct 19 | 0.3 | Done |
 | 1.2 | RLS policies + permission tests per role (43/43 pass, `supabase/checks/`) | P1 | Oct 24 | 1.1 | Done |
 | 1.3 | FastAPI skeleton: `/health`, Supabase JWT check, role check (15 tests pass) | P1 | Oct 21 | 0.3 | Done |
-| 1.4 | Flutter skeleton: routing + role guards, glass theme, role shells, public pages (9 tests pass) | P1 | Oct 21 | — | Done |
+| 1.4 | Flutter skeleton: routing + role guards, glass theme, role shells, public pages (9 tests pass) | P1 | Oct 21 | - | Done |
 | 1.5 | Sign-up / login (Job Seeker, Recruiter); Admin created by system (20 frontend tests pass) | P1 | Oct 23 | 1.1, 1.4 | Done |
 | 1.6 | End-to-end check: login → correct role home; Flutter ↔ FastAPI (automated 30/30 pass; manual browser checklist left) | P1 | Oct 28 | 1.2–1.5 | In Progress |
 
-### Phase 2 — Resume upload & parsing
+### Phase 2: Resume upload & parsing
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
@@ -111,18 +111,18 @@ block diagram, ERD, low-fidelity wireframes, Gantt chart and work allocation.
 | 2.5 | Profile sync: show differences, user confirms updates | P2 | Nov 10 | 2.3 | Todo |
 | 2.6 | Background task status (Pending / Processing / Completed / Failed) (done in testing mode; real accounts left) | P2 | Nov 11 | 2.2 | In Progress |
 
-### Phase 3 — AI core
+### Phase 3: AI core
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
-| 3.1 | Select public dataset (check licence): ResumeAtlas (MIT) + Kaggle Resume (CC0), O*NET, ESCO, job-posting sets | P1 | Nov 11 | — | Done |
-| 3.2 | Train & compare LR / KNN / RF / SVM (Accuracy, Precision, Recall, F1); fine-tuned Transformer — see [research/](../research/README.md) | P1 | Nov 16 | 3.1 | Done |
-| 3.3 | Rule-based match score + match levels (e.g. "84% — Strong Match"); terminal version done, thresholds provisional | P1 | Nov 18 | 2.3 | In Progress |
-| 3.4 | Choose LLM provider; backend-only key; usage logging | P1 | Nov 20 | — | Done |
+| 3.1 | Select public dataset (check licence): ResumeAtlas (MIT) + Kaggle Resume (CC0), O*NET, ESCO, job-posting sets | P1 | Nov 11 | - | Done |
+| 3.2 | Train & compare LR / KNN / RF / SVM (Accuracy, Precision, Recall, F1); fine-tuned Transformer, see [research/](../research/README.md) | P1 | Nov 16 | 3.1 | Done |
+| 3.3 | Rule-based match score + match levels (e.g. "84%, Strong Match"); terminal version done, thresholds provisional | P1 | Nov 18 | 2.3 | In Progress |
+| 3.4 | Choose LLM provider; backend-only key; usage logging | P1 | Nov 20 | - | Done |
 | 3.5 | LLM explanations, skill gaps, resume advice, interview questions, roadmap (terminal report done; UI pending) | P1 | Nov 25 | 3.3, 3.4 | In Progress |
 | 3.6 | Per-user rate limit + usage alerts (80% / 100%) + no-key mock mode (all done; uses one local tester until login is connected) | P2 | Nov 25 | 3.4 | In Progress |
 
-### Phase 4 — Jobs & applications
+### Phase 4: Jobs & applications
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
@@ -131,7 +131,7 @@ block diagram, ERD, low-fidelity wireframes, Gantt chart and work allocation.
 | 4.3 | Apply with resume / supporting documents; withdraw | P1 | Nov 30 | 4.1, 2.1 | Todo |
 | 4.4 | Application status tracking (8 statuses + history) | P1 | Dec 2 | 4.3 | Todo |
 
-### Phase 5 — Recruiter & Admin features
+### Phase 5: Recruiter & Admin features
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
@@ -142,23 +142,23 @@ block diagram, ERD, low-fidelity wireframes, Gantt chart and work allocation.
 | 5.5 | User & role management; job/content governance (users page done with sample accounts; saving changes and job governance left) | P2 | Dec 8 | 1.2 | In Progress |
 | 5.6 | Model & dataset management: versions, evaluation, deploy, rollback (registry + CLI done; Admin UI pending) | P1 | Dec 9 | 3.2 | In Progress |
 
-### Phase 6 — Notifications, monitoring, operations
+### Phase 6: Notifications, monitoring, operations
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
 | 6.1 | Choose email provider; application / status / interview emails | P2 | Dec 12 | 4.4 | Todo |
 | 6.2 | Bug reports (statuses, severity) + Admin email | P2 | Dec 13 | 6.1 | Todo |
-| 6.3 | Error logging, alerts, audit logs (90-day retention) | P2 | Dec 14 | — | Todo |
-| 6.4 | Backup & recovery approach (check Supabase plan limits) | P2 | Dec 14 | — | Todo |
+| 6.3 | Error logging, alerts, audit logs (90-day retention) | P2 | Dec 14 | - | Todo |
+| 6.4 | Backup & recovery approach (check Supabase plan limits) | P2 | Dec 14 | - | Todo |
 | 6.5 | Account deletion with 30-day grace period | P3 | Dec 15 | 1.2 | Todo |
 | 6.6 | Cloud deployment (frontend + FastAPI) + health checks | P1 | Dec 16 | all P1 | Todo |
 
-### Phase 7 — Testing, documentation, demo
+### Phase 7: Testing, documentation, demo
 
 | ID | Task | Priority | Due | Depends on | Status |
 |---|---|---|---|---|---|
 | 7.1 | Test plan + test report (roles, upload, AI, workflows, failures) (draft plan: [testing/test-plan.md](testing/test-plan.md)) | P1 | Dec 20 | 6.6 | In Progress |
-| 7.2 | Documentation: README, setup, API, DB structure, AI model report (README, setup, [api.md](api.md), [database.md](database.md), AI report done; final pass left) | P1 | Dec 21 | — | In Progress |
+| 7.2 | Documentation: README, setup, API, DB structure, AI model report (README, setup, [api.md](api.md), [database.md](database.md), AI report done; final pass left) | P1 | Dec 21 | - | In Progress |
 | 7.3 | Demo test accounts, sample data, backup plan | P1 | Dec 22 | 6.6 | Todo |
 | 7.4 | Android APK build | P3 | Dec 23 | 6.6 | Todo |
 
@@ -198,7 +198,7 @@ New feature ideas, assessed under requirements §29 before they are added.
 | Role skill assessment | Timed multiple-choice test per job title and experience level, generated from the role's essential skills (DeepSeek, reviewed question bank). Server-side timing, random question/option order, copy blocking, tab-switch logging, attempt limits. Scores per skill shown to recruiters with the resume match before interviews; jobs recommended after the test. | Role catalogue, LLM integration |
 | Portfolio links | Job Seekers add GitHub / portfolio / app links. Links are validated (https only, no private addresses), checked against Google Safe Browsing, opened in a new tab with an external-site notice, and visible to recruiters only after the Job Seeker applies. Optional later: verify public GitHub repositories via the GitHub API. | Profile, applications |
 
-## Open decisions (TBD — decided when the related phase starts)
+## Open decisions (TBD: decided when the related phase starts)
 
 | Item | Needed by |
 |---|---|

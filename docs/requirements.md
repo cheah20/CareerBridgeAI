@@ -181,7 +181,7 @@ presentation.
 ### Match results
 
 Display: - Overall match percentage and a text level, such as
-`84% — Strong Match`. - Matching skills. - Missing skills. - Education
+`84%, Strong Match`. - Matching skills. - Missing skills. - Education
 and experience fit. - Improvement suggestions and reasons. - If
 information is insufficient, explain what is missing and how it affects
 the result, and ask the user to add information where useful.

@@ -1517,7 +1517,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
     ];
     final questions = list(
       'interview_questions',
-      (q) => '${q['question']} — ${q['tip']}',
+      (q) => '${q['question']} Tip: ${q['tip']}',
     );
     final tips = list('resume_tips', (x) => '$x');
     final roadmap = list(
@@ -1631,7 +1631,7 @@ class _AssessmentViewState extends ConsumerState<AssessmentView> {
   static String _signed(int v) => v >= 0 ? '+$v' : '$v';
 }
 
-// ==================================================================== small parts
+// small parts
 
 class _Band {
   const _Band(this.name, this.headline, this.color);

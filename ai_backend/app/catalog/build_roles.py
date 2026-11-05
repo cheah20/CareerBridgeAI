@@ -156,7 +156,7 @@ def main() -> None:
 
 def _overview(roles: list[dict]) -> str:
     lines = [
-        "# CareerBridge role catalogue — fields and job titles",
+        "# CareerBridge role catalogue: fields and job titles",
         "",
         f"Generated {date.today().isoformat()}. ✓ = matched in that source; postings = real job ads whose title matches "
         "(LinkedIn 2023–24 + Data/AI postings 2024). ★ = emerging role (2025–2026).",
@@ -165,8 +165,8 @@ def _overview(roles: list[dict]) -> str:
     for field_name in dict.fromkeys(r["field"] for r in roles):
         lines += [f"## {field_name}", "", "| Role | O*NET | ESCO | Job postings |", "|---|---|---|---|"]
         for r in (r for r in roles if r["field"] == field_name):
-            onet = r["onet"][0]["title"] if r["onet"] else "—"
-            esco = r["esco"]["label"] if r["esco"] else "—"
+            onet = r["onet"][0]["title"] if r["onet"] else "-"
+            esco = r["esco"]["label"] if r["esco"] else "-"
             star = " ★" if r["emerging"] else ""
             lines.append(f"| {r['title']}{star} | {onet} | {esco} | {r['postings']:,} |")
         lines.append("")

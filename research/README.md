@@ -14,7 +14,7 @@ For the charted version, open [report/index.html](report/index.html) in a browse
 
 The models the app uses are trained and evaluated by `ai_backend/app/ml/`; this folder holds the experiments around them.
 
-## Part 2 — testing on real Malaysian CVs (18 October 2026, afternoon)
+## Part 2: testing on real Malaysian CVs (18 October 2026, afternoon)
 
 **Summary.** v5's public-test lead came from a formatting shortcut; normalising the text fixed it (v6). On 58 real
 Malaysian CVs, v2, v6, v7 and v8 are statistically tied (91–95% with every reasonable answer accepted); only v5 is
@@ -92,7 +92,7 @@ reasonable category among the 45):
 | v5 | 60.7% | v2 vs v5: 20 : 2, p < 0.001 |
 | v6 | 91.1% | 1 : 3, p = 0.63 |
 | v7 | 91.1% | 1 : 3, p = 0.63 |
-| v8 | 94.6% | — |
+| v8 | 94.6% | - |
 
 **Conclusion.** The format fix is a real gain. A benefit from synthetic training data is not shown on these CVs.
 v2 stays deployed (65 MB, 0.014 s per CV, same accuracy). Not yet measured: run-to-run variance; the real CVs come
@@ -112,11 +112,11 @@ of 99% agreement (95.4–95.6%), so all three ship as fp32 ONNX.
 
 ### Issues fixed in Part 2
 
-- **Formatting shortcut** — text normalisation (above).
-- **Memory growth** — scoring resumes of many lengths made ONNX Runtime reserve memory per input size (14 GB in one
+- **Formatting shortcut**: text normalisation (above).
+- **Memory growth**: scoring resumes of many lengths made ONNX Runtime reserve memory per input size (14 GB in one
   run). The memory arena is now off, batches are smaller, one model is loaded at a time; this also protects the backend.
-- **Incomplete LLM answers** — 8 of 158 synthetic resumes hit the reasoning token limit; regenerated with a higher token limit.
-- **Job chaining** — a waiting script matched its own command line; process checks now match only the training process.
+- **Incomplete LLM answers**: 8 of 158 synthetic resumes hit the reasoning token limit; regenerated with a higher token limit.
+- **Job chaining**: a waiting script matched its own command line; process checks now match only the training process.
 
 ### Limits and next steps
 
@@ -132,7 +132,7 @@ of 99% agreement (95.4–95.6%), so all three ship as fp32 ONNX.
 
 ---
 
-# Part 1 — first Transformer runs (18 October 2026, morning)
+# Part 1: first Transformer runs (18 October 2026, morning)
 
 The rest of this document is the morning's report. Its conclusion that v5 was best held only on the public test
 set; Part 2 explains why.
@@ -166,14 +166,14 @@ set; Part 2 explains why.
 
 | Version | Model | Top-1 | Macro F1 | Top-3 | Field top-1 | Size | Status |
 |---|---|---|---|---|---|---|---|
-| v1 | Random Forest, TF-IDF (Kaggle only, 24 classes) | 0.718 | 0.658 | — | — | — | previous |
+| v1 | Random Forest, TF-IDF (Kaggle only, 24 classes) | 0.718 | 0.658 | - | - | - | previous |
 | v2 | Linear SVM, TF-IDF words | 0.815 | 0.809 | 0.938 | 0.855 | 65 MB | **deployed** |
-| v3 | DeBERTa-v3-small, ONNX int8 (GPU run A) | 0.784 | — | 0.889 | — | 172 MB | rejected |
+| v3 | DeBERTa-v3-small, ONNX int8 (GPU run A) | 0.784 | - | 0.889 | - | 172 MB | rejected |
 | v4 | Linear SVM, TF-IDF words + characters | 0.815 | 0.806 | 0.937 | 0.856 | 223 MB | not recommended |
 | v5 | DeBERTa-v3-small, ONNX fp32 (GPU run B) | 0.882 | 0.868 | 0.938 | 0.919 | 542 MB | previous (format shortcut) |
-| v6 | DeBERTa-v3-small, normalised text | 0.861 | 0.840 | 0.927 | — | 542 MB | candidate |
-| v7 | v6 + rough synthetic resumes | 0.870 | 0.857 | 0.929 | — | 542 MB | candidate |
-| v8 | v6 + template-based synthetic resumes | 0.860 | 0.840 | 0.933 | — | 542 MB | candidate |
+| v6 | DeBERTa-v3-small, normalised text | 0.861 | 0.840 | 0.927 | - | 542 MB | candidate |
+| v7 | v6 + rough synthetic resumes | 0.870 | 0.857 | 0.929 | - | 542 MB | candidate |
+| v8 | v6 + template-based synthetic resumes | 0.860 | 0.840 | 0.933 | - | 542 MB | candidate |
 
 v1 used a smaller dataset and is not directly comparable. For v3–v5, top-1 and top-3 were measured with the exported ONNX file the app actually runs.
 

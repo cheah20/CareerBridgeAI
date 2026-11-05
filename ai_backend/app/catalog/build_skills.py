@@ -270,8 +270,8 @@ def _role_md(r: dict) -> str:
         lines += [f"- **Also called:** {', '.join(r['aka'])}"]
     if r["emerging"]:
         lines += ["- **Emerging role** (fast-growing in 2025–2026)"]
-    onet = "; ".join(f"{o['code']} {o['title']}" for o in r["sources"]["onet"]) or "—"
-    esco = r["sources"]["esco"]["label"] if r["sources"]["esco"] else "—"
+    onet = "; ".join(f"{o['code']} {o['title']}" for o in r["sources"]["onet"]) or "-"
+    esco = r["sources"]["esco"]["label"] if r["sources"]["esco"] else "-"
     lines += [f"- **O*NET:** {onet}", f"- **ESCO:** {esco}",
               f"- **Job ads analysed:** {r['postings']['total']:,} "
               f"({', '.join(f'{LEVEL_NAMES[lv].split(' (')[0]} {n}' for lv, n in r['postings']['by_level'].items() if n)})", ""]
@@ -317,7 +317,7 @@ def _index_md(roles: list[dict]) -> str:
     for field_name in dict.fromkeys(r["field"] for r in roles):
         lines += [f"## {field_name}", "", "| Role | Job ads | Core market skills |", "|---|---|---|"]
         for r in (x for x in roles if x["field"] == field_name):
-            core = ", ".join(x["name"] for x in r["skills"]["market_core"][:6]) or "—"
+            core = ", ".join(x["name"] for x in r["skills"]["market_core"][:6]) or "-"
             star = " ★" if r["emerging"] else ""
             lines.append(f"| [{r['title']}](roles/{_slug(field_name)}/{r['id']}.md){star} | {r['postings']['total']:,} | {core} |")
         lines.append("")
