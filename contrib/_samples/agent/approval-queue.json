@@ -1,0 +1,24 @@
+[
+  {
+    "id": "apr_17",
+    "run_id": "run_2210",
+    "agent": "Recruitment Workflow",
+    "action": "Ask Danial (sample) for proof of Dart",
+    "level": "L3",
+    "affects": "Danial (sample), applicant",
+    "reason": "Dart is required but not named in the resume",
+    "proposed_at": "2026-12-04T15:20:00+08:00",
+    "status": "pending"
+  },
+  {
+    "id": "apr_18",
+    "run_id": "run_2214",
+    "agent": "Recruitment Workflow",
+    "action": "Send interview practice tips to Farah (sample)",
+    "level": "L3",
+    "affects": "Farah (sample), applicant",
+    "reason": "Shortlisted for interview",
+    "proposed_at": "2026-12-04T16:05:00+08:00",
+    "status": "pending"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "application_id": 12,
+  "candidate": "Aina (sample)",
+  "job": "Junior Mobile App Developer",
+  "match": 94,
+  "status": "ready_for_review",
+  "skills": [
+    {
+      "skill": "Flutter",
+      "required": true,
+      "evidence_level": "documented",
+      "proof": "Built four Flutter screens for a logistics tracking app",
+      "source": "resume, experience"
+    },
+    {
+      "skill": "Dart",
+      "required": true,
+      "evidence_level": "documented",
+      "proof": "Mobile: Flutter, Dart, Android Studio",
+      "source": "resume, skills"
+    },
+    {
+      "skill": "Firebase",
+      "required": true,
+      "evidence_level": "self_reported",
+      "proof": "Listed in skills, no project shown",
+      "source": "resume, skills"
+    }
+  ],
+  "missing": [
+    "CI/CD pipelines"
+  ],
+  "candidate_reply": {
+    "question": "The job asks for CI/CD. Can you share where you used it?",
+    "answer": "I set up GitHub Actions to run tests on my final year project.",
+    "link": "https://example.com/aina-project",
+    "evidence_level": "self_reported",
+    "consent": true
+  },
+  "note": "Evidence report only. The recruiter makes the decision."
+}

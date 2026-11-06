@@ -1,0 +1,15 @@
+{
+  "request_id": "req_55",
+  "job": "Junior Mobile App Developer",
+  "company": "Zenith Global Solutions (sample)",
+  "skill": "CI/CD pipelines",
+  "question": "The job asks for CI/CD. Can you share a project or describe where you used it?",
+  "why": "The recruiter's assistant could not find this skill in your resume.",
+  "reply_with": [
+    "text",
+    "file",
+    "link"
+  ],
+  "can_decline": true,
+  "status": "open"
+}
