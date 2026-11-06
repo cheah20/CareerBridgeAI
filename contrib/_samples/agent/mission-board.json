@@ -1,0 +1,43 @@
+{
+  "mission_id": "mis_301",
+  "goal": "Junior data analyst job in Melaka",
+  "target_role": "Junior Data Analyst",
+  "deadline": "2027-02-20",
+  "match_history": [
+    {
+      "date": "2026-11-20",
+      "match": 58
+    },
+    {
+      "date": "2026-12-04",
+      "match": 66
+    },
+    {
+      "date": "2026-12-18",
+      "match": 72
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "task": "Finish a small SQL project on sales data",
+      "due": "2026-12-04",
+      "status": "done",
+      "evidence": "https://example.com/sql-project"
+    },
+    {
+      "n": 2,
+      "task": "Build one Power BI dashboard",
+      "due": "2026-12-18",
+      "status": "done",
+      "evidence": "Dashboard screenshot uploaded"
+    },
+    {
+      "n": 3,
+      "task": "Apply for 5 matching jobs",
+      "due": "2027-01-15",
+      "status": "todo",
+      "evidence": null
+    }
+  ]
+}

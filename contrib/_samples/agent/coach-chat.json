@@ -1,0 +1,39 @@
+{
+  "run_id": "run_1042",
+  "messages": [
+    {
+      "from": "user",
+      "time": "10:01",
+      "text": "I want to be a data analyst in Melaka."
+    },
+    {
+      "from": "coach",
+      "time": "10:01",
+      "text": "Good goal. By when would you like to start applying?"
+    },
+    {
+      "from": "user",
+      "time": "10:02",
+      "text": "In 3 months."
+    },
+    {
+      "from": "coach",
+      "time": "10:03",
+      "text": "Your match for Junior Data Analyst is 58%. SQL would raise it the most, so here is a 3 step plan. Shall I save it?",
+      "steps": [
+        {
+          "tool": "read_resume",
+          "found": "14 skills"
+        },
+        {
+          "tool": "match_job",
+          "found": "58%"
+        },
+        {
+          "tool": "simulate_skill_growth",
+          "found": "SQL +14"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "run_id": "run_1042",
+  "agent": "Career Coach",
+  "started_by": "user goal",
+  "goal": "Apply for junior data analyst jobs in Melaka within 3 months",
+  "status": "waiting_for_user",
+  "started_at": "2026-11-20T10:02:00+08:00",
+  "steps": [
+    {
+      "n": 1,
+      "tool": "read_resume",
+      "found": "Text read from 2 pages, 14 skills found",
+      "ms": 1840,
+      "status": "ok",
+      "why_next": "Need the career direction before scoring"
+    },
+    {
+      "n": 2,
+      "tool": "classify_career",
+      "found": "Top direction: Data and Analytics (0.71)",
+      "ms": 120,
+      "status": "ok",
+      "why_next": "Target role fits, score it"
+    },
+    {
+      "n": 3,
+      "tool": "match_job",
+      "found": "Match 58%, missing SQL and Power BI",
+      "ms": 95,
+      "status": "retry",
+      "why_next": "First try timed out, tried again once"
+    },
+    {
+      "n": 4,
+      "tool": "simulate_skill_growth",
+      "found": "SQL adds 14 points, Power BI adds 9",
+      "ms": 210,
+      "status": "ok",
+      "why_next": "Build a plan with SQL first"
+    },
+    {
+      "n": 5,
+      "tool": "draft_advice",
+      "found": "3 step plan drafted",
+      "ms": 2650,
+      "status": "ok",
+      "why_next": "Ask the user to confirm the plan"
+    }
+  ]
+}
