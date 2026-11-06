@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Junior Data Analyst",
+      "company": "Northwind Logistics (sample)",
+      "location": "Melaka",
+      "skills": ["SQL", "Excel", "Power BI"],
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "title": "Graduate Software Engineer",
+      "company": "Example Tech Sdn Bhd",
+      "location": "Kuala Lumpur",
+      "skills": ["Python", "Git", "REST API"],
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "title": "Marketing Executive",
+      "company": "Sample Retail Sdn Bhd",
+      "location": "Penang",
+      "skills": ["Social media", "Copywriting", "Canva"],
+      "status": "draft"
+    }
+  ]
+}
