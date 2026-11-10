@@ -1,1 +1,130 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CareerBridge – My Resume Profile</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="layout">
+
+    <!-- Left menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+
+      <a href="#">Home</a>
+      <a href="#" class="active">My Resume</a>
+      <a href="#">Job Recommendations</a>
+      <a href="#">My Applications</a>
+      <a href="#">Interview Practice</a>
+      <a href="#">Contact Admin</a>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+
+      <h1 class="page-title">My Resume Profile</h1>
+
+      <p class="page-sub">
+        Review and update the information extracted from your resume.
+      </p>
+
+      <!-- Work Experience -->
+      <section class="card" style="margin-bottom:20px">
+
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:12px">
+          <h2>Work Experience</h2>
+          <button class="btn" type="button" data-edit="work">
+            Edit
+          </button>
+        </div>
+
+        <div id="work" data-profile>
+          <h3>Junior Software Developer</h3>
+          <p><strong>Company:</strong> TechNova Solutions</p>
+          <p><strong>Duration:</strong> January 2025 – December 2025</p>
+          <p><strong>Description:</strong></p>
+          <p>
+            Assisted in developing web applications, testing software
+            features and fixing basic programming errors.
+          </p>
+        </div>
+
+      </section>
+
+      <!-- Education -->
+      <section class="card" style="margin-bottom:20px">
+
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:12px">
+          <h2>Education</h2>
+          <button class="btn" type="button" data-edit="education">
+            Edit
+          </button>
+        </div>
+
+        <div id="education" data-profile>
+          <h3>Bachelor of Computer Science</h3>
+          <p><strong>Institution:</strong> Example University</p>
+          <p><strong>Field of Study:</strong> Computer Science</p>
+          <p><strong>Graduation Year:</strong> 2025</p>
+        </div>
+
+      </section>
+
+      <!-- Skills -->
+      <section class="card" style="margin-bottom:20px">
+
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:12px">
+          <h2>Skills</h2>
+          <button class="btn" type="button" data-edit="skills">
+            Edit
+          </button>
+        </div>
+
+        <div id="skills" data-profile>
+          <p>
+            <span class="status info">Python</span>
+            <span class="status info">Java</span>
+            <span class="status info">HTML</span>
+            <span class="status info">CSS</span>
+            <span class="status info">SQL</span>
+            <span class="status info">Machine Learning</span>
+            <span class="status info">Communication</span>
+            <span class="status info">Problem Solving</span>
+          </p>
+        </div>
+
+      </section>
+
+      <!-- Languages -->
+      <section class="card" style="margin-bottom:20px">
+
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:12px">
+          <h2>Languages</h2>
+          <button class="btn" type="button" data-edit="languages">
+            Edit
+          </button>
+        </div>
+
+        <div id="languages" data-profile>
+          <p><strong>English:</strong> Intermediate</p>
+          <p><strong>Malay:</strong> Fluent</p>
+        </div>
+
+      </section>
+
+      <p id="message" class="muted"></p>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
