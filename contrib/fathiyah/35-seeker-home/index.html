@@ -1,1 +1,129 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Job Seeker Home</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="layout">
+
+    <!-- Left menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="#" class="active">Home</a>
+      <a href="#">My Resume</a>
+      <a href="#">Job Recommendations</a>
+      <a href="#">My Applications</a>
+      <a href="#">Interview Practice</a>
+      <a href="#">Contact Admin</a>
+    </nav>
+
+    <!-- Main dashboard -->
+    <main>
+      <h1 class="page-title">Welcome back, Alex!</h1>
+      <p class="page-sub">
+        Discover job opportunities and keep track of your career progress.
+      </p>
+
+      <!-- Summary cards -->
+      <div class="grid-2">
+        <div class="card">
+          <div class="muted">Latest Match Score</div>
+          <div class="number">85%</div>
+          <p class="muted">Based on your latest resume</p>
+        </div>
+
+        <div class="card">
+          <div class="muted">Total Applications</div>
+          <div class="number">8</div>
+          <p class="muted">Jobs you have applied for</p>
+        </div>
+      </div>
+
+      <!-- Resume upload -->
+      <section class="card" style="margin-top:20px">
+        <h2>Upload Your Resume</h2>
+        <p class="muted">
+          Upload your latest resume to get updated job recommendations.
+        </p>
+
+        <form id="resumeForm">
+          <label for="resumeFile">Select Resume (PDF or Image)</label>
+          <input
+            type="file"
+            id="resumeFile"
+            accept=".pdf,.png,.jpg,.jpeg"
+            required
+          >
+
+          <p>
+            <button type="submit" class="btn primary">
+              Upload Resume
+            </button>
+          </p>
+
+          <p id="uploadMessage" class="muted"></p>
+        </form>
+      </section>
+
+      <!-- Recommended jobs -->
+      <section class="card" style="margin-top:20px">
+        <h2>Top 3 Recommended Jobs</h2>
+        <p class="muted">
+          Job opportunities recommended based on your profile and skills.
+        </p>
+
+        <table>
+          <tr>
+            <th>Job Title</th>
+            <th>Company</th>
+            <th>Match Score</th>
+            <th>Action</th>
+          </tr>
+
+          <tr>
+            <td>
+              <strong>Junior AI Engineer</strong>
+              <br>
+              <span class="muted">Full-time</span>
+            </td>
+            <td>TechNova Solutions</td>
+            <td><span class="status ok">92%</span></td>
+            <td><button class="btn" type="button">View</button></td>
+          </tr>
+
+          <tr>
+            <td>
+              <strong>Data Analyst</strong>
+              <br>
+              <span class="muted">Full-time</span>
+            </td>
+            <td>DataWorks Sdn Bhd</td>
+            <td><span class="status info">87%</span></td>
+            <td><button class="btn" type="button">View</button></td>
+          </tr>
+
+          <tr>
+            <td>
+              <strong>Software Developer</strong>
+              <br>
+              <span class="muted">Hybrid</span>
+            </td>
+            <td>CodeLab Technologies</td>
+            <td><span class="status warn">81%</span></td>
+            <td><button class="btn" type="button">View</button></td>
+          </tr>
+        </table>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
