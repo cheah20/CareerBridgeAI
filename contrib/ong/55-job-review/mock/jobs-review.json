@@ -1,0 +1,68 @@
+[
+  {
+    "id": "JOB-402",
+    "title": "Data Entry Clerk (Work From Home - Instant Pay)",
+    "company": "Global FastEarn Enterprise",
+    "salary": "RM 6,500 – RM 9,000 / month",
+    "location": "Remote (Anywhere)",
+    "riskScore": 94,
+    "reasons": [
+      "Unrealistic salary for entry-level data entry",
+      "Suspicious keywords: 'instant pay', 'WhatsApp only', 'registration fee'",
+      "Recruiter email domain mismatch"
+    ],
+    "status": "Waiting"
+  },
+  {
+    "id": "JOB-405",
+    "title": "Junior Administrative Assistant (No Experience Needed)",
+    "company": "QuickRich Global Marketing",
+    "salary": "RM 5,000 / week",
+    "location": "Johor Bahru (Remote option)",
+    "riskScore": 82,
+    "reasons": [
+      "Trigger phrases: 'no experience', 'weekly payout', 'Telegram contact'",
+      "Recruiter uses free personal email (@gmail.com)"
+    ],
+    "status": "Waiting"
+  },
+  {
+    "id": "JOB-401",
+    "title": "Commission-Only Digital Marketing Executive",
+    "company": "Alpha Media Venture",
+    "salary": "Uncapped Commission",
+    "location": "Petaling Jaya, Selangor",
+    "riskScore": 82,
+    "reasons": [
+      "Vague compensation structure ('uncapped commission')",
+      "Short job description body (< 60 words)"
+    ],
+    "status": "Waiting"
+  },
+  {
+    "id": "JOB-404",
+    "title": "Junior AI & Python Developer",
+    "company": "Melaka Digital Labs Sdn Bhd",
+    "salary": "RM 3,800 – RM 4,800 / month",
+    "location": "Ayer Keroh, Melaka",
+    "riskScore": 14,
+    "reasons": [
+      "Verified SSM corporate employer account",
+      "Clear technical stack requirements (Python, FastAPI, SQL)"
+    ],
+    "status": "Waiting"
+  },
+  {
+    "id": "JOB-403",
+    "title": "Graduate Embedded Software Engineer",
+    "company": "Straits Precision Engineering Sdn Bhd",
+    "salary": "RM 4,200 – RM 5,000 / month",
+    "location": "Bayan Lepas, Penang",
+    "riskScore": 8,
+    "reasons": [
+      "Standard market entry salary",
+      "Detailed engineering responsibilities and valid office address"
+    ],
+    "status": "Waiting"
+  }
+]

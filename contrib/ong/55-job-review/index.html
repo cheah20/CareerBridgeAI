@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Job Review</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../31-admin-dashboard/index.html">Dashboard</a>
+      <a href="../32-users-and-roles/index.html">Users &amp; Roles</a>
+      <a href="../54-company-verification/index.html">Company Verification</a>
+      <a href="../55-job-review/index.html" class="active">Job Review</a>
+      <a href="../56-ai-models-and-datasets/index.html">AI Models &amp; Datasets</a>
+      <a href="../57-alerts-and-errors/index.html">Alerts &amp; Errors</a>
+      <a href="../58-bug-reports/index.html">Bug Reports</a>
+      <a href="../59-rejection-reasons-trends/index.html">Rejection Trends</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <h1 class="page-title">Job review</h1>
+      <p class="page-sub">Review incoming job postings ranked automatically by AI fraud risk score (highest risk sorted at the top).</p>
+
+      <!-- KPI Summary Cards -->
+      <div class="grid-4">
+        <div class="card">
+          <div class="muted">Pending review</div>
+          <div class="number" id="stat-pending">0</div>
+        </div>
+        <div class="card">
+          <div class="muted">High risk (&ge; 70%)</div>
+          <div class="number" id="stat-high" style="color: var(--bad);">0</div>
+        </div>
+        <div class="card">
+          <div class="muted">Approved today</div>
+          <div class="number" id="stat-approved">0</div>
+        </div>
+        <div class="card">
+          <div class="muted">Active AI Model</div>
+          <div class="number" style="font-size: 20px; margin-top: 6px;">RF-Fraud-v1.2</div>
+        </div>
+      </div>
+
+      <!-- Filter Toolbar -->
+      <div class="toolbar" style="margin-top: 24px;">
+        <h2>Job posting queue</h2>
+        <div class="toolbar-controls">
+          <select id="risk-filter">
+            <option value="all">All risk levels</option>
+            <option value="high">High risk (&ge; 70%)</option>
+            <option value="medium">Medium risk (40% - 69%)</option>
+            <option value="low">Low risk (&lt; 40%)</option>
+          </select>
+          <input type="search" id="search-input" placeholder="Search title or company...">
+        </div>
+      </div>
+
+      <!-- Jobs Table Section -->
+      <section class="card">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Job Title &amp; Company</th>
+                <th>Salary &amp; Location</th>
+                <th>AI Risk Score</th>
+                <th>Flagged Reasons &amp; Keywords</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="jobs-tbody"></tbody>
+          </table>
+        </div>
+        <p id="message" class="muted" style="margin-top: 16px;"></p>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
