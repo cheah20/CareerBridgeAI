@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Company Verification</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left navigation menu for Admin role -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../31-admin-dashboard/index.html">Dashboard</a>
+      <a href="../32-users-and-roles/index.html">Users &amp; Roles</a>
+      <a href="../54-company-verification/index.html" class="active">Company Verification</a>
+      <a href="../55-job-review/index.html">Job Review</a>
+      <a href="../56-ai-models-and-datasets/index.html">AI Models &amp; Datasets</a>
+      <a href="../57-alerts-and-errors/index.html">Alerts &amp; Errors</a>
+      <a href="../58-bug-reports/index.html">Bug Reports</a>
+      <a href="../59-rejection-reasons-trends/index.html">Rejection Trends</a>
+    </nav>
+
+    <!-- Main page content -->
+    <main>
+      <h1 class="page-title">Company verification</h1>
+      <p class="page-sub">Click any summary card below to filter companies, inspect their SSM proof PDFs, and approve or reject accounts.</p>
+
+      <!-- Interactive KPI Filter Cards (Click a card to filter the table directly) -->
+      <div class="grid-4" role="tablist" aria-label="Filter companies by verification status">
+        <button type="button" class="card kpi-card active" data-status="all">
+          <div class="kpi-top">
+            <span class="muted">All submissions</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-total">0</div>
+          <div class="kpi-hint">Click to view all</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-status="Waiting">
+          <div class="kpi-top">
+            <span class="muted">Waiting review</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-waiting" style="color: var(--warn);">0</div>
+          <div class="kpi-hint">Needs admin action</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-status="Approved">
+          <div class="kpi-top">
+            <span class="muted">Approved</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-approved" style="color: var(--ok);">0</div>
+          <div class="kpi-hint">Verified employers</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-status="Rejected">
+          <div class="kpi-top">
+            <span class="muted">Rejected</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-rejected" style="color: var(--bad);">0</div>
+          <div class="kpi-hint">Failed verification</div>
+        </button>
+      </div>
+
+      <!-- Company Verification Queue Table Card -->
+      <section class="card" style="margin-top: 24px;">
+        <div class="toolbar">
+          <!-- Dynamic indicator showing which card/filter is currently active -->
+          <div class="current-view-wrap">
+            <h2 style="margin: 0;">Company verification queue</h2>
+            <span class="status info" id="current-view-badge">Displaying: All submissions</span>
+          </div>
+
+          <!-- Search bar with clear button -->
+          <div class="toolbar-controls">
+            <div class="search-box">
+              <input type="search" id="search-input" placeholder="Search ID, company, SSM no., location, email...">
+              <button type="button" id="clear-search-btn" class="clear-search" hidden title="Clear search">✕</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Company Profile</th>
+                <th>SSM / Reg No.</th>
+                <th>Recruiter Contact</th>
+                <th>Supporting Documents</th>
+                <th>Submitted</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="company-tbody">
+              <!-- Populated dynamically by script.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination bar (Page size selector + 1, 2, 3 page buttons) -->
+        <div class="pagination-bar">
+          <div class="pagination-info">
+            <span id="pagination-summary" class="muted">Showing 0–0 of 0</span>
+            <label for="page-size-select" class="page-size-label">
+              Rows per page:
+              <select id="page-size-select">
+                <option value="5" selected>5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+              </select>
+            </label>
+          </div>
+          <div class="pagination-pages" id="pagination-controls">
+            <!-- Numbered buttons (Prev, 1, 2, 3, Next) rendered by script.js -->
+          </div>
+        </div>
+
+        <!-- Feedback banner for user actions & error handling -->
+        <p id="message" class="muted" style="margin-top:16px;"></p>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal 1: Side-by-Side Company Profile & Proof Document Inspector -->
+  <div id="profile-modal" class="modal-backdrop" hidden>
+    <div class="modal modal-xl">
+      <div class="modal-header">
+        <div>
+          <h3 id="ins-company-name">Company Profile &amp; Document Verification</h3>
+          <p class="muted" id="ins-company-sub" style="margin:0;"></p>
+        </div>
+        <button type="button" class="btn sm" id="close-profile-btn">✕ Close</button>
+      </div>
+
+      <!-- Two-column layout: Left = Submitted Company Profile, Right = Uploaded PDF Proof -->
+      <div class="inspector-grid">
+        <!-- Left column: Submitted company profile details -->
+        <div class="profile-details-box">
+          <h4>Submitted Company Details</h4>
+          <dl class="profile-dl">
+            <dt>Company Name</dt>
+            <dd id="ins-name"></dd>
+
+            <dt>SSM Registration No.</dt>
+            <dd><span class="ssm-code" id="ins-ssm"></span></dd>
+
+            <dt>Industry &amp; Size</dt>
+            <dd id="ins-industry-size"></dd>
+
+            <dt>Registered Address</dt>
+            <dd id="ins-address"></dd>
+
+            <dt>Official Website</dt>
+            <dd><a id="ins-website" href="#" target="_blank" rel="noopener noreferrer"></a></dd>
+
+            <dt>Recruiter Contact</dt>
+            <dd id="ins-contact"></dd>
+
+            <dt>Company Description</dt>
+            <dd id="ins-desc" class="muted" style="font-size:14px;"></dd>
+          </dl>
+
+          <h4 style="margin-top:18px;">Uploaded Proof Files</h4>
+          <div id="ins-doc-buttons" class="doc-list"></div>
+        </div>
+
+        <!-- Right column: Live PDF Viewer for the selected proof document -->
+        <div class="pdf-viewer-column">
+          <div class="pdf-viewer-header">
+            <strong id="ins-active-doc-name">Corporate-Profile.pdf</strong>
+            <a id="ins-open-pdf-tab" href="https://www.intechww.com/wp-content/uploads/Corporate-Profile.pdf" target="_blank" rel="noopener noreferrer" class="btn sm primary">Open PDF in New Tab ↗</a>
+          </div>
+          <div class="doc-summary-box" id="ins-doc-summary"></div>
+          <div class="pdf-frame-wrap">
+            <iframe id="ins-pdf-iframe" src="about:blank" title="Company Proof PDF"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom action bar inside the inspector modal -->
+      <div class="modal-actions" style="justify-content: space-between;">
+        <span id="ins-current-status"></span>
+        <div class="action-btns">
+          <button type="button" class="btn approve" id="ins-approve-btn">Approve Company...</button>
+          <button type="button" class="btn danger" id="ins-reject-btn">Reject Company...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Approve Confirmation Modal (Prevents accidental approvals) -->
+  <div id="approve-modal" class="modal-backdrop" hidden>
+    <div class="modal">
+      <h3>Confirm company approval</h3>
+      <p class="muted" id="approve-modal-sub" style="margin-top:0;"></p>
+
+      <div class="confirm-summary-box">
+        <p style="margin:0 0 6px;"><strong>Granting Recruiter Access:</strong></p>
+        <p class="muted" style="margin:0; font-size:14px;">
+          Approving this company will mark their profile as <strong>Verified</strong> and allow them to publish job postings on CareerBridge.
+        </p>
+      </div>
+
+      <!-- Mandatory verification checklist before confirming approval -->
+      <label class="checkbox-label" for="approve-confirm-check">
+        <input type="checkbox" id="approve-confirm-check">
+        <span>I confirm that I have verified the SSM registration number and supporting PDF documents.</span>
+      </label>
+      <p id="approve-error" class="error-text" hidden>Please tick the verification checkbox to confirm approval.</p>
+
+      <div class="modal-actions">
+        <button type="button" class="btn" id="cancel-approve-btn">Cancel</button>
+        <button type="button" class="btn approve" id="confirm-approve-btn">Confirm Approval</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Mandatory Rejection Reason Modal -->
+  <div id="reject-modal" class="modal-backdrop" hidden>
+    <div class="modal">
+      <h3>Reject company verification</h3>
+      <p class="muted" id="reject-modal-sub" style="margin-top:0;"></p>
+
+      <label for="reject-category">Standard rejection reason</label>
+      <select id="reject-category">
+        <option value="Invalid or expired SSM certificate">Invalid or expired SSM certificate</option>
+        <option value="Submitted profile does not match uploaded PDF">Submitted profile does not match uploaded PDF</option>
+        <option value="Incomplete or unreadable supporting PDF document">Incomplete or unreadable supporting PDF document</option>
+        <option value="Unverifiable business address or personal email domain">Unverifiable business address or personal email domain</option>
+        <option value="Suspected shell or fraudulent company">Suspected shell or fraudulent company</option>
+      </select>
+
+      <label for="reject-reason-input">Detailed explanation for recruiter <span style="color:var(--bad)">*</span></label>
+      <textarea id="reject-reason-input" rows="3" placeholder="Required (min 10 chars): Explain why this verification was rejected so the recruiter can resubmit valid documents..."></textarea>
+      <p id="reject-error" class="error-text" hidden>Please enter a clear rejection reason (at least 10 characters).</p>
+
+      <div class="modal-actions">
+        <button type="button" class="btn" id="cancel-reject-btn">Cancel</button>
+        <button type="button" class="btn danger" id="confirm-reject-btn">Confirm Reject</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
