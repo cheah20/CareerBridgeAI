@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CareerBridge – AI Models and Datasets</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Left navigation menu for Admin role -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../31-admin-dashboard/index.html">Dashboard</a>
+      <a href="../32-users-and-roles/index.html">Users &amp; Roles</a>
+      <a href="../54-company-verification/index.html">Company Verification</a>
+      <a href="../55-job-review/index.html">Job Review</a>
+      <a href="../56-ai-models-and-datasets/index.html" class="active">AI Models &amp; Datasets</a>
+      <a href="../57-alerts-and-errors/index.html">Alerts &amp; Errors</a>
+      <a href="../58-bug-reports/index.html">Bug Reports</a>
+      <a href="../59-rejection-reasons-trends/index.html">Rejection Trends</a>
+    </nav>
+
+    <!-- Main Content for Task #56: AI Models and Datasets -->
+    <main>
+      <h1 class="page-title">AI models and datasets</h1>
+      <p class="page-sub">Track model versions, compare validation metrics (Accuracy, Precision, Recall, F1), and deploy or roll back production models.</p>
+
+      <!-- Interactive KPI Filter Cards (Click any card to filter the model registry) -->
+      <div class="grid-4" role="tablist" aria-label="Filter AI models">
+        <button type="button" class="card kpi-card active" data-filter="all">
+          <div class="kpi-top">
+            <span class="muted">Total Model Versions</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-total-models">0</div>
+          <div class="kpi-hint">Click to view all versions</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-filter="Active">
+          <div class="kpi-top">
+            <span class="muted">Active (In Use)</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-active-models" style="color: var(--ok);">0</div>
+          <div class="kpi-hint">Currently serving in production</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-filter="Suspicious Job Detection">
+          <div class="kpi-top">
+            <span class="muted">Job Fraud Models (#61)</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-fraud-acc" style="color: var(--accent);">—</div>
+          <div class="kpi-hint" id="stat-fraud-sub">Active Fraud Detector Accuracy</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-filter="Standby">
+          <div class="kpi-top">
+            <span class="muted">Standby / Rollback Ready</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-standby-models" style="color: var(--warn);">0</div>
+          <div class="kpi-hint">Available for deploy or rollback</div>
+        </button>
+      </div>
+
+      <!-- Section 1: AI Model Versions Registry Table -->
+      <section class="card" style="margin-top: 24px;">
+        <div class="toolbar">
+          <div class="current-view-wrap">
+            <h2 style="margin: 0;">AI Model Version Registry</h2>
+            <span class="status info" id="current-view-badge">Displaying: All Model Versions</span>
+          </div>
+
+          <!-- Pipeline Filter + Search Input -->
+          <div class="toolbar-controls">
+            <select id="pipeline-select" title="Filter by AI Pipeline">
+              <option value="all">All AI Pipelines</option>
+              <option value="Suspicious Job Detection">Suspicious Job Detection (#61)</option>
+              <option value="Resume Layout Check">Resume Layout Check (#62)</option>
+              <option value="Resume-Role Fit Scoring">Resume-Role Fit Scoring</option>
+            </select>
+
+            <div class="search-box">
+              <input type="search" id="search-input" placeholder="Search version, algorithm, dataset..." />
+              <button type="button" id="clear-search-btn" class="clear-search" hidden title="Clear search">✕</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Model Version &amp; Algorithm</th>
+                <th>AI Task / Pipeline</th>
+                <th>Accuracy</th>
+                <th>Precision / Recall / F1</th>
+                <th>Trained Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="models-tbody">
+              <!-- Populated dynamically by script.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Numbered Pagination Bar (Prev, 1, 2, Next) -->
+        <div class="pagination-bar">
+          <div class="pagination-info">
+            <span id="pagination-summary" class="muted">Showing 0–0 of 0</span>
+            <label for="page-size-select" class="page-size-label">
+              Rows per page:
+              <select id="page-size-select">
+                <option value="5" selected>5</option>
+                <option value="10">10</option>
+              </select>
+            </label>
+          </div>
+          <div class="pagination-pages" id="pagination-controls"></div>
+        </div>
+
+        <!-- Feedback message line -->
+        <p id="message" class="muted" style="margin-top: 16px;"></p>
+      </section>
+
+      <!-- Section 2: Training & Evaluation Datasets Registry -->
+      <section class="card" style="margin-top: 24px;">
+        <div class="toolbar">
+          <div>
+            <h2 style="margin: 0;">Training &amp; Evaluation Datasets</h2>
+            <p class="muted" style="margin: 4px 0 0; font-size: 14px;">
+              Curated and public datasets used to train and benchmark the CareerBridge AI models above.
+            </p>
+          </div>
+          <span class="status ok" id="dataset-count-badge">4 Verified Datasets</span>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Dataset ID &amp; Name</th>
+                <th>Target AI Pipeline</th>
+                <th>Records &amp; Split</th>
+                <th>License &amp; Source</th>
+                <th>Last Updated</th>
+              </tr>
+            </thead>
+            <tbody id="datasets-tbody">
+              <!-- Populated dynamically by script.js -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal 1: Model Version Details & Metric Inspector -->
+  <div id="inspector-modal" class="modal-backdrop" hidden>
+    <div class="modal modal-lg">
+      <div class="modal-header">
+        <div>
+          <h3 id="ins-model-title">Model Version Details</h3>
+          <p class="muted" id="ins-model-sub" style="margin: 0;"></p>
+        </div>
+        <button type="button" class="btn sm" id="close-inspector-btn">✕ Close</button>
+      </div>
+
+      <div class="inspector-grid">
+        <div class="details-box">
+          <h4>Configuration &amp; Training Lineage</h4>
+          <dl class="profile-dl">
+            <dt>Pipeline</dt>
+            <dd id="ins-pipeline"></dd>
+
+            <dt>Version Tag &amp; Algorithm</dt>
+            <dd id="ins-algorithm"></dd>
+
+            <dt>Training Dataset</dt>
+            <dd id="ins-dataset"></dd>
+
+            <dt>Trained Date</dt>
+            <dd id="ins-date"></dd>
+
+            <dt>Architecture &amp; Notes</dt>
+            <dd id="ins-notes" class="muted" style="font-size: 13px;"></dd>
+          </dl>
+        </div>
+
+        <div class="details-box">
+          <h4>Validation Metrics (#61 / #62 Benchmark)</h4>
+          <div class="metrics-grid-4">
+            <div class="metric-tile">
+              <span class="muted">Accuracy</span>
+              <strong id="ins-acc">—</strong>
+            </div>
+            <div class="metric-tile">
+              <span class="muted">Precision</span>
+              <strong id="ins-prec">—</strong>
+            </div>
+            <div class="metric-tile">
+              <span class="muted">Recall</span>
+              <strong id="ins-rec">—</strong>
+            </div>
+            <div class="metric-tile">
+              <span class="muted">F1 Score</span>
+              <strong id="ins-f1">—</strong>
+            </div>
+          </div>
+
+          <h4 style="margin-top: 16px;">Top Learned Features / Signals</h4>
+          <div id="ins-features" class="feature-tags"></div>
+        </div>
+      </div>
+
+      <div class="modal-actions" style="justify-content: space-between;">
+        <span id="ins-status-badge"></span>
+        <div class="action-btns">
+          <button type="button" class="btn primary" id="ins-action-btn">Deploy / Roll Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Deploy / Roll Back Confirmation Modal (with Metric Delta & Regression Warning) -->
+  <div id="switch-modal" class="modal-backdrop" hidden>
+    <div class="modal">
+      <h3 id="switch-modal-title">Confirm Model Deployment</h3>
+      <p class="muted" id="switch-modal-sub" style="margin-top: 0;"></p>
+
+      <!-- Side-by-side comparison between Current Active model and Target model -->
+      <div class="compare-box">
+        <div class="compare-col">
+          <div class="compare-label">Current Active Model</div>
+          <strong id="cmp-curr-ver">—</strong>
+          <div class="compare-metrics" id="cmp-curr-metrics">—</div>
+        </div>
+        <div class="compare-arrow">→</div>
+        <div class="compare-col highlight">
+          <div class="compare-label">Target Model</div>
+          <strong id="cmp-target-ver">—</strong>
+          <div class="compare-metrics" id="cmp-target-metrics">—</div>
+        </div>
+      </div>
+
+      <!-- Shown when rolling back or deploying a model with lower accuracy than current active -->
+      <div id="regression-warning-box" class="regression-alert" hidden>
+        <strong id="regression-title">⚠️ Rollback / Accuracy Regression Notice</strong>
+        <p id="regression-desc" style="margin: 4px 0 0; font-size: 13px;"></p>
+        <label for="switch-reason-input" style="margin-top: 10px;">Reason for deployment / rollback <span style="color:var(--bad)">*</span></label>
+        <textarea id="switch-reason-input" rows="2" placeholder="Required (min 10 chars): Explain why you are rolling back or switching this model version..."></textarea>
+      </div>
+
+      <label class="checkbox-label" for="switch-confirm-check">
+        <input type="checkbox" id="switch-confirm-check" />
+        <span id="switch-check-text">I confirm switching the active production model for this pipeline.</span>
+      </label>
+      <p id="switch-error" class="error-text" hidden></p>
+
+      <div class="modal-actions">
+        <button type="button" class="btn" id="cancel-switch-btn">Cancel</button>
+        <button type="button" class="btn primary" id="confirm-switch-btn">Confirm Switch</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
