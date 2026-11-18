@@ -1,0 +1,227 @@
+[
+  {
+    "id": "JOB-501",
+    "title": "Remote Data Entry Clerk (Instant Daily Payout)",
+    "company": "QuickRich Global Marketing Enterprise",
+    "companyVerified": false,
+    "recruiterEmail": "quickrich888@gmail.com",
+    "salary": "RM 6,500 – RM 9,000 / month",
+    "location": "Remote (Anywhere in Malaysia)",
+    "submittedAt": "2026-11-12",
+    "riskScore": 96,
+    "reasons": [
+      "Salary is 320% above market average for entry-level data entry",
+      "Requests RM 150 'training & registration fee' before onboarding",
+      "Employer company failed SSM verification (#54)"
+    ],
+    "keywords": ["instant payout", "registration fee", "whatsapp only", "no experience"],
+    "description": "Urgent hiring! Work 2 hours a day from your phone typing simple forms. Earn RM 300 daily with instant payout. Must pay a refundable RM 150 registration fee for account activation. Contact us on WhatsApp only.",
+    "status": "Waiting",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-502",
+    "title": "Part-Time E-Commerce Order Processor (Work From Home)",
+    "company": "FastCash Crypto Holdings",
+    "companyVerified": false,
+    "recruiterEmail": "admin@fastcash-invest.io",
+    "salary": "RM 1,800 / week",
+    "location": "Remote",
+    "submittedAt": "2026-11-12",
+    "riskScore": 91,
+    "reasons": [
+      "Classic task-boosting / advance-fee scam pattern detected",
+      "Directs candidates to external Telegram channel instead of platform",
+      "Unregistered offshore employer entity"
+    ],
+    "keywords": ["telegram", "weekly payout", "top up", "guaranteed commission"],
+    "description": "Help merchants boost product ratings from home. No interview required! Earn RM 1,800 every week with guaranteed commission. Message our Telegram coordinator to start immediately.",
+    "status": "Waiting",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-503",
+    "title": "Personal Assistant & Crypto Payment Courier",
+    "company": "Global FastEarn Enterprise",
+    "companyVerified": false,
+    "recruiterEmail: ": "hr.fastearn@yahoo.com",
+    "salary": "RM 8,000 / month",
+    "location": "Johor Bahru, Johor",
+    "submittedAt": "2026-11-11",
+    "riskScore": 85,
+    "reasons": [
+      "Asks applicant to use personal bank account to transfer client funds (Money Mule risk)",
+      "Recruiter uses free personal @yahoo.com email address"
+    ],
+    "keywords": ["personal bank account", "cash handling", "crypto transfer", "urgent"],
+    "description": "Looking for an energetic assistant to receive client transfers into your personal bank account and convert them at designated kiosks. 10% commission per transaction.",
+    "status": "Waiting",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-504",
+    "title": "Social Media Ad Posting Assistant (No Resume Needed)",
+    "company": "Alpha Media Venture",
+    "companyVerified": false,
+    "recruiterEmail": "alphamedia.jb@gmail.com",
+    "salary": "RM 4,500 – RM 7,000 / month",
+    "location": "Remote / Petaling Jaya",
+    "submittedAt": "2026-11-10",
+    "riskScore": 76,
+    "reasons": [
+      "High salary with zero qualification or resume requirement",
+      "Contains multiple high-risk scam n-grams from EMSCAD dataset"
+    ],
+    "keywords": ["no resume", "easy money", "work from phone", "daily cash"],
+    "description": "Copy and paste ads on social media from your phone. No resume or experience needed. Daily cash settlement.",
+    "status": "Rejected",
+    "decisionNote": "Suspected job scam / upfront fee requested — Flagged at 76% AI risk for 'no resume' and 'daily cash' scam patterns."
+  },
+  {
+    "id": "JOB-505",
+    "title": "High-Commission Property & Forex Telemarketer",
+    "company": "Apex Wealth Partners",
+    "companyVerified": true,
+    "recruiterEmail": "talent@apexwealth.com.my",
+    "salary": "RM 1,500 Basic + Uncapped Commission",
+    "location": "Cheras, Kuala Lumpur",
+    "submittedAt": "2026-11-11",
+    "riskScore": 58,
+    "reasons": [
+      "Heavy emphasis on 'uncapped commission' and cold-calling",
+      "Job description is unusually brief (< 45 words)"
+    ],
+    "keywords": ["uncapped commission", "cold calling", "fast money"],
+    "description": "Call high-net-worth leads for offshore wealth products. Uncapped commission structure where top performers make RM 20k/month.",
+    "status": "Waiting",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-506",
+    "title": "Freelance Night-Shift Live Stream Host",
+    "company": "Starlight Media Sdn. Bhd.",
+    "companyVerified": true,
+    "recruiterEmail": "hr@starlightmedia.my",
+    "salary": "RM 3,500 – RM 6,000 / month",
+    "location": "Subang Jaya, Selangor",
+    "submittedAt": "2026-11-11",
+    "riskScore": 44,
+    "reasons": [
+      "Wide salary variance; requests personal social media links upfront"
+    ],
+    "keywords": ["night shift", "cash bonus"],
+    "description": "Host 4-hour evening e-commerce live streams for fashion and gadget brands. Base allowance plus sales commission.",
+    "status": "Waiting",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-507",
+    "title": "Junior Customer Support Executive (Shift Basis)",
+    "company": "Cyberjaya Cloud FinTech Sdn. Bhd.",
+    "companyVerified": true,
+    "recruiterEmail": "grace.tan@cyberfintech.my",
+    "salary": "RM 2,800 – RM 3,400 / month",
+    "location": "Cyberjaya, Selangor",
+    "submittedAt": "2026-11-10",
+    "riskScore": 22,
+    "reasons": [
+      "Verified corporate employer; minor flag for 'urgent hiring' phrase"
+    ],
+    "keywords": ["urgent hiring"],
+    "description": "Handle merchant payment gateway inquiries via ticketing system and phone. Rotational shift allowance provided.",
+    "status": "Waiting",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-508",
+    "title": "AI & Python Backend Engineer (FastAPI)",
+    "company": "Melaka Digital Labs Sdn. Bhd.",
+    "companyVerified": true,
+    "recruiterEmail": "careers@melakadigital.my",
+    "salary": "RM 4,000 – RM 5,200 / month",
+    "location": "Ayer Keroh, Melaka",
+    "submittedAt": "2026-11-11",
+    "riskScore": 15,
+    "reasons": [
+      "Verified SSM employer (#54)",
+      "Detailed technical requirements (Python, FastAPI, PostgreSQL, Docker)"
+    ],
+    "keywords": [],
+    "description": "Build and maintain RESTful AI microservices using FastAPI, scikit-learn, and PostgreSQL. Collaborate with Flutter frontend engineers.",
+    "status": "Waiting",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-509",
+    "title": "Predictive Maintenance IoT Engineer",
+    "company": "BPE Energy Sdn. Bhd.",
+    "companyVerified": false,
+    "recruiterEmail": "careers@bpe.com.my",
+    "salary": "RM 4,200 – RM 5,500 / month",
+    "location": "Shah Alam, Selangor",
+    "submittedAt": "2026-11-12",
+    "riskScore": 12,
+    "reasons": [
+      "Low AI text risk (clear engineering scope & realistic salary)",
+      "Note: Employer SSM verification (CMP-1002) is still Waiting in #54"
+    ],
+    "keywords": [],
+    "description": "Deploy IoT earthing sensors and analyze motor vibration telemetry using BPE's ARTESIS predictive maintenance platform.",
+    "status": "Waiting",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-510",
+    "title": "Mechanical & Electrical (M&E) Project Engineer",
+    "company": "Straits Technics Sdn. Bhd. (STSB)",
+    "companyVerified": true,
+    "recruiterEmail": "hr@straitstechnics.com.my",
+    "salary": "RM 3,800 – RM 4,800 / month",
+    "location": "Petaling Jaya, Selangor",
+    "submittedAt": "2026-11-09",
+    "riskScore": 10,
+    "reasons": [
+      "Clear engineering scope, valid corporate domain, and standard EPF/SOCSO benefits"
+    ],
+    "keywords": [],
+    "description": "Supervise EPCIC mechanical and water pump installation works across Selangor utility sites. Degree in Mechanical/Electrical Engineering required.",
+    "status": "Approved",
+    "decisionNote: ": ""
+  },
+  {
+    "id": "JOB-511",
+    "title": "Civil & Structural Site Engineer (CIDB G7 Projects)",
+    "company": "SBE Engineering Sdn. Bhd.",
+    "companyVerified": true,
+    "recruiterEmail": "admin@sbeengineering.com.my",
+    "salary": "RM 4,000 – RM 5,000 / month",
+    "location": "Kuala Lumpur",
+    "submittedAt": "2026-11-08",
+    "riskScore": 8,
+    "reasons": [
+      "Verified CIDB G7 employer; zero fraud indicators detected"
+    ],
+    "keywords": [],
+    "description": "Manage bridge expansion joint replacement and slope rehabilitation works. Coordinate site safety and QA/QC inspections.",
+    "status": "Approved",
+    "decisionNote": ""
+  },
+  {
+    "id": "JOB-512",
+    "title": "Graduate IC Design & Embedded Firmware Engineer",
+    "company": "Penang Silicon Microelectronics Sdn. Bhd.",
+    "companyVerified": true,
+    "recruiterEmail": "recruitment@penangsilicon.my",
+    "salary": "RM 4,500 – RM 5,400 / month",
+    "location": "Bayan Lepas, Penang",
+    "submittedAt": "2026-11-07",
+    "riskScore": 6,
+    "reasons": [
+      "Verified Penang FIZ employer; detailed C/C++ and Verilog skill requirements"
+    ],
+    "keywords": [],
+    "description": "Develop and validate embedded C++ firmware and RTL testbenches for automotive microcontrollers in Bayan Lepas FIZ.",
+    "status": "Approved",
+    "decisionNote": ""
+  }
+]

@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Job Review</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left navigation menu for Admin role -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../31-admin-dashboard/index.html">Dashboard</a>
+      <a href="../32-users-and-roles/index.html">Users &amp; Roles</a>
+      <a href="../54-company-verification/index.html">Company Verification</a>
+      <a href="../55-job-review/index.html" class="active">Job Review</a>
+      <a href="../56-ai-models-and-datasets/index.html">AI Models &amp; Datasets</a>
+      <a href="../57-alerts-and-errors/index.html">Alerts &amp; Errors</a>
+      <a href="../58-bug-reports/index.html">Bug Reports</a>
+      <a href="../59-rejection-reasons-trends/index.html">Rejection Trends</a>
+    </nav>
+
+    <!-- Main Content for Task #55: Job Review -->
+    <main>
+      <h1 class="page-title">Job review</h1>
+      <p class="page-sub">Review newly submitted job postings ranked by AI fraud risk score (highest risk first) before publishing.</p>
+
+      <!-- Interactive KPI Filter Cards (Click any card to filter the table) -->
+      <div class="grid-4" role="tablist" aria-label="Filter job postings">
+        <button type="button" class="card kpi-card active" data-filter="all">
+          <div class="kpi-top">
+            <span class="muted">All job posts</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-total">0</div>
+          <div class="kpi-hint">Sorted by highest risk</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-filter="Waiting">
+          <div class="kpi-top">
+            <span class="muted">Waiting review</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-waiting" style="color: var(--warn);">0</div>
+          <div class="kpi-hint">Pending admin decision</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-filter="HighRisk">
+          <div class="kpi-top">
+            <span class="muted">High AI risk (&ge; 70%)</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-high" style="color: var(--bad);">0</div>
+          <div class="kpi-hint">Flagged by AI detector</div>
+        </button>
+
+        <button type="button" class="card kpi-card" data-filter="Reviewed">
+          <div class="kpi-top">
+            <span class="muted">Reviewed jobs</span>
+            <span class="kpi-active-pill">Viewing</span>
+          </div>
+          <div class="number" id="stat-reviewed" style="color: var(--ok);">0</div>
+          <div class="kpi-hint">Approved or rejected</div>
+        </button>
+      </div>
+
+      <!-- Job Review Table Section -->
+      <section class="card" style="margin-top: 24px;">
+        <div class="toolbar">
+          <!-- Dynamic indicator showing which KPI card & risk level is currently displayed -->
+          <div class="current-view-wrap">
+            <h2 style="margin: 0;">New job postings queue</h2>
+            <span class="status info" id="current-view-badge">Displaying: All job posts</span>
+          </div>
+
+          <!-- Risk level dropdown + Search box -->
+          <div class="toolbar-controls">
+            <select id="risk-level-select" title="Filter by AI Risk Tier">
+              <option value="all">All AI risk tiers</option>
+              <option value="high">High risk (&ge; 70%)</option>
+              <option value="medium">Medium risk (40% – 69%)</option>
+              <option value="low">Low risk (&lt; 40%)</option>
+            </select>
+
+            <div class="search-box">
+              <input type="search" id="search-input" placeholder="Search job title, company, keyword...">
+              <button type="button" id="clear-search-btn" class="clear-search" hidden title="Clear search">✕</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Job Title &amp; Company</th>
+                <th>Salary &amp; Location</th>
+                <th>AI Risk Score (Sorted ↓)</th>
+                <th>AI Flagged Reasons &amp; Trigger Words</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="jobs-tbody">
+              <!-- Populated dynamically by script.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Numbered Pagination Bar (Prev, 1, 2, 3, Next) -->
+        <div class="pagination-bar">
+          <div class="pagination-info">
+            <span id="pagination-summary" class="muted">Showing 0–0 of 0</span>
+            <label for="page-size-select" class="page-size-label">
+              Rows per page:
+              <select id="page-size-select">
+                <option value="5" selected>5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+              </select>
+            </label>
+          </div>
+          <div class="pagination-pages" id="pagination-controls"></div>
+        </div>
+
+        <!-- Bottom Feedback Banner -->
+        <p id="message" class="muted" style="margin-top: 16px;"></p>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal 1: Job Post Details & AI Risk Breakdown Inspector -->
+  <div id="job-modal" class="modal-backdrop" hidden>
+    <div class="modal modal-lg">
+      <div class="modal-header">
+        <div>
+          <h3 id="ins-job-title">Job Post Details</h3>
+          <p class="muted" id="ins-job-sub" style="margin: 0;"></p>
+        </div>
+        <button type="button" class="btn sm" id="close-job-modal-btn">✕ Close</button>
+      </div>
+
+      <div class="inspector-grid">
+        <!-- Left: Job post content -->
+        <div class="job-details-box">
+          <h4>Submitted Job Details</h4>
+          <dl class="profile-dl">
+            <dt>Company</dt>
+            <dd id="ins-company"></dd>
+
+            <dt>Salary &amp; Type</dt>
+            <dd id="ins-salary"></dd>
+
+            <dt>Location</dt>
+            <dd id="ins-location"></dd>
+
+            <dt>Recruiter Email</dt>
+            <dd id="ins-email"></dd>
+
+            <dt>Job Description</dt>
+            <dd id="ins-description" class="job-desc-text"></dd>
+          </dl>
+        </div>
+
+        <!-- Right: AI Risk Analysis Panel -->
+        <div class="ai-analysis-box">
+          <h4>AI Fraud Analysis (Preview of #61)</h4>
+          <div id="ins-risk-badge-wrap" style="margin-bottom: 12px;"></div>
+
+          <p style="font-size: 13px; font-weight: 600; margin: 12px 0 6px;">Flagged Risk Factors:</p>
+          <ul id="ins-reasons-list" class="reasons-list"></ul>
+
+          <p style="font-size: 13px; font-weight: 600; margin: 14px 0 6px;">Suspicious Trigger Words Detected:</p>
+          <div id="ins-keywords" class="reason-tags"></div>
+        </div>
+      </div>
+
+      <div class="modal-actions" style="justify-content: space-between;">
+        <span id="ins-status-label"></span>
+        <div class="action-btns">
+          <button type="button" class="btn approve" id="ins-approve-btn">Approve Job...</button>
+          <button type="button" class="btn danger" id="ins-reject-btn">Reject Job...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Approve Job Confirmation Modal (Handles High-Risk OR Unverified Company Override) -->
+  <div id="approve-modal" class="modal-backdrop" hidden>
+    <div class="modal">
+      <h3>Confirm job approval</h3>
+      <p class="muted" id="approve-modal-sub" style="margin-top: 0;"></p>
+
+      <!-- Shown when approving a High-Risk job (>= 70%) OR a job from an Unverified Company (#54) -->
+      <div id="high-risk-warning-box" class="high-risk-alert" hidden>
+        <strong id="override-alert-title">⚠️ Admin Override Required</strong>
+        <p id="override-alert-desc" style="margin: 4px 0 0; font-size: 13px;"></p>
+        <label for="override-reason-input" style="margin-top: 10px;">Admin override / verification justification <span style="color:var(--bad)">*</span></label>
+        <textarea id="override-reason-input" rows="2" placeholder="Required (min 10 chars): Explain why this job is safe to publish (or confirm #54 company verification)..."></textarea>
+      </div>
+
+      <label class="checkbox-label" for="approve-confirm-check">
+        <input type="checkbox" id="approve-confirm-check">
+        <span>I confirm that I have reviewed the job description and AI risk indicators, and approve publishing this listing.</span>
+      </label>
+      <p id="approve-error" class="error-text" hidden></p>
+
+      <div class="modal-actions">
+        <button type="button" class="btn" id="cancel-approve-btn">Cancel</button>
+        <button type="button" class="btn approve" id="confirm-approve-btn">Confirm &amp; Publish</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Mandatory Reject Job Modal -->
+  <div id="reject-modal" class="modal-backdrop" hidden>
+    <div class="modal">
+      <h3>Reject job posting</h3>
+      <p class="muted" id="reject-modal-sub" style="margin-top: 0;"></p>
+
+      <label for="reject-category">Standard rejection reason</label>
+      <select id="reject-category">
+        <option value="Suspected job scam / upfront fee requested">Suspected job scam / upfront fee requested</option>
+        <option value="Unrealistic salary or misleading compensation">Unrealistic salary or misleading compensation</option>
+        <option value="Redirects applicants to unverified WhatsApp / Telegram">Redirects applicants to unverified WhatsApp / Telegram</option>
+        <option value="Employer company account is not verified (#54)">Employer company account is not verified (#54)</option>
+        <option value="Vague or incomplete job description">Vague or incomplete job description</option>
+      </select>
+
+      <label for="reject-reason-input">Detailed explanation for recruiter <span style="color:var(--bad)">*</span></label>
+      <textarea id="reject-reason-input" rows="3" placeholder="Required (min 10 chars): Explain why this job post was rejected..."></textarea>
+      <p id="reject-error" class="error-text" hidden>Please enter a clear rejection explanation (at least 10 characters).</p>
+
+      <div class="modal-actions">
+        <button type="button" class="btn" id="cancel-reject-btn">Cancel</button>
+        <button type="button" class="btn danger" id="confirm-reject-btn">Confirm Reject</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

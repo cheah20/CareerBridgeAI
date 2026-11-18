@@ -1,0 +1,172 @@
+/* CareerBridge look. Keep this top part the same on every page. */
+:root {
+  --bg: #F4F6F9;        /* page background */
+  --card: #FFFFFF;      /* cards */
+  --soft: #F1F4F8;      /* soft boxes, table header */
+  --line: #E1E6ED;      /* borders */
+  --text: #111827;      /* main text */
+  --sub: #4B5563;       /* grey text */
+  --accent: #2F6FDB;    /* links, highlights */
+  --ok: #15803D;        /* good, done */
+  --warn: #B45309;      /* waiting, needs attention */
+  --bad: #B91C1C;       /* errors, rejected */
+  --radius: 16px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: "Inter", "Segoe UI", system-ui, sans-serif; font-size: 16px; line-height: 1.6; }
+a { color: var(--accent); }
+
+/* Layout: menu on the left, page on the right */
+.layout { display: grid; grid-template-columns: 240px 1fr; min-height: 100vh; }
+.menu { background: var(--card); border-right: 1px solid var(--line); padding: 20px 14px; }
+.brand { font-weight: 700; font-size: 18px; padding: 0 10px 18px; }
+.menu a { display: block; padding: 9px 12px; border-radius: 10px; color: var(--sub); text-decoration: none; font-weight: 500; }
+.menu a:hover { background: var(--soft); }
+.menu a.active { background: var(--soft); color: var(--text); }
+main { padding: 28px 36px; max-width: 1400px; }
+.page-title { font-size: 30px; font-weight: 700; margin: 0 0 4px; }
+.page-sub { color: var(--sub); margin: 0 0 24px; }
+
+/* Cards and grids */
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: 0 1px 2px rgba(17,24,39,.05); }
+.card h2 { font-size: 20px; margin: 0 0 12px; }
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.stack { display: grid; gap: 20px; }
+.number { font-size: 34px; font-weight: 700; line-height: 1.1; }
+.muted { color: var(--sub); font-size: 15px; }
+
+/* Buttons */
+.btn { display: inline-block; border: 1px solid var(--line); background: var(--card); color: var(--text); padding: 9px 16px; border-radius: 10px; font: 600 14px inherit; cursor: pointer; }
+.btn:hover { border-color: var(--sub); }
+.btn.primary { background: var(--text); color: #FFFFFF; border-color: var(--text); }
+.btn.danger { color: var(--bad); }
+
+/* Status labels */
+.status { display: inline-block; font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
+.status.ok { color: var(--ok); background: #E7F6EC; }
+.status.warn { color: var(--warn); background: #FDF1E4; }
+.status.bad { color: var(--bad); background: #FDECEC; }
+.status.info { color: var(--accent); background: #E8F0FD; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th { text-align: left; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--sub); background: var(--soft); padding: 10px 12px; }
+td { padding: 12px; border-top: 1px solid var(--line); }
+
+/* Forms */
+label { display: block; font-weight: 600; font-size: 14px; margin: 14px 0 6px; }
+input, select, textarea { width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; font: inherit; background: var(--card); }
+input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); border-color: transparent; }
+
+/* Tabs */
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+.tabs button { border: 0; background: none; padding: 10px 16px; font: 600 15px inherit; color: var(--sub); border-bottom: 3px solid transparent; cursor: pointer; }
+.tabs button.active { color: var(--text); border-bottom-color: var(--text); }
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .grid-2, .grid-4 { grid-template-columns: 1fr; }
+}
+
+/* ---- Your own styles below this line ---- */
+
+/* Left navigation menu active & hover highlight so user clearly sees current page */
+.brand { color: var(--accent); border-bottom: 1px solid var(--line); margin-bottom: 12px; padding-bottom: 14px; }
+.menu a { margin-bottom: 4px; transition: all 0.15s ease; border-left: 3px solid transparent; }
+.menu a:hover { background: #E8F0FD; color: var(--accent); }
+.menu a.active { background: var(--accent); color: #FFFFFF; font-weight: 600; border-left-color: #1E40AF; box-shadow: 0 2px 6px rgba(47, 111, 219, 0.25); }
+
+/* Clickable KPI Filter Cards */
+.kpi-card { text-align: left; font: inherit; cursor: pointer; transition: all 0.18s ease; position: relative; display: flex; flex-direction: column; gap: 6px; }
+.kpi-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(47, 111, 219, 0.08); }
+.kpi-card.active { border: 2px solid var(--accent); background: #F8FAFF; box-shadow: 0 4px 14px rgba(47, 111, 219, 0.12); }
+.kpi-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.kpi-active-pill { display: none; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); background: #E8F0FD; padding: 2px 8px; border-radius: 999px; }
+.kpi-card.active .kpi-active-pill { display: inline-block; }
+.kpi-hint { font-size: 12px; color: var(--sub); margin-top: 2px; }
+
+/* Toolbar & Search */
+.toolbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
+.current-view-wrap { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.toolbar-controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.toolbar-controls select { width: 190px; }
+.search-box { position: relative; display: flex; align-items: center; }
+.search-box input { width: 290px; padding-right: 34px; }
+.clear-search { position: absolute; right: 8px; border: 0; background: none; color: var(--sub); cursor: pointer; font-size: 14px; padding: 4px; border-radius: 6px; }
+.clear-search:hover { color: var(--text); background: var(--soft); }
+.table-wrap { overflow-x: auto; }
+td { vertical-align: top; }
+
+/* Job Title Button & Company Badges */
+.job-title-btn { background: none; border: 0; padding: 0; font: 700 15px inherit; color: var(--accent); cursor: pointer; text-align: left; }
+.job-title-btn:hover { text-decoration: underline; }
+.job-meta { font-size: 13px; color: var(--sub); margin-top: 3px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.verify-pill { font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 6px; }
+.verify-pill.verified { background: #E7F6EC; color: var(--ok); }
+.verify-pill.unverified { background: #FDF1E4; color: var(--warn); border: 1px solid #FCD34D; }
+
+/* AI Risk Score Progress Bar */
+.risk-wrap { display: flex; flex-direction: column; gap: 6px; min-width: 115px; }
+.risk-bar { width: 100%; height: 8px; background: var(--soft); border-radius: 99px; overflow: hidden; }
+.risk-fill { height: 100%; border-radius: 99px; }
+
+/* AI Reason Tags & Trigger Word Badges */
+.reason-list-compact { margin: 0 0 6px; padding-left: 16px; font-size: 13px; color: var(--text); }
+.reason-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.tag { font-size: 11px; font-weight: 600; background: var(--soft); color: var(--sub); padding: 2px 8px; border-radius: 6px; border: 1px solid var(--line); }
+.tag.bad-word { background: #FDECEC; color: var(--bad); border-color: #FECACA; }
+
+/* Decision Audit Box (Rejection / Override Notes) */
+.decision-note-box { margin-top: 8px; padding: 7px 10px; border-radius: 6px; font-size: 12px; }
+.decision-note-box.rejected { background: #FDECEC; border-left: 3px solid var(--bad); color: var(--bad); }
+.decision-note-box.override { background: #FDF1E4; border-left: 3px solid var(--warn); color: var(--warn); }
+
+/* Action Buttons & Disabled Prevention */
+.action-btns { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.btn.sm { padding: 6px 12px; font-size: 13px; }
+.btn.approve { color: var(--ok); border-color: #BBF7D0; background: #F0FDF4; }
+.btn.approve:hover:not(:disabled) { border-color: var(--ok); background: #DCFCE7; }
+.btn.danger:hover:not(:disabled) { border-color: var(--bad); background: #FDECEC; }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; pointer-events: none; }
+
+/* Pagination Bar */
+.pagination-bar { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); flex-wrap: wrap; }
+.pagination-info { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.page-size-label { display: inline-flex; align-items: center; gap: 8px; margin: 0; font-size: 14px; font-weight: 500; color: var(--sub); }
+.page-size-label select { width: auto; padding: 5px 10px; font-size: 14px; }
+.pagination-pages { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.page-btn { min-width: 36px; height: 36px; padding: 0 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 8px; font: 600 14px inherit; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+.page-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.page-btn.active { background: var(--accent); color: #FFFFFF; border-color: var(--accent); }
+.page-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* Modals */
+.modal-backdrop { position: fixed; inset: 0; background: rgba(17, 24, 39, 0.5); display: flex; align-items: center; justify-content: center; z-index: 100; padding: 16px; }
+.modal-backdrop[hidden] { display: none; }
+.modal { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; width: 100%; max-width: 520px; box-shadow: 0 12px 32px rgba(17, 24, 39, 0.18); max-height: 92vh; overflow-y: auto; }
+.modal.modal-lg { max-width: 900px; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+.modal h3 { margin: 0 0 4px; font-size: 20px; }
+.modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--line); align-items: center; }
+
+/* Inspector Grid inside Job Modal */
+.inspector-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; }
+.job-details-box, .ai-analysis-box { background: var(--soft); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+.job-details-box h4, .ai-analysis-box h4 { margin: 0 0 12px; font-size: 14px; text-transform: uppercase; letter-spacing: .04em; color: var(--sub); }
+.profile-dl { margin: 0; display: grid; gap: 10px; }
+.profile-dl dt { font-size: 12px; font-weight: 600; color: var(--sub); text-transform: uppercase; }
+.profile-dl dd { margin: 0; font-size: 14px; font-weight: 500; color: var(--text); }
+.job-desc-text { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-size: 13px; line-height: 1.5; color: var(--sub); }
+.reasons-list { margin: 0; padding-left: 18px; font-size: 13px; display: grid; gap: 6px; }
+
+/* High-Risk Override Alert Box inside Approve Modal */
+.high-risk-alert { background: #FDECEC; border: 1px solid #FCA5A5; border-left: 4px solid var(--bad); border-radius: 10px; padding: 12px 14px; margin: 12px 0; color: var(--bad); }
+.checkbox-label { display: flex; align-items: flex-start; gap: 10px; font-weight: 500; font-size: 14px; cursor: pointer; margin-top: 12px; }
+.checkbox-label input[type="checkbox"] { width: 18px; height: 18px; margin-top: 2px; flex-shrink: 0; cursor: pointer; }
+.error-text { color: var(--bad); font-size: 13px; font-weight: 600; margin: 8px 0 0; }
+
+@media (max-width: 900px) {
+  .inspector-grid { grid-template-columns: 1fr; }
+  .search-box input { width: 100%; }
+}
