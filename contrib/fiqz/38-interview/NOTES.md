@@ -1,6 +1,5 @@
-# Task #__ — page name
+# Task #38 — Interview & Status
 
-**What I made:**
 **What I made:**
 - Built the candidate lifecycle management interface for applicant Aina Example applying for "Junior Mobile App Developer".
 - Implemented all 7 confirmed application statuses: Applied, Under Review, Shortlisted, Interview, Offer, Hired, and Rejected.
@@ -16,3 +15,9 @@
 **What is not finished / I was unsure about:**
 
 **How to look at it:** open `index.html` in Chrome.
+
+# Task #69 — Rejection
+
+- Extended the candidate status management interface so choosing `Rejected` dynamically reveals a required dropdown of 4 fixed rejection reasons (`Missing skill`, `Not enough experience`, `Missing certificate`, `Role filled`) with no free-text input.
+- Added client-side validation blocking submission if `Rejected` is selected without choosing a reason.
+- Preserved the toast notification for status updates and centered modal confirmation for interview invitations.
