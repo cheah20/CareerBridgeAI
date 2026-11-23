@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Job List (Sorted by Match %)</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .status {
+      white-space: nowrap;
+    }
+    .job-card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 18px 20px;
+      background: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 14px;
+    }
+    .job-card:last-child {
+      margin-bottom: 0;
+    }
+    .skill-pill {
+      display: inline-block;
+      padding: 3px 9px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 500;
+      background: var(--soft);
+      color: var(--text);
+      border: 1px solid var(--line);
+      margin-right: 6px;
+      margin-top: 6px;
+    }
+    .match-box {
+      text-align: center;
+      min-width: 115px;
+      flex-shrink: 0;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #f8fafc;
+      border: 1px solid var(--line);
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Navigation Menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../33-company-profile/index.html">Company Profile</a>
+      <a href="../34-my-job-posts/index.html">My Job Posts</a>
+      <a href="../35-create-job/index.html">Post a Job</a>
+      <a href="../36-applicants/index.html">Applicants</a>
+      <a href="../37-applicant-detail/index.html">Applicant Detail</a>
+      <a href="../69-rejection-reason/index.html">Interview &amp; Status</a>
+      <a href="../68-talent-simulator/index.html">Talent Simulator</a>
+      <a href="index.html" class="active">Job List (Seeker)</a>
+      <a href="../67-job-detail/index.html">Job Detail (Seeker)</a>
+      <a href="../39-contact-admin/index.html">Contact Admin</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:20px;">
+        <div>
+          <h1 class="page-title">Recommended Open Jobs</h1>
+          <p class="page-sub">Showing open vacancies matched to candidate profile <strong>Aina Example</strong>, sorted by AI Match % (highest first).</p>
+        </div>
+        <div style="flex-shrink:0;">
+          <span class="status ok">AI Fit Active</span>
+        </div>
+      </div>
+
+      <!-- 5 Required Filters Card -->
+      <section class="card" style="margin-top:20px; background:var(--soft);">
+        <h3 style="margin:0 0 12px 0; font-size:16px;">Filter Open Jobs</h3>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(175px, 1fr)); gap:12px; align-items:end;">
+          <div>
+            <label for="filterLocation" style="margin-top:0;">Location</label>
+            <select id="filterLocation">
+              <option value="All">All Locations</option>
+              <option value="Kuala Lumpur">Kuala Lumpur</option>
+              <option value="Selangor">Selangor</option>
+              <option value="Johor Bahru">Johor Bahru</option>
+              <option value="Penang">Penang</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="filterSalary" style="margin-top:0;">Min Salary (MYR)</label>
+            <select id="filterSalary">
+              <option value="0">Any Salary</option>
+              <option value="2500">RM 2,500+</option>
+              <option value="3500">RM 3,500+</option>
+              <option value="4500">RM 4,500+</option>
+              <option value="6000">RM 6,000+</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="filterWorkType" style="margin-top:0;">Work Type</label>
+            <select id="filterWorkType">
+              <option value="All">All Work Types</option>
+              <option value="Full-time">Full-time</option>
+              <option value="Contract">Contract</option>
+              <option value="Internship">Internship</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="filterExp" style="margin-top:0;">Experience Level</label>
+            <select id="filterExp">
+              <option value="All">All Levels</option>
+              <option value="Fresh Graduate">Fresh Graduate</option>
+              <option value="Junior">Junior (1–2 yrs)</option>
+              <option value="Mid-Level">Mid-Level (3–5 yrs)</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="filterIndustry" style="margin-top:0;">Industry</label>
+            <select id="filterIndustry">
+              <option value="All">All Industries</option>
+              <option value="Information Technology">Information Technology</option>
+              <option value="FinTech">FinTech &amp; Banking</option>
+              <option value="E-Commerce">E-Commerce &amp; Retail</option>
+              <option value="Telecommunications">Telecommunications</option>
+            </select>
+          </div>
+        </div>
+
+        <p style="margin:14px 0 0 0; display:flex; gap:10px; align-items:center;">
+          <button type="button" id="applyFiltersBtn" class="btn primary">Apply Filters</button>
+          <button type="button" id="resetFiltersBtn" class="btn">Reset All</button>
+          <span id="resultCount" class="muted" style="margin-left:auto; font-size:13px; font-weight:600;">Showing 5 open jobs</span>
+        </p>
+      </section>
+
+      <!-- Job Results Container (Sorted by Match % Descending) -->
+      <section class="card" style="margin-top:20px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+          <h2 style="margin:0;">Open Vacancies</h2>
+          <span class="muted" style="font-size:13px;">Sorted by: <strong>AI Match % (Highest First)</strong></span>
+        </div>
+
+        <div id="jobListContainer"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    const JOBS = [
+      {
+        id: "JOB-101",
+        title: "Junior Mobile App Developer",
+        company: "Zenith Global Solutions Sdn Bhd",
+        location: "Kuala Lumpur",
+        salaryMin: 3500,
+        salaryText: "RM 3,500 – RM 4,800",
+        workType: "Full-time",
+        workMode: "Hybrid",
+        experience: "Junior",
+        industry: "Information Technology",
+        match: 94,
+        level: "Strong Match",
+        badgeClass: "ok",
+        skills: ["Flutter", "Dart", "REST API", "Git", "Firebase"],
+        posted: "2 days ago"
+      },
+      {
+        id: "JOB-102",
+        title: "Frontend Flutter Engineer",
+        company: "Bayu Digital Pay Sdn Bhd",
+        location: "Selangor",
+        salaryMin: 4200,
+        salaryText: "RM 4,200 – RM 5,500",
+        workType: "Full-time",
+        workMode: "Hybrid",
+        experience: "Junior",
+        industry: "FinTech",
+        match: 88,
+        level: "Strong Match",
+        badgeClass: "ok",
+        skills: ["Flutter", "Dart", "UI/UX", "State Management"],
+        posted: "3 days ago"
+      },
+      {
+        id: "JOB-103",
+        title: "Mobile Software Engineer (Cross-Platform)",
+        company: "Kulai Tech Logistics Sdn Bhd",
+        location: "Johor Bahru",
+        salaryMin: 4800,
+        salaryText: "RM 4,800 – RM 6,200",
+        workType: "Full-time",
+        workMode: "On-site",
+        experience: "Mid-Level",
+        industry: "E-Commerce",
+        match: 79,
+        level: "Moderate Match",
+        badgeClass: "warn",
+        skills: ["Flutter", "REST API", "SQLite", "Docker"],
+        posted: "5 days ago"
+      },
+      {
+        id: "JOB-104",
+        title: "Software Engineering Intern (Mobile)",
+        company: "Awan Cloud Systems Sdn Bhd",
+        location: "Penang",
+        salaryMin: 1200,
+        salaryText: "RM 1,200 – RM 1,500",
+        workType: "Internship",
+        workMode: "Remote",
+        experience: "Fresh Graduate",
+        industry: "Information Technology",
+        match: 74,
+        level: "Moderate Match",
+        badgeClass: "warn",
+        skills: ["Dart", "Git", "HTML/CSS"],
+        posted: "1 week ago"
+      },
+      {
+        id: "JOB-105",
+        title: "Backend Python & API Developer",
+        company: "Nexus Telco Innovations Sdn Bhd",
+        location: "Kuala Lumpur",
+        salaryMin: 5000,
+        salaryText: "RM 5,000 – RM 6,800",
+        workType: "Contract",
+        workMode: "Hybrid",
+        experience: "Mid-Level",
+        industry: "Telecommunications",
+        match: 61,
+        level: "Fair Match",
+        badgeClass: "warn",
+        skills: ["Python", "FastAPI", "PostgreSQL", "REST API"],
+        posted: "1 week ago"
+      }
+    ];
+
+    const container = document.getElementById("jobListContainer");
+    const resultCount = document.getElementById("resultCount");
+
+    function renderJobs(list) {
+      // Always sort by AI match % descending
+      const sorted = [...list].sort((a, b) => b.match - a.match);
+      resultCount.textContent = `Showing ${sorted.length} open job${sorted.length === 1 ? "" : "s"}`;
+
+      if (sorted.length === 0) {
+        container.innerHTML = `
+          <div style="padding:28px; text-align:center; border:1px dashed var(--line); border-radius:10px;">
+            <p style="margin:0 0 6px 0; font-weight:600;">No jobs match your current filters</p>
+            <p class="muted" style="margin:0; font-size:13px;">Try clearing Location, Salary, or Industry filters to broaden your results.</p>
+          </div>`;
+        return;
+      }
+
+      container.innerHTML = sorted.map(job => `
+        <article class="job-card">
+          <div style="flex:1;">
+            <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+              <h3 style="margin:0; font-size:17px;">
+                <a href="../67-job-detail/index.html" style="color:var(--text); text-decoration:none;">${job.title}</a>
+              </h3>
+              <span class="muted" style="font-size:12px;">&bull; ${job.posted}</span>
+            </div>
+            <p style="margin:4px 0 8px 0; font-size:14px; font-weight:500; color:var(--sub);">
+              ${job.company} &bull; ${job.location} (${job.workMode})
+            </p>
+            <div style="font-size:13px; color:var(--sub); display:flex; gap:14px; flex-wrap:wrap;">
+              <span>💰 <strong>${job.salaryText}</strong></span>
+              <span>💼 ${job.workType}</span>
+              <span>🎓 ${job.experience}</span>
+              <span>🏢 ${job.industry}</span>
+            </div>
+            <div style="margin-top:6px;">
+              ${job.skills.map(s => `<span class="skill-pill">${s}</span>`).join("")}
+            </div>
+          </div>
+
+          <div class="match-box">
+            <div class="number" style="font-size:24px; color:var(--${job.badgeClass});">${job.match}%</div>
+            <div style="margin:4px 0 8px 0;">
+              <span class="status ${job.badgeClass}" style="font-size:11px;">${job.level}</span>
+            </div>
+            <a href="../67-job-detail/index.html" class="btn primary" style="text-decoration:none; display:block; font-size:13px; padding:7px 10px;">View Detail</a>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function applyFilters() {
+      const loc = document.getElementById("filterLocation").value;
+      const minSal = Number(document.getElementById("filterSalary").value);
+      const wType = document.getElementById("filterWorkType").value;
+      const exp = document.getElementById("filterExp").value;
+      const ind = document.getElementById("filterIndustry").value;
+
+      const filtered = JOBS.filter(j => {
+        if (loc !== "All" && j.location !== loc) return false;
+        if (minSal > 0 && j.salaryMin < minSal) return false;
+        if (wType !== "All" && j.workType !== wType) return false;
+        if (exp !== "All" && j.experience !== exp) return false;
+        if (ind !== "All" && j.industry !== ind) return false;
+        return true;
+      });
+
+      renderJobs(filtered);
+    }
+
+    document.getElementById("applyFiltersBtn").addEventListener("click", applyFilters);
+    document.getElementById("resetFiltersBtn").addEventListener("click", () => {
+      document.getElementById("filterLocation").value = "All";
+      document.getElementById("filterSalary").value = "0";
+      document.getElementById("filterWorkType").value = "All";
+      document.getElementById("filterExp").value = "All";
+      document.getElementById("filterIndustry").value = "All";
+      renderJobs(JOBS);
+    });
+
+    // Initial render sorted by AI match % descending
+    renderJobs(JOBS);
+  </script>
+</body>
+</html>
