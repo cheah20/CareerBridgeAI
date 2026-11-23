@@ -3,55 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CareerBridge – Update Status & Interview</title>
+  <title>CareerBridge – Update Status &amp; Interview</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="style.css">
-  <style>
-    .status {
-      white-space: nowrap;
-    }
-
-    /* Floating Corner Toast */
-    .toast-popup {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      background: #0f172a;
-      color: #ffffff;
-      padding: 12px 18px;
-      border-radius: 8px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-      font-size: 14px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      opacity: 0;
-      transform: translateY(20px);
-      transition: all 0.25s ease;
-      pointer-events: none;
-      z-index: 9999;
-    }
-    .toast-popup.show {
-      opacity: 1;
-      transform: translateY(0);
-      pointer-events: auto;
-    }
-
-    /* Centered Modal Dialog */
-    dialog#confirmModal {
-      border: none;
-      border-radius: 12px;
-      padding: 28px 24px;
-      max-width: 440px;
-      width: 90%;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
-      font-family: inherit;
-    }
-    dialog#confirmModal::backdrop {
-      background: rgba(15, 23, 42, 0.55);
-      backdrop-filter: blur(2px);
-    }
-  </style>
 </head>
 <body>
   <div class="layout">
@@ -64,6 +18,8 @@
       <a href="../36-applicants/index.html">Applicants</a>
       <a href="../37-applicant-detail/index.html">Applicant Detail</a>
       <a href="index.html" class="active">Interview & Status</a>
+      <a href="../68-talent-simulator/index.html">Talent Simulator</a>
+      <a href="../66-job-list/index.html">Browse Jobs (Seeker)</a>
       <a href="../39-contact-admin/index.html">Contact Admin</a>
     </nav>
 
@@ -81,7 +37,7 @@
         </div>
       </div>
 
-      <!-- Section 1: Routine Status Update -> Option 2 (Toast Notification) -->
+      <!-- Section 1: Routine Status Update -> Toast Notification -->
       <section class="card" style="margin-top:20px;">
         <h2 style="margin:0 0 8px 0;">1. Quick Status Update</h2>
         <p class="muted" style="margin:0 0 16px 0; font-size:14px;">
@@ -91,14 +47,31 @@
         <form id="statusOnlyForm">
           <label for="statusSelect">Application Stage *</label>
           <select id="statusSelect" style="max-width:320px;">
-            <option>Applied</option>
-            <option>Under Review</option>
-            <option>Shortlisted</option>
-            <option selected>Interview</option>
-            <option>Offer</option>
-            <option>Hired</option>
-            <option>Rejected</option>
+            <option value="Applied">Applied</option>
+            <option value="Under Review">Under Review</option>
+            <option value="Shortlisted">Shortlisted</option>
+            <option value="Interview" selected>Interview</option>
+            <option value="Offer">Offer</option>
+            <option value="Hired">Hired</option>
+            <option value="Rejected">Rejected</option>
           </select>
+
+          <!-- #69 Fixed Rejection Reason (shown only when Rejected is chosen; no free text) -->
+          <div id="rejectReasonBox" class="reject-reason-box">
+            <label for="rejectReasonSelect">Rejection Reason * (Select one)</label>
+            <select id="rejectReasonSelect">
+              <option value="">-- Choose a fixed reason --</option>
+              <option value="Missing skill">Missing skill</option>
+              <option value="Not enough experience">Not enough experience</option>
+              <option value="Missing certificate">Missing certificate</option>
+              <option value="Role filled">Role filled</option>
+            </select>
+            <p class="muted" style="margin:8px 0 0 0; font-size:12px; color:#7f1d1d;">
+              Fixed standardized reason only (no free text).
+            </p>
+          </div>
+
+          <p id="statusError" style="margin:10px 0 0 0; font-size:13px; font-weight:600; color:var(--bad); display:none;"></p>
 
           <p style="margin-top:16px;">
             <button type="submit" class="btn">Update Status Only</button>
@@ -106,9 +79,9 @@
         </form>
       </section>
 
-      <!-- Section 2: Interview Scheduling -> Option 1 (Modal Alert) -->
+      <!-- Section 2: Interview Scheduling -> Modal Alert -->
       <section class="card" style="margin-top:20px;">
-        <h2 style="margin:0 0 8px 0;">2. Schedule Interview & Dispatch Invitation</h2>
+        <h2 style="margin:0 0 8px 0;">2. Schedule Interview &amp; Dispatch Invitation</h2>
         <p class="muted" style="margin:0 0 16px 0; font-size:14px;">
           Set appointment details. An official calendar invitation and meeting link will be emailed to <code>aina.example@email.test</code>.
         </p>
@@ -150,13 +123,11 @@
     </main>
   </div>
 
-  <!-- Option 2 Element: Floating Corner Toast -->
   <div id="toastBox" class="toast-popup" role="status">
     <span style="font-size:18px;">✅</span>
     <span id="toastMsg">Status updated successfully</span>
   </div>
 
-  <!-- Option 1 Element: Centered Modal Dialog -->
   <dialog id="confirmModal">
     <div style="text-align:center;">
       <div style="font-size:42px; margin-bottom:10px;">📅</div>
@@ -168,53 +139,6 @@
     </div>
   </dialog>
 
-  <!-- Notification Handlers -->
-  <script>
-    // 1. Toast logic (Option 2)
-    const toast = document.getElementById('toastBox');
-    const toastMsg = document.getElementById('toastMsg');
-    let toastTimer;
-
-    function triggerToast(text) {
-      toastMsg.textContent = text;
-      toast.classList.add('show');
-      clearTimeout(toastTimer);
-      toastTimer = setTimeout(() => {
-        toast.classList.remove('show');
-      }, 3000);
-    }
-
-    // 2. Modal logic (Option 1)
-    const modal = document.getElementById('confirmModal');
-    const modalMsg = document.getElementById('modalMsg');
-    const closeModalBtn = document.getElementById('closeModalBtn');
-
-    function triggerModal(text) {
-      if (text) modalMsg.innerHTML = text;
-      modal.showModal();
-    }
-
-    closeModalBtn.addEventListener('click', () => {
-      modal.close();
-    });
-
-    // "Update Status Only" triggers Toast
-    document.getElementById('statusOnlyForm').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const selected = document.getElementById('statusSelect').value;
-      document.getElementById('currentStatusBadge').textContent = selected;
-      triggerToast(`Status changed to "${selected}" (Audit logged)`);
-    });
-
-    // "Confirm & Send Invitation" triggers Modal
-    document.getElementById('interviewScheduleForm').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const date = document.getElementById('interviewDate').value;
-      const time = document.getElementById('interviewTime').value;
-      document.getElementById('currentStatusBadge').textContent = 'Interview';
-
-      triggerModal(`Interview confirmed for <strong>${date} at ${time} (MYT)</strong>.<br>Email invitation dispatched to <strong>aina.example@email.test</strong> and status updated to <strong>Interview</strong>.`);
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
