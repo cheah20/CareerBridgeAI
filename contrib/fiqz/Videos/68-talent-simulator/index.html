@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – Talent Simulator</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Navigation Menu -->
+    <nav class="menu">
+      <div class="brand">CareerBridge</div>
+      <a href="../33-company-profile/index.html">Company Profile</a>
+      <a href="../34-my-jobs/index.html">My Job Posts</a>
+      <a href="../35-create-job/index.html">Post a Job</a>
+      <a href="../36-applicants/index.html">Applicants</a>
+      <a href="../37-applicant-detail/index.html">Applicant Detail</a>
+      <a href="../38-interview/index.html">Interview &amp; Status</a>
+      <a href="index.html" class="active">Talent Simulator</a>
+      <a href="../66-job-list/index.html">Browse Jobs (Seeker)</a>
+      <a href="../39-contact-admin/index.html">Contact Admin</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:20px;">
+        <div>
+          <h1 class="page-title">Talent Pool Simulator</h1>
+          <p class="page-sub">Preview how many candidates fit your job post while drafting, and see which requirement shuts out the most talent.</p>
+        </div>
+        <div style="flex-shrink:0; display:flex; gap:8px; align-items:center;">
+          <span class="status warn">Sample data</span>
+        </div>
+      </div>
+
+      <!-- Top Summary KPI Strip -->
+      <div class="grid-4" style="margin-top:20px;">
+        <div class="card">
+          <div class="muted" style="font-size:13px;">Simulated Talent Pool</div>
+          <div class="number" style="margin-top:6px;">400</div>
+          <div class="muted" style="font-size:12px; margin-top:4px;">Made-up candidate profiles</div>
+        </div>
+        <div class="card">
+          <div class="muted" style="font-size:13px;">Matching Candidates</div>
+          <div id="fitCount" class="number" style="margin-top:6px; color:var(--ok);">68</div>
+          <div id="fitRate" class="muted" style="font-size:12px; margin-top:4px;">17.0% of simulated pool</div>
+        </div>
+        <div class="card">
+          <div class="muted" style="font-size:13px;">Biggest Bottleneck</div>
+          <div id="topBlockerName" style="font-size:16px; font-weight:700; margin-top:8px; color:var(--bad);">1+ Year Experience</div>
+          <div id="topBlockerLoss" class="muted" style="font-size:12px; margin-top:4px;">Excludes 294 of 400 profiles</div>
+        </div>
+        <div class="card">
+          <div class="muted" style="font-size:13px;">Active Requirements</div>
+          <div id="activeReqCount" class="number" style="margin-top:6px;">6</div>
+          <div class="muted" style="font-size:12px; margin-top:4px;">Toggle rules on the left</div>
+        </div>
+      </div>
+
+      <!-- Two-Column Interactive Simulator -->
+      <div class="sim-grid">
+        <!-- Left: Job Draft Requirements -->
+        <section class="card">
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:10px;">
+            <div>
+              <h2 style="margin:0; font-size:18px;">Job Draft Requirements</h2>
+              <p class="muted" style="margin:4px 0 0 0; font-size:13px;">Draft Role: <strong>Junior Mobile App Developer</strong></p>
+            </div>
+            <button type="button" id="resetSimBtn" class="btn">Reset Defaults</button>
+          </div>
+
+          <div id="requirementsList" style="margin-top:14px;"></div>
+
+          <div style="margin-top:16px; padding:12px 14px; background:var(--soft); border-radius:10px; font-size:13px; color:var(--sub);">
+            <strong>Sample data:</strong> Counts shown use made-up sample profiles for UI preview. Exact deterministic counts across ~400 made-up profiles belong to `#72`.
+          </div>
+        </section>
+
+        <!-- Right: Requirement Shut-Out Breakdown Bars -->
+        <section class="card">
+          <h2 style="margin:0 0 6px 0; font-size:18px;">Candidates Shut Out per Requirement</h2>
+          <p class="muted" style="margin:0 0 16px 0; font-size:13px;">
+            Shows how many simulated candidates are excluded if that requirement is enforced alone (out of 400).
+          </p>
+
+          <div id="shutoutBars"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
