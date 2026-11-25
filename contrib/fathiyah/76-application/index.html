@@ -1,1 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerBridge – My Applications</title>
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="layout">
+
+    <!-- Left sidebar -->
+<nav class="menu">
+    <div class="brand">CareerBridge</div>
+
+    <a href="../35-seeker-home/index.html">Home</a>
+    <a href="../36-resume-profile/index.html">My Resume</a>
+    <a href="#">Job Recommendations</a>
+    <a href="index.html" class="active">My Applications</a>
+    <a href="../77-interview-roadmap/index.html">Interview Practice</a>
+    <a href="../78-contact-admin/index.html">Contact Admin</a>
+    <a href="../79-digital-twin/index.html">Career Digital Twin</a>
+</nav>
+
+    <!-- Main content -->
+    <main>
+
+      <h1 class="page-title">My Applications</h1>
+      <p class="page-sub">
+        Track your job applications and check their latest status.
+      </p>
+
+      <!-- Summary cards -->
+      <div class="grid-4">
+        <div class="card">
+          <div class="muted">Total Applications</div>
+          <div class="number">4</div>
+        </div>
+
+        <div class="card">
+          <div class="muted">Under Review</div>
+          <div class="number">1</div>
+        </div>
+
+        <div class="card">
+          <div class="muted">Interview</div>
+          <div class="number">1</div>
+        </div>
+
+        <div class="card">
+          <div class="muted">Rejected</div>
+          <div class="number">1</div>
+        </div>
+      </div>
+
+      <!-- Applications table -->
+      <section class="card" style="margin-top:24px">
+        <h2>Application History</h2>
+        <p class="muted">
+          View your submitted applications and their current status.
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Job Title</th>
+              <th>Company</th>
+              <th>Date Applied</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><strong>Junior AI Engineer</strong></td>
+              <td>TechNova Solutions</td>
+              <td>05 Nov 2026</td>
+              <td><span class="status warn" id="status-1">Under Review</span></td>
+              <td>
+                <button class="btn danger"
+                  type="button"
+                  data-withdraw="1">
+                  Withdraw
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td><strong>Data Analyst</strong></td>
+              <td>DataWorks Sdn Bhd</td>
+              <td>02 Nov 2026</td>
+              <td><span class="status info">Interview</span></td>
+              <td>
+                <button class="btn danger"
+                  type="button"
+                  data-withdraw="2">
+                  Withdraw
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td><strong>Software Developer</strong></td>
+              <td>CodeLab Technologies</td>
+              <td>28 Oct 2026</td>
+              <td><span class="status bad">Rejected</span></td>
+              <td>
+                <span class="muted">Not available</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td><strong>Junior Web Developer</strong></td>
+              <td>BrightPath Digital</td>
+              <td>20 Oct 2026</td>
+              <td><span class="status ok">Accepted</span></td>
+              <td>
+                <span class="muted">Not available</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p id="message" class="muted"></p>
+      </section>
+
+      <!-- Rejection feedback -->
+      <section class="card" style="margin-top:24px">
+        <h2>Application Feedback</h2>
+        <p class="muted">
+          Feedback from employers can help you prepare for future opportunities.
+        </p>
+
+        <div style="margin-top:16px">
+          <h3>Software Developer – CodeLab Technologies</h3>
+          <p>
+            <span class="status bad">Rejected</span>
+          </p>
+
+          <p><strong>Reason:</strong></p>
+          <p class="muted">
+            This job required stronger SQL knowledge and practical database experience.
+          </p>
+
+          <p><strong>Helpful tip:</strong></p>
+          <p class="muted">
+            A small SQL project would help you practise database queries
+            and demonstrate your skills in future applications.
+          </p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
