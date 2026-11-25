@@ -1,1 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Career Digital Twin - CareerBridge</title>
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <nav class="menu">
+        <div class="brand">CareerBridge</div>
+
+        <a href="../35-seeker-home/index.html">Home</a>
+        <a href="../36-resume-profile/index.html">My Resume</a>
+        <a href="#">Job Recommendations</a>
+        <a href="../76-applications/index.html">My Applications</a>
+        <a href="../77-interview-roadmap/index.html">Interview Practice</a>
+        <a href="../78-contact-admin/index.html">Contact Admin</a>
+        <a href="index.html" class="active">Career Digital Twin</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Page Header -->
+        <h1 class="page-title">Career Digital Twin</h1>
+
+        <p class="page-sub">
+            Explore your skills and discover what you need to learn to move closer to your target career.
+        </p>
+
+        <div class="stack">
+
+            <!-- Target Job Selection -->
+            <section class="card">
+
+                <h2>Select Your Target Job</h2>
+
+                <p class="muted">
+                    Choose a career to see how your current skills match its requirements.
+                </p>
+
+                <label for="targetJob">Target Job</label>
+
+                <select id="targetJob">
+                    <option value="ai">Junior AI Engineer</option>
+                    <option value="data">Data Analyst</option>
+                    <option value="software">Software Developer</option>
+                    <option value="web">Junior Web Developer</option>
+                </select>
+
+            </section>
+
+            <!-- Skill Coverage -->
+            <section class="card">
+
+                <h2>Your Skill Coverage</h2>
+
+                <div class="coverage-box">
+
+                    <p class="muted">Current Skill Coverage</p>
+
+                    <div class="coverage-percent" id="coveragePercent">
+                        60%
+                    </div>
+
+                    <p class="muted" id="coverageDescription">
+                        6 out of 10 required skills
+                    </p>
+
+                </div>
+
+                <div class="progress-track">
+                    <div class="progress-fill" id="coverageBar" style="width: 60%;"></div>
+                </div>
+
+                <p class="muted">
+                    Your coverage represents the skills you currently have compared
+                    with the selected job's required skills.
+                </p>
+
+            </section>
+
+            <!-- Skills Comparison -->
+            <div class="digital-twin-grid">
+
+                <!-- Matched Skills -->
+                <section class="card">
+
+                    <h2>Skills You Have</h2>
+
+                    <p class="muted">
+                        These skills currently match your target career.
+                    </p>
+
+                    <div class="skill-list" id="matchedSkills">
+
+                        <span class="skill-tag matched">Python</span>
+                        <span class="skill-tag matched">SQL</span>
+                        <span class="skill-tag matched">Machine Learning</span>
+                        <span class="skill-tag matched">Data Analysis</span>
+                        <span class="skill-tag matched">Problem Solving</span>
+                        <span class="skill-tag matched">Communication</span>
+
+                    </div>
+
+                </section>
+
+                <!-- Missing Skills -->
+                <section class="card">
+
+                    <h2>Skills to Improve</h2>
+
+                    <p class="muted">
+                        Focus on developing these skills to improve your career readiness.
+                    </p>
+
+                    <div class="skill-list" id="missingSkills">
+
+                        <span class="skill-tag missing">Deep Learning</span>
+                        <span class="skill-tag missing">TensorFlow</span>
+                        <span class="skill-tag missing">Model Deployment</span>
+                        <span class="skill-tag missing">Computer Vision</span>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+            <!-- Career Development Roadmap -->
+            <section class="card">
+
+                <h2>Recommended Learning Roadmap</h2>
+
+                <p class="muted">
+                    Follow these suggested learning steps to improve your skills
+                    and prepare for your target career.
+                </p>
+
+                <div id="roadmap">
+
+                    <div class="roadmap-item">
+                        <h3>Week 1 – Strengthen Python Skills</h3>
+                        <p>
+                            Practise Python programming, functions, data structures,
+                            and working with libraries.
+                        </p>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <h3>Week 2 – Learn Deep Learning Fundamentals</h3>
+                        <p>
+                            Study neural networks, activation functions, and basic
+                            deep learning concepts.
+                        </p>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <h3>Week 3 – Build an AI Project</h3>
+                        <p>
+                            Create a small AI project using a dataset and apply
+                            machine learning techniques.
+                        </p>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <h3>Week 4 – Prepare for Job Applications</h3>
+                        <p>
+                            Improve your portfolio, practise technical questions,
+                            and prepare your resume for AI-related positions.
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Career Recommendation -->
+            <section class="card">
+
+                <h2>Career Recommendation</h2>
+
+                <div class="recommendation-box">
+
+                    <h3 id="recommendationTitle">Junior AI Engineer</h3>
+
+                    <p id="recommendationText">
+                        You already have a foundation in Python, SQL, machine learning,
+                        and problem-solving. Focus on deep learning, AI tools, and
+                        practical project development to improve your readiness for
+                        a Junior AI Engineer role.
+                    </p>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
