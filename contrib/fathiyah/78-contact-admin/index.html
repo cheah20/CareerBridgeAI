@@ -1,1 +1,208 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Admin - CareerBridge</title>
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Left Sidebar -->
+<nav class="menu">
+    <div class="brand">CareerBridge</div>
+
+    <a href="../35-seeker-home/index.html">Home</a>
+    <a href="../36-resume-profile/index.html">My Resume</a>
+    <a href="#">Job Recommendations</a>
+    <a href="../76-applications/index.html">My Applications</a>
+    <a href="../77-interview-roadmap/index.html">Interview Practice</a>
+    <a href="index.html" class="active">Contact Admin</a>
+    <a href="../79-digital-twin/index.html">Career Digital Twin</a>
+</nav>
+
+        <!-- Main Content -->
+        <main>
+
+            <!-- Page Header -->
+            <h1 class="page-title">Contact Admin</h1>
+
+            <p class="page-sub">
+                Need help? Send a report to the CareerBridge admin team.
+                We are here to assist you.
+            </p>
+
+            <!-- Submit a Report -->
+            <section class="card" style="margin-bottom: 24px;">
+
+                <h2>Submit a Report</h2>
+
+                <p class="muted">
+                    Describe your issue or question. You may attach a screenshot
+                    if it helps explain the problem.
+                </p>
+
+                <form id="contactForm">
+
+                    <!-- Subject -->
+                    <label for="subject">Subject</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="e.g. Unable to upload resume"
+                        required
+                    >
+
+                    <!-- Message -->
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Explain your issue or question here..."
+                        required
+                    ></textarea>
+
+                    <!-- Screenshot -->
+                    <label for="screenshot">Screenshot (Optional)</label>
+                    <input
+                        type="file"
+                        id="screenshot"
+                        name="screenshot"
+                        accept=".png,.jpg,.jpeg,image/png,image/jpeg"
+                    >
+
+                    <p class="muted">
+                        Accepted formats: PNG and JPG.
+                    </p>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn primary">
+                        Submit Report
+                    </button>
+
+                    <!-- Form Message -->
+                    <p id="formMessage" role="status"></p>
+
+                </form>
+
+            </section>
+
+            <!-- Previous Reports -->
+            <section class="card">
+
+                <h2>Previous Reports</h2>
+
+                <p class="muted">
+                    View the status and updates of your previously submitted reports.
+                </p>
+
+                <div class="stack">
+
+                    <!-- Report 1 -->
+                    <div style="border-bottom: 1px solid var(--line); padding: 16px 0;">
+
+                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+
+                            <h3>Unable to Upload Resume</h3>
+
+                            <span class="status warn">Pending</span>
+
+                        </div>
+
+                        <p class="muted">
+                            Report ID: #R001 | Submitted: 18 November 2026
+                        </p>
+
+                        <p>
+                            I am unable to upload my resume to my profile.
+                        </p>
+
+                    </div>
+
+                    <!-- Report 2 -->
+                    <div style="border-bottom: 1px solid var(--line); padding: 16px 0;">
+
+                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+
+                            <h3>Job Recommendation Not Loading</h3>
+
+                            <span class="status info">In Progress</span>
+
+                        </div>
+
+                        <p class="muted">
+                            Report ID: #R002 | Submitted: 15 November 2026
+                        </p>
+
+                        <p>
+                            The job recommendation page does not display any results.
+                        </p>
+
+                        <div style="background: var(--soft); padding: 14px; border-radius: 10px;">
+
+                            <strong>Admin Response:</strong>
+
+                            <p>
+                                Our team is currently checking this issue.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Report 3 -->
+                    <div style="padding: 16px 0;">
+
+                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+
+                            <h3>Profile Information Update</h3>
+
+                            <span class="status ok">Resolved</span>
+
+                        </div>
+
+                        <p class="muted">
+                            Report ID: #R003 | Submitted: 10 November 2026
+                        </p>
+
+                        <p>
+                            I experienced an issue when updating my profile information.
+                        </p>
+
+                        <div style="background: var(--soft); padding: 14px; border-radius: 10px;">
+
+                            <strong>Admin Response:</strong>
+
+                            <p>
+                                The issue has been resolved. You may update your profile now.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
