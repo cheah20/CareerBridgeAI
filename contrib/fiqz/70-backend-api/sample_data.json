@@ -1,0 +1,111 @@
+{
+  "company": {
+    "id": 1,
+    "name": "Example Sdn Bhd",
+    "industry": "Information Technology",
+    "size": "51 - 200 employees",
+    "address": "Level 10, Tower A, Bangsar South, 59200 Kuala Lumpur",
+    "website": "https://www.example.com.my",
+    "verification_status": "verified"
+  },
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Junior Mobile App Developer",
+      "company": "Example Sdn Bhd",
+      "location": "Kuala Lumpur",
+      "min_salary": 3500,
+      "max_salary": 4800,
+      "work_type": "Full-time",
+      "work_mode": "Hybrid",
+      "experience_level": "Junior",
+      "industry": "Information Technology",
+      "description": "Build cross-platform mobile features using Flutter and Dart and integrate REST APIs.",
+      "skills": ["Flutter", "Dart", "REST API", "Git"],
+      "matching_skills": ["Flutter", "Dart", "REST API"],
+      "missing_skills": ["Git"],
+      "match_score": 92,
+      "vacancy_count": 2,
+      "closing_date": "2026-11-30",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "title": "Junior Data Analyst",
+      "company": "Example Sdn Bhd",
+      "location": "Melaka",
+      "min_salary": 3200,
+      "max_salary": 4000,
+      "work_type": "Full-time",
+      "work_mode": "On-site",
+      "experience_level": "Fresh Graduate",
+      "industry": "Data & Analytics",
+      "description": "Analyze recruitment and operations data using SQL, Excel, and Power BI.",
+      "skills": ["SQL", "Excel", "Power BI"],
+      "matching_skills": ["SQL", "Excel"],
+      "missing_skills": ["Power BI"],
+      "match_score": 85,
+      "vacancy_count": 1,
+      "closing_date": "2026-12-10",
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "title": "Marketing Executive",
+      "company": "Example Sdn Bhd",
+      "location": "Penang",
+      "min_salary": 2800,
+      "max_salary": 3500,
+      "work_type": "Contract",
+      "work_mode": "Remote",
+      "experience_level": "Junior",
+      "industry": "Marketing",
+      "description": "Manage social media campaigns and write promotional copy.",
+      "skills": ["Social media", "Copywriting", "Canva"],
+      "matching_skills": ["Social media", "Canva"],
+      "missing_skills": ["Copywriting"],
+      "match_score": 74,
+      "vacancy_count": 1,
+      "closing_date": "2026-12-15",
+      "status": "draft"
+    }
+  ],
+  "applications": [
+    {
+      "id": 101,
+      "job_id": 1,
+      "candidate_name": "Aina Example",
+      "candidate_email": "aina.example@email.test",
+      "education": "Bachelor's Degree",
+      "experience": "1 Year",
+      "resume_file": "aina_example_resume.pdf",
+      "match_score": 94,
+      "matching_skills": ["Flutter", "Dart", "REST API", "Git"],
+      "missing_skills": ["Firebase"],
+      "status": "Shortlisted",
+      "rejection_reason": null,
+      "status_history": [
+        {"from": null, "to": "Applied", "date": "2026-10-21"},
+        {"from": "Applied", "to": "Shortlisted", "date": "2026-10-24"}
+      ]
+    },
+    {
+      "id": 102,
+      "job_id": 1,
+      "candidate_name": "Danial Example",
+      "candidate_email": "danial.example@email.test",
+      "education": "Diploma",
+      "experience": "Fresh Graduate",
+      "resume_file": "danial_example_resume.pdf",
+      "match_score": 82,
+      "matching_skills": ["Flutter", "Dart"],
+      "missing_skills": ["REST API", "Git"],
+      "status": "Applied",
+      "rejection_reason": null,
+      "status_history": [
+        {"from": null, "to": "Applied", "date": "2026-10-23"}
+      ]
+    }
+  ],
+  "interviews": []
+}
